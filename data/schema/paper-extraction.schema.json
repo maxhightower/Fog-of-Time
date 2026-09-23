@@ -92,7 +92,7 @@
               "min_ma": { "type": "number", "minimum": 0 },
               "max_ma": { "type": "number", "minimum": 0 },
               "best_ma": { "type": ["number", "null"], "minimum": 0 },
-              "precision": { "enum": ["explicit_range", "reported_point", "approximate_point", "derived_interval", "unknown"] },
+              "precision": { "enum": ["explicit_range", "approximate_range", "reported_point", "approximate_point", "derived_interval", "unknown"] },
               "method": { "type": "string", "minLength": 1 },
               "basis": { "type": ["string", "null"] },
               "notes": { "type": ["string", "null"] }
