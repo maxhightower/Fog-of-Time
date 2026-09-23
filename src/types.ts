@@ -52,6 +52,7 @@ export interface TimelineEvidence {
     min_ma: number
     max_ma: number
     best_ma?: number | null
+    precision: 'explicit_range' | 'reported_point' | 'approximate_point' | 'derived_interval' | 'unknown'
     method: string
     basis?: string | null
   }
