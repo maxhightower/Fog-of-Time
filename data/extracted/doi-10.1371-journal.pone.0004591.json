@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1371/journal.pone.0004591",
+    "doi": "10.1371/journal.pone.0004591",
+    "title": "Bird-Like Anatomy, Posture, and Behavior Revealed by an Early Jurassic Theropod Dinosaur Resting Trace",
+    "year": 2009,
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0004591",
+    "authors": ["Andrew R. C. Milner", "Jerald D. Harris", "Martin G. Lockley", "James I. Kirkland", "Neffra A. Matthews"]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1371/journal.pone.0004591:sgds-18-t1",
+      "physical_key": "trackway:sgds:18.t1",
+      "evidence_type": "trace_fossil",
+      "taxon": {"name": "Eubrontes", "rank": "ichnogenus"},
+      "specimen": {"institution_code": "SGDS", "catalog_number": "18.T1", "label": "SGDS.18.T1"},
+      "material": ["theropod trackway", "pes impressions", "manus impressions", "tail drags", "ischial callosity impression"],
+      "locality": {"name": "St. George Dinosaur Discovery Site at Johnson Farm", "country": "United States", "region": "Utah", "latitude": null, "longitude": null, "coordinate_uncertainty_km": null},
+      "stratigraphy": {"formation": "Moenave Formation", "member": "Whitmore Point Member", "group": "Glen Canyon Group"},
+      "age": {
+        "min_ma": 198.0,
+        "max_ma": 198.0,
+        "best_ma": 198.0,
+        "precision": "approximate_point",
+        "method": "published_age_assignment",
+        "basis": "The paper describes the Lower Jurassic trackway as approximately 198 million years old.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {"type": "behavioral_observation", "summary": "The trackway preserves a crouching/resting trace with symmetrical pes impressions and impressions of both hands, the tail, and the ischial callosity.", "page": null, "figure": "4", "table": null},
+        {"type": "anatomical_observation", "summary": "The manus traces support a palms-medial manual posture in an Early Jurassic theropod.", "page": null, "figure": "5", "table": null},
+        {"type": "ichnotaxonomic_assignment", "summary": "The non-crouching pes prints of SGDS.18.T1 conform to the large theropod ichnotaxon Eubrontes.", "page": null, "figure": "3", "table": "1"}
+      ]
+    }
+  ]
+}
