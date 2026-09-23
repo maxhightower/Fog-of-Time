@@ -87,6 +87,13 @@ timeline point
 
 If a displayed fact cannot retain that provenance chain, it does not enter the production dataset.
 
-## Next tranche
+## DINO-1 acquisition
 
-Replace the development fixtures with the first hand-verified dinosaur paper set spanning Triassic, Jurassic, Early Cretaceous, and Late Cretaceous evidence, then add automated acquisition queues only after the extraction contract survives that real corpus.
+The first 25-paper hand-selected benchmark lives in `data/acquisition/benchmark.jsonl`.
+Automated Crossref discovery is available via `scripts/data/acquisition/discover_crossref.py`.
+
+The production evidence corpus has begun with publisher-verified extraction records under
+`data/extracted/`. Development fixtures live under `tests/fixtures/extracted/` and are
+not part of the production timeline.
+
+See `data/acquisition/README.md` for the acquisition workflow.
