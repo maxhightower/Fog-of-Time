@@ -1,0 +1,580 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1371/journal.pone.0007288",
+    "doi": "10.1371/journal.pone.0007288",
+    "title": "Common Avian Infection Plagued the Tyrant Dinosaurs",
+    "year": 2009,
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007288",
+    "authors": [
+      "Ewan D. S. Wolff",
+      "Steven W. Salisbury",
+      "John R. Horner",
+      "David J. Varricchio"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1371/journal.pone.0007288:fmnh-pr-2081",
+      "physical_key": "pathology:fmnh-pr-2081:mandibular-lesions",
+      "evidence_type": "pathology",
+      "taxon": {
+        "name": "Tyrannosaurus rex",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "FMNH PR",
+        "catalog_number": "2081",
+        "label": "FMNH PR2081 ‘Sue’"
+      },
+      "material": [
+        "mandibular bone with full-thickness erosive lesion(s)"
+      ],
+      "locality": {
+        "name": "Specimen locality not restated in Table S1",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "broad_taxon_or_locality_stage_context",
+        "basis": "The pathology paper identifies this as Tyrannosaurus rex; the numeric envelope conservatively spans the Maastrichtian unless a Hell Creek locality is explicitly stated.",
+        "notes": "These dates are contextual and intentionally broad; they are not direct ages reported for the lesions."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Bilateral, round erosive lesions with tapered edges, rim thickening/remodelling, and infrequent median processes.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0007288:cm-9380",
+      "physical_key": "pathology:cm-9380:mandibular-lesions",
+      "evidence_type": "pathology",
+      "taxon": {
+        "name": "Tyrannosaurus rex",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "CM",
+        "catalog_number": "9380",
+        "label": "CM 9380"
+      },
+      "material": [
+        "mandibular bone with full-thickness erosive lesion(s)"
+      ],
+      "locality": {
+        "name": "Specimen locality not restated in Table S1",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "broad_taxon_or_locality_stage_context",
+        "basis": "The pathology paper identifies this as Tyrannosaurus rex; the numeric envelope conservatively spans the Maastrichtian unless a Hell Creek locality is explicitly stated.",
+        "notes": "These dates are contextual and intentionally broad; they are not direct ages reported for the lesions."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral round erosive lesion with tapered edge and rim remodelling.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0007288:rtmp-2001-36-01",
+      "physical_key": "pathology:rtmp-2001-36-01:mandibular-lesions",
+      "evidence_type": "pathology",
+      "taxon": {
+        "name": "Daspletosaurus sp.",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "RTMP",
+        "catalog_number": "2001.36.01",
+        "label": "RTMP 2001.36.01"
+      },
+      "material": [
+        "mandibular bone with full-thickness erosive lesion(s)"
+      ],
+      "locality": {
+        "name": "Milk River, Manyberries locality",
+        "country": "Canada",
+        "region": "Alberta",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.1,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "broad_taxon_or_locality_stage_context",
+        "basis": "The supplement provides specimen identity/locality but not a direct numerical date; the numeric envelope is a conservative Late Cretaceous stage-level context for the named tyrannosaurid/locality.",
+        "notes": "These dates are contextual and intentionally broad; they are not direct ages reported for the lesions."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Bilateral round-to-slit-shaped erosive lesions with tapered, remodelled edges.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0007288:rtmp-1981-10-01",
+      "physical_key": "pathology:rtmp-1981-10-01:mandibular-lesions",
+      "evidence_type": "pathology",
+      "taxon": {
+        "name": "Albertosaurus sarcophagus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "RTMP",
+        "catalog_number": "1981.10.01",
+        "label": "RTMP 1981.10.01"
+      },
+      "material": [
+        "mandibular bone with full-thickness erosive lesion(s)"
+      ],
+      "locality": {
+        "name": "Dry Island Buffalo Jump, Trochu",
+        "country": "Canada",
+        "region": "Alberta",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "broad_taxon_or_locality_stage_context",
+        "basis": "The supplement provides specimen identity/locality but not a direct numerical date; the numeric envelope is a conservative Late Cretaceous stage-level context for the named tyrannosaurid/locality.",
+        "notes": "These dates are contextual and intentionally broad; they are not direct ages reported for the lesions."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral slit-shaped erosive lesion with tapered edge and remodelling.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0007288:mor-1125",
+      "physical_key": "pathology:mor-1125:mandibular-lesions",
+      "evidence_type": "pathology",
+      "taxon": {
+        "name": "Tyrannosaurus rex",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "MOR",
+        "catalog_number": "1125",
+        "label": "MOR 1125"
+      },
+      "material": [
+        "mandibular bone with full-thickness erosive lesion(s)"
+      ],
+      "locality": {
+        "name": "B-Rex Site, Fort Peck Lake near Jordan",
+        "country": "United States",
+        "region": "Montana",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Hell Creek Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "broad_taxon_or_locality_stage_context",
+        "basis": "The pathology paper identifies this as Tyrannosaurus rex; the numeric envelope conservatively spans the Maastrichtian unless a Hell Creek locality is explicitly stated.",
+        "notes": "These dates are contextual and intentionally broad; they are not direct ages reported for the lesions."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral round full-thickness lesion with tapered edge and rim remodelling.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0007288:rtmp-1994-143-1",
+      "physical_key": "pathology:rtmp-1994-143-1:mandibular-lesions",
+      "evidence_type": "pathology",
+      "taxon": {
+        "name": "Daspletosaurus sp.",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "RTMP",
+        "catalog_number": "1994.143.1",
+        "label": "RTMP 1994.143.1"
+      },
+      "material": [
+        "mandibular bone with full-thickness erosive lesion(s)"
+      ],
+      "locality": {
+        "name": "Quarry 215, Dinosaur Provincial Park",
+        "country": "Canada",
+        "region": "Alberta",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.1,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "broad_taxon_or_locality_stage_context",
+        "basis": "The supplement provides specimen identity/locality but not a direct numerical date; the numeric envelope is a conservative Late Cretaceous stage-level context for the named tyrannosaurid/locality.",
+        "notes": "These dates are contextual and intentionally broad; they are not direct ages reported for the lesions."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral slit-shaped erosive lesions with tapered edges and remodelling.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0007288:mor-980",
+      "physical_key": "pathology:mor-980:mandibular-lesions",
+      "evidence_type": "pathology",
+      "taxon": {
+        "name": "Tyrannosaurus rex",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "MOR",
+        "catalog_number": "980",
+        "label": "MOR 980 ‘Peck’s Rex’"
+      },
+      "material": [
+        "mandibular bone with full-thickness erosive lesion(s)"
+      ],
+      "locality": {
+        "name": "Fort Peck Lake near Jordan",
+        "country": "United States",
+        "region": "Montana",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Hell Creek Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "broad_taxon_or_locality_stage_context",
+        "basis": "The pathology paper identifies this as Tyrannosaurus rex; the numeric envelope conservatively spans the Maastrichtian unless a Hell Creek locality is explicitly stated.",
+        "notes": "These dates are contextual and intentionally broad; they are not direct ages reported for the lesions."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral round-to-suboval erosive lesions with tapered edges and rim remodelling, plus a minor lesion on the opposite side.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0007288:rtmp-2002-12-11",
+      "physical_key": "pathology:rtmp-2002-12-11:mandibular-lesions",
+      "evidence_type": "pathology",
+      "taxon": {
+        "name": "Gorgosaurus sp.",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "RTMP",
+        "catalog_number": "2002.12.11",
+        "label": "RTMP 2002.12.11"
+      },
+      "material": [
+        "mandibular bone with full-thickness erosive lesion(s)"
+      ],
+      "locality": {
+        "name": "Dinosaur Provincial Park",
+        "country": "Canada",
+        "region": "Alberta",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.1,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "broad_taxon_or_locality_stage_context",
+        "basis": "The supplement provides specimen identity/locality but not a direct numerical date; the numeric envelope is a conservative Late Cretaceous stage-level context for the named tyrannosaurid/locality.",
+        "notes": "These dates are contextual and intentionally broad; they are not direct ages reported for the lesions."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral round erosive lesion with tapered, remodelled edges.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0007288:rtmp-1998-93-12",
+      "physical_key": "pathology:rtmp-1998-93-12:mandibular-lesions",
+      "evidence_type": "pathology",
+      "taxon": {
+        "name": "Tyrannosaurid sp. indet.",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "RTMP",
+        "catalog_number": "1998.93.12",
+        "label": "RTMP 1998.93.12"
+      },
+      "material": [
+        "mandibular bone with full-thickness erosive lesion(s)"
+      ],
+      "locality": {
+        "name": "Dinosaur Provincial Park",
+        "country": "Canada",
+        "region": "Alberta",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.1,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "broad_taxon_or_locality_stage_context",
+        "basis": "The supplement provides specimen identity/locality but not a direct numerical date; the numeric envelope is a conservative Late Cretaceous stage-level context for the named tyrannosaurid/locality.",
+        "notes": "These dates are contextual and intentionally broad; they are not direct ages reported for the lesions."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral ovoid perforative lesion with smooth edges and thickening along one margin.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0007288:amnh-5029",
+      "physical_key": "pathology:amnh-5029:mandibular-lesions",
+      "evidence_type": "pathology",
+      "taxon": {
+        "name": "Tyrannosaurus rex",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH",
+        "catalog_number": "5029",
+        "label": "AMNH 5029"
+      },
+      "material": [
+        "mandibular bone with full-thickness erosive lesion(s)"
+      ],
+      "locality": {
+        "name": "Hell Creek Formation, Montana",
+        "country": "United States",
+        "region": "Montana",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Hell Creek Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "broad_taxon_or_locality_stage_context",
+        "basis": "The pathology paper identifies this as Tyrannosaurus rex; the numeric envelope conservatively spans the Maastrichtian unless a Hell Creek locality is explicitly stated.",
+        "notes": "These dates are contextual and intentionally broad; they are not direct ages reported for the lesions."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral rounded-rectangular erosive lesion with tapered edge and remodelling.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}
