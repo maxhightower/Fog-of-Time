@@ -55,9 +55,6 @@ app.innerHTML = `
                   <option value="none">Single colour</option>
                 </select>
               </label>
-              <ul id="color-legend" class="legend" aria-label="Colour legend"></ul>
-              <p class="legend-heading">Bar shape = how the date is known</p>
-              <ul id="shape-legend" class="legend shape-legend"></ul>
             </div>
           </div>
 
@@ -136,6 +133,20 @@ app.innerHTML = `
           </div>
         </section>
       </main>
+
+      <aside id="guides" class="guides" aria-label="Legend">
+        <section class="panel">
+          <h2 class="panel-title">Legend</h2>
+          <div id="color-guide" class="guide">
+            <p id="color-guide-title" class="legend-heading">Colour</p>
+            <ul id="color-legend" class="legend" aria-label="Colour legend"></ul>
+          </div>
+          <div class="guide">
+            <p class="legend-heading">Bar shape = how the date is known</p>
+            <ul id="shape-legend" class="legend shape-legend"></ul>
+          </div>
+        </section>
+      </aside>
     </div>
   </div>
   <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
@@ -165,6 +176,9 @@ for (const { value, label } of RECORD_LABEL_OPTIONS) labelRecords.add(new Option
 const colorLegend = $<HTMLUListElement>('#color-legend')
 const shapeLegend = $<HTMLUListElement>('#shape-legend')
 const discoveryOptions = $<HTMLDivElement>('#discovery-options')
+const guides = $<HTMLElement>('#guides')
+const colorGuide = $<HTMLDivElement>('#color-guide')
+const colorGuideTitle = $<HTMLParagraphElement>('#color-guide-title')
 const yearSlider = $<HTMLInputElement>('#year-slider')
 const yearOutput = $<HTMLOutputElement>('#year-output')
 const yearPlay = $<HTMLButtonElement>('#year-play')
@@ -319,8 +333,10 @@ function renderLegend() {
   labelOptions.hidden = !layerLabels.checked
   const mode = colorBy.value as ColorBy
   const visible = filteredRecords()
+  guides.hidden = !layerDiscoveries.checked
+  colorGuide.hidden = mode === 'none'
+  colorGuideTitle.textContent = `Colour = ${colorBy.selectedOptions[0]?.textContent?.toLowerCase() ?? ''}`
   colorLegend.replaceChildren()
-  colorLegend.hidden = mode === 'none'
   if (mode === 'none') return
   for (const category of CATEGORIES[mode]) {
     const count = visible.filter(record => categoryOf(record, mode).key === category.key).length
