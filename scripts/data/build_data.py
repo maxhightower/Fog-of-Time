@@ -23,7 +23,7 @@ MANIFEST_PATH = PUBLIC_DATA / "manifest.json"
 
 SCHEMA_VERSION = "fog-of-time.paper-extraction/v1"
 EVIDENCE_TYPES = {
-    "body_fossil", "trace_fossil", "egg", "nest", "coprolite", "trackway",
+    "body_fossil", "fossil_occurrence", "trace_fossil", "egg", "nest", "coprolite", "trackway",
     "skin_impression", "feather_impression", "soft_tissue", "bone_histology",
     "tooth", "gastrolith", "pathology", "bite_mark", "biomolecule",
 }
