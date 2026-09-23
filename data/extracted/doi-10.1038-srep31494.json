@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1038/srep31494",
+    "doi": "10.1038/srep31494",
+    "title": "Ichnological evidence of Megalosaurid Dinosaurs Crossing Middle Jurassic Tidal Flats",
+    "year": 2016,
+    "journal": "Scientific Reports",
+    "url": "https://www.nature.com/articles/srep31494",
+    "authors": ["Novella L. Razzolini", "Oriol Oms", "Diego Castanera", "Bernat Vila", "Vanda Faria dos Santos", "Àngel Galobart"]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1038/srep31494:vale-de-meios",
+      "physical_key": "tracksite:vale-de-meios:megalosauripus-assemblage",
+      "evidence_type": "trackway",
+      "taxon": {"name": "Megalosauripus isp.", "rank": "ichnotaxon"},
+      "specimen": {"institution_code": null, "catalog_number": null, "label": "Vale de Meios tracksite assemblage"},
+      "material": ["711 recorded theropod tracks", ">80 trackways", "large tridactyl tracks"],
+      "locality": {"name": "Vale de Meios quarry near Pé da Pedreira, Alcanede", "country": "Portugal", "region": "Santarém", "latitude": 39.4584056, "longitude": -8.8197417, "coordinate_uncertainty_km": null},
+      "stratigraphy": {"formation": "Serra de Aire Formation", "member": null, "group": null},
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "stage_constraint_with_ics_conversion",
+        "basis": "The paper assigns the tracksite to the Bathonian; the numeric envelope uses current ICS Bathonian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {"type": "ichnotaxonomic_assignment", "summary": "Tracks and trackways across the site are assigned to Megalosauripus isp.", "page": null, "figure": null, "table": null},
+        {"type": "trackmaker_assignment", "summary": "The large tracks are attributed to megalosaurid theropod dinosaurs.", "page": null, "figure": null, "table": null},
+        {"type": "site_observation", "summary": "The mapped tracksite contains 711 recorded tracks organized into more than 80 trackways, with more than 3,000 tracks estimated across the full surface.", "page": null, "figure": "3A", "table": null}
+      ]
+    }
+  ]
+}
