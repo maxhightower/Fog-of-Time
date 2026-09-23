@@ -1,0 +1,59 @@
+[
+  {
+    "physical_key": "fixture:specimen:triassic-001",
+    "evidence_type": "body_fossil",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "FIX TRI-001",
+    "material": ["partial skull", "vertebrae"],
+    "locality": {"name": "Fixture locality A", "country": "United States", "region": "New Mexico"},
+    "formation": "Fixture Triassic Formation",
+    "age": {"min_ma": 210.0, "max_ma": 216.0, "best_ma": 213.0, "method": "stratigraphic_constraint", "basis": "Development fixture interval"},
+    "report_count": 1,
+    "representative_report": {
+      "id": "fixture:triassic-description:e1",
+      "evidence_role": "original_description",
+      "publication": {"id": "fixture:triassic-description", "doi": null, "title": "Development fixture: Late Triassic dinosaur specimen description", "year": 2020, "journal": "Fixture Journal — not a real publication", "url": null, "authors": ["Example Author"]},
+      "claims": [{"type": "anatomical_observation", "summary": "Fixture claim used only to exercise provenance rendering.", "page": "12", "figure": "3", "table": null}]
+    },
+    "development_fixture": true
+  },
+  {
+    "physical_key": "fixture:specimen:jurassic-001",
+    "evidence_type": "body_fossil",
+    "taxon": "Stegosaurus stenops",
+    "taxon_rank": "species",
+    "specimen_label": "FIX JUR-001",
+    "material": ["dorsal plates", "pelvis", "vertebrae"],
+    "locality": {"name": "Fixture locality B", "country": "United States", "region": "Wyoming"},
+    "formation": "Morrison Formation",
+    "age": {"min_ma": 148.0, "max_ma": 154.0, "best_ma": 151.0, "method": "stratigraphic_constraint", "basis": "Development fixture interval"},
+    "report_count": 1,
+    "representative_report": {
+      "id": "fixture:jurassic-description:e1",
+      "evidence_role": "original_description",
+      "publication": {"id": "fixture:jurassic-description", "doi": null, "title": "Development fixture: Late Jurassic stegosaur specimen description", "year": 2021, "journal": "Fixture Journal — not a real publication", "url": null, "authors": ["Example Author", "Second Example"]},
+      "claims": [{"type": "measurement", "summary": "Fixture measurement claim used to test paper-level evidence extraction.", "page": "8", "figure": null, "table": "2"}]
+    },
+    "development_fixture": true
+  },
+  {
+    "physical_key": "fixture:specimen:cretaceous-001",
+    "evidence_type": "body_fossil",
+    "taxon": "Tyrannosaurus rex",
+    "taxon_rank": "species",
+    "specimen_label": "FIX KPG-001",
+    "material": ["femur", "skull"],
+    "locality": {"name": "Fixture locality C", "country": "United States", "region": "Montana"},
+    "formation": "Hell Creek Formation",
+    "age": {"min_ma": 66.0, "max_ma": 68.0, "best_ma": 67.0, "method": "stratigraphic_constraint", "basis": "Development fixture interval"},
+    "report_count": 1,
+    "representative_report": {
+      "id": "fixture:cretaceous-description:e1",
+      "evidence_role": "original_description",
+      "publication": {"id": "fixture:cretaceous-description", "doi": null, "title": "Development fixture: terminal Cretaceous tyrannosaur specimen description", "year": 2022, "journal": "Fixture Journal — not a real publication", "url": null, "authors": ["Example Author"]},
+      "claims": [{"type": "anatomical_observation", "summary": "Fixture anatomical claim used to test terminal-Cretaceous timeline placement.", "page": "21", "figure": "7", "table": null}]
+    },
+    "development_fixture": true
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "fog-of-time",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "data:build": "python scripts/data/build_data.py"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7"
+  }
+}

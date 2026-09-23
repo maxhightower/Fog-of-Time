@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fog-of-time.local/schema/paper-extraction-v1.json",
+  "title": "Fog of Time paper extraction",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "development_fixture", "publication", "evidence"],
+  "properties": {
+    "schema_version": { "const": "fog-of-time.paper-extraction/v1" },
+    "development_fixture": { "type": "boolean" },
+    "publication": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "year", "authors"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "doi": { "type": ["string", "null"] },
+        "title": { "type": "string", "minLength": 1 },
+        "year": { "type": "integer", "minimum": 1600, "maximum": 2100 },
+        "journal": { "type": ["string", "null"] },
+        "url": { "type": ["string", "null"] },
+        "authors": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "physical_key", "evidence_type", "taxon", "specimen", "material", "locality", "stratigraphy", "age", "evidence_role", "claims"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "physical_key": { "type": "string", "minLength": 1 },
+          "evidence_type": {
+            "enum": ["body_fossil", "trace_fossil", "egg", "nest", "coprolite", "trackway", "skin_impression", "feather_impression", "soft_tissue", "bone_histology", "tooth", "gastrolith", "pathology", "bite_mark", "biomolecule"]
+          },
+          "taxon": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name"],
+            "properties": {
+              "name": { "type": "string", "minLength": 1 },
+              "rank": { "type": ["string", "null"] }
+            }
+          },
+          "specimen": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "institution_code": { "type": ["string", "null"] },
+              "catalog_number": { "type": ["string", "null"] },
+              "label": { "type": ["string", "null"] }
+            }
+          },
+          "material": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "uniqueItems": true
+          },
+          "locality": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "country"],
+            "properties": {
+              "name": { "type": "string", "minLength": 1 },
+              "country": { "type": "string", "minLength": 1 },
+              "region": { "type": ["string", "null"] },
+              "latitude": { "type": ["number", "null"], "minimum": -90, "maximum": 90 },
+              "longitude": { "type": ["number", "null"], "minimum": -180, "maximum": 180 },
+              "coordinate_uncertainty_km": { "type": ["number", "null"], "minimum": 0 }
+            }
+          },
+          "stratigraphy": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "formation": { "type": ["string", "null"] },
+              "member": { "type": ["string", "null"] },
+              "group": { "type": ["string", "null"] }
+            }
+          },
+          "age": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["min_ma", "max_ma", "method"],
+            "properties": {
+              "min_ma": { "type": "number", "minimum": 0 },
+              "max_ma": { "type": "number", "minimum": 0 },
+              "best_ma": { "type": ["number", "null"], "minimum": 0 },
+              "method": { "type": "string", "minLength": 1 },
+              "basis": { "type": ["string", "null"] },
+              "notes": { "type": ["string", "null"] }
+            }
+          },
+          "evidence_role": {
+            "enum": ["original_discovery", "original_description", "new_measurement", "new_imaging", "redescription", "reinterpretation", "secondary_citation", "review"]
+          },
+          "claims": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["type", "summary"],
+              "properties": {
+                "type": { "type": "string", "minLength": 1 },
+                "summary": { "type": "string", "minLength": 1 },
+                "page": { "type": ["string", "null"] },
+                "figure": { "type": ["string", "null"] },
+                "table": { "type": ["string", "null"] }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
