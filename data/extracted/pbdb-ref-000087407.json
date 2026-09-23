@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:87407",
+    "doi": "10.1038/s41598-023-47011-0",
+    "title": "A giant tyrannosaur from the Campanian–Maastrichtian of southern North America and the evolution of tyrannosaurid gigantism",
+    "year": 2024,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-023-47011-0",
+    "authors": [
+      "S. G. Dalman",
+      "M. A. Loewen",
+      "R. A. Pyron, S. E. Jasinski, D. E. Malinzak, S. G. Lucas, A. R. Fiorilllo, P. J. Currie, N. R. Longrich"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:87407:occ:534501",
+      "physical_key": "pbdb-occ:534501",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Tyrannosaurus mcraeensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "534501",
+        "label": "PBDB occurrence 534501"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 55287: E shore of Elephant Butte Reservoir, 1.1 km N of Kettle Top Butte, 33° 14' 32\"N, 107° 8' 59\"W",
+        "country": "US",
+        "region": "New Mexico, Sierra",
+        "latitude": 33.242222,
+        "longitude": -107.149719,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Hall Lake",
+        "member": null,
+        "group": "McRae"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 55287 to Late Campanian–Early Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87407; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 534501 records Tyrannosaurus mcraeensis in collection 55287, linked by PBDB to reference 87407.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Tyrannosaurus mcraeensis n. sp. and the accepted name as Tyrannosaurus mcraeensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87407:occ:1645200",
+      "physical_key": "pbdb-occ:1645200",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Alamosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1645200",
+        "label": "PBDB occurrence 1645200"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 233251: Truth or Consequences 85 quad",
+        "country": "US",
+        "region": "New Mexico, Sierra",
+        "latitude": 33.130001,
+        "longitude": -107.190002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Hall Lake",
+        "member": null,
+        "group": "McRae"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 233251 to Late Campanian–Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87407; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1645200 records Alamosaurus in collection 233251, linked by PBDB to reference 87407.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Alamosaurus sp. and the accepted name as Alamosaurus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

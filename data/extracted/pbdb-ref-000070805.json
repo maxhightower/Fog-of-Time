@@ -1,0 +1,431 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70805",
+    "doi": "10.7717/peerj.7551",
+    "title": "Non-dinosaurian dinosauromorphs from the Chinle Formation (Upper Triassic) of the Eagle Basin, northern Colorado: Dromomeron romeri (Lagerpetidae) and a new taxon, Kwanasaurus williamparkeri (Silesauridae)",
+    "year": 2019,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.7551",
+    "authors": [
+      "J. W. Martz",
+      "B. J. Small"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:70805:occ:1480123",
+      "physical_key": "pbdb-occ:1480123",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kwanasaurus williamparkeri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1480123",
+        "label": "PBDB occurrence 1480123"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 92089: Eagle Basin; Main Elk Creek, including North and South sublocalities; near Newcastle, CO",
+        "country": "US",
+        "region": "Colorado, Garfield",
+        "latitude": 39.833332,
+        "longitude": -106.333336,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 201.4,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 92089 to Norian–Rhaetian with numeric bounds 227.3–201.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 70805; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1480123 records Kwanasaurus williamparkeri in collection 92089, linked by PBDB to reference 70805.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:70805:occ:1480124",
+      "physical_key": "pbdb-occ:1480124",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Silesauridae",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1480124",
+        "label": "PBDB occurrence 1480124"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 92089: Eagle Basin; Main Elk Creek, including North and South sublocalities; near Newcastle, CO",
+        "country": "US",
+        "region": "Colorado, Garfield",
+        "latitude": 39.833332,
+        "longitude": -106.333336,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 201.4,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 92089 to Norian–Rhaetian with numeric bounds 227.3–201.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 70805; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1480124 records Silesauridae in collection 92089, linked by PBDB to reference 70805.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Silesauridae indet. and the accepted name as Silesauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:70805:occ:1480126",
+      "physical_key": "pbdb-occ:1480126",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kwanasaurus williamparkeri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1480126",
+        "label": "PBDB occurrence 1480126"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 206266: Eagle Basin; near Derby Junction, CO",
+        "country": "US",
+        "region": "Colorado, Garfield",
+        "latitude": 39.868999,
+        "longitude": -106.905998,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 201.4,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 206266 to Norian–Rhaetian with numeric bounds 227.3–201.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 70805; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1480126 records Kwanasaurus williamparkeri in collection 206266, linked by PBDB to reference 70805.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:70805:occ:1480127",
+      "physical_key": "pbdb-occ:1480127",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kwanasaurus williamparkeri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1480127",
+        "label": "PBDB occurrence 1480127"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 206270: Eagle Basin; near Derby Junction, CO",
+        "country": "US",
+        "region": "Colorado, Garfield",
+        "latitude": 39.868999,
+        "longitude": -106.905998,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 201.4,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 206270 to Norian–Rhaetian with numeric bounds 227.3–201.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 70805; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1480127 records Kwanasaurus williamparkeri in collection 206270, linked by PBDB to reference 70805.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:70805:occ:1480129",
+      "physical_key": "pbdb-occ:1480129",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Silesauridae",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1480129",
+        "label": "PBDB occurrence 1480129"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 206269: Eagle Basin; near Derby Junction, CO",
+        "country": "US",
+        "region": "Colorado, Garfield",
+        "latitude": 39.868999,
+        "longitude": -106.905998,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 201.4,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 206269 to Norian–Rhaetian with numeric bounds 227.3–201.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 70805; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1480129 records Silesauridae in collection 206269, linked by PBDB to reference 70805.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Silesauridae indet. and the accepted name as Silesauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:70805:occ:1480130",
+      "physical_key": "pbdb-occ:1480130",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kwanasaurus williamparkeri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1480130",
+        "label": "PBDB occurrence 1480130"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 206269: Eagle Basin; near Derby Junction, CO",
+        "country": "US",
+        "region": "Colorado, Garfield",
+        "latitude": 39.868999,
+        "longitude": -106.905998,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 201.4,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 206269 to Norian–Rhaetian with numeric bounds 227.3–201.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 70805; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1480130 records Kwanasaurus williamparkeri in collection 206269, linked by PBDB to reference 70805.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:70805:occ:1480131",
+      "physical_key": "pbdb-occ:1480131",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kwanasaurus williamparkeri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1480131",
+        "label": "PBDB occurrence 1480131"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 206268: Eagle Basin; near Derby Junction, CO",
+        "country": "US",
+        "region": "Colorado, Garfield",
+        "latitude": 39.868999,
+        "longitude": -106.905998,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 201.4,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 206268 to Norian–Rhaetian with numeric bounds 227.3–201.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 70805; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1480131 records Kwanasaurus williamparkeri in collection 206268, linked by PBDB to reference 70805.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Kwanasaurus williamparkeri n. gen. n. sp. and the accepted name as Kwanasaurus williamparkeri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:70805:occ:1480132",
+      "physical_key": "pbdb-occ:1480132",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kwanasaurus williamparkeri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1480132",
+        "label": "PBDB occurrence 1480132"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 206267: Eagle Basin; near Derby Junction, CO",
+        "country": "US",
+        "region": "Colorado, Garfield",
+        "latitude": 39.868999,
+        "longitude": -106.905998,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 201.4,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 206267 to Norian–Rhaetian with numeric bounds 227.3–201.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 70805; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1480132 records Kwanasaurus williamparkeri in collection 206267, linked by PBDB to reference 70805.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:69830",
+    "doi": "10.1038/s41598-019-48297-9",
+    "title": "A new clevosaurid from the Triassic (Carnian) of Brazil and the rise of sphenodontians in Gondwana",
+    "year": 2019,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-019-48297-9",
+    "authors": [
+      "A. S. Hsiou",
+      "R. L. Nydam",
+      "T. R. Simões, F. A. Pretto, S. Onary, A. G. Martinelli, A. Liparini, P. R. R. d. V. Martínez, M. B. Soares, C. L. Schultz, M. W. Caldwell"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:69830:occ:1459725",
+      "physical_key": "pbdb-occ:1459725",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Pampadromaeus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1459725",
+        "label": "PBDB occurrence 1459725"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 203745: Coords based on Candelaria muncipality, which is where the authors say the specimen of Clevosaurus comes from. Coords given as \"UTM 22J, 324483 E/6717888N, datum WGS 84\", converted using an online converter.",
+        "country": "BR",
+        "region": "Rio Grande do Sul, Candelaria",
+        "latitude": -29.656624,
+        "longitude": -52.81345,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Santa Maria",
+        "member": null,
+        "group": "Rosário do Sul"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 203745 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 69830; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1459725 records Pampadromaeus in collection 203745, linked by PBDB to reference 69830.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Pampadromaeus sp. and the accepted name as Pampadromaeus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

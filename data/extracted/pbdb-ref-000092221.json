@@ -1,0 +1,410 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:92221",
+    "doi": "10.3390/d17010029",
+    "title": "Allosaurus europaeus (Theropoda: Allosauroidea) revisited and taxonomy of the genus",
+    "year": 2024,
+    "journal": "Diversity",
+    "url": "https://doi.org/10.3390/d17010029",
+    "authors": [
+      "A. Burigo",
+      "O. Mateus"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:92221:occ:639699",
+      "physical_key": "pbdb-occ:639699",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dryomorpha",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "639699",
+        "label": "PBDB occurrence 639699"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 68891: Vale Frades, 6 km N of Louriñha\\r\\n\"at the intertidal sandstone level, 39◦16′30′′ N, 9◦20′09′′ W, 0 m alt. (Praia Azul Mb.)\"",
+        "country": "PT",
+        "region": "Estremadura, Louriñha",
+        "latitude": 39.275002,
+        "longitude": -9.335833,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lourinhã",
+        "member": "Praia Azul",
+        "group": null
+      },
+      "age": {
+        "min_ma": 145.06,
+        "max_ma": 149.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 68891 to Early Tithonian with numeric bounds 149.2–145.06 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92221; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 639699 records Dryomorpha in collection 68891, linked by PBDB to reference 92221.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Dryomorpha indet. and the accepted name as Dryomorpha.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92221:occ:1254495",
+      "physical_key": "pbdb-occ:1254495",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Avetheropoda",
+        "rank": "order"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1254495",
+        "label": "PBDB occurrence 1254495"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 166079: Grotte des Huguenots, 8 km SSW of Bellegarde, on the E flank of Grand-Colombier, Dept. de l'Ain",
+        "country": "FR",
+        "region": "Rhone-Alpes, Ain",
+        "latitude": 46.030991,
+        "longitude": 5.767404,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 141.0,
+        "max_ma": 143.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 166079 to Early Berriasian with numeric bounds 143.1–141 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92221; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1254495 records Avetheropoda in collection 166079, linked by PBDB to reference 92221.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Avetheropoda indet. and the accepted name as Avetheropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92221:occ:1345735",
+      "physical_key": "pbdb-occ:1345735",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Segnosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1345735",
+        "label": "PBDB occurrence 1345735"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 182216: upper stream exposure near Amagimi Dam, at Tashiro, Mifune-cho, Kamimashiki-Gun, Kunamoto Prefecture",
+        "country": "JP",
+        "region": "Kumamoto, Kamimashiki",
+        "latitude": 32.742764,
+        "longitude": 130.844238,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Jobu",
+        "member": null,
+        "group": "Mifune"
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 182216 to Late Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92221; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1345735 records Segnosaurus in collection 182216, linked by PBDB to reference 92221.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Segnosaurus sp. and the accepted name as Segnosaurus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92221:occ:1345736",
+      "physical_key": "pbdb-occ:1345736",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Segnosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1345736",
+        "label": "PBDB occurrence 1345736"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 182217: upper roadside exposure near Amagimi Dam, at Tashiro, Mifune-cho, Kamimashiki-Gun, Kunamoto Prefecture",
+        "country": "JP",
+        "region": "Kumamoto, Kamimashiki",
+        "latitude": 32.748486,
+        "longitude": 130.850861,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Jobu",
+        "member": null,
+        "group": "Mifune"
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 182217 to Late Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92221; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1345736 records Segnosaurus in collection 182217, linked by PBDB to reference 92221.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Segnosaurus sp. and the accepted name as Segnosaurus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92221:occ:1347074",
+      "physical_key": "pbdb-occ:1347074",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1347074",
+        "label": "PBDB occurrence 1347074"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 182492: Bruns Quarry, Nettelstedt, in the Wiehengebirge (E of Osnabrueck)",
+        "country": "DE",
+        "region": "Nordrhein-Westfalen",
+        "latitude": 52.292778,
+        "longitude": 8.709167,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Süntel",
+        "member": "Unterbank",
+        "group": null
+      },
+      "age": {
+        "min_ma": 152.21,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 182492 to Early Kimmeridgian with numeric bounds 154.8–152.21 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92221; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1347074 records Theropoda in collection 182492, linked by PBDB to reference 92221.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92221:occ:1573600",
+      "physical_key": "pbdb-occ:1573600",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1573600",
+        "label": "PBDB occurrence 1573600"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 222390: foreshore of the Isle of Wight at Chilton Chine",
+        "country": "UK",
+        "region": "England, Isle of Wight",
+        "latitude": 50.633999,
+        "longitude": -1.418,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Wessex",
+        "member": null,
+        "group": "Wealden"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 139.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 222390 to Late Berriasian–Aptian with numeric bounds 139.1–113.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92221; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1573600 records Theropoda in collection 222390, linked by PBDB to reference 92221.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92221:occ:1700383",
+      "physical_key": "pbdb-occ:1700383",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Camarasauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700383",
+        "label": "PBDB occurrence 1700383"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 138442: discovered in a rockfall on the beach, Praia de Vale Frades, 5 km N of Louriñha\\r\\n\"Praia de Vale Frades, Lourinhã Municipality, central-west Portugal (ca. 39.27◦ N, 9.33◦ W).\"",
+        "country": "PT",
+        "region": "Centro, Louriñha",
+        "latitude": 39.283611,
+        "longitude": -9.334167,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lourinhã",
+        "member": "Santa Rita/Praia Azul",
+        "group": null
+      },
+      "age": {
+        "min_ma": 145.06,
+        "max_ma": 149.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 138442 to Early Tithonian with numeric bounds 149.2–145.06 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92221; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700383 records Camarasauridae in collection 138442, linked by PBDB to reference 92221.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Camarasauridae indet. and the accepted name as Camarasauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

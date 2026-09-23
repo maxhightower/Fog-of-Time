@@ -1,0 +1,67 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:91812",
+    "doi": "10.1016/j.cretres.2025.106137",
+    "title": "New rebbachisaurid (Dinosauria, Sauropoda) from the Huincul Formation (upper Cenomanian-Turonian) of Villa El Chocón (Neuquén Province, Argentina)",
+    "year": 2025,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2025.106137",
+    "authors": [
+      "M. E. Simón",
+      "L. Salgado"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:91812:occ:1379988",
+      "physical_key": "pbdb-occ:1379988",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Cienciargentina sanchezi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1379988",
+        "label": "PBDB occurrence 1379988"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 51946: 300 m N of tourist office entrance, 500 m N of locality of Villa El Chocón, 2000 meters from the main access to Villa El Chocón town, Department of Confluencia, Neuquén Province, Argentina",
+        "country": "AR",
+        "region": "Neuquén",
+        "latitude": -39.256668,
+        "longitude": -68.780281,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Huincul",
+        "member": null,
+        "group": "Neuquén"
+      },
+      "age": {
+        "min_ma": 106.3,
+        "max_ma": 110.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 51946 to Middle Albian with numeric bounds 110.1–106.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91812; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1379988 records Cienciargentina sanchezi in collection 51946, linked by PBDB to reference 91812.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

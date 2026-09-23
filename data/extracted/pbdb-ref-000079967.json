@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:79967",
+    "doi": "10.1080/08912963.2021.1984447",
+    "title": "Saurischian dinosaur tracks from the Upper Triassic of southern Queensland: possible evidence for Australia’s earliest sauropodomorph trackmaker",
+    "year": 2021,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2021.1984447",
+    "authors": [
+      "A. Romilio",
+      "H. Klein",
+      "A. Jannel, S. W. Salisbury"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:79967:occ:1126079",
+      "physical_key": "pbdb-occ:1126079",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Evazoum",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1126079",
+        "label": "PBDB occurrence 1126079"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 142852: from roof of coal seam, Rhondda Colliery, near Dinmore, ca. 16 mi. SSW of Brisbane. Striped Bacon seam, 700 ft. below the NE corner of portion 274, Goodna parish",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -27.630945,
+        "longitude": 152.891937,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Blackstone",
+        "member": "Striped Bacon Seam",
+        "group": "Ipswich Coal Measures"
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 142852 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 79967; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1126079 records Evazoum in collection 142852, linked by PBDB to reference 79967.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Evazoum sp. and the accepted name as Evazoum.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

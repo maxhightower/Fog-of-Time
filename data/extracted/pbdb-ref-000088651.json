@@ -1,0 +1,187 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:88651",
+    "doi": "10.1186/s12862-024-02247-w",
+    "title": "Diuqin lechiguanae gen. et sp. nov., a new unenlagiine (Theropoda: Paraves) from the Bajo de la Carpa Formation (Neuquén Group, Upper Cretaceous) of Neuquén Province, Patagonia, Argentina",
+    "year": 2024,
+    "journal": "BMC Ecology and Evolution",
+    "url": "https://doi.org/10.1186/s12862-024-02247-w",
+    "authors": [
+      "J. D. Porfiri",
+      "M. A. Baiano",
+      "D. D. dos Santos, F. A. Gianechini, M. Pittman, M. C. Lamanna"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:88651:occ:1657929",
+      "physical_key": "pbdb-occ:1657929",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diuqin lechiguanae",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1657929",
+        "label": "PBDB occurrence 1657929"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235260: The specimen was collected from the isthmus between the southeast coast of Lago Barreales and the northwest coast of Lago Mari Menuco, in Neuquén Province, northwestern Patagonia, Argentina, from a stratum of the Bajo de la Carpa Formation of the Neuquén Group (Upper Cretaceous: Santonian.",
+        "country": "AR",
+        "region": "Neuquén",
+        "latitude": -38.556667,
+        "longitude": -68.686386,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bajo de la Carpa",
+        "member": null,
+        "group": "Neuquén"
+      },
+      "age": {
+        "min_ma": 83.6,
+        "max_ma": 85.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235260 to Santonian with numeric bounds 85.7–83.6 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88651; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1657929 records Diuqin lechiguanae in collection 235260, linked by PBDB to reference 88651.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Diuqin lechiguanae n. gen. n. sp. and the accepted name as Diuqin lechiguanae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88651:occ:1657930",
+      "physical_key": "pbdb-occ:1657930",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Megaraptoridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1657930",
+        "label": "PBDB occurrence 1657930"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235260: The specimen was collected from the isthmus between the southeast coast of Lago Barreales and the northwest coast of Lago Mari Menuco, in Neuquén Province, northwestern Patagonia, Argentina, from a stratum of the Bajo de la Carpa Formation of the Neuquén Group (Upper Cretaceous: Santonian.",
+        "country": "AR",
+        "region": "Neuquén",
+        "latitude": -38.556667,
+        "longitude": -68.686386,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bajo de la Carpa",
+        "member": null,
+        "group": "Neuquén"
+      },
+      "age": {
+        "min_ma": 83.6,
+        "max_ma": 85.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235260 to Santonian with numeric bounds 85.7–83.6 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88651; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1657930 records Megaraptoridae in collection 235260, linked by PBDB to reference 88651.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Megaraptoridae indet. and the accepted name as Megaraptoridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88651:occ:1658578",
+      "physical_key": "pbdb-occ:1658578",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1658578",
+        "label": "PBDB occurrence 1658578"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235260: The specimen was collected from the isthmus between the southeast coast of Lago Barreales and the northwest coast of Lago Mari Menuco, in Neuquén Province, northwestern Patagonia, Argentina, from a stratum of the Bajo de la Carpa Formation of the Neuquén Group (Upper Cretaceous: Santonian.",
+        "country": "AR",
+        "region": "Neuquén",
+        "latitude": -38.556667,
+        "longitude": -68.686386,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bajo de la Carpa",
+        "member": null,
+        "group": "Neuquén"
+      },
+      "age": {
+        "min_ma": 83.6,
+        "max_ma": 85.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235260 to Santonian with numeric bounds 85.7–83.6 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88651; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1658578 records Sauropoda in collection 235260, linked by PBDB to reference 88651.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropoda indet. and the accepted name as Sauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

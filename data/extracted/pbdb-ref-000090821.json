@@ -1,0 +1,297 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:90821",
+    "doi": "10.31711/giw.v10.pp223-276",
+    "title": "Stratigraphy, sedimentology, and paleoclimatic proxies of the Upper Jurassic Morrison Formation of central Montana",
+    "year": 2023,
+    "journal": "Geology of the Intermountain West",
+    "url": "https://doi.org/10.31711/giw.v10.pp223-276",
+    "authors": [
+      "D. Richmond"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:90821:occ:1685863",
+      "physical_key": "pbdb-occ:1685863",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Hesperosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1685863",
+        "label": "PBDB occurrence 1685863"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 238774: on flanks of Spindletop Dome, near Grass Range; 5E Ranch Q2 Section; E1/2, NW 1/4, Sec 34 T13N, R23E, Tyler, MT; 46°50'46.65\"N, 108°47'35.76\"W. On the 5E ranch owned by the Hein family.",
+        "country": "US",
+        "region": "Montana, Fergus",
+        "latitude": 46.84639,
+        "longitude": -108.793335,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 238774 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90821; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1685863 records Hesperosaurus in collection 238774, linked by PBDB to reference 90821.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Hesperosaurus sp. and the accepted name as Hesperosaurus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90821:occ:1685864",
+      "physical_key": "pbdb-occ:1685864",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Haplocanthosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1685864",
+        "label": "PBDB occurrence 1685864"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 238775: on flanks of Spindletop Dome, near Grass Range; Ranch Buck Creek Section B; NE 1/4, NE 1/4, SW 1/4, Sec 35 T13N, R23E, Tyler, MT; 46°50'32.68\"N, 108°46'14.81\"W",
+        "country": "US",
+        "region": "Montana, Fergus",
+        "latitude": 46.842499,
+        "longitude": -108.770836,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 238775 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90821; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1685864 records Haplocanthosaurus in collection 238775, linked by PBDB to reference 90821.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Haplocanthosaurus sp. and the accepted name as Haplocanthosaurus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90821:occ:1685865",
+      "physical_key": "pbdb-occ:1685865",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1685865",
+        "label": "PBDB occurrence 1685865"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 238776: on flanks of Spindletop Dome, near Grass Range. 5E Ranch Buck Creek Section A; NE 1/4, NW 1/4, SE 1/4, Sec 35 T13N, R23E, Tyler, MT; 46°50'32.23\"N, 108°46'2.78\"W",
+        "country": "US",
+        "region": "Montana, Fergus",
+        "latitude": 46.84222,
+        "longitude": -108.767502,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 238776 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90821; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1685865 records Sauropoda in collection 238776, linked by PBDB to reference 90821.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropoda indet. and the accepted name as Sauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90821:occ:1685866",
+      "physical_key": "pbdb-occ:1685866",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Camptosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1685866",
+        "label": "PBDB occurrence 1685866"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 238777: on flanks of Spindletop Dome, near Grass Range",
+        "country": "US",
+        "region": "Montana, Fergus",
+        "latitude": 46.867001,
+        "longitude": -108.792999,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 238777 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90821; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1685866 records Camptosaurus in collection 238777, linked by PBDB to reference 90821.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Camptosaurus sp. and the accepted name as Camptosaurus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90821:occ:1685876",
+      "physical_key": "pbdb-occ:1685876",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Suuwassea",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1685876",
+        "label": "PBDB occurrence 1685876"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 238787: Klakken Ranch Section; SW 1/4, NE 1/4, NE 1/4, Sec 24 T13N, R22E, Becket NE, MT; 46°52'42.89\"N, 108°52'14.8\"W",
+        "country": "US",
+        "region": "Montana, Fergus",
+        "latitude": 46.878613,
+        "longitude": -108.870834,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 238787 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90821; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1685876 records Suuwassea in collection 238787, linked by PBDB to reference 90821.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Suuwassea sp. and the accepted name as Suuwassea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

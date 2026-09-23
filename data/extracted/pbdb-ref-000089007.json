@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:89007",
+    "doi": "10.1016/j.cretres.2024.105914",
+    "title": "Large theropod teeth from the Upper Cretaceous of Guangdong Province, Southern China",
+    "year": 2024,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2024.105914",
+    "authors": [
+      "L. Xing",
+      "Z. Liang",
+      "K. Zhang, D. Wang, X. Zhang, W. S. Persons IV, Z. Ren, Z. Liang, M. Xian, Q. Zeng"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:89007:occ:1660384",
+      "physical_key": "pbdb-occ:1660384",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Tyrannosauroidea",
+        "rank": "superfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1660384",
+        "label": "PBDB occurrence 1660384"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235705: Furonggang construction site, W of Guangzhou",
+        "country": "CN",
+        "region": "Guangdong",
+        "latitude": 22.984444,
+        "longitude": 112.026108,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dalangshan",
+        "member": "Second",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235705 to Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89007; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1660384 records Tyrannosauroidea in collection 235705, linked by PBDB to reference 89007.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Tyrannosauroidea indet. and the accepted name as Tyrannosauroidea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:89007:occ:1660385",
+      "physical_key": "pbdb-occ:1660385",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Tyrannosauroidea",
+        "rank": "superfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1660385",
+        "label": "PBDB occurrence 1660385"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235706: construction site in Guangzhou International Financial City, Tianhe District, Guangzhou",
+        "country": "CN",
+        "region": "Guangdong",
+        "latitude": 23.129999,
+        "longitude": 113.260002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dalangshan",
+        "member": "Second",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235706 to Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89007; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1660385 records Tyrannosauroidea in collection 235706, linked by PBDB to reference 89007.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Tyrannosauroidea indet. and the accepted name as Tyrannosauroidea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

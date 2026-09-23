@@ -1,0 +1,187 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:87570",
+    "doi": "10.1038/s41598-024-53447-9",
+    "title": "A new small duckbilled dinosaur (Hadrosauridae: Lambeosaurinae) from Morocco and dinosaur diversity in the late Maastrichtian of North Africa",
+    "year": 2024,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-024-53447-9",
+    "authors": [
+      "N. Longrich",
+      "X. Pereda-Suberbiola",
+      "N. Bardet, N.-E. Jalil"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:87570:occ:1646619",
+      "physical_key": "pbdb-occ:1646619",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Minqaria bata",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1646619",
+        "label": "PBDB occurrence 1646619"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 215206: Office Chérifien des Phosphates mines at Sidi Chennane, Khouribga Province, Morocco",
+        "country": "MA",
+        "region": "Khouribga",
+        "latitude": 32.832222,
+        "longitude": -6.23,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Couche III",
+        "member": "Upper",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 215206 to Late Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87570; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1646619 records Minqaria bata in collection 215206, linked by PBDB to reference 87570.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Minqaria bata n. gen. n. sp. and the accepted name as Minqaria bata.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87570:occ:1648791",
+      "physical_key": "pbdb-occ:1648791",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Lambeosaurinae",
+        "rank": "subfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1648791",
+        "label": "PBDB occurrence 1648791"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 230117",
+        "country": "MA",
+        "region": "Khouribga",
+        "latitude": 32.773609,
+        "longitude": -6.793056,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Couche III",
+        "member": "Upper",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 230117 to Late Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87570; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1648791 records Lambeosaurinae in collection 230117, linked by PBDB to reference 87570.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Lambeosaurinae indet. and the accepted name as Lambeosaurinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87570:occ:1648793",
+      "physical_key": "pbdb-occ:1648793",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Lambeosaurinae",
+        "rank": "subfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1648793",
+        "label": "PBDB occurrence 1648793"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 99159",
+        "country": "MA",
+        "region": null,
+        "latitude": 32.883331,
+        "longitude": -6.633333,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Couche III",
+        "member": "Upper",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 99159 to Late Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87570; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1648793 records Lambeosaurinae in collection 99159, linked by PBDB to reference 87570.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Lambeosaurinae indet. and the accepted name as Lambeosaurinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

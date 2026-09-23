@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:88932",
+    "doi": "10.1080/14772019.2024.2346573",
+    "title": "Comptonatus chasei, a new iguanodontian dinosaur from the Lower Cretaceous Wessex Formation of the Isle of Wight, southern England",
+    "year": 2024,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2024.2346573",
+    "authors": [
+      "J. A. F. Lockwood",
+      "D. M. Martill",
+      "S. C. R. Maidment"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:88932:occ:1659876",
+      "physical_key": "pbdb-occ:1659876",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Comptonatus chasei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1659876",
+        "label": "PBDB occurrence 1659876"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235576: from a plant debris bed on National Trust property to the west of the fault in Compton Bay, and close\\r\\n(c. 50 m) to where IWCMS 2013.175, a skeleton of Valdosaurus canaliculatus Galton, 1977 (Barrett, 2016) was excavated the previous year (locality 235262).",
+        "country": "UK",
+        "region": "England, Isle of Wight",
+        "latitude": 50.659,
+        "longitude": -1.473,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Wessex",
+        "member": null,
+        "group": "Wealden"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235576 to Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88932; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1659876 records Comptonatus chasei in collection 235576, linked by PBDB to reference 88932.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Comptonatus chasei n. gen. n. sp. and the accepted name as Comptonatus chasei.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88932:occ:1659880",
+      "physical_key": "pbdb-occ:1659880",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Iguanodontia",
+        "rank": "infraorder"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1659880",
+        "label": "PBDB occurrence 1659880"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235576: from a plant debris bed on National Trust property to the west of the fault in Compton Bay, and close\\r\\n(c. 50 m) to where IWCMS 2013.175, a skeleton of Valdosaurus canaliculatus Galton, 1977 (Barrett, 2016) was excavated the previous year (locality 235262).",
+        "country": "UK",
+        "region": "England, Isle of Wight",
+        "latitude": 50.659,
+        "longitude": -1.473,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Wessex",
+        "member": null,
+        "group": "Wealden"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235576 to Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88932; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1659880 records Iguanodontia in collection 235576, linked by PBDB to reference 88932.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Iguanodontia indet. and the accepted name as Iguanodontia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

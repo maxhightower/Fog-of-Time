@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94696",
+    "doi": "10.1080/03115518.2025.2537025",
+    "title": "Articulated hindlimb of a small-bodied ornithopod dinosaur from the Cenomanian Griman Creek Formation of New South Wales, Australia",
+    "year": 2025,
+    "journal": "Alcheringa: An Australasian Journal of Palaeontology",
+    "url": "https://doi.org/10.1080/03115518.2025.2537025",
+    "authors": [
+      "P. R. Bell",
+      "M. C. Herne",
+      "S. A. Birch, R. E. Molnar, E. T. Smith"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94696:occ:1705765",
+      "physical_key": "pbdb-occ:1705765",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Elasmaria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1705765",
+        "label": "PBDB occurrence 1705765"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 241699: open-cut mine on the \"Ten Mile\" opal field, 10 km NW of Lightning Ridge (possibly same as \"Wyoming\" field)",
+        "country": "AU",
+        "region": "New South Wales, Walgett Shire Council",
+        "latitude": -29.40004,
+        "longitude": 147.907913,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Griman Creek",
+        "member": "Wallangulla Sandstone",
+        "group": "Rolling Downs"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 241699 to Early Cenomanian–Middle Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94696; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1705765 records Elasmaria in collection 241699, linked by PBDB to reference 94696.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Elasmaria indet. and the accepted name as Elasmaria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

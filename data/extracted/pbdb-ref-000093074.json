@@ -1,0 +1,346 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93074",
+    "doi": "10.18261/let.57.4.7",
+    "title": "Southernmost record of the pachycephalosaurine  Stygimoloch spinifer and palaeobiogeography of latest Cretaceous North American dinosaurs",
+    "year": 2024,
+    "journal": "Lethaia",
+    "url": "https://doi.org/10.18261/let.57.4.7",
+    "authors": [
+      "A. F. Wroblewski"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93074:occ:491032",
+      "physical_key": "pbdb-occ:491032",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Pachycephalosaurus wyomingensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "491032",
+        "label": "PBDB occurrence 491032"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 49539: housing development in Westminster, CO",
+        "country": "US",
+        "region": "Colorado, Arapahoe",
+        "latitude": 39.836666,
+        "longitude": -105.036667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Denver",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 49539 to Late Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93074; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 491032 records Pachycephalosaurus wyomingensis in collection 49539, linked by PBDB to reference 93074.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93074:occ:700843",
+      "physical_key": "pbdb-occ:700843",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Pachycephalosaurus wyomingensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "700843",
+        "label": "PBDB occurrence 700843"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 14542: Hanna Basin",
+        "country": "US",
+        "region": "Wyoming, Carbon",
+        "latitude": 41.935326,
+        "longitude": -106.88224,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Ferris",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 14542 to Lancian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93074; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 700843 records Pachycephalosaurus wyomingensis in collection 14542, linked by PBDB to reference 93074.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Stygimoloch spinifer and the accepted name as Pachycephalosaurus wyomingensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93074:occ:702710",
+      "physical_key": "pbdb-occ:702710",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Pachycephalosaurus wyomingensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "702710",
+        "label": "PBDB occurrence 702710"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 75432: Hanna Basin",
+        "country": "US",
+        "region": "Wyoming, Carbon",
+        "latitude": 41.939877,
+        "longitude": -106.876312,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Ferris",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 75432 to Lancian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93074; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 702710 records Pachycephalosaurus wyomingensis in collection 75432, linked by PBDB to reference 93074.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Stygimoloch spinifer and the accepted name as Pachycephalosaurus wyomingensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93074:occ:1267045",
+      "physical_key": "pbdb-occ:1267045",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Pachycephalosaurus wyomingensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1267045",
+        "label": "PBDB occurrence 1267045"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 168404: Vertebrate microsite locality, near Drumheller",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 51.953251,
+        "longitude": -112.935257,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Scollard",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 168404 to Late Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93074; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1267045 records Pachycephalosaurus wyomingensis in collection 168404, linked by PBDB to reference 93074.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Stygimoloch spinifer and the accepted name as Pachycephalosaurus wyomingensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93074:occ:1340988",
+      "physical_key": "pbdb-occ:1340988",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Pachycephalosaurus wyomingensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1340988",
+        "label": "PBDB occurrence 1340988"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 152397: Approximately 45 km southwest of the town of Jordan, Garfield County, MT, USA. ROM 53665 from same deposit, but 0.6 km away",
+        "country": "US",
+        "region": "Montana, Garfield County",
+        "latitude": 47.053055,
+        "longitude": -107.350281,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Hell Creek",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 152397 to Late Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93074; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1340988 records Pachycephalosaurus wyomingensis in collection 152397, linked by PBDB to reference 93074.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Stygimoloch spinifer and the accepted name as Pachycephalosaurus wyomingensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93074:occ:1709392",
+      "physical_key": "pbdb-occ:1709392",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithomimidae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1709392",
+        "label": "PBDB occurrence 1709392"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 14796: Hanna Basin",
+        "country": "US",
+        "region": "Wyoming, Carbon",
+        "latitude": 41.947628,
+        "longitude": -106.872795,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Ferris",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 14796 to Lancian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93074; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1709392 records Ornithomimidae in collection 14796, linked by PBDB to reference 93074.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithomimidae indet. and the accepted name as Ornithomimidae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

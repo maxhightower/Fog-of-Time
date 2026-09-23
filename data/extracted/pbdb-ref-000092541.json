@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:92541",
+    "doi": "10.1016/j.cretres.2024.105983",
+    "title": "Lower Cretaceous iguanodontian dinosaurs from the southwestern margin of Gondwana",
+    "year": 2025,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2024.105983",
+    "authors": [
+      "J. Alarcón-Muñoz",
+      "P. Cruzado-Caballero",
+      "O. Vicencio Campos, C. Bravo-Ortiz, E. Vargas Bugueño, D. Bajor, M. E. Suárez, J. P. Guevara, A. O. Vargas, D. Rubilar-Rogers"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:92541:occ:1283775",
+      "physical_key": "pbdb-occ:1283775",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Iguanodontia",
+        "rank": "infraorder"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1283775",
+        "label": "PBDB occurrence 1283775"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 92314: southwestern slopes of Cerro La Isla, approximately 80 km east of Copiapó in the Andes of the\\r\\nAtacama Region, Northern Chile; 27°15'58.65\"S 69°22'57.68\"W",
+        "country": "CL",
+        "region": "Atacama",
+        "latitude": -27.26639,
+        "longitude": -69.382774,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Quebrada Monardes",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 137.05,
+        "max_ma": 143.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 92314 to Berriasian with numeric bounds 143.1–137.05 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1283775 records Iguanodontia in collection 92314, linked by PBDB to reference 92541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Iguanodontia indet. and the accepted name as Iguanodontia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

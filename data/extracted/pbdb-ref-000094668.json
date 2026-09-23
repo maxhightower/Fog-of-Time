@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94668",
+    "doi": "10.1016/j.cretres.2024.106014",
+    "title": "A new gansuid bird (Avialae, Euornithes) from the Lower Cretaceous (Aptian) Jiufotang Formation of Jianchang, western Liaoning, China",
+    "year": 2025,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2024.106014",
+    "authors": [
+      "X. Wang",
+      "A. Cau",
+      "Y. Wang, M. Kundrát, G. Zhang, Y. Liu, L. M. Chiappe"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94668:occ:2063634",
+      "physical_key": "pbdb-occ:2063634",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Shuilingornis angelai",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063634",
+        "label": "PBDB occurrence 2063634"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 105772: Lamadong town, Jianchang county",
+        "country": "CN",
+        "region": "Liaoning, Jianchang",
+        "latitude": 40.654999,
+        "longitude": 119.690002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Jiufotang",
+        "member": null,
+        "group": "Jehol"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 105772 to Aptian with numeric bounds 121.4–113.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94668; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063634 records Shuilingornis angelai in collection 105772, linked by PBDB to reference 94668.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Shuilingornis angelai n. gen. n. sp. and the accepted name as Shuilingornis angelai.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

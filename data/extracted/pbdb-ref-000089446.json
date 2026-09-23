@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:89446",
+    "doi": "10.26879/1380",
+    "title": "A new diplodocine sauropod from the Morrison Formation, Wyoming, USA",
+    "year": 2024,
+    "journal": "Palaeontologia Electronica",
+    "url": "https://doi.org/10.26879/1380",
+    "authors": [
+      "T. van der Linden",
+      "E. Tschopp",
+      "R. Sookias, J. Wallaard, F. Holwerda, A. Schulp"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:89446:occ:2041326",
+      "physical_key": "pbdb-occ:2041326",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ardetosaurus viator",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2041326",
+        "label": "PBDB occurrence 2041326"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 46465: 450 m SW of original Howe Q, on Howe Ranch",
+        "country": "US",
+        "region": "Wyoming, Big Horn",
+        "latitude": 44.650002,
+        "longitude": -107.816666,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 149.2,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 46465 to Kimmeridgian with numeric bounds 154.8–149.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89446; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2041326 records Ardetosaurus viator in collection 46465, linked by PBDB to reference 89446.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ardetosaurus viator n. gen. n. sp. and the accepted name as Ardetosaurus viator.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:82039",
+    "doi": "10.1016/j.geobios.2023.08.002",
+    "title": "New caenagnathid (Theropoda: Oviraptorosauria) dinosaur specimens from\\r\\nmiddle and upper Campanian strata of West Texas",
+    "year": 2024,
+    "journal": "Geobios",
+    "url": "https://doi.org/10.1016/j.geobios.2023.08.002",
+    "authors": [
+      "S. L. Wick",
+      "T. M. Lehman",
+      "J. D. Fortner"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:82039:occ:1639586",
+      "physical_key": "pbdb-occ:1639586",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Caenagnathidae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1639586",
+        "label": "PBDB occurrence 1639586"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 115413: Ten Bits Ranch, north of Study Butte, Texas",
+        "country": "US",
+        "region": "Texas, Brewster",
+        "latitude": 29.356943,
+        "longitude": -103.518059,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Aguja",
+        "member": "Alto Shale",
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 115413 to Middle Campanian–Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 82039; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1639586 records Caenagnathidae in collection 115413, linked by PBDB to reference 82039.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Caenagnathidae indet. and the accepted name as Caenagnathidae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:82039:occ:1639587",
+      "physical_key": "pbdb-occ:1639587",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Caenagnathidae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1639587",
+        "label": "PBDB occurrence 1639587"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 232413",
+        "country": "US",
+        "region": "Texas, Brewster",
+        "latitude": 29.408611,
+        "longitude": -103.303055,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Aguja",
+        "member": "Alto Shale",
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 232413 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 82039; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1639587 records Caenagnathidae in collection 232413, linked by PBDB to reference 82039.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Caenagnathidae indet. and the accepted name as Caenagnathidae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

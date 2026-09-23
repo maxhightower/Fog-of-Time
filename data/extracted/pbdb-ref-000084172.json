@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:84172",
+    "doi": "10.7717/peerj.14982",
+    "title": "A new juvenile sauropod specimen from the Middle Jurassic Dongdaqiao Formation of East Tibet",
+    "year": 2023,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.14982",
+    "authors": [
+      "X. An",
+      "X. Xu",
+      "F. Han, C. Sullivan, Q. Wang, Y. Li, D. Wang, B. Wang, J. Hu"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:84172:occ:1548724",
+      "physical_key": "pbdb-occ:1548724",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Eusauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1548724",
+        "label": "PBDB occurrence 1548724"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 190085: Qamdo District, about 10 km from the urban center of Chaya County, Sanjiang area, Ya County; Qamdo - found during survey along Sichuan-Tibet Railway Gongjue-Qamdo railway",
+        "country": "CN",
+        "region": "Xizang Autonomous Region, Chaya",
+        "latitude": 30.948,
+        "longitude": 97.424004,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dongdaqiao",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 170.9,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 190085 to Bajocian–Callovian with numeric bounds 170.9–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 84172; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1548724 records Eusauropoda in collection 190085, linked by PBDB to reference 84172.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Eusauropoda indet. and the accepted name as Eusauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

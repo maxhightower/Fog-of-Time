@@ -1,0 +1,355 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:85346",
+    "doi": "10.1080/08912963.2023.2209784",
+    "title": "New records of dinosaur tracks in eastern Tibet and a review of Middle Jurassic dinosaur faunas from the eastern Tethys, southwest China",
+    "year": 2023,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2023.2209784",
+    "authors": [
+      "L. Xing",
+      "H. Klein",
+      "M. G. Lockley, H. Li, B. Tong, Y. Ye, H. Dai, C. Chunyong, D. Wang, A. Romilio, W. S. Persons"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:85346:occ:1629669",
+      "physical_key": "pbdb-occ:1629669",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Brontopodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1629669",
+        "label": "PBDB occurrence 1629669"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 230807: along provincial road S203, Karongwa village (GPS: 30° 32ʹ6.24”N, 97°53ʹ2.54”E)",
+        "country": "CN",
+        "region": "Xizang Autonomous Region, Chaya",
+        "latitude": 30.535,
+        "longitude": 97.884171,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dongdaqiao",
+        "member": "First",
+        "group": "Chaya"
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 174.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 230807 to Middle Jurassic with numeric bounds 174.7–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 85346; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1629669 records Brontopodus in collection 230807, linked by PBDB to reference 85346.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Brontopodus sp. and the accepted name as Brontopodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:85346:occ:1629670",
+      "physical_key": "pbdb-occ:1629670",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Brontopodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1629670",
+        "label": "PBDB occurrence 1629670"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 230808: low hillside along provincial road S203, Karongwa village (GPS: 30°31ʹ45.80”N, 97°53ʹ56.40”E)",
+        "country": "CN",
+        "region": "Xizang Autonomous Region, Chaya",
+        "latitude": 30.529444,
+        "longitude": 97.898888,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dongdaqiao",
+        "member": "First",
+        "group": "Chaya"
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 174.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 230808 to Middle Jurassic with numeric bounds 174.7–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 85346; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1629670 records Brontopodus in collection 230808, linked by PBDB to reference 85346.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Brontopodus sp. and the accepted name as Brontopodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:85346:occ:1629671",
+      "physical_key": "pbdb-occ:1629671",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Deltapodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1629671",
+        "label": "PBDB occurrence 1629671"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 230808: low hillside along provincial road S203, Karongwa village (GPS: 30°31ʹ45.80”N, 97°53ʹ56.40”E)",
+        "country": "CN",
+        "region": "Xizang Autonomous Region, Chaya",
+        "latitude": 30.529444,
+        "longitude": 97.898888,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dongdaqiao",
+        "member": "First",
+        "group": "Chaya"
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 174.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 230808 to Middle Jurassic with numeric bounds 174.7–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 85346; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1629671 records Deltapodus in collection 230808, linked by PBDB to reference 85346.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Deltapodus sp. and the accepted name as Deltapodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:85346:occ:1629672",
+      "physical_key": "pbdb-occ:1629672",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Brontopodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1629672",
+        "label": "PBDB occurrence 1629672"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 230809: along provincial road S203, Karongwa village (GPS: 30°31ʹ44.83”N, 97°54ʹ3.58”E)",
+        "country": "CN",
+        "region": "Xizang Autonomous Region, Chaya",
+        "latitude": 30.529167,
+        "longitude": 97.901108,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dongdaqiao",
+        "member": "First",
+        "group": "Chaya"
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 174.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 230809 to Middle Jurassic with numeric bounds 174.7–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 85346; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1629672 records Brontopodus in collection 230809, linked by PBDB to reference 85346.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Brontopodus sp. and the accepted name as Brontopodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:85346:occ:1629673",
+      "physical_key": "pbdb-occ:1629673",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Brontopodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1629673",
+        "label": "PBDB occurrence 1629673"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 230810: along provincial road S203, Duolongwa village (GPS: 30°31ʹ25.73”N, 97° 54ʹ34.33”E)",
+        "country": "CN",
+        "region": "Xizang Autonomous Region, Chaya",
+        "latitude": 30.52389,
+        "longitude": 97.909447,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dongdaqiao",
+        "member": "First",
+        "group": "Chaya"
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 174.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 230810 to Middle Jurassic with numeric bounds 174.7–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 85346; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1629673 records Brontopodus in collection 230810, linked by PBDB to reference 85346.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Brontopodus sp. and the accepted name as Brontopodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:85346:occ:1629674",
+      "physical_key": "pbdb-occ:1629674",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Brontopodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1629674",
+        "label": "PBDB occurrence 1629674"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 230811: along provincial road S203, Duolongwa village (GPS: 30°31ʹ26.54”N, 97°54ʹ33.09”E)",
+        "country": "CN",
+        "region": "Xizang Autonomous Region, Chaya",
+        "latitude": 30.524166,
+        "longitude": 97.909164,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dongdaqiao",
+        "member": "First",
+        "group": "Chaya"
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 174.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 230811 to Middle Jurassic with numeric bounds 174.7–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 85346; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1629674 records Brontopodus in collection 230811, linked by PBDB to reference 85346.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Brontopodus sp. and the accepted name as Brontopodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

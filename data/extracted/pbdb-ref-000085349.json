@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:85349",
+    "doi": "10.3390/d15070851",
+    "title": "A new basal neornithischian dinosaur from the Phu Kradung Formation (Upper Jurassic) of northeastern Thailand",
+    "year": 2023,
+    "journal": "Diversity",
+    "url": "https://doi.org/10.3390/d15070851",
+    "authors": [
+      "S. Manitkoon",
+      "U. Deesri",
+      "B. Khalloufi, T. Nonsrirach, V. Suteethorn, P. Chanthasit, W. Boonla, E. Buffetaut"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:85349:occ:1616878",
+      "physical_key": "pbdb-occ:1616878",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Minimocursor phunoiensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1616878",
+        "label": "PBDB occurrence 1616878"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 157421: The Phu Noi locality is located on the flank of a small hill near the village (Ban) Dinji [Ban Din Chi], Kham Muang District, Kalasin Province. Within the Kalasin Geopark.",
+        "country": "TH",
+        "region": "Kalasin, Kham Muang",
+        "latitude": 16.65,
+        "longitude": 102.25,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Phu Kradung",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 137.05,
+        "max_ma": 149.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 157421 to Tithonian–Berriasian with numeric bounds 149.2–137.05 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 85349; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1616878 records Minimocursor phunoiensis in collection 157421, linked by PBDB to reference 85349.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Minimocursor phunoiensis n. gen. n. sp. and the accepted name as Minimocursor phunoiensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

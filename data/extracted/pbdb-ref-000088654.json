@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:88654",
+    "doi": null,
+    "title": "The first occurrence of a basal tyrannosauroid in southeast Asia: dental evidence from the Upper Jurassic of northeastern Thailand",
+    "year": 2024,
+    "journal": "Tropical Natural History",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=88654",
+    "authors": [
+      "W. Chowchuvech",
+      "S. Manitkoon",
+      "P. Chanthasit, C. Ketwetsuriya"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:88654:occ:1657937",
+      "physical_key": "pbdb-occ:1657937",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Tyrannosauroidea",
+        "rank": "superfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1657937",
+        "label": "PBDB occurrence 1657937"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 157421: The Phu Noi locality is located on the flank of a small hill near the village (Ban) Dinji [Ban Din Chi], Kham Muang District, Kalasin Province. Within the Kalasin Geopark.",
+        "country": "TH",
+        "region": "Kalasin, Kham Muang",
+        "latitude": 16.65,
+        "longitude": 102.25,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Phu Kradung",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 137.05,
+        "max_ma": 149.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 157421 to Tithonian–Berriasian with numeric bounds 149.2–137.05 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88654; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1657937 records Tyrannosauroidea in collection 157421, linked by PBDB to reference 88654.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Tyrannosauroidea indet. and the accepted name as Tyrannosauroidea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

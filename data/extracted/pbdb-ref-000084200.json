@@ -1,0 +1,187 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:84200",
+    "doi": "10.36898/001c.73184",
+    "title": "A glimpse through time: preliminary report of the Andre’s Alcove Tracksite, Lower Jurassic Navajo Sandstone, Glen Canyon National Recreation Area, Utah",
+    "year": 2023,
+    "journal": "Curiosity: Interdisciplinary Journal of Research and Innovation",
+    "url": "https://doi.org/10.36898/001c.73184",
+    "authors": [
+      "C. Bennett",
+      "A. R. C. Milner",
+      "J. D. Harris"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:84200:occ:1624153",
+      "physical_key": "pbdb-occ:1624153",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Eubrontes",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1624153",
+        "label": "PBDB occurrence 1624153"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 229818: Three exposed surfaces (separate \"sites\") of same layer: Upper Site 1, Lower Site 1, and Site 2. within the Glen Canyon National Recreation Area (GLCA)",
+        "country": "US",
+        "region": "Utah, San Juan",
+        "latitude": 37.351959,
+        "longitude": -110.773628,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Navajo Sandstone",
+        "member": null,
+        "group": "Glen Canyon"
+      },
+      "age": {
+        "min_ma": 184.2,
+        "max_ma": 192.9,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 229818 to Pliensbachian with numeric bounds 192.9–184.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 84200; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1624153 records Eubrontes in collection 229818, linked by PBDB to reference 84200.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Eubrontes sp. and the accepted name as Eubrontes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:84200:occ:1624154",
+      "physical_key": "pbdb-occ:1624154",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Grallator",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1624154",
+        "label": "PBDB occurrence 1624154"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 229818: Three exposed surfaces (separate \"sites\") of same layer: Upper Site 1, Lower Site 1, and Site 2. within the Glen Canyon National Recreation Area (GLCA)",
+        "country": "US",
+        "region": "Utah, San Juan",
+        "latitude": 37.351959,
+        "longitude": -110.773628,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Navajo Sandstone",
+        "member": null,
+        "group": "Glen Canyon"
+      },
+      "age": {
+        "min_ma": 184.2,
+        "max_ma": 192.9,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 229818 to Pliensbachian with numeric bounds 192.9–184.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 84200; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1624154 records Grallator in collection 229818, linked by PBDB to reference 84200.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Grallator sp. and the accepted name as Grallator.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:84200:occ:1624155",
+      "physical_key": "pbdb-occ:1624155",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Anomoepus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1624155",
+        "label": "PBDB occurrence 1624155"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 229818: Three exposed surfaces (separate \"sites\") of same layer: Upper Site 1, Lower Site 1, and Site 2. within the Glen Canyon National Recreation Area (GLCA)",
+        "country": "US",
+        "region": "Utah, San Juan",
+        "latitude": 37.351959,
+        "longitude": -110.773628,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Navajo Sandstone",
+        "member": null,
+        "group": "Glen Canyon"
+      },
+      "age": {
+        "min_ma": 184.2,
+        "max_ma": 192.9,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 229818 to Pliensbachian with numeric bounds 192.9–184.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 84200; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1624155 records Anomoepus in collection 229818, linked by PBDB to reference 84200.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Anomoepus sp. and the accepted name as Anomoepus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

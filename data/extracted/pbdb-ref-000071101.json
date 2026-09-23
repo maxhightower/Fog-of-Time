@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:71101",
+    "doi": "10.7717/peerj.7963",
+    "title": "Gnathovorax cabreirai: a new early dinosaur and the origin and initial radiation of predatory dinosaurs",
+    "year": 2019,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.7963",
+    "authors": [
+      "C. Pacheco",
+      "R. T. Muller",
+      "M. Langer, F. A. Pretto, L. Kerber, S. Dias da Silva"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:71101:occ:1486218",
+      "physical_key": "pbdb-occ:1486218",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Gnathovorax cabreirai",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1486218",
+        "label": "PBDB occurrence 1486218"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 196709: \"... the recently found Marchezan site. It crops out in a private farm in the proximity of the Highway RS-149 at km 135 in the municipality of São João do Polêsine, state of Rio Grande do Sul, Brazil\" (Pacheco et al. 2018); Edited to exact coordinates from Pacheco et al. 2019",
+        "country": "BR",
+        "region": "Rio Grande do Sul",
+        "latitude": -29.631111,
+        "longitude": -53.450558,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Santa Maria",
+        "member": null,
+        "group": "Rosário do Sul"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 233.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 196709 to Tuvalian with numeric bounds 233.6–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 71101; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1486218 records Gnathovorax cabreirai in collection 196709, linked by PBDB to reference 71101.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Gnathovorax cabreirai n. gen. n. sp. and the accepted name as Gnathovorax cabreirai.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

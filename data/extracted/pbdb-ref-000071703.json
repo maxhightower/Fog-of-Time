@@ -1,0 +1,130 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:71703",
+    "doi": "10.1177/0971102320190201",
+    "title": "Micro and mega-vertebrate fossils from the Late Triassic Tiki Formation, South Rewa Gondwana Basin, India: palaeoenvironmental and palaeobiogeographic implications",
+    "year": 2019,
+    "journal": "Journal of the Palaeontological Society of India",
+    "url": "https://doi.org/10.1177/0971102320190201",
+    "authors": [
+      "J. Kumar",
+      "K. M. Sharma"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:71703:occ:1494774",
+      "physical_key": "pbdb-occ:1494774",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithischia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1494774",
+        "label": "PBDB occurrence 1494774"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 207798: Coordinates for Jora given in text (N 23°53.884’; E 81°21.019’), converted into decimal because PBDB wasn't picking up exact location",
+        "country": "IN",
+        "region": "Madhya Pradesh, Shahdol",
+        "latitude": 23.89806,
+        "longitude": 81.350311,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Tiki",
+        "member": "Lower Tiki",
+        "group": null
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 207798 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 71703; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1494774 records Ornithischia in collection 207798, linked by PBDB to reference 71703.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithischia indet. and the accepted name as Ornithischia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:71703:occ:1494784",
+      "physical_key": "pbdb-occ:1494784",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithischia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1494784",
+        "label": "PBDB occurrence 1494784"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 173722: Tiki Formation of the Rewa Gondwana Basin (Late Triassic); near the village of Tiki (=Tihki) (23° 56' N, 81°  22' 58\" E), Shahdol District, Madhya Pradesh, India",
+        "country": "IN",
+        "region": "Madhya Pradesh",
+        "latitude": 23.933332,
+        "longitude": 81.382774,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Tiki",
+        "member": "Lower Tiki",
+        "group": null
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 173722 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 71703; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1494784 records Ornithischia in collection 173722, linked by PBDB to reference 71703.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithischia indet. and the accepted name as Ornithischia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

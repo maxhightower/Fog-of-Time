@@ -1,0 +1,130 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:69697",
+    "doi": "10.1038/s41559-019-0941-z",
+    "title": "A Triassic averostran-line theropod from Switzerland and the early evolution of dinosaurs",
+    "year": 2019,
+    "journal": "Nature Ecology & Evolution",
+    "url": "https://doi.org/10.1038/s41559-019-0941-z",
+    "authors": [
+      "M. Zahner",
+      "W. Brinkmann"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:69697:occ:1456627",
+      "physical_key": "pbdb-occ:1456627",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Notatesseraeraptor frickensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1456627",
+        "label": "PBDB occurrence 1456627"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 203217: clay pit Gruhalde of the Tonwerke Keller AG, Frick, Canton Aargau, Switzerland. Coordinates 2° 642’ 960”/1° 261’ 963”\\nCoordinates 47°30′24.0\"N 8°00′30.5\"E",
+        "country": "CH",
+        "region": "Aargau",
+        "latitude": 47.506668,
+        "longitude": 8.008611,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Klettgau",
+        "member": "Gruhalde",
+        "group": null
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 203217 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 69697; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1456627 records Notatesseraeraptor frickensis in collection 203217, linked by PBDB to reference 69697.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Notatesseraeraptor frickensis n. gen. n. sp. and the accepted name as Notatesseraeraptor frickensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:69697:occ:1559618",
+      "physical_key": "pbdb-occ:1559618",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropodomorpha",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1559618",
+        "label": "PBDB occurrence 1559618"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 203217: clay pit Gruhalde of the Tonwerke Keller AG, Frick, Canton Aargau, Switzerland. Coordinates 2° 642’ 960”/1° 261’ 963”\\nCoordinates 47°30′24.0\"N 8°00′30.5\"E",
+        "country": "CH",
+        "region": "Aargau",
+        "latitude": 47.506668,
+        "longitude": 8.008611,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Klettgau",
+        "member": "Gruhalde",
+        "group": null
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 203217 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 69697; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1559618 records Sauropodomorpha in collection 203217, linked by PBDB to reference 69697.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropodomorpha indet. and the accepted name as Sauropodomorpha.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

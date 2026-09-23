@@ -1,0 +1,180 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:91084",
+    "doi": "10.1139/cjes-2024-0083",
+    "title": "Immature Daspletosaurus sp. specimens from the Dinosaur Park Formation provide insight into ontogenetically invariant tyrannosaurid cranial morphology",
+    "year": 2024,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/cjes-2024-0083",
+    "authors": [
+      "C. C. Coppock",
+      "M. J. Powers",
+      "J. T. Voris, H. S. Sharpe, P. J. Currie"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:91084:occ:1557021",
+      "physical_key": "pbdb-occ:1557021",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Gorgosaurus libratus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1557021",
+        "label": "PBDB occurrence 1557021"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 219724: RTMP Quarry 215, Dinosaur Provincial Park",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 50.737,
+        "longitude": -111.528999,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dinosaur Park",
+        "member": null,
+        "group": "Belly River"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 219724 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91084; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1557021 records Gorgosaurus libratus in collection 219724, linked by PBDB to reference 91084.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91084:occ:1687141",
+      "physical_key": "pbdb-occ:1687141",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Daspletosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1687141",
+        "label": "PBDB occurrence 1687141"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 52471: Dinosaur Provincial Park; SE 1/4, sec 29, T21, R12, LSD 4",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 50.8064,
+        "longitude": -111.626389,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Oldman",
+        "member": null,
+        "group": "Belly River"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 52471 to Middle Campanian–Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91084; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1687141 records Daspletosaurus in collection 52471, linked by PBDB to reference 91084.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Daspletosaurus sp. and the accepted name as Daspletosaurus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91084:occ:1687143",
+      "physical_key": "pbdb-occ:1687143",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Daspletosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1687143",
+        "label": "PBDB occurrence 1687143"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 59004: badlands along Red Deer River, 0.75 mi SE of Steveville, 225 ft above river; UTM NAD83 E458172.517, N5631004.186",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 50.825855,
+        "longitude": -111.594505,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dinosaur Park",
+        "member": null,
+        "group": "Belly River"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 59004 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91084; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1687143 records Daspletosaurus in collection 59004, linked by PBDB to reference 91084.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Daspletosaurus sp. and the accepted name as Daspletosaurus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

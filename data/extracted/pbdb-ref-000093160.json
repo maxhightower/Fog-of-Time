@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93160",
+    "doi": "10.5710/AMGH.24.09.2025.3653",
+    "title": "A new late Cretaceous abelisaurid species from La Rioja Province, Northwestern Argentina",
+    "year": 2025,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/AMGH.24.09.2025.3653",
+    "authors": [
+      "H. Jiménez Velandia",
+      "M. D. Ezcurra",
+      "M. E. Hechenleitner, G. Basilici, A. G. Martinelli, L. E. Fiorelli"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93160:occ:2051948",
+      "physical_key": "pbdb-occ:2051948",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Vitosaura colozacani",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2051948",
+        "label": "PBDB occurrence 2051948"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 275433: CRILAR-Pv 506 comes from the main dinosaur quarry of the Colozacán Valley in the vicinity of Tunacata and Guasamayo, 3 km south of Tama village (General Ángel V. Peñaloza Department), western slope of Sierra de Los Llanos Mountain range in the southeastern region of La Rioja Province, Argentina.",
+        "country": "AR",
+        "region": "La Rioja, Gral. Angel V. Penaloza",
+        "latitude": -30.549999,
+        "longitude": -66.525002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Los Llanos",
+        "member": "Upper",
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 275433 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93160; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2051948 records Vitosaura colozacani in collection 275433, linked by PBDB to reference 93160.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Vitosaura colozacani n. gen. n. sp. and the accepted name as Vitosaura colozacani.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

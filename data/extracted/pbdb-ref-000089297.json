@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:89297",
+    "doi": "10.3390/fossils2030009",
+    "title": "Caletodraco cottardi: A New Furileusaurian Abelisaurid (Dinosauria: Theropoda) from the Cenomanian Chalk of Normandy (North-Western France)",
+    "year": 2024,
+    "journal": "Fossil Studies",
+    "url": "https://doi.org/10.3390/fossils2030009",
+    "authors": [
+      "E. Buffetaut",
+      "H. Tong",
+      "J. Girard, B. Hoyez, J. Párraga"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:89297:occ:1662259",
+      "physical_key": "pbdb-occ:1662259",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Caletodraco cottardi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1662259",
+        "label": "PBDB occurrence 1662259"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235955: cliffs along the English Channel at Saint-Jouin-Bruneval, on the coast of the Pays de Caux",
+        "country": "FR",
+        "region": "Normandy, Seine-Maritime",
+        "latitude": 49.661999,
+        "longitude": 0.157,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Saint Jouin",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235955 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89297; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1662259 records Caletodraco cottardi in collection 235955, linked by PBDB to reference 89297.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Caletodraco cottardi n. gen. n. sp. and the accepted name as Caletodraco cottardi.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:89297:occ:1662261",
+      "physical_key": "pbdb-occ:1662261",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1662261",
+        "label": "PBDB occurrence 1662261"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235955: cliffs along the English Channel at Saint-Jouin-Bruneval, on the coast of the Pays de Caux",
+        "country": "FR",
+        "region": "Normandy, Seine-Maritime",
+        "latitude": 49.661999,
+        "longitude": 0.157,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Saint Jouin",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235955 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89297; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1662261 records Abelisauridae in collection 235955, linked by PBDB to reference 89297.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae indet. and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

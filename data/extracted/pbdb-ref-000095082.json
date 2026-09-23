@@ -1,0 +1,243 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:95082",
+    "doi": "10.1080/03115518.2024.2392498",
+    "title": "Polar dinosaur tracks of the Wonthaggi Formation (Lower Cretaceous), Victoria, Australia and their palaeontological significance",
+    "year": 2024,
+    "journal": "Alcheringa: An Australasian Journal of Palaeontology",
+    "url": "https://doi.org/10.1080/03115518.2024.2392498",
+    "authors": [
+      "A. J. Martin",
+      "M. Lowery",
+      "M. Hall, T. H. Rich, D. E. Seegets-Villiers, P. Swinkels, J. Broomfield, P. Vickers-Rich"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:95082:occ:2066133",
+      "physical_key": "pbdb-occ:2066133",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2066133",
+        "label": "PBDB occurrence 2066133"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 279153: shore platform near Eagle's Nest, near Inverloch and Cape Paterson, Victoria; S 38° 40.10, E 145° 41.10",
+        "country": "AU",
+        "region": "Victoria",
+        "latitude": -38.668331,
+        "longitude": 145.684998,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "\"Wonthaggi\"",
+        "member": null,
+        "group": "Strzelecki"
+      },
+      "age": {
+        "min_ma": 119.57,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 279153 to Early Aptian with numeric bounds 121.4–119.57 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95082; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2066133 records Theropoda in collection 279153, linked by PBDB to reference 95082.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:95082:occ:2066134",
+      "physical_key": "pbdb-occ:2066134",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithopoda",
+        "rank": "suborder"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2066134",
+        "label": "PBDB occurrence 2066134"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 279153: shore platform near Eagle's Nest, near Inverloch and Cape Paterson, Victoria; S 38° 40.10, E 145° 41.10",
+        "country": "AU",
+        "region": "Victoria",
+        "latitude": -38.668331,
+        "longitude": 145.684998,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "\"Wonthaggi\"",
+        "member": null,
+        "group": "Strzelecki"
+      },
+      "age": {
+        "min_ma": 119.57,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 279153 to Early Aptian with numeric bounds 121.4–119.57 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95082; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2066134 records Ornithopoda in collection 279153, linked by PBDB to reference 95082.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithopoda indet. and the accepted name as Ornithopoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:95082:occ:2066135",
+      "physical_key": "pbdb-occ:2066135",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithopoda",
+        "rank": "suborder"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2066135",
+        "label": "PBDB occurrence 2066135"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 279154: coastal exposures near Harmer's Haven, near Cape Paterson; S 38° 39.60, E 145° 34.80",
+        "country": "AU",
+        "region": "Victoria",
+        "latitude": -38.66,
+        "longitude": 145.580002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "\"Wonthaggi\"",
+        "member": null,
+        "group": "Strzelecki"
+      },
+      "age": {
+        "min_ma": 110.1,
+        "max_ma": 113.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 279154 to Early Albian with numeric bounds 113.2–110.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95082; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2066135 records Ornithopoda in collection 279154, linked by PBDB to reference 95082.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithopoda indet. and the accepted name as Ornithopoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:95082:occ:2066136",
+      "physical_key": "pbdb-occ:2066136",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2066136",
+        "label": "PBDB occurrence 2066136"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 279154: coastal exposures near Harmer's Haven, near Cape Paterson; S 38° 39.60, E 145° 34.80",
+        "country": "AU",
+        "region": "Victoria",
+        "latitude": -38.66,
+        "longitude": 145.580002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "\"Wonthaggi\"",
+        "member": null,
+        "group": "Strzelecki"
+      },
+      "age": {
+        "min_ma": 110.1,
+        "max_ma": 113.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 279154 to Early Albian with numeric bounds 113.2–110.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95082; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2066136 records Theropoda in collection 279154, linked by PBDB to reference 95082.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

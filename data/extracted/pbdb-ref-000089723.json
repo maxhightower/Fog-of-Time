@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:89723",
+    "doi": "10.1016/j.cretres.2023.105769",
+    "title": "A megaraptorid (Dinosauria: Theropoda) frontal from the upper Strzelecki Group (Lower Cretaceous) of Victoria, Australia",
+    "year": 2024,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2023.105769",
+    "authors": [
+      "J. Kotevski",
+      "R. J. Duncan",
+      "A. H. Pentland, J. P. Rule, P. Vickers-Rich, T. H. Rich, E. M. Fitzgerald, A. R. Evans, S. F. Poropat"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:89723:occ:1668248",
+      "physical_key": "pbdb-occ:1668248",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Megaraptoridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1668248",
+        "label": "PBDB occurrence 1668248"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 97758: Shack Bay, 5 km W of Inverloch, near Eagles Nest and Cape Paterson; 38° 40' 22.05\" S, 145° 39' 29.91\" E",
+        "country": "AU",
+        "region": "Victoria",
+        "latitude": -38.672779,
+        "longitude": 145.65834,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "\"Wonthaggi\"",
+        "member": null,
+        "group": "Strzelecki"
+      },
+      "age": {
+        "min_ma": 119.57,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 97758 to Early Aptian with numeric bounds 121.4–119.57 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89723; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1668248 records Megaraptoridae in collection 97758, linked by PBDB to reference 89723.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Megaraptoridae indet. and the accepted name as Megaraptoridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:89723:occ:1668249",
+      "physical_key": "pbdb-occ:1668249",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithopoda",
+        "rank": "suborder"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1668249",
+        "label": "PBDB occurrence 1668249"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 97758: Shack Bay, 5 km W of Inverloch, near Eagles Nest and Cape Paterson; 38° 40' 22.05\" S, 145° 39' 29.91\" E",
+        "country": "AU",
+        "region": "Victoria",
+        "latitude": -38.672779,
+        "longitude": 145.65834,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "\"Wonthaggi\"",
+        "member": null,
+        "group": "Strzelecki"
+      },
+      "age": {
+        "min_ma": 119.57,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 97758 to Early Aptian with numeric bounds 121.4–119.57 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89723; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1668249 records Ornithopoda in collection 97758, linked by PBDB to reference 89723.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithopoda indet. and the accepted name as Ornithopoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

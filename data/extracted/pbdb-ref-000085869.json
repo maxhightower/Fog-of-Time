@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:85869",
+    "doi": "10.1093/zoolinnean/zlad124",
+    "title": "New sauropod dinosaur from the Lower Cretaceous of Morella (Spain) provides new insights on the evolutionary history of Iberian somphospondylan titanosauriforms",
+    "year": 2024,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1093/zoolinnean/zlad124",
+    "authors": [
+      "P. Mocho",
+      "F. Escaso",
+      "J. M. Gasulla, A. Galobart, B. Poza, A. Santos-Cubedo, J. L. Sanz, F. Ortega"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:85869:occ:458327",
+      "physical_key": "pbdb-occ:458327",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Somphospondyli",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "458327",
+        "label": "PBDB occurrence 458327"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 45153: located on W pericline of río Bergantes anticline, oriented N60°E. 4 km SW of Morella.",
+        "country": "ES",
+        "region": "Valenciana",
+        "latitude": 40.609444,
+        "longitude": -0.131111,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Arcillas de Morella",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 45153 to Late Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 85869; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 458327 records Somphospondyli in collection 45153, linked by PBDB to reference 85869.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Somphospondyli indet. and the accepted name as Somphospondyli.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:85869:occ:1269701",
+      "physical_key": "pbdb-occ:1269701",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Garumbatitan morellensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1269701",
+        "label": "PBDB occurrence 1269701"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 168887: Near the Hermitage de la Sant Antoni de la Vespa. 7 km W of the town of Morella, on the SW slope of the Muela de la Karumba (= Mola de la Garumba), on the R margin of the Caldés River. Maestrat Basin.",
+        "country": "ES",
+        "region": "Castellón, Els Ports",
+        "latitude": 40.596615,
+        "longitude": -0.179591,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Arcillas de Morella",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 168887 to Late Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 85869; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1269701 records Garumbatitan morellensis in collection 168887, linked by PBDB to reference 85869.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Garumbatitan morellensis n. gen. n. sp. and the accepted name as Garumbatitan morellensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

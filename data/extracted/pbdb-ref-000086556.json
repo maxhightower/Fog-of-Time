@@ -1,0 +1,628 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86556",
+    "doi": "10.7717/peerj.16327",
+    "title": "Bite and tooth marks on sauropod dinosaurs from the Morrison Formation",
+    "year": 2023,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.16327",
+    "authors": [
+      "R. Lei",
+      "E. Tschopp",
+      "C. Hendrickx, M. J. Wedel, M. A. Norell, D. W. E. Hone"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:86556:occ:688016",
+      "physical_key": "pbdb-occ:688016",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Apatosaurinae",
+        "rank": "subfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "688016",
+        "label": "PBDB occurrence 688016"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 74000: Como Bluff, near Medicine Bow",
+        "country": "US",
+        "region": "Wyoming, Carbon",
+        "latitude": 41.901386,
+        "longitude": -106.07917,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 74000 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86556; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 688016 records Apatosaurinae in collection 74000, linked by PBDB to reference 86556.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Apatosaurinae indet. and the accepted name as Apatosaurinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86556:occ:1068447",
+      "physical_key": "pbdb-occ:1068447",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1068447",
+        "label": "PBDB occurrence 1068447"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 132242: for material collected in the Sturgis area by AMNH crews",
+        "country": "US",
+        "region": "South Dakota, Meade",
+        "latitude": 44.474445,
+        "longitude": -103.306946,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 149.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 132242 to Tithonian with numeric bounds 149.2–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86556; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1068447 records Sauropoda in collection 132242, linked by PBDB to reference 86556.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropoda indet. and the accepted name as Sauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86556:occ:1639846",
+      "physical_key": "pbdb-occ:1639846",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diplodocoidea",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1639846",
+        "label": "PBDB occurrence 1639846"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 22648: coordinates from K. Carpenter (pers. comm. to M. Carrano). at the head of a draw, near the Medicine Bow River in S-central Wyoming",
+        "country": "US",
+        "region": "Wyoming, Albany",
+        "latitude": 42.017776,
+        "longitude": -106.048615,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": "Lake Como",
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 22648 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86556; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1639846 records Diplodocoidea in collection 22648, linked by PBDB to reference 86556.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Diplodocoidea indet. and the accepted name as Diplodocoidea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86556:occ:1639847",
+      "physical_key": "pbdb-occ:1639847",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diplodocidae",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1639847",
+        "label": "PBDB occurrence 1639847"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 22648: coordinates from K. Carpenter (pers. comm. to M. Carrano). at the head of a draw, near the Medicine Bow River in S-central Wyoming",
+        "country": "US",
+        "region": "Wyoming, Albany",
+        "latitude": 42.017776,
+        "longitude": -106.048615,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": "Lake Como",
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 22648 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86556; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1639847 records Diplodocidae in collection 22648, linked by PBDB to reference 86556.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Diplodocidae indet. and the accepted name as Diplodocidae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86556:occ:1639848",
+      "physical_key": "pbdb-occ:1639848",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diplodocinae",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1639848",
+        "label": "PBDB occurrence 1639848"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 22648: coordinates from K. Carpenter (pers. comm. to M. Carrano). at the head of a draw, near the Medicine Bow River in S-central Wyoming",
+        "country": "US",
+        "region": "Wyoming, Albany",
+        "latitude": 42.017776,
+        "longitude": -106.048615,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": "Lake Como",
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 22648 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86556; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1639848 records Diplodocinae in collection 22648, linked by PBDB to reference 86556.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Diplodocinae indet. and the accepted name as Diplodocinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86556:occ:1639849",
+      "physical_key": "pbdb-occ:1639849",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Galeamopus pabsti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1639849",
+        "label": "PBDB occurrence 1639849"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 22648: coordinates from K. Carpenter (pers. comm. to M. Carrano). at the head of a draw, near the Medicine Bow River in S-central Wyoming",
+        "country": "US",
+        "region": "Wyoming, Albany",
+        "latitude": 42.017776,
+        "longitude": -106.048615,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": "Lake Como",
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 22648 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86556; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1639849 records Galeamopus pabsti in collection 22648, linked by PBDB to reference 86556.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86556:occ:1639850",
+      "physical_key": "pbdb-occ:1639850",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Neosauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1639850",
+        "label": "PBDB occurrence 1639850"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 22648: coordinates from K. Carpenter (pers. comm. to M. Carrano). at the head of a draw, near the Medicine Bow River in S-central Wyoming",
+        "country": "US",
+        "region": "Wyoming, Albany",
+        "latitude": 42.017776,
+        "longitude": -106.048615,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": "Lake Como",
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 22648 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86556; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1639850 records Neosauropoda in collection 22648, linked by PBDB to reference 86556.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Neosauropoda indet. and the accepted name as Neosauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86556:occ:1639851",
+      "physical_key": "pbdb-occ:1639851",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Macronaria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1639851",
+        "label": "PBDB occurrence 1639851"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 22648: coordinates from K. Carpenter (pers. comm. to M. Carrano). at the head of a draw, near the Medicine Bow River in S-central Wyoming",
+        "country": "US",
+        "region": "Wyoming, Albany",
+        "latitude": 42.017776,
+        "longitude": -106.048615,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": "Lake Como",
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 22648 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86556; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1639851 records Macronaria in collection 22648, linked by PBDB to reference 86556.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Macronaria indet. and the accepted name as Macronaria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86556:occ:1639852",
+      "physical_key": "pbdb-occ:1639852",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1639852",
+        "label": "PBDB occurrence 1639852"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 22648: coordinates from K. Carpenter (pers. comm. to M. Carrano). at the head of a draw, near the Medicine Bow River in S-central Wyoming",
+        "country": "US",
+        "region": "Wyoming, Albany",
+        "latitude": 42.017776,
+        "longitude": -106.048615,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": "Lake Como",
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 22648 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86556; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1639852 records Sauropoda in collection 22648, linked by PBDB to reference 86556.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropoda indet. and the accepted name as Sauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86556:occ:1639853",
+      "physical_key": "pbdb-occ:1639853",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Eusauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1639853",
+        "label": "PBDB occurrence 1639853"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 22648: coordinates from K. Carpenter (pers. comm. to M. Carrano). at the head of a draw, near the Medicine Bow River in S-central Wyoming",
+        "country": "US",
+        "region": "Wyoming, Albany",
+        "latitude": 42.017776,
+        "longitude": -106.048615,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": "Lake Como",
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 22648 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86556; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1639853 records Eusauropoda in collection 22648, linked by PBDB to reference 86556.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Eusauropoda indet. and the accepted name as Eusauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86556:occ:1639854",
+      "physical_key": "pbdb-occ:1639854",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Apatosaurinae",
+        "rank": "subfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1639854",
+        "label": "PBDB occurrence 1639854"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 48146: Garden Park, N of Cañon City, Fremont Co., CO. Not clear where along Saurian Hill this site was located.",
+        "country": "US",
+        "region": "Colorado, Fremont",
+        "latitude": 38.547501,
+        "longitude": -105.231598,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": "Brushy Basin",
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 48146 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86556; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1639854 records Apatosaurinae in collection 48146, linked by PBDB to reference 86556.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Apatosaurinae indet. and the accepted name as Apatosaurinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

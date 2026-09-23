@@ -1,0 +1,411 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:89148",
+    "doi": "10.1038/s41598-024-64298-9",
+    "title": "The complexity of tracking stegosaurs and their gregarious behavior",
+    "year": 2024,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-024-64298-9",
+    "authors": [
+      "D. Castanera",
+      "L. Mampel",
+      "A. Cobos"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:89148:occ:1077534",
+      "physical_key": "pbdb-occ:1077534",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Deltapodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1077534",
+        "label": "PBDB occurrence 1077534"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 134715: near village of Aguilar del Alfambra; UTM 683373/449513",
+        "country": "ES",
+        "region": "Aragón",
+        "latitude": 40.59,
+        "longitude": -0.796389,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Villar del Arzobispo",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 134715 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89148; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1077534 records Deltapodus in collection 134715, linked by PBDB to reference 89148.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Deltapodus sp. and the accepted name as Deltapodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:89148:occ:1077535",
+      "physical_key": "pbdb-occ:1077535",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithopoda",
+        "rank": "suborder"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1077535",
+        "label": "PBDB occurrence 1077535"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 134715: near village of Aguilar del Alfambra; UTM 683373/449513",
+        "country": "ES",
+        "region": "Aragón",
+        "latitude": 40.59,
+        "longitude": -0.796389,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Villar del Arzobispo",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 134715 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89148; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1077535 records Ornithopoda in collection 134715, linked by PBDB to reference 89148.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithopoda indet. and the accepted name as Ornithopoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:89148:occ:1661203",
+      "physical_key": "pbdb-occ:1661203",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Deltapodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1661203",
+        "label": "PBDB occurrence 1661203"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 91392: La Balsa, in the channel of the Río Valbona, in the municipality of El Castellar",
+        "country": "ES",
+        "region": "Teruel, El Castellar",
+        "latitude": 40.366669,
+        "longitude": -0.816667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Villar del Arzobispo",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 91392 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89148; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1661203 records Deltapodus in collection 91392, linked by PBDB to reference 89148.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Deltapodus sp. and the accepted name as Deltapodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:89148:occ:1661204",
+      "physical_key": "pbdb-occ:1661204",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Deltapodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1661204",
+        "label": "PBDB occurrence 1661204"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235808: near El Castellar, NW of the Gúdar-Javalambre region, Teruel Province; SW sector of Maestrazgo Basin, Peñagolosa subbasin",
+        "country": "ES",
+        "region": "Aragón, Teruel",
+        "latitude": 40.3493,
+        "longitude": -0.8195,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Villar del Arzobispo",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235808 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89148; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1661204 records Deltapodus in collection 235808, linked by PBDB to reference 89148.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Deltapodus sp. and the accepted name as Deltapodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:89148:occ:1661205",
+      "physical_key": "pbdb-occ:1661205",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dinosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1661205",
+        "label": "PBDB occurrence 1661205"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235809: near La Puebla de Valverde",
+        "country": "ES",
+        "region": "Aragón, Teruel",
+        "latitude": 40.216667,
+        "longitude": -0.916667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Villar del Arzobispo",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235809 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89148; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1661205 records Dinosauria in collection 235809, linked by PBDB to reference 89148.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Dinosauria indet. and the accepted name as Dinosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:89148:occ:1661206",
+      "physical_key": "pbdb-occ:1661206",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Deltapodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1661206",
+        "label": "PBDB occurrence 1661206"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235809: near La Puebla de Valverde",
+        "country": "ES",
+        "region": "Aragón, Teruel",
+        "latitude": 40.216667,
+        "longitude": -0.916667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Villar del Arzobispo",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235809 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89148; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1661206 records Deltapodus in collection 235809, linked by PBDB to reference 89148.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Deltapodus sp. and the accepted name as Deltapodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:89148:occ:1661207",
+      "physical_key": "pbdb-occ:1661207",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Deltapodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1661207",
+        "label": "PBDB occurrence 1661207"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235810: within the limits of the municipality of Formiche Alto, near a stream that flows into the Río Mijares",
+        "country": "ES",
+        "region": "Aragón, Teruel",
+        "latitude": 40.283333,
+        "longitude": -0.866667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Villar del Arzobispo",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235810 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89148; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1661207 records Deltapodus in collection 235810, linked by PBDB to reference 89148.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Deltapodus sp. and the accepted name as Deltapodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

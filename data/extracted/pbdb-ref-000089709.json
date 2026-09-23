@@ -1,0 +1,236 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:89709",
+    "doi": "10.1130/B37498.1",
+    "title": "Updating the Upper Cretaceous (Campanian) Two Medicine Formation of Montana: lithostratigraphic revisions, new CA-ID-TIMS U-Pb ages, and a calibrated framework for dinosaur occurrences",
+    "year": 2024,
+    "journal": "GSA Bulletin",
+    "url": "https://doi.org/10.1130/B37498.1",
+    "authors": [
+      "R. R. Rogers",
+      "J. R. Horner",
+      "J. Ramezani, E. M. Roberts, D. J. Varricchio"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:89709:occ:149984",
+      "physical_key": "pbdb-occ:149984",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Lambeosaurinae",
+        "rank": "subfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "149984",
+        "label": "PBDB occurrence 149984"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 13282: coordinates are for nearby Egg Mountain, near Choteau, Montana. \"This area is the traditional home of the Niitsítpiis- stahkoii (=Blackfoot/Niitsitapi ), Ktunaxa ?amak?is, and Salish Kootenai (Flathead) peoples.\"",
+        "country": "US",
+        "region": "Montana, Teton",
+        "latitude": 47.82,
+        "longitude": -112.660004,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Two Medicine",
+        "member": "Flag Butte",
+        "group": "Montana"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 13282 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89709; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 149984 records Lambeosaurinae in collection 13282, linked by PBDB to reference 89709.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Lambeosaurinae indet. and the accepted name as Lambeosaurinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:89709:occ:1667743",
+      "physical_key": "pbdb-occ:1667743",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Hadrosauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1667743",
+        "label": "PBDB occurrence 1667743"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 236763: along N bank of Two Medicine River, just E of MT Rte 358, in strat section 92-TMT-4",
+        "country": "US",
+        "region": "Montana, Pondera",
+        "latitude": 48.476501,
+        "longitude": -112.351799,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Two Medicine",
+        "member": "Shields Crossing",
+        "group": "Montana"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 236763 to Middle Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89709; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1667743 records Hadrosauridae in collection 236763, linked by PBDB to reference 89709.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Hadrosauridae indet. and the accepted name as Hadrosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:89709:occ:1667744",
+      "physical_key": "pbdb-occ:1667744",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ankylosauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1667744",
+        "label": "PBDB occurrence 1667744"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 236763: along N bank of Two Medicine River, just E of MT Rte 358, in strat section 92-TMT-4",
+        "country": "US",
+        "region": "Montana, Pondera",
+        "latitude": 48.476501,
+        "longitude": -112.351799,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Two Medicine",
+        "member": "Shields Crossing",
+        "group": "Montana"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 236763 to Middle Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89709; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1667744 records Ankylosauridae in collection 236763, linked by PBDB to reference 89709.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ankylosauridae indet. and the accepted name as Ankylosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:89709:occ:1667748",
+      "physical_key": "pbdb-occ:1667748",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Maiasaura peeblesorum",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1667748",
+        "label": "PBDB occurrence 1667748"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 236764: ca. 0.75 km NNE of Egg Mountain",
+        "country": "US",
+        "region": "Montana, Teton",
+        "latitude": 47.713001,
+        "longitude": -112.235001,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Two Medicine",
+        "member": "Hagans Crossing",
+        "group": "Montana"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 236764 to Middle Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89709; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1667748 records Maiasaura peeblesorum in collection 236764, linked by PBDB to reference 89709.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

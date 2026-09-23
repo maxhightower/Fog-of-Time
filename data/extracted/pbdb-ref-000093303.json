@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93303",
+    "doi": "10.1016/j.cretres.2025.106188",
+    "title": "Side by side with titans: A new rebbachisaurid dinosaur from the Huincul Formation (upper Cenomanian) of Patagonia, Argentina",
+    "year": 2025,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2025.106188",
+    "authors": [
+      "F. Bellardini",
+      "L. S. Filippi",
+      "J. L. Carballido, A. C. Garrido, M. A. Baiano"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93303:occ:1604940",
+      "physical_key": "pbdb-occ:1604940",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Astigmasaura genuflexa",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1604940",
+        "label": "PBDB occurrence 1604940"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 226993",
+        "country": "AR",
+        "region": "Neuquén",
+        "latitude": -37.966667,
+        "longitude": -69.23333,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Huincul",
+        "member": null,
+        "group": "Neuquén"
+      },
+      "age": {
+        "min_ma": 106.3,
+        "max_ma": 110.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 226993 to Middle Albian with numeric bounds 110.1–106.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93303; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1604940 records Astigmasaura genuflexa in collection 226993, linked by PBDB to reference 93303.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Astigmasaura genuflexa n. gen. n. sp. and the accepted name as Astigmasaura genuflexa.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

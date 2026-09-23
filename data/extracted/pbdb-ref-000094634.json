@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94634",
+    "doi": "10.7717/peerj.19218",
+    "title": "A new metriacanthosaurid theropod dinosaur from the Middle Jurassic of Yunnan Province, China",
+    "year": 2025,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.19218",
+    "authors": [
+      "Y. Zou",
+      "L. Chen",
+      "T. Wang, G. Wang, W. Zhang, X. Zhang, Z. Wang, X. Wu, H. You"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94634:occ:2063474",
+      "physical_key": "pbdb-occ:2063474",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Yuanmouraptor jinshajiangensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063474",
+        "label": "PBDB occurrence 2063474"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 145659: Near Xiabanjing, Jiangyi Rural Area, Yuanmou County of Yunnan Province, China",
+        "country": "CN",
+        "region": "Yunnan, Yuanmou",
+        "latitude": 26.0,
+        "longitude": 101.861115,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Zhanghe",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 168.2,
+        "max_ma": 174.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 145659 to Aalenian–Bajocian with numeric bounds 174.7–168.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94634; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063474 records Yuanmouraptor jinshajiangensis in collection 145659, linked by PBDB to reference 94634.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Yuanmouraptor jinshajiangensis n. gen. n. sp. and the accepted name as Yuanmouraptor jinshajiangensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

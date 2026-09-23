@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94633",
+    "doi": "10.1038/s41598-025-03210-5",
+    "title": "A new eusauropod (Dinosauria, Sauropodomorpha) from the Middle Jurassic of Gansu, China",
+    "year": 2025,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-025-03210-5",
+    "authors": [
+      "N. Li",
+      "X. Zhang",
+      "X. Ren, D. Li, H. You"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94633:occ:2063458",
+      "physical_key": "pbdb-occ:2063458",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Jinchuanloong niedu",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063458",
+        "label": "PBDB occurrence 2063458"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278621",
+        "country": "CN",
+        "region": "Gansu",
+        "latitude": 38.342541,
+        "longitude": 102.180344,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Xinhe",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278621 to Late Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94633; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063458 records Jinchuanloong niedu in collection 278621, linked by PBDB to reference 94633.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Jinchuanloong niedu n. gen. n. sp. and the accepted name as Jinchuanloong niedu.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

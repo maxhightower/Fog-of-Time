@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:90008",
+    "doi": "10.1080/08912963.2024.2385613",
+    "title": "A new ichnosite and ichnogenus from the Lower Cretaceous Rio do Peixe Basin, Brazil, with novel insights into the evolution of Titanosauriformes",
+    "year": 2024,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2024.2385613",
+    "authors": [
+      "Z. T. Gomes",
+      "R. F. Erickson",
+      "T. Aureliano, A. M. Ghilardi"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:90008:occ:1674391",
+      "physical_key": "pbdb-occ:1674391",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sousatitanosauripus robsoni",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674391",
+        "label": "PBDB occurrence 1674391"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237362: found within the area of a rural smallholding property named ‘Sítio Feijão’, on a dirt road perpendicular to BR-405, next to kilometre 43; WGS84 UTM 24 M 563,933.73 m E 9,247,901.42 m S; W part of Sousa Sub-Basin, Rio do Peixe Basin",
+        "country": "BR",
+        "region": "Paraiba, São João do Rio do Peixe",
+        "latitude": -6.8038,
+        "longitude": -38.421398,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sousa",
+        "member": null,
+        "group": "Rio do Peixe"
+      },
+      "age": {
+        "min_ma": 125.77,
+        "max_ma": 143.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237362 to Berriasian–Hauterivian with numeric bounds 143.1–125.77 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90008; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674391 records Sousatitanosauripus robsoni in collection 237362, linked by PBDB to reference 90008.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sousatitanosauripus robsoni n. gen. n. sp. and the accepted name as Sousatitanosauripus robsoni.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90008:occ:1674392",
+      "physical_key": "pbdb-occ:1674392",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dinosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674392",
+        "label": "PBDB occurrence 1674392"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237362: found within the area of a rural smallholding property named ‘Sítio Feijão’, on a dirt road perpendicular to BR-405, next to kilometre 43; WGS84 UTM 24 M 563,933.73 m E 9,247,901.42 m S; W part of Sousa Sub-Basin, Rio do Peixe Basin",
+        "country": "BR",
+        "region": "Paraiba, São João do Rio do Peixe",
+        "latitude": -6.8038,
+        "longitude": -38.421398,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sousa",
+        "member": null,
+        "group": "Rio do Peixe"
+      },
+      "age": {
+        "min_ma": 125.77,
+        "max_ma": 143.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237362 to Berriasian–Hauterivian with numeric bounds 143.1–125.77 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90008; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674392 records Dinosauria in collection 237362, linked by PBDB to reference 90008.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Dinosauria indet. and the accepted name as Dinosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

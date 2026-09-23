@@ -1,0 +1,516 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86725",
+    "doi": "10.1016/j.cretres.2023.105735",
+    "title": "Fossil vertebrates from the Cerro Fortaleza Formation (Upper Cretaceous), Santa Cruz Province, Argentina",
+    "year": 2024,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2023.105735",
+    "authors": [
+      "F. L. Agnolín",
+      "G. Álvarez Herrera",
+      "M. Aranciaga Rolando, M. Motta, S. Rozadilla, L. Verdiquio, J. S. D'Angelo, D. Moyano-Paz, A. N. Varela, J. Sterli, S. Bogan, S. Miner, A. M. Rodríguez, G. Munoz, M. P. Isasi , F. E. Novas"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:86725:occ:1671504",
+      "physical_key": "pbdb-occ:1671504",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithopoda",
+        "rank": "suborder"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1671504",
+        "label": "PBDB occurrence 1671504"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237047: Numerous unspecified localities along the eastern side of Río Leona, at the edge of the Cerro Fortaleza Formation type area",
+        "country": "AR",
+        "region": "Santa Cruz",
+        "latitude": -49.952221,
+        "longitude": -72.048058,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cerro Fortaleza",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237047 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86725; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1671504 records Ornithopoda in collection 237047, linked by PBDB to reference 86725.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithopoda indet. and the accepted name as Ornithopoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86725:occ:1671505",
+      "physical_key": "pbdb-occ:1671505",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Euiguanodontia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1671505",
+        "label": "PBDB occurrence 1671505"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237047: Numerous unspecified localities along the eastern side of Río Leona, at the edge of the Cerro Fortaleza Formation type area",
+        "country": "AR",
+        "region": "Santa Cruz",
+        "latitude": -49.952221,
+        "longitude": -72.048058,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cerro Fortaleza",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237047 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86725; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1671505 records Euiguanodontia in collection 237047, linked by PBDB to reference 86725.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Euiguanodontia indet. and the accepted name as Euiguanodontia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86725:occ:1671506",
+      "physical_key": "pbdb-occ:1671506",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Talenkauen santacrucensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1671506",
+        "label": "PBDB occurrence 1671506"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237047: Numerous unspecified localities along the eastern side of Río Leona, at the edge of the Cerro Fortaleza Formation type area",
+        "country": "AR",
+        "region": "Santa Cruz",
+        "latitude": -49.952221,
+        "longitude": -72.048058,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cerro Fortaleza",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237047 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86725; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1671506 records Talenkauen santacrucensis in collection 237047, linked by PBDB to reference 86725.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86725:occ:1671507",
+      "physical_key": "pbdb-occ:1671507",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1671507",
+        "label": "PBDB occurrence 1671507"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237047: Numerous unspecified localities along the eastern side of Río Leona, at the edge of the Cerro Fortaleza Formation type area",
+        "country": "AR",
+        "region": "Santa Cruz",
+        "latitude": -49.952221,
+        "longitude": -72.048058,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cerro Fortaleza",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237047 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86725; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1671507 records Sauropoda in collection 237047, linked by PBDB to reference 86725.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Clasmodosaurus spatula and the accepted name as Sauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86725:occ:1671508",
+      "physical_key": "pbdb-occ:1671508",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Titanosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1671508",
+        "label": "PBDB occurrence 1671508"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237047: Numerous unspecified localities along the eastern side of Río Leona, at the edge of the Cerro Fortaleza Formation type area",
+        "country": "AR",
+        "region": "Santa Cruz",
+        "latitude": -49.952221,
+        "longitude": -72.048058,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cerro Fortaleza",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237047 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86725; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1671508 records Titanosauria in collection 237047, linked by PBDB to reference 86725.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Titanosauria indet. and the accepted name as Titanosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86725:occ:1671509",
+      "physical_key": "pbdb-occ:1671509",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Eutitanosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1671509",
+        "label": "PBDB occurrence 1671509"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237047: Numerous unspecified localities along the eastern side of Río Leona, at the edge of the Cerro Fortaleza Formation type area",
+        "country": "AR",
+        "region": "Santa Cruz",
+        "latitude": -49.952221,
+        "longitude": -72.048058,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cerro Fortaleza",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237047 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86725; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1671509 records Eutitanosauria in collection 237047, linked by PBDB to reference 86725.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Eutitanosauria indet. and the accepted name as Eutitanosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86725:occ:1671510",
+      "physical_key": "pbdb-occ:1671510",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dreadnoughtus schrani",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1671510",
+        "label": "PBDB occurrence 1671510"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237047: Numerous unspecified localities along the eastern side of Río Leona, at the edge of the Cerro Fortaleza Formation type area",
+        "country": "AR",
+        "region": "Santa Cruz",
+        "latitude": -49.952221,
+        "longitude": -72.048058,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cerro Fortaleza",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237047 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86725; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1671510 records Dreadnoughtus schrani in collection 237047, linked by PBDB to reference 86725.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Dreadnoughtus schrani and the accepted name as Dreadnoughtus schrani.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86725:occ:1671511",
+      "physical_key": "pbdb-occ:1671511",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1671511",
+        "label": "PBDB occurrence 1671511"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237047: Numerous unspecified localities along the eastern side of Río Leona, at the edge of the Cerro Fortaleza Formation type area",
+        "country": "AR",
+        "region": "Santa Cruz",
+        "latitude": -49.952221,
+        "longitude": -72.048058,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cerro Fortaleza",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237047 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86725; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1671511 records Abelisauridae in collection 237047, linked by PBDB to reference 86725.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae indet. and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:86725:occ:1671513",
+      "physical_key": "pbdb-occ:1671513",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Orkoraptor burkei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1671513",
+        "label": "PBDB occurrence 1671513"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237048: Described as coming from \"a locality close to the site where the holotype of the megaraptorid Orkoraptor burkei was discovered\"",
+        "country": "AR",
+        "region": "Santa Cruz",
+        "latitude": -49.845554,
+        "longitude": -72.105835,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cerro Fortaleza",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237048 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86725; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1671513 records Orkoraptor burkei in collection 237048, linked by PBDB to reference 86725.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Orkoraptor burkei and the accepted name as Orkoraptor burkei.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

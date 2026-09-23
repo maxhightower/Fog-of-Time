@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93097",
+    "doi": "10.1038/s41467-025-63793-5",
+    "title": "Latest Cretaceous megaraptorid theropod dinosaur sheds light on megaraptoran evolution and palaeobiology",
+    "year": 2025,
+    "journal": "Nature Communications",
+    "url": "https://doi.org/10.1038/s41467-025-63793-5",
+    "authors": [
+      "L. M. Ibiricu",
+      "M. C. Lamanna",
+      "B. N. Alvarez, I. A. Cerda, J. L. Caglianone, N. V. Cardozo, M. Luna, R. D. Martínez"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93097:occ:2037715",
+      "physical_key": "pbdb-occ:2037715",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Joaquinraptor casali",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2037715",
+        "label": "PBDB occurrence 2037715"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 275222: Valle Joaquín, headwaters of the Río Chico, east of the southeastern shore of Lago Colhué Huapi, Chubut Province, central Patagonia, Argentina",
+        "country": "AR",
+        "region": "Chubut, Sarmiento",
+        "latitude": -45.621666,
+        "longitude": -68.442497,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lago Colhué Huapi",
+        "member": null,
+        "group": "Chubut"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 275222 to Late Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93097; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2037715 records Joaquinraptor casali in collection 275222, linked by PBDB to reference 93097.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Joaquinraptor casali n. gen. n. sp. and the accepted name as Joaquinraptor casali.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

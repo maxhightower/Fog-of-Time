@@ -1,0 +1,1699 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:87541",
+    "doi": "10.1093/zoolinnean/zlad184",
+    "title": "Biogeography of theropod dinosaurs during the Late Cretaceous: evidence from central South America",
+    "year": 2024,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1093/zoolinnean/zlad184",
+    "authors": [
+      "R. Delcourt",
+      "N. S. Brilhante",
+      "R. A. Pires-Domingues, C. Hendrickx, O. N. Grillo, B. G. Augusta, B. S. Maciel, A. M. Ghilardi, F. Ricardi-Branco"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:87541:occ:544641",
+      "physical_key": "pbdb-occ:544641",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "544641",
+        "label": "PBDB occurrence 544641"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 56997",
+        "country": "BR",
+        "region": "São Paulo",
+        "latitude": -21.59,
+        "longitude": -51.191387,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 56997 to Late Campanian–Early Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 544641 records Abelisauridae in collection 56997, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 1> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:544653",
+      "physical_key": "pbdb-occ:544653",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "544653",
+        "label": "PBDB occurrence 544653"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 57003",
+        "country": "BR",
+        "region": "São Paulo",
+        "latitude": -21.944166,
+        "longitude": -51.373055,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Presidente Prudente",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 57003 to Late Campanian–Early Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 544653 records Abelisauridae in collection 57003, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 1> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1646507",
+      "physical_key": "pbdb-occ:1646507",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1646507",
+        "label": "PBDB occurrence 1646507"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 83263: Monte Alto II, on the street for the Bancários Campestre Clube, SE of Monte Alto city",
+        "country": "BR",
+        "region": "São Paulo",
+        "latitude": -21.266476,
+        "longitude": -48.482738,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Marília",
+        "member": "Echaporã",
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 83263 to Late Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1646507 records Abelisauridae in collection 83263, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 1> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1646508",
+      "physical_key": "pbdb-occ:1646508",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1646508",
+        "label": "PBDB occurrence 1646508"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 83263: Monte Alto II, on the street for the Bancários Campestre Clube, SE of Monte Alto city",
+        "country": "BR",
+        "region": "São Paulo",
+        "latitude": -21.266476,
+        "longitude": -48.482738,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Marília",
+        "member": "Echaporã",
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 83263 to Late Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1646508 records Abelisauridae in collection 83263, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 2> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1646509",
+      "physical_key": "pbdb-occ:1646509",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1646509",
+        "label": "PBDB occurrence 1646509"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 57003",
+        "country": "BR",
+        "region": "São Paulo",
+        "latitude": -21.944166,
+        "longitude": -51.373055,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Presidente Prudente",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 57003 to Late Campanian–Early Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1646509 records Abelisauridae in collection 57003, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 3> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1646510",
+      "physical_key": "pbdb-occ:1646510",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1646510",
+        "label": "PBDB occurrence 1646510"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 83263: Monte Alto II, on the street for the Bancários Campestre Clube, SE of Monte Alto city",
+        "country": "BR",
+        "region": "São Paulo",
+        "latitude": -21.266476,
+        "longitude": -48.482738,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Marília",
+        "member": "Echaporã",
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 83263 to Late Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1646510 records Abelisauridae in collection 83263, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 3> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1646512",
+      "physical_key": "pbdb-occ:1646512",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1646512",
+        "label": "PBDB occurrence 1646512"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 56997",
+        "country": "BR",
+        "region": "São Paulo",
+        "latitude": -21.59,
+        "longitude": -51.191387,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 56997 to Late Campanian–Early Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1646512 records Abelisauridae in collection 56997, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 4> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1646513",
+      "physical_key": "pbdb-occ:1646513",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1646513",
+        "label": "PBDB occurrence 1646513"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 56997",
+        "country": "BR",
+        "region": "São Paulo",
+        "latitude": -21.59,
+        "longitude": -51.191387,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 56997 to Late Campanian–Early Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1646513 records Abelisauridae in collection 56997, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 7> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1646514",
+      "physical_key": "pbdb-occ:1646514",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1646514",
+        "label": "PBDB occurrence 1646514"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 233530: Locality only given as \"Chapada, Matto Grosso\" (Wortman & Matthew 1899)",
+        "country": "BR",
+        "region": "Mato Grosso",
+        "latitude": -15.463333,
+        "longitude": -55.748611,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Marília",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 233530 to Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1646514 records Abelisauridae in collection 233530, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 2> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1646515",
+      "physical_key": "pbdb-occ:1646515",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1646515",
+        "label": "PBDB occurrence 1646515"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 233530: Locality only given as \"Chapada, Matto Grosso\" (Wortman & Matthew 1899)",
+        "country": "BR",
+        "region": "Mato Grosso",
+        "latitude": -15.463333,
+        "longitude": -55.748611,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Marília",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 233530 to Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1646515 records Abelisauridae in collection 233530, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 3> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1646516",
+      "physical_key": "pbdb-occ:1646516",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1646516",
+        "label": "PBDB occurrence 1646516"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 233530: Locality only given as \"Chapada, Matto Grosso\" (Wortman & Matthew 1899)",
+        "country": "BR",
+        "region": "Mato Grosso",
+        "latitude": -15.463333,
+        "longitude": -55.748611,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Marília",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 233530 to Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1646516 records Abelisauridae in collection 233530, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 6> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1646517",
+      "physical_key": "pbdb-occ:1646517",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1646517",
+        "label": "PBDB occurrence 1646517"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 233531: near the village of Tesouro",
+        "country": "BR",
+        "region": "Mato Grosso",
+        "latitude": -15.889167,
+        "longitude": -53.184166,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Marília",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 233531 to Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1646517 records Abelisauridae in collection 233531, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 1> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1646518",
+      "physical_key": "pbdb-occ:1646518",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1646518",
+        "label": "PBDB occurrence 1646518"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 233531: near the village of Tesouro",
+        "country": "BR",
+        "region": "Mato Grosso",
+        "latitude": -15.889167,
+        "longitude": -53.184166,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Marília",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 233531 to Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1646518 records Abelisauridae in collection 233531, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 2> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1646519",
+      "physical_key": "pbdb-occ:1646519",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1646519",
+        "label": "PBDB occurrence 1646519"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 233531: near the village of Tesouro",
+        "country": "BR",
+        "region": "Mato Grosso",
+        "latitude": -15.889167,
+        "longitude": -53.184166,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Marília",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 233531 to Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1646519 records Abelisauridae in collection 233531, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 3> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1646520",
+      "physical_key": "pbdb-occ:1646520",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1646520",
+        "label": "PBDB occurrence 1646520"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 233531: near the village of Tesouro",
+        "country": "BR",
+        "region": "Mato Grosso",
+        "latitude": -15.889167,
+        "longitude": -53.184166,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Marília",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 233531 to Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1646520 records Abelisauridae in collection 233531, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 6> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699534",
+      "physical_key": "pbdb-occ:1699534",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699534",
+        "label": "PBDB occurrence 1699534"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240806: near Ibirá",
+        "country": "BR",
+        "region": "Saõ Paulo",
+        "latitude": -21.09,
+        "longitude": -49.240002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240806 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699534 records Abelisauridae in collection 240806, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 1> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699535",
+      "physical_key": "pbdb-occ:1699535",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699535",
+        "label": "PBDB occurrence 1699535"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240806: near Ibirá",
+        "country": "BR",
+        "region": "Saõ Paulo",
+        "latitude": -21.09,
+        "longitude": -49.240002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240806 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699535 records Abelisauridae in collection 240806, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 2> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699536",
+      "physical_key": "pbdb-occ:1699536",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699536",
+        "label": "PBDB occurrence 1699536"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240806: near Ibirá",
+        "country": "BR",
+        "region": "Saõ Paulo",
+        "latitude": -21.09,
+        "longitude": -49.240002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240806 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699536 records Abelisauridae in collection 240806, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 3> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699537",
+      "physical_key": "pbdb-occ:1699537",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699537",
+        "label": "PBDB occurrence 1699537"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240806: near Ibirá",
+        "country": "BR",
+        "region": "Saõ Paulo",
+        "latitude": -21.09,
+        "longitude": -49.240002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240806 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699537 records Abelisauridae in collection 240806, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 4> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699538",
+      "physical_key": "pbdb-occ:1699538",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699538",
+        "label": "PBDB occurrence 1699538"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240806: near Ibirá",
+        "country": "BR",
+        "region": "Saõ Paulo",
+        "latitude": -21.09,
+        "longitude": -49.240002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240806 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699538 records Abelisauridae in collection 240806, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 5> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699539",
+      "physical_key": "pbdb-occ:1699539",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699539",
+        "label": "PBDB occurrence 1699539"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240806: near Ibirá",
+        "country": "BR",
+        "region": "Saõ Paulo",
+        "latitude": -21.09,
+        "longitude": -49.240002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240806 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699539 records Abelisauridae in collection 240806, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 6> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699540",
+      "physical_key": "pbdb-occ:1699540",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699540",
+        "label": "PBDB occurrence 1699540"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240806: near Ibirá",
+        "country": "BR",
+        "region": "Saõ Paulo",
+        "latitude": -21.09,
+        "longitude": -49.240002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240806 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699540 records Abelisauridae in collection 240806, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 7> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699541",
+      "physical_key": "pbdb-occ:1699541",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699541",
+        "label": "PBDB occurrence 1699541"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240807",
+        "country": "BR",
+        "region": "Minas Gerais, Prata",
+        "latitude": -19.439167,
+        "longitude": -49.261391,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240807 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699541 records Abelisauridae in collection 240807, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 1> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699542",
+      "physical_key": "pbdb-occ:1699542",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699542",
+        "label": "PBDB occurrence 1699542"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240807",
+        "country": "BR",
+        "region": "Minas Gerais, Prata",
+        "latitude": -19.439167,
+        "longitude": -49.261391,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240807 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699542 records Abelisauridae in collection 240807, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 2> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699543",
+      "physical_key": "pbdb-occ:1699543",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699543",
+        "label": "PBDB occurrence 1699543"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240807",
+        "country": "BR",
+        "region": "Minas Gerais, Prata",
+        "latitude": -19.439167,
+        "longitude": -49.261391,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240807 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699543 records Abelisauridae in collection 240807, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 3> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699544",
+      "physical_key": "pbdb-occ:1699544",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699544",
+        "label": "PBDB occurrence 1699544"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240807",
+        "country": "BR",
+        "region": "Minas Gerais, Prata",
+        "latitude": -19.439167,
+        "longitude": -49.261391,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240807 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699544 records Abelisauridae in collection 240807, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 4> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699545",
+      "physical_key": "pbdb-occ:1699545",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699545",
+        "label": "PBDB occurrence 1699545"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 32335: near Paulo Creek, Fazenda (farm) Roncador, about 1 km SSW of main farm building, Mato Grosso, Brazil (Kellner & Campos 2002). Also described as from Fazenda Confusão, near the Río Confusão, about 1 km from Río Garças (Bertini 1996). Cambebe area.",
+        "country": "BR",
+        "region": "Mato Grosso",
+        "latitude": -15.465495,
+        "longitude": -54.584496,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": "Parecis"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 32335 to Late Cretaceous with numeric bounds 100.5–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699545 records Abelisauridae in collection 32335, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae indet. and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699546",
+      "physical_key": "pbdb-occ:1699546",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699546",
+        "label": "PBDB occurrence 1699546"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 106494: Outcrop located near the Km 736 of the old Sorocabana railroad, between the cities of Pirapozinho and Presidente Prudente. Site was discovered during the construction of Sorocabana railroad in 1950’s (SUÁREZ, 1969a,b,c 2002). Situated in the municipality of Pirapozinho (west of São Paulo State, 22º13’08\"S, 51º25’59\"W, Fig.1)",
+        "country": "BR",
+        "region": "São Paulo",
+        "latitude": -22.218889,
+        "longitude": -51.433056,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Presidente Prudente",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 106494 to Late Campanian–Early Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699546 records Abelisauridae in collection 106494, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 1> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699547",
+      "physical_key": "pbdb-occ:1699547",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699547",
+        "label": "PBDB occurrence 1699547"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 106494: Outcrop located near the Km 736 of the old Sorocabana railroad, between the cities of Pirapozinho and Presidente Prudente. Site was discovered during the construction of Sorocabana railroad in 1950’s (SUÁREZ, 1969a,b,c 2002). Situated in the municipality of Pirapozinho (west of São Paulo State, 22º13’08\"S, 51º25’59\"W, Fig.1)",
+        "country": "BR",
+        "region": "São Paulo",
+        "latitude": -22.218889,
+        "longitude": -51.433056,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Presidente Prudente",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 106494 to Late Campanian–Early Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699547 records Abelisauridae in collection 106494, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 2> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87541:occ:1699548",
+      "physical_key": "pbdb-occ:1699548",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1699548",
+        "label": "PBDB occurrence 1699548"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240808: unspecified locality near Presidente Bernardes",
+        "country": "BR",
+        "region": "Saõ Paulo",
+        "latitude": -22.016001,
+        "longitude": -51.556999,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Adamantina",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240808 to Campanian–Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87541; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1699548 records Abelisauridae in collection 240808, linked by PBDB to reference 87541.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae <indet. 3> and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

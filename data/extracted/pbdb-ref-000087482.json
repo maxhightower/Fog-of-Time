@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:87482",
+    "doi": "10.1016/j.cretres.2023.105810",
+    "title": "Rhabdodontid (Dinosauria, Ornithopoda) diversity suggested by the first documented occurrence of associated cranial and postcranial material at Vălioara (uppermost Cretaceous Densuș-Ciula Formation, Hațeg Basin, Romania)",
+    "year": 2024,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2023.105810",
+    "authors": [
+      "J. Magyar",
+      "Z. Csiki-Sava",
+      "A. Ősi, F. J. Augustin, G. Botfalvai"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:87482:occ:1645837",
+      "physical_key": "pbdb-occ:1645837",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Rhabdodontidae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1645837",
+        "label": "PBDB occurrence 1645837"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 163322: Pareu Niagului (Creek), Site II, near Valioara, \"Valioara, Neagului Cr.\"",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.616669,
+        "longitude": 22.783331,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Densuș-Ciula",
+        "member": "Middle",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 163322 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87482; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1645837 records Rhabdodontidae in collection 163322, linked by PBDB to reference 87482.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Rhabdodontidae indet. and the accepted name as Rhabdodontidae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87482:occ:1660173",
+      "physical_key": "pbdb-occ:1660173",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Rhabdodontidae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1660173",
+        "label": "PBDB occurrence 1660173"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235665: in the Neagului Valley (Pârâul Neagului), NW of Valioara",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.617401,
+        "longitude": 22.7775,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Densuș-Ciula",
+        "member": "Middle",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235665 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87482; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1660173 records Rhabdodontidae in collection 235665, linked by PBDB to reference 87482.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Rhabdodontidae indet. and the accepted name as Rhabdodontidae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

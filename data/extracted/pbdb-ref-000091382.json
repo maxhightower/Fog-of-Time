@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:91382",
+    "doi": "10.1371/journal.pone.0311096",
+    "title": "Re-evaluation of the Bahariya Formation carcharodontosaurid (Dinosauria: Theropoda) and its implications for allosauroid phylogeny",
+    "year": 2025,
+    "journal": "PLOS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0311096",
+    "authors": [
+      "M. Kellermann",
+      "E. Cuesta",
+      "O. W. M. Rauhut"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:91382:occ:259972",
+      "physical_key": "pbdb-occ:259972",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Tameryraptor markgrafi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "259972",
+        "label": "PBDB occurrence 259972"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 25126: 2 km from Ain Gedid, on the western slope of Gebel Harra, near Marsa Matruh, Baharîja Oasis, Egypt.",
+        "country": "EG",
+        "region": "Al Jizah",
+        "latitude": 28.33333,
+        "longitude": 29.116669,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bahariya",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 25126 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91382; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 259972 records Tameryraptor markgrafi in collection 25126, linked by PBDB to reference 91382.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Tameryraptor markgrafi n. gen. n. sp. and the accepted name as Tameryraptor markgrafi.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

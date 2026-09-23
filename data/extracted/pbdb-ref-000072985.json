@@ -1,0 +1,299 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:72985",
+    "doi": "10.1186/s00015-020-00360-8",
+    "title": "A derived sauropodiform dinosaur and other sauropodomorph material from the Late Triassic of Canton Schaffhausen, Switzerland",
+    "year": 2020,
+    "journal": "Swiss Journal of Geosciences",
+    "url": "https://doi.org/10.1186/s00015-020-00360-8",
+    "authors": [
+      "O. W. M. Rauhut",
+      "F. M. Holwerda",
+      "H. Furrer"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:72985:occ:479560",
+      "physical_key": "pbdb-occ:479560",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropodomorpha",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "479560",
+        "label": "PBDB occurrence 479560"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 47803: adjacent to road, near crest of the Hallauberg at Breitelen, 1 km NW of Hallau, 12 km W of Schaffhausen, kanton Schaffhausen. Formerly called Unter-Hallau.",
+        "country": "CH",
+        "region": "Schaffhausen",
+        "latitude": 47.706112,
+        "longitude": 8.451944,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Klettgau",
+        "member": "Gruhalde",
+        "group": null
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 47803 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 72985; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 479560 records Sauropodomorpha in collection 47803, linked by PBDB to reference 72985.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropodomorpha indet. and the accepted name as Sauropodomorpha.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:72985:occ:479561",
+      "physical_key": "pbdb-occ:479561",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropodomorpha",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "479561",
+        "label": "PBDB occurrence 479561"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 47804: adjacent to road near crest of the Hallauerberg at Breitelen, 1 km NW of Hallau, 12 km W of Schaffhausen, kanton Schaffhausen. Formerly called Unter-Hallau.",
+        "country": "CH",
+        "region": "Schaffhausen",
+        "latitude": 47.700001,
+        "longitude": 8.4667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 47804 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 72985; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 479561 records Sauropodomorpha in collection 47804, linked by PBDB to reference 72985.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropodomorpha indet. and the accepted name as Sauropodomorpha.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:72985:occ:1514433",
+      "physical_key": "pbdb-occ:1514433",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Schleitheimia schutzi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1514433",
+        "label": "PBDB occurrence 1514433"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 47806: Santierge, a hill situated 900 m south of the church of Schleitheim in the Swiss Canton Schaffhausen",
+        "country": "CH",
+        "region": "Schaffhausen",
+        "latitude": 47.741669,
+        "longitude": 8.486944,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Klettgau",
+        "member": "Gruhalde",
+        "group": null
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 47806 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 72985; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1514433 records Schleitheimia schutzi in collection 47806, linked by PBDB to reference 72985.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Schleitheimia schutzi n. gen. n. sp. and the accepted name as Schleitheimia schutzi.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:72985:occ:1514434",
+      "physical_key": "pbdb-occ:1514434",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropodomorpha",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1514434",
+        "label": "PBDB occurrence 1514434"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 47806: Santierge, a hill situated 900 m south of the church of Schleitheim in the Swiss Canton Schaffhausen",
+        "country": "CH",
+        "region": "Schaffhausen",
+        "latitude": 47.741669,
+        "longitude": 8.486944,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Klettgau",
+        "member": "Gruhalde",
+        "group": null
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 47806 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 72985; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1514434 records Sauropodomorpha in collection 47806, linked by PBDB to reference 72985.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropodomorpha indet. and the accepted name as Sauropodomorpha.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:72985:occ:1514435",
+      "physical_key": "pbdb-occ:1514435",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropodomorpha",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1514435",
+        "label": "PBDB occurrence 1514435"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 194662: outcrop along a path in the forest near Schwärzebuck, 350 m NNW of the locality Hallau-Bratelen",
+        "country": "CH",
+        "region": "Schaffhausen",
+        "latitude": 47.707222,
+        "longitude": 8.449167,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Klettgau",
+        "member": "Gruhalde",
+        "group": null
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 194662 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 72985; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1514435 records Sauropodomorpha in collection 194662, linked by PBDB to reference 72985.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropodomorpha indet. and the accepted name as Sauropodomorpha.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,628 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:90009",
+    "doi": "10.1016/j.palwor.2023.03.007",
+    "title": "Dinosaur fauna from the Lower Cretaceous of Phu Kao-Phu Phan Kham, northeastern Thailand: a review and update",
+    "year": 2024,
+    "journal": "Palaeoworld",
+    "url": "https://doi.org/10.1016/j.palwor.2023.03.007",
+    "authors": [
+      "A. Samathi",
+      "S. Suteethorn",
+      "T. Boonjarern, K. Sutcha, V. Suteethorn"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:90009:occ:380909",
+      "physical_key": "pbdb-occ:380909",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "380909",
+        "label": "PBDB occurrence 380909"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 36155: Khok Doo (Khok Du), coordinates for Udon Thani, N central Thailand",
+        "country": "TH",
+        "region": "Udon Thani",
+        "latitude": 17.407499,
+        "longitude": 102.793098,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sao Khua",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 36155 to Late Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90009; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 380909 records Sauropoda in collection 36155, linked by PBDB to reference 90009.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropoda <indet. A> and the accepted name as Sauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90009:occ:380910",
+      "physical_key": "pbdb-occ:380910",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Phuwiangosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "380910",
+        "label": "PBDB occurrence 380910"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 36156: approx. 30 km SW of Udon Thani, N central Thailand. Quarry between Udon Thani and Nong Bua Lam Phy; Phu Hin Lat Thap Fa = Phu Hin Lat Tuppha",
+        "country": "TH",
+        "region": "Nong Bua Lam Phu, Nong Bua Lam Phu",
+        "latitude": 17.25,
+        "longitude": 102.666664,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sao Khua",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 36156 to Late Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90009; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 380910 records Phuwiangosaurus in collection 36156, linked by PBDB to reference 90009.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Phuwiangosaurus sp. and the accepted name as Phuwiangosaurus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90009:occ:1674402",
+      "physical_key": "pbdb-occ:1674402",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674402",
+        "label": "PBDB occurrence 1674402"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 140552: \"The shark teeth described in the present work have been obtained from bulk sampling in the overbank of the road 210 between Nong Bua Lamphu and Udon Thani, near the village of Phu Phan Thong.The exact location of the site can be requested from the Department of Mineral Resources in Bangkok.\"",
+        "country": "TH",
+        "region": "Udon Thani",
+        "latitude": 17.104168,
+        "longitude": 102.493332,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sao Khua",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 140552 to Late Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90009; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674402 records Theropoda in collection 140552, linked by PBDB to reference 90009.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda <indet. 1> and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90009:occ:1674408",
+      "physical_key": "pbdb-occ:1674408",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674408",
+        "label": "PBDB occurrence 1674408"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 201909: Nong Sang, Nong Bua Lamphu Province, Thailand",
+        "country": "TH",
+        "region": "Nong Bua Lam Phu",
+        "latitude": 16.9,
+        "longitude": 102.541115,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sao Khua",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 201909 to Late Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90009; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674408 records Theropoda in collection 201909, linked by PBDB to reference 90009.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90009:occ:1674415",
+      "physical_key": "pbdb-occ:1674415",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Neosauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674415",
+        "label": "PBDB occurrence 1674415"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237364: discovered during the construction of highway 210 near the Non Than Subdistrict",
+        "country": "TH",
+        "region": "Udon Thani",
+        "latitude": 17.245001,
+        "longitude": 102.528,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sao Khua",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237364 to Late Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90009; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674415 records Neosauropoda in collection 237364, linked by PBDB to reference 90009.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Neosauropoda <indet. B> and the accepted name as Neosauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90009:occ:1674416",
+      "physical_key": "pbdb-occ:1674416",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Brachiosauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674416",
+        "label": "PBDB occurrence 1674416"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237365: Phu Wat, 40 km NW of Khon Kaen city",
+        "country": "TH",
+        "region": "Khon Kaen",
+        "latitude": 16.9,
+        "longitude": 102.650002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sao Khua",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237365 to Late Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90009; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674416 records Brachiosauridae in collection 237365, linked by PBDB to reference 90009.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Brachiosauridae indet. and the accepted name as Brachiosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90009:occ:1674417",
+      "physical_key": "pbdb-occ:1674417",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Phuwiangosaurus sirindhornae",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674417",
+        "label": "PBDB occurrence 1674417"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237366: Ban Huay Dua, Non Than village, Non Than Subdistrict",
+        "country": "TH",
+        "region": "Udon Thani",
+        "latitude": 17.245001,
+        "longitude": 102.546997,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sao Khua",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237366 to Late Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90009; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674417 records Phuwiangosaurus sirindhornae in collection 237366, linked by PBDB to reference 90009.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90009:occ:1674418",
+      "physical_key": "pbdb-occ:1674418",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674418",
+        "label": "PBDB occurrence 1674418"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 140552: \"The shark teeth described in the present work have been obtained from bulk sampling in the overbank of the road 210 between Nong Bua Lamphu and Udon Thani, near the village of Phu Phan Thong.The exact location of the site can be requested from the Department of Mineral Resources in Bangkok.\"",
+        "country": "TH",
+        "region": "Udon Thani",
+        "latitude": 17.104168,
+        "longitude": 102.493332,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sao Khua",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 140552 to Late Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90009; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674418 records Theropoda in collection 140552, linked by PBDB to reference 90009.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda <indet. 3> and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90009:occ:1674419",
+      "physical_key": "pbdb-occ:1674419",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674419",
+        "label": "PBDB occurrence 1674419"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237366: Ban Huay Dua, Non Than village, Non Than Subdistrict",
+        "country": "TH",
+        "region": "Udon Thani",
+        "latitude": 17.245001,
+        "longitude": 102.546997,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sao Khua",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237366 to Late Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90009; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674419 records Theropoda in collection 237366, linked by PBDB to reference 90009.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90009:occ:1674420",
+      "physical_key": "pbdb-occ:1674420",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Spinosauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674420",
+        "label": "PBDB occurrence 1674420"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237367: \"The shark teeth described in the present work have been obtained from bulk sampling in the overbank of the road 210 between Nong Bua Lamphu and Udon Thani, near the village of Phu Phan Thong.The exact location of the site can be requested from the Department of Mineral Resources in Bangkok.\"",
+        "country": "TH",
+        "region": "Udon Thani",
+        "latitude": 17.104168,
+        "longitude": 102.493332,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sao Khua",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237367 to Late Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90009; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674420 records Spinosauridae in collection 237367, linked by PBDB to reference 90009.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Spinosauridae <indet. 1> and the accepted name as Spinosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90009:occ:1674423",
+      "physical_key": "pbdb-occ:1674423",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Spinosauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674423",
+        "label": "PBDB occurrence 1674423"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 237368: Ban Wang Mon, around Wang Mon village, in the middle of the Phu Kao Mountain range",
+        "country": "TH",
+        "region": "Nong Bua Lam Phu",
+        "latitude": 16.936001,
+        "longitude": 102.461998,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khoh Kruat",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 237368 to Aptian–Albian with numeric bounds 121.4–100.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90009; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674423 records Spinosauridae in collection 237368, linked by PBDB to reference 90009.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Spinosauridae <indet. 2> and the accepted name as Spinosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

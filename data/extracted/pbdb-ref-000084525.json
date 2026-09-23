@@ -1,0 +1,166 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:84525",
+    "doi": "10.1080/08912963.2023.2190760",
+    "title": "A new specimen of Sinosaurus triassicus (Dinosauria: Theropoda) from the Early Jurassic of Lufeng, Yunnan, China",
+    "year": 2023,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2023.2190760",
+    "authors": [
+      "Z.-C. Zhang",
+      "T. Wang",
+      "H.-L. You"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:84525:occ:1625161",
+      "physical_key": "pbdb-occ:1625161",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sinosaurus triassicus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1625161",
+        "label": "PBDB occurrence 1625161"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 229977: in the hills behind Er Zuan Shan (Ehrchuanshan), Jin Shan Town, Lufeng City, Yunnan; also listed as \"Huang Jia Tian Village, Jing Shan Town\"",
+        "country": "CN",
+        "region": "Yunnan",
+        "latitude": 25.183153,
+        "longitude": 102.120239,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lufeng",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 192.9,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 229977 to Hettangian–Sinemurian with numeric bounds 201.4–192.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 84525; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1625161 records Sinosaurus triassicus in collection 229977, linked by PBDB to reference 84525.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:84525:occ:1625162",
+      "physical_key": "pbdb-occ:1625162",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sinosaurus triassicus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1625162",
+        "label": "PBDB occurrence 1625162"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 173377: Dalishu bonebed, near Dalishu village, Konglongshan town, Lufeng county, Yunnan",
+        "country": "CN",
+        "region": "Yunnan, Lufeng",
+        "latitude": 24.957121,
+        "longitude": 102.082504,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lufeng",
+        "member": "Shawan",
+        "group": null
+      },
+      "age": {
+        "min_ma": 199.5,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 173377 to Hettangian with numeric bounds 201.4–199.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 84525; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1625162 records Sinosaurus triassicus in collection 173377, linked by PBDB to reference 84525.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:84525:occ:1625163",
+      "physical_key": "pbdb-occ:1625163",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sinosaurus triassicus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1625163",
+        "label": "PBDB occurrence 1625163"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 229976: 700 m N of Hei Long Tan, Da Wa village of Jin Shan town in the Lufeng Basin = Heilongtan Village, Songjiapo, Jinshan Township",
+        "country": "CN",
+        "region": "Yunnan",
+        "latitude": 25.15,
+        "longitude": 101.98333,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lufeng",
+        "member": "Shawan",
+        "group": null
+      },
+      "age": {
+        "min_ma": 192.9,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 229976 to Hettangian–Sinemurian with numeric bounds 201.4–192.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 84525; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1625163 records Sinosaurus triassicus in collection 229976, linked by PBDB to reference 84525.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

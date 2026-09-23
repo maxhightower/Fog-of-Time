@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:89242",
+    "doi": "10.1093/zoolinnean/zlae090",
+    "title": "A new theropod dinosaur from the Callovian Balabansai Formation of Kyrgyzstan",
+    "year": 2024,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1093/zoolinnean/zlae090",
+    "authors": [
+      "O. W. M. Rauhut",
+      "A. A. Bakirov",
+      "O. Wings, A. E. Fernandes, T. R. Hübner"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:89242:occ:1661884",
+      "physical_key": "pbdb-occ:1661884",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Alpkarakush kyrgyzicus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1661884",
+        "label": "PBDB occurrence 1661884"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235900: FTU-1 (Fergana-Tashkumyr-Uurusai-1), Uurusai Valley, 1000 m W of of the city centre of Tash-Kömür/Tashkumyr (measured coordinates: N 41°20’25.5”, E 72°11’28.5”) at the floor of a small gully",
+        "country": "KG",
+        "region": "Jalal-Abad",
+        "latitude": 41.340557,
+        "longitude": 72.191391,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Balabansai",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 165.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235900 to Callovian with numeric bounds 165.3–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 89242; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1661884 records Alpkarakush kyrgyzicus in collection 235900, linked by PBDB to reference 89242.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Alpkarakush kyrgyzicus n. gen. n. sp. and the accepted name as Alpkarakush kyrgyzicus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

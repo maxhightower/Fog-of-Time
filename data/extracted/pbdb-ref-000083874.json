@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:83874",
+    "doi": "10.26879/1231",
+    "title": "Description of contents of unopened bamboo corsets and crates from Quarry Ig/WJ of the Tendaguru locality (Late Jurassic, Tanzania, East Africa) as revealed by medical CT data and the potential of this data under paleontological and historical aspects",
+    "year": 2023,
+    "journal": "Palaeontologia Electronica",
+    "url": "https://doi.org/10.26879/1231",
+    "authors": [
+      "D. Schwarz",
+      "G. Fritsch",
+      "A. S. Issever, T. Hildebrandt"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:83874:occ:1620779",
+      "physical_key": "pbdb-occ:1620779",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Titanosauriformes",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1620779",
+        "label": "PBDB occurrence 1620779"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 47146: 2.3 km NNW of Tendaguru Hill, near Kindope, ca. 400 m S of quarry St. Includes Bonebeds 1-4 (BB1, BB2, BB3, BB4).",
+        "country": "TZ",
+        "region": "Lindi",
+        "latitude": -9.684436,
+        "longitude": 39.221272,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Tendaguru",
+        "member": "Middle Dinosaur",
+        "group": null
+      },
+      "age": {
+        "min_ma": 149.2,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 47146 to Late Kimmeridgian with numeric bounds 152.21–149.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 83874; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1620779 records Titanosauriformes in collection 47146, linked by PBDB to reference 83874.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Titanosauriformes indet. and the accepted name as Titanosauriformes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

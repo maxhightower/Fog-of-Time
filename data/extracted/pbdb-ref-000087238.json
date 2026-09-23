@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:87238",
+    "doi": "10.1080/14772019.2023.2293038",
+    "title": "A new titanosaurian sauropod, Gandititan cavocaudatus gen. et sp. nov., from the Late Cretaceous of southern China",
+    "year": 2024,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2023.2293038",
+    "authors": [
+      "F. Han",
+      "L. Yang",
+      "F. Lou, C. Sullivan, X. Xu, W. Qiu, H. Liu, J. Yu, R. Wu, Y. Ke, M. Xu, J. Huban, P. Lu"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:87238:occ:1490642",
+      "physical_key": "pbdb-occ:1490642",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Somphospondyli",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1490642",
+        "label": "PBDB occurrence 1490642"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 207340: East side of Lianhua Road, in the northern part of Tianyuan County, Zhuzhou City, Hunan Province, southern China",
+        "country": "CN",
+        "region": "Hunan, Tianyuan",
+        "latitude": 27.826944,
+        "longitude": 113.082222,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Daijiaping",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 207340 to Campanian–Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87238; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1490642 records Somphospondyli in collection 207340, linked by PBDB to reference 87238.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Somphospondyli indet. and the accepted name as Somphospondyli.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87238:occ:1644610",
+      "physical_key": "pbdb-occ:1644610",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Gandititan cavocaudatus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1644610",
+        "label": "PBDB occurrence 1644610"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 233182: 100 m north of Shiziyan Road, Datangkeng, Ganxian District, Ganzhou City, Jiangxi Province, China",
+        "country": "CN",
+        "region": "Jiangxi, Ganxian",
+        "latitude": 25.797501,
+        "longitude": 114.897781,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Zhoutian",
+        "member": null,
+        "group": "Ganzhou"
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 233182 to Cenomanian–Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87238; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1644610 records Gandititan cavocaudatus in collection 233182, linked by PBDB to reference 87238.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Gandititan cavocaudatus n. gen. n. sp. and the accepted name as Gandititan cavocaudatus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

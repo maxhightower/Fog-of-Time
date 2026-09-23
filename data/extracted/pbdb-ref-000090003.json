@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:90003",
+    "doi": "10.4202/app.01167.2024",
+    "title": "A revised name and new insights into the Middle Jurassic sauropod trackways from Portugal. A correction of Santos et al. 2009",
+    "year": 2024,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://doi.org/10.4202/app.01167.2024",
+    "authors": [
+      "V. F. dos Santos",
+      "J. Moratalla",
+      "R. Royo-Torres, M. Belvedere, D. Castanera, L. Ceríaco, P. Mocho, M. Merino, C. Meyer, L. Sciscio"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:90003:occ:920594",
+      "physical_key": "pbdb-occ:920594",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Galinhapodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "920594",
+        "label": "PBDB occurrence 920594"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 57143: Limestone quarry near Fátima (Serra D'Aire), north of Lisbon. In the Lusitanian Basin, W-central Portugal; \"located on the eastern side of Serra de Aire in the municipal area of Bairro, 10 km from Fátima, within the Serra de Aire and Candeeiros Natural Park\" (Santos et al. 2009). At Ourém-Torres Novas.\\r\\nNow the MNDPDSA - Monumento Natural das Pegadas de Dinossáurios da Serra  de Aire.",
+        "country": "PT",
+        "region": "Santarem",
+        "latitude": 39.570278,
+        "longitude": -8.58905,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Serra de Aire",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 57143 to Early Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90003; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 920594 records Galinhapodus in collection 57143, linked by PBDB to reference 90003.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Galinhapodus sp. and the accepted name as Galinhapodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

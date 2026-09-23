@@ -1,0 +1,124 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:87060",
+    "doi": "10.1080/08912963.2023.2297914",
+    "title": "The last of the oldies: a basal rebbachisaurid (Sauropoda, Diplodocoidea) from the\\r\\nearly Late Cretaceous (Cenomanian–Turonian) of Patagonia, Argentina",
+    "year": 2024,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2023.2297914",
+    "authors": [
+      "L. N. Lerzo",
+      "P. A. Gallina",
+      "J. I. Canale, A. Otero, J. L. Carballido, S. Apesteguía, P. J. Makovicky"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:87060:occ:1642293",
+      "physical_key": "pbdb-occ:1642293",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sidersaura marae",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1642293",
+        "label": "PBDB occurrence 1642293"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 232882: Barda Atravesada de Las Campanas",
+        "country": "AR",
+        "region": "Neuquén",
+        "latitude": -39.319721,
+        "longitude": -68.948059,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Huincul",
+        "member": null,
+        "group": "Neuquén"
+      },
+      "age": {
+        "min_ma": 106.3,
+        "max_ma": 110.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 232882 to Middle Albian with numeric bounds 110.1–106.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87060; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1642293 records Sidersaura marae in collection 232882, linked by PBDB to reference 87060.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sidersaura marae n. gen. n. sp. and the accepted name as Sidersaura marae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:87060:occ:1642294",
+      "physical_key": "pbdb-occ:1642294",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sidersaura marae",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1642294",
+        "label": "PBDB occurrence 1642294"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 123202: Las Campanas creek, 25 km southwest of Villa El Chocón",
+        "country": "AR",
+        "region": "Neuquén",
+        "latitude": -39.358334,
+        "longitude": -69.025002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Huincul",
+        "member": null,
+        "group": "Neuquén"
+      },
+      "age": {
+        "min_ma": 106.3,
+        "max_ma": 110.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 123202 to Middle Albian with numeric bounds 110.1–106.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87060; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1642294 records Sidersaura marae in collection 123202, linked by PBDB to reference 87060.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

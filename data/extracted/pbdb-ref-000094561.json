@@ -1,0 +1,579 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94561",
+    "doi": "10.1080/02724634.2024.2323646",
+    "title": "A hidden diversity of ornithischian dinosaurs: U.K. Middle Jurassic microvertebrate faunas shed light on a poorly represented period",
+    "year": 2023,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2024.2323646",
+    "authors": [
+      "S. Wills",
+      "C. J. Underwood",
+      "P. M. Barrett"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94561:occ:2063020",
+      "physical_key": "pbdb-occ:2063020",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Stegosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063020",
+        "label": "PBDB occurrence 2063020"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 31054: northern Cotswold Hills, 5 km NW of Stow-in-the-Wold, E of Gloucester and Cheltenham, UK National Grid Reference SP 131322",
+        "country": "UK",
+        "region": "England, North Gloucestershire",
+        "latitude": 51.985001,
+        "longitude": -1.8,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chipping Norton Limestone",
+        "member": null,
+        "group": "Great Oolite"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 31054 to Early Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94561; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063020 records Stegosauria in collection 31054, linked by PBDB to reference 94561.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Stegosauria indet. and the accepted name as Stegosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94561:occ:2063021",
+      "physical_key": "pbdb-occ:2063021",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Thyreophora",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063021",
+        "label": "PBDB occurrence 2063021"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 31054: northern Cotswold Hills, 5 km NW of Stow-in-the-Wold, E of Gloucester and Cheltenham, UK National Grid Reference SP 131322",
+        "country": "UK",
+        "region": "England, North Gloucestershire",
+        "latitude": 51.985001,
+        "longitude": -1.8,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chipping Norton Limestone",
+        "member": null,
+        "group": "Great Oolite"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 31054 to Early Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94561; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063021 records Thyreophora in collection 31054, linked by PBDB to reference 94561.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Thyreophora <indet. A> and the accepted name as Thyreophora.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94561:occ:2063024",
+      "physical_key": "pbdb-occ:2063024",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Thyreophora",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063024",
+        "label": "PBDB occurrence 2063024"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 224639: National Grid Reference SP533123",
+        "country": "UK",
+        "region": "England, Oxfordshire",
+        "latitude": 51.75,
+        "longitude": -1.166667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "White Limestone",
+        "member": "Bladon",
+        "group": "Great Oolite"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 224639 to Late Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94561; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063024 records Thyreophora in collection 224639, linked by PBDB to reference 94561.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Thyreophora <indet. A> and the accepted name as Thyreophora.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94561:occ:2063025",
+      "physical_key": "pbdb-occ:2063025",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Thyreophora",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063025",
+        "label": "PBDB occurrence 2063025"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 224639: National Grid Reference SP533123",
+        "country": "UK",
+        "region": "England, Oxfordshire",
+        "latitude": 51.75,
+        "longitude": -1.166667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "White Limestone",
+        "member": "Bladon",
+        "group": "Great Oolite"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 224639 to Late Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94561; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063025 records Thyreophora in collection 224639, linked by PBDB to reference 94561.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Thyreophora <indet. B> and the accepted name as Thyreophora.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94561:occ:2063026",
+      "physical_key": "pbdb-occ:2063026",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ankylosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063026",
+        "label": "PBDB occurrence 2063026"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 224639: National Grid Reference SP533123",
+        "country": "UK",
+        "region": "England, Oxfordshire",
+        "latitude": 51.75,
+        "longitude": -1.166667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "White Limestone",
+        "member": "Bladon",
+        "group": "Great Oolite"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 224639 to Late Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94561; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063026 records Ankylosauria in collection 224639, linked by PBDB to reference 94561.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ankylosauria indet. and the accepted name as Ankylosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94561:occ:2063027",
+      "physical_key": "pbdb-occ:2063027",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ankylosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063027",
+        "label": "PBDB occurrence 2063027"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 57124: West Cliff, Watton Cliff; SY 451901-SY 453907",
+        "country": "UK",
+        "region": "England, Dorset",
+        "latitude": 50.707932,
+        "longitude": -2.77886,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Forest Marble",
+        "member": null,
+        "group": "Great Oolite"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 57124 to Late Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94561; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063027 records Ankylosauria in collection 57124, linked by PBDB to reference 94561.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ankylosauria indet. and the accepted name as Ankylosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94561:occ:2063028",
+      "physical_key": "pbdb-occ:2063028",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Thyreophora",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063028",
+        "label": "PBDB occurrence 2063028"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 57124: West Cliff, Watton Cliff; SY 451901-SY 453907",
+        "country": "UK",
+        "region": "England, Dorset",
+        "latitude": 50.707932,
+        "longitude": -2.77886,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Forest Marble",
+        "member": null,
+        "group": "Great Oolite"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 57124 to Late Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94561; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063028 records Thyreophora in collection 57124, linked by PBDB to reference 94561.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Thyreophora <indet. B> and the accepted name as Thyreophora.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94561:occ:2063029",
+      "physical_key": "pbdb-occ:2063029",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithischia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063029",
+        "label": "PBDB occurrence 2063029"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 39075: Old Cement Works Quarry, near Kirtlington, Oxfordshire (Ordnance Survey Grid Reference SP 495200)",
+        "country": "UK",
+        "region": "England, Oxfordshire",
+        "latitude": 51.866669,
+        "longitude": -1.26667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Forest Marble",
+        "member": null,
+        "group": "Great Oolite"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 39075 to Late Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94561; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063029 records Ornithischia in collection 39075, linked by PBDB to reference 94561.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithischia indet. and the accepted name as Ornithischia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94561:occ:2063030",
+      "physical_key": "pbdb-occ:2063030",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Thyreophora",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063030",
+        "label": "PBDB occurrence 2063030"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 39075: Old Cement Works Quarry, near Kirtlington, Oxfordshire (Ordnance Survey Grid Reference SP 495200)",
+        "country": "UK",
+        "region": "England, Oxfordshire",
+        "latitude": 51.866669,
+        "longitude": -1.26667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Forest Marble",
+        "member": null,
+        "group": "Great Oolite"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 39075 to Late Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94561; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063030 records Thyreophora in collection 39075, linked by PBDB to reference 94561.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Thyreophora <indet. B> and the accepted name as Thyreophora.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94561:occ:2063031",
+      "physical_key": "pbdb-occ:2063031",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ankylosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063031",
+        "label": "PBDB occurrence 2063031"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 39075: Old Cement Works Quarry, near Kirtlington, Oxfordshire (Ordnance Survey Grid Reference SP 495200)",
+        "country": "UK",
+        "region": "England, Oxfordshire",
+        "latitude": 51.866669,
+        "longitude": -1.26667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Forest Marble",
+        "member": null,
+        "group": "Great Oolite"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 39075 to Late Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94561; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063031 records Ankylosauria in collection 39075, linked by PBDB to reference 94561.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ankylosauria indet. and the accepted name as Ankylosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

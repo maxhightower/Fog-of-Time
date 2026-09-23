@@ -1,0 +1,933 @@
+{
+  "schema_version": "fog-of-time.pbdb-import/v1",
+  "retrieved_at": "2026-09-23T14:08:38+00:00",
+  "source": "Paleobiology Database data1.2 API",
+  "source_occurrence_endpoint": "https://paleobiodb.org/data1.2/occs/list.csv",
+  "source_reference_endpoint": "https://paleobiodb.org/data1.2/refs/single.csv",
+  "requested_publications": 100,
+  "imported_publications": 100,
+  "imported_occurrences": 303,
+  "evidence_role": "secondary_citation",
+  "evidence_type": "fossil_occurrence",
+  "selection": {
+    "base_taxon": "Dinosauria",
+    "fossil_age_window_ma": [
+      252.0,
+      66.0
+    ],
+    "publication_types": [
+      "journal article",
+      "serial monograph"
+    ],
+    "max_occurrences_per_reference": 75,
+    "exclude_existing_dois_and_titles": true,
+    "append_safe": true,
+    "target_time_mix": {
+      "triassic": 0.2,
+      "jurassic": 0.3,
+      "cretaceous": 0.5
+    }
+  },
+  "references": [
+    {
+      "reference_id": 79967,
+      "title": "Saurischian dinosaur tracks from the Upper Triassic of southern Queensland: possible evidence for Australia’s earliest sauropodomorph trackmaker",
+      "year": 2021,
+      "doi": "10.1080/08912963.2021.1984447",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000079967.json"
+    },
+    {
+      "reference_id": 82147,
+      "title": "A sauropodomorph (Dinosauria, Saurischia) specimen from the Upper Triassic of southern Brazil and the early increase in size in Sauropodomorpha",
+      "year": 2021,
+      "doi": "10.1080/02724634.2021.2002879",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000082147.json"
+    },
+    {
+      "reference_id": 91778,
+      "title": "Taxonomic and phylogenetic reassessment of a large-bodied dinosaur from the earliest dinosaur-bearing beds (Carnian, Upper Triassic) from southern Brazil",
+      "year": 2021,
+      "doi": "10.1080/14772019.2021.1873433",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000091778.json"
+    },
+    {
+      "reference_id": 75605,
+      "title": "New dinosauromorph specimens from Petrified Forest National Park and a global biostratigraphic review of Triassic dinosauromorph body fossils",
+      "year": 2020,
+      "doi": "10.5070/p9371050859",
+      "occurrence_count": 20,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000075605.json"
+    },
+    {
+      "reference_id": 72985,
+      "title": "A derived sauropodiform dinosaur and other sauropodomorph material from the Late Triassic of Canton Schaffhausen, Switzerland",
+      "year": 2020,
+      "doi": "10.1186/s00015-020-00360-8",
+      "occurrence_count": 5,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000072985.json"
+    },
+    {
+      "reference_id": 70604,
+      "title": "New specimen sheds light on the anatomy and taxonomy of the early Late Triassic dinosauriforms from the Chañares Formation, NW Argentina",
+      "year": 2020,
+      "doi": "10.1002/ar.24243",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000070604.json"
+    },
+    {
+      "reference_id": 72974,
+      "title": "Kholumolumo ellenbergerorum, gen. et sp. nov., a new early sauropodomorph from the lower Elliot Formation (Upper Triassic) of Maphutseng, Lesotho",
+      "year": 2020,
+      "doi": "10.1080/02724634.2019.1732996",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000072974.json"
+    },
+    {
+      "reference_id": 73943,
+      "title": "A new phylogeny of cerapodan dinosaurs",
+      "year": 2020,
+      "doi": ".1080/08912963.2020.1793979",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000073943.json"
+    },
+    {
+      "reference_id": 74704,
+      "title": "A new theropod dinosaur from a peculiar Late Triassic assemblage of southern Brazil",
+      "year": 2020,
+      "doi": "10.1016/j.jsames.2020.103026",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000074704.json"
+    },
+    {
+      "reference_id": 75604,
+      "title": "Sacral co-ossification in dinosaurs: the oldest record of fused sacral vertebrae in Dinosauria and the diversity of sacral co-ossification patterns in the group",
+      "year": 2020,
+      "doi": "10.1111/joa.13356",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000075604.json"
+    },
+    {
+      "reference_id": 75731,
+      "title": "Postcranial osteology of the first early-stage juvenile skeleton of Plateosaurus trossingensis from the Norian of Frick, Switzerland",
+      "year": 2020,
+      "doi": "10.4202/app.00757.2020",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000075731.json"
+    },
+    {
+      "reference_id": 70805,
+      "title": "Non-dinosaurian dinosauromorphs from the Chinle Formation (Upper Triassic) of the Eagle Basin, northern Colorado: Dromomeron romeri (Lagerpetidae) and a new taxon, Kwanasaurus williamparkeri (Silesauridae)",
+      "year": 2019,
+      "doi": "10.7717/peerj.7551",
+      "occurrence_count": 8,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000070805.json"
+    },
+    {
+      "reference_id": 75613,
+      "title": "Redescription of the holotype specimen of Chindesaurus bryansmalli Long and Murry, 1995 (Dinosauria, Theropoda), from Petrified Forest National Park, Arizona",
+      "year": 2019,
+      "doi": "10.1080/02724634.2019.1645682",
+      "occurrence_count": 6,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000075613.json"
+    },
+    {
+      "reference_id": 69697,
+      "title": "A Triassic averostran-line theropod from Switzerland and the early evolution of dinosaurs",
+      "year": 2019,
+      "doi": "10.1038/s41559-019-0941-z",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000069697.json"
+    },
+    {
+      "reference_id": 71703,
+      "title": "Micro and mega-vertebrate fossils from the Late Triassic Tiki Formation, South Rewa Gondwana Basin, India: palaeoenvironmental and palaeobiogeographic implications",
+      "year": 2019,
+      "doi": "10.1177/0971102320190201",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000071703.json"
+    },
+    {
+      "reference_id": 65762,
+      "title": "A new dinosaur (Saurischia: Sauropodomorpha) from the Late Triassic of Brazil provides insights on the evolution of sauropodomorph body plan",
+      "year": 2019,
+      "doi": "10.1093/zoolinnean/zly028/5003418",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000065762.json"
+    },
+    {
+      "reference_id": 69707,
+      "title": "A new dinosaur with theropod affinities from the Late Triassic Santa Maria Formation, south Brazil",
+      "year": 2019,
+      "doi": "10.1080/02724634.2018.1531878",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000069707.json"
+    },
+    {
+      "reference_id": 69830,
+      "title": "A new clevosaurid from the Triassic (Carnian) of Brazil and the rise of sphenodontians in Gondwana",
+      "year": 2019,
+      "doi": "10.1038/s41598-019-48297-9",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000069830.json"
+    },
+    {
+      "reference_id": 71101,
+      "title": "Gnathovorax cabreirai: a new early dinosaur and the origin and initial radiation of predatory dinosaurs",
+      "year": 2019,
+      "doi": "10.7717/peerj.7963",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "triassic",
+      "file": "data/extracted/pbdb-ref-000071101.json"
+    },
+    {
+      "reference_id": 94633,
+      "title": "A new eusauropod (Dinosauria, Sauropodomorpha) from the Middle Jurassic of Gansu, China",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-03210-5",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000094633.json"
+    },
+    {
+      "reference_id": 94634,
+      "title": "A new metriacanthosaurid theropod dinosaur from the Middle Jurassic of Yunnan Province, China",
+      "year": 2025,
+      "doi": "10.7717/peerj.19218",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000094634.json"
+    },
+    {
+      "reference_id": 89148,
+      "title": "The complexity of tracking stegosaurs and their gregarious behavior",
+      "year": 2024,
+      "doi": "10.1038/s41598-024-64298-9",
+      "occurrence_count": 7,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000089148.json"
+    },
+    {
+      "reference_id": 88149,
+      "title": "A new stegosaurian dinosaur (Ornithischia: Thyreophora) with a remarkable dermal armour from the Middle Jurassic of North Africa",
+      "year": 2024,
+      "doi": "10.1016/j.gr.2024.03.009",
+      "occurrence_count": 4,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000088149.json"
+    },
+    {
+      "reference_id": 90751,
+      "title": "Chimerism in specimens referred to Saurophaganax maximus reveals a new species of Allosaurus (Dinosauria, Theropoda)",
+      "year": 2024,
+      "doi": "10.18435/vamp29404",
+      "occurrence_count": 4,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000090751.json"
+    },
+    {
+      "reference_id": 86968,
+      "title": "A Turiasaurian (Dinosauria, Sauropoda) Tooth from the Pliensbachian Hasle Formation of Bornholm, Denmark, Shows an Early Jurassic Origin of the Turiasauria",
+      "year": 2024,
+      "doi": "10.3390/d16010012",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000086968.json"
+    },
+    {
+      "reference_id": 87572,
+      "title": "In situ U-Pb dating of Jurassic dinosaur bones from Sichuan Basin, South China",
+      "year": 2024,
+      "doi": "10.1130/G51872.1",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000087572.json"
+    },
+    {
+      "reference_id": 87607,
+      "title": "The first mamenchisaurid from the Upper Jurassic Dongxing Formation of Guangxi, southernmost China",
+      "year": 2024,
+      "doi": "10.1080/08912963.2024.2309287",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000087607.json"
+    },
+    {
+      "reference_id": 88654,
+      "title": "The first occurrence of a basal tyrannosauroid in southeast Asia: dental evidence from the Upper Jurassic of northeastern Thailand",
+      "year": 2024,
+      "doi": null,
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000088654.json"
+    },
+    {
+      "reference_id": 88656,
+      "title": "An unexpected early-diverging iguanodontian dinosaur (Ornithischia, Ornithopoda) from the Upper Jurassic of Portugal",
+      "year": 2024,
+      "doi": "10.1080/02724634.2024.2310066",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000088656.json"
+    },
+    {
+      "reference_id": 88963,
+      "title": "A new stegosaur (Dinosauria: Ornithischia) from the Middle Jurassic of Gansu Province, China",
+      "year": 2024,
+      "doi": "10.1038/s41598-024-66280-x",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000088963.json"
+    },
+    {
+      "reference_id": 89242,
+      "title": "A new theropod dinosaur from the Callovian Balabansai Formation of Kyrgyzstan",
+      "year": 2024,
+      "doi": "10.1093/zoolinnean/zlae090",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000089242.json"
+    },
+    {
+      "reference_id": 89446,
+      "title": "A new diplodocine sauropod from the Morrison Formation, Wyoming, USA",
+      "year": 2024,
+      "doi": "10.26879/1380",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000089446.json"
+    },
+    {
+      "reference_id": 90003,
+      "title": "A revised name and new insights into the Middle Jurassic sauropod trackways from Portugal. A correction of Santos et al. 2009",
+      "year": 2024,
+      "doi": "10.4202/app.01167.2024",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000090003.json"
+    },
+    {
+      "reference_id": 90007,
+      "title": "Virtual skeleton and body mass for revealing the life strategies of Sinosaurus",
+      "year": 2024,
+      "doi": "10.1080/08912963.2024.2385615",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000090007.json"
+    },
+    {
+      "reference_id": 90508,
+      "title": "The largest sauropodomorph skull from the Lower Jurassic Lufeng Formation of China",
+      "year": 2024,
+      "doi": "10.7717/peerj.18629",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000090508.json"
+    },
+    {
+      "reference_id": 86556,
+      "title": "Bite and tooth marks on sauropod dinosaurs from the Morrison Formation",
+      "year": 2023,
+      "doi": "10.7717/peerj.16327",
+      "occurrence_count": 11,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000086556.json"
+    },
+    {
+      "reference_id": 94561,
+      "title": "A hidden diversity of ornithischian dinosaurs: U.K. Middle Jurassic microvertebrate faunas shed light on a poorly represented period",
+      "year": 2023,
+      "doi": "10.1080/02724634.2024.2323646",
+      "occurrence_count": 10,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000094561.json"
+    },
+    {
+      "reference_id": 85346,
+      "title": "New records of dinosaur tracks in eastern Tibet and a review of Middle Jurassic dinosaur faunas from the eastern Tethys, southwest China",
+      "year": 2023,
+      "doi": "10.1080/08912963.2023.2209784",
+      "occurrence_count": 6,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000085346.json"
+    },
+    {
+      "reference_id": 90821,
+      "title": "Stratigraphy, sedimentology, and paleoclimatic proxies of the Upper Jurassic Morrison Formation of central Montana",
+      "year": 2023,
+      "doi": "10.31711/giw.v10.pp223-276",
+      "occurrence_count": 5,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000090821.json"
+    },
+    {
+      "reference_id": 84200,
+      "title": "A glimpse through time: preliminary report of the Andre’s Alcove Tracksite, Lower Jurassic Navajo Sandstone, Glen Canyon National Recreation Area, Utah",
+      "year": 2023,
+      "doi": "10.36898/001c.73184",
+      "occurrence_count": 3,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000084200.json"
+    },
+    {
+      "reference_id": 84525,
+      "title": "A new specimen of Sinosaurus triassicus (Dinosauria: Theropoda) from the Early Jurassic of Lufeng, Yunnan, China",
+      "year": 2023,
+      "doi": "10.1080/08912963.2023.2190760",
+      "occurrence_count": 3,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000084525.json"
+    },
+    {
+      "reference_id": 85290,
+      "title": "Riches of the Roma valley: theropod and ornithischian tracks from the Early Jurassic southern Africa",
+      "year": 2023,
+      "doi": "10.1080/08912963.2023.2221306",
+      "occurrence_count": 3,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000085290.json"
+    },
+    {
+      "reference_id": 94121,
+      "title": "First record of a small stegosaur footprint (cf. Stegopodus) from the ?Upper Jurassic-?Lower Cretaceous red beds of the Middle Atlas, Morocco",
+      "year": 2023,
+      "doi": "10.1080/10420940.2023.2182299",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000094121.json"
+    },
+    {
+      "reference_id": 83820,
+      "title": "First theropod record from the marine Bathonian of Jaisalmer Basin, Tethyan coast of Gondwanan India",
+      "year": 2023,
+      "doi": "10.54103/2039-4942/18306",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000083820.json"
+    },
+    {
+      "reference_id": 83874,
+      "title": "Description of contents of unopened bamboo corsets and crates from Quarry Ig/WJ of the Tendaguru locality (Late Jurassic, Tanzania, East Africa) as revealed by medical CT data and the potential of this data under paleontological and historical aspects",
+      "year": 2023,
+      "doi": "10.26879/1231",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000083874.json"
+    },
+    {
+      "reference_id": 84172,
+      "title": "A new juvenile sauropod specimen from the Middle Jurassic Dongdaqiao Formation of East Tibet",
+      "year": 2023,
+      "doi": "10.7717/peerj.14982",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000084172.json"
+    },
+    {
+      "reference_id": 84658,
+      "title": "New sauropod remains from the Middle Jurassic Dongdaqiao Formation of Qamdo, eastern Tibet",
+      "year": 2023,
+      "doi": "10.1016/j.palwor.2023.02.002",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000084658.json"
+    },
+    {
+      "reference_id": 85282,
+      "title": "Osteohistology reveals the smallest adult Jurassic sauropodomorph",
+      "year": 2023,
+      "doi": "10.1098/rsos.221565",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000085282.json"
+    },
+    {
+      "reference_id": 85349,
+      "title": "A new basal neornithischian dinosaur from the Phu Kradung Formation (Upper Jurassic) of northeastern Thailand",
+      "year": 2023,
+      "doi": "10.3390/d15070851",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "jurassic",
+      "file": "data/extracted/pbdb-ref-000085349.json"
+    },
+    {
+      "reference_id": 91309,
+      "title": "Infernodrakon hastacollis \\n gen. et sp. nov., a new azhdarchid pterosaur from the Hell Creek Formation of Montana, and the pterosaur diversity of Maastrichtian North America",
+      "year": 2025,
+      "doi": "10.1080/02724634.2024.2442476",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000091309.json"
+    },
+    {
+      "reference_id": 91382,
+      "title": "Re-evaluation of the Bahariya Formation carcharodontosaurid (Dinosauria: Theropoda) and its implications for allosauroid phylogeny",
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0311096",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000091382.json"
+    },
+    {
+      "reference_id": 91519,
+      "title": "Didactyl therizinosaur with a preserved keratinous claw from the Late Cretaceous of Mongolia",
+      "year": 2025,
+      "doi": "10.1016/j.isci.2025.112141",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000091519.json"
+    },
+    {
+      "reference_id": 91774,
+      "title": "Two new specimens of Conchoraptor gracilis (Theropoda: Oviraptorosauria) from the Late Cretaceous of Mongolia",
+      "year": 2025,
+      "doi": "10.1206/4033.1",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000091774.json"
+    },
+    {
+      "reference_id": 91812,
+      "title": "New rebbachisaurid (Dinosauria, Sauropoda) from the Huincul Formation (upper Cenomanian-Turonian) of Villa El Chocón (Neuquén Province, Argentina)",
+      "year": 2025,
+      "doi": "10.1016/j.cretres.2025.106137",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000091812.json"
+    },
+    {
+      "reference_id": 92541,
+      "title": "Lower Cretaceous iguanodontian dinosaurs from the southwestern margin of Gondwana",
+      "year": 2025,
+      "doi": "10.1016/j.cretres.2024.105983",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000092541.json"
+    },
+    {
+      "reference_id": 92627,
+      "title": "A new bird-like dinosaur from the Upper Cretaceous of Mongolia with extremely robust hands supports niche partitioning among velociraptorines",
+      "year": 2025,
+      "doi": "10.1080/08912963.2025.2530148",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000092627.json"
+    },
+    {
+      "reference_id": 93097,
+      "title": "Latest Cretaceous megaraptorid theropod dinosaur sheds light on megaraptoran evolution and palaeobiology",
+      "year": 2025,
+      "doi": "10.1038/s41467-025-63793-5",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000093097.json"
+    },
+    {
+      "reference_id": 93147,
+      "title": "First occurrence of Daspletosaurus horneri (Tyrannosauridae, Tyrannosaurinae) in the Dinosaur Park Formation of Dinosaur Provincial Park, Alberta (Treaty 7 Territory)",
+      "year": 2025,
+      "doi": "10.1080/08912963.2025.2532735",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000093147.json"
+    },
+    {
+      "reference_id": 93160,
+      "title": "A new late Cretaceous abelisaurid species from La Rioja Province, Northwestern Argentina",
+      "year": 2025,
+      "doi": "10.5710/AMGH.24.09.2025.3653",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000093160.json"
+    },
+    {
+      "reference_id": 93175,
+      "title": "Cariocecus bocagei, a new basal hadrosauroid from the Lower Cretaceous of Portugal",
+      "year": 2025,
+      "doi": "10.1080/14772019",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000093175.json"
+    },
+    {
+      "reference_id": 93303,
+      "title": "Side by side with titans: A new rebbachisaurid dinosaur from the Huincul Formation (upper Cenomanian) of Patagonia, Argentina",
+      "year": 2025,
+      "doi": "10.1016/j.cretres.2025.106188",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000093303.json"
+    },
+    {
+      "reference_id": 93543,
+      "title": "A domed pachycephalosaur from the early Cretaceous of Mongolia",
+      "year": 2025,
+      "doi": "10.1038/s41586-025-09213-6",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000093543.json"
+    },
+    {
+      "reference_id": 93556,
+      "title": "The origins of neural spine elongation in iguanodontian dinosaurs and the osteology of a new sail‐back styracosternan (Dinosauria, Ornithischia) from the Lower Cretaceous Wealden Group of England",
+      "year": 2025,
+      "doi": "10.1002/spp2.70034",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000093556.json"
+    },
+    {
+      "reference_id": 93829,
+      "title": "The first record of theropod dinosaur remains from the Angostura Colorada and Coli Toro Formations (Campanian–Maastrichtian) in the Ingeniero Jacobacci area (Río Negro Province, Argentina)",
+      "year": 2025,
+      "doi": "10.5710/amgh.17.09.2025.3643",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000093829.json"
+    },
+    {
+      "reference_id": 93971,
+      "title": "Fossil vertebrates from the middle of the Graneros Shale (Upper Cretaceous: Middle Cenomanian), Russell County, Kansas, USA",
+      "year": 2025,
+      "doi": "10.1660/062.128.0110",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000093971.json"
+    },
+    {
+      "reference_id": 94268,
+      "title": "Fossil Reptiles from the Kuji Group (Late Cretaceous) of Iwate Prefecture, Japan",
+      "year": 2025,
+      "doi": null,
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000094268.json"
+    },
+    {
+      "reference_id": 94498,
+      "title": "U-Pb calcite age dating of fossil eggshell as an accurate deep time geochronometer",
+      "year": 2025,
+      "doi": "10.1038/s43247-025-02895-w",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000094498.json"
+    },
+    {
+      "reference_id": 94668,
+      "title": "A new gansuid bird (Avialae, Euornithes) from the Lower Cretaceous (Aptian) Jiufotang Formation of Jianchang, western Liaoning, China",
+      "year": 2025,
+      "doi": "10.1016/j.cretres.2024.106014",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000094668.json"
+    },
+    {
+      "reference_id": 94671,
+      "title": "A new small-bodied longipterygid (Aves: Enantiornithes) from the Aptian Jiufotang Formation preserving unusual gastroliths",
+      "year": 2025,
+      "doi": "10.26879/1589",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000094671.json"
+    },
+    {
+      "reference_id": 94696,
+      "title": "Articulated hindlimb of a small-bodied ornithopod dinosaur from the Cenomanian Griman Creek Formation of New South Wales, Australia",
+      "year": 2025,
+      "doi": "10.1080/03115518.2025.2537025",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000094696.json"
+    },
+    {
+      "reference_id": 95026,
+      "title": "A long-handed new ornithomimid dinosaur from the Campanian (Upper Cretaceous) Cerro del Pueblo Formation, Coahuila, Mexico",
+      "year": 2025,
+      "doi": "10.1016/j.cretres.2025.106087",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000095026.json"
+    },
+    {
+      "reference_id": 95028,
+      "title": "A new hadrosaurid dinosaur from the late Maastrichtian Phosphates of Morocco provides evidence for an African radiation of lambeosaurines",
+      "year": 2025,
+      "doi": "10.1016/j.gr.2025.05.006",
+      "occurrence_count": 1,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000095028.json"
+    },
+    {
+      "reference_id": 87541,
+      "title": "Biogeography of theropod dinosaurs during the Late Cretaceous: evidence from central South America",
+      "year": 2024,
+      "doi": "10.1093/zoolinnean/zlad184",
+      "occurrence_count": 30,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000087541.json"
+    },
+    {
+      "reference_id": 88408,
+      "title": "Reappraisal of sauropod dinosaur diversity in the Upper Cretaceous Winton Formation of Queensland, Australia, through 3D digitisation and description of new specimens",
+      "year": 2024,
+      "doi": "10.7717/peerj.17180",
+      "occurrence_count": 16,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000088408.json"
+    },
+    {
+      "reference_id": 88976,
+      "title": "A reassessment of the historical fossil findings from Bahia State (Northeast Brazil) reveals a diversified dinosaur fauna in the Lower Cretaceous of South America",
+      "year": 2024,
+      "doi": "10.1080/08912963.2024.2318406",
+      "occurrence_count": 11,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000088976.json"
+    },
+    {
+      "reference_id": 90009,
+      "title": "Dinosaur fauna from the Lower Cretaceous of Phu Kao-Phu Phan Kham, northeastern Thailand: a review and update",
+      "year": 2024,
+      "doi": "10.1016/j.palwor.2023.03.007",
+      "occurrence_count": 11,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000090009.json"
+    },
+    {
+      "reference_id": 86725,
+      "title": "Fossil vertebrates from the Cerro Fortaleza Formation (Upper Cretaceous), Santa Cruz Province, Argentina",
+      "year": 2024,
+      "doi": "10.1016/j.cretres.2023.105735",
+      "occurrence_count": 9,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000086725.json"
+    },
+    {
+      "reference_id": 92221,
+      "title": "Allosaurus europaeus (Theropoda: Allosauroidea) revisited and taxonomy of the genus",
+      "year": 2024,
+      "doi": "10.3390/d17010029",
+      "occurrence_count": 7,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000092221.json"
+    },
+    {
+      "reference_id": 93074,
+      "title": "Southernmost record of the pachycephalosaurine  Stygimoloch spinifer and palaeobiogeography of latest Cretaceous North American dinosaurs",
+      "year": 2024,
+      "doi": "10.18261/let.57.4.7",
+      "occurrence_count": 6,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000093074.json"
+    },
+    {
+      "reference_id": 88897,
+      "title": "A new semi‐fossorial thescelosaurine dinosaur from the Cenomanian‐age Mussentuchit Member of the Cedar Mountain Formation, Utah",
+      "year": 2024,
+      "doi": "10.1002/ar.25505",
+      "occurrence_count": 5,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000088897.json"
+    },
+    {
+      "reference_id": 93059,
+      "title": "A new thyreophoran ichnotaxon from British Columbia, Canada confirms the presence of ankylosaurid dinosaurs in the mid Cretaceous of North America",
+      "year": 2024,
+      "doi": "10.1080/02724634.2025.2451319",
+      "occurrence_count": 5,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000093059.json"
+    },
+    {
+      "reference_id": 89709,
+      "title": "Updating the Upper Cretaceous (Campanian) Two Medicine Formation of Montana: lithostratigraphic revisions, new CA-ID-TIMS U-Pb ages, and a calibrated framework for dinosaur occurrences",
+      "year": 2024,
+      "doi": "10.1130/B37498.1",
+      "occurrence_count": 4,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000089709.json"
+    },
+    {
+      "reference_id": 91078,
+      "title": "Theropod dinosaur diversity of the lower English Wealden: analysis of a tooth‐based fauna from the Wadhurst Clay Formation (Lower Cretaceous: Valanginian) via phylogenetic, discriminant and machine learning methods",
+      "year": 2024,
+      "doi": "10.1002/spp2.1604",
+      "occurrence_count": 4,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000091078.json"
+    },
+    {
+      "reference_id": 95082,
+      "title": "Polar dinosaur tracks of the Wonthaggi Formation (Lower Cretaceous), Victoria, Australia and their palaeontological significance",
+      "year": 2024,
+      "doi": "10.1080/03115518.2024.2392498",
+      "occurrence_count": 4,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000095082.json"
+    },
+    {
+      "reference_id": 87570,
+      "title": "A new small duckbilled dinosaur (Hadrosauridae: Lambeosaurinae) from Morocco and dinosaur diversity in the late Maastrichtian of North Africa",
+      "year": 2024,
+      "doi": "10.1038/s41598-024-53447-9",
+      "occurrence_count": 3,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000087570.json"
+    },
+    {
+      "reference_id": 88651,
+      "title": "Diuqin lechiguanae gen. et sp. nov., a new unenlagiine (Theropoda: Paraves) from the Bajo de la Carpa Formation (Neuquén Group, Upper Cretaceous) of Neuquén Province, Patagonia, Argentina",
+      "year": 2024,
+      "doi": "10.1186/s12862-024-02247-w",
+      "occurrence_count": 3,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000088651.json"
+    },
+    {
+      "reference_id": 91084,
+      "title": "Immature Daspletosaurus sp. specimens from the Dinosaur Park Formation provide insight into ontogenetically invariant tyrannosaurid cranial morphology",
+      "year": 2024,
+      "doi": "10.1139/cjes-2024-0083",
+      "occurrence_count": 3,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000091084.json"
+    },
+    {
+      "reference_id": 82039,
+      "title": "New caenagnathid (Theropoda: Oviraptorosauria) dinosaur specimens from\\r\\nmiddle and upper Campanian strata of West Texas",
+      "year": 2024,
+      "doi": "10.1016/j.geobios.2023.08.002",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000082039.json"
+    },
+    {
+      "reference_id": 85869,
+      "title": "New sauropod dinosaur from the Lower Cretaceous of Morella (Spain) provides new insights on the evolutionary history of Iberian somphospondylan titanosauriforms",
+      "year": 2024,
+      "doi": "10.1093/zoolinnean/zlad124",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000085869.json"
+    },
+    {
+      "reference_id": 87060,
+      "title": "The last of the oldies: a basal rebbachisaurid (Sauropoda, Diplodocoidea) from the\\r\\nearly Late Cretaceous (Cenomanian–Turonian) of Patagonia, Argentina",
+      "year": 2024,
+      "doi": "10.1080/08912963.2023.2297914",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000087060.json"
+    },
+    {
+      "reference_id": 87238,
+      "title": "A new titanosaurian sauropod, Gandititan cavocaudatus gen. et sp. nov., from the Late Cretaceous of southern China",
+      "year": 2024,
+      "doi": "10.1080/14772019.2023.2293038",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000087238.json"
+    },
+    {
+      "reference_id": 87407,
+      "title": "A giant tyrannosaur from the Campanian–Maastrichtian of southern North America and the evolution of tyrannosaurid gigantism",
+      "year": 2024,
+      "doi": "10.1038/s41598-023-47011-0",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000087407.json"
+    },
+    {
+      "reference_id": 87482,
+      "title": "Rhabdodontid (Dinosauria, Ornithopoda) diversity suggested by the first documented occurrence of associated cranial and postcranial material at Vălioara (uppermost Cretaceous Densuș-Ciula Formation, Hațeg Basin, Romania)",
+      "year": 2024,
+      "doi": "10.1016/j.cretres.2023.105810",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000087482.json"
+    },
+    {
+      "reference_id": 88468,
+      "title": "The last ceratosaur of Asia: a new noasaurid from the Early Cretaceous Great Siberian Refugium",
+      "year": 2024,
+      "doi": "10.1098/rspb.2024.0537",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000088468.json"
+    },
+    {
+      "reference_id": 88932,
+      "title": "Comptonatus chasei, a new iguanodontian dinosaur from the Lower Cretaceous Wessex Formation of the Isle of Wight, southern England",
+      "year": 2024,
+      "doi": "10.1080/14772019.2024.2346573",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000088932.json"
+    },
+    {
+      "reference_id": 89007,
+      "title": "Large theropod teeth from the Upper Cretaceous of Guangdong Province, Southern China",
+      "year": 2024,
+      "doi": "10.1016/j.cretres.2024.105914",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000089007.json"
+    },
+    {
+      "reference_id": 89297,
+      "title": "Caletodraco cottardi: A New Furileusaurian Abelisaurid (Dinosauria: Theropoda) from the Cenomanian Chalk of Normandy (North-Western France)",
+      "year": 2024,
+      "doi": "10.3390/fossils2030009",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000089297.json"
+    },
+    {
+      "reference_id": 89723,
+      "title": "A megaraptorid (Dinosauria: Theropoda) frontal from the upper Strzelecki Group (Lower Cretaceous) of Victoria, Australia",
+      "year": 2024,
+      "doi": "10.1016/j.cretres.2023.105769",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000089723.json"
+    },
+    {
+      "reference_id": 90008,
+      "title": "A new ichnosite and ichnogenus from the Lower Cretaceous Rio do Peixe Basin, Brazil, with novel insights into the evolution of Titanosauriformes",
+      "year": 2024,
+      "doi": "10.1080/08912963.2024.2385613",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000090008.json"
+    },
+    {
+      "reference_id": 90562,
+      "title": "Coahuilasaurus lipani, a New Kritosaurin Hadrosaurid from the Upper Campanian Cerro Del Pueblo Formation, Northern Mexico",
+      "year": 2024,
+      "doi": "10.3390/d16090531",
+      "occurrence_count": 2,
+      "fossil_time_bucket": "cretaceous",
+      "file": "data/extracted/pbdb-ref-000090562.json"
+    }
+  ]
+}

@@ -1,0 +1,852 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:88408",
+    "doi": "10.7717/peerj.17180",
+    "title": "Reappraisal of sauropod dinosaur diversity in the Upper Cretaceous Winton Formation of Queensland, Australia, through 3D digitisation and description of new specimens",
+    "year": 2024,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.17180",
+    "authors": [
+      "S. L. Beeston",
+      "S. F. Poropat",
+      "P. D. Mannion, A. H. Pentland, M. J. Enchelmaier, T. Sloan, D. A. Elliott"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:88408:occ:591690",
+      "physical_key": "pbdb-occ:591690",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diamantinasauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "591690",
+        "label": "PBDB occurrence 591690"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 62553: on a sheep station ca. 70 km NE of Winton; in the \"Elliot/Mary sector\" of the \"Elliot Site\"",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -22.348333,
+        "longitude": 143.089172,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": "Rolling Downs"
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 62553 to Late Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 591690 records Diamantinasauria in collection 62553, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Diamantinasauria indet. and the accepted name as Diamantinasauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1145035",
+      "physical_key": "pbdb-occ:1145035",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Savannasaurus elliottorum",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1145035",
+        "label": "PBDB occurrence 1145035"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 62553: on a sheep station ca. 70 km NE of Winton; in the \"Elliot/Mary sector\" of the \"Elliot Site\"",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -22.348333,
+        "longitude": 143.089172,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": "Rolling Downs"
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 62553 to Late Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1145035 records Savannasaurus elliottorum in collection 62553, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1562036",
+      "physical_key": "pbdb-occ:1562036",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Wintonotitan wattsi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1562036",
+        "label": "PBDB occurrence 1562036"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 220530: 80–90 kilometres (km) west of the township of Eromanga on Plevna Downs Station",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -26.681667,
+        "longitude": 142.593613,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": "Rolling Downs"
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 220530 to Late Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1562036 records Wintonotitan wattsi in collection 220530, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1654698",
+      "physical_key": "pbdb-occ:1654698",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diamantinasaurus matildae",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1654698",
+        "label": "PBDB occurrence 1654698"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 234749: 22°4′46.27″S, 143°30′37.60″E, ~60 km northeast of Winton, Queensland, Australia",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -22.079721,
+        "longitude": 143.510559,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 234749 to Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1654698 records Diamantinasaurus matildae in collection 234749, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1654699",
+      "physical_key": "pbdb-occ:1654699",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diamantinasaurus matildae",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1654699",
+        "label": "PBDB occurrence 1654699"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 234750",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -22.290556,
+        "longitude": 142.471939,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 234750 to Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1654699 records Diamantinasaurus matildae in collection 234750, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1654700",
+      "physical_key": "pbdb-occ:1654700",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Savannasaurus elliottorum",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1654700",
+        "label": "PBDB occurrence 1654700"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 234751",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -22.290556,
+        "longitude": 142.471939,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 234751 to Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1654700 records Savannasaurus elliottorum in collection 234751, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1654701",
+      "physical_key": "pbdb-occ:1654701",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diamantinasauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1654701",
+        "label": "PBDB occurrence 1654701"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 220530: 80–90 kilometres (km) west of the township of Eromanga on Plevna Downs Station",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -26.681667,
+        "longitude": 142.593613,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": "Rolling Downs"
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 220530 to Late Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1654701 records Diamantinasauria in collection 220530, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Diamantinasauria indet. and the accepted name as Diamantinasauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1654703",
+      "physical_key": "pbdb-occ:1654703",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Wintonotitan wattsi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1654703",
+        "label": "PBDB occurrence 1654703"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 234752: 65 m to the southwest of EML013",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -26.681667,
+        "longitude": 142.593613,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": "Rolling Downs"
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 234752 to Late Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1654703 records Wintonotitan wattsi in collection 234752, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1654704",
+      "physical_key": "pbdb-occ:1654704",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Wintonotitan wattsi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1654704",
+        "label": "PBDB occurrence 1654704"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 153780",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -22.079445,
+        "longitude": 143.510284,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 153780 to Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1654704 records Wintonotitan wattsi in collection 153780, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1654705",
+      "physical_key": "pbdb-occ:1654705",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Wintonotitan wattsi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1654705",
+        "label": "PBDB occurrence 1654705"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 62553: on a sheep station ca. 70 km NE of Winton; in the \"Elliot/Mary sector\" of the \"Elliot Site\"",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -22.348333,
+        "longitude": 143.089172,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": "Rolling Downs"
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 62553 to Late Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1654705 records Wintonotitan wattsi in collection 62553, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1654706",
+      "physical_key": "pbdb-occ:1654706",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Wintonotitan wattsi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1654706",
+        "label": "PBDB occurrence 1654706"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 167927: Lovelle Downs Station (22°8′45.92″S, 142°32′10.39″E), ~60 km west-northwest of Winton, Queensland, Australia",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -22.146111,
+        "longitude": 142.536118,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 167927 to Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1654706 records Wintonotitan wattsi in collection 167927, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1654707",
+      "physical_key": "pbdb-occ:1654707",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diamantinasauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1654707",
+        "label": "PBDB occurrence 1654707"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 113321: Discovered on a property west of Winton, Queensland. The AODL 0049 site has never been excavated, and its geological setting remains unconstrained",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -22.383057,
+        "longitude": 142.941391,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 113321 to Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1654707 records Diamantinasauria in collection 113321, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Diamantinasauria indet. and the accepted name as Diamantinasauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1654708",
+      "physical_key": "pbdb-occ:1654708",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diamantinasauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1654708",
+        "label": "PBDB occurrence 1654708"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 114108",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -22.290556,
+        "longitude": 142.471939,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 114108 to Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1654708 records Diamantinasauria in collection 114108, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Diamantinasauria indet. and the accepted name as Diamantinasauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1654709",
+      "physical_key": "pbdb-occ:1654709",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diamantinasauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1654709",
+        "label": "PBDB occurrence 1654709"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 115408",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -22.290556,
+        "longitude": 142.471939,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 115408 to Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1654709 records Diamantinasauria in collection 115408, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Diamantinasauria indet. and the accepted name as Diamantinasauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1654710",
+      "physical_key": "pbdb-occ:1654710",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diamantinasauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1654710",
+        "label": "PBDB occurrence 1654710"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 123269",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -22.290556,
+        "longitude": 142.471939,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 123269 to Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1654710 records Diamantinasauria in collection 123269, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Diamantinasauria indet. and the accepted name as Diamantinasauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88408:occ:1654711",
+      "physical_key": "pbdb-occ:1654711",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diamantinasauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1654711",
+        "label": "PBDB occurrence 1654711"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 193756",
+        "country": "AU",
+        "region": "Queensland",
+        "latitude": -22.079445,
+        "longitude": 143.510559,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 89.8,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 193756 to Cenomanian–Early Turonian with numeric bounds 100.5–89.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88408; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1654711 records Diamantinasauria in collection 193756, linked by PBDB to reference 88408.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Diamantinasauria indet. and the accepted name as Diamantinasauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:88897",
+    "doi": "10.1002/ar.25505",
+    "title": "A new semi‐fossorial thescelosaurine dinosaur from the Cenomanian‐age Mussentuchit Member of the Cedar Mountain Formation, Utah",
+    "year": 2024,
+    "journal": "The Anatomical Record",
+    "url": "https://doi.org/10.1002/ar.25505",
+    "authors": [
+      "H. M. Avrahami",
+      "P. J. Makovicky",
+      "R. T. Tucker, L. E. Zanno"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:88897:occ:1614874",
+      "physical_key": "pbdb-occ:1614874",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Fona herzogae",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1614874",
+        "label": "PBDB occurrence 1614874"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 228453: vicinity of Mussentuchit Wash",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.706299,
+        "longitude": -111.1978,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 228453 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88897; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1614874 records Fona herzogae in collection 228453, linked by PBDB to reference 88897.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88897:occ:1659646",
+      "physical_key": "pbdb-occ:1659646",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Fona herzogae",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1659646",
+        "label": "PBDB occurrence 1659646"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235540: W of Mini Troll site",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.701111,
+        "longitude": -111.206108,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235540 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88897; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1659646 records Fona herzogae in collection 235540, linked by PBDB to reference 88897.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Fona herzogae n. gen. n. sp. and the accepted name as Fona herzogae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88897:occ:1659867",
+      "physical_key": "pbdb-occ:1659867",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Fona herzogae",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1659867",
+        "label": "PBDB occurrence 1659867"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235574",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.658054,
+        "longitude": -111.23333,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235574 to Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88897; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1659867 records Fona herzogae in collection 235574, linked by PBDB to reference 88897.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88897:occ:1659881",
+      "physical_key": "pbdb-occ:1659881",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Thescelosaurinae",
+        "rank": "subfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1659881",
+        "label": "PBDB occurrence 1659881"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235578",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.625557,
+        "longitude": -111.252502,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235578 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88897; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1659881 records Thescelosaurinae in collection 235578, linked by PBDB to reference 88897.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Thescelosaurinae indet. and the accepted name as Thescelosaurinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88897:occ:1659886",
+      "physical_key": "pbdb-occ:1659886",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Thescelosaurinae",
+        "rank": "subfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1659886",
+        "label": "PBDB occurrence 1659886"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235579: near N end of exposures of unit in this area",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 39.124168,
+        "longitude": -110.854721,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235579 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88897; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1659886 records Thescelosaurinae in collection 235579, linked by PBDB to reference 88897.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Thescelosaurinae indet. and the accepted name as Thescelosaurinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

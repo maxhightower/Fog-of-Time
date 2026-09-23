@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:73943",
+    "doi": ".1080/08912963.2020.1793979",
+    "title": "A new phylogeny of cerapodan dinosaurs",
+    "year": 2020,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/.1080/08912963.2020.1793979",
+    "authors": [
+      "P.-E. Dieudonné",
+      "P. Cruzado-Caballero",
+      "P. Godefroit, T. Tortosa"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:73943:occ:1104619",
+      "physical_key": "pbdb-occ:1104619",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Heterodontosaurinae",
+        "rank": "subfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1104619",
+        "label": "PBDB occurrence 1104619"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 139580: stratotype area of Laguna La Colorada (= Laguna Colorada), Estancia Cañadón Largo, N-central Santa Cruz, Patagonia",
+        "country": "AR",
+        "region": "Santa Cruz",
+        "latitude": -48.099998,
+        "longitude": -68.300003,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Laguna Colorada",
+        "member": null,
+        "group": "El Tranquilo"
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 139580 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 73943; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1104619 records Heterodontosaurinae in collection 139580, linked by PBDB to reference 73943.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Heterodontosaurinae indet. and the accepted name as Heterodontosaurinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

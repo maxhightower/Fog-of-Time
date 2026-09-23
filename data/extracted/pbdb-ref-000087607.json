@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:87607",
+    "doi": "10.1080/08912963.2024.2309287",
+    "title": "The first mamenchisaurid from the Upper Jurassic Dongxing Formation of Guangxi, southernmost China",
+    "year": 2024,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2024.2309287",
+    "authors": [
+      "X.-X. Ren",
+      "X.-R. Wang",
+      "Y.-N. Ji, Z. Guo, q. jI"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:87607:occ:1647117",
+      "physical_key": "pbdb-occ:1647117",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Jingiella dongxingensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1647117",
+        "label": "PBDB occurrence 1647117"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 233635: Nanmushan village, Dongxing Town, Dongxing City, Guangxi Zhuang Autonomous Region, South China",
+        "country": "CN",
+        "region": "Guangxi Zhuang",
+        "latitude": 21.547777,
+        "longitude": 107.971664,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dongxing",
+        "member": "Lower",
+        "group": null
+      },
+      "age": {
+        "min_ma": 149.2,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 233635 to Kimmeridgian with numeric bounds 154.8–149.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 87607; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1647117 records Jingiella dongxingensis in collection 233635, linked by PBDB to reference 87607.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Jingia dongxingensis n. gen. n. sp. and the accepted name as Jingiella dongxingensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

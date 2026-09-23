@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:83820",
+    "doi": "10.54103/2039-4942/18306",
+    "title": "First theropod record from the marine Bathonian of Jaisalmer Basin, Tethyan coast of Gondwanan India",
+    "year": 2023,
+    "journal": "Rivista Italiana di Paleontologia e Stratigrafia",
+    "url": "https://doi.org/10.54103/2039-4942/18306",
+    "authors": [
+      "A. Sharma",
+      "C. Hendrickx",
+      "S. Singh"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:83820:occ:1619806",
+      "physical_key": "pbdb-occ:1619806",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Averostra",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1619806",
+        "label": "PBDB occurrence 1619806"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 229089: \"from a building stone quarry near Chandoo Village. This 8 m deep building stone quarry is located 23 km NE of the Jaisalmer town and 500 m south of Chandoo village on Jethwai-Kanod road\"; also located \"2 km SW of Joshianwala Gaon.\"",
+        "country": "IN",
+        "region": "Rajasthan",
+        "latitude": 27.055201,
+        "longitude": 71.005798,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Jaisalmer",
+        "member": "Fort",
+        "group": null
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 229089 to Early Bathonian–Middle Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 83820; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1619806 records Averostra in collection 229089, linked by PBDB to reference 83820.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Averostra indet. and the accepted name as Averostra.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

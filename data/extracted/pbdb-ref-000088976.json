@@ -1,0 +1,635 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:88976",
+    "doi": "10.1080/08912963.2024.2318406",
+    "title": "A reassessment of the historical fossil findings from Bahia State (Northeast Brazil) reveals a diversified dinosaur fauna in the Lower Cretaceous of South America",
+    "year": 2024,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2024.2318406",
+    "authors": [
+      "K. L. N. Bandeira",
+      "B. A. Navarro",
+      "R. V. Pêgas, N. S. Brilhante, A. S. Brum, L. G. de Souza, R. C. da Silva, V. Gallo"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:88976:occ:513245",
+      "physical_key": "pbdb-occ:513245",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Styracosterna",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "513245",
+        "label": "PBDB occurrence 513245"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 51911: Montserrate cliff, along cost NW of Bahia (city), about 2 miles W of the \"Gneiss Hills\", close to the beaches of Pedra Furada Bay, Salvador City",
+        "country": "BR",
+        "region": "Bahia",
+        "latitude": -12.928611,
+        "longitude": -38.514442,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Marfim",
+        "member": null,
+        "group": "Ilhas"
+      },
+      "age": {
+        "min_ma": 125.77,
+        "max_ma": 137.05,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 51911 to Valanginian–Hauterivian with numeric bounds 137.05–125.77 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88976; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 513245 records Styracosterna in collection 51911, linked by PBDB to reference 88976.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Styracosterna indet. and the accepted name as Styracosterna.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88976:occ:533568",
+      "physical_key": "pbdb-occ:533568",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Styracosterna",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "533568",
+        "label": "PBDB occurrence 533568"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 55209: Coordinates based on town of Mapele; from the Mapelle Quarry",
+        "country": "BR",
+        "region": "Bahia",
+        "latitude": -12.783333,
+        "longitude": -38.433334,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Salvador",
+        "member": null,
+        "group": "Massacará"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 143.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 55209 to Berriasian–Barremian with numeric bounds 143.1–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88976; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 533568 records Styracosterna in collection 55209, linked by PBDB to reference 88976.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Styracosterna indet. and the accepted name as Styracosterna.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88976:occ:1660209",
+      "physical_key": "pbdb-occ:1660209",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Tietasaura derbyiana",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1660209",
+        "label": "PBDB occurrence 1660209"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235693: \"A beach near the Plataforma Station (Locality 3), Salvador City, Bahia State\", km 6 on the Bahia-São Francisco Railway",
+        "country": "BR",
+        "region": "Bahia",
+        "latitude": -12.901111,
+        "longitude": -38.485558,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Marfim",
+        "member": null,
+        "group": "Ilhas"
+      },
+      "age": {
+        "min_ma": 125.77,
+        "max_ma": 137.05,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235693 to Valanginian–Hauterivian with numeric bounds 137.05–125.77 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88976; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1660209 records Tietasaura derbyiana in collection 235693, linked by PBDB to reference 88976.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Tietasaura derbyiana n. gen. n. sp. and the accepted name as Tietasaura derbyiana.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88976:occ:1674426",
+      "physical_key": "pbdb-occ:1674426",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Styracosterna",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674426",
+        "label": "PBDB occurrence 1674426"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235693: \"A beach near the Plataforma Station (Locality 3), Salvador City, Bahia State\", km 6 on the Bahia-São Francisco Railway",
+        "country": "BR",
+        "region": "Bahia",
+        "latitude": -12.901111,
+        "longitude": -38.485558,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Marfim",
+        "member": null,
+        "group": "Ilhas"
+      },
+      "age": {
+        "min_ma": 125.77,
+        "max_ma": 137.05,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235693 to Valanginian–Hauterivian with numeric bounds 137.05–125.77 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88976; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674426 records Styracosterna in collection 235693, linked by PBDB to reference 88976.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Styracosterna indet. and the accepted name as Styracosterna.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88976:occ:1674427",
+      "physical_key": "pbdb-occ:1674427",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Lithostrotia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674427",
+        "label": "PBDB occurrence 1674427"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 203352: beach outcrops near Itacaranha",
+        "country": "BR",
+        "region": "Bahia",
+        "latitude": -12.888333,
+        "longitude": -38.481667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pojuca",
+        "member": null,
+        "group": "Ilhas"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 132.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 203352 to Hauterivian–Barremian with numeric bounds 132.6–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88976; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674427 records Lithostrotia in collection 203352, linked by PBDB to reference 88976.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Lithostrotia indet. and the accepted name as Lithostrotia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88976:occ:1674429",
+      "physical_key": "pbdb-occ:1674429",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Carcharodontosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674429",
+        "label": "PBDB occurrence 1674429"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 203352: beach outcrops near Itacaranha",
+        "country": "BR",
+        "region": "Bahia",
+        "latitude": -12.888333,
+        "longitude": -38.481667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pojuca",
+        "member": null,
+        "group": "Ilhas"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 132.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 203352 to Hauterivian–Barremian with numeric bounds 132.6–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88976; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674429 records Carcharodontosauria in collection 203352, linked by PBDB to reference 88976.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as aff. Carcharodontosauria indet. and the accepted name as Carcharodontosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88976:occ:1674430",
+      "physical_key": "pbdb-occ:1674430",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Averostra",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674430",
+        "label": "PBDB occurrence 1674430"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 94537: beach between Plataforma and Itacaranha, Pedra Furada Bay",
+        "country": "BR",
+        "region": "Bahia",
+        "latitude": -12.911111,
+        "longitude": -38.5,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": "Ilhas"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 132.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 94537 to Late Hauterivian–Early Barremian with numeric bounds 132.6–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88976; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674430 records Averostra in collection 94537, linked by PBDB to reference 88976.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Averostra indet. and the accepted name as Averostra.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88976:occ:1674431",
+      "physical_key": "pbdb-occ:1674431",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Spinosauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674431",
+        "label": "PBDB occurrence 1674431"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 94537: beach between Plataforma and Itacaranha, Pedra Furada Bay",
+        "country": "BR",
+        "region": "Bahia",
+        "latitude": -12.911111,
+        "longitude": -38.5,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": "Ilhas"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 132.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 94537 to Late Hauterivian–Early Barremian with numeric bounds 132.6–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88976; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674431 records Spinosauridae in collection 94537, linked by PBDB to reference 88976.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as aff. Spinosauridae indet. and the accepted name as Spinosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88976:occ:1674432",
+      "physical_key": "pbdb-occ:1674432",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Carcharodontosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674432",
+        "label": "PBDB occurrence 1674432"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 94537: beach between Plataforma and Itacaranha, Pedra Furada Bay",
+        "country": "BR",
+        "region": "Bahia",
+        "latitude": -12.911111,
+        "longitude": -38.5,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": "Ilhas"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 132.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 94537 to Late Hauterivian–Early Barremian with numeric bounds 132.6–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88976; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674432 records Carcharodontosauria in collection 94537, linked by PBDB to reference 88976.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as aff. Carcharodontosauria indet. and the accepted name as Carcharodontosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88976:occ:1674433",
+      "physical_key": "pbdb-occ:1674433",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Neosauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674433",
+        "label": "PBDB occurrence 1674433"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 55209: Coordinates based on town of Mapele; from the Mapelle Quarry",
+        "country": "BR",
+        "region": "Bahia",
+        "latitude": -12.783333,
+        "longitude": -38.433334,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Salvador",
+        "member": null,
+        "group": "Massacará"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 143.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 55209 to Berriasian–Barremian with numeric bounds 143.1–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88976; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674433 records Neosauropoda in collection 55209, linked by PBDB to reference 88976.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Neosauropoda indet. and the accepted name as Neosauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88976:occ:1674434",
+      "physical_key": "pbdb-occ:1674434",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Tyrannosauroidea",
+        "rank": "superfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674434",
+        "label": "PBDB occurrence 1674434"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 55209: Coordinates based on town of Mapele; from the Mapelle Quarry",
+        "country": "BR",
+        "region": "Bahia",
+        "latitude": -12.783333,
+        "longitude": -38.433334,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Salvador",
+        "member": null,
+        "group": "Massacará"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 143.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 55209 to Berriasian–Barremian with numeric bounds 143.1–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88976; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674434 records Tyrannosauroidea in collection 55209, linked by PBDB to reference 88976.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Tyrannosauroidea indet. and the accepted name as Tyrannosauroidea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

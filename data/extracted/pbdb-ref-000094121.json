@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94121",
+    "doi": "10.1080/10420940.2023.2182299",
+    "title": "First record of a small stegosaur footprint (cf. Stegopodus) from the ?Upper Jurassic-?Lower Cretaceous red beds of the Middle Atlas, Morocco",
+    "year": 2023,
+    "journal": "Ichnos",
+    "url": "https://doi.org/10.1080/10420940.2023.2182299",
+    "authors": [
+      "M. Oukassou",
+      "O. Zafaty",
+      "G. D. Gierliński, H. Klein, H. Saber, M. Amzil, A. Charrière"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94121:occ:544554",
+      "physical_key": "pbdb-occ:544554",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Shenmuichnus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "544554",
+        "label": "PBDB occurrence 544554"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 56965: lower outcrop at Gromadzice, central part of basin of Holy Cross Mountains, on the bank of the Kamionka River",
+        "country": "PL",
+        "region": "Swietokrzyskie",
+        "latitude": 50.883301,
+        "longitude": 21.3333,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Zagaje",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 199.5,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 56965 to Early Hettangian–Middle Hettangian with numeric bounds 201.4–199.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94121; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 544554 records Shenmuichnus in collection 56965, linked by PBDB to reference 94121.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Shenmuichnus sp. and the accepted name as Shenmuichnus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94121:occ:1660443",
+      "physical_key": "pbdb-occ:1660443",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Stegopodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1660443",
+        "label": "PBDB occurrence 1660443"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235722: The fossil site HIIUC-BN was discovered in rocks of the El Mers III Formation in the northern Boulahfa locality, near Boulemane, Middle Atlas of Morocco (GPS coordinates: 33.320520N; 4.712273W).\\n\"The locality is positioned at 33° 32′ 55\" N, 4° 71′ 37\" W, approximately 5 km southeast of Boulemane, folded Middle Atlas\"",
+        "country": "MA",
+        "region": "Fès-Meknes, Boulemane",
+        "latitude": 33.320518,
+        "longitude": -4.712273,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Oued El Atchane",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 161.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235722 to Late Jurassic–Early Cretaceous with numeric bounds 161.5–100.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94121; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1660443 records Stegopodus in collection 235722, linked by PBDB to reference 94121.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Stegopodus sp. and the accepted name as Stegopodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

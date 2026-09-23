@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93543",
+    "doi": "10.1038/s41586-025-09213-6",
+    "title": "A domed pachycephalosaur from the early Cretaceous of Mongolia",
+    "year": 2025,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/s41586-025-09213-6",
+    "authors": [
+      "T. Chinzorig",
+      "R. Takasaki",
+      "J. Yoshida, R. T. Tucker, B. Buyantegsh, B. Mainbayar, K. Tsogtbaatar, L. E. Zanno"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93543:occ:2043149",
+      "physical_key": "pbdb-occ:2043149",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Zavacephale rinpoche",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2043149",
+        "label": "PBDB occurrence 2043149"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276014: outcrops of Khuren Dukh, Eastern Gobi Basin",
+        "country": "MN",
+        "region": "Dornogov",
+        "latitude": 45.849998,
+        "longitude": 108.446671,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khuren Dukh",
+        "member": "Lower",
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 119.57,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276014 to Late Aptian–Late Albian with numeric bounds 119.57–100.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93543; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2043149 records Zavacephale rinpoche in collection 276014, linked by PBDB to reference 93543.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Zavacephale rinpoche n. gen. n. sp. and the accepted name as Zavacephale rinpoche.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

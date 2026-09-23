@@ -1,0 +1,278 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93059",
+    "doi": "10.1080/02724634.2025.2451319",
+    "title": "A new thyreophoran ichnotaxon from British Columbia, Canada confirms the presence of ankylosaurid dinosaurs in the mid Cretaceous of North America",
+    "year": 2024,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2025.2451319",
+    "authors": [
+      "V. M. Arbour",
+      "M. G. Lockley",
+      "E. Drysdale, R. Rule, C. W. Helm"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93059:occ:1529058",
+      "physical_key": "pbdb-occ:1529058",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ruopodosaurus clava",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1529058",
+        "label": "PBDB occurrence 1529058"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 214463: two sites along banks of Wolverine River, near Tumbler Ridge",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 55.059307,
+        "longitude": -120.910233,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dunvegan",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 214463 to Early Cenomanian–Middle Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93059; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1529058 records Ruopodosaurus clava in collection 214463, linked by PBDB to reference 93059.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ruopodosaurus clava n. gen. n. sp. and the accepted name as Ruopodosaurus clava.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93059:occ:1529127",
+      "physical_key": "pbdb-occ:1529127",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ruopodosaurus clava",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1529127",
+        "label": "PBDB occurrence 1529127"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 214490: Everlasting Creek (informal name), near (and tributary of) Wolverine River, Tumbler Ridge",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 55.059307,
+        "longitude": -120.910233,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dunvegan",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 214490 to Early Cenomanian–Middle Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93059; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1529127 records Ruopodosaurus clava in collection 214490, linked by PBDB to reference 93059.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93059:occ:1709288",
+      "physical_key": "pbdb-occ:1709288",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ruopodosaurus clava",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1709288",
+        "label": "PBDB occurrence 1709288"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 242315: two sites along Bullmoose Creek, a larger tributary of the Wolverine River.",
+        "country": "CA",
+        "region": "British Columbia",
+        "latitude": 55.174999,
+        "longitude": -121.089996,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Kaskapau",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 242315 to Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93059; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1709288 records Ruopodosaurus clava in collection 242315, linked by PBDB to reference 93059.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93059:occ:1709289",
+      "physical_key": "pbdb-occ:1709289",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ruopodosaurus clava",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1709289",
+        "label": "PBDB occurrence 1709289"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 242316: BG Canada wellsite in the Two Creeks area",
+        "country": "CA",
+        "region": "British Columbia",
+        "latitude": 55.141998,
+        "longitude": -121.244003,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dunvegan",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 242316 to Late Cenomanian–Middle Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93059; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1709289 records Ruopodosaurus clava in collection 242316, linked by PBDB to reference 93059.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93059:occ:1709290",
+      "physical_key": "pbdb-occ:1709290",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Tetrapodosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1709290",
+        "label": "PBDB occurrence 1709290"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 242316: BG Canada wellsite in the Two Creeks area",
+        "country": "CA",
+        "region": "British Columbia",
+        "latitude": 55.141998,
+        "longitude": -121.244003,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dunvegan",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 242316 to Late Cenomanian–Middle Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93059; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1709290 records Tetrapodosaurus in collection 242316, linked by PBDB to reference 93059.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Tetrapodosaurus sp. and the accepted name as Tetrapodosaurus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

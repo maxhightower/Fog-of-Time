@@ -1,0 +1,74 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:72974",
+    "doi": "10.1080/02724634.2019.1732996",
+    "title": "Kholumolumo ellenbergerorum, gen. et sp. nov., a new early sauropodomorph from the lower Elliot Formation (Upper Triassic) of Maphutseng, Lesotho",
+    "year": 2020,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2019.1732996",
+    "authors": [
+      "C. Peyre de Fabrègues",
+      "R. Allain"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:72974:occ:538678",
+      "physical_key": "pbdb-occ:538678",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kholumolumo ellenbergerorum",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "538678",
+        "label": "PBDB occurrence 538678"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 56018: at foot of hill, a few meters from native huts, called Thotobolo ea 'Ma-beata, near Maphutseng, Mohale's-Hook district (Mohale's Hoek); later termed the \"Maphutseng Euskelosaurus cemetery\"",
+        "country": "LS",
+        "region": "Mohale's Hoek",
+        "latitude": -30.2167,
+        "longitude": 27.516701,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Elliot",
+        "member": "Lower",
+        "group": "Stormberg"
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 56018 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 72974; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 538678 records Kholumolumo ellenbergerorum in collection 56018, linked by PBDB to reference 72974.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Kholumolumo ellenbergerorum n. gen. n. sp. and the accepted name as Kholumolumo ellenbergerorum.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

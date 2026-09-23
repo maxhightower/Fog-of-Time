@@ -1,0 +1,68 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93147",
+    "doi": "10.1080/08912963.2025.2532735",
+    "title": "First occurrence of Daspletosaurus horneri (Tyrannosauridae, Tyrannosaurinae) in the Dinosaur Park Formation of Dinosaur Provincial Park, Alberta (Treaty 7 Territory)",
+    "year": 2025,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2025.2532735",
+    "authors": [
+      "C. C. Coppock",
+      "M. J. Powers",
+      "J. T. Voris, P. J. Currie"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93147:occ:1373087",
+      "physical_key": "pbdb-occ:1373087",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Daspletosaurus horneri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1373087",
+        "label": "PBDB occurrence 1373087"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 11904: section 31, township 20, range 11, W. 4th meridian; near Steveville, Alberta",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 50.742401,
+        "longitude": -111.511902,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dinosaur Park",
+        "member": null,
+        "group": "Belly River"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 11904 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93147; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1373087 records Daspletosaurus horneri in collection 11904, linked by PBDB to reference 93147.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

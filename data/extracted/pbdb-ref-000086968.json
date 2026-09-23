@@ -1,0 +1,74 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86968",
+    "doi": "10.3390/d16010012",
+    "title": "A Turiasaurian (Dinosauria, Sauropoda) Tooth from the Pliensbachian Hasle Formation of Bornholm, Denmark, Shows an Early Jurassic Origin of the Turiasauria",
+    "year": 2024,
+    "journal": "Diversity",
+    "url": "https://doi.org/10.3390/d16010012",
+    "authors": [
+      "J. Milàn",
+      "O. Mateus"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:86968:occ:1641776",
+      "physical_key": "pbdb-occ:1641776",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Turiasauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1641776",
+        "label": "PBDB occurrence 1641776"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 223749: at the type section of the Hasle Sandstone south of Hasle harbour, in the southern end of the exposure (N55° 10' 39.369\", E14° 42' 9.548\"). From a fallen slab, \"clearly derived from the succession exposed at the cliff which extends about 1 km from the north to the south.\"",
+        "country": "DK",
+        "region": "Bornholm",
+        "latitude": 55.177502,
+        "longitude": 14.702778,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Hasle",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 184.2,
+        "max_ma": 192.9,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 223749 to Early Pliensbachian with numeric bounds 192.9–184.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 86968; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1641776 records Turiasauria in collection 223749, linked by PBDB to reference 86968.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Turiasauria indet. and the accepted name as Turiasauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

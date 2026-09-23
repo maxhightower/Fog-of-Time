@@ -1,0 +1,187 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:85290",
+    "doi": "10.1080/08912963.2023.2221306",
+    "title": "Riches of the Roma valley: theropod and ornithischian tracks from the Early Jurassic southern Africa",
+    "year": 2023,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2023.2221306",
+    "authors": [
+      "M. Abrahams",
+      "A. Rampersadh",
+      "L. Mpangala"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:85290:occ:1629025",
+      "physical_key": "pbdb-occ:1629025",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Eubrontes",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1629025",
+        "label": "PBDB occurrence 1629025"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 230716: on an informal road between villages of Ha Mokhosi and Ha Matobo, close to Matobo tracksite; 1.8 km west of the National University of Lesotho main entrance in the Roma Valley",
+        "country": "LS",
+        "region": "Maseru",
+        "latitude": -29.455,
+        "longitude": 27.704445,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Elliot",
+        "member": "Upper",
+        "group": "Stormberg"
+      },
+      "age": {
+        "min_ma": 192.9,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 230716 to Hettangian–Sinemurian with numeric bounds 201.4–192.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 85290; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1629025 records Eubrontes in collection 230716, linked by PBDB to reference 85290.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Eubrontes sp. and the accepted name as Eubrontes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:85290:occ:1629026",
+      "physical_key": "pbdb-occ:1629026",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Anomoepus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1629026",
+        "label": "PBDB occurrence 1629026"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 230716: on an informal road between villages of Ha Mokhosi and Ha Matobo, close to Matobo tracksite; 1.8 km west of the National University of Lesotho main entrance in the Roma Valley",
+        "country": "LS",
+        "region": "Maseru",
+        "latitude": -29.455,
+        "longitude": 27.704445,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Elliot",
+        "member": "Upper",
+        "group": "Stormberg"
+      },
+      "age": {
+        "min_ma": 192.9,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 230716 to Hettangian–Sinemurian with numeric bounds 201.4–192.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 85290; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1629026 records Anomoepus in collection 230716, linked by PBDB to reference 85290.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Anomoepus sp. and the accepted name as Anomoepus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:85290:occ:1629027",
+      "physical_key": "pbdb-occ:1629027",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kayentapus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1629027",
+        "label": "PBDB occurrence 1629027"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 230716: on an informal road between villages of Ha Mokhosi and Ha Matobo, close to Matobo tracksite; 1.8 km west of the National University of Lesotho main entrance in the Roma Valley",
+        "country": "LS",
+        "region": "Maseru",
+        "latitude": -29.455,
+        "longitude": 27.704445,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Elliot",
+        "member": "Upper",
+        "group": "Stormberg"
+      },
+      "age": {
+        "min_ma": 192.9,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 230716 to Hettangian–Sinemurian with numeric bounds 201.4–192.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 85290; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1629027 records Kayentapus in collection 230716, linked by PBDB to reference 85290.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Kayentapus sp. and the accepted name as Kayentapus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

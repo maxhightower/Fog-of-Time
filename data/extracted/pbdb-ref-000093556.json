@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93556",
+    "doi": "10.1002/spp2.70034",
+    "title": "The origins of neural spine elongation in iguanodontian dinosaurs and the osteology of a new sail‐back styracosternan (Dinosauria, Ornithischia) from the Lower Cretaceous Wealden Group of England",
+    "year": 2025,
+    "journal": "Papers in Palaeontology",
+    "url": "https://doi.org/10.1002/spp2.70034",
+    "authors": [
+      "J. A. F. Lockwood",
+      "D. M. Martill",
+      "S. C. R. Maidment"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93556:occ:2043329",
+      "physical_key": "pbdb-occ:2043329",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Istiorachis macarthurae",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2043329",
+        "label": "PBDB occurrence 2043329"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 55518: c. 100 m east of Grange Chine",
+        "country": "UK",
+        "region": "England, Isle of Wight",
+        "latitude": 50.630554,
+        "longitude": -1.404167,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Wessex",
+        "member": null,
+        "group": "Wealden"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 132.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 55518 to Late Hauterivian–Early Barremian with numeric bounds 132.6–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93556; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2043329 records Istiorachis macarthurae in collection 55518, linked by PBDB to reference 93556.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Istiorachis macarthurae n. gen. n. sp. and the accepted name as Istiorachis macarthurae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

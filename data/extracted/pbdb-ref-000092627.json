@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:92627",
+    "doi": "10.1080/08912963.2025.2530148",
+    "title": "A new bird-like dinosaur from the Upper Cretaceous of Mongolia with extremely robust hands supports niche partitioning among velociraptorines",
+    "year": 2025,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2025.2530148",
+    "authors": [
+      "L. Moutrille",
+      "A. Cau",
+      "T. Chinzorig, F. Escuillié, K. Tsogtbaatar, B. Ganzorig, C. Mallet, P. Godefroit"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:92627:occ:1705090",
+      "physical_key": "pbdb-occ:1705090",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Shri rapax",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1705090",
+        "label": "PBDB occurrence 1705090"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 190544",
+        "country": "MN",
+        "region": "Omnogov",
+        "latitude": 43.664444,
+        "longitude": 100.901947,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Djadokhta",
+        "member": "Bayn Dzak",
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 190544 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92627; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1705090 records Shri rapax in collection 190544, linked by PBDB to reference 92627.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Shri rapax n. sp. and the accepted name as Shri rapax.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

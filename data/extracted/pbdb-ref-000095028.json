@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:95028",
+    "doi": "10.1016/j.gr.2025.05.006",
+    "title": "A new hadrosaurid dinosaur from the late Maastrichtian Phosphates of Morocco provides evidence for an African radiation of lambeosaurines",
+    "year": 2025,
+    "journal": "Gondwana Research",
+    "url": "https://doi.org/10.1016/j.gr.2025.05.006",
+    "authors": [
+      "N. R. Longrich",
+      "X. Pereda-Suberbiola",
+      "N. Bardet, N. Jalil"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:95028:occ:2065727",
+      "physical_key": "pbdb-occ:2065727",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Taleta taleta",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2065727",
+        "label": "PBDB occurrence 2065727"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 193775: Sidi Chennane region, Ouled Abdoun Basin",
+        "country": "MA",
+        "region": "Béni Mellal-Khénifra, Khouribga",
+        "latitude": 32.832222,
+        "longitude": -6.23,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Couche III",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 193775 to Late Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95028; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2065727 records Taleta taleta in collection 193775, linked by PBDB to reference 95028.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Taleta taleta n. gen. n. sp. and the accepted name as Taleta taleta.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

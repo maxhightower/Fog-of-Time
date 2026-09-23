@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93829",
+    "doi": "10.5710/amgh.17.09.2025.3643",
+    "title": "The first record of theropod dinosaur remains from the Angostura Colorada and Coli Toro Formations (Campanian–Maastrichtian) in the Ingeniero Jacobacci area (Río Negro Province, Argentina)",
+    "year": 2025,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/amgh.17.09.2025.3643",
+    "authors": [
+      "A. Paulina-Carabajal",
+      "A. Méndez",
+      "K. Ulloa-Guaiquín, J. González-Dionis, F. Irazoqui"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93829:occ:2048005",
+      "physical_key": "pbdb-occ:2048005",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2048005",
+        "label": "PBDB occurrence 2048005"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276643: The abelisaurid from the Angostura Colorada Formation was collected in 1956 near Cerro Yuquiche and belongs to a cluster of several dinosaur bones under the number MHJG 189 Pa.1–14, registered as “diverse fossil remains” by Casamiquela himself.",
+        "country": "AR",
+        "region": "Río Negro",
+        "latitude": -41.460835,
+        "longitude": -69.732224,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Angostura Colorada",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276643 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93829; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2048005 records Abelisauridae in collection 276643, linked by PBDB to reference 93829.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae indet. and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

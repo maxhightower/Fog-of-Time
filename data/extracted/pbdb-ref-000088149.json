@@ -1,0 +1,243 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:88149",
+    "doi": "10.1016/j.gr.2024.03.009",
+    "title": "A new stegosaurian dinosaur (Ornithischia: Thyreophora) with a remarkable dermal armour from the Middle Jurassic of North Africa",
+    "year": 2024,
+    "journal": "Gondwana Research",
+    "url": "https://doi.org/10.1016/j.gr.2024.03.009",
+    "authors": [
+      "O. Zafaty",
+      "M. Oukassou",
+      "F. Riguetti, J. Company, S. Bendrioua, R. Tabuce, A. Charrière, X. Pereda-Suberbiola"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:88149:occ:1651473",
+      "physical_key": "pbdb-occ:1651473",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Thyreosaurus atlasicus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1651473",
+        "label": "PBDB occurrence 1651473"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 234450: The fossil site HIIUC-BN was discovered in rocks of the El Mers III Formation in the northern Boulahfa locality, near Boulemane, Middle Atlas of Morocco (GPS coordinates: 33.320520N; 4.712273W).",
+        "country": "MA",
+        "region": "Fès-Meknes, Boulemane",
+        "latitude": 33.320518,
+        "longitude": -4.712273,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "El Mers III",
+        "member": null,
+        "group": "El Mers"
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 234450 to Late Bathonian–Callovian with numeric bounds 168.2–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88149; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1651473 records Thyreosaurus atlasicus in collection 234450, linked by PBDB to reference 88149.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Thyreosaurus atlasicus n. gen. n. sp. and the accepted name as Thyreosaurus atlasicus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88149:occ:1660439",
+      "physical_key": "pbdb-occ:1660439",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1660439",
+        "label": "PBDB occurrence 1660439"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 234450: The fossil site HIIUC-BN was discovered in rocks of the El Mers III Formation in the northern Boulahfa locality, near Boulemane, Middle Atlas of Morocco (GPS coordinates: 33.320520N; 4.712273W).",
+        "country": "MA",
+        "region": "Fès-Meknes, Boulemane",
+        "latitude": 33.320518,
+        "longitude": -4.712273,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "El Mers III",
+        "member": null,
+        "group": "El Mers"
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 234450 to Late Bathonian–Callovian with numeric bounds 168.2–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88149; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1660439 records Sauropoda in collection 234450, linked by PBDB to reference 88149.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropoda indet. and the accepted name as Sauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88149:occ:1660441",
+      "physical_key": "pbdb-occ:1660441",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dinosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1660441",
+        "label": "PBDB occurrence 1660441"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235720: The fossil site HIIUC-BN was discovered in rocks of the El Mers III Formation in the northern Boulahfa locality, near Boulemane, Middle Atlas of Morocco (GPS coordinates: 33.320520N; 4.712273W).",
+        "country": "MA",
+        "region": "Fès-Meknes, Boulemane",
+        "latitude": 33.320518,
+        "longitude": -4.712273,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "El Mers III",
+        "member": null,
+        "group": "El Mers"
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235720 to Late Bathonian–Callovian with numeric bounds 168.2–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88149; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1660441 records Dinosauria in collection 235720, linked by PBDB to reference 88149.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Dinosauria indet. and the accepted name as Dinosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88149:occ:1660442",
+      "physical_key": "pbdb-occ:1660442",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dinosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1660442",
+        "label": "PBDB occurrence 1660442"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235721: The fossil site HIIUC-BN was discovered in rocks of the El Mers III Formation in the northern Boulahfa locality, near Boulemane, Middle Atlas of Morocco (GPS coordinates: 33.320520N; 4.712273W).",
+        "country": "MA",
+        "region": "Fès-Meknes, Boulemane",
+        "latitude": 33.320518,
+        "longitude": -4.712273,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "El Mers III",
+        "member": null,
+        "group": "El Mers"
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235721 to Late Bathonian–Callovian with numeric bounds 168.2–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88149; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1660442 records Dinosauria in collection 235721, linked by PBDB to reference 88149.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Dinosauria indet. and the accepted name as Dinosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75613",
+    "doi": "10.1080/02724634.2019.1645682",
+    "title": "Redescription of the holotype specimen of Chindesaurus bryansmalli Long and Murry, 1995 (Dinosauria, Theropoda), from Petrified Forest National Park, Arizona",
+    "year": 2019,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2019.1645682",
+    "authors": [
+      "A. D. Marsh",
+      "W. G. Parker",
+      "M. C. Langer, S. J. Nesbitt"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:75613:occ:229333",
+      "physical_key": "pbdb-occ:229333",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "229333",
+        "label": "PBDB occurrence 229333"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 22706: 1.6 km S of Otis Chalk Quarry 1. NW corner of sec 87, block 29, near Magnolia no. 1 well, R. Scott lease",
+        "country": "US",
+        "region": "Texas, Howard",
+        "latitude": 32.1721,
+        "longitude": -101.247002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Colorado City",
+        "member": null,
+        "group": "Dockum"
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 22706 to Carnian–Norian with numeric bounds 237–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 75613; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 229333 records Theropoda in collection 22706, linked by PBDB to reference 75613.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:75613:occ:517570",
+      "physical_key": "pbdb-occ:517570",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "517570",
+        "label": "PBDB occurrence 517570"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 52495: Revuelto Creek, Quay Co., NM",
+        "country": "US",
+        "region": "New Mexico, Quay",
+        "latitude": 35.365276,
+        "longitude": -103.379997,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bull Canyon",
+        "member": null,
+        "group": "Dockum"
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 52495 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 75613; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 517570 records Theropoda in collection 52495, linked by PBDB to reference 75613.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:75613:occ:517571",
+      "physical_key": "pbdb-occ:517571",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "517571",
+        "label": "PBDB occurrence 517571"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 52496",
+        "country": "US",
+        "region": "Arizona, Apache",
+        "latitude": 35.087524,
+        "longitude": -109.79512,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle",
+        "member": "Petrified Forest",
+        "group": null
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 52496 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 75613; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 517571 records Theropoda in collection 52496, linked by PBDB to reference 75613.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:75613:occ:517572",
+      "physical_key": "pbdb-occ:517572",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "517572",
+        "label": "PBDB occurrence 517572"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 52497",
+        "country": "US",
+        "region": "New Mexico, Quay",
+        "latitude": 35.159779,
+        "longitude": -103.488297,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bull Canyon",
+        "member": null,
+        "group": "Dockum"
+      },
+      "age": {
+        "min_ma": 215.38,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 52497 to Lacian with numeric bounds 227.3–215.38 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 75613; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 517572 records Theropoda in collection 52497, linked by PBDB to reference 75613.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:75613:occ:557176",
+      "physical_key": "pbdb-occ:557176",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "557176",
+        "label": "PBDB occurrence 557176"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 57685: SW of Lacey Point, Petrified Forest National Park",
+        "country": "US",
+        "region": "Arizona, Apache",
+        "latitude": 35.110901,
+        "longitude": -109.834099,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle",
+        "member": "Petrified Forest",
+        "group": null
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 57685 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 75613; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 557176 records Theropoda in collection 57685, linked by PBDB to reference 75613.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:75613:occ:690303",
+      "physical_key": "pbdb-occ:690303",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "690303",
+        "label": "PBDB occurrence 690303"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 74202: \"is located in a series of exposures along the drainage of Arroyo Seco, an intermittently flowing tributary of the Rio Chama.\"",
+        "country": "US",
+        "region": "New Mexico, Rio Arriba",
+        "latitude": 36.323849,
+        "longitude": -106.47506,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle",
+        "member": "Petrified Forest",
+        "group": null
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 74202 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 75613; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 690303 records Theropoda in collection 74202, linked by PBDB to reference 75613.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

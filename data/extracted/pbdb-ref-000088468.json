@@ -1,0 +1,124 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:88468",
+    "doi": "10.1098/rspb.2024.0537",
+    "title": "The last ceratosaur of Asia: a new noasaurid from the Early Cretaceous Great Siberian Refugium",
+    "year": 2024,
+    "journal": "Proceedings of the Royal Society B: Biological Sciences",
+    "url": "https://doi.org/10.1098/rspb.2024.0537",
+    "authors": [
+      "A. O. Averianov",
+      "P. P. Skutschas",
+      "A. A. Atuchin, D. A. Slobodin, O. A. Feofanova, O. N. Vladimirova"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:88468:occ:1630760",
+      "physical_key": "pbdb-occ:1630760",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kiyacursor longipes",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1630760",
+        "label": "PBDB occurrence 1630760"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 39680: Shestakovo-1 locality, Kemerovo region, western Siberia, Kuznetsk Basin, Chebula district, about 40 km S of Mariinsk city; right bluff/precipice of Kiya (Kie) River, a right tributary of Chulym River, 1.5 km downstream from Shestakovo",
+        "country": "RU",
+        "region": "Kemerovo, Chebulinsky",
+        "latitude": 55.903332,
+        "longitude": 87.957779,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Ilek",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 39680 to Aptian with numeric bounds 121.4–113.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88468; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1630760 records Kiyacursor longipes in collection 39680, linked by PBDB to reference 88468.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:88468:occ:1655386",
+      "physical_key": "pbdb-occ:1655386",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kiyacursor longipes",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1655386",
+        "label": "PBDB occurrence 1655386"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 39680: Shestakovo-1 locality, Kemerovo region, western Siberia, Kuznetsk Basin, Chebula district, about 40 km S of Mariinsk city; right bluff/precipice of Kiya (Kie) River, a right tributary of Chulym River, 1.5 km downstream from Shestakovo",
+        "country": "RU",
+        "region": "Kemerovo, Chebulinsky",
+        "latitude": 55.903332,
+        "longitude": 87.957779,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Ilek",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 39680 to Aptian with numeric bounds 121.4–113.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88468; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1655386 records Kiyacursor longipes in collection 39680, linked by PBDB to reference 88468.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Kiyacursor longipes n. gen. n. sp. and the accepted name as Kiyacursor longipes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

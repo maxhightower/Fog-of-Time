@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:95026",
+    "doi": "10.1016/j.cretres.2025.106087",
+    "title": "A long-handed new ornithomimid dinosaur from the Campanian (Upper Cretaceous) Cerro del Pueblo Formation, Coahuila, Mexico",
+    "year": 2025,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2025.106087",
+    "authors": [
+      "C. I. Serrano-Brañas",
+      "B. Espinosa-Chávez",
+      "C. de León-Dávila, S. A. Maccracken, D. Barrera-Guevara, E. Torres-Rodríguez, A. Prieto-Márquez"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:95026:occ:2065726",
+      "physical_key": "pbdb-occ:2065726",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Mexidracon longimanus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2065726",
+        "label": "PBDB occurrence 2065726"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278995",
+        "country": "MX",
+        "region": "Coahuila, General Cepeda",
+        "latitude": 25.51111,
+        "longitude": -101.655556,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cerro del Pueblo",
+        "member": null,
+        "group": "Difunta"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278995 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95026; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2065726 records Mexidracon longimanus in collection 278995, linked by PBDB to reference 95026.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Mexidracon longimanus n. gen. n. sp. and the accepted name as Mexidracon longimanus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

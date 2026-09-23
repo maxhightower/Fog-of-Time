@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75604",
+    "doi": "10.1111/joa.13356",
+    "title": "Sacral co-ossification in dinosaurs: the oldest record of fused sacral vertebrae in Dinosauria and the diversity of sacral co-ossification patterns in the group",
+    "year": 2020,
+    "journal": "Journal of Anatomy",
+    "url": "https://doi.org/10.1111/joa.13356",
+    "authors": [
+      "D. Moro",
+      "L. Kerber",
+      "R. T. Müller, F. A. Pretto"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:75604:occ:1546384",
+      "physical_key": "pbdb-occ:1546384",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Saurischia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1546384",
+        "label": "PBDB occurrence 1546384"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 175578: Buriol ravine (29°39'30.78\"S; 53°26'08.97\"W) (Cabreira et al. 2016)",
+        "country": "BR",
+        "region": "Rio Grande do Sul, São João do Polêsine",
+        "latitude": -29.658611,
+        "longitude": -53.435833,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Santa Maria",
+        "member": "Alemoa",
+        "group": "Rosário do Sul"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 175578 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 75604; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1546384 records Saurischia in collection 175578, linked by PBDB to reference 75604.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Saurischia indet. and the accepted name as Saurischia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:74704",
+    "doi": "10.1016/j.jsames.2020.103026",
+    "title": "A new theropod dinosaur from a peculiar Late Triassic assemblage of southern Brazil",
+    "year": 2020,
+    "journal": "Journal of South American Earth Sciences",
+    "url": "https://doi.org/10.1016/j.jsames.2020.103026",
+    "authors": [
+      "R. T. Müller"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:74704:occ:1419303",
+      "physical_key": "pbdb-occ:1419303",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Erythrovenator jacuiensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1419303",
+        "label": "PBDB occurrence 1419303"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 196738: \"The Niemeyer Site is located on the outskirts of the municipality of Agudo (29°40′25″ S; 53°14′4.20″ W), southern Brazil. The main fossiliferous sectors are exposed around an artiﬁcial dam, with an additional isolated section.\" (Pavanatto et al. 2018)",
+        "country": "BR",
+        "region": "Rio Grande do Sul, Agudo",
+        "latitude": -29.673611,
+        "longitude": -53.234444,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Candelária",
+        "member": null,
+        "group": "Santa Maria"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 196738 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 74704; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1419303 records Erythrovenator jacuiensis in collection 196738, linked by PBDB to reference 74704.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Erythrovenator jacuiensis n. gen. n. sp. and the accepted name as Erythrovenator jacuiensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}
