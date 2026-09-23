@@ -1,11 +1,11 @@
 {
   "schema_version": "fog-of-time.web-manifest/v1",
-  "dataset_version": "dev-fixtures-v1",
-  "physical_evidence_count": 3,
-  "publication_report_count": 3,
-  "publication_count": 3,
+  "dataset_version": "sha256:f9b9bede138f162c02e413df39cd701ab9f8df31d05ae77558afd720ebc81d91",
+  "physical_evidence_count": 1,
+  "publication_report_count": 1,
+  "publication_count": 1,
   "oldest_ma": 252.0,
   "youngest_ma": 66.0,
-  "development_fixture": true,
+  "development_fixture": false,
   "representative_policy": "latest-publication-report-v0"
 }
