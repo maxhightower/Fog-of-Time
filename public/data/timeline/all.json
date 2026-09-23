@@ -1,5 +1,211 @@
 [
   {
+    "physical_key": "clutch:cpplip:1798",
+    "evidence_type": "nest",
+    "taxon": "Titanosauria indet.",
+    "taxon_rank": "clade",
+    "specimen_label": "CPPLIP 1798",
+    "material": [
+      "clutch with ten eggs",
+      "five almost complete spherical eggs"
+    ],
+    "locality": {
+      "name": "Ponte Alta nesting site, Lafarge Quarry, Ponte Alta, Uberaba Municipality",
+      "country": "Brazil",
+      "region": "Minas Gerais"
+    },
+    "formation": "Serra da Galga Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the egg-bearing Serra da Galga Formation horizon to the Maastrichtian; the numeric envelope uses current Maastrichtian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-09125-9:cpplip-1798",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-09125-9",
+        "doi": "10.1038/s41598-022-09125-9",
+        "title": "First titanosaur dinosaur nesting site from the Late Cretaceous of Brazil",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-09125-9",
+        "authors": [
+          "Lucas E. Fiorelli",
+          "Agustín G. Martinelli",
+          "João Ismael da Silva",
+          "E. Martín Hechenleitner",
+          "Marcus Vinícius Theodoro Soares",
+          "Julian C. G. Silva Junior",
+          "José Carlos da Silva",
+          "Élbia Messias Roteli Borges",
+          "Luiz Carlos Borges Ribeiro",
+          "André Marconato",
+          "Giorgio Basilici",
+          "Thiago da Silva Marinho"
+        ]
+      },
+      "claims": [
+        {
+          "type": "material_record",
+          "summary": "Best-preserved partial clutch; ten eggs are arranged with evidence of at least two superposed rows.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Egg and eggshell morphology is interpreted as titanosaurian, although no embryos were recovered in ovo.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "clutch:cpplip:1803",
+    "evidence_type": "nest",
+    "taxon": "Titanosauria indet.",
+    "taxon_rank": "clade",
+    "specimen_label": "CPPLIP 1803",
+    "material": [
+      "three associated fragmented eggs"
+    ],
+    "locality": {
+      "name": "Ponte Alta nesting site, Lafarge Quarry, Ponte Alta, Uberaba Municipality",
+      "country": "Brazil",
+      "region": "Minas Gerais"
+    },
+    "formation": "Serra da Galga Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the egg-bearing Serra da Galga Formation horizon to the Maastrichtian; the numeric envelope uses current Maastrichtian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-09125-9:cpplip-1803",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-09125-9",
+        "doi": "10.1038/s41598-022-09125-9",
+        "title": "First titanosaur dinosaur nesting site from the Late Cretaceous of Brazil",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-09125-9",
+        "authors": [
+          "Lucas E. Fiorelli",
+          "Agustín G. Martinelli",
+          "João Ismael da Silva",
+          "E. Martín Hechenleitner",
+          "Marcus Vinícius Theodoro Soares",
+          "Julian C. G. Silva Junior",
+          "José Carlos da Silva",
+          "Élbia Messias Roteli Borges",
+          "Luiz Carlos Borges Ribeiro",
+          "André Marconato",
+          "Giorgio Basilici",
+          "Thiago da Silva Marinho"
+        ]
+      },
+      "claims": [
+        {
+          "type": "material_record",
+          "summary": "Three associated fragmented eggs are documented, two still within sedimentary matrix.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Egg and eggshell morphology is interpreted as titanosaurian, although no embryos were recovered in ovo.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "clutch:cpplip:1804",
+    "evidence_type": "nest",
+    "taxon": "Titanosauria indet.",
+    "taxon_rank": "clade",
+    "specimen_label": "CPPLIP 1804",
+    "material": [
+      "sedimentary mold of another egg",
+      "two associated almost complete eggs"
+    ],
+    "locality": {
+      "name": "Ponte Alta nesting site, Lafarge Quarry, Ponte Alta, Uberaba Municipality",
+      "country": "Brazil",
+      "region": "Minas Gerais"
+    },
+    "formation": "Serra da Galga Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the egg-bearing Serra da Galga Formation horizon to the Maastrichtian; the numeric envelope uses current Maastrichtian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-09125-9:cpplip-1804",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-09125-9",
+        "doi": "10.1038/s41598-022-09125-9",
+        "title": "First titanosaur dinosaur nesting site from the Late Cretaceous of Brazil",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-09125-9",
+        "authors": [
+          "Lucas E. Fiorelli",
+          "Agustín G. Martinelli",
+          "João Ismael da Silva",
+          "E. Martín Hechenleitner",
+          "Marcus Vinícius Theodoro Soares",
+          "Julian C. G. Silva Junior",
+          "José Carlos da Silva",
+          "Élbia Messias Roteli Borges",
+          "Luiz Carlos Borges Ribeiro",
+          "André Marconato",
+          "Giorgio Basilici",
+          "Thiago da Silva Marinho"
+        ]
+      },
+      "claims": [
+        {
+          "type": "material_record",
+          "summary": "Two associated, almost complete eggs are preserved, including a sedimentary mold relationship.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Egg and eggshell morphology is interpreted as titanosaurian, although no embryos were recovered in ovo.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
     "physical_key": "clutch:ml:1188",
     "evidence_type": "nest",
     "taxon": "Torvosaurus",
@@ -74,6 +280,2382 @@
     "development_fixture": false
   },
   {
+    "physical_key": "egg:cpplip:1799",
+    "evidence_type": "egg",
+    "taxon": "Titanosauria indet.",
+    "taxon_rank": "clade",
+    "specimen_label": "CPPLIP 1799",
+    "material": [
+      "fragment of a third egg",
+      "two spherical eggs"
+    ],
+    "locality": {
+      "name": "Ponte Alta nesting site, Lafarge Quarry, Ponte Alta, Uberaba Municipality",
+      "country": "Brazil",
+      "region": "Minas Gerais"
+    },
+    "formation": "Serra da Galga Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the egg-bearing Serra da Galga Formation horizon to the Maastrichtian; the numeric envelope uses current Maastrichtian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-09125-9:cpplip-1799",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-09125-9",
+        "doi": "10.1038/s41598-022-09125-9",
+        "title": "First titanosaur dinosaur nesting site from the Late Cretaceous of Brazil",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-09125-9",
+        "authors": [
+          "Lucas E. Fiorelli",
+          "Agustín G. Martinelli",
+          "João Ismael da Silva",
+          "E. Martín Hechenleitner",
+          "Marcus Vinícius Theodoro Soares",
+          "Julian C. G. Silva Junior",
+          "José Carlos da Silva",
+          "Élbia Messias Roteli Borges",
+          "Luiz Carlos Borges Ribeiro",
+          "André Marconato",
+          "Giorgio Basilici",
+          "Thiago da Silva Marinho"
+        ]
+      },
+      "claims": [
+        {
+          "type": "material_record",
+          "summary": "Two spherical eggs and a fragment of a third occur within sedimentary matrix.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Egg and eggshell morphology is interpreted as titanosaurian, although no embryos were recovered in ovo.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "egg:cpplip:1800",
+    "evidence_type": "egg",
+    "taxon": "Titanosauria indet.",
+    "taxon_rank": "clade",
+    "specimen_label": "CPPLIP 1800",
+    "material": [
+      "two almost complete spherical eggs"
+    ],
+    "locality": {
+      "name": "Ponte Alta nesting site, Lafarge Quarry, Ponte Alta, Uberaba Municipality",
+      "country": "Brazil",
+      "region": "Minas Gerais"
+    },
+    "formation": "Serra da Galga Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the egg-bearing Serra da Galga Formation horizon to the Maastrichtian; the numeric envelope uses current Maastrichtian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-09125-9:cpplip-1800",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-09125-9",
+        "doi": "10.1038/s41598-022-09125-9",
+        "title": "First titanosaur dinosaur nesting site from the Late Cretaceous of Brazil",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-09125-9",
+        "authors": [
+          "Lucas E. Fiorelli",
+          "Agustín G. Martinelli",
+          "João Ismael da Silva",
+          "E. Martín Hechenleitner",
+          "Marcus Vinícius Theodoro Soares",
+          "Julian C. G. Silva Junior",
+          "José Carlos da Silva",
+          "Élbia Messias Roteli Borges",
+          "Luiz Carlos Borges Ribeiro",
+          "André Marconato",
+          "Giorgio Basilici",
+          "Thiago da Silva Marinho"
+        ]
+      },
+      "claims": [
+        {
+          "type": "material_record",
+          "summary": "Two almost complete spherical eggs occur with matrix and no clear association with other specimens.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Egg and eggshell morphology is interpreted as titanosaurian, although no embryos were recovered in ovo.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "egg:cpplip:1801",
+    "evidence_type": "egg",
+    "taxon": "Titanosauria indet.",
+    "taxon_rank": "clade",
+    "specimen_label": "CPPLIP 1801",
+    "material": [
+      "almost complete spherical egg"
+    ],
+    "locality": {
+      "name": "Ponte Alta nesting site, Lafarge Quarry, Ponte Alta, Uberaba Municipality",
+      "country": "Brazil",
+      "region": "Minas Gerais"
+    },
+    "formation": "Serra da Galga Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the egg-bearing Serra da Galga Formation horizon to the Maastrichtian; the numeric envelope uses current Maastrichtian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-09125-9:cpplip-1801",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-09125-9",
+        "doi": "10.1038/s41598-022-09125-9",
+        "title": "First titanosaur dinosaur nesting site from the Late Cretaceous of Brazil",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-09125-9",
+        "authors": [
+          "Lucas E. Fiorelli",
+          "Agustín G. Martinelli",
+          "João Ismael da Silva",
+          "E. Martín Hechenleitner",
+          "Marcus Vinícius Theodoro Soares",
+          "Julian C. G. Silva Junior",
+          "José Carlos da Silva",
+          "Élbia Messias Roteli Borges",
+          "Luiz Carlos Borges Ribeiro",
+          "André Marconato",
+          "Giorgio Basilici",
+          "Thiago da Silva Marinho"
+        ]
+      },
+      "claims": [
+        {
+          "type": "material_record",
+          "summary": "An almost complete spherical egg occurs at the higher of the two documented egg-bearing levels.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Egg and eggshell morphology is interpreted as titanosaurian, although no embryos were recovered in ovo.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "egg:cpplip:1802",
+    "evidence_type": "egg",
+    "taxon": "Titanosauria indet.",
+    "taxon_rank": "clade",
+    "specimen_label": "CPPLIP 1802",
+    "material": [
+      "two associated fragmented eggs"
+    ],
+    "locality": {
+      "name": "Ponte Alta nesting site, Lafarge Quarry, Ponte Alta, Uberaba Municipality",
+      "country": "Brazil",
+      "region": "Minas Gerais"
+    },
+    "formation": "Serra da Galga Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the egg-bearing Serra da Galga Formation horizon to the Maastrichtian; the numeric envelope uses current Maastrichtian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-09125-9:cpplip-1802",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-09125-9",
+        "doi": "10.1038/s41598-022-09125-9",
+        "title": "First titanosaur dinosaur nesting site from the Late Cretaceous of Brazil",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-09125-9",
+        "authors": [
+          "Lucas E. Fiorelli",
+          "Agustín G. Martinelli",
+          "João Ismael da Silva",
+          "E. Martín Hechenleitner",
+          "Marcus Vinícius Theodoro Soares",
+          "Julian C. G. Silva Junior",
+          "José Carlos da Silva",
+          "Élbia Messias Roteli Borges",
+          "Luiz Carlos Borges Ribeiro",
+          "André Marconato",
+          "Giorgio Basilici",
+          "Thiago da Silva Marinho"
+        ]
+      },
+      "claims": [
+        {
+          "type": "material_record",
+          "summary": "Two associated fragmented eggs are documented.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Egg and eggshell morphology is interpreted as titanosaurian, although no embryos were recovered in ovo.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7228",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7228",
+    "material": [
+      "histologically sampled left fibula",
+      "histologically sampled left tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7228",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7228 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 1 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7229",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7229",
+    "material": [
+      "histologically sampled left fibula",
+      "histologically sampled left tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7229",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7229 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 0 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7232",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7232",
+    "material": [
+      "histologically sampled left fibula",
+      "histologically sampled left tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7232",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7232 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 0 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7233",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7233",
+    "material": [
+      "histologically sampled right fibula",
+      "histologically sampled right tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7233",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7233 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia, right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 2 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7234",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7234",
+    "material": [
+      "histologically sampled left fibula",
+      "histologically sampled left tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7234",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7234 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 0 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7238",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7238",
+    "material": [
+      "histologically sampled left tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7238",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7238 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 1 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7243",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7243",
+    "material": [
+      "histologically sampled right fibula",
+      "histologically sampled right tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7243",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7243 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia, right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 2 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7244",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7244",
+    "material": [
+      "histologically sampled left fibula",
+      "histologically sampled left tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7244",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7244 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 3 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7245",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7245",
+    "material": [
+      "histologically sampled right tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7245",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7245 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 2 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7246",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7246",
+    "material": [
+      "histologically sampled right fibula",
+      "histologically sampled right tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7246",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7246 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia, right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 2 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7247",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7247",
+    "material": [
+      "histologically sampled distally sampled tibia",
+      "histologically sampled fibula"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7247",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7247 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: distally sampled tibia, fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "sampling_limitation",
+          "summary": "This distally sampled specimen was excluded from quantitative analyses because cortical drift obscured much of the original microstructure.",
+          "page": null,
+          "figure": "Supplementary Fig. 11",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7249",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7249",
+    "material": [
+      "histologically sampled left? tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7249",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7249 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left? tibia.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 1 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7251",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7251",
+    "material": [
+      "histologically sampled left? tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7251",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7251 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left? tibia.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 3 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7253",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7253",
+    "material": [
+      "histologically sampled right fibula",
+      "histologically sampled right tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7253",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7253 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia, right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 0 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:amnh-farb-7256",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH FARB 7256",
+    "material": [
+      "histologically sampled right fibula",
+      "histologically sampled right tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7256",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7256 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia, right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 0 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:cm-89948",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "CM 89948",
+    "material": [
+      "histologically sampled right fibula",
+      "histologically sampled right tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:cm-89948",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "CM 89948 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia, right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 4 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:cm-89958",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "CM 89958",
+    "material": [
+      "histologically sampled left fibula",
+      "histologically sampled left tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:cm-89958",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "CM 89958 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 0 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:cm:96523",
+    "evidence_type": "bone_histology",
+    "taxon": "Eoneophron infernalis",
+    "taxon_rank": "species",
+    "specimen_label": "CM 96523",
+    "material": [
+      "histologically sampled right femur",
+      "histologically sampled right metatarsal IV",
+      "histologically sampled right tibia"
+    ],
+    "locality": {
+      "name": "Hell Creek Formation exposures, Meade County",
+      "country": "United States",
+      "region": "South Dakota"
+    },
+    "formation": "Hell Creek Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "Same specimen and horizon as CM 96523."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0294901:cm-96523-histology",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0294901",
+        "doi": "10.1371/journal.pone.0294901",
+        "title": "A new oviraptorosaur (Dinosauria: Theropoda) from the end-Maastrichtian Hell Creek Formation of North America",
+        "year": 2024,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0294901",
+        "authors": [
+          "Kyle L. Atkins-Weltman",
+          "D. Jade Simon",
+          "Holly N. Woodward",
+          "Gregory F. Funston",
+          "Eric Snively"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_observation",
+          "summary": "The femur, tibia, and metatarsal IV each record six lines of arrested growth (LAGs).",
+          "page": null,
+          "figure": "6–8",
+          "table": null
+        },
+        {
+          "type": "ontogenetic_interpretation",
+          "summary": "A putative neonatal line followed by six LAGs in metatarsal IV suggests death during the individual's sixth year.",
+          "page": null,
+          "figure": "8",
+          "table": null
+        },
+        {
+          "type": "ontogenetic_interpretation",
+          "summary": "Growth was approaching an asymptote but had not fully ceased at death.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:cmnh-10971-1",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "CMNH 10971 #1",
+    "material": [
+      "histologically sampled left fibula",
+      "histologically sampled right femur"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:cmnh-10971-1",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "CMNH 10971 #1 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right femur, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 6 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:cmnh-10971-5",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "CMNH 10971 #5",
+    "material": [
+      "histologically sampled right fibula"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:cmnh-10971-5",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "CMNH 10971 #5 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 3 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:mcz-vpra-4332",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "MCZ VPRA 4332",
+    "material": [
+      "histologically sampled left fibula",
+      "histologically sampled left tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:mcz-vpra-4332",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "MCZ VPRA 4332 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 1 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:mcz-vpra-4334",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "MCZ VPRA 4334",
+    "material": [
+      "histologically sampled right fibula",
+      "histologically sampled right tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:mcz-vpra-4334",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "MCZ VPRA 4334 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia, right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 1 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:rom-72668",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "ROM 72668",
+    "material": [
+      "histologically sampled right tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:rom-72668",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "ROM 72668 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 0 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:ypm-vp-41197",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "YPM VP 41197",
+    "material": [
+      "histologically sampled left fibula",
+      "histologically sampled left tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:ypm-vp-41197",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "YPM VP 41197 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 4 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "histology:ypm-vp-59865",
+    "evidence_type": "bone_histology",
+    "taxon": "Coelophysis bauri",
+    "taxon_rank": "species",
+    "specimen_label": "YPM VP 59865",
+    "material": [
+      "histologically sampled tibia"
+    ],
+    "locality": {
+      "name": "Coelophysis Quarry, Ghost Ranch",
+      "country": "United States",
+      "region": "New Mexico"
+    },
+    "formation": "Chinle Formation",
+    "age": {
+      "min_ma": 200.0,
+      "max_ma": 200.0,
+      "best_ma": 200.0,
+      "precision": "approximate_point",
+      "method": "published_approximate_population_age",
+      "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-022-22216-x:ypm-vp-59865",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-022-22216-x",
+        "doi": "10.1038/s41598-022-22216-x",
+        "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+        "year": 2022,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-022-22216-x",
+        "authors": [
+          "Daniel E. Barta",
+          "Christopher T. Griffin",
+          "Mark A. Norell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "YPM VP 59865 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: tibia.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 1 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "pathology:amnh-5029:mandibular-lesions",
+    "evidence_type": "pathology",
+    "taxon": "Tyrannosaurus rex",
+    "taxon_rank": "species",
+    "specimen_label": "AMNH 5029",
+    "material": [
+      "mandibular bone with full-thickness erosive lesion(s)"
+    ],
+    "locality": {
+      "name": "Hell Creek Formation, Montana",
+      "country": "United States",
+      "region": "Montana"
+    },
+    "formation": "Hell Creek Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "broad_taxon_or_locality_stage_context",
+      "basis": "The pathology paper identifies this as Tyrannosaurus rex; the numeric envelope conservatively spans the Maastrichtian unless a Hell Creek locality is explicitly stated."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0007288:amnh-5029",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0007288",
+        "doi": "10.1371/journal.pone.0007288",
+        "title": "Common Avian Infection Plagued the Tyrant Dinosaurs",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007288",
+        "authors": [
+          "Ewan D. S. Wolff",
+          "Steven W. Salisbury",
+          "John R. Horner",
+          "David J. Varricchio"
+        ]
+      },
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral rounded-rectangular erosive lesion with tapered edge and remodelling.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "pathology:cm-9380:mandibular-lesions",
+    "evidence_type": "pathology",
+    "taxon": "Tyrannosaurus rex",
+    "taxon_rank": "species",
+    "specimen_label": "CM 9380",
+    "material": [
+      "mandibular bone with full-thickness erosive lesion(s)"
+    ],
+    "locality": {
+      "name": "Specimen locality not restated in Table S1",
+      "country": "United States",
+      "region": null
+    },
+    "formation": null,
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "broad_taxon_or_locality_stage_context",
+      "basis": "The pathology paper identifies this as Tyrannosaurus rex; the numeric envelope conservatively spans the Maastrichtian unless a Hell Creek locality is explicitly stated."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0007288:cm-9380",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0007288",
+        "doi": "10.1371/journal.pone.0007288",
+        "title": "Common Avian Infection Plagued the Tyrant Dinosaurs",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007288",
+        "authors": [
+          "Ewan D. S. Wolff",
+          "Steven W. Salisbury",
+          "John R. Horner",
+          "David J. Varricchio"
+        ]
+      },
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral round erosive lesion with tapered edge and rim remodelling.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "pathology:fmnh-pr-2081:mandibular-lesions",
+    "evidence_type": "pathology",
+    "taxon": "Tyrannosaurus rex",
+    "taxon_rank": "species",
+    "specimen_label": "FMNH PR2081 ‘Sue’",
+    "material": [
+      "mandibular bone with full-thickness erosive lesion(s)"
+    ],
+    "locality": {
+      "name": "Specimen locality not restated in Table S1",
+      "country": "United States",
+      "region": null
+    },
+    "formation": null,
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "broad_taxon_or_locality_stage_context",
+      "basis": "The pathology paper identifies this as Tyrannosaurus rex; the numeric envelope conservatively spans the Maastrichtian unless a Hell Creek locality is explicitly stated."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0007288:fmnh-pr-2081",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0007288",
+        "doi": "10.1371/journal.pone.0007288",
+        "title": "Common Avian Infection Plagued the Tyrant Dinosaurs",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007288",
+        "authors": [
+          "Ewan D. S. Wolff",
+          "Steven W. Salisbury",
+          "John R. Horner",
+          "David J. Varricchio"
+        ]
+      },
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Bilateral, round erosive lesions with tapered edges, rim thickening/remodelling, and infrequent median processes.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "pathology:mor-1125:mandibular-lesions",
+    "evidence_type": "pathology",
+    "taxon": "Tyrannosaurus rex",
+    "taxon_rank": "species",
+    "specimen_label": "MOR 1125",
+    "material": [
+      "mandibular bone with full-thickness erosive lesion(s)"
+    ],
+    "locality": {
+      "name": "B-Rex Site, Fort Peck Lake near Jordan",
+      "country": "United States",
+      "region": "Montana"
+    },
+    "formation": "Hell Creek Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "broad_taxon_or_locality_stage_context",
+      "basis": "The pathology paper identifies this as Tyrannosaurus rex; the numeric envelope conservatively spans the Maastrichtian unless a Hell Creek locality is explicitly stated."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0007288:mor-1125",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0007288",
+        "doi": "10.1371/journal.pone.0007288",
+        "title": "Common Avian Infection Plagued the Tyrant Dinosaurs",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007288",
+        "authors": [
+          "Ewan D. S. Wolff",
+          "Steven W. Salisbury",
+          "John R. Horner",
+          "David J. Varricchio"
+        ]
+      },
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral round full-thickness lesion with tapered edge and rim remodelling.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "pathology:mor-980:mandibular-lesions",
+    "evidence_type": "pathology",
+    "taxon": "Tyrannosaurus rex",
+    "taxon_rank": "species",
+    "specimen_label": "MOR 980 ‘Peck’s Rex’",
+    "material": [
+      "mandibular bone with full-thickness erosive lesion(s)"
+    ],
+    "locality": {
+      "name": "Fort Peck Lake near Jordan",
+      "country": "United States",
+      "region": "Montana"
+    },
+    "formation": "Hell Creek Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "broad_taxon_or_locality_stage_context",
+      "basis": "The pathology paper identifies this as Tyrannosaurus rex; the numeric envelope conservatively spans the Maastrichtian unless a Hell Creek locality is explicitly stated."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0007288:mor-980",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0007288",
+        "doi": "10.1371/journal.pone.0007288",
+        "title": "Common Avian Infection Plagued the Tyrant Dinosaurs",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007288",
+        "authors": [
+          "Ewan D. S. Wolff",
+          "Steven W. Salisbury",
+          "John R. Horner",
+          "David J. Varricchio"
+        ]
+      },
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral round-to-suboval erosive lesions with tapered edges and rim remodelling, plus a minor lesion on the opposite side.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "pathology:rtmp-1981-10-01:mandibular-lesions",
+    "evidence_type": "pathology",
+    "taxon": "Albertosaurus sarcophagus",
+    "taxon_rank": "species",
+    "specimen_label": "RTMP 1981.10.01",
+    "material": [
+      "mandibular bone with full-thickness erosive lesion(s)"
+    ],
+    "locality": {
+      "name": "Dry Island Buffalo Jump, Trochu",
+      "country": "Canada",
+      "region": "Alberta"
+    },
+    "formation": null,
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 83.6,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "broad_taxon_or_locality_stage_context",
+      "basis": "The supplement provides specimen identity/locality but not a direct numerical date; the numeric envelope is a conservative Late Cretaceous stage-level context for the named tyrannosaurid/locality."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0007288:rtmp-1981-10-01",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0007288",
+        "doi": "10.1371/journal.pone.0007288",
+        "title": "Common Avian Infection Plagued the Tyrant Dinosaurs",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007288",
+        "authors": [
+          "Ewan D. S. Wolff",
+          "Steven W. Salisbury",
+          "John R. Horner",
+          "David J. Varricchio"
+        ]
+      },
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral slit-shaped erosive lesion with tapered edge and remodelling.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "pathology:rtmp-1994-143-1:mandibular-lesions",
+    "evidence_type": "pathology",
+    "taxon": "Daspletosaurus sp.",
+    "taxon_rank": "genus",
+    "specimen_label": "RTMP 1994.143.1",
+    "material": [
+      "mandibular bone with full-thickness erosive lesion(s)"
+    ],
+    "locality": {
+      "name": "Quarry 215, Dinosaur Provincial Park",
+      "country": "Canada",
+      "region": "Alberta"
+    },
+    "formation": null,
+    "age": {
+      "min_ma": 72.1,
+      "max_ma": 83.6,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "broad_taxon_or_locality_stage_context",
+      "basis": "The supplement provides specimen identity/locality but not a direct numerical date; the numeric envelope is a conservative Late Cretaceous stage-level context for the named tyrannosaurid/locality."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0007288:rtmp-1994-143-1",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0007288",
+        "doi": "10.1371/journal.pone.0007288",
+        "title": "Common Avian Infection Plagued the Tyrant Dinosaurs",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007288",
+        "authors": [
+          "Ewan D. S. Wolff",
+          "Steven W. Salisbury",
+          "John R. Horner",
+          "David J. Varricchio"
+        ]
+      },
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral slit-shaped erosive lesions with tapered edges and remodelling.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "pathology:rtmp-1998-93-12:mandibular-lesions",
+    "evidence_type": "pathology",
+    "taxon": "Tyrannosaurid sp. indet.",
+    "taxon_rank": "family",
+    "specimen_label": "RTMP 1998.93.12",
+    "material": [
+      "mandibular bone with full-thickness erosive lesion(s)"
+    ],
+    "locality": {
+      "name": "Dinosaur Provincial Park",
+      "country": "Canada",
+      "region": "Alberta"
+    },
+    "formation": null,
+    "age": {
+      "min_ma": 72.1,
+      "max_ma": 83.6,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "broad_taxon_or_locality_stage_context",
+      "basis": "The supplement provides specimen identity/locality but not a direct numerical date; the numeric envelope is a conservative Late Cretaceous stage-level context for the named tyrannosaurid/locality."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0007288:rtmp-1998-93-12",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0007288",
+        "doi": "10.1371/journal.pone.0007288",
+        "title": "Common Avian Infection Plagued the Tyrant Dinosaurs",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007288",
+        "authors": [
+          "Ewan D. S. Wolff",
+          "Steven W. Salisbury",
+          "John R. Horner",
+          "David J. Varricchio"
+        ]
+      },
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral ovoid perforative lesion with smooth edges and thickening along one margin.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "pathology:rtmp-2001-36-01:mandibular-lesions",
+    "evidence_type": "pathology",
+    "taxon": "Daspletosaurus sp.",
+    "taxon_rank": "genus",
+    "specimen_label": "RTMP 2001.36.01",
+    "material": [
+      "mandibular bone with full-thickness erosive lesion(s)"
+    ],
+    "locality": {
+      "name": "Milk River, Manyberries locality",
+      "country": "Canada",
+      "region": "Alberta"
+    },
+    "formation": null,
+    "age": {
+      "min_ma": 72.1,
+      "max_ma": 83.6,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "broad_taxon_or_locality_stage_context",
+      "basis": "The supplement provides specimen identity/locality but not a direct numerical date; the numeric envelope is a conservative Late Cretaceous stage-level context for the named tyrannosaurid/locality."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0007288:rtmp-2001-36-01",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0007288",
+        "doi": "10.1371/journal.pone.0007288",
+        "title": "Common Avian Infection Plagued the Tyrant Dinosaurs",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007288",
+        "authors": [
+          "Ewan D. S. Wolff",
+          "Steven W. Salisbury",
+          "John R. Horner",
+          "David J. Varricchio"
+        ]
+      },
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Bilateral round-to-slit-shaped erosive lesions with tapered, remodelled edges.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "pathology:rtmp-2002-12-11:mandibular-lesions",
+    "evidence_type": "pathology",
+    "taxon": "Gorgosaurus sp.",
+    "taxon_rank": "genus",
+    "specimen_label": "RTMP 2002.12.11",
+    "material": [
+      "mandibular bone with full-thickness erosive lesion(s)"
+    ],
+    "locality": {
+      "name": "Dinosaur Provincial Park",
+      "country": "Canada",
+      "region": "Alberta"
+    },
+    "formation": null,
+    "age": {
+      "min_ma": 72.1,
+      "max_ma": 83.6,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "broad_taxon_or_locality_stage_context",
+      "basis": "The supplement provides specimen identity/locality but not a direct numerical date; the numeric envelope is a conservative Late Cretaceous stage-level context for the named tyrannosaurid/locality."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0007288:rtmp-2002-12-11",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0007288",
+        "doi": "10.1371/journal.pone.0007288",
+        "title": "Common Avian Infection Plagued the Tyrant Dinosaurs",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007288",
+        "authors": [
+          "Ewan D. S. Wolff",
+          "Steven W. Salisbury",
+          "John R. Horner",
+          "David J. Varricchio"
+        ]
+      },
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "Unilateral round erosive lesion with tapered, remodelled edges.",
+          "page": null,
+          "figure": null,
+          "table": "Supporting Information Table S1"
+        },
+        {
+          "type": "disease_interpretation",
+          "summary": "The study interprets these mandibular lesions as consistent with a trichomonosis-type infectious disease comparable to avian trichomonosis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
     "physical_key": "pathology:umhn-vp:19479:pedal-digit-ii",
     "evidence_type": "pathology",
     "taxon": "Talos sampsoni",
@@ -129,6 +2711,68 @@
           "summary": "The pathology supports interpretations in which the specialized second pedal digit had a limited role in ordinary weight bearing and may have been used in prey grappling or intraspecific combat.",
           "page": null,
           "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "skin-impression:cue:jj-m01-m03",
+    "evidence_type": "skin_impression",
+    "taxon": "Minisauripus",
+    "taxon_rank": "ichnogenus",
+    "specimen_label": "CUE JJ_M01–M03 — Minisauripus trackway",
+    "material": [
+      "densely packed reticulate polygonal skin texture",
+      "high-definition pedal skin impressions",
+      "skin traces spanning entire footprints"
+    ],
+    "locality": {
+      "name": "Ppuri Industrial Complex, Jinju Innovation City",
+      "country": "South Korea",
+      "region": "Jinju"
+    },
+    "formation": "Jinju Formation",
+    "age": {
+      "min_ma": 112.0,
+      "max_ma": 120.0,
+      "best_ma": null,
+      "precision": "approximate_range",
+      "method": "published_formation_age_range",
+      "basis": "Same Jinju Formation track-bearing surface; the paper reports approximately 120–112 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-019-38633-4:cue-jj-m01-m03-skin",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41598-019-38633-4",
+        "doi": "10.1038/s41598-019-38633-4",
+        "title": "Exquisitely-preserved, high-definition skin traces in diminutive theropod tracks from the Cretaceous of Korea",
+        "year": 2019,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-019-38633-4",
+        "authors": [
+          "Kyung Soo Kim",
+          "Martin G. Lockley",
+          "Jong Deock Lim",
+          "Lida Xing"
+        ]
+      },
+      "claims": [
+        {
+          "type": "integument_observation",
+          "summary": "Every footprint in the trackway preserves unusually high-definition skin texture composed of densely packed reticulate polygons smaller than about 0.5 mm.",
+          "page": null,
+          "figure": "2–3",
+          "table": null
+        },
+        {
+          "type": "preservation_observation",
+          "summary": "Skin texture is preserved as both impressions and casts, in some cases effectively forming foot replicas.",
+          "page": null,
+          "figure": "2",
           "table": null
         }
       ]
@@ -783,6 +3427,134 @@
           "summary": "Published material for CM 78001: cranial elements, complete cervical vertebral series, complete dorsal vertebral series, incomplete sacrum, caudal vertebrae, ribs, gastralia, hemal arches, sternal plates, ilia, pubes, ischia, femora, tibiae, fibulae, astragalocalcanea, pedal elements.",
           "page": null,
           "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:cm:96523",
+    "evidence_type": "body_fossil",
+    "taxon": "Eoneophron infernalis",
+    "taxon_rank": "species",
+    "specimen_label": "CM 96523",
+    "material": [
+      "right astragalocalcaneum",
+      "right femur",
+      "right metatarsal III",
+      "right metatarsal IV",
+      "right tibia"
+    ],
+    "locality": {
+      "name": "Hell Creek Formation exposures, Meade County",
+      "country": "United States",
+      "region": "South Dakota"
+    },
+    "formation": "Hell Creek Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The specimen is from upper Maastrichtian Hell Creek Formation exposures in Meade County; the numeric envelope conservatively spans the Maastrichtian."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0294901:cm-96523",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0294901",
+        "doi": "10.1371/journal.pone.0294901",
+        "title": "A new oviraptorosaur (Dinosauria: Theropoda) from the end-Maastrichtian Hell Creek Formation of North America",
+        "year": 2024,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0294901",
+        "authors": [
+          "Kyle L. Atkins-Weltman",
+          "D. Jade Simon",
+          "Holly N. Woodward",
+          "Gregory F. Funston",
+          "Eric Snively"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "CM 96523 is designated the holotype of Eoneophron infernalis.",
+          "page": null,
+          "figure": "1",
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "The holotype is a partial right hindlimb preserving the femur, tibia and astragalocalcaneum, and metatarsals III and IV.",
+          "page": null,
+          "figure": "1",
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:dmnh:21461",
+    "evidence_type": "body_fossil",
+    "taxon": "Nanuqsaurus hoglundi",
+    "taxon_rank": "species",
+    "specimen_label": "DMNH 21461",
+    "material": [
+      "parietals",
+      "partial skull roof",
+      "parts of both frontals",
+      "right laterosphenoid",
+      "right maxilla ascending ramus",
+      "rostral left dentary"
+    ],
+    "locality": {
+      "name": "Kikak-Tegoseak Quarry, North Slope Borough",
+      "country": "United States",
+      "region": "Alaska"
+    },
+    "formation": "Prince Creek Formation",
+    "age": {
+      "min_ma": 68.0,
+      "max_ma": 70.0,
+      "best_ma": 69.1,
+      "precision": "approximate_range",
+      "method": "published_regional_radioisotopic_range",
+      "basis": "The paper reports multiple tuff-bed ages in the relevant Prince Creek section from around 70 to 68 Ma, with an average estimate of 69.1 ± 0.3 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0091287:dmnh-21461",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0091287",
+        "doi": "10.1371/journal.pone.0091287",
+        "title": "A Diminutive New Tyrannosaur from the Top of the World",
+        "year": 2014,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0091287",
+        "authors": [
+          "Anthony R. Fiorillo",
+          "Ronald S. Tykoski"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "DMNH 21461 is designated the holotype of Nanuqsaurus hoglundi.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "stratigraphic_context",
+          "summary": "The holotype was collected from the Kikak-Tegoseak Quarry in the Prince Creek Formation of Alaska's North Slope.",
+          "page": null,
+          "figure": "1–2",
           "table": null
         }
       ]
@@ -6562,6 +9334,61 @@
           "page": null,
           "figure": "3A",
           "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "trackway:cue:jj-m01-m03",
+    "evidence_type": "trackway",
+    "taxon": "Minisauripus",
+    "taxon_rank": "ichnogenus",
+    "specimen_label": "CUE JJ_M01–M03 — Minisauripus trackway",
+    "material": [
+      "four-track Minisauripus trackway",
+      "isolated fifth track likely belonging to same trackway",
+      "natural impressions and counterpart casts"
+    ],
+    "locality": {
+      "name": "Ppuri Industrial Complex, Jinju Innovation City",
+      "country": "South Korea",
+      "region": "Jinju"
+    },
+    "formation": "Jinju Formation",
+    "age": {
+      "min_ma": 112.0,
+      "max_ma": 120.0,
+      "best_ma": null,
+      "precision": "approximate_range",
+      "method": "published_formation_age_range",
+      "basis": "The paper reports the Jinju Formation as inferred Aptian deposition between approximately 120 and 112 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-019-38633-4:cue-jj-m01-m03-trackway",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1038/s41598-019-38633-4",
+        "doi": "10.1038/s41598-019-38633-4",
+        "title": "Exquisitely-preserved, high-definition skin traces in diminutive theropod tracks from the Cretaceous of Korea",
+        "year": 2019,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-019-38633-4",
+        "authors": [
+          "Kyung Soo Kim",
+          "Martin G. Lockley",
+          "Jong Deock Lim",
+          "Lida Xing"
+        ]
+      },
+      "claims": [
+        {
+          "type": "ichnological_observation",
+          "summary": "CUE JJ_M01 and JJ_M02 preserve counterpart and natural-impression portions of a four-track Minisauripus trackway; CUE JJ_M03 is an isolated fifth cast likely belonging to the same trackway.",
+          "page": null,
+          "figure": "2–3",
+          "table": "1"
         }
       ]
     },
