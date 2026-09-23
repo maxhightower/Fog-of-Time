@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:3491",
+    "doi": "10.1080/02724634.1990.10011827",
+    "title": "The Plio-Pleistocene Cheetah-Like Cat Miracinonyx inexpectatus of North America",
+    "year": 1990,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.1990.10011827",
+    "authors": [
+      "B. Van Valkenburgh",
+      "F. Grady",
+      "B. Kurten"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:49786",
+      "taxon": "Miracinonyx inexpectatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Miracinonyx",
+      "basis": "stated with evidence",
+      "summary": "Miracinonyx inexpectatus belongs to Miracinonyx.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:53766",
+      "taxon": "Miracinonyx studeri",
+      "published_as": "Felis studeri",
+      "status": "subjective_synonym_of",
+      "related_taxon": "Miracinonyx inexpectatus",
+      "basis": "stated with evidence",
+      "summary": "Miracinonyx studeri (as Felis studeri) is a subjective synonym of Miracinonyx inexpectatus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:53776",
+      "taxon": "Miracinonyx trumani",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Miracinonyx",
+      "basis": "stated with evidence",
+      "summary": "Miracinonyx trumani belongs to Miracinonyx.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:61939",
+      "taxon": "Miracinonyx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Felinae",
+      "basis": "stated with evidence",
+      "summary": "Miracinonyx belongs to Felinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

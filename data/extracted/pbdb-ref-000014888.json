@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14888",
+    "doi": "10.1525/california/9780520242098.003.0024",
+    "title": "Pachycephalosauria",
+    "year": 2004,
+    "journal": "In D. B. Weishampel, P. Dodson & H. Osmólska (eds.), The Dinosauria (second edition). University of California Press, Berkeley",
+    "url": "https://doi.org/10.1525/california/9780520242098.003.0024",
+    "authors": [
+      "T. Maryanska",
+      "R. E. Chapman",
+      "D. B. Weishampel"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:102983",
+      "taxon": "Stygimoloch",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauridae",
+      "basis": "stated with evidence",
+      "summary": "Stygimoloch belongs to Pachycephalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:102985",
+      "taxon": "Stygimoloch spinifer",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stygimoloch",
+      "basis": "stated with evidence",
+      "summary": "Stygimoloch spinifer belongs to Stygimoloch.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

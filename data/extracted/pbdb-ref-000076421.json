@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76421",
+    "doi": null,
+    "title": "Los dinosaurios de Ameghino [The dinosaurs of Ameghino]",
+    "year": 1999,
+    "journal": "Ameghiniana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76421",
+    "authors": [
+      "R. A. Coria",
+      "L. Salgado"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:831992",
+      "taxon": "Clasmodosaurus",
+      "published_as": null,
+      "status": "nomen_vanum",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus is a nomen vanum (filed under Sauropoda).",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:831993",
+      "taxon": "Clasmodosaurus spatula",
+      "published_as": null,
+      "status": "nomen_vanum",
+      "related_taxon": "Clasmodosaurus",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus spatula is a nomen vanum (filed under Clasmodosaurus).",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

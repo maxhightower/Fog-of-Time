@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54331",
+    "doi": null,
+    "title": "Early fossil hunting in the Rocky Mountains",
+    "year": 1926,
+    "journal": "Natural History",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54331",
+    "authors": [
+      "R. S. Lull"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:560422",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

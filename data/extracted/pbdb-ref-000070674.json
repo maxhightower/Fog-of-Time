@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70674",
+    "doi": "10.1371/journal.pone.0028705",
+    "title": "‘Nedoceratops’: an example of a transitional morphology",
+    "year": 2011,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0028705",
+    "authors": [
+      "J. B. Scannella",
+      "J. R. Horner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:750057",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Triceratops",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus is a subjective synonym of Triceratops.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:81845",
+    "doi": null,
+    "title": "Dinosaurs of the Lance Formation in eastern Wyoming",
+    "year": 1994,
+    "journal": "Wyoming Geological Association Forty-Fourth Annual Field Conference. Wyoming Geological Association Guidebook",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=81845",
+    "authors": [
+      "K. L. Derstler"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:888942",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:888947",
+      "taxon": "Stygimoloch spinifer",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stygimoloch",
+      "basis": "stated without evidence",
+      "summary": "Stygimoloch spinifer belongs to Stygimoloch.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

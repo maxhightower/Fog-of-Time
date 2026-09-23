@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75722",
+    "doi": "10.1007/bf03029874",
+    "title": "Traité de Zoologie. Fascicule VIII. Développement Embryogénique des Vertébrés Allantoïdiens. Les Reptiles",
+    "year": 1928,
+    "journal": "Masson et Companie, Libraires de l'Academie de Médecine",
+    "url": "https://doi.org/10.1007/bf03029874",
+    "authors": [
+      "E. Perrier"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:824259",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

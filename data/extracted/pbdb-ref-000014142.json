@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14142",
+    "doi": "10.1017/s0016756800173480",
+    "title": "Catalogue of the Fossil Reptilia and Amphibia in the British Museum (Natural History). Part I. Containing the Orders Ornithosauria, Crocodilia, Dinosauria, Squamata, Rhynchocephalia, and Proterosauria. British Museum (Natural History), London",
+    "year": 1888,
+    "journal": null,
+    "url": "https://doi.org/10.1017/s0016756800173480",
+    "authors": [
+      "R. Lydekker"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:98256",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Zanclodon",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus is a subjective synonym of Zanclodon.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

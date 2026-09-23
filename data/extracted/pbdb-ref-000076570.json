@@ -1,0 +1,78 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76570",
+    "doi": null,
+    "title": "A dinosaurusok átnézete és származása [Review and origin of dinosaurs]",
+    "year": 1901,
+    "journal": "Földtani Közlöny",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76570",
+    "authors": [
+      "B. F. Nopcsa"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:832655",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Zanclodon",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus is a subjective synonym of Zanclodon.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:832671",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": "Zanclodon ingens",
+      "status": "belongs_to",
+      "related_taxon": "Zanclodon",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus ingens (as Zanclodon ingens) belongs to Zanclodon.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:832777",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Atlantosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus belongs to Atlantosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:832778",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833102",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833103",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

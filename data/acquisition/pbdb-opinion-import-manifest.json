@@ -1,0 +1,2404 @@
+{
+  "schema_version": "fog-of-time.pbdb-opinion-import/v1",
+  "retrieved_at": "2026-09-23T15:00:33+00:00",
+  "source": "Paleobiology Database data1.2 API",
+  "source_opinion_endpoint": "https://paleobiodb.org/data1.2/taxa/opinions.csv",
+  "source_reference_endpoint": "https://paleobiodb.org/data1.2/refs/single.csv",
+  "taxa": [
+    "Miracinonyx",
+    "Miracinonyx trumani",
+    "Miracinonyx inexpectatus",
+    "Miracinonyx studeri",
+    "Brontosaurus",
+    "Brontosaurus excelsus",
+    "Clasmodosaurus",
+    "Clasmodosaurus spatula",
+    "Gresslyosaurus",
+    "Gresslyosaurus ingens",
+    "Gresslyosaurus robustus",
+    "Nanotyrannus",
+    "Nanotyrannus lancensis",
+    "Stygimoloch",
+    "Stygimoloch spinifer",
+    "Torosaurus",
+    "Torosaurus latus"
+  ],
+  "selection": "primary opinions only: opinion author and year match the reference",
+  "skipped_secondary_opinions": 10,
+  "publications_created": 272,
+  "publications_merged": 4,
+  "references": [
+    {
+      "reference_id": 1179,
+      "file": "data/extracted/pbdb-ref-000001179.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:53764"
+      ]
+    },
+    {
+      "reference_id": 2212,
+      "file": "data/extracted/pbdb-ref-000002212.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:709880"
+      ]
+    },
+    {
+      "reference_id": 2623,
+      "file": "data/extracted/pbdb-ref-000002623.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:49784",
+        "pbdb-opinion:53765",
+        "pbdb-opinion:53775"
+      ]
+    },
+    {
+      "reference_id": 3148,
+      "file": "data/extracted/pbdb-ref-000003148.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:49790"
+      ]
+    },
+    {
+      "reference_id": 3185,
+      "file": "data/extracted/pbdb-ref-000003185.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:292734"
+      ]
+    },
+    {
+      "reference_id": 3491,
+      "file": "data/extracted/pbdb-ref-000003491.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:49786",
+        "pbdb-opinion:53766",
+        "pbdb-opinion:53776",
+        "pbdb-opinion:61939"
+      ]
+    },
+    {
+      "reference_id": 3553,
+      "file": "data/extracted/pbdb-ref-000003553.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:293199"
+      ]
+    },
+    {
+      "reference_id": 4205,
+      "file": "data/extracted/pbdb-ref-000004205.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:79135"
+      ]
+    },
+    {
+      "reference_id": 4250,
+      "file": "data/extracted/pbdb-ref-000004250.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:460342"
+      ]
+    },
+    {
+      "reference_id": 4783,
+      "file": "data/extracted/pbdb-ref-000004783.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:38957",
+        "pbdb-opinion:39031"
+      ]
+    },
+    {
+      "reference_id": 6202,
+      "file": "data/extracted/pbdb-ref-000006202.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:53767",
+        "pbdb-opinion:53777"
+      ]
+    },
+    {
+      "reference_id": 6221,
+      "file": "data/extracted/pbdb-ref-000006221.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:49788",
+        "pbdb-opinion:53769",
+        "pbdb-opinion:53779"
+      ]
+    },
+    {
+      "reference_id": 6271,
+      "file": "data/extracted/pbdb-ref-000006271.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:53774"
+      ]
+    },
+    {
+      "reference_id": 6294,
+      "file": "data/extracted/pbdb-ref-000006294.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:74539"
+      ]
+    },
+    {
+      "reference_id": 7569,
+      "file": "data/extracted/pbdb-ref-000007569.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:450812",
+        "pbdb-opinion:53771",
+        "pbdb-opinion:53781"
+      ]
+    },
+    {
+      "reference_id": 7589,
+      "file": "data/extracted/pbdb-ref-000007589.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:41297"
+      ]
+    },
+    {
+      "reference_id": 7814,
+      "file": "data/extracted/pbdb-ref-000007814.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:74316",
+        "pbdb-opinion:74317"
+      ]
+    },
+    {
+      "reference_id": 7816,
+      "file": "data/extracted/pbdb-ref-000007816.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:74337"
+      ]
+    },
+    {
+      "reference_id": 7906,
+      "file": "data/extracted/pbdb-ref-000007906.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:74548"
+      ]
+    },
+    {
+      "reference_id": 7925,
+      "file": "data/extracted/pbdb-ref-000007925.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:74572",
+        "pbdb-opinion:96198"
+      ]
+    },
+    {
+      "reference_id": 9055,
+      "file": "data/extracted/pbdb-ref-000009055.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:75428",
+        "pbdb-opinion:75478"
+      ]
+    },
+    {
+      "reference_id": 9789,
+      "file": "data/extracted/pbdb-ref-000009789.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:78185",
+        "pbdb-opinion:78187"
+      ]
+    },
+    {
+      "reference_id": 9806,
+      "file": "data/extracted/pbdb-ref-000009806.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:78228",
+        "pbdb-opinion:92518"
+      ]
+    },
+    {
+      "reference_id": 10102,
+      "file": "data/extracted/pbdb-ref-000010102.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:79136"
+      ]
+    },
+    {
+      "reference_id": 10348,
+      "file": "data/extracted/pbdb-ref-000010348.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:134183"
+      ]
+    },
+    {
+      "reference_id": 10350,
+      "file": "data/extracted/pbdb-ref-000010350.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:101750"
+      ]
+    },
+    {
+      "reference_id": 10351,
+      "file": "data/extracted/pbdb-ref-000010351.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:134328"
+      ]
+    },
+    {
+      "reference_id": 10510,
+      "file": "data/extracted/pbdb-ref-000010510.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:79468",
+        "pbdb-opinion:79471",
+        "pbdb-opinion:79485",
+        "pbdb-opinion:79526"
+      ]
+    },
+    {
+      "reference_id": 10538,
+      "file": "data/extracted/pbdb-ref-000010538.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:79640"
+      ]
+    },
+    {
+      "reference_id": 10632,
+      "file": "data/extracted/pbdb-ref-000010632.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:112345"
+      ]
+    },
+    {
+      "reference_id": 10726,
+      "file": "data/extracted/pbdb-ref-000010726.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:80092",
+        "pbdb-opinion:80093"
+      ]
+    },
+    {
+      "reference_id": 11753,
+      "file": "data/extracted/pbdb-ref-000011753.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:133348"
+      ]
+    },
+    {
+      "reference_id": 12201,
+      "file": "data/extracted/pbdb-ref-000012201.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:90164"
+      ]
+    },
+    {
+      "reference_id": 12251,
+      "file": "data/extracted/pbdb-ref-000012251.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:90351",
+        "pbdb-opinion:90353"
+      ]
+    },
+    {
+      "reference_id": 12257,
+      "file": "data/extracted/pbdb-ref-000012257.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:90366"
+      ]
+    },
+    {
+      "reference_id": 12300,
+      "file": "data/extracted/pbdb-ref-000012300.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:90685"
+      ]
+    },
+    {
+      "reference_id": 12304,
+      "file": "data/extracted/pbdb-ref-000012304.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:90901",
+        "pbdb-opinion:90910"
+      ]
+    },
+    {
+      "reference_id": 12314,
+      "file": "data/extracted/pbdb-ref-000012314.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:90977",
+        "pbdb-opinion:90978"
+      ]
+    },
+    {
+      "reference_id": 12568,
+      "file": "data/extracted/pbdb-ref-000012568.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:91762",
+        "pbdb-opinion:91772"
+      ]
+    },
+    {
+      "reference_id": 12624,
+      "file": "data/extracted/pbdb-ref-000012624.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:91912"
+      ]
+    },
+    {
+      "reference_id": 12772,
+      "file": "data/extracted/pbdb-ref-000012772.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:92515",
+        "pbdb-opinion:92517"
+      ]
+    },
+    {
+      "reference_id": 12789,
+      "file": "data/extracted/pbdb-ref-000012789.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:92546",
+        "pbdb-opinion:92548",
+        "pbdb-opinion:93271"
+      ]
+    },
+    {
+      "reference_id": 12799,
+      "file": "data/extracted/pbdb-ref-000012799.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:313832",
+        "pbdb-opinion:92631"
+      ]
+    },
+    {
+      "reference_id": 13014,
+      "file": "data/extracted/pbdb-ref-000013014.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:93432"
+      ]
+    },
+    {
+      "reference_id": 13015,
+      "file": "data/extracted/pbdb-ref-000013015.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:96407",
+        "pbdb-opinion:96408"
+      ]
+    },
+    {
+      "reference_id": 13559,
+      "file": "data/extracted/pbdb-ref-000013559.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:95104"
+      ]
+    },
+    {
+      "reference_id": 13599,
+      "file": "data/extracted/pbdb-ref-000013599.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:95317",
+        "pbdb-opinion:95350"
+      ]
+    },
+    {
+      "reference_id": 13669,
+      "file": "data/extracted/pbdb-ref-000013669.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:135024"
+      ]
+    },
+    {
+      "reference_id": 13712,
+      "file": "data/extracted/pbdb-ref-000013712.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:95819",
+        "pbdb-opinion:95821"
+      ]
+    },
+    {
+      "reference_id": 13854,
+      "file": "data/extracted/pbdb-ref-000013854.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:96646",
+        "pbdb-opinion:96704",
+        "pbdb-opinion:96789",
+        "pbdb-opinion:96987"
+      ]
+    },
+    {
+      "reference_id": 13944,
+      "file": "data/extracted/pbdb-ref-000013944.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:709919",
+        "pbdb-opinion:709928"
+      ]
+    },
+    {
+      "reference_id": 13950,
+      "file": "data/extracted/pbdb-ref-000013950.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:672295",
+        "pbdb-opinion:672297"
+      ]
+    },
+    {
+      "reference_id": 14073,
+      "file": "data/extracted/pbdb-ref-000014073.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:889488"
+      ]
+    },
+    {
+      "reference_id": 14074,
+      "file": "data/extracted/pbdb-ref-000014074.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:109087",
+        "pbdb-opinion:109095",
+        "pbdb-opinion:109143",
+        "pbdb-opinion:109185"
+      ]
+    },
+    {
+      "reference_id": 14112,
+      "file": "data/extracted/pbdb-ref-000014112.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:97924",
+        "pbdb-opinion:97925"
+      ]
+    },
+    {
+      "reference_id": 14142,
+      "file": "data/extracted/pbdb-ref-000014142.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:98256"
+      ]
+    },
+    {
+      "reference_id": 14175,
+      "file": "data/extracted/pbdb-ref-000014175.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:98461"
+      ]
+    },
+    {
+      "reference_id": 14211,
+      "file": "data/extracted/pbdb-ref-000014211.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:98775"
+      ]
+    },
+    {
+      "reference_id": 14233,
+      "file": "data/extracted/pbdb-ref-000014233.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:99037",
+        "pbdb-opinion:99051"
+      ]
+    },
+    {
+      "reference_id": 14362,
+      "file": "data/extracted/pbdb-ref-000014362.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:99974"
+      ]
+    },
+    {
+      "reference_id": 14425,
+      "file": "data/extracted/pbdb-ref-000014425.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:141904"
+      ]
+    },
+    {
+      "reference_id": 14428,
+      "file": "data/extracted/pbdb-ref-000014428.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:100393",
+        "pbdb-opinion:100434"
+      ]
+    },
+    {
+      "reference_id": 14430,
+      "file": "data/extracted/pbdb-ref-000014430.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:100409",
+        "pbdb-opinion:100419"
+      ]
+    },
+    {
+      "reference_id": 14450,
+      "file": "data/extracted/pbdb-ref-000014450.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:100584",
+        "pbdb-opinion:100588"
+      ]
+    },
+    {
+      "reference_id": 14453,
+      "file": "data/extracted/pbdb-ref-000014453.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:100637",
+        "pbdb-opinion:100638"
+      ]
+    },
+    {
+      "reference_id": 14536,
+      "file": "data/extracted/pbdb-ref-000014536.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:101191"
+      ]
+    },
+    {
+      "reference_id": 14567,
+      "file": "data/extracted/pbdb-ref-000014567.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:101420"
+      ]
+    },
+    {
+      "reference_id": 14579,
+      "file": "data/extracted/pbdb-ref-000014579.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:655586"
+      ]
+    },
+    {
+      "reference_id": 14592,
+      "file": "data/extracted/pbdb-ref-000014592.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:79134"
+      ]
+    },
+    {
+      "reference_id": 14603,
+      "file": "data/extracted/pbdb-ref-000014603.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:181642",
+        "pbdb-opinion:181670",
+        "pbdb-opinion:186967",
+        "pbdb-opinion:187263"
+      ]
+    },
+    {
+      "reference_id": 14729,
+      "file": "data/extracted/pbdb-ref-000014729.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:102216"
+      ]
+    },
+    {
+      "reference_id": 14741,
+      "file": "data/extracted/pbdb-ref-000014741.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:102250"
+      ]
+    },
+    {
+      "reference_id": 14868,
+      "file": "data/extracted/pbdb-ref-000014868.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:102865",
+        "pbdb-opinion:102867"
+      ]
+    },
+    {
+      "reference_id": 14888,
+      "file": "data/extracted/pbdb-ref-000014888.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:102983",
+        "pbdb-opinion:102985"
+      ]
+    },
+    {
+      "reference_id": 15135,
+      "file": "data/extracted/pbdb-ref-000015135.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:104944",
+        "pbdb-opinion:104945",
+        "pbdb-opinion:104946"
+      ]
+    },
+    {
+      "reference_id": 15138,
+      "file": "data/extracted/pbdb-ref-000015138.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:104201"
+      ]
+    },
+    {
+      "reference_id": 15218,
+      "file": "data/extracted/pbdb-ref-000015218.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:104506"
+      ]
+    },
+    {
+      "reference_id": 15348,
+      "file": "data/extracted/pbdb-ref-000015348.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:187346",
+        "pbdb-opinion:187348",
+        "pbdb-opinion:187702",
+        "pbdb-opinion:187703",
+        "pbdb-opinion:745203"
+      ]
+    },
+    {
+      "reference_id": 15490,
+      "file": "data/extracted/pbdb-ref-000015490.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:133139",
+        "pbdb-opinion:133141",
+        "pbdb-opinion:133145",
+        "pbdb-opinion:133985",
+        "pbdb-opinion:133990",
+        "pbdb-opinion:134021",
+        "pbdb-opinion:138864",
+        "pbdb-opinion:138870"
+      ]
+    },
+    {
+      "reference_id": 16552,
+      "file": "data/extracted/pbdb-ref-000016552.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:108721",
+        "pbdb-opinion:108724",
+        "pbdb-opinion:139116",
+        "pbdb-opinion:139117"
+      ]
+    },
+    {
+      "reference_id": 16697,
+      "file": "data/extracted/pbdb-ref-000016697.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:112588"
+      ]
+    },
+    {
+      "reference_id": 16859,
+      "file": "data/extracted/pbdb-ref-000016859.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:114085",
+        "pbdb-opinion:114092"
+      ]
+    },
+    {
+      "reference_id": 16866,
+      "file": "data/extracted/pbdb-ref-000016866.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:114145",
+        "pbdb-opinion:114147"
+      ]
+    },
+    {
+      "reference_id": 16877,
+      "file": "data/extracted/pbdb-ref-000016877.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:114223"
+      ]
+    },
+    {
+      "reference_id": 16879,
+      "file": "data/extracted/pbdb-ref-000016879.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:114267",
+        "pbdb-opinion:114298",
+        "pbdb-opinion:114419"
+      ]
+    },
+    {
+      "reference_id": 16897,
+      "file": "data/extracted/pbdb-ref-000016897.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:114540"
+      ]
+    },
+    {
+      "reference_id": 16915,
+      "file": "data/extracted/pbdb-ref-000016915.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:114939"
+      ]
+    },
+    {
+      "reference_id": 16920,
+      "file": "data/extracted/pbdb-ref-000016920.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:114960",
+        "pbdb-opinion:114968"
+      ]
+    },
+    {
+      "reference_id": 17003,
+      "file": "data/extracted/pbdb-ref-000017003.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:304826"
+      ]
+    },
+    {
+      "reference_id": 17102,
+      "file": "data/extracted/pbdb-ref-000017102.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:120592",
+        "pbdb-opinion:120733"
+      ]
+    },
+    {
+      "reference_id": 17192,
+      "file": "data/extracted/pbdb-ref-000017192.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:121318"
+      ]
+    },
+    {
+      "reference_id": 17275,
+      "file": "data/extracted/pbdb-ref-000017275.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:132763",
+        "pbdb-opinion:132830",
+        "pbdb-opinion:132832",
+        "pbdb-opinion:132975"
+      ]
+    },
+    {
+      "reference_id": 17297,
+      "file": "data/extracted/pbdb-ref-000017297.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:431701",
+        "pbdb-opinion:431702"
+      ]
+    },
+    {
+      "reference_id": 17469,
+      "file": "data/extracted/pbdb-ref-000017469.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:134344"
+      ]
+    },
+    {
+      "reference_id": 17477,
+      "file": "data/extracted/pbdb-ref-000017477.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:134435"
+      ]
+    },
+    {
+      "reference_id": 17545,
+      "file": "data/extracted/pbdb-ref-000017545.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:134995"
+      ]
+    },
+    {
+      "reference_id": 17770,
+      "file": "data/extracted/pbdb-ref-000017770.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:136219",
+        "pbdb-opinion:136227"
+      ]
+    },
+    {
+      "reference_id": 18058,
+      "file": "data/extracted/pbdb-ref-000018058.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:138224",
+        "pbdb-opinion:138227"
+      ]
+    },
+    {
+      "reference_id": 18091,
+      "file": "data/extracted/pbdb-ref-000018091.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:922191"
+      ]
+    },
+    {
+      "reference_id": 18407,
+      "file": "data/extracted/pbdb-ref-000018407.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:142340"
+      ]
+    },
+    {
+      "reference_id": 18432,
+      "file": "data/extracted/pbdb-ref-000018432.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:142495"
+      ]
+    },
+    {
+      "reference_id": 18434,
+      "file": "data/extracted/pbdb-ref-000018434.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:142509"
+      ]
+    },
+    {
+      "reference_id": 18501,
+      "file": "data/extracted/pbdb-ref-000018501.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:143207"
+      ]
+    },
+    {
+      "reference_id": 18584,
+      "file": "data/extracted/pbdb-ref-000018584.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:143943"
+      ]
+    },
+    {
+      "reference_id": 18742,
+      "file": "data/extracted/pbdb-ref-000018742.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:146171"
+      ]
+    },
+    {
+      "reference_id": 19130,
+      "file": "data/extracted/pbdb-ref-000019130.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:150614"
+      ]
+    },
+    {
+      "reference_id": 19133,
+      "file": "data/extracted/pbdb-ref-000019133.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:150660"
+      ]
+    },
+    {
+      "reference_id": 19140,
+      "file": "data/extracted/pbdb-ref-000019140.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:150747"
+      ]
+    },
+    {
+      "reference_id": 19268,
+      "file": "data/extracted/pbdb-ref-000019268.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:152823"
+      ]
+    },
+    {
+      "reference_id": 19269,
+      "file": "data/extracted/pbdb-ref-000019269.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:152893"
+      ]
+    },
+    {
+      "reference_id": 19316,
+      "file": "data/extracted/pbdb-ref-000019316.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:285301"
+      ]
+    },
+    {
+      "reference_id": 19570,
+      "file": "data/extracted/pbdb-ref-000019570.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:156922"
+      ]
+    },
+    {
+      "reference_id": 19573,
+      "file": "data/extracted/pbdb-ref-000019573.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:156985"
+      ]
+    },
+    {
+      "reference_id": 19893,
+      "file": "data/extracted/pbdb-ref-000019893.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:681645"
+      ]
+    },
+    {
+      "reference_id": 19935,
+      "file": "data/extracted/pbdb-ref-000019935.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:163349"
+      ]
+    },
+    {
+      "reference_id": 19952,
+      "file": "data/extracted/pbdb-ref-000019952.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:163499",
+        "pbdb-opinion:163500"
+      ]
+    },
+    {
+      "reference_id": 22076,
+      "file": "data/extracted/pbdb-ref-000022076.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:729048"
+      ]
+    },
+    {
+      "reference_id": 23342,
+      "file": "data/extracted/pbdb-ref-000023342.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:164368"
+      ]
+    },
+    {
+      "reference_id": 23831,
+      "file": "data/extracted/pbdb-ref-000023831.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:170581",
+        "pbdb-opinion:170587"
+      ]
+    },
+    {
+      "reference_id": 23834,
+      "file": "data/extracted/pbdb-ref-000023834.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:170661",
+        "pbdb-opinion:170662"
+      ]
+    },
+    {
+      "reference_id": 24190,
+      "file": "data/extracted/pbdb-ref-000024190.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:173336",
+        "pbdb-opinion:173337"
+      ]
+    },
+    {
+      "reference_id": 24386,
+      "file": "data/extracted/pbdb-ref-000024386.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:176913"
+      ]
+    },
+    {
+      "reference_id": 24837,
+      "file": "data/extracted/pbdb-ref-000024837.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:184552"
+      ]
+    },
+    {
+      "reference_id": 24920,
+      "file": "data/extracted/pbdb-ref-000024920.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:797545",
+        "pbdb-opinion:797546",
+        "pbdb-opinion:799788",
+        "pbdb-opinion:799790"
+      ]
+    },
+    {
+      "reference_id": 25127,
+      "file": "data/extracted/pbdb-ref-000025127.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:187876"
+      ]
+    },
+    {
+      "reference_id": 25193,
+      "file": "data/extracted/pbdb-ref-000025193.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:188732",
+        "pbdb-opinion:188733"
+      ]
+    },
+    {
+      "reference_id": 25471,
+      "file": "data/extracted/pbdb-ref-000025471.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:194053"
+      ]
+    },
+    {
+      "reference_id": 25608,
+      "file": "data/extracted/pbdb-ref-000025608.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:195556"
+      ]
+    },
+    {
+      "reference_id": 25716,
+      "file": "data/extracted/pbdb-ref-000025716.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:196579"
+      ]
+    },
+    {
+      "reference_id": 25956,
+      "file": "data/extracted/pbdb-ref-000025956.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:199725",
+        "pbdb-opinion:199738"
+      ]
+    },
+    {
+      "reference_id": 25972,
+      "file": "data/extracted/pbdb-ref-000025972.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:199876",
+        "pbdb-opinion:199891"
+      ]
+    },
+    {
+      "reference_id": 26534,
+      "file": "data/extracted/pbdb-ref-000026534.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:211273"
+      ]
+    },
+    {
+      "reference_id": 28369,
+      "file": "data/extracted/pbdb-ref-000028369.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:245156"
+      ]
+    },
+    {
+      "reference_id": 28654,
+      "file": "data/extracted/pbdb-ref-000028654.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:248998",
+        "pbdb-opinion:248999"
+      ]
+    },
+    {
+      "reference_id": 28672,
+      "file": "data/extracted/pbdb-ref-000028672.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:249162",
+        "pbdb-opinion:249169"
+      ]
+    },
+    {
+      "reference_id": 28722,
+      "file": "data/extracted/pbdb-ref-000028722.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:249740"
+      ]
+    },
+    {
+      "reference_id": 29093,
+      "file": "data/extracted/pbdb-ref-000029093.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:254710",
+        "pbdb-opinion:254711"
+      ]
+    },
+    {
+      "reference_id": 29770,
+      "file": "data/extracted/pbdb-ref-000029770.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:265063"
+      ]
+    },
+    {
+      "reference_id": 29828,
+      "file": "data/extracted/pbdb-ref-000029828.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:265890"
+      ]
+    },
+    {
+      "reference_id": 31174,
+      "file": "data/extracted/pbdb-ref-000031174.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:287820"
+      ]
+    },
+    {
+      "reference_id": 31175,
+      "file": "data/extracted/pbdb-ref-000031175.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:325987"
+      ]
+    },
+    {
+      "reference_id": 31216,
+      "file": "data/extracted/pbdb-ref-000031216.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:288560"
+      ]
+    },
+    {
+      "reference_id": 31486,
+      "file": "data/extracted/pbdb-ref-000031486.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:293198"
+      ]
+    },
+    {
+      "reference_id": 31577,
+      "file": "data/extracted/pbdb-ref-000031577.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:294547",
+        "pbdb-opinion:294555"
+      ]
+    },
+    {
+      "reference_id": 31892,
+      "file": "data/extracted/pbdb-ref-000031892.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:296316"
+      ]
+    },
+    {
+      "reference_id": 32091,
+      "file": "data/extracted/pbdb-ref-000032091.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:298873"
+      ]
+    },
+    {
+      "reference_id": 32613,
+      "file": "data/extracted/pbdb-ref-000032613.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:303773"
+      ]
+    },
+    {
+      "reference_id": 32791,
+      "file": "data/extracted/pbdb-ref-000032791.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:306179"
+      ]
+    },
+    {
+      "reference_id": 32999,
+      "file": "data/extracted/pbdb-ref-000032999.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:307183"
+      ]
+    },
+    {
+      "reference_id": 33325,
+      "file": "data/extracted/pbdb-ref-000033325.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:309989",
+        "pbdb-opinion:314844"
+      ]
+    },
+    {
+      "reference_id": 33792,
+      "file": "data/extracted/pbdb-ref-000033792.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:310723"
+      ]
+    },
+    {
+      "reference_id": 33878,
+      "file": "data/extracted/pbdb-ref-000033878.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:311352"
+      ]
+    },
+    {
+      "reference_id": 34081,
+      "file": "data/extracted/pbdb-ref-000034081.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:313456",
+        "pbdb-opinion:79467"
+      ]
+    },
+    {
+      "reference_id": 34685,
+      "file": "data/extracted/pbdb-ref-000034685.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:317731"
+      ]
+    },
+    {
+      "reference_id": 34901,
+      "file": "data/extracted/pbdb-ref-000034901.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:405457",
+        "pbdb-opinion:405462"
+      ]
+    },
+    {
+      "reference_id": 36737,
+      "file": "data/extracted/pbdb-ref-000036737.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:344821",
+        "pbdb-opinion:345113",
+        "pbdb-opinion:345154",
+        "pbdb-opinion:345155"
+      ]
+    },
+    {
+      "reference_id": 36802,
+      "file": "data/extracted/pbdb-ref-000036802.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:346374",
+        "pbdb-opinion:346375"
+      ]
+    },
+    {
+      "reference_id": 40802,
+      "file": "data/extracted/pbdb-ref-000040802.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:401619",
+        "pbdb-opinion:401620"
+      ]
+    },
+    {
+      "reference_id": 41003,
+      "file": "data/extracted/pbdb-ref-000041003.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:404217"
+      ]
+    },
+    {
+      "reference_id": 46182,
+      "file": "data/extracted/pbdb-ref-000046182.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:462617"
+      ]
+    },
+    {
+      "reference_id": 46207,
+      "file": "data/extracted/pbdb-ref-000046207.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:462997",
+        "pbdb-opinion:463000"
+      ]
+    },
+    {
+      "reference_id": 46503,
+      "file": "data/extracted/pbdb-ref-000046503.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:488422"
+      ]
+    },
+    {
+      "reference_id": 49053,
+      "file": "data/extracted/pbdb-ref-000049053.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:493694"
+      ]
+    },
+    {
+      "reference_id": 49054,
+      "file": "data/extracted/pbdb-ref-000049054.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:493708",
+        "pbdb-opinion:493709"
+      ]
+    },
+    {
+      "reference_id": 49058,
+      "file": "data/extracted/pbdb-ref-000049058.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:493826"
+      ]
+    },
+    {
+      "reference_id": 49933,
+      "file": "data/extracted/pbdb-ref-000049933.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:502452"
+      ]
+    },
+    {
+      "reference_id": 51607,
+      "file": "data/extracted/pbdb-ref-000051607.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:523685"
+      ]
+    },
+    {
+      "reference_id": 52169,
+      "file": "data/extracted/pbdb-ref-000052169.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:532498",
+        "pbdb-opinion:532561",
+        "pbdb-opinion:532639",
+        "pbdb-opinion:532897",
+        "pbdb-opinion:532898",
+        "pbdb-opinion:532951"
+      ]
+    },
+    {
+      "reference_id": 52202,
+      "file": "data/extracted/pbdb-ref-000052202.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:533521",
+        "pbdb-opinion:533528"
+      ]
+    },
+    {
+      "reference_id": 52458,
+      "file": "data/extracted/pbdb-ref-000052458.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:536696",
+        "pbdb-opinion:536716"
+      ]
+    },
+    {
+      "reference_id": 52668,
+      "file": "data/extracted/pbdb-ref-000052668.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:538763"
+      ]
+    },
+    {
+      "reference_id": 53027,
+      "file": "data/extracted/pbdb-ref-000053027.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:543723"
+      ]
+    },
+    {
+      "reference_id": 53060,
+      "file": "data/extracted/pbdb-ref-000053060.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:544874"
+      ]
+    },
+    {
+      "reference_id": 53213,
+      "file": "data/extracted/pbdb-ref-000053213.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:546941"
+      ]
+    },
+    {
+      "reference_id": 53515,
+      "file": "data/extracted/pbdb-ref-000053515.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:549565"
+      ]
+    },
+    {
+      "reference_id": 53965,
+      "file": "data/extracted/pbdb-ref-000053965.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:555250"
+      ]
+    },
+    {
+      "reference_id": 53982,
+      "file": "data/extracted/pbdb-ref-000053982.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:555604"
+      ]
+    },
+    {
+      "reference_id": 54059,
+      "file": "data/extracted/pbdb-ref-000054059.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:556385"
+      ]
+    },
+    {
+      "reference_id": 54070,
+      "file": "data/extracted/pbdb-ref-000054070.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:49794"
+      ]
+    },
+    {
+      "reference_id": 54218,
+      "file": "data/extracted/pbdb-ref-000054218.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:558985",
+        "pbdb-opinion:558988"
+      ]
+    },
+    {
+      "reference_id": 54256,
+      "file": "data/extracted/pbdb-ref-000054256.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:559292"
+      ]
+    },
+    {
+      "reference_id": 54264,
+      "file": "data/extracted/pbdb-ref-000054264.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:559371"
+      ]
+    },
+    {
+      "reference_id": 54331,
+      "file": "data/extracted/pbdb-ref-000054331.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:560422"
+      ]
+    },
+    {
+      "reference_id": 54347,
+      "file": "data/extracted/pbdb-ref-000054347.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:560624"
+      ]
+    },
+    {
+      "reference_id": 55026,
+      "file": "data/extracted/pbdb-ref-000055026.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:567191",
+        "pbdb-opinion:567219"
+      ]
+    },
+    {
+      "reference_id": 55036,
+      "file": "data/extracted/pbdb-ref-000055036.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:567290",
+        "pbdb-opinion:567291"
+      ]
+    },
+    {
+      "reference_id": 55148,
+      "file": "data/extracted/pbdb-ref-000055148.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:568621"
+      ]
+    },
+    {
+      "reference_id": 55583,
+      "file": "data/extracted/pbdb-ref-000055583.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:575025"
+      ]
+    },
+    {
+      "reference_id": 55599,
+      "file": "data/extracted/pbdb-ref-000055599.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:575147",
+        "pbdb-opinion:575156"
+      ]
+    },
+    {
+      "reference_id": 55892,
+      "file": "data/extracted/pbdb-ref-000055892.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:579756"
+      ]
+    },
+    {
+      "reference_id": 55893,
+      "file": "data/extracted/pbdb-ref-000055893.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:579798"
+      ]
+    },
+    {
+      "reference_id": 55910,
+      "file": "data/extracted/pbdb-ref-000055910.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:580114"
+      ]
+    },
+    {
+      "reference_id": 55947,
+      "file": "data/extracted/pbdb-ref-000055947.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:580319"
+      ]
+    },
+    {
+      "reference_id": 56882,
+      "file": "data/extracted/pbdb-ref-000056882.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:594053"
+      ]
+    },
+    {
+      "reference_id": 57703,
+      "file": "data/extracted/pbdb-ref-000057703.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:602580"
+      ]
+    },
+    {
+      "reference_id": 58776,
+      "file": "data/extracted/pbdb-ref-000058776.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:613091"
+      ]
+    },
+    {
+      "reference_id": 59060,
+      "file": "data/extracted/pbdb-ref-000059060.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:615680",
+        "pbdb-opinion:615687",
+        "pbdb-opinion:615695"
+      ]
+    },
+    {
+      "reference_id": 59189,
+      "file": "data/extracted/pbdb-ref-000059189.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:616946",
+        "pbdb-opinion:616950"
+      ]
+    },
+    {
+      "reference_id": 59610,
+      "file": "data/extracted/pbdb-ref-000059610.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:622855",
+        "pbdb-opinion:623018",
+        "pbdb-opinion:623158"
+      ]
+    },
+    {
+      "reference_id": 60215,
+      "file": "data/extracted/pbdb-ref-000060215.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:627269",
+        "pbdb-opinion:627270"
+      ]
+    },
+    {
+      "reference_id": 61952,
+      "file": "data/extracted/pbdb-ref-000061952.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:637981"
+      ]
+    },
+    {
+      "reference_id": 61981,
+      "file": "data/extracted/pbdb-ref-000061981.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:638239",
+        "pbdb-opinion:638240"
+      ]
+    },
+    {
+      "reference_id": 62013,
+      "file": "data/extracted/pbdb-ref-000062013.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:638985"
+      ]
+    },
+    {
+      "reference_id": 62017,
+      "file": "data/extracted/pbdb-ref-000062017.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:639050",
+        "pbdb-opinion:639052"
+      ]
+    },
+    {
+      "reference_id": 62055,
+      "file": "data/extracted/pbdb-ref-000062055.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:639396",
+        "pbdb-opinion:639405"
+      ]
+    },
+    {
+      "reference_id": 62063,
+      "file": "data/extracted/pbdb-ref-000062063.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:639510"
+      ]
+    },
+    {
+      "reference_id": 62081,
+      "file": "data/extracted/pbdb-ref-000062081.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:639738"
+      ]
+    },
+    {
+      "reference_id": 62307,
+      "file": "data/extracted/pbdb-ref-000062307.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:643462"
+      ]
+    },
+    {
+      "reference_id": 62422,
+      "file": "data/extracted/pbdb-ref-000062422.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:646811"
+      ]
+    },
+    {
+      "reference_id": 62842,
+      "file": "data/extracted/pbdb-ref-000062842.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:653255"
+      ]
+    },
+    {
+      "reference_id": 62864,
+      "file": "data/extracted/pbdb-ref-000062864.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:653633"
+      ]
+    },
+    {
+      "reference_id": 62966,
+      "file": "data/extracted/pbdb-ref-000062966.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:654573",
+        "pbdb-opinion:654575",
+        "pbdb-opinion:654583"
+      ]
+    },
+    {
+      "reference_id": 63047,
+      "file": "data/extracted/pbdb-ref-000063047.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:655554"
+      ]
+    },
+    {
+      "reference_id": 63049,
+      "file": "data/extracted/pbdb-ref-000063049.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:655580"
+      ]
+    },
+    {
+      "reference_id": 63165,
+      "file": "data/extracted/pbdb-ref-000063165.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:656732",
+        "pbdb-opinion:656733"
+      ]
+    },
+    {
+      "reference_id": 63172,
+      "file": "data/extracted/pbdb-ref-000063172.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:656842"
+      ]
+    },
+    {
+      "reference_id": 63229,
+      "file": "data/extracted/pbdb-ref-000063229.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:657545"
+      ]
+    },
+    {
+      "reference_id": 63357,
+      "file": "data/extracted/pbdb-ref-000063357.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:658891",
+        "pbdb-opinion:658936",
+        "pbdb-opinion:658991"
+      ]
+    },
+    {
+      "reference_id": 63575,
+      "file": "data/extracted/pbdb-ref-000063575.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:663480"
+      ]
+    },
+    {
+      "reference_id": 63603,
+      "file": "data/extracted/pbdb-ref-000063603.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:663902",
+        "pbdb-opinion:663903"
+      ]
+    },
+    {
+      "reference_id": 63666,
+      "file": "data/extracted/pbdb-ref-000063666.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:664748"
+      ]
+    },
+    {
+      "reference_id": 63744,
+      "file": "data/extracted/pbdb-ref-000063744.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:665862"
+      ]
+    },
+    {
+      "reference_id": 63755,
+      "file": "data/extracted/pbdb-ref-000063755.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:665893"
+      ]
+    },
+    {
+      "reference_id": 63772,
+      "file": "data/extracted/pbdb-ref-000063772.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:666316",
+        "pbdb-opinion:666329"
+      ]
+    },
+    {
+      "reference_id": 63986,
+      "file": "data/extracted/pbdb-ref-000063986.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:667997",
+        "pbdb-opinion:667998",
+        "pbdb-opinion:668103",
+        "pbdb-opinion:668104"
+      ]
+    },
+    {
+      "reference_id": 64473,
+      "file": "data/extracted/pbdb-ref-000064473.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:671385",
+        "pbdb-opinion:671386",
+        "pbdb-opinion:671575"
+      ]
+    },
+    {
+      "reference_id": 64570,
+      "file": "data/extracted/pbdb-ref-000064570.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:672826"
+      ]
+    },
+    {
+      "reference_id": 64571,
+      "file": "data/extracted/pbdb-ref-000064571.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:672845"
+      ]
+    },
+    {
+      "reference_id": 64603,
+      "file": "data/extracted/pbdb-ref-000064603.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:673203"
+      ]
+    },
+    {
+      "reference_id": 65100,
+      "file": "data/extracted/pbdb-ref-000065100.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:678950"
+      ]
+    },
+    {
+      "reference_id": 65210,
+      "file": "data/extracted/pbdb-ref-000065210.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:680163"
+      ]
+    },
+    {
+      "reference_id": 65427,
+      "file": "data/extracted/pbdb-ref-000065427.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:681530"
+      ]
+    },
+    {
+      "reference_id": 65509,
+      "file": "data/extracted/pbdb-ref-000065509.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:683025"
+      ]
+    },
+    {
+      "reference_id": 65673,
+      "file": "data/extracted/pbdb-ref-000065673.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:684207"
+      ]
+    },
+    {
+      "reference_id": 68541,
+      "file": "data/extracted/pbdb-ref-000068541.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:718638",
+        "pbdb-opinion:718644"
+      ]
+    },
+    {
+      "reference_id": 68923,
+      "file": "data/extracted/pbdb-ref-000068923.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:722712"
+      ]
+    },
+    {
+      "reference_id": 68982,
+      "file": "data/extracted/pbdb-ref-000068982.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:751358"
+      ]
+    },
+    {
+      "reference_id": 69417,
+      "file": "data/extracted/pbdb-ref-000069417.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:729001"
+      ]
+    },
+    {
+      "reference_id": 69419,
+      "file": "data/extracted/pbdb-ref-000069419.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:729122",
+        "pbdb-opinion:729123"
+      ]
+    },
+    {
+      "reference_id": 69467,
+      "file": "data/extracted/pbdb-ref-000069467.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:729799"
+      ]
+    },
+    {
+      "reference_id": 69475,
+      "file": "data/extracted/pbdb-ref-000069475.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:730059",
+        "pbdb-opinion:730062"
+      ]
+    },
+    {
+      "reference_id": 69484,
+      "file": "data/extracted/pbdb-ref-000069484.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:730123",
+        "pbdb-opinion:730124"
+      ]
+    },
+    {
+      "reference_id": 69984,
+      "file": "data/extracted/pbdb-ref-000069984.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:821804"
+      ]
+    },
+    {
+      "reference_id": 70674,
+      "file": "data/extracted/pbdb-ref-000070674.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:750057"
+      ]
+    },
+    {
+      "reference_id": 71195,
+      "file": "data/extracted/pbdb-ref-000071195.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:756269",
+        "pbdb-opinion:756270"
+      ]
+    },
+    {
+      "reference_id": 71258,
+      "file": "data/extracted/pbdb-ref-000071258.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:758861",
+        "pbdb-opinion:758862",
+        "pbdb-opinion:758876"
+      ]
+    },
+    {
+      "reference_id": 71512,
+      "file": "data/extracted/pbdb-ref-000071512.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:765931",
+        "pbdb-opinion:765939"
+      ]
+    },
+    {
+      "reference_id": 71681,
+      "file": "data/extracted/pbdb-ref-000071681.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:770048"
+      ]
+    },
+    {
+      "reference_id": 72985,
+      "file": "data/extracted/pbdb-ref-000072985.json",
+      "action": "merged",
+      "opinions": [
+        "pbdb-opinion:824491"
+      ]
+    },
+    {
+      "reference_id": 75719,
+      "file": "data/extracted/pbdb-ref-000075719.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:824155"
+      ]
+    },
+    {
+      "reference_id": 75722,
+      "file": "data/extracted/pbdb-ref-000075722.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:824259"
+      ]
+    },
+    {
+      "reference_id": 75731,
+      "file": "data/extracted/pbdb-ref-000075731.json",
+      "action": "merged",
+      "opinions": [
+        "pbdb-opinion:824517"
+      ]
+    },
+    {
+      "reference_id": 76421,
+      "file": "data/extracted/pbdb-ref-000076421.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:831992",
+        "pbdb-opinion:831993"
+      ]
+    },
+    {
+      "reference_id": 76550,
+      "file": "data/extracted/pbdb-ref-000076550.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:832383"
+      ]
+    },
+    {
+      "reference_id": 76570,
+      "file": "data/extracted/pbdb-ref-000076570.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:832655",
+        "pbdb-opinion:832671",
+        "pbdb-opinion:832777",
+        "pbdb-opinion:832778",
+        "pbdb-opinion:833102",
+        "pbdb-opinion:833103"
+      ]
+    },
+    {
+      "reference_id": 77734,
+      "file": "data/extracted/pbdb-ref-000077734.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:846267"
+      ]
+    },
+    {
+      "reference_id": 77959,
+      "file": "data/extracted/pbdb-ref-000077959.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:848384",
+        "pbdb-opinion:848385",
+        "pbdb-opinion:848492",
+        "pbdb-opinion:848676",
+        "pbdb-opinion:848677"
+      ]
+    },
+    {
+      "reference_id": 78089,
+      "file": "data/extracted/pbdb-ref-000078089.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:849763",
+        "pbdb-opinion:849764",
+        "pbdb-opinion:849808",
+        "pbdb-opinion:849809",
+        "pbdb-opinion:849871"
+      ]
+    },
+    {
+      "reference_id": 78169,
+      "file": "data/extracted/pbdb-ref-000078169.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:850265",
+        "pbdb-opinion:850266"
+      ]
+    },
+    {
+      "reference_id": 78170,
+      "file": "data/extracted/pbdb-ref-000078170.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:850343"
+      ]
+    },
+    {
+      "reference_id": 78193,
+      "file": "data/extracted/pbdb-ref-000078193.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:850509"
+      ]
+    },
+    {
+      "reference_id": 78853,
+      "file": "data/extracted/pbdb-ref-000078853.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:858117"
+      ]
+    },
+    {
+      "reference_id": 79156,
+      "file": "data/extracted/pbdb-ref-000079156.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:863159"
+      ]
+    },
+    {
+      "reference_id": 81293,
+      "file": "data/extracted/pbdb-ref-000081293.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:879110"
+      ]
+    },
+    {
+      "reference_id": 81422,
+      "file": "data/extracted/pbdb-ref-000081422.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:880160"
+      ]
+    },
+    {
+      "reference_id": 81469,
+      "file": "data/extracted/pbdb-ref-000081469.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:880411"
+      ]
+    },
+    {
+      "reference_id": 81845,
+      "file": "data/extracted/pbdb-ref-000081845.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:888942",
+        "pbdb-opinion:888947"
+      ]
+    },
+    {
+      "reference_id": 82698,
+      "file": "data/extracted/pbdb-ref-000082698.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:898917"
+      ]
+    },
+    {
+      "reference_id": 82699,
+      "file": "data/extracted/pbdb-ref-000082699.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:898968",
+        "pbdb-opinion:898969"
+      ]
+    },
+    {
+      "reference_id": 84704,
+      "file": "data/extracted/pbdb-ref-000084704.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:923103",
+        "pbdb-opinion:923114"
+      ]
+    },
+    {
+      "reference_id": 84738,
+      "file": "data/extracted/pbdb-ref-000084738.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:923461",
+        "pbdb-opinion:923462"
+      ]
+    },
+    {
+      "reference_id": 86725,
+      "file": "data/extracted/pbdb-ref-000086725.json",
+      "action": "merged",
+      "opinions": [
+        "pbdb-opinion:940389",
+        "pbdb-opinion:940390"
+      ]
+    },
+    {
+      "reference_id": 90509,
+      "file": "data/extracted/pbdb-ref-000090509.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:982901"
+      ]
+    },
+    {
+      "reference_id": 92283,
+      "file": "data/extracted/pbdb-ref-000092283.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:992315",
+        "pbdb-opinion:992316"
+      ]
+    },
+    {
+      "reference_id": 93074,
+      "file": "data/extracted/pbdb-ref-000093074.json",
+      "action": "merged",
+      "opinions": [
+        "pbdb-opinion:1002784"
+      ]
+    },
+    {
+      "reference_id": 94628,
+      "file": "data/extracted/pbdb-ref-000094628.json",
+      "action": "created",
+      "opinions": [
+        "pbdb-opinion:1014901",
+        "pbdb-opinion:1014906"
+      ]
+    }
+  ]
+}

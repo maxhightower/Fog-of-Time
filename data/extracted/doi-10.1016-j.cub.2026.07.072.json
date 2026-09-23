@@ -1,0 +1,133 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1016/j.cub.2026.07.072",
+    "doi": "10.1016/j.cub.2026.07.072",
+    "title": "Range and diet diversity in the Pleistocene American “cheetah,” Miracinonyx trumani",
+    "year": 2026,
+    "journal": "Current Biology",
+    "url": "https://doi.org/10.1016/j.cub.2026.07.072",
+    "authors": [
+      "Molly Cassatt-Johnstone",
+      "T. Brock Wooldridge",
+      "Sambit Ghosh",
+      "Elizabeth Hall",
+      "Susan Hewitson",
+      "Julie Meachen",
+      "Matthew J. Wooller",
+      "Grant Zazula",
+      "Beth Shapiro"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1016/j.cub.2026.07.072:wyoming-paleogenomes",
+      "physical_key": "biomolecule:cassatt-johnstone-2026:miracinonyx-trumani-wyoming",
+      "evidence_type": "biomolecule",
+      "taxon": { "name": "Miracinonyx trumani", "rank": "species" },
+      "specimen": {
+        "institution_code": null,
+        "catalog_number": null,
+        "label": "Miracinonyx trumani specimens from Wyoming (nuclear paleogenomes)"
+      },
+      "material": ["nuclear paleogenome", "bone collagen stable isotopes"],
+      "locality": {
+        "name": "Wyoming",
+        "country": "United States",
+        "region": "Wyoming",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": { "formation": null, "member": null, "group": null },
+      "age": {
+        "min_ma": 0.023,
+        "max_ma": 0.023,
+        "best_ma": 0.023,
+        "precision": "approximate_point",
+        "method": "published_approximate_specimen_age",
+        "basis": "The abstract dates the Wyoming specimens to ∼23 kya.",
+        "notes": "Abstract-level extraction from the PubMed record (PMID 42697199); specimen numbers, site and dating method are not yet verified against the full text."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "molecular_observation",
+          "summary": "Nuclear paleogenomes were generated from M. trumani specimens from Wyoming (∼23 kya).",
+          "page": null, "figure": null, "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Phylogenomic analyses place M. trumani as sister to pumas (Puma concolor), not cheetahs, with a divergence ∼2.6 million years ago.",
+          "page": null, "figure": null, "table": null
+        },
+        {
+          "type": "behavioral_observation",
+          "summary": "Stable isotopes indicate the Wyoming population functioned as a generalist terrestrial predator.",
+          "page": null, "figure": null, "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1016/j.cub.2026.07.072:yukon-paleogenomes",
+      "physical_key": "biomolecule:cassatt-johnstone-2026:miracinonyx-trumani-yukon",
+      "evidence_type": "biomolecule",
+      "taxon": { "name": "Miracinonyx trumani", "rank": "species" },
+      "specimen": {
+        "institution_code": null,
+        "catalog_number": null,
+        "label": "Miracinonyx trumani specimens from Yukon (nuclear paleogenomes)"
+      },
+      "material": ["nuclear paleogenome", "bone collagen stable isotopes"],
+      "locality": {
+        "name": "Yukon",
+        "country": "Canada",
+        "region": "Yukon",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": { "formation": null, "member": null, "group": null },
+      "age": {
+        "min_ma": 0.031,
+        "max_ma": 0.031,
+        "best_ma": 0.031,
+        "precision": "approximate_point",
+        "method": "published_approximate_specimen_age",
+        "basis": "The abstract dates the Yukon specimens to ∼31 kya.",
+        "notes": "Abstract-level extraction from the PubMed record (PMID 42697199); specimen numbers, site and dating method are not yet verified against the full text."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "molecular_observation",
+          "summary": "Nuclear paleogenomes were generated from M. trumani specimens from Yukon (∼31 kya).",
+          "page": null, "figure": null, "table": null
+        },
+        {
+          "type": "site_observation",
+          "summary": "The Yukon specimens extend the species' known range by over 20° latitude into the Arctic.",
+          "page": null, "figure": null, "table": null
+        },
+        {
+          "type": "behavioral_observation",
+          "summary": "Stable isotopes place the Yukon population at an elevated trophic position consistent with exploiting anadromous fish.",
+          "page": null, "figure": null, "table": null
+        }
+      ]
+    }
+  ],
+  "opinions": [
+    {
+      "id": "doi:10.1016/j.cub.2026.07.072:opinion:sister-to-puma",
+      "taxon": "Miracinonyx trumani",
+      "published_as": null,
+      "status": "sister_to",
+      "related_taxon": "Puma concolor",
+      "basis": "stated with evidence",
+      "summary": "Phylogenomic analyses of nuclear paleogenomes confirm Miracinonyx trumani as sister to pumas (Puma concolor), not cheetahs; its cheetah-like build is convergent.",
+      "source": "abstract"
+    }
+  ]
+}

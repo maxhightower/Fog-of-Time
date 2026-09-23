@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25716",
+    "doi": null,
+    "title": "Prosauropod dinosaurs from the Upper Triassic of Germany",
+    "year": 2001,
+    "journal": "Actas de Las I Jornadas Internacionales Sobre Paleontología de Dinosaurios y Su Entorno, Salas de Los Infantes, Burgos, Spain, September 1999. Colectivo Arqueológico-Paleontológico de Salas, C.A.S.",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=25716",
+    "authors": [
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:196579",
+      "taxon": "Gresslyosaurus robustus",
+      "published_as": "Plateosaurus robustus",
+      "status": "nomen_dubium",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus robustus (as Plateosaurus robustus) is a nomen dubium (filed under Plateosaurus).",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

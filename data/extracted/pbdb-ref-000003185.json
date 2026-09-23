@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:3185",
+    "doi": null,
+    "title": "The Moore Pit local fauna; Pleistocene of Texas",
+    "year": 1966,
+    "journal": "Journal of Paleontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=3185",
+    "authors": [
+      "B. H. Slaughter"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:292734",
+      "taxon": "Miracinonyx inexpectatus",
+      "published_as": "Felis inexpectata",
+      "status": "belongs_to",
+      "related_taxon": "Felis",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx inexpectatus (as Felis inexpectata) belongs to Felis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

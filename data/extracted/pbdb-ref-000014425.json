@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14425",
+    "doi": null,
+    "title": "The fossil record, systematics and evolution of pachycephalosaurs and ceratopsians from Asia",
+    "year": 2000,
+    "journal": "The Age of Dinosaurs in Russia and Mongolia",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14425",
+    "authors": [
+      "P. C. Sereno"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:141904",
+      "taxon": "Stygimoloch",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Stygimoloch belongs to Pachycephalosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

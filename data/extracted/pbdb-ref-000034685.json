@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:34685",
+    "doi": "10.1080/02724634.2010.483632",
+    "title": "Torosaurus Marsh, 1891, is Triceratops Marsh, 1889 (Ceratopsidae: Chasmosaurinae): synonymy through ontogeny",
+    "year": 2010,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2010.483632",
+    "authors": [
+      "J. B. Scannella",
+      "J. R. Horner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:317731",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Triceratops",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus is a subjective synonym of Triceratops.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

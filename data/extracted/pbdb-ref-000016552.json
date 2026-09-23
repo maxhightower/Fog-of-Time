@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16552",
+    "doi": "10.1525/california/9780520242098.003.0015",
+    "title": "Sauropoda",
+    "year": 2004,
+    "journal": "The Dinosauria (2nd edition). University of California Press, Berkeley",
+    "url": "https://doi.org/10.1525/california/9780520242098.003.0015",
+    "authors": [
+      "P. Upchurch",
+      "P. M. Barrett",
+      "P. Dodson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:108721",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:108724",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:139116",
+      "taxon": "Clasmodosaurus",
+      "published_as": null,
+      "status": "nomen_dubium",
+      "related_taxon": "Sauropoda",
+      "basis": "stated with evidence",
+      "summary": "Clasmodosaurus is a nomen dubium (filed under Sauropoda).",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:139117",
+      "taxon": "Clasmodosaurus spatula",
+      "published_as": null,
+      "status": "nomen_dubium",
+      "related_taxon": "Sauropoda",
+      "basis": "stated with evidence",
+      "summary": "Clasmodosaurus spatula is a nomen dubium (filed under Sauropoda).",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55036",
+    "doi": null,
+    "title": "A new specimen of Apatosaurus ajax (Sauropoda, Diplodocidae) from the Morrison Formation (Upper Jurassic) of Wyoming, USA",
+    "year": 2004,
+    "journal": "National Science Museum Monographs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55036",
+    "authors": [
+      "P. Upchurch",
+      "Y. Tomida",
+      "P. M. Barrett"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:567290",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:567291",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import type { HypothesisEvent, Stance, TheoreticalCreature } from './types'
+import type { CreaturePaper, KeyEvent, PublicationSummary, Side, Stance, TheoreticalCreature } from './types'
 
 const SVG_NS = 'http://www.w3.org/2000/svg'
 
@@ -13,6 +13,7 @@ const TOP_PADDING = 10
 const AXIS_HEIGHT = 26
 const RIGHT_PADDING = 14
 const MARKER = 6
+const TICK = 2.5
 
 /** Where a hypothesis stands at a moment in the literature. */
 export type LifeState = 'alive' | 'contested' | 'confirmed' | 'dead'
@@ -24,15 +25,16 @@ export const LIFE_LABELS: Record<LifeState, string> = {
   dead: 'Dead',
 }
 
-export const STANCE_INFO: Record<Stance, { label: string; side: 'for' | 'against' | 'neutral' }> = {
+export const STANCE_INFO: Record<Stance, { label: string; side: Side }> = {
   proposes: { label: 'Proposed', side: 'for' },
   supports: { label: 'Supported', side: 'for' },
   confirms: { label: 'Confirmed', side: 'for' },
   revives: { label: 'Revived', side: 'for' },
-  revises: { label: 'Revised', side: 'neutral' },
   challenges: { label: 'Challenged', side: 'against' },
   refutes: { label: 'Refuted', side: 'against' },
 }
+
+export const SIDE_LABELS: Record<Side, string> = { for: 'For', against: 'Against', neutral: 'Neutral' }
 
 export interface LifeSegment {
   from: number
@@ -41,8 +43,10 @@ export interface LifeSegment {
 }
 
 export interface Life {
-  /** Events published up to the "known by" year. */
-  events: HypothesisEvent[]
+  /** Key events published up to the "known by" year. */
+  events: KeyEvent[]
+  /** Every ingested paper with an opinion on the creature, up to that year. */
+  papers: CreaturePaper[]
   segments: LifeSegment[]
   /** Null until the hypothesis has been proposed. */
   state: LifeState | null
@@ -66,14 +70,13 @@ function nextState(state: LifeState | null, stance: Stance): LifeState | null {
       return 'contested'
     case 'refutes':
       return 'dead'
-    case 'revises':
-      return state
   }
 }
 
 /** Replays a creature's papers, in order, up to and including `untilYear`. */
 export function lifeOf(creature: TheoreticalCreature, untilYear: number, now: number): Life {
-  const events = creature.events.filter(event => event.publication.year <= untilYear)
+  const events = creature.key_events.filter(event => event.publication.year <= untilYear)
+  const papers = creature.papers.filter(paper => paper.publication.year <= untilYear)
   const end = Math.min(untilYear, now) + 1
   const segments: LifeSegment[] = []
   let state: LifeState | null = null
@@ -91,17 +94,18 @@ export function lifeOf(creature: TheoreticalCreature, untilYear: number, now: nu
   }
   return {
     events,
+    papers,
     segments: segments.filter(segment => segment.to > segment.from || segment === segments.at(-1)),
     state,
     born: events[0]?.publication.year ?? null,
     died,
-    support: events.filter(event => STANCE_INFO[event.stance].side === 'for').length,
-    opposition: events.filter(event => STANCE_INFO[event.stance].side === 'against').length,
+    support: papers.filter(paper => paper.side === 'for').length,
+    opposition: papers.filter(paper => paper.side === 'against').length,
   }
 }
 
-export function citation(event: HypothesisEvent): string {
-  const { authors, year } = event.publication
+export function citation(publication: PublicationSummary): string {
+  const { authors, year } = publication
   const lead = authors.length > 2 ? `${surname(authors[0])} et al.` : authors.map(surname).join(' & ')
   return `${lead} ${year}`
 }
@@ -132,14 +136,22 @@ function marker(stance: Stance, x: number, y: number): SVGElement {
       return svg('path', { d: `M${x} ${y - r}L${x + r} ${y}L${x} ${y + r}L${x - r} ${y}Z`, class: className })
     case 'refutes':
       return svg('path', { d: `M${x - r} ${y - r}L${x + r} ${y + r}M${x + r} ${y - r}L${x - r} ${y + r}`, class: `${className} cross` })
-    case 'revises':
-      return svg('rect', { x: x - 1.5, y: y - r, width: 3, height: r * 2, rx: 1, class: className })
   }
 }
 
 export function markerSample(stance: Stance): string {
   const node = marker(stance, 10, 9)
   return `<svg width="20" height="18" viewBox="0 0 20 18" aria-hidden="true">${node.outerHTML}</svg>`
+}
+
+/** Small mark for a paper that argued without changing the hypothesis's life: above the line for, below against. */
+function tick(side: Side, x: number, y: number): SVGElement {
+  const offset = side === 'for' ? -9 : side === 'against' ? 9 : 0
+  return svg('circle', { cx: x, cy: y + offset, r: TICK, class: `paper-tick side-${side}` })
+}
+
+export function tickSample(side: Side): string {
+  return `<svg width="14" height="18" viewBox="0 0 14 18" aria-hidden="true">${tick(side, 7, 9).outerHTML.replace(/cy="[^"]+"/, 'cy="9"')}</svg>`
 }
 
 export interface LifelinesModel {
@@ -173,7 +185,7 @@ export class Lifelines {
     this.root.setAttribute('viewBox', `0 0 ${width} ${height}`)
     this.root.replaceChildren()
 
-    const firstYear = Math.min(...creatures.flatMap(creature => creature.events.map(event => event.publication.year)))
+    const firstYear = Math.min(...creatures.flatMap(creature => creature.key_events.map(event => event.publication.year)))
     const plotLeft = compact ? 12 : LABEL_WIDTH
     const plotWidth = width - plotLeft - RIGHT_PADDING
     // Time runs on a log of "years ago", so a debate packed into the last decade
@@ -210,7 +222,7 @@ export class Lifelines {
       const top = TOP_PADDING + index * rowHeight
       const y = compact ? top + rowHeight - 16 : top + rowHeight / 2
       const row = svg('g', { class: `life-row${creature.id === selected ? ' selected' : ''}`, tabindex: 0, role: 'button' })
-      row.setAttribute('aria-label', `${creature.name}: ${life.state ? LIFE_LABELS[life.state] : 'not yet proposed'}, ${life.events.length} papers. Show history.`)
+      row.setAttribute('aria-label', `${creature.name}: ${life.state ? LIFE_LABELS[life.state] : 'not yet proposed'}, ${life.papers.length} papers. Show history.`)
       row.append(svg('rect', { x: 0, y: top + 2, width, height: rowHeight - 4, rx: 8, class: 'hit' }))
 
       const name = svg('text', { x: 10, y: compact ? top + 18 : y - 3, class: 'life-name' })
@@ -231,16 +243,23 @@ export class Lifelines {
         }
       }
 
-      // Papers published in the same year fan out slightly so each stays visible.
+      // Every other ingested paper that argued the point, as a small tick.
+      const keyPapers = new Set(life.events.map(event => event.publication.id))
+      for (const paper of life.papers) {
+        if (keyPapers.has(paper.publication.id)) continue
+        const mark = tick(paper.side, x(paper.publication.year), y)
+        this.hover(mark, creature, paper.publication, paper.opinions.map(opinion => opinion.summary), `${SIDE_LABELS[paper.side]} · ${citation(paper.publication)}`)
+        row.append(mark)
+      }
+
+      // Key papers published in the same year fan out slightly so each stays visible.
       const seen = new Map<number, number>()
       for (const event of life.events) {
         const year = event.publication.year
         const repeat = seen.get(year) ?? 0
         seen.set(year, repeat + 1)
         const mark = marker(event.stance, x(year) + repeat * (MARKER * 2 + 2), y)
-        mark.addEventListener('pointerenter', pointer => this.showTooltip(creature, event, pointer.clientX, pointer.clientY))
-        mark.addEventListener('pointermove', pointer => this.showTooltip(creature, event, pointer.clientX, pointer.clientY))
-        mark.addEventListener('pointerleave', () => (this.tooltip.hidden = true))
+        this.hover(mark, creature, event.publication, [event.opinion.summary], `${STANCE_INFO[event.stance].label} · ${citation(event.publication)}`)
         row.append(mark)
       }
 
@@ -255,7 +274,14 @@ export class Lifelines {
     })
   }
 
-  private showTooltip(creature: TheoreticalCreature, event: HypothesisEvent, clientX: number, clientY: number) {
+  private hover(mark: SVGElement, creature: TheoreticalCreature, publication: PublicationSummary, lines: string[], heading: string) {
+    const show = (pointer: PointerEvent) => this.showTooltip(creature, publication, lines, heading, pointer.clientX, pointer.clientY)
+    mark.addEventListener('pointerenter', show)
+    mark.addEventListener('pointermove', show)
+    mark.addEventListener('pointerleave', () => (this.tooltip.hidden = true))
+  }
+
+  private showTooltip(creature: TheoreticalCreature, publication: PublicationSummary, lines: string[], heading: string, clientX: number, clientY: number) {
     const tooltip = this.tooltip
     tooltip.replaceChildren()
     const line = (text: string, className: string) => {
@@ -264,10 +290,10 @@ export class Lifelines {
       node.textContent = text
       tooltip.append(node)
     }
-    line(`${STANCE_INFO[event.stance].label} · ${citation(event)}`, 'tip-value')
+    line(heading, 'tip-value')
     line(creature.name, 'tip-title')
-    line(event.summary, 'tip-meta')
-    line(event.publication.journal ? `${event.publication.title} — ${event.publication.journal}` : event.publication.title, 'tip-meta')
+    for (const text of lines) line(text, 'tip-meta')
+    line(publication.journal ? `${publication.title} — ${publication.journal}` : publication.title, 'tip-meta')
     tooltip.hidden = false
     const box = tooltip.getBoundingClientRect()
     const left = Math.min(clientX + 14, window.innerWidth - box.width - 8)

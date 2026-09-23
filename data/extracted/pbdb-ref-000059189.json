@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:59189",
+    "doi": "10.1016/j.cretres.2014.06.011",
+    "title": "The horned dinosaurs Pentaceratops and Kosmoceratops from the upper Campanian of Alberta and implications for dinosaur biogeography",
+    "year": 2014,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2014.06.011",
+    "authors": [
+      "N. R. Longrich"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:616946",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Triceratopsini",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus belongs to Triceratopsini.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:616950",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

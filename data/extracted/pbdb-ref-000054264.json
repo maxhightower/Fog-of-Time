@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54264",
+    "doi": null,
+    "title": "American dinosaurs",
+    "year": 1997,
+    "journal": "Encyclopedia of Dinosaurs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54264",
+    "authors": [
+      "P. Dodson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:559371",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chasmosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Chasmosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

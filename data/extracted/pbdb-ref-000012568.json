@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12568",
+    "doi": "10.4095/105056",
+    "title": "The Edmonton fauna and description of a new Triceratops from the Upper Edmonton Member: phylogeny of the Ceratopsidae",
+    "year": 1949,
+    "journal": "National Museum of Canada Bulletin",
+    "url": "https://doi.org/10.4095/105056",
+    "authors": [
+      "C. M. Sternberg"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:91762",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:91772",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

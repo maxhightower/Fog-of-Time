@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19893",
+    "doi": null,
+    "title": "Late Jurassic dinosaurs from the Morrison Formation (USA), the Lourinhã and Alcobaça Formations (Portugal), and the Tendaguru Beds (Tanzania): a comparison",
+    "year": 2006,
+    "journal": "Paleontology and Geology of the Upper Jurassic Morrison Formation. New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19893",
+    "authors": [
+      "O. Mateus"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:681645",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

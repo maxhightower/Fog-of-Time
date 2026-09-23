@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65673",
+    "doi": null,
+    "title": "Neue Untersuchungen über Keuper und Lias bei Niederschönthal (Basler Tafeljura) [New investigations on the Keuper and Lias near Niederschönthal (Basel Table Jura)]",
+    "year": 1902,
+    "journal": "Verhandlungen der Naturforschenden Gesellschaft in Basel",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=65673",
+    "authors": [
+      "K. Strübin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:684207",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

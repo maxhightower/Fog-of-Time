@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55583",
+    "doi": "10.5962/bhl.title.26217",
+    "title": "On the manner of locomotion of the dinosaurs, especially Diplodocus, with remarks on the origin of birds",
+    "year": 1910,
+    "journal": "Proceedings of the Washington Academy of Sciences",
+    "url": "https://doi.org/10.5962/bhl.title.26217",
+    "authors": [
+      "O. P. Hay"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:575025",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

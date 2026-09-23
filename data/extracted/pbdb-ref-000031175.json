@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31175",
+    "doi": "10.1080/02724634.1992.10011446",
+    "title": "A new diplodocid sauropod (Dinosauria) from Wyoming, U.S.A.",
+    "year": 1992,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.1992.10011446",
+    "authors": [
+      "J. S. Mcintosh",
+      "W. P. Coombs",
+      "D. A. Russell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:325987",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

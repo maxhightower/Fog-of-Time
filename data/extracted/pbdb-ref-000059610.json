@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:59610",
+    "doi": null,
+    "title": "El Mesozoico de America de Sur y sus Tetrapodos [The Mesozoic of South America and its tetrapods]",
+    "year": 1978,
+    "journal": "Opera Lilloana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=59610",
+    "authors": [
+      "J. F. Bonaparte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:622855",
+      "taxon": "Clasmodosaurus spatula",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Clasmodosaurus",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus spatula belongs to Clasmodosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:623018",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:623158",
+      "taxon": "Clasmodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelurosauria",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus belongs to Coelurosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

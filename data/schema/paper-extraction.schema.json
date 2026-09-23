@@ -5,6 +5,10 @@
   "type": "object",
   "additionalProperties": false,
   "required": ["schema_version", "development_fixture", "publication", "evidence"],
+  "anyOf": [
+    { "properties": { "evidence": { "minItems": 1 } } },
+    { "required": ["opinions"], "properties": { "opinions": { "minItems": 1 } } }
+  ],
   "properties": {
     "schema_version": { "const": "fog-of-time.paper-extraction/v1" },
     "development_fixture": { "type": "boolean" },
@@ -28,7 +32,6 @@
     },
     "evidence": {
       "type": "array",
-      "minItems": 1,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -116,6 +119,25 @@
               }
             }
           }
+        }
+      }
+    },
+    "opinions": {
+      "type": "array",
+      "description": "Taxonomic opinions stated by the paper. A paper must contribute evidence, opinions or both.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "taxon", "status", "summary", "source"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "taxon": { "type": "string", "minLength": 1 },
+          "published_as": { "type": ["string", "null"] },
+          "status": { "enum": ["belongs_to", "subjective_synonym_of", "objective_synonym_of", "replaced_by", "invalid_subgroup_of", "misspelling_of", "nomen_dubium", "nomen_nudum", "nomen_vanum", "nomen_oblitum", "sister_to"] },
+          "related_taxon": { "type": ["string", "null"] },
+          "basis": { "type": ["string", "null"] },
+          "summary": { "type": "string", "minLength": 1 },
+          "source": { "enum": ["pbdb_opinion", "full_text", "abstract"] }
         }
       }
     }

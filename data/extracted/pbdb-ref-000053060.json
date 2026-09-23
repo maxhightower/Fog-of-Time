@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53060",
+    "doi": null,
+    "title": "5. Reptilia [5. Reptilia]",
+    "year": 1937,
+    "journal": "Fortschritte der Paläontologie",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53060",
+    "authors": [
+      "W. Janensch"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:544874",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

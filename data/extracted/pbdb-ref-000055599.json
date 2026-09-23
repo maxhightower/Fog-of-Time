@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55599",
+    "doi": null,
+    "title": "The Munich specimen of Triceratops with a revision of the genus",
+    "year": 1986,
+    "journal": "Zitteliana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55599",
+    "authors": [
+      "J. H. Ostrom",
+      "P. Wellnhofer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:575147",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:575156",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

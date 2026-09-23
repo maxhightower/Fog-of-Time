@@ -64,5 +64,17 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:824517",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

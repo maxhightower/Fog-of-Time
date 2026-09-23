@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12201",
+    "doi": null,
+    "title": "Tyrannosaurids (Dinosauria) of Asia and North America",
+    "year": 1992,
+    "journal": "Aspects of Nonmarine Cretaceous Geology, N. J. Mateer and P. J. Chen (eds.), China Ocean Press, Beijing",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12201",
+    "authors": [
+      "K. Carpenter"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:90164",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": "Albertosaurus lancensis",
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus lancensis (as Albertosaurus lancensis) belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

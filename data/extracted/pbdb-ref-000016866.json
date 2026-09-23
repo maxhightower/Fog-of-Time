@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16866",
+    "doi": null,
+    "title": "Short review of the present knowledge of the Sauropoda",
+    "year": 1927,
+    "journal": "Memoirs of the Queensland Museum",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16866",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:114145",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Camarasaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus is a subjective synonym of Camarasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:114147",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Camarasaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Camarasaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Camarasaurus excelsus) belongs to Camarasaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

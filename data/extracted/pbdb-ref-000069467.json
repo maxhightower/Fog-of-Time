@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:69467",
+    "doi": "10.1038/059169a0",
+    "title": "A Classification of Vertebrata Recent and Extinct",
+    "year": 1898,
+    "journal": "Adam and Charles Black",
+    "url": "https://doi.org/10.1038/059169a0",
+    "authors": [
+      "H. Gadow"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:729799",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

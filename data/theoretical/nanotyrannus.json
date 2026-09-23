@@ -1,79 +1,25 @@
 {
-  "schema_version": "fog-of-time.theoretical-creature/v1",
+  "schema_version": "fog-of-time.theoretical-creature/v2",
   "id": "nanotyrannus",
   "name": "Nanotyrannus",
   "scientific_name": "Nanotyrannus lancensis",
-  "hypothesis": "Nanotyrannus is a distinct small-bodied tyrannosaur, not a juvenile Tyrannosaurus rex.",
-  "events": [
-    {
-      "id": "nanotyrannus:1988-bakker",
-      "stance": "proposes",
-      "summary": "Named the genus Nanotyrannus, a 'pygmy tyrannosaur', for the Hell Creek Formation skull CMNH 7541 first described as Gorgosaurus lancensis.",
-      "publication": {
-        "id": "ref:bakker-williams-currie-1988-hunteria",
-        "doi": null,
-        "title": "Nanotyrannus, a new genus of pygmy tyrannosaur, from the latest Cretaceous of Montana",
-        "year": 1988,
-        "journal": "Hunteria",
-        "url": null,
-        "authors": ["Robert T. Bakker", "Michael Williams", "Philip J. Currie"]
-      }
-    },
-    {
-      "id": "nanotyrannus:1999-carr",
-      "stance": "refutes",
-      "summary": "A study of skull growth across tyrannosaurids interpreted the Nanotyrannus holotype as a juvenile Tyrannosaurus rex.",
-      "publication": {
-        "id": "doi:10.1080/02724634.1999.10011161",
-        "doi": "10.1080/02724634.1999.10011161",
-        "title": "Craniofacial ontogeny in Tyrannosauridae (Dinosauria, Coelurosauria)",
-        "year": 1999,
-        "journal": "Journal of Vertebrate Paleontology",
-        "url": "https://doi.org/10.1080/02724634.1999.10011161",
-        "authors": ["Thomas D. Carr"]
-      }
-    },
-    {
-      "id": "nanotyrannus:2020-carr",
-      "stance": "refutes",
-      "summary": "A growth series built from many specimens placed the small Hell Creek tyrannosaurs within the ontogeny of Tyrannosaurus rex.",
-      "publication": {
-        "id": "doi:10.7717/peerj.9192",
-        "doi": "10.7717/peerj.9192",
-        "title": "A high-resolution growth series of Tyrannosaurus rex obtained from multiple lines of evidence",
-        "year": 2020,
-        "journal": "PeerJ",
-        "url": "https://doi.org/10.7717/peerj.9192",
-        "authors": ["Thomas D. Carr"]
-      }
-    },
-    {
-      "id": "nanotyrannus:2024-longrich",
-      "stance": "revives",
-      "summary": "Argued that Nanotyrannus lancensis is a distinct taxon of small-bodied tyrannosaur rather than a growth stage of T. rex.",
-      "publication": {
-        "id": "doi:10.3390/fossils2010001",
-        "doi": "10.3390/fossils2010001",
-        "title": "Taxonomic Status of Nanotyrannus lancensis (Dinosauria: Tyrannosauroidea)—A Distinct Taxon of Small-Bodied Tyrannosaur",
-        "year": 2024,
-        "journal": "Fossil Studies",
-        "url": "https://doi.org/10.3390/fossils2010001",
-        "authors": ["Nicholas R. Longrich", "Evan T. Saitta"]
-      }
-    },
-    {
-      "id": "nanotyrannus:2025-zanno",
-      "stance": "confirms",
-      "summary": "A nearly mature tyrannosaur skeleton from the 'Dueling Dinosaurs' find in Montana supports Nanotyrannus as a genus separate from Tyrannosaurus; the paper also names a second species, N. lethaeus.",
-      "publication": {
-        "id": "doi:10.1038/s41586-025-09801-6",
-        "doi": "10.1038/s41586-025-09801-6",
-        "title": "Nanotyrannus and Tyrannosaurus coexisted at the close of the Cretaceous",
-        "year": 2025,
-        "journal": "Nature",
-        "url": "https://doi.org/10.1038/s41586-025-09801-6",
-        "authors": ["Lindsay E. Zanno", "James G. Napoli"]
-      }
-    }
+  "hypothesis": "The small Hell Creek tyrannosaur (Nanotyrannus lancensis) is its own animal, not a juvenile Tyrannosaurus rex.",
+  "taxa": ["Nanotyrannus", "Nanotyrannus lancensis"],
+  "rules": {
+    "for": [
+      { "status": ["belongs_to", "identified_as"] }
+    ],
+    "against": [
+      { "status": ["subjective_synonym_of", "objective_synonym_of"], "related": ["Tyrannosaurus"] }
+    ]
+  },
+  "key_events": [
+    { "publication_id": "pbdb-ref:14592", "stance": "proposes" },
+    { "publication_id": "pbdb-ref:7925", "stance": "supports" },
+    { "publication_id": "pbdb-ref:14112", "stance": "refutes" },
+    { "publication_id": "pbdb-ref:14428", "stance": "revives" },
+    { "publication_id": "pbdb-ref:15218", "stance": "refutes" },
+    { "publication_id": "pbdb-ref:90509", "stance": "revives" },
+    { "publication_id": "pbdb-ref:94628", "stance": "confirms" }
   ]
 }

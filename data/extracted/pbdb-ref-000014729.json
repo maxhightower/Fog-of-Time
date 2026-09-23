@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14729",
+    "doi": "10.2475/ajs.s4-21.122.144",
+    "title": "A new name for the dinosaurian genus Ceratops",
+    "year": 1906,
+    "journal": "The American Journal of Science, series 4",
+    "url": "https://doi.org/10.2475/ajs.s4-21.122.144",
+    "authors": [
+      "R. S. Lull"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:102216",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Agathaumidae",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Agathaumidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

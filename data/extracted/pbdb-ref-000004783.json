@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:4783",
+    "doi": null,
+    "title": "Vertebrate Paleontology and Evolution",
+    "year": 1988,
+    "journal": "W. H. Freeman and Company",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=4783",
+    "authors": [
+      "R. L. Carroll"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:38957",
+      "taxon": "Stygimoloch",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauridae",
+      "basis": "implied",
+      "summary": "Stygimoloch belongs to Pachycephalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:39031",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "implied",
+      "summary": "Torosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

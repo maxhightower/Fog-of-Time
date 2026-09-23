@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14112",
+    "doi": "10.1080/02724634.1999.10011161",
+    "title": "Craniofacial ontogeny in Tyrannosauridae (Dinosauria, Coelurosauria)",
+    "year": 1999,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.1999.10011161",
+    "authors": [
+      "T. D. Carr"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:97924",
+      "taxon": "Nanotyrannus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus is a subjective synonym of Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:97925",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Tyrannosaurus rex",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus lancensis is a subjective synonym of Tyrannosaurus rex.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

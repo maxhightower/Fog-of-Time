@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16920",
+    "doi": "10.1127/mbzdgg/57/1905/345",
+    "title": "Trias-Dinosaurier Europas [European Triassic dinosaurs]",
+    "year": 1905,
+    "journal": "Zeitschrift der Deutschen Geologischen Gesellschaft",
+    "url": "https://doi.org/10.1127/mbzdgg/57/1905/345",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:114960",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:114968",
+      "taxon": "Gresslyosaurus robustus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus robustus belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

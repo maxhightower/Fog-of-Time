@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:46503",
+    "doi": "10.3374/014.054.0103",
+    "title": "Judiceratops tigris, a new horned dinosaur from the middle Campanian Judith River Formation of Montana",
+    "year": 2013,
+    "journal": "Bulletin of the Peabody Museum of Natural History",
+    "url": "https://doi.org/10.3374/014.054.0103",
+    "authors": [
+      "N. R. Longrich"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:488422",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

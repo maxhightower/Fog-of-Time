@@ -1,44 +1,134 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://fog-of-time.local/schema/theoretical-creature-v1.json",
+  "$id": "https://fog-of-time.local/schema/theoretical-creature-v2.json",
   "title": "Fog of Time theoretical creature",
-  "description": "A hypothesised animal. Its life is the life of the hypothesis: each event is one publication taking a stance on it, in publication-year order.",
+  "description": "A hypothesised animal whose life is argued over in the taxonomic opinions of ingested papers.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema_version", "id", "name", "hypothesis", "events"],
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "hypothesis",
+    "taxa",
+    "rules",
+    "key_events"
+  ],
   "properties": {
-    "schema_version": { "const": "fog-of-time.theoretical-creature/v1" },
-    "id": { "type": "string", "minLength": 1 },
-    "name": { "type": "string", "minLength": 1 },
-    "scientific_name": { "type": ["string", "null"] },
-    "hypothesis": { "type": "string", "minLength": 1 },
-    "events": {
+    "schema_version": {
+      "const": "fog-of-time.theoretical-creature/v2"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scientific_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hypothesis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "taxa": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "rules": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "for": {
+          "$ref": "#/$defs/rules"
+        },
+        "against": {
+          "$ref": "#/$defs/rules"
+        }
+      }
+    },
+    "key_events": {
       "type": "array",
       "minItems": 1,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "stance", "summary", "publication"],
+        "required": [
+          "publication_id",
+          "stance"
+        ],
         "properties": {
-          "id": { "type": "string", "minLength": 1 },
-          "stance": { "enum": ["proposes", "supports", "revises", "challenges", "refutes", "revives", "confirms"] },
-          "summary": { "type": "string", "minLength": 1 },
-          "publication": {
-            "type": "object",
-            "additionalProperties": false,
-            "required": ["id", "title", "year", "authors"],
-            "properties": {
-              "id": { "type": "string", "minLength": 1 },
-              "doi": { "type": ["string", "null"] },
-              "title": { "type": "string", "minLength": 1 },
-              "year": { "type": "integer", "minimum": 1600, "maximum": 2100 },
-              "journal": { "type": ["string", "null"] },
-              "url": { "type": ["string", "null"] },
-              "authors": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
-            }
+          "publication_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "An ingested publication id from data/extracted."
+          },
+          "stance": {
+            "enum": [
+              "proposes",
+              "supports",
+              "challenges",
+              "refutes",
+              "revives",
+              "confirms"
+            ]
           }
         }
       }
+    }
+  },
+  "$defs": {
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "status"
+        ],
+        "properties": {
+          "status": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/status"
+            }
+          },
+          "related": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": "Related-taxon prefixes, e.g. 'Tyrannosaurus' matches 'Tyrannosaurus rex'."
+          }
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "belongs_to",
+        "subjective_synonym_of",
+        "objective_synonym_of",
+        "replaced_by",
+        "invalid_subgroup_of",
+        "misspelling_of",
+        "nomen_dubium",
+        "nomen_nudum",
+        "nomen_vanum",
+        "nomen_oblitum",
+        "sister_to",
+        "identified_as"
+      ]
     }
   }
 }

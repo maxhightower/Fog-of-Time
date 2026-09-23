@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:4250",
+    "doi": null,
+    "title": "Les dinosauriens jurassiques de Damparis (Jura) [The Jurassic dinosaurs of Damparis (Jura)]",
+    "year": 1943,
+    "journal": "Mémoires de la Société Géologique de France (Nouvelle Série), Mémoire",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=4250",
+    "authors": [
+      "A. F. d. Lapparent"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:460342",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

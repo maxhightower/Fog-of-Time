@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7569",
+    "doi": "10.1126/science.205.4411.1155",
+    "title": "The cheetah: native American",
+    "year": 1979,
+    "journal": "Science",
+    "url": "https://doi.org/10.1126/science.205.4411.1155",
+    "authors": [
+      "D. B. Adams"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:450812",
+      "taxon": "Miracinonyx",
+      "published_as": "Acinonyx (Miracinonyx)",
+      "status": "belongs_to",
+      "related_taxon": "Acinonyx",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx (as Acinonyx (Miracinonyx)) belongs to Acinonyx.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:53771",
+      "taxon": "Miracinonyx studeri",
+      "published_as": "Acinonyx (Miracinonyx) studeri",
+      "status": "belongs_to",
+      "related_taxon": "Acinonyx (Miracinonyx)",
+      "basis": "stated with evidence",
+      "summary": "Miracinonyx studeri (as Acinonyx (Miracinonyx) studeri) belongs to Acinonyx (Miracinonyx).",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:53781",
+      "taxon": "Miracinonyx trumani",
+      "published_as": "Acinonyx (Miracinonyx) trumani",
+      "status": "belongs_to",
+      "related_taxon": "Acinonyx (Miracinonyx)",
+      "basis": "stated with evidence",
+      "summary": "Miracinonyx trumani (as Acinonyx (Miracinonyx) trumani) belongs to Acinonyx (Miracinonyx).",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

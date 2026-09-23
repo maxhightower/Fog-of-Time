@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:34081",
+    "doi": null,
+    "title": "[Fossile Reptilienknochen aus dem Keuper] [Fossil reptile bones from the Keuper]",
+    "year": 1856,
+    "journal": "Verhandlungen der Schweizerischen Naturforschenden Gesellschaft",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=34081",
+    "authors": [
+      "L. Rütimeyer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:313456",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dinosauria",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus belongs to Dinosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:79467",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

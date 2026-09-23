@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14430",
+    "doi": null,
+    "title": "Skull structure and evolution in tyrannosaurid dinosaurs",
+    "year": 2003,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14430",
+    "authors": [
+      "P. J. Currie",
+      "J. H. Hurum",
+      "K. Sabath"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:100409",
+      "taxon": "Nanotyrannus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus belongs to Tyrannosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:100419",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nanotyrannus",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus lancensis belongs to Nanotyrannus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

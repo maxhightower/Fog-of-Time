@@ -1,51 +1,22 @@
 {
-  "schema_version": "fog-of-time.theoretical-creature/v1",
+  "schema_version": "fog-of-time.theoretical-creature/v2",
   "id": "brontosaurus",
   "name": "Brontosaurus",
   "scientific_name": "Brontosaurus excelsus",
-  "hypothesis": "Brontosaurus is a valid genus, distinct from Apatosaurus.",
-  "events": [
-    {
-      "id": "brontosaurus:1879-marsh",
-      "stance": "proposes",
-      "summary": "Named Brontosaurus excelsus from the Late Jurassic of Wyoming.",
-      "publication": {
-        "id": "doi:10.2475/ajs.s3-18.108.501",
-        "doi": "10.2475/ajs.s3-18.108.501",
-        "title": "Notice of new Jurassic reptiles",
-        "year": 1879,
-        "journal": "American Journal of Science",
-        "url": "https://doi.org/10.2475/ajs.s3-18.108.501",
-        "authors": ["O. C. Marsh"]
-      }
-    },
-    {
-      "id": "brontosaurus:1903-riggs",
-      "stance": "refutes",
-      "summary": "Judged Brontosaurus too close to Apatosaurus (Marsh, 1877) to stand as its own genus and sank it as a junior synonym.",
-      "publication": {
-        "id": "ref:riggs-1903-field-columbian-museum",
-        "doi": null,
-        "title": "Structure and relationships of opisthocoelian dinosaurs. Part I: Apatosaurus Marsh",
-        "year": 1903,
-        "journal": "Field Columbian Museum, Geological Series",
-        "url": null,
-        "authors": ["Elmer S. Riggs"]
-      }
-    },
-    {
-      "id": "brontosaurus:2015-tschopp",
-      "stance": "revives",
-      "summary": "A specimen-level phylogenetic analysis of Diplodocidae found Brontosaurus different enough from Apatosaurus to reinstate it as a genus.",
-      "publication": {
-        "id": "doi:10.7717/peerj.857",
-        "doi": "10.7717/peerj.857",
-        "title": "A specimen-level phylogenetic analysis and taxonomic revision of Diplodocidae (Dinosauria, Sauropoda)",
-        "year": 2015,
-        "journal": "PeerJ",
-        "url": "https://doi.org/10.7717/peerj.857",
-        "authors": ["Emanuel Tschopp", "Octávio Mateus", "Roger B. J. Benson"]
-      }
-    }
+  "hypothesis": "Brontosaurus is a genus in its own right, not a junior synonym of Apatosaurus.",
+  "taxa": ["Brontosaurus", "Brontosaurus excelsus"],
+  "rules": {
+    "for": [
+      { "status": ["belongs_to", "identified_as"] }
+    ],
+    "against": [
+      { "status": ["subjective_synonym_of", "objective_synonym_of", "nomen_dubium"] },
+      { "status": ["belongs_to"], "related": ["Apatosaurus"] }
+    ]
+  },
+  "key_events": [
+    { "publication_id": "pbdb-ref:7814", "stance": "proposes" },
+    { "publication_id": "pbdb-ref:9789", "stance": "refutes" },
+    { "publication_id": "pbdb-ref:55026", "stance": "revives" }
   ]
 }

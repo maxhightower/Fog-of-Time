@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:56882",
+    "doi": null,
+    "title": "The first giant raptor (Theropoda: Dromaeosauridae) from the Hell Creek Formation",
+    "year": 2015,
+    "journal": "The University of Kansas Paleontological Contributions",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=56882",
+    "authors": [
+      "R. A. DePalma",
+      "D. A. Burnham",
+      "L. D. Martin, P. L. Larson, R. T. Bakker"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:594053",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nanotyrannus",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus lancensis belongs to Nanotyrannus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

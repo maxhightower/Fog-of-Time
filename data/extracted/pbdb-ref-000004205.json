@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:4205",
+    "doi": "10.1139/e72-031",
+    "title": "Tyrannosaurs from the Late Cretaceous of western Canada",
+    "year": 1970,
+    "journal": "National Museum of Natural Sciences, Publications in Paleontology",
+    "url": "https://doi.org/10.1139/e72-031",
+    "authors": [
+      "D. A. Russell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:79135",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": "Albertosaurus lancensis",
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus lancensis (as Albertosaurus lancensis) belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

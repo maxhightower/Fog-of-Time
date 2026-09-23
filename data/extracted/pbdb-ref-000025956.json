@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25956",
+    "doi": "10.1666/0022-3360(2005)079<0251:reoscc>2.0.co;2",
+    "title": "Range extension of southern chasmosaurine ceratopsian dinosaurs into northwestern Colorado",
+    "year": 2005,
+    "journal": "Journal of Paleontology",
+    "url": "https://doi.org/10.1666/0022-3360(2005)079<0251:reoscc>2.0.co;2",
+    "authors": [
+      "S. Diem",
+      "J. D. Archibald"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:199725",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:199738",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chasmosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Chasmosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

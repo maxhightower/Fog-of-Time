@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19133",
+    "doi": null,
+    "title": "Sur les dinosauriens jurassiques [On Jurassic dinosaurs]",
+    "year": 1880,
+    "journal": "Bulletin de la Société Géologique de France, 3s série",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19133",
+    "authors": [
+      "H.-E. Sauvage"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:150660",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

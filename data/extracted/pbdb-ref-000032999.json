@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32999",
+    "doi": "10.1007/s11434-009-3614-5",
+    "title": "First ceratopsid dinosaur from China and its biogeographical implications",
+    "year": 2010,
+    "journal": "Chinese Science Bulletin",
+    "url": "https://doi.org/10.1007/s11434-009-3614-5",
+    "authors": [
+      "X. Xu",
+      "K.-B. Wang",
+      "X.-J. Zhao, D.-J. Li"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:307183",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chasmosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus belongs to Chasmosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12799",
+    "doi": null,
+    "title": "Prosauropod dinosaur Plateosaurus (= Gresslyosaurus) (Saurischia: Sauropodomorpha) from the Upper Triassic of Switzerland",
+    "year": 1986,
+    "journal": "Geologica et Palaeontologica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12799",
+    "authors": [
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:313832",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus is a subjective synonym of Plateosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:92631",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Plateosaurus engelhardti",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus ingens is a subjective synonym of Plateosaurus engelhardti.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

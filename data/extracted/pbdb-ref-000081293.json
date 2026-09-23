@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:81293",
+    "doi": null,
+    "title": "The discovery and loss of the “colossal” Brontosaurus giganteus from the fossil fields of Wyoming (USA) and the events that led to the discovery of Diplodocus carnegii: the first mounted dinosaur on the Iberian Peninsula",
+    "year": 2013,
+    "journal": "VI Jornadas Internacionales sobre Paleontología de Dinosaurios y su Entorno. Libro de Resúmenes",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=81293",
+    "authors": [
+      "B. H. Breithaupt"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:879110",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

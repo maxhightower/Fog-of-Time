@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18434",
+    "doi": null,
+    "title": "Über die im Keuper zu Liestal bei Basel aufgefundenen Reptilien-Reste von Belodon [On the reptilian remains of Belodon, found in the Keuper at Leistal near Basel]",
+    "year": 1857,
+    "journal": "Neues Jahrbuch für Mineralogie, Geognosie, Geologie und Petrfakten-Kunde",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18434",
+    "authors": [
+      "L. Rütimeyer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:142509",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

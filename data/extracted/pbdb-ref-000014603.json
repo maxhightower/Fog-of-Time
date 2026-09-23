@@ -1,0 +1,58 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14603",
+    "doi": "10.1119/1.1973174",
+    "title": "Vertebrate Paleontology, 3rd edition",
+    "year": 1966,
+    "journal": "University of Chicago Press",
+    "url": "https://doi.org/10.1119/1.1973174",
+    "authors": [
+      "A. S. Romer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:181642",
+      "taxon": "Clasmodosaurus",
+      "published_as": "Clasmosaurus",
+      "status": "subjective_synonym_of",
+      "related_taxon": "Genyodectes",
+      "basis": "implied",
+      "summary": "Clasmodosaurus (as Clasmosaurus) is a subjective synonym of Genyodectes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:181670",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "implied",
+      "summary": "Gresslyosaurus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:186967",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "implied",
+      "summary": "Brontosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:187263",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "implied",
+      "summary": "Torosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

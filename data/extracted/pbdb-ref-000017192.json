@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17192",
+    "doi": "10.1017/s0016756800188211",
+    "title": "On Iguanodon mantelli, Meyer",
+    "year": 1885,
+    "journal": "Geological Magazine, decade 3",
+    "url": "https://doi.org/10.1017/s0016756800188211",
+    "authors": [
+      "H. Woodward"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:121318",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

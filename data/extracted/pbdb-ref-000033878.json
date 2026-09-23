@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:33878",
+    "doi": "10.1666/09-114.1",
+    "title": "Mojoceratops perifania, a new chasmosaurine ceratopsid from the late Campanian of western Canada",
+    "year": 2010,
+    "journal": "Journal of Paleontology",
+    "url": "https://doi.org/10.1666/09-114.1",
+    "authors": [
+      "N. R. Longrich"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:311352",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chasmosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus belongs to Chasmosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

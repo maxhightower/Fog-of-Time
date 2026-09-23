@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:92283",
+    "doi": "10.5479/si.28597193",
+    "title": "Middle Pleistocene Cumberland Bone Cave Local Fauna, Allegany County, Maryland: A Systematic Revision and Paleoecological Interpretation of the Irvingtonian, Middle Appalachians, USA",
+    "year": 2025,
+    "journal": "Smithsonian Contributions to Paleobiology",
+    "url": "https://doi.org/10.5479/si.28597193",
+    "authors": [
+      "R. E. Eshelman",
+      "C. Bell",
+      "R. W. Graham, H. A. Semken Jr., C. B. Withnell, S. G. Scarpetta, H. F. James, S. J. Godfrey, J. I. Mead, J. Hodnett, F. V. Grady"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:992315",
+      "taxon": "Miracinonyx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Felidae",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx belongs to Felidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:992316",
+      "taxon": "Miracinonyx inexpectatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Miracinonyx",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx inexpectatus belongs to Miracinonyx.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

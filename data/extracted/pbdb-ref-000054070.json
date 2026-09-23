@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54070",
+    "doi": null,
+    "title": "The fossil Vertebrata from the fissure at Port Kennedy, Pa.",
+    "year": 1895,
+    "journal": "Proceedings of the Academy of Natural Sciences of Philadelphia",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54070",
+    "authors": [
+      "E. D. Cope"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:49794",
+      "taxon": "Miracinonyx inexpectatus",
+      "published_as": "Crocuta inexpectata",
+      "status": "belongs_to",
+      "related_taxon": "Crocuta",
+      "basis": "stated with evidence",
+      "summary": "Miracinonyx inexpectatus (as Crocuta inexpectata) belongs to Crocuta.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

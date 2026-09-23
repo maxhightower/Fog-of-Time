@@ -194,7 +194,11 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
 .stance-mark.cross { fill: none; stroke: var(--life-refute); stroke-width: 3; stroke-linecap: round; }
 .stance-mark.stance-confirms { fill: var(--life-confirmed); }
 .stance-mark.stance-challenges { fill: var(--life-contested); }
-.stance-mark.stance-revises { fill: var(--muted); stroke: none; }
+.paper-tick { stroke: none; cursor: help; }
+.paper-tick.side-for { fill: var(--life-alive); }
+.paper-tick.side-against { fill: var(--life-refute); }
+.paper-tick.side-neutral { fill: var(--muted); opacity: 0.7; }
+.paper-tick:hover { r: 4; }
 .stance-mark:hover { filter: brightness(1.3); }
 
 .life-legend { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 10px; }
@@ -234,6 +238,12 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
 .stance-chip { display: inline-flex; align-items: center; gap: 4px; padding: 1px 9px 1px 4px; border-radius: 999px; border: 1px solid var(--border); font-size: 0.78rem; font-weight: 700; }
 .stance-chip.side-for { border-color: color-mix(in srgb, var(--life-alive) 60%, var(--border)); }
 .stance-chip.side-against { border-color: color-mix(in srgb, var(--life-refute) 60%, var(--border)); }
+.all-papers { margin-top: 22px; }
+.all-papers summary { cursor: pointer; font-weight: 700; color: var(--accent-strong); }
+.paper-list { list-style: none; margin: 14px 0 0; padding: 0 0 0 14px; border-left: 2px solid var(--border); display: grid; gap: 12px; }
+.paper-list p { margin: 4px 0 0; line-height: 1.5; color: #d7d5cc; font-size: 0.9rem; }
+.paper-list .life-history-source { font-size: 0.8rem; color: var(--muted); }
+.paper-list a { color: var(--accent-strong); }
 
 /* ------------------------------------------------------------ detail */
 

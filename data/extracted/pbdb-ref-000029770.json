@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29770",
+    "doi": "10.2113/gsrocky.39.1.1",
+    "title": "Ceratopsid dinosaurs from the Upper Cretaceous Almond Formation of southwestern Wyoming",
+    "year": 2004,
+    "journal": "Rocky Mountain Geology",
+    "url": "https://doi.org/10.2113/gsrocky.39.1.1",
+    "authors": [
+      "A. A. Farke"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:265063",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chasmosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Chasmosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

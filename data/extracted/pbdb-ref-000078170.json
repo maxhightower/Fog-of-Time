@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78170",
+    "doi": "10.1111/j.1749-6632.1916.tb55185.x",
+    "title": "Study of the Morrison Formation",
+    "year": 1916,
+    "journal": "Annals of the New York Academy of Sciences",
+    "url": "https://doi.org/10.1111/j.1749-6632.1916.tb55185.x",
+    "authors": [
+      "C. C. Mook"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:850343",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

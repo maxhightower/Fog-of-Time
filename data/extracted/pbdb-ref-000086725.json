@@ -512,5 +512,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:940389",
+      "taxon": "Clasmodosaurus spatula",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Clasmodosaurus",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus spatula belongs to Clasmodosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:940390",
+      "taxon": "Clasmodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauria",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus belongs to Titanosauria.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

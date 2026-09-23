@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53515",
+    "doi": null,
+    "title": "The ecology of dinosaur extinction",
+    "year": 1976,
+    "journal": "Athlon: Essays on Palaeontology in Honor of Loris Shano Russell. Royal Ontario Museum, Life Sciences Miscellaneous Publications",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53515",
+    "authors": [
+      "R. E. Sloan"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:549565",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": "Gorgosaurus lancensis",
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus lancensis (as Gorgosaurus lancensis) belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

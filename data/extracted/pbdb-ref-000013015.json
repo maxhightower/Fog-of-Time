@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13015",
+    "doi": "10.1080/02724634.1998.10011064",
+    "title": "Cranial anatomy and diagnosis of Stygimoloch spinifer (Ornithischia: Pachycephalosauria) with comments on cranial display structures in agonistic behavior",
+    "year": 1998,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.1998.10011064",
+    "authors": [
+      "M. B. Goodwin",
+      "E. A. Buccholtz",
+      "R. E. Johnson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:96407",
+      "taxon": "Stygimoloch",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Stygimoloch belongs to Pachycephalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96408",
+      "taxon": "Stygimoloch spinifer",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stygimoloch",
+      "basis": "stated without evidence",
+      "summary": "Stygimoloch spinifer belongs to Stygimoloch.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

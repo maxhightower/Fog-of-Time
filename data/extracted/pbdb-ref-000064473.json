@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:64473",
+    "doi": null,
+    "title": "Handbuch der Palaeontologie. I. Abteilung Paleozoologie. III. Band. Vertebrata (Pisces, Amphibia, Reptilia, Aves) [Handbook of Paleontology. Division I. Paleozoology. Volume III. Vertebrata (Pisces, Amphibia, Reptilia, Aves)]",
+    "year": 1890,
+    "journal": "R. Oldenbourg",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=64473",
+    "authors": [
+      "K. A. v. Zittel"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:671385",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Atlantosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus belongs to Atlantosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:671386",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:671575",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Zanclodon",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus is a subjective synonym of Zanclodon.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

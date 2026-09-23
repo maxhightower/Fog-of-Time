@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17003",
+    "doi": null,
+    "title": "The Early Cretaceous brachiosaurid dinosaurs Ornithopsis and Eucamerotus from the Isle of Wight, England",
+    "year": 1995,
+    "journal": "Palaeontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17003",
+    "authors": [
+      "W. T. Blows"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:304826",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

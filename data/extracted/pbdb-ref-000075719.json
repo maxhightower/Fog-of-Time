@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75719",
+    "doi": "10.1177/019874298200700204",
+    "title": "Carnegie's Dinosaurs. A Comprehensive Guide to Dinosaur Hall at Carnegie Museum of Natural History, Carnegie Institute",
+    "year": 1982,
+    "journal": "The Board of Trustees, Carnegie Institute",
+    "url": "https://doi.org/10.1177/019874298200700204",
+    "authors": [
+      "H. J. McGinnis"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:824155",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

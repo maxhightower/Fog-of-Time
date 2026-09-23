@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:79156",
+    "doi": "10.1080/08912960601118651",
+    "title": "A nearly complete skeleton of an early juvenile diplodocid (Dinosauria: Sauropoda) from the Lower Morrison Formation (Late Jurassic) of north central Wyoming and its implications for early ontogeny and pneumaticity in sauropods",
+    "year": 2007,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912960601118651",
+    "authors": [
+      "D. Schwarz",
+      "T. Ikejiri",
+      "B. H. Breithaupt, P. M. Sander, N. Klein"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:863159",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

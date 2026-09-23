@@ -62,21 +62,42 @@ export interface TimelineEvidence {
   development_fixture: boolean
 }
 
-export type Stance = 'proposes' | 'supports' | 'revises' | 'challenges' | 'refutes' | 'revives' | 'confirms'
+export type Stance = 'proposes' | 'supports' | 'challenges' | 'refutes' | 'revives' | 'confirms'
+export type Side = 'for' | 'against' | 'neutral'
 
-export interface HypothesisEvent {
+/** One ingested paper's verdict on a name. */
+export interface TaxonomicOpinion {
   id: string
-  stance: Stance
+  taxon: string
+  status: string
+  related_taxon?: string | null
+  basis?: string | null
+  source: 'pbdb_opinion' | 'full_text' | 'abstract' | 'derived_from_occurrence'
   summary: string
-  publication: PublicationSummary
+  side: Side
 }
 
-/** A hypothesised animal; its life is the life of the hypothesis in the literature. */
+/** A moment that changed the hypothesis's life, resting on one opinion. */
+export interface KeyEvent {
+  stance: Stance
+  publication: PublicationSummary
+  opinion: TaxonomicOpinion
+}
+
+export interface CreaturePaper {
+  publication: PublicationSummary
+  side: Side
+  opinions: TaxonomicOpinion[]
+}
+
+/** A hypothesised animal; its life is the life of the hypothesis in the ingested literature. */
 export interface TheoreticalCreature {
   id: string
   name: string
   scientific_name?: string | null
   hypothesis: string
+  taxa: string[]
   evidence_count: number
-  events: HypothesisEvent[]
+  key_events: KeyEvent[]
+  papers: CreaturePaper[]
 }

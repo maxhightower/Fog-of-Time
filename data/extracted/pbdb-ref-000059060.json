@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:59060",
+    "doi": null,
+    "title": "Los sauriquios y ornitisquios del Cretáceo argentino",
+    "year": 1929,
+    "journal": "Anales del Museo de La Plata, serie 2",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=59060",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:615680",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Camarasaurus",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus is a subjective synonym of Camarasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:615687",
+      "taxon": "Clasmodosaurus spatula",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Clasmodosaurus",
+      "basis": "stated with evidence",
+      "summary": "Clasmodosaurus spatula belongs to Clasmodosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:615695",
+      "taxon": "Clasmodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithomimidae",
+      "basis": "stated with evidence",
+      "summary": "Clasmodosaurus belongs to Ornithomimidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

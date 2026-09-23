@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:23342",
+    "doi": null,
+    "title": "Consideraciones sobre las láminas neurales de los dinosaurios saurópodos y su significado morfofuncional [Considerations on the neural laminae of sauropod dinosaurs and their morphofunctional significance]",
+    "year": 2006,
+    "journal": "Revista del Museo Argentino de Ciencias Naturales, nuevo serie",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=23342",
+    "authors": [
+      "L. Salgado",
+      "R. A. Coria",
+      "J. D. Daza"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:164368",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

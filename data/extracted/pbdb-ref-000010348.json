@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:10348",
+    "doi": null,
+    "title": "Australian late Mesozoic continental tetrapods: some implications",
+    "year": 1980,
+    "journal": "Mémoires de la Société Géologique de France, Nouvelle Série",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=10348",
+    "authors": [
+      "R. E. Molnar"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:134183",
+      "taxon": "Clasmodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

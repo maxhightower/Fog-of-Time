@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31486",
+    "doi": "10.1126/science.195.4282.981",
+    "title": "A cheetah-like cat in the North American Pleistocene",
+    "year": 1977,
+    "journal": "Science",
+    "url": "https://doi.org/10.1126/science.195.4282.981",
+    "authors": [
+      "L. D. Martin",
+      "B. M. Gilbert",
+      "D. B. Adams"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:293198",
+      "taxon": "Miracinonyx trumani",
+      "published_as": "Felis trumani",
+      "status": "belongs_to",
+      "related_taxon": "Felis",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx trumani (as Felis trumani) belongs to Felis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

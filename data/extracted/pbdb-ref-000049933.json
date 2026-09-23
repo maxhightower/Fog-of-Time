@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:49933",
+    "doi": null,
+    "title": "Über Wirbeltierfunde aus dem Rhät von Hallau (Kt. Schaffhausen) [On the vertebrate finds from the Rhaetian of Hallau (Canton Schaffhausen)]",
+    "year": 1944,
+    "journal": "Eclogae Geologicae Helveticae",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=49933",
+    "authors": [
+      "B. Peyer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:502452",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

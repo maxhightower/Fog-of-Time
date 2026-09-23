@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:81422",
+    "doi": "10.1206/0003-0090.437.1.1",
+    "title": "Reassessment of a historical collection of sauropod dinosaurs from the northern Morrison Formation of Wyoming, with implications for sauropod biogeography",
+    "year": 2019,
+    "journal": "Bulletin of the American Museum of Natural History",
+    "url": "https://doi.org/10.1206/0003-0090.437.1.1",
+    "authors": [
+      "E. Tschopp",
+      "S. C. R. Maidment",
+      "M. C. Lamanna, M. A. Norell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:880160",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

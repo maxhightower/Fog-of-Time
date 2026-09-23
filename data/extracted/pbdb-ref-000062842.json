@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:62842",
+    "doi": null,
+    "title": "The genera of reptiles",
+    "year": 1928,
+    "journal": "Palaeobiologica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62842",
+    "authors": [
+      "B. F. Nopcsa"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:653255",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsinae",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus belongs to Ceratopsinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

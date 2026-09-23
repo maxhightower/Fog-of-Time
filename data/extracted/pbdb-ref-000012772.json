@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12772",
+    "doi": "10.1139/e83-043",
+    "title": "New data on pachycephalosaurid dinosaurs (Reptilia: Ornithischia) from North America",
+    "year": 1983,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/e83-043",
+    "authors": [
+      "P. M. Galton",
+      "H.-D. Sues"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:92515",
+      "taxon": "Stygimoloch",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Stygimoloch belongs to Pachycephalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:92517",
+      "taxon": "Stygimoloch spinifer",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stygimoloch",
+      "basis": "stated without evidence",
+      "summary": "Stygimoloch spinifer belongs to Stygimoloch.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

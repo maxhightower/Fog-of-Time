@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12624",
+    "doi": null,
+    "title": "Prosauropod dinosaurs (Reptilia: Saurischia) of North America",
+    "year": 1976,
+    "journal": "Postilla",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12624",
+    "authors": [
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:91912",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus is a subjective synonym of Plateosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

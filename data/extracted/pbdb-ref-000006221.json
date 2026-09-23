@@ -1,0 +1,49 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:6221",
+    "doi": null,
+    "title": "Pleistocene mammals of North America",
+    "year": 1980,
+    "journal": null,
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=6221",
+    "authors": [
+      "B. Kurten",
+      "E. Anderson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:49788",
+      "taxon": "Miracinonyx inexpectatus",
+      "published_as": "Crocuta inexpectata",
+      "status": "subjective_synonym_of",
+      "related_taxon": "Acinonyx studeri",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx inexpectatus (as Crocuta inexpectata) is a subjective synonym of Acinonyx studeri.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:53769",
+      "taxon": "Miracinonyx studeri",
+      "published_as": "Acinonyx studeri",
+      "status": "belongs_to",
+      "related_taxon": "Acinonyx",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx studeri (as Acinonyx studeri) belongs to Acinonyx.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:53779",
+      "taxon": "Miracinonyx trumani",
+      "published_as": "Acinonyx trumani",
+      "status": "belongs_to",
+      "related_taxon": "Acinonyx",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx trumani (as Acinonyx trumani) belongs to Acinonyx.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

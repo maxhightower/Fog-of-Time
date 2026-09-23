@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:6271",
+    "doi": null,
+    "title": "A survey of various late Cenozoic vertebrate faunas of the Panhandle of Texas. Part 3, Felidae",
+    "year": 1960,
+    "journal": "University of California Publications in Geological Sciences",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=6271",
+    "authors": [
+      "D. E. Savage"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:53774",
+      "taxon": "Miracinonyx studeri",
+      "published_as": "Felis studeri",
+      "status": "belongs_to",
+      "related_taxon": "Felis",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx studeri (as Felis studeri) belongs to Felis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

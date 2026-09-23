@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13559",
+    "doi": "10.1017/cbo9780511608377.007",
+    "title": "Species determination in sauropod dinosaurs with tentative suggestions for their classification",
+    "year": 1990,
+    "journal": "Dinosaur Systematics: Perspectives and Approaches, Cambridge University Press, Cambridge",
+    "url": "https://doi.org/10.1017/cbo9780511608377.007",
+    "authors": [
+      "J. S. McIntosh"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:95104",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

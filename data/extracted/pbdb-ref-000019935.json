@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19935",
+    "doi": "10.1666/0022-3360(2007)81[376:anbccf]2.0.co;2",
+    "title": "A new basal centrosaurine ceratopsid from the Oldman Formation, southeastern Alberta",
+    "year": 2007,
+    "journal": "Journal of Paleontology",
+    "url": "https://doi.org/10.1666/0022-3360(2007)81[376:anbccf]2.0.co;2",
+    "authors": [
+      "M. J. Ryan"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:163349",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chasmosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Chasmosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

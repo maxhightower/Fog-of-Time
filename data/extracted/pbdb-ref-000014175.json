@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14175",
+    "doi": "10.1130/gsab-26-323",
+    "title": "Sauropoda and Stegosauria of the Morrison of North America compared with those of Europe and eastern Africa",
+    "year": 1915,
+    "journal": "Bulletin of the Geological Society of America",
+    "url": "https://doi.org/10.1130/gsab-26-323",
+    "authors": [
+      "R. S. Lull"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:98461",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

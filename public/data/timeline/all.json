@@ -1,5 +1,151 @@
 [
   {
+    "physical_key": "biomolecule:cassatt-johnstone-2026:miracinonyx-trumani-wyoming",
+    "evidence_type": "biomolecule",
+    "taxon": "Miracinonyx trumani",
+    "taxon_rank": "species",
+    "specimen_label": "Miracinonyx trumani specimens from Wyoming (nuclear paleogenomes)",
+    "material": [
+      "bone collagen stable isotopes",
+      "nuclear paleogenome"
+    ],
+    "locality": {
+      "name": "Wyoming",
+      "country": "United States",
+      "region": "Wyoming"
+    },
+    "formation": null,
+    "age": {
+      "min_ma": 0.023,
+      "max_ma": 0.023,
+      "best_ma": 0.023,
+      "precision": "approximate_point",
+      "method": "published_approximate_specimen_age",
+      "basis": "The abstract dates the Wyoming specimens to ∼23 kya."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1016/j.cub.2026.07.072:wyoming-paleogenomes",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1016/j.cub.2026.07.072",
+        "doi": "10.1016/j.cub.2026.07.072",
+        "title": "Range and diet diversity in the Pleistocene American “cheetah,” Miracinonyx trumani",
+        "year": 2026,
+        "journal": "Current Biology",
+        "url": "https://doi.org/10.1016/j.cub.2026.07.072",
+        "authors": [
+          "Molly Cassatt-Johnstone",
+          "T. Brock Wooldridge",
+          "Sambit Ghosh",
+          "Elizabeth Hall",
+          "Susan Hewitson",
+          "Julie Meachen",
+          "Matthew J. Wooller",
+          "Grant Zazula",
+          "Beth Shapiro"
+        ]
+      },
+      "claims": [
+        {
+          "type": "molecular_observation",
+          "summary": "Nuclear paleogenomes were generated from M. trumani specimens from Wyoming (∼23 kya).",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Phylogenomic analyses place M. trumani as sister to pumas (Puma concolor), not cheetahs, with a divergence ∼2.6 million years ago.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "behavioral_observation",
+          "summary": "Stable isotopes indicate the Wyoming population functioned as a generalist terrestrial predator.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "biomolecule:cassatt-johnstone-2026:miracinonyx-trumani-yukon",
+    "evidence_type": "biomolecule",
+    "taxon": "Miracinonyx trumani",
+    "taxon_rank": "species",
+    "specimen_label": "Miracinonyx trumani specimens from Yukon (nuclear paleogenomes)",
+    "material": [
+      "bone collagen stable isotopes",
+      "nuclear paleogenome"
+    ],
+    "locality": {
+      "name": "Yukon",
+      "country": "Canada",
+      "region": "Yukon"
+    },
+    "formation": null,
+    "age": {
+      "min_ma": 0.031,
+      "max_ma": 0.031,
+      "best_ma": 0.031,
+      "precision": "approximate_point",
+      "method": "published_approximate_specimen_age",
+      "basis": "The abstract dates the Yukon specimens to ∼31 kya."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1016/j.cub.2026.07.072:yukon-paleogenomes",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1016/j.cub.2026.07.072",
+        "doi": "10.1016/j.cub.2026.07.072",
+        "title": "Range and diet diversity in the Pleistocene American “cheetah,” Miracinonyx trumani",
+        "year": 2026,
+        "journal": "Current Biology",
+        "url": "https://doi.org/10.1016/j.cub.2026.07.072",
+        "authors": [
+          "Molly Cassatt-Johnstone",
+          "T. Brock Wooldridge",
+          "Sambit Ghosh",
+          "Elizabeth Hall",
+          "Susan Hewitson",
+          "Julie Meachen",
+          "Matthew J. Wooller",
+          "Grant Zazula",
+          "Beth Shapiro"
+        ]
+      },
+      "claims": [
+        {
+          "type": "molecular_observation",
+          "summary": "Nuclear paleogenomes were generated from M. trumani specimens from Yukon (∼31 kya).",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "site_observation",
+          "summary": "The Yukon specimens extend the species' known range by over 20° latitude into the Arctic.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "behavioral_observation",
+          "summary": "Stable isotopes place the Yukon population at an elevated trophic position consistent with exploiting anadromous fish.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
     "physical_key": "clutch:cpplip:1798",
     "evidence_type": "nest",
     "taxon": "Titanosauria indet.",

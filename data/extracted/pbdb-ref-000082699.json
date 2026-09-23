@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:82699",
+    "doi": null,
+    "title": "[The origin and evolution of the heterodontosaurians]",
+    "year": 1994,
+    "journal": "Dinosaur Frontline, Gakken Mook",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=82699",
+    "authors": [
+      "G. Olshevsky",
+      "T. L. Ford"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:898968",
+      "taxon": "Stygimoloch",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Stygimoloch belongs to Pachycephalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:898969",
+      "taxon": "Stygimoloch spinifer",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stygimoloch",
+      "basis": "stated without evidence",
+      "summary": "Stygimoloch spinifer belongs to Stygimoloch.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

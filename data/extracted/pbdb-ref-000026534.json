@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:26534",
+    "doi": "10.5962/bhl.title.5426",
+    "title": "The non-therapsid reptiles of the Lufeng Basin, Yunnan, China",
+    "year": 1965,
+    "journal": "Fieldiana: Geology",
+    "url": "https://doi.org/10.5962/bhl.title.5426",
+    "authors": [
+      "D. J. Simmons"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:211273",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:2623",
+    "doi": "10.58782/flmnh.emto6774",
+    "title": "Fossil history of the panther (Puma concolor) and the cheetah-like cat (Miracinonyx inexpectatus) in Florida",
+    "year": 1997,
+    "journal": "Bulletin of the Florida Museum of Natural History",
+    "url": "https://doi.org/10.58782/flmnh.emto6774",
+    "authors": [
+      "G. S. Morgan",
+      "K. L. Seymour"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:49784",
+      "taxon": "Miracinonyx inexpectatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Miracinonyx",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx inexpectatus belongs to Miracinonyx.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:53765",
+      "taxon": "Miracinonyx studeri",
+      "published_as": "Felis studeri",
+      "status": "subjective_synonym_of",
+      "related_taxon": "Miracinonyx inexpectatus",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx studeri (as Felis studeri) is a subjective synonym of Miracinonyx inexpectatus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:53775",
+      "taxon": "Miracinonyx trumani",
+      "published_as": "Felis trumani",
+      "status": "subjective_synonym_of",
+      "related_taxon": "Miracinonyx studeri",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx trumani (as Felis trumani) is a subjective synonym of Miracinonyx studeri.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

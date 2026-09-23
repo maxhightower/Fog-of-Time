@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31892",
+    "doi": null,
+    "title": "Übersicht über die Reptilien der Trias [Review of the Reptilia of the Triassic]",
+    "year": 1902,
+    "journal": "Geologische und Paläontologische Abhandlungen (Neue Serie). Gustav Fischer Verlag, Jena",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=31892",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:296316",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Zanclodontidae",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus belongs to Zanclodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

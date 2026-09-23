@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:69984",
+    "doi": "10.1080/08912963.2019.1661406",
+    "title": "New taxonomic assignment for a dinosaur sauropod bone from Cuba",
+    "year": 2021,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2019.1661406",
+    "authors": [
+      "S. Apesteguía",
+      "Y. Ceballos Izquierdo",
+      "M. Iturralde-Vinent"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:821804",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

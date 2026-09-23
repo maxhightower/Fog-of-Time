@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94628",
+    "doi": "10.1038/s41586-025-09801-6",
+    "title": "Nanotyrannus and Tyrannosaurus coexisted at the close of the Cretaceous",
+    "year": 2025,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/s41586-025-09801-6",
+    "authors": [
+      "L. E. Zanno",
+      "J. G. Napoli"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1014901",
+      "taxon": "Nanotyrannus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nanotyrannidae",
+      "basis": "stated with evidence",
+      "summary": "Nanotyrannus belongs to Nanotyrannidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1014906",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nanotyrannus",
+      "basis": "stated with evidence",
+      "summary": "Nanotyrannus lancensis belongs to Nanotyrannus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

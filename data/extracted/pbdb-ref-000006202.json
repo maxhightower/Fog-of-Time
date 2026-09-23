@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:6202",
+    "doi": "10.2307/2426317",
+    "title": "Ice Age mammals of northwestern Texas",
+    "year": 1992,
+    "journal": "Midwestern State University Press",
+    "url": "https://doi.org/10.2307/2426317",
+    "authors": [
+      "W. W. Dalquest",
+      "G. E. Schultz"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:53767",
+      "taxon": "Miracinonyx studeri",
+      "published_as": "Acinonyx studeri",
+      "status": "belongs_to",
+      "related_taxon": "Acinonyx",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx studeri (as Acinonyx studeri) belongs to Acinonyx.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:53777",
+      "taxon": "Miracinonyx trumani",
+      "published_as": "Acinonyx trumani",
+      "status": "belongs_to",
+      "related_taxon": "Acinonyx",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx trumani (as Acinonyx trumani) belongs to Acinonyx.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

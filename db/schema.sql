@@ -98,8 +98,25 @@ CREATE INDEX idx_publication_evidence_age ON publication_evidence(age_min_ma, ag
 CREATE INDEX idx_publication_evidence_taxon ON publication_evidence(taxon_id);
 CREATE INDEX idx_publication_evidence_physical ON publication_evidence(physical_key);
 
+-- One paper's verdict on a name: it belongs to a parent, is a synonym, is a
+-- nomen dubium, and so on. Most come from PBDB opinions; "identified_as" rows
+-- are derived from a paper's own fossil identifications.
+CREATE TABLE taxonomic_opinion (
+  id TEXT PRIMARY KEY,
+  publication_id TEXT NOT NULL REFERENCES publication(id),
+  taxon_name TEXT NOT NULL,
+  published_as TEXT,
+  status TEXT NOT NULL,
+  related_taxon TEXT,
+  basis TEXT,
+  summary TEXT NOT NULL,
+  source TEXT NOT NULL
+);
+
+CREATE INDEX idx_taxonomic_opinion_taxon ON taxonomic_opinion(taxon_name);
+
 -- Theoretical creatures: a hypothesised animal whose "life" is the life of the
--- hypothesis. Every event is one publication taking a stance on it.
+-- hypothesis, argued over in the opinions of ingested papers.
 CREATE TABLE theoretical_creature (
   id TEXT PRIMARY KEY,
   name TEXT NOT NULL,
@@ -107,13 +124,18 @@ CREATE TABLE theoretical_creature (
   hypothesis TEXT NOT NULL
 );
 
-CREATE TABLE hypothesis_event (
-  id TEXT PRIMARY KEY,
+CREATE TABLE creature_taxon (
   creature_id TEXT NOT NULL REFERENCES theoretical_creature(id) ON DELETE CASCADE,
-  publication_id TEXT NOT NULL REFERENCES publication(id),
-  stance TEXT NOT NULL CHECK (stance IN ('proposes', 'supports', 'revises', 'challenges', 'refutes', 'revives', 'confirms')),
-  summary TEXT NOT NULL,
-  event_order INTEGER NOT NULL
+  taxon_name TEXT NOT NULL,
+  PRIMARY KEY (creature_id, taxon_name)
 );
 
-CREATE INDEX idx_hypothesis_event_creature ON hypothesis_event(creature_id);
+-- The moments that change a hypothesis's life, each resting on one opinion.
+CREATE TABLE hypothesis_event (
+  creature_id TEXT NOT NULL REFERENCES theoretical_creature(id) ON DELETE CASCADE,
+  publication_id TEXT NOT NULL REFERENCES publication(id),
+  opinion_id TEXT NOT NULL REFERENCES taxonomic_opinion(id),
+  stance TEXT NOT NULL CHECK (stance IN ('proposes', 'supports', 'challenges', 'refutes', 'revives', 'confirms')),
+  event_order INTEGER NOT NULL,
+  PRIMARY KEY (creature_id, event_order)
+);

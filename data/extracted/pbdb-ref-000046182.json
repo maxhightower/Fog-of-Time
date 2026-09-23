@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:46182",
+    "doi": null,
+    "title": "Les Enchainements du Monde Animal dans les Temps Geologiques. Fossiles Secondaires",
+    "year": 1890,
+    "journal": "Librairie F. Savy",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=46182",
+    "authors": [
+      "A. Gaudry"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:462617",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

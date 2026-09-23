@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65100",
+    "doi": "10.2307/1125747",
+    "title": "A Guide to the Fossil Birds, Reptiles, and Amphibians in the Department of Geology and Paleontology in the British Museum (Natural History), Cromwell Road, London, S.W. 7",
+    "year": 1934,
+    "journal": "Trustees of the British Museum",
+    "url": "https://doi.org/10.2307/1125747",
+    "authors": [
+      "W. E. Swinton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:678950",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

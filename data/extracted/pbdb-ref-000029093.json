@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29093",
+    "doi": "10.1016/j.gr.2007.04.007",
+    "title": "The sauropod diversity of the La Amarga Formation (Barremian), Neuquén (Argentina)",
+    "year": 2007,
+    "journal": "Gondwana Research",
+    "url": "https://doi.org/10.1016/j.gr.2007.04.007",
+    "authors": [
+      "S. Apesteguía"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:254710",
+      "taxon": "Clasmodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:254711",
+      "taxon": "Clasmodosaurus spatula",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Clasmodosaurus",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus spatula belongs to Clasmodosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

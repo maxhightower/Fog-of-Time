@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16877",
+    "doi": null,
+    "title": "Eine Zusammenstellung über die englische Trias und das Alter ihrer Fossilien [A compilation on the English Trias and the age of its fossils]",
+    "year": 1908,
+    "journal": "Centralblatt für Mineralogie, Geologie und Paläontologie",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16877",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:114223",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

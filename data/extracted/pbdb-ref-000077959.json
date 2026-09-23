@@ -1,0 +1,68 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:77959",
+    "doi": null,
+    "title": "Archosauria",
+    "year": 1967,
+    "journal": "The Fossil Record: A Symposium with Documentation. Geological Society of London Special Publication",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=77959",
+    "authors": [
+      "A. J. Charig"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:848384",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:848385",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:848492",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": "Aublysodon lancensis",
+      "status": "belongs_to",
+      "related_taxon": "Aublysodon",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus lancensis (as Aublysodon lancensis) belongs to Aublysodon.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:848676",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:848677",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

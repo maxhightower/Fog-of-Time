@@ -1,0 +1,58 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63986",
+    "doi": null,
+    "title": "Contribución a la paleogeografía de Sud América [Contribution to the paleogeography of South America]",
+    "year": 1927,
+    "journal": "Boletín de la Academia Nacional de Ciencias de la República Argentina",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63986",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:667997",
+      "taxon": "Clasmodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithomimidae",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus belongs to Ornithomimidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:667998",
+      "taxon": "Clasmodosaurus spatula",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Clasmodosaurus",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus spatula belongs to Clasmodosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:668103",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:668104",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

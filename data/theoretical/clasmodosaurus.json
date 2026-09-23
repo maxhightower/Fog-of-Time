@@ -1,0 +1,22 @@
+{
+  "schema_version": "fog-of-time.theoretical-creature/v2",
+  "id": "clasmodosaurus",
+  "name": "Clasmodosaurus",
+  "scientific_name": "Clasmodosaurus spatula",
+  "hypothesis": "Clasmodosaurus, named from teeth, is a diagnosable dinosaur rather than a doubtful name.",
+  "taxa": ["Clasmodosaurus", "Clasmodosaurus spatula"],
+  "rules": {
+    "for": [
+      { "status": ["belongs_to", "identified_as"] }
+    ],
+    "against": [
+      { "status": ["subjective_synonym_of", "objective_synonym_of", "nomen_dubium", "nomen_nudum", "nomen_vanum"] }
+    ]
+  },
+  "key_events": [
+    { "publication_id": "pbdb-ref:52202", "stance": "proposes" },
+    { "publication_id": "pbdb-ref:52169", "stance": "refutes" },
+    { "publication_id": "pbdb-ref:59610", "stance": "revives" },
+    { "publication_id": "pbdb-ref:36737", "stance": "refutes" }
+  ]
+}

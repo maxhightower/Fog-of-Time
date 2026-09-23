@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63229",
+    "doi": null,
+    "title": "Die Oberkretazischen “Dinosaurier” von Alberta, Kanada [The Upper Cretaceous “dinosaurs” of Alberta, Canada]",
+    "year": 1963,
+    "journal": "Stuttgarter Beiträge zur Naturkunde",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63229",
+    "authors": [
+      "K. O. A. Parsch"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:657545",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

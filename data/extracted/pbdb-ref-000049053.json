@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:49053",
+    "doi": null,
+    "title": "Cranial osteology and phylogenetic relationships of the chasmosaurine ceratopsid Torosaurus latus",
+    "year": 2007,
+    "journal": "Horns and Beaks: Ceratopsian and Ornithopod Dinosaurs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=49053",
+    "authors": [
+      "A. A. Farke"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:493694",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

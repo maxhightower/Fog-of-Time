@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16915",
+    "doi": null,
+    "title": "Sichtung der Grundlagen der jetzigen Kenntnis der Sauropoden [Sorting through the basis of the current knowledge of sauropods]",
+    "year": 1927,
+    "journal": "Eclogae Geologica Helveticae",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16915",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:114939",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Camarasaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus is a subjective synonym of Camarasaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

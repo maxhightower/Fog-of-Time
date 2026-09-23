@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:90509",
+    "doi": "10.3390/fossils2040012",
+    "title": "A new tyrant dinosaur from the late Campanian of Mexico reveals a tribe of southern tyrannosaurs",
+    "year": 2024,
+    "journal": "Fossil Studies",
+    "url": "https://doi.org/10.3390/fossils2040012",
+    "authors": [
+      "H. E. Rivera-Sylva",
+      "N. Longrich"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:982901",
+      "taxon": "Nanotyrannus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

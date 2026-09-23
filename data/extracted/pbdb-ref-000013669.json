@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13669",
+    "doi": "10.4095/104968",
+    "title": "On Eoceratops canadensis, gen. nov., with remarks on other genera of Cretaceous horned dinosaurs",
+    "year": 1915,
+    "journal": "Canada Geological Survey Museum Bulletin 12, Geological Series",
+    "url": "https://doi.org/10.4095/104968",
+    "authors": [
+      "L. M. Lambe"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:135024",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chasmosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Chasmosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

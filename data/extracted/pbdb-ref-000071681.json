@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:71681",
+    "doi": null,
+    "title": "Über ein neues Rhätvorkommen im Keuper des Donau-Rheinzuges [On a new occurrence of the Rhaetian in the Keuper of the Danube-Rhine valleys]",
+    "year": 1919,
+    "journal": "Mitteilungen der Badischen Geologischen Landesanstalt",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=71681",
+    "authors": [
+      "F. Schalch",
+      "B. Peyer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:770048",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

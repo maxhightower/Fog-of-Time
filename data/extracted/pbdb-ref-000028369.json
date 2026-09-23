@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:28369",
+    "doi": "10.1144/0016-76492006-032",
+    "title": "Dinosaurs of Great Britain and the role of the Geological Society of London in their discovery: basal Dinosauria and Saurischia",
+    "year": 2007,
+    "journal": "Journal of the Geological Society, London",
+    "url": "https://doi.org/10.1144/0016-76492006-032",
+    "authors": [
+      "D. Naish",
+      "D. M. Martill"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:245156",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "implied",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

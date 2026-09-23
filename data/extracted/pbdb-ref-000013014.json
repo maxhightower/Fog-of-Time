@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13014",
+    "doi": "10.1666/0022-3360(2005)079<0564:rotcdt>2.0.co;2",
+    "title": "Redescription of the ceratopsid dinosaur Torosaurus utahensis (Gilmore, 1946) and a revision of the genus",
+    "year": 2005,
+    "journal": "Journal of Paleontology",
+    "url": "https://doi.org/10.1666/0022-3360(2005)079<0564:rotcdt>2.0.co;2",
+    "authors": [
+      "R. M. Sullivan",
+      "A. C. Boere",
+      "S. G. Lucas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:93432",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

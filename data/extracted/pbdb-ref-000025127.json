@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25127",
+    "doi": null,
+    "title": "New genera and species from the Belly River Series (mid-Cretaceous)",
+    "year": 1902,
+    "journal": "Geological Survey of Canada Contributions to Canadian Palaeontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=25127",
+    "authors": [
+      "L. M. Lambe"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:187876",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

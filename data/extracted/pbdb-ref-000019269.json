@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19269",
+    "doi": null,
+    "title": "Arrhinoceratops brachyops, a new genus and species of Ceratopsia from the Edmonton Formation of Alberta",
+    "year": 1925,
+    "journal": "University of Toronto Studies, Geology Series",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19269",
+    "authors": [
+      "W. A. Parks"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:152893",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

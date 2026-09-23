@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32613",
+    "doi": null,
+    "title": "First rostrum of carnivorous Vitakridrinda (Abelisaurid Theropod Dinosaur) found from the latest Cretaceous Dinosaur Beds (Vitakri) Member of PAB formation, Alam Kali Kakor Locality of Vitakri area, Barkhan District, Balochistan, Pakistan",
+    "year": 2006,
+    "journal": "Sindh University Research Journal (Science Series)",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=32613",
+    "authors": [
+      "M. S. Malkani"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:303773",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": "Nanotyrannus lencensis",
+      "status": "belongs_to",
+      "related_taxon": "Nanotyrannus",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus lancensis (as Nanotyrannus lencensis) belongs to Nanotyrannus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

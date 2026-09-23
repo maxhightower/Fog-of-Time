@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53965",
+    "doi": null,
+    "title": "The dinosaurs of the Bone-Cabin Quarry",
+    "year": 1915,
+    "journal": "Dinosaurs, with Special Reference to the American Museum Collections",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53965",
+    "authors": [
+      "H. F. Osborn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:555250",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

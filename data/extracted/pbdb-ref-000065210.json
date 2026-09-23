@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65210",
+    "doi": null,
+    "title": "Seismosaurus hallorium: osteological reconstruction from the holotype",
+    "year": 2006,
+    "journal": "Paleontology and Geology of the Upper Jurassic Morrison Formation. New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=65210",
+    "authors": [
+      "M. C. Herne",
+      "S. G. Lucas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:680163",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsius",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsius) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

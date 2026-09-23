@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18742",
+    "doi": "10.1111/j.1475-4983.2006.00577.x",
+    "title": "The axial skeleton of the dinosaur Suuwassea emilieae (Sauropoda: Flagellicaudata) from the Upper Jurassic Morrison Formation of Montana, USA",
+    "year": 2006,
+    "journal": "Palaeontology",
+    "url": "https://doi.org/10.1111/j.1475-4983.2006.00577.x",
+    "authors": [
+      "J. D. Harris"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:146171",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

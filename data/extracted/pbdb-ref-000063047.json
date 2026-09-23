@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63047",
+    "doi": null,
+    "title": "Les reptiles fossiles [Fossil reptiles]",
+    "year": 1922,
+    "journal": "Association Française pour l'Avancement des Sciences. Conférences. Compte Rendu de la 45e Session",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63047",
+    "authors": [
+      "L. Joleaud"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:655554",
+      "taxon": "Brontosaurus",
+      "published_as": "Brontausaurus",
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus (as Brontausaurus) belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

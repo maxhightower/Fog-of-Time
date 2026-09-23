@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:71512",
+    "doi": "10.1515/9783112350300",
+    "title": "Die Lebewelt Unserer Trias. Nachtrag 1938 [The Living World of Our Triassic. 1938 Supplement]",
+    "year": 1938,
+    "journal": "Hohenloche’sche Buchhandlung",
+    "url": "https://doi.org/10.1515/9783112350300",
+    "authors": [
+      "M. Schmidt"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:765931",
+      "taxon": "Gresslyosaurus robustus",
+      "published_as": "Plateosaurus robustus",
+      "status": "belongs_to",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus robustus (as Plateosaurus robustus) belongs to Plateosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:765939",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

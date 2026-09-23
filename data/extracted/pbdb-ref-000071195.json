@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:71195",
+    "doi": "10.58782/flmnh.qqgg4577",
+    "title": "Cenozoic vertebrate biostratigraphy of South Carolina, U.S.A. and additions to the fauna",
+    "year": 2019,
+    "journal": "Bulletin of the Florida Museum of Natural History",
+    "url": "https://doi.org/10.58782/flmnh.qqgg4577",
+    "authors": [
+      "L. B. Albright",
+      "A. E. Sanders",
+      "R. E. Weems, D. J. Cicimurri, J. L. Knight"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:756269",
+      "taxon": "Miracinonyx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Felidae",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx belongs to Felidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:756270",
+      "taxon": "Miracinonyx trumani",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Miracinonyx",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx trumani belongs to Miracinonyx.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

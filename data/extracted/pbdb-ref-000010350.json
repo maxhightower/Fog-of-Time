@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:10350",
+    "doi": null,
+    "title": "Predatory Dinosaurs of the World. Simon & Schuster, New York",
+    "year": 1988,
+    "journal": null,
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=10350",
+    "authors": [
+      "G. S. Paul"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:101750",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": "Albertosaurus lancensis",
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus lancensis (as Albertosaurus lancensis) belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

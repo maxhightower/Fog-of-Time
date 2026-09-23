@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54059",
+    "doi": null,
+    "title": "Fossil wonders of the west. The dinosaurs of the Bone-Cabin Quarry, being the first description of the greatest \"find\" of extinct animals ever made",
+    "year": 1904,
+    "journal": "Century Magazine",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54059",
+    "authors": [
+      "H. F. Osborn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:556385",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

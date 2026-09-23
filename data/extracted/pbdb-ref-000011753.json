@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:11753",
+    "doi": null,
+    "title": "Geologia y Paleontologia (Dinosaurios) de las Capas rojas de Morella (Castellón, España) [Geology and paleontology (Dinosauria) of the Capas Rojas of Morella (Castellón, Spain)]",
+    "year": 1982,
+    "journal": "Diputación Provincial de Castellón y Diputación de Barcelona",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=11753",
+    "authors": [
+      "J. V. Santafé",
+      "M. L. Casanovas",
+      "J. L. Sanz, Y. S. Calzada"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:133348",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

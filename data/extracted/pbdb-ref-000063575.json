@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63575",
+    "doi": null,
+    "title": "Les grands animaux fossiles de l’Amerique [The great fossil animals of America]",
+    "year": 1891,
+    "journal": "La Revue Scientifique",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63575",
+    "authors": [
+      "M. Boule"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:663480",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24190",
+    "doi": null,
+    "title": "The interrelationships and evolution of basal theropod dinosaurs",
+    "year": 2003,
+    "journal": "Special Papers in Palaeontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=24190",
+    "authors": [
+      "O. W. M. Rauhut"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:173336",
+      "taxon": "Nanotyrannus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus is a subjective synonym of Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:173337",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Tyrannosaurus rex",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus lancensis is a subjective synonym of Tyrannosaurus rex.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

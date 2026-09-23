@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18432",
+    "doi": "10.2475/ajs.247.7.492",
+    "title": "Growth patterns in the Ceratopsia",
+    "year": 1949,
+    "journal": "The American Journal of Science, series 5",
+    "url": "https://doi.org/10.2475/ajs.247.7.492",
+    "authors": [
+      "R. S. Lull",
+      "S. W. Gray"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:142495",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

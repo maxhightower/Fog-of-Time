@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17770",
+    "doi": null,
+    "title": "Some characteristics of Barapasaurus tagorei, a sauropod dinosaur from the Lower Jurassic of Deccan, India",
+    "year": 1979,
+    "journal": "In B. Laskar & C. S. Raja Rao (eds.), Fourth International Gondwana Symposium: Papers. Hindustan Publishing Corporation, Delhi",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17770",
+    "authors": [
+      "S. L. Jain",
+      "T. S. Kutty",
+      "T. K. Roy-Chowdhury, S. Chatterjee"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:136219",
+      "taxon": "Gresslyosaurus robustus",
+      "published_as": "Plateosaurus robustus",
+      "status": "belongs_to",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus robustus (as Plateosaurus robustus) belongs to Plateosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:136227",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

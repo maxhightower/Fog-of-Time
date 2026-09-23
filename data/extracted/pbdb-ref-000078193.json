@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78193",
+    "doi": "10.56577/ffc-56.395",
+    "title": "Dinosaurs, pollen, and the Cretaceous-Tertiary boundary in the San Juan Basin",
+    "year": 2005,
+    "journal": "New Mexico Geological Society, 56th Field Conference, Geology of the Chama Basin. New Mexico Geological Society Guidebook",
+    "url": "https://doi.org/10.56577/ffc-56.395",
+    "authors": [
+      "R. M. Sullivan",
+      "S. G. Lucas",
+      "D. R. Braman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:850509",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

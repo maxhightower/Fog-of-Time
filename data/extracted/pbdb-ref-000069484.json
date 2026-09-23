@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:69484",
+    "doi": "10.1016/j.palwor.2015.11.006",
+    "title": "First report of Apatosaurus (Diplodocidae: Apatosaurinae) from the Cleveland-Lloyd Quarry in the Upper Jurassic Morrison Formation of Utah: abundance, distribution, paleoecology, and taphonomy of an endemic North American sauropod clade",
+    "year": 2016,
+    "journal": "Palaeoworld",
+    "url": "https://doi.org/10.1016/j.palwor.2015.11.006",
+    "authors": [
+      "J. R. Foster",
+      "J. E. Peterson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:730123",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:730124",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

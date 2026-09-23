@@ -63,22 +63,33 @@ Checked-in extraction JSON is the reviewable source record. The offline build no
 
 The first web exporter uses `latest-publication-report-v0` only as a display policy when multiple papers refer to the same physical key. The database retains all reports. This policy is intentionally explicit and replaceable rather than pretending the newest paper is automatically correct.
 
+## Taxonomic opinions
+
+Besides physical evidence, an extraction record may carry `opinions`: the paper's own verdicts on names. Each opinion says that a taxon belongs to a parent, is a synonym of another, is a nomen dubium, and so on (`taxon`, `status`, `related_taxon`, `basis`, `summary`, `source`). A paper must contribute evidence, opinions or both.
+
+- **PBDB opinions** (`source: pbdb_opinion`) are snapshotted by `scripts/data/acquisition/import_pbdb_opinions.py`. Only *primary* opinions are kept, meaning the opinion's author and year match the reference it is recorded from. Papers already in the corpus get opinions merged in; others are ingested as opinion-only records.
+- **Direct extraction** (`source: full_text` or `abstract`) records an opinion read from the paper itself. `abstract` marks an abstract-level reading that has not yet been verified against the full text.
+- **Derived opinions** (`source: derived_from_occurrence`) are created by the build. A paper that identified its fossils under a name the accepted taxonomy has since replaced is recorded as using that name (`status: identified_as`).
+
+Opinions are stored in the `taxonomic_opinion` table.
+
 ## Theoretical creatures
 
-Some animals are first known as hypotheses: the "American cheetah" was a proposed North American cheetah lineage until ancient DNA showed *Miracinonyx* was a puma relative. Fog of Time tracks these as **theoretical creatures** in `data/theoretical/*.json` (schema: `data/schema/theoretical-creature.schema.json`).
+Some animals are first known as hypotheses. The "American cheetah" was a proposed North American cheetah until ancient DNA showed *Miracinonyx* was a puma relative. Fog of Time tracks these as **theoretical creatures** in `data/theoretical/*.json` (schema: `data/schema/theoretical-creature.schema.json`). Everything shown for a creature comes from ingested papers:
 
-A creature's life is the life of its hypothesis. Each event is one publication taking a stance, in publication-year order:
+- `taxa` lists the names whose opinions count as evidence.
+- `rules` sort each opinion onto the `for` or `against` side of the hypothesis (by `status` and, optionally, a `related` taxon prefix). An opinion that matches no rule is neutral.
+- `key_events` are the moments that change the hypothesis's life, each naming an ingested publication:
 
-| Stance | Effect on the hypothesis |
-| --- | --- |
-| `proposes` | Born (must be the first event, and only the first) |
-| `supports` | Stays alive; ends a contested spell |
-| `confirms` | Confirmed |
-| `challenges` | Contested, but still alive |
-| `refutes` | Dead (a further refutation reinforces the death) |
-| `revives` | Alive again (only valid while dead) |
-| `revises` | Neutral reframing; no change |
+| Stance | Effect | The cited paper must hold an opinion |
+| --- | --- | --- |
+| `proposes` | Born (first event only) | for |
+| `supports` | Stays alive; ends a contested spell | for |
+| `confirms` | Confirmed | for |
+| `challenges` | Contested, but still alive | against |
+| `refutes` | Dead (a further refutation reinforces it) | against |
+| `revives` | Alive again (only while dead) | for |
 
-The build rejects files whose events break that story, for example a paper that supports or challenges a refuted hypothesis without a revival first. Publications are stored in the shared `publication` table, so a paper cited by several creatures, or also reporting fossils, is one row; the SQLite tables are `theoretical_creature` and `hypothesis_event`. The web export is `public/data/theoretical/creatures.json`.
+The build fails if a key event cites a paper that is not in `data/extracted/`, if that paper has no opinion on the creature's taxa on the required side, or if the events break the life story (for example, a paper supporting a refuted hypothesis without a revival first).
 
-"Pieces of evidence" in the UI are these papers: each creature shows how many took a stance, split into for (proposes, supports, confirms, revives) and against (challenges, refutes).
+Which papers are turning points is a curated judgement. No automatic rule reproduces the histories: PBDB's evidence-weighted accepted-opinion rule never lets Riggs (1903) sink *Brontosaurus*, and "latest paper wins" flips it every few years. The evidence count, however, is not curated. It is every ingested paper with an opinion on the creature's taxa, published from the proposal year on, split into for, against and neutral by the rules. The SQLite tables are `theoretical_creature`, `creature_taxon` and `hypothesis_event`; the web export is `public/data/theoretical/creatures.json`.

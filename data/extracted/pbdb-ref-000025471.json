@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25471",
+    "doi": "10.1139/E07-011",
+    "title": "A new ceratopsid dinosaur (Ornithischia) from the uppermost Horseshoe Canyon Formation (upper Maastrichtian), Alberta, Canada",
+    "year": 2007,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/E07-011",
+    "authors": [
+      "X.-C. Wu",
+      "D. B. Brinkman",
+      "D. A. Ebert, D. R. Braman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:194053",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chasmosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Chasmosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

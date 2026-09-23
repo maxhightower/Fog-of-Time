@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17477",
+    "doi": null,
+    "title": "The cranial morphology of Tyrannosaurus rex",
+    "year": 1991,
+    "journal": "Palaeontographica Abteilung A",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17477",
+    "authors": [
+      "R. E. Molnar"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:134435",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nanotyrannus",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus lancensis belongs to Nanotyrannus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:69419",
+    "doi": null,
+    "title": "Handbuch der Petrefaktenkunde [Handbook of Fossils]",
+    "year": 1882,
+    "journal": "H. Laupp'schen Buchhandlung",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=69419",
+    "authors": [
+      "F. A. Quenstedt"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:729122",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:729123",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Squamati",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus belongs to Squamati.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

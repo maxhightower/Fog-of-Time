@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:36802",
+    "doi": null,
+    "title": "Carnosauria",
+    "year": 1990,
+    "journal": "The Dinosauria. University of California Press, Berkeley",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=36802",
+    "authors": [
+      "R. E. Molnar",
+      "S. M. Kurzanov",
+      "Z. Dong"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:346374",
+      "taxon": "Nanotyrannus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated with evidence",
+      "summary": "Nanotyrannus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:346375",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nanotyrannus",
+      "basis": "stated with evidence",
+      "summary": "Nanotyrannus lancensis belongs to Nanotyrannus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

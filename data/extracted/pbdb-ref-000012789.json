@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12789",
+    "doi": null,
+    "title": "Cranial anatomy of the prosauropod dinosaur Plateosaurus from the Knollenmergel (Middle Keuper, Upper Triassic) of Germany. II. All the cranial materials and details of soft-part anatomy",
+    "year": 1985,
+    "journal": "Geologica et Palaeontologica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12789",
+    "authors": [
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:92546",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus is a subjective synonym of Plateosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:92548",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Plateosaurus engelhardti",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens is a subjective synonym of Plateosaurus engelhardti.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:93271",
+      "taxon": "Gresslyosaurus robustus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Plateosaurus engelhardti",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus robustus is a subjective synonym of Plateosaurus engelhardti.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63357",
+    "doi": null,
+    "title": "Dinosaurian climatic response",
+    "year": 1924,
+    "journal": "Organic Adaptation to Environment",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63357",
+    "authors": [
+      "R. S. Lull"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:658891",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:658936",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Atlantosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus belongs to Atlantosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:658991",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsia",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus belongs to Ceratopsia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:2212",
+    "doi": null,
+    "title": "The Alamo Wash local fauna: a new look at the old Ojo Alamo fauna",
+    "year": 1981,
+    "journal": "Advances in San Juan Basin Paleontology. New Mexico University Press, Albuquerque",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=2212",
+    "authors": [
+      "T. M. Lehman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:709880",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

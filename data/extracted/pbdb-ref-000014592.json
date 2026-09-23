@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14592",
+    "doi": null,
+    "title": "A new carnivorous dinosaur from the Lance Formation of Montana",
+    "year": 1946,
+    "journal": "Smithsonian Miscellaneous Collections",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14592",
+    "authors": [
+      "C. W. Gilmore"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:79134",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": "Gorgosaurus lancensis",
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus lancensis (as Gorgosaurus lancensis) belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

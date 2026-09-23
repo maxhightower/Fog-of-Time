@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:57703",
+    "doi": "10.1016/j.cretres.2015.12.020",
+    "title": "A tyrannosaur trackway at Glenrock, Lance Formation (Maastrichtian), Wyoming",
+    "year": 2016,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2015.12.020",
+    "authors": [
+      "S. D. Smith",
+      "W. S. Persons",
+      "L. Xing"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:602580",
+      "taxon": "Nanotyrannus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

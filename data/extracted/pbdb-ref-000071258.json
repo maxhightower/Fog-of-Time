@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:71258",
+    "doi": "10.1007/978-94-010-2977-3_33",
+    "title": "Die Saurier der deutschen Trias [Reptiles of the German Triassic]",
+    "year": 1971,
+    "journal": "Verlag Gebr. Geiselberger",
+    "url": "https://doi.org/10.1007/978-94-010-2977-3_33",
+    "authors": [
+      "O. Kuhn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:758861",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:758862",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:758876",
+      "taxon": "Gresslyosaurus robustus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus robustus belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

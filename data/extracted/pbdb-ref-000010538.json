@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:10538",
+    "doi": null,
+    "title": "The prosauropod dinosaur Massospondylus carinatus Owen from Zimbabwe: its biology, mode of life and phylogenetic significance",
+    "year": 1981,
+    "journal": "Occasional Papers of the National Museums and Monuments of Rhodesia, Series B, Natural Sciences",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=10538",
+    "authors": [
+      "M. R. Cooper"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:79640",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus is a subjective synonym of Plateosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

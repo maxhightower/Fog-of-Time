@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:84738",
+    "doi": "10.1126/sciadv.aax6250",
+    "title": "Growing up Tyrannosaurus rex: osteohistology refutes the pygmy “Nanotyrannus” and supports ontogenetic niche partitioning in juvenile Tyrannosaurus",
+    "year": 2020,
+    "journal": "Science Advances",
+    "url": "https://doi.org/10.1126/sciadv.aax6250",
+    "authors": [
+      "H. N. Woodward",
+      "K. Tremaine",
+      "S. A. Williams, L. E. Zanno, J. R. Horner, N. Myhrvold"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:923461",
+      "taxon": "Nanotyrannus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated with evidence",
+      "summary": "Nanotyrannus is a subjective synonym of Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:923462",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Tyrannosaurus rex",
+      "basis": "stated with evidence",
+      "summary": "Nanotyrannus lancensis is a subjective synonym of Tyrannosaurus rex.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

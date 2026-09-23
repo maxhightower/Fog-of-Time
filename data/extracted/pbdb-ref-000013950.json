@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13950",
+    "doi": null,
+    "title": "Cretaceous vertebrate faunas of Wyoming",
+    "year": 1965,
+    "journal": "Wyoming Geological Association Guidebook",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13950",
+    "authors": [
+      "J. H. Ostrom"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:672295",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsia",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Ceratopsia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:672297",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

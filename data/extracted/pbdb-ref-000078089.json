@@ -1,0 +1,68 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78089",
+    "doi": "10.1002/cber.19390720447",
+    "title": "Fossilium Catalogus. I: Animalia. Pars 87: Saurischia",
+    "year": 1939,
+    "journal": "W. Junk",
+    "url": "https://doi.org/10.1002/cber.19390720447",
+    "authors": [
+      "O. Kuhn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:849763",
+      "taxon": "Clasmodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelurosauria",
+      "basis": "stated with evidence",
+      "summary": "Clasmodosaurus belongs to Coelurosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849764",
+      "taxon": "Clasmodosaurus spatula",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Clasmodosaurus",
+      "basis": "stated with evidence",
+      "summary": "Clasmodosaurus spatula belongs to Clasmodosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849808",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849809",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849871",
+      "taxon": "Gresslyosaurus robustus",
+      "published_as": "Plateosaurus robustus",
+      "status": "belongs_to",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus robustus (as Plateosaurus robustus) belongs to Plateosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -102,3 +102,18 @@ snapshot.
 Fog of Time does not need to commit full paper PDFs. Full text may be acquired
 transiently for extraction when licensing/access permits; the durable repository
 artifact is the compact provenance-bearing extraction JSON.
+
+## PBDB taxonomic opinions (theoretical creatures)
+
+Theoretical creatures (`data/theoretical/*.json`) are built from the taxonomic opinions
+held by ingested papers. To ingest the papers behind them:
+
+```bash
+python scripts/data/acquisition/import_pbdb_opinions.py
+```
+
+For every taxon a creature tracks, this snapshots PBDB's opinions and keeps the primary
+ones, where the opinion's author and year match its reference. It then merges them into
+the existing extraction record for that paper, or writes an opinion-only record. The
+snapshot is logged in `data/acquisition/pbdb-opinion-import-manifest.json`. Occurrence
+re-imports with `--replace-existing-pbdb` keep records that carry opinions.

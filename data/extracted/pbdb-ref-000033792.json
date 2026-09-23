@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:33792",
+    "doi": null,
+    "title": "A new chasmosaurine ceratopsid from the Judith River Formation, Montana",
+    "year": 2010,
+    "journal": "New Perspectives on Horned Dinosaurs: The Royal Tyrrell Museum Ceratopsian Symposium. Indiana University Press, Bloomington",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=33792",
+    "authors": [
+      "M. J. Ryan",
+      "A. P. Russell",
+      "S. Hartman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:310723",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chasmosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Chasmosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

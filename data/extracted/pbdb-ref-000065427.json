@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65427",
+    "doi": null,
+    "title": "The real Jurassic park: dinosaurs and habitats at Como Bluff, Wyoming",
+    "year": 1996,
+    "journal": "The Continental Jurassic. Museum of Northern Arizona Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=65427",
+    "authors": [
+      "R. T. Bakker"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:681530",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

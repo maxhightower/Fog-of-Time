@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16859",
+    "doi": null,
+    "title": "Das natürliche System der Saurischia [The systematics of the Saurischia]",
+    "year": 1914,
+    "journal": "Centralblatt für Mineralogie, Geologie und Paläontologie",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16859",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:114085",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Zanclodontidae",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus belongs to Zanclodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:114092",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

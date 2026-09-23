@@ -1,11 +1,11 @@
 import './style.css'
-import type { DatasetManifest, Stance, TheoreticalCreature, TimelineEvidence } from './types'
+import type { DatasetManifest, PublicationSummary, Side, Stance, TheoreticalCreature, TimelineEvidence } from './types'
 import { CATEGORIES, categoryOf, GROUP_LABEL_OPTIONS, GROUP_OPTIONS, groupRecords, RECORD_LABEL_OPTIONS, type ColorBy, type GroupBy, type GroupLabel, type RecordLabel, type TimeAxis } from './model'
 import { formatAge, formatMa, humanize, PRECISION_LABELS } from './format'
 import { PRESETS, TIMESCALE_OLDEST } from './timescale'
 import { Timeline, type Selection } from './timeline'
 import { matchesName, nameSuggestions, searchWords } from './names'
-import { citation, LIFE_LABELS, lifeOf, Lifelines, markerSample, STANCE_INFO, type LifeState } from './creatures'
+import { citation, LIFE_LABELS, lifeOf, Lifelines, markerSample, SIDE_LABELS, STANCE_INFO, tickSample, type LifeState } from './creatures'
 
 const DEFAULT_VIEW = { from: 500, to: 0 }
 const MAX_AGE = TIMESCALE_OLDEST
@@ -175,7 +175,7 @@ app.innerHTML = `
               <p class="eyebrow">THEORETICAL CREATURES</p>
               <h2 id="creatures-heading">Lives of hypothesised animals</h2>
             </div>
-            <p class="muted">Each line is a hypothesis about an animal, born when a paper proposes it and killed when a paper refutes it. Follows the “Known by” year.</p>
+            <p class="muted">Each line is a hypothesis about an animal, argued over in the ingested papers: born when one proposes it, killed when one refutes it. Follows the “Known by” year.</p>
           </div>
           <div class="lifelines">
             <svg id="lifelines" role="group" aria-label="Theoretical creature lifelines"></svg>
@@ -200,7 +200,7 @@ app.innerHTML = `
         <section class="panel creature-panel" aria-labelledby="creature-panel-title">
           <h2 id="creature-panel-title" class="panel-title">Theoretical creatures</h2>
           <ul id="creature-list" class="creature-list"></ul>
-          <p class="layer-note">Count = papers that took a stance on the hypothesis (▲ for · ▼ against).</p>
+          <p class="layer-note">Count = ingested papers with an opinion on the creature (▲ for · ▼ against).</p>
         </section>
         <section class="panel">
           <h2 class="panel-title">Legend</h2>
@@ -461,7 +461,7 @@ function renderCreatures() {
     button.type = 'button'
     button.className = 'creature-item'
     button.setAttribute('aria-pressed', String(creature.id === selectedCreature))
-    button.setAttribute('aria-label', `${creature.name}, ${life.state ? LIFE_LABELS[life.state] : 'not yet proposed'}, ${life.events.length} pieces of evidence: ${life.support} for, ${life.opposition} against`)
+    button.setAttribute('aria-label', `${creature.name}, ${life.state ? LIFE_LABELS[life.state] : 'not yet proposed'}, ${life.papers.length} pieces of evidence: ${life.support} for, ${life.opposition} against`)
 
     const dot = document.createElement('span')
     dot.className = `state-dot state-${life.state ?? 'unborn'}`
@@ -477,7 +477,7 @@ function renderCreatures() {
     names.append(name, scientific)
     const count = document.createElement('span')
     count.className = 'creature-count'
-    count.innerHTML = `<strong>${life.events.length}</strong><span class="creature-split">▲${life.support} ▼${life.opposition}</span>`
+    count.innerHTML = `<strong>${life.papers.length}</strong><span class="creature-split">▲${life.support} ▼${life.opposition}</span>`
     button.append(dot, names, count)
     button.addEventListener('click', () => selectCreature(creature.id))
     item.append(button)
@@ -486,7 +486,8 @@ function renderCreatures() {
 }
 
 const LIFE_STATES: LifeState[] = ['alive', 'contested', 'confirmed', 'dead']
-const STANCE_ORDER: Stance[] = ['proposes', 'supports', 'confirms', 'revives', 'revises', 'challenges', 'refutes']
+const STANCE_ORDER: Stance[] = ['proposes', 'supports', 'confirms', 'revives', 'challenges', 'refutes']
+const SIDES: Side[] = ['for', 'against', 'neutral']
 
 function renderLifeLegend() {
   const states = $<HTMLUListElement>('#life-state-legend')
@@ -503,6 +504,29 @@ function renderLifeLegend() {
     item.append(STANCE_INFO[stance].label)
     stances.append(item)
   }
+  for (const side of SIDES) {
+    const item = document.createElement('li')
+    item.innerHTML = tickSample(side)
+    item.append(`Other paper ${SIDE_LABELS[side].toLowerCase()}`)
+    stances.append(item)
+  }
+}
+
+function sourceLine(publication: PublicationSummary): HTMLParagraphElement {
+  const source = document.createElement('p')
+  source.className = 'muted life-history-source'
+  const { authors, title, journal, doi, url } = publication
+  source.append(`${authors.join(', ')}. ${title}.${journal ? ` ${journal}.` : ''} `)
+  const href = url ?? (doi ? `https://doi.org/${doi}` : null)
+  if (href) {
+    const link = document.createElement('a')
+    link.href = href
+    link.target = '_blank'
+    link.rel = 'noopener noreferrer'
+    link.textContent = doi ? `doi:${doi}` : 'Source'
+    source.append(link)
+  }
+  return source
 }
 
 function showCreatureDetail(creature: TheoreticalCreature) {
@@ -515,20 +539,22 @@ function showCreatureDetail(creature: TheoreticalCreature) {
 
   const meta = document.createElement('p')
   meta.className = 'detail-meta'
-  meta.textContent = [creature.scientific_name, life.state && LIFE_LABELS[life.state], `${creature.events.length} papers`].filter(Boolean).join(' · ')
+  meta.textContent = [creature.scientific_name, life.state && LIFE_LABELS[life.state], `${creature.papers.length} ingested papers`].filter(Boolean).join(' · ')
 
+  const neutral = creature.papers.length - life.support - life.opposition
   const grid = factGrid([
     ['Hypothesis', creature.hypothesis],
-    ['Born', life.born ? `${life.born} (${citation(creature.events[0])})` : 'Not recorded'],
+    ['Names tracked', creature.taxa.join(', ')],
+    ['Born', life.born ? `${life.born} (${citation(creature.key_events[0].publication)})` : 'Not recorded'],
     ['Status', life.state ? `${LIFE_LABELS[life.state]}${life.died ? ` since ${life.died}` : ''}` : 'Not recorded'],
-    ['Evidence', `${life.support} for · ${life.opposition} against · ${creature.events.length - life.support - life.opposition} neutral`],
+    ['Evidence', `${life.support} for · ${life.opposition} against · ${neutral} neutral`],
   ])
 
   const historyHeading = document.createElement('h3')
   historyHeading.textContent = 'Life of the hypothesis'
   const history = document.createElement('ol')
   history.className = 'life-history'
-  for (const event of creature.events) {
+  for (const event of creature.key_events) {
     const item = document.createElement('li')
     const head = document.createElement('div')
     head.className = 'life-history-head'
@@ -540,26 +566,42 @@ function showCreatureDetail(creature: TheoreticalCreature) {
     stance.innerHTML = markerSample(event.stance)
     stance.append(STANCE_INFO[event.stance].label)
     head.append(year, stance)
-
     const summary = document.createElement('p')
-    summary.textContent = event.summary
-    const source = document.createElement('p')
-    source.className = 'muted life-history-source'
-    const { authors, title: paperTitle, journal, doi, url } = event.publication
-    source.append(`${authors.join(', ')}. ${paperTitle}.${journal ? ` ${journal}.` : ''} `)
-    const href = url ?? (doi ? `https://doi.org/${doi}` : null)
-    if (href) {
-      const link = document.createElement('a')
-      link.href = href
-      link.target = '_blank'
-      link.rel = 'noopener noreferrer'
-      link.textContent = doi ? `doi:${doi}` : 'Source'
-      source.append(link)
-    }
-    item.append(head, summary, source)
+    summary.textContent = event.opinion.summary
+    item.append(head, summary, sourceLine(event.publication))
     history.append(item)
   }
-  detail.append(title, meta, grid, historyHeading, history)
+
+  // Every ingested paper behind the count, not just the turning points.
+  const all = document.createElement('details')
+  all.className = 'all-papers'
+  const allSummary = document.createElement('summary')
+  allSummary.textContent = `All ${creature.papers.length} ingested papers`
+  const list = document.createElement('ol')
+  list.className = 'paper-list'
+  for (const paper of creature.papers) {
+    const item = document.createElement('li')
+    const head = document.createElement('div')
+    head.className = 'life-history-head'
+    const year = document.createElement('span')
+    year.className = 'life-history-year'
+    year.textContent = String(paper.publication.year)
+    const side = document.createElement('span')
+    side.className = `stance-chip side-${paper.side}`
+    side.innerHTML = tickSample(paper.side)
+    side.append(SIDE_LABELS[paper.side])
+    head.append(year, side)
+    item.append(head)
+    for (const opinion of paper.opinions) {
+      const line = document.createElement('p')
+      line.textContent = opinion.summary
+      item.append(line)
+    }
+    item.append(sourceLine(paper.publication))
+    list.append(item)
+  }
+  all.append(allSummary, list)
+  detail.append(title, meta, grid, historyHeading, history, all)
 }
 
 // ------------------------------------------------------------------ legends
@@ -887,7 +929,7 @@ async function load() {
     const years = records.map(record => record.representative_report.publication.year)
     yearSlider.min = String(Math.min(...years))
     // Creature papers can be newer than any fossil report; the slider must reach them.
-    const creatureYears = creatures.flatMap(creature => creature.events.map(event => event.publication.year))
+    const creatureYears = creatures.flatMap(creature => creature.papers.map(paper => paper.publication.year))
     yearSlider.max = String(Math.max(...years, ...creatureYears))
     yearSlider.value = yearSlider.max
 

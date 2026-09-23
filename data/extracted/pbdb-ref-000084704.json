@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:84704",
+    "doi": "10.1093/zoolinnean/zlaa179",
+    "title": "Ontogeny and variation of the pachycephalosaurine dinosaur Sphaerotholus buchholtzae, and its systematics within the genus",
+    "year": 2021,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1093/zoolinnean/zlaa179",
+    "authors": [
+      "D. C. Woodruff",
+      "M. B. Goodwin",
+      "T. R. Lyson, D. C. Evans"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:923103",
+      "taxon": "Stygimoloch spinifer",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stygimoloch",
+      "basis": "stated without evidence",
+      "summary": "Stygimoloch spinifer belongs to Stygimoloch.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:923114",
+      "taxon": "Stygimoloch",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurini",
+      "basis": "stated without evidence",
+      "summary": "Stygimoloch belongs to Pachycephalosaurini.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31577",
+    "doi": "10.1671/039.029.0329",
+    "title": "The anatomy and systematics of Colepiocephale lambei (Dinosauria: Pachycephalosauridae)",
+    "year": 2009,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/039.029.0329",
+    "authors": [
+      "R. K. Schott",
+      "D. C. Evans",
+      "T. E. Williamson, T. D. Carr, M. B. Goodwin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:294547",
+      "taxon": "Stygimoloch spinifer",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stygimoloch",
+      "basis": "stated without evidence",
+      "summary": "Stygimoloch spinifer belongs to Stygimoloch.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:294555",
+      "taxon": "Stygimoloch",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauridae",
+      "basis": "stated with evidence",
+      "summary": "Stygimoloch belongs to Pachycephalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24837",
+    "doi": null,
+    "title": "Dinosaurs, with Special Reference to the American Museum Collections.  American Museum of Natural History, New York",
+    "year": 1915,
+    "journal": null,
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=24837",
+    "authors": [
+      "W. D. Matthew"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:184552",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

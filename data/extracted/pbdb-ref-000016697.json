@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16697",
+    "doi": "10.1127/njgpa/210/1998/41",
+    "title": "A rationale for phylogenetic definitions, with application to the higher-level taxonomy of Dinosauria",
+    "year": 1998,
+    "journal": "Neues Jahrbuch für Geologie und Paläontologie, Abhandlungen",
+    "url": "https://doi.org/10.1127/njgpa/210/1998/41",
+    "authors": [
+      "P. C. Sereno"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:112588",
+      "taxon": "Nanotyrannus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauroidea",
+      "basis": "stated with evidence",
+      "summary": "Nanotyrannus belongs to Tyrannosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

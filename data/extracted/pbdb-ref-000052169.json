@@ -1,0 +1,78 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:52169",
+    "doi": null,
+    "title": "Nadotryad Dinosauria. Dinozavry [Superorder Dinosauria. Dinosaurs]",
+    "year": 1964,
+    "journal": "Osnovy Paleontologii [Fundamentals of Paleontology]",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52169",
+    "authors": [
+      "L. P. Tatarinov"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:532498",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Teratosauridae",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus belongs to Teratosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:532561",
+      "taxon": "Clasmodosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Genyodectes",
+      "basis": "stated with evidence",
+      "summary": "Clasmodosaurus is a subjective synonym of Genyodectes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:532639",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:532897",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsinae",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus belongs to Ceratopsinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:532898",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:532951",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

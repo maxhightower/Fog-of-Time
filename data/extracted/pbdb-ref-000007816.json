@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7816",
+    "doi": "10.2475/ajs.s3-21.125.417",
+    "title": "Principal characters of American Jurassic dinosaurs. Part V",
+    "year": 1881,
+    "journal": "The American Journal of Science and Arts, series 3",
+    "url": "https://doi.org/10.2475/ajs.s3-21.125.417",
+    "authors": [
+      "O. C. Marsh"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:74337",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Atlantosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus belongs to Atlantosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

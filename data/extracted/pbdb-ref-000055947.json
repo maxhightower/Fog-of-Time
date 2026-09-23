@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55947",
+    "doi": "10.2475/ajs.244.11.792",
+    "title": "Relative growth in a phylogenetic series and in an ontogenetic series of one of its members",
+    "year": 1946,
+    "journal": "The American Journal of Science",
+    "url": "https://doi.org/10.2475/ajs.244.11.792",
+    "authors": [
+      "S. W. Gray"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:580319",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

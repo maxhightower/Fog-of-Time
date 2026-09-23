@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63755",
+    "doi": null,
+    "title": "First day road log from Grand Junction to Moab via Riggs and Dinosaur hills, Fruita Paleontological Area, Rabbit Valley Research Natural Area, and Utah Highway 128",
+    "year": 1991,
+    "journal": "Guidebook for Dinosaur Quarries and Tracksites Tour, Western Colorado and Eastern Utah",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63755",
+    "authors": [
+      "C. S. Goodknight",
+      "W. L. Chenoweth",
+      "W. A. Girdley"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:665893",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

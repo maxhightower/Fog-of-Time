@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:68923",
+    "doi": null,
+    "title": "Empreintes de Pas de Vertébrés du Trias de la Bordure Nord-Est du Massif Central (Vertebrate Footprints from the Triassic of the Northeast Border of the Massif Central]",
+    "year": 1970,
+    "journal": "Cahiers de Paléontologie",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=68923",
+    "authors": [
+      "G. R. Demathieu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:722712",
+      "taxon": "Gresslyosaurus robustus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus robustus belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

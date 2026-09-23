@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:3553",
+    "doi": "10.1130/abs/2016am-285667",
+    "title": "Natural Trap Cave",
+    "year": 1993,
+    "journal": "National Geographic Research & Exploration",
+    "url": "https://doi.org/10.1130/abs/2016am-285667",
+    "authors": [
+      "X. Wang",
+      "L. D. Martin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:293199",
+      "taxon": "Miracinonyx trumani",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Miracinonyx",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx trumani belongs to Miracinonyx.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

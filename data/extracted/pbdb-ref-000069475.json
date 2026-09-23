@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:69475",
+    "doi": "10.5962/bhl.title.160212",
+    "title": "Amphibia and Reptiles",
+    "year": 1901,
+    "journal": "MacMillan and Co.",
+    "url": "https://doi.org/10.5962/bhl.title.160212",
+    "authors": [
+      "H. Gadow"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:730059",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:730062",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated with evidence",
+      "summary": "Brontosaurus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:10632",
+    "doi": "10.1126/science.284.5423.2137",
+    "title": "The evolution of dinosaurs",
+    "year": 1999,
+    "journal": "Science",
+    "url": "https://doi.org/10.1126/science.284.5423.2137",
+    "authors": [
+      "P. C. Sereno"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:112345",
+      "taxon": "Stygimoloch",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Stygimoloch belongs to Pachycephalosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

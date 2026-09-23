@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63666",
+    "doi": null,
+    "title": "The brontosaur. How a giant prehistoric animal was discovered, transported and restored",
+    "year": 1905,
+    "journal": "Scientific American",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63666",
+    "authors": [
+      "Anonymous"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:664748",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

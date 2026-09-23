@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55910",
+    "doi": null,
+    "title": "Les Iguanodons de Bernissart [The Iguanodons of Bernissart]",
+    "year": 1885,
+    "journal": "Revue des Questions Scientifiques",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55910",
+    "authors": [
+      "L. Dollo"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:580114",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63049",
+    "doi": "10.1016/s0140-6736(00)65338-2",
+    "title": "Some of Wyoming’s Vertebrate Fossils",
+    "year": 1899,
+    "journal": "Passenger Department, Union Pacific Railroad Co.",
+    "url": "https://doi.org/10.1016/s0140-6736(00)65338-2",
+    "authors": [
+      "W. C. Knight"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:655580",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

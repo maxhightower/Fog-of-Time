@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:1179",
+    "doi": "10.1017/s0022336000038439",
+    "title": "Hemphillian and Blancan felids from central Mexico",
+    "year": 1996,
+    "journal": "Journal of Paleontology",
+    "url": "https://doi.org/10.1017/s0022336000038439",
+    "authors": [
+      "O. Carranza-Castaneda",
+      "W. E. Miller"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:53764",
+      "taxon": "Miracinonyx studeri",
+      "published_as": "Felis studeri",
+      "status": "belongs_to",
+      "related_taxon": "Felis",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx studeri (as Felis studeri) belongs to Felis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14211",
+    "doi": null,
+    "title": "Upper Jurassic sauropod babies from the Morrison Formation",
+    "year": 1994,
+    "journal": "Dinosaur Eggs and Babies",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14211",
+    "authors": [
+      "K. Carpenter",
+      "J. McIntosh"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:98775",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Apatosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

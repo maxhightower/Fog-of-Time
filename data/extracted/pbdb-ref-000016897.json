@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16897",
+    "doi": null,
+    "title": "Bemerkungen zu einem fremdartigen neuen Ceratopsiden [Remarks on an unusual new ceratopsid]",
+    "year": 1950,
+    "journal": "Neues Jahrbuch für Geologie und Paläontologie Monatshefte",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16897",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:114540",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsinae",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus belongs to Ceratopsinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

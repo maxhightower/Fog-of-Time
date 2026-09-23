@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18501",
+    "doi": null,
+    "title": "Beiträge zur Kenntnis einiger Saurischier der schwäbischen Trias [Contributions to the knowledge of some saurischians from the Swabian Trias]",
+    "year": 1915,
+    "journal": "Neues Jahrbuch für Mineralogie, Geologie und Paläontologie",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18501",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:143207",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

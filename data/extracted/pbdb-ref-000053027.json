@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53027",
+    "doi": null,
+    "title": "Gestalt und Grösse von Brachiosaurus und anderen riesenwüchsigen Sauropoden [Form and size of Brachiosurus and other giant-growing sauropods]",
+    "year": 1938,
+    "journal": "Der Biologe",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53027",
+    "authors": [
+      "W. Janensch"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:543723",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7906",
+    "doi": "10.1163/002829676x00190",
+    "title": "Fossil puma (Mammalia: Felidae) in North America",
+    "year": 1976,
+    "journal": "Netherlands Journal of Zoology",
+    "url": "https://doi.org/10.1163/002829676x00190",
+    "authors": [
+      "B. Kurtén"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:74548",
+      "taxon": "Miracinonyx inexpectatus",
+      "published_as": "Felis inexpectata",
+      "status": "belongs_to",
+      "related_taxon": "Felis",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx inexpectatus (as Felis inexpectata) belongs to Felis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

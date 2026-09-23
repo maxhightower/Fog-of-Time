@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13712",
+    "doi": null,
+    "title": "Revision of South American titanosaurid dinosaurs: palaeobiological, palaeobiogeographical and phylogenetic aspects",
+    "year": 2003,
+    "journal": "Records of the Queen Victoria Museum Launceston",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13712",
+    "authors": [
+      "J. E. Powell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:95819",
+      "taxon": "Clasmodosaurus",
+      "published_as": null,
+      "status": "nomen_dubium",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus is a nomen dubium (filed under Titanosauridae).",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:95821",
+      "taxon": "Clasmodosaurus spatula",
+      "published_as": null,
+      "status": "nomen_dubium",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus spatula is a nomen dubium (filed under Titanosauridae).",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

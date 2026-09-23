@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:81469",
+    "doi": null,
+    "title": "Geology of Dinosaur National Monument and vicinity, Utah-Colorado",
+    "year": 1954,
+    "journal": "Utah Geological and Mineralogical Survey Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=81469",
+    "authors": [
+      "G. E. Untermann",
+      "B. R. Untermann"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:880411",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Apatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

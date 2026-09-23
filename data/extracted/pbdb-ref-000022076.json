@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:22076",
+    "doi": null,
+    "title": "Epochen der Natur [Epochs of Nature]",
+    "year": 1861,
+    "journal": "H. Laupp’schen Buchhandlung",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=22076",
+    "authors": [
+      "F. A. Quenstedt"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:729048",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

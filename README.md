@@ -34,7 +34,7 @@ See [docs/DATA_MODEL.md](docs/DATA_MODEL.md).
 ```text
 data/
   extracted/           reviewable paper extraction records
-  theoretical/         hypothesised creatures and the papers that argue over them
+  theoretical/         hypothesised creatures, built from ingested papers' opinions
   schema/              extraction contract
 
 db/
@@ -91,11 +91,13 @@ The committed production dataset now combines a 25-paper direct-full-text benchm
 
 Below the fossil timeline, **Theoretical creatures** tracks animals that started life as
 hypotheses, such as the American cheetah (*Miracinonyx*), Nanotyrannus, Brontosaurus and
-"Toroceratops". Each row is a lifeline across publication years: born when a paper
-proposes the animal, contested, killed by a refutation, and sometimes revived. The
-"Known by" slider replays these lives too. A side panel lists every creature with its
-current status and number of papers (for ▲ / against ▼); click one for its full cited
-history. See [docs/DATA_MODEL.md](docs/DATA_MODEL.md#theoretical-creatures) to add one.
+"Toroceratops". Every creature is built from ingested papers, specifically the
+taxonomic opinions they hold. Each row is a lifeline across publication years: born when a paper
+proposes the animal, contested, killed by a refutation, and sometimes revived, with a
+small tick for every other ingested paper that argued the point. The "Known by" slider
+replays these lives too. A side panel lists every creature with its status and number
+of ingested papers (for ▲ / against ▼); click one for its full cited history. See
+[docs/DATA_MODEL.md](docs/DATA_MODEL.md#theoretical-creatures) to add one.
 
 ## Rebuild data
 

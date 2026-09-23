@@ -1,0 +1,22 @@
+{
+  "schema_version": "fog-of-time.theoretical-creature/v2",
+  "id": "gresslyosaurus",
+  "name": "Gresslyosaurus",
+  "scientific_name": "Gresslyosaurus ingens",
+  "hypothesis": "Gresslyosaurus is a distinct Triassic sauropodomorph, not Plateosaurus or an undiagnosable name.",
+  "taxa": ["Gresslyosaurus", "Gresslyosaurus ingens", "Gresslyosaurus robustus"],
+  "rules": {
+    "for": [
+      { "status": ["belongs_to", "identified_as"] }
+    ],
+    "against": [
+      { "status": ["subjective_synonym_of", "objective_synonym_of", "nomen_dubium", "nomen_nudum", "nomen_vanum"] },
+      { "status": ["belongs_to"], "related": ["Plateosaurus", "Zanclodon"] }
+    ]
+  },
+  "key_events": [
+    { "publication_id": "pbdb-ref:34081", "stance": "proposes" },
+    { "publication_id": "pbdb-ref:12624", "stance": "refutes" },
+    { "publication_id": "pbdb-ref:72985", "stance": "revives" }
+  ]
+}

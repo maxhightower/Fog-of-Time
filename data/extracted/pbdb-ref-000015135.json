@@ -1,0 +1,49 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:15135",
+    "doi": "10.1525/california/9780520242098.003.0014",
+    "title": "Prosauropoda",
+    "year": 2004,
+    "journal": "The Dinosauria (second edition). University of California Press, Berkeley",
+    "url": "https://doi.org/10.1525/california/9780520242098.003.0014",
+    "authors": [
+      "P. M. Galton",
+      "P. Upchurch"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:104944",
+      "taxon": "Gresslyosaurus robustus",
+      "published_as": null,
+      "status": "nomen_dubium",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus robustus is a nomen dubium (filed under Gresslyosaurus).",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:104945",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "nomen_dubium",
+      "related_taxon": "Prosauropoda",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus ingens is a nomen dubium (filed under Prosauropoda).",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:104946",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "nomen_dubium",
+      "related_taxon": "Prosauropoda",
+      "basis": "stated with evidence",
+      "summary": "Gresslyosaurus is a nomen dubium (filed under Prosauropoda).",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

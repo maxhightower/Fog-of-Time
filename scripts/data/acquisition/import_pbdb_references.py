@@ -505,9 +505,12 @@ def main() -> int:
     # Append is the safe default: existing direct and PBDB publications are
     # already included in the DOI/title exclusion sets above. Replacement is
     # opt-in for deliberately regenerating an entire PBDB snapshot.
+    # Records carrying taxonomic opinions (import_pbdb_opinions.py) back the
+    # theoretical creatures and are kept.
     if args.replace_existing_pbdb:
         for path in EXTRACTED.glob(PBDB_FILES_GLOB):
-            path.unlink()
+            if not json.loads(path.read_text(encoding="utf-8")).get("opinions"):
+                path.unlink()
 
     imported: list[dict[str, Any]] = []
     total_occurrences = 0

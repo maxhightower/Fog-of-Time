@@ -1,0 +1,22 @@
+{
+  "schema_version": "fog-of-time.theoretical-creature/v2",
+  "id": "stygimoloch",
+  "name": "Stygimoloch",
+  "scientific_name": "Stygimoloch spinifer",
+  "hypothesis": "Stygimoloch is its own pachycephalosaur, not a growth stage of Pachycephalosaurus.",
+  "taxa": ["Stygimoloch", "Stygimoloch spinifer"],
+  "rules": {
+    "for": [
+      { "status": ["belongs_to", "identified_as"] }
+    ],
+    "against": [
+      { "status": ["subjective_synonym_of", "objective_synonym_of"], "related": ["Pachycephalosaurus"] }
+    ]
+  },
+  "key_events": [
+    { "publication_id": "pbdb-ref:12772", "stance": "proposes" },
+    { "publication_id": "pbdb-ref:29828", "stance": "refutes" },
+    { "publication_id": "pbdb-ref:32791", "stance": "revives" },
+    { "publication_id": "pbdb-ref:60215", "stance": "refutes" }
+  ]
+}

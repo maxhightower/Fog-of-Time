@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25608",
+    "doi": "10.1127/njgpa/216/2000/233",
+    "title": "The prosauropod dinosaur Plateosaurus MEYER, 1837 (Saurischia, Sauropodomorpha).  I.  The syntypes of P. engelhardti MEYER, 1837 (Upper Triassic, Germany), with notes on other European prosauropods with \"distally straight\" femora",
+    "year": 2000,
+    "journal": "Neues Jahrbuch für Geologie und Paläontologie Abhandlungen",
+    "url": "https://doi.org/10.1127/njgpa/216/2000/233",
+    "authors": [
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:195556",
+      "taxon": "Gresslyosaurus robustus",
+      "published_as": "Plateosaurus robustus",
+      "status": "nomen_dubium",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus robustus (as Plateosaurus robustus) is a nomen dubium (filed under Plateosaurus).",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

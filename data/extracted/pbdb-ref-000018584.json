@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18584",
+    "doi": null,
+    "title": "Das angebliche Vorkommen und Wandern des Parietalforamens bei Dinosauriern [The alleged occurrence and movement of the parietal foramen in dinosaurs]",
+    "year": 1920,
+    "journal": "Sitzungsberichte der Gesellschaft Naturforschender Freunde zu Berlin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18584",
+    "authors": [
+      "J. F. Pompeckj"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:143943",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:34901",
+    "doi": "10.1371/journal.pone.0016196",
+    "title": "Anatomy and taxonomic status of the chasmosaurine ceratopsid Nedoceratops hatcheri from the Upper Cretaceous Lance Formation of Wyoming, U.S.A.",
+    "year": 2011,
+    "journal": "PLoS One",
+    "url": "https://doi.org/10.1371/journal.pone.0016196",
+    "authors": [
+      "A. A. Farke"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:405457",
+      "taxon": "Torosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chasmosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Torosaurus belongs to Chasmosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:405462",
+      "taxon": "Torosaurus latus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

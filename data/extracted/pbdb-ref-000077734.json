@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:77734",
+    "doi": "10.17704/eshi.9.1.59584t2t2gl6r04t",
+    "title": "Biography of William Harlow Reed: the story of a frontier fossil collector",
+    "year": 1990,
+    "journal": "Earth Sciences History",
+    "url": "https://doi.org/10.17704/eshi.9.1.59584t2t2gl6r04t",
+    "authors": [
+      "B. H. Breithaupt"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:846267",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

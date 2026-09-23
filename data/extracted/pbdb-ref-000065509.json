@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65509",
+    "doi": null,
+    "title": "Neue Dinosaurier aus Kanada [New dinosaurs from Canada]",
+    "year": 1930,
+    "journal": "Aus der Heimat",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=65509",
+    "authors": [
+      "T. Arldt"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:683025",
+      "taxon": "Torosaurus latus",
+      "published_as": "Torosaurus elatus",
+      "status": "belongs_to",
+      "related_taxon": "Torosaurus",
+      "basis": "stated without evidence",
+      "summary": "Torosaurus latus (as Torosaurus elatus) belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

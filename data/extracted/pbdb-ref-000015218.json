@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:15218",
+    "doi": "10.1111/j.1096-3642.2004.00130.x",
+    "title": "Diversity of late Maastrichtian Tyrannosauridae (Dinosauria: Theropoda) from western North America",
+    "year": 2004,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1111/j.1096-3642.2004.00130.x",
+    "authors": [
+      "T. D. Carr",
+      "T. E. Williamson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:104506",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Tyrannosaurus rex",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus lancensis is a subjective synonym of Tyrannosaurus rex.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

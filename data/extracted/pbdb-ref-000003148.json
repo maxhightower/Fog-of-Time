@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:3148",
+    "doi": null,
+    "title": "Large Pleistocene felines of North America",
+    "year": 1941,
+    "journal": "American Museum Novitates",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=3148",
+    "authors": [
+      "G. G. Simpson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:49790",
+      "taxon": "Miracinonyx inexpectatus",
+      "published_as": "Felis inexpectata",
+      "status": "belongs_to",
+      "related_taxon": "Felis",
+      "basis": "stated without evidence",
+      "summary": "Miracinonyx inexpectatus (as Felis inexpectata) belongs to Felis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

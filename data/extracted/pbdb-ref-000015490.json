@@ -1,0 +1,98 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:15490",
+    "doi": null,
+    "title": "Part 14. Saurischia",
+    "year": 1970,
+    "journal": "Handbuch der Paläoherpetologie/Encyclopedia of Paleoherpetology. Gustav Fischer Verlag, Stuttgart",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=15490",
+    "authors": [
+      "R. Steel"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:133139",
+      "taxon": "Clasmodosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Genyodectes",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus is a subjective synonym of Genyodectes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:133141",
+      "taxon": "Clasmodosaurus spatula",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Genyodectes serus",
+      "basis": "stated without evidence",
+      "summary": "Clasmodosaurus spatula is a subjective synonym of Genyodectes serus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:133145",
+      "taxon": "Nanotyrannus lancensis",
+      "published_as": "Gorgosaurus lancensis",
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Nanotyrannus lancensis (as Gorgosaurus lancensis) belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:133985",
+      "taxon": "Gresslyosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:133990",
+      "taxon": "Gresslyosaurus ingens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gresslyosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:134021",
+      "taxon": "Gresslyosaurus robustus",
+      "published_as": "Plateosaurus robustus",
+      "status": "belongs_to",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gresslyosaurus robustus (as Plateosaurus robustus) belongs to Plateosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:138864",
+      "taxon": "Brontosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Atlantosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus is a subjective synonym of Atlantosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:138870",
+      "taxon": "Brontosaurus excelsus",
+      "published_as": "Atlantosaurus excelsus",
+      "status": "belongs_to",
+      "related_taxon": "Atlantosaurus",
+      "basis": "stated without evidence",
+      "summary": "Brontosaurus excelsus (as Atlantosaurus excelsus) belongs to Atlantosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}
