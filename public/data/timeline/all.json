@@ -1,5 +1,382 @@
 [
   {
+    "physical_key": "specimen:nmw:2015.5g.1-2015.5g.11",
+    "evidence_type": "body_fossil",
+    "taxon": "Dracoraptor hanigani",
+    "taxon_rank": "species",
+    "specimen_label": "NMW 2015.5G.1–2015.5G.11",
+    "material": [
+      "cervical ribs",
+      "cervical vertebrae",
+      "distal forelimb",
+      "femur",
+      "fragmentary tibia",
+      "ischium",
+      "lower jaws",
+      "partial skull",
+      "posterior vertebral column",
+      "proximal fibula",
+      "pubis",
+      "teeth",
+      "thoracic ribs"
+    ],
+    "locality": {
+      "name": "Lavernock Point",
+      "country": "United Kingdom",
+      "region": "South Wales"
+    },
+    "formation": "Blue Lias Formation",
+    "age": {
+      "min_ma": 201.1,
+      "max_ma": 201.5,
+      "best_ma": 201.3,
+      "precision": "derived_interval",
+      "method": "biostratigraphic_and_isotope_correlation",
+      "basis": "The paper assigns the specimen to the Early Hettangian and reports an age of 201.3 ± 0.2 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0145713:nmw-2015.5g",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0145713",
+        "doi": "10.1371/journal.pone.0145713",
+        "title": "The Oldest Jurassic Dinosaur: A Basal Neotheropod from the Hettangian of Great Britain",
+        "year": 2016,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0145713",
+        "authors": [
+          "David M. Martill",
+          "Steven U. Vidovic",
+          "Cindy Howells",
+          "John R. Nudds"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "The associated partial skeleton is designated the holotype of Dracoraptor hanigani.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "stratigraphic_context",
+          "summary": "Lithological comparisons place the specimen in bed 7 or bed 9 of the Bull Cliff Member near the base of the Blue Lias Formation.",
+          "page": null,
+          "figure": "4",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:pvsj:559",
+    "evidence_type": "body_fossil",
+    "taxon": "Eoraptor lunensis",
+    "taxon_rank": "species",
+    "specimen_label": "PVSJ 559",
+    "material": [
+      "right femur"
+    ],
+    "locality": {
+      "name": "HEH biozone, Ischigualasto Formation",
+      "country": "Argentina",
+      "region": "San Juan Province"
+    },
+    "formation": "Ischigualasto Formation",
+    "age": {
+      "min_ma": 228.9,
+      "max_ma": 230.8,
+      "best_ma": null,
+      "precision": "explicit_range",
+      "method": "radiometrically_constrained_biozone",
+      "basis": "The paper states that all sampled HEH-biozone vertebrates were deposited between 230.8 and 228.9 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0298242:pvsj-559",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0298242",
+        "doi": "10.1371/journal.pone.0298242",
+        "title": "Osteohistological insight into the growth dynamics of early dinosaurs and their contemporaries",
+        "year": 2024,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298242",
+        "authors": [
+          "Kristina Curry Rogers",
+          "Ricardo N. Martínez",
+          "Carina Colombi",
+          "Raymond R. Rogers",
+          "Oscar Alcober"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_observation",
+          "summary": "The referred right femur records multiple transitions in bone deposition and extensive deep-cortical remodeling.",
+          "page": null,
+          "figure": "18",
+          "table": "1"
+        },
+        {
+          "type": "ontogenetic_interpretation",
+          "summary": "The femur lacks LAGs and a peripheral external fundamental system, with outer-cortex changes suggesting growth-rate attenuation.",
+          "page": null,
+          "figure": "18",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:pvsj:561",
+    "evidence_type": "body_fossil",
+    "taxon": "Eodromaeus murphi",
+    "taxon_rank": "species",
+    "specimen_label": "PVSJ 561",
+    "material": [
+      "right femur"
+    ],
+    "locality": {
+      "name": "HEH biozone, Ischigualasto Formation",
+      "country": "Argentina",
+      "region": "San Juan Province"
+    },
+    "formation": "Ischigualasto Formation",
+    "age": {
+      "min_ma": 228.9,
+      "max_ma": 230.8,
+      "best_ma": null,
+      "precision": "explicit_range",
+      "method": "radiometrically_constrained_biozone",
+      "basis": "The paper states that all sampled HEH-biozone vertebrates were deposited between 230.8 and 228.9 Ma; this specimen is from the base of the Valle de la Luna Member."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0298242:pvsj-561",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0298242",
+        "doi": "10.1371/journal.pone.0298242",
+        "title": "Osteohistological insight into the growth dynamics of early dinosaurs and their contemporaries",
+        "year": 2024,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298242",
+        "authors": [
+          "Kristina Curry Rogers",
+          "Ricardo N. Martínez",
+          "Carina Colombi",
+          "Raymond R. Rogers",
+          "Oscar Alcober"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_observation",
+          "summary": "The sampled right femur preserves a densely vascularized fibrolamellar cortex without observed LAGs or annuli.",
+          "page": null,
+          "figure": "17",
+          "table": "1"
+        },
+        {
+          "type": "ontogenetic_interpretation",
+          "summary": "The femur lacks an external fundamental system and records ongoing growth at death.",
+          "page": null,
+          "figure": "17",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:pvsj:605",
+    "evidence_type": "body_fossil",
+    "taxon": "Sanjuansaurus gordilloi",
+    "taxon_rank": "species",
+    "specimen_label": "PVSJ 605",
+    "material": [
+      "right femur"
+    ],
+    "locality": {
+      "name": "HEH biozone, Ischigualasto Formation",
+      "country": "Argentina",
+      "region": "San Juan Province"
+    },
+    "formation": "Ischigualasto Formation",
+    "age": {
+      "min_ma": 228.9,
+      "max_ma": 230.8,
+      "best_ma": null,
+      "precision": "explicit_range",
+      "method": "radiometrically_constrained_biozone",
+      "basis": "The paper states that all sampled HEH-biozone vertebrates were deposited between 230.8 and 228.9 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0298242:pvsj-605",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0298242",
+        "doi": "10.1371/journal.pone.0298242",
+        "title": "Osteohistological insight into the growth dynamics of early dinosaurs and their contemporaries",
+        "year": 2024,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298242",
+        "authors": [
+          "Kristina Curry Rogers",
+          "Ricardo N. Martínez",
+          "Carina Colombi",
+          "Raymond R. Rogers",
+          "Oscar Alcober"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_observation",
+          "summary": "The holotype right femur is dominated by highly vascularized primary fibrolamellar bone and lacks observed LAGs or annuli where preservation permits assessment.",
+          "page": null,
+          "figure": "15",
+          "table": "1"
+        },
+        {
+          "type": "ontogenetic_interpretation",
+          "summary": "No external fundamental system is observed, indicating growth had not fully ceased at death.",
+          "page": null,
+          "figure": "15",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:pvsj:614",
+    "evidence_type": "body_fossil",
+    "taxon": "Herrerasaurus ischigualastensis",
+    "taxon_rank": "species",
+    "specimen_label": "PVSJ 614",
+    "material": [
+      "left femur"
+    ],
+    "locality": {
+      "name": "HEH biozone, Ischigualasto Formation",
+      "country": "Argentina",
+      "region": "San Juan Province"
+    },
+    "formation": "Ischigualasto Formation",
+    "age": {
+      "min_ma": 228.9,
+      "max_ma": 230.8,
+      "best_ma": null,
+      "precision": "explicit_range",
+      "method": "radiometrically_constrained_biozone",
+      "basis": "The paper states that all sampled HEH-biozone vertebrates were deposited between 230.8 and 228.9 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0298242:pvsj-614",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0298242",
+        "doi": "10.1371/journal.pone.0298242",
+        "title": "Osteohistological insight into the growth dynamics of early dinosaurs and their contemporaries",
+        "year": 2024,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298242",
+        "authors": [
+          "Kristina Curry Rogers",
+          "Ricardo N. Martínez",
+          "Carina Colombi",
+          "Raymond R. Rogers",
+          "Oscar Alcober"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_observation",
+          "summary": "The sampled left femur preserves dense secondary remodeling in the deep cortex together with a highly vascularized primary fibrolamellar cortex.",
+          "page": null,
+          "figure": "16",
+          "table": "1"
+        },
+        {
+          "type": "ontogenetic_interpretation",
+          "summary": "No external fundamental system is observed; preserved periosteal regions indicate ongoing growth at death.",
+          "page": null,
+          "figure": "16",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:pvsj:845",
+    "evidence_type": "body_fossil",
+    "taxon": "Chromogisaurus novasi",
+    "taxon_rank": "species",
+    "specimen_label": "PVSJ 845",
+    "material": [
+      "partial right femur"
+    ],
+    "locality": {
+      "name": "HEH biozone, Ischigualasto Formation",
+      "country": "Argentina",
+      "region": "San Juan Province"
+    },
+    "formation": "Ischigualasto Formation",
+    "age": {
+      "min_ma": 228.9,
+      "max_ma": 230.8,
+      "best_ma": null,
+      "precision": "explicit_range",
+      "method": "radiometrically_constrained_biozone",
+      "basis": "The paper states that all sampled HEH-biozone vertebrates were deposited between 230.8 and 228.9 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0298242:pvsj-845",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0298242",
+        "doi": "10.1371/journal.pone.0298242",
+        "title": "Osteohistological insight into the growth dynamics of early dinosaurs and their contemporaries",
+        "year": 2024,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298242",
+        "authors": [
+          "Kristina Curry Rogers",
+          "Ricardo N. Martínez",
+          "Carina Colombi",
+          "Raymond R. Rogers",
+          "Oscar Alcober"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_observation",
+          "summary": "The holotypic partial right femur preserves at least four cycles of endosteal remodeling and continued fibrolamellar bone deposition.",
+          "page": null,
+          "figure": "19",
+          "table": "1"
+        },
+        {
+          "type": "ontogenetic_interpretation",
+          "summary": "No intracortical LAGs or peripheral external fundamental system are observed, indicating appositional growth continued at death.",
+          "page": null,
+          "figure": "19",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
     "physical_key": "specimen:pvsj:874",
     "evidence_type": "body_fossil",
     "taxon": "Panphagia protos",
@@ -69,6 +446,71 @@
         {
           "type": "stratigraphic_context",
           "summary": "The holotype occurs 40 m above the base of the Ischigualasto Formation, approximately at the level of the dated ash used for the reported age.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:umnh-vp:18040",
+    "evidence_type": "body_fossil",
+    "taxon": "Seitaad ruessi",
+    "taxon_rank": "species",
+    "specimen_label": "UMNH VP 18040",
+    "material": [
+      "dorsal ribs",
+      "dorsal vertebrae",
+      "gastral ribs",
+      "left forelimb",
+      "partial left hind limb",
+      "partial pelvis",
+      "partial right forelimb",
+      "pectoral girdles"
+    ],
+    "locality": {
+      "name": "Comb Ridge, UMNH VP Locality 191",
+      "country": "United States",
+      "region": "Utah"
+    },
+    "formation": "Navajo Sandstone",
+    "age": {
+      "min_ma": 174.7,
+      "max_ma": 192.9,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "stage_constraint_with_ics_conversion",
+      "basis": "The paper identifies the specimen as Lower Jurassic and states that the Navajo Sandstone is no earlier than Pliensbachian; the numeric interval spans the current Pliensbachian through Toarcian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0009789:umnh-vp-18040",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0009789",
+        "doi": "10.1371/journal.pone.0009789",
+        "title": "A New Basal Sauropodomorph Dinosaur from the Lower Jurassic Navajo Sandstone of Southern Utah",
+        "year": 2010,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009789",
+        "authors": [
+          "Joseph J. W. Sertich",
+          "Mark A. Loewen"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "UMNH VP 18040 is designated the holotype of Seitaad ruessi.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "taphonomic_observation",
+          "summary": "The articulated partial skeleton was preserved in a massive sandstone bed at the base of the Navajo Sandstone and is interpreted as having been buried in a local dune-collapse deposit.",
           "page": null,
           "figure": "1",
           "table": null
