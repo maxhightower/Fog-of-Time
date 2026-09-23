@@ -1,0 +1,42 @@
+name: validate
+
+on:
+  push:
+    branches:
+      - feature/fot0-foundation
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Build evidence database
+        run: python scripts/data/build_data.py
+
+      - name: Check SQLite integrity
+        run: |
+          python - <<'PY'
+          import sqlite3
+          con = sqlite3.connect("build/fog-of-time.sqlite")
+          assert con.execute("PRAGMA foreign_key_check").fetchall() == []
+          assert con.execute("SELECT COUNT(*) FROM publication").fetchone()[0] > 0
+          assert con.execute("SELECT COUNT(*) FROM physical_evidence").fetchone()[0] > 0
+          assert con.execute("SELECT COUNT(*) FROM publication_evidence").fetchone()[0] > 0
+          print("SQLite integrity OK")
+          PY
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: Install frontend dependencies
+        run: npm install
+
+      - name: Typecheck and build
+        run: npm run build
