@@ -118,6 +118,9 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
 .section-heading { display: flex; justify-content: space-between; gap: 20px; align-items: end; }
 .section-heading .muted { margin: 0; text-align: right; font-size: 0.86rem; max-width: 460px; }
 
+.axis-switch { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 16px; }
+.axis-switch .field-label { margin-right: 4px; }
+.presets[hidden] { display: none; }
 .range-controls { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 16px; margin: 16px 0 14px; }
 .presets, .range-inputs, .zoom-buttons { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 

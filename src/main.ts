@@ -1,6 +1,6 @@
 import './style.css'
 import type { DatasetManifest, TimelineEvidence } from './types'
-import { CATEGORIES, categoryOf, GROUP_LABEL_OPTIONS, GROUP_OPTIONS, groupRecords, RECORD_LABEL_OPTIONS, type ColorBy, type GroupBy, type GroupLabel, type RecordLabel } from './model'
+import { CATEGORIES, categoryOf, GROUP_LABEL_OPTIONS, GROUP_OPTIONS, groupRecords, RECORD_LABEL_OPTIONS, type ColorBy, type GroupBy, type GroupLabel, type RecordLabel, type TimeAxis } from './model'
 import { formatAge, formatMa, humanize, PRECISION_LABELS } from './format'
 import { PRESETS, TIMESCALE_OLDEST } from './timescale'
 import { Timeline, type Selection } from './timeline'
@@ -9,6 +9,9 @@ import { matchesName, nameSuggestions, searchWords } from './names'
 const DEFAULT_VIEW = { from: 500, to: 0 }
 const MAX_AGE = TIMESCALE_OLDEST
 const MIN_SPAN = 0.5
+const MIN_YEAR = 1800
+const MAX_YEAR = new Date().getFullYear() + 1
+const MIN_YEAR_SPAN = 1
 const MIN_APP_WIDTH = 960
 const MAX_APP_WIDTH = 2560
 const APP_WIDTH_STEP = 160
@@ -126,10 +129,16 @@ app.innerHTML = `
         <section class="timeline-card" aria-labelledby="timeline-heading">
           <div class="section-heading">
             <div>
-              <p class="eyebrow">DEEP TIME</p>
+              <p id="timeline-eyebrow" class="eyebrow">DEEP TIME</p>
               <h2 id="timeline-heading">500 million years ago – today</h2>
             </div>
             <p id="visible-count" class="muted" aria-live="polite"></p>
+          </div>
+
+          <div class="axis-switch" role="group" aria-label="Time axis">
+            <span class="field-label">Time axis</span>
+            <button type="button" class="chip" data-axis="age" aria-pressed="true">Estimated age</button>
+            <button type="button" class="chip" data-axis="year" aria-pressed="false">Publication year</button>
           </div>
 
           <div class="range-controls" role="group" aria-label="Time window">
@@ -174,7 +183,8 @@ app.innerHTML = `
             <p id="color-guide-title" class="legend-heading">Colour</p>
             <ul id="color-legend" class="legend" aria-label="Colour legend"></ul>
           </div>
-          <div class="guide">
+          <p id="year-guide" class="layer-note" hidden>On the publication-year axis each bar fills the calendar year its paper was published, so bar shape carries no dating meaning.</p>
+          <div id="shape-guide" class="guide">
             <p class="legend-heading">Bar shape = how the date is known</p>
             <ul id="shape-legend" class="legend shape-legend"></ul>
           </div>
@@ -192,6 +202,9 @@ const banner = $<HTMLElement>('#fixture-banner')
 const detail = $<HTMLDivElement>('#detail')
 const visibleCount = $<HTMLParagraphElement>('#visible-count')
 const heading = $<HTMLHeadingElement>('#timeline-heading')
+const eyebrow = $<HTMLParagraphElement>('#timeline-eyebrow')
+const shapeGuide = $<HTMLDivElement>('#shape-guide')
+const yearGuide = $<HTMLParagraphElement>('#year-guide')
 const rangeFrom = $<HTMLInputElement>('#range-from')
 const rangeTo = $<HTMLInputElement>('#range-to')
 const presets = $<HTMLDivElement>('#presets')
@@ -226,13 +239,29 @@ const filterRow = (key: FilterKey) => $<HTMLDivElement>(`.filter-row[data-filter
 let manifest: DatasetManifest
 let records: TimelineEvidence[] = []
 const recordNameWords = new Map<TimelineEvidence, string[]>()
+let axis: TimeAxis = 'age'
 let view = { ...DEFAULT_VIEW }
+// Each axis remembers its own window so switching back restores it.
+const savedViews: Record<TimeAxis, { from: number; to: number } | null> = { age: null, year: null }
 let selection: Selection | null = null
 const expanded = new Set<string>()
 let playTimer: number | null = null
 let frame = 0
 
 function clampView(from: number, to: number) {
+  if (axis === 'year') {
+    let first = Math.min(from, to)
+    let last = Math.max(from, to)
+    const span = Math.min(MAX_YEAR - MIN_YEAR, Math.max(MIN_YEAR_SPAN, last - first))
+    const centre = (first + last) / 2
+    first = Math.max(MIN_YEAR, centre - span / 2)
+    last = first + span
+    if (last > MAX_YEAR) {
+      last = MAX_YEAR
+      first = MAX_YEAR - span
+    }
+    return { from: first, to: last }
+  }
   let older = Math.max(from, to)
   let younger = Math.min(from, to)
   const span = Math.min(MAX_AGE, Math.max(MIN_SPAN, older - younger))
@@ -251,7 +280,8 @@ function clampView(from: number, to: number) {
 }
 
 function roundAge(value: number): number {
-  const span = view.from - view.to
+  const span = Math.abs(view.from - view.to)
+  if (axis === 'year') return Number(value.toFixed(span > 20 ? 0 : 1))
   const digits = span > 100 ? 1 : span > 10 ? 2 : 3
   return Number(value.toFixed(digits))
 }
@@ -294,6 +324,36 @@ const timeline = new Timeline(
   },
 )
 
+/** The window Reset returns to: 500 Ma – today, or every publication year in the dataset. */
+function defaultView() {
+  if (axis === 'age') return { ...DEFAULT_VIEW }
+  const years = records.map(record => record.representative_report.publication.year)
+  return { from: Math.min(...years) - 1, to: Math.max(...years) + 2 }
+}
+
+function switchAxis(next: TimeAxis) {
+  if (next === axis) return
+  savedViews[axis] = view
+  axis = next
+  view = clampView((savedViews[axis] ?? defaultView()).from, (savedViews[axis] ?? defaultView()).to)
+  // Expanded groups and selection carry over; only the axis-specific controls change.
+  for (const button of document.querySelectorAll<HTMLButtonElement>('.axis-switch button')) {
+    button.setAttribute('aria-pressed', String(button.dataset.axis === axis))
+  }
+  const age = axis === 'age'
+  presets.hidden = !age
+  eyebrow.textContent = age ? 'DEEP TIME' : 'PUBLICATION YEAR'
+  for (const unit of document.querySelectorAll<HTMLSpanElement>('.range-inputs .unit')) unit.textContent = age ? 'Ma' : ''
+  for (const input of [rangeFrom, rangeTo]) {
+    input.min = String(age ? 0 : MIN_YEAR)
+    input.max = String(age ? MAX_AGE : MAX_YEAR)
+    input.step = age ? 'any' : '1'
+  }
+  shapeGuide.hidden = !age
+  yearGuide.hidden = age
+  scheduleRender()
+}
+
 function setView(from: number, to: number) {
   view = clampView(from, to)
   scheduleRender()
@@ -310,10 +370,17 @@ function scheduleRender() {
 function render() {
   const visible = filteredRecords()
   const grouping = groupBy.value as GroupBy
-  const groups = grouping === 'none' ? null : groupRecords(visible, grouping)
-  const inView = visible.filter(record => record.age.max_ma >= view.to && record.age.min_ma <= view.from)
+  const groups = grouping === 'none' ? null : groupRecords(visible, grouping, axis)
+  const inView = visible.filter(record => {
+    if (axis === 'year') {
+      const year = record.representative_report.publication.year
+      return year + 1 > view.from && year < view.to
+    }
+    return record.age.max_ma >= view.to && record.age.min_ma <= view.from
+  })
 
   timeline.render({
+    axis,
     from: view.from,
     to: view.to,
     records: visible,
@@ -325,8 +392,12 @@ function render() {
   })
 
   if (document.activeElement !== rangeFrom) rangeFrom.value = String(roundAge(view.from))
-  if (document.activeElement !== rangeTo) rangeTo.value = String(roundAge(view.to))
-  heading.textContent = `${formatMa(roundAge(view.from))} – ${view.to === 0 ? 'today' : formatMa(roundAge(view.to))}`
+  // On the year axis "To" names the last year shown; the window's edge is the start of the next year.
+  if (document.activeElement !== rangeTo) rangeTo.value = String(roundAge(axis === 'year' ? view.to - 1 : view.to))
+  heading.textContent =
+    axis === 'year'
+      ? `Published ${Math.floor(view.from)} – ${Math.ceil(view.to) - 1}`
+      : `${formatMa(roundAge(view.from))} – ${view.to === 0 ? 'today' : formatMa(roundAge(view.to))}`
   visibleCount.textContent = `${inView.length} of ${records.length} physical evidence records`
   for (const button of presets.querySelectorAll<HTMLButtonElement>('button')) {
     button.setAttribute('aria-pressed', String(Math.abs(Number(button.dataset.from) - view.from) < 0.01 && Math.abs(Number(button.dataset.to) - view.to) < 0.01))
@@ -536,7 +607,7 @@ function wireControls() {
   const applyRange = () => {
     const from = Number(rangeFrom.value)
     const to = Number(rangeTo.value)
-    if (Number.isFinite(from) && Number.isFinite(to) && rangeFrom.value !== '' && rangeTo.value !== '') setView(from, to)
+    if (Number.isFinite(from) && Number.isFinite(to) && rangeFrom.value !== '' && rangeTo.value !== '') setView(from, axis === 'year' ? to + 1 : to)
   }
   for (const input of [rangeFrom, rangeTo]) {
     input.addEventListener('change', applyRange)
@@ -545,7 +616,13 @@ function wireControls() {
 
   $<HTMLButtonElement>('#zoom-in').addEventListener('click', () => timeline.zoom(0.6))
   $<HTMLButtonElement>('#zoom-out').addEventListener('click', () => timeline.zoom(1 / 0.6))
-  $<HTMLButtonElement>('#zoom-reset').addEventListener('click', () => setView(DEFAULT_VIEW.from, DEFAULT_VIEW.to))
+  $<HTMLButtonElement>('#zoom-reset').addEventListener('click', () => {
+    const initial = defaultView()
+    setView(initial.from, initial.to)
+  })
+  for (const button of document.querySelectorAll<HTMLButtonElement>('.axis-switch button')) {
+    button.addEventListener('click', () => switchAxis(button.dataset.axis as TimeAxis))
+  }
 
   // Maximum page width: a pixel cap stepped by −/+, or 'fit' for the whole window.
   const widthOutput = $<HTMLOutputElement>('#width-output')
@@ -580,6 +657,11 @@ function wireControls() {
   $<HTMLButtonElement>('#zoom-fit').addEventListener('click', () => {
     const visible = filteredRecords()
     if (!visible.length) return
+    if (axis === 'year') {
+      const years = visible.map(record => record.representative_report.publication.year)
+      setView(Math.min(...years) - 1, Math.max(...years) + 2)
+      return
+    }
     const oldest = Math.max(...visible.map(record => record.age.max_ma))
     const youngest = Math.min(...visible.map(record => record.age.min_ma))
     const pad = Math.max(1, (oldest - youngest) * 0.06)
