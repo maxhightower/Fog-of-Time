@@ -1,0 +1,79 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1371/journal.pone.0091287",
+    "doi": "10.1371/journal.pone.0091287",
+    "title": "A Diminutive New Tyrannosaur from the Top of the World",
+    "year": 2014,
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0091287",
+    "authors": [
+      "Anthony R. Fiorillo",
+      "Ronald S. Tykoski"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1371/journal.pone.0091287:dmnh-21461",
+      "physical_key": "specimen:dmnh:21461",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Nanuqsaurus hoglundi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "DMNH",
+        "catalog_number": "21461",
+        "label": "DMNH 21461"
+      },
+      "material": [
+        "right maxilla ascending ramus",
+        "partial skull roof",
+        "parts of both frontals",
+        "parietals",
+        "right laterosphenoid",
+        "rostral left dentary"
+      ],
+      "locality": {
+        "name": "Kikak-Tegoseak Quarry, North Slope Borough",
+        "country": "United States",
+        "region": "Alaska",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Prince Creek Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 68,
+        "max_ma": 70,
+        "best_ma": 69.1,
+        "precision": "approximate_range",
+        "method": "published_regional_radioisotopic_range",
+        "basis": "The paper reports multiple tuff-bed ages in the relevant Prince Creek section from around 70 to 68 Ma, with an average estimate of 69.1 ± 0.3 Ma.",
+        "notes": "The age range applies to the formation section and is supported by quarry palynology; it is not a direct date on DMNH 21461."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "DMNH 21461 is designated the holotype of Nanuqsaurus hoglundi.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "stratigraphic_context",
+          "summary": "The holotype was collected from the Kikak-Tegoseak Quarry in the Prince Creek Formation of Alaska's North Slope.",
+          "page": null,
+          "figure": "1–2",
+          "table": null
+        }
+      ]
+    }
+  ]
+}
