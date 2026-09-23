@@ -1,5 +1,155 @@
 [
   {
+    "physical_key": "clutch:ml:1188",
+    "evidence_type": "nest",
+    "taxon": "Torvosaurus",
+    "taxon_rank": "genus",
+    "specimen_label": "ML1188",
+    "material": [
+      ">500 eggshell fragments",
+      "dinosaur clutch assemblage",
+      "embryonic bones",
+      "embryonic teeth"
+    ],
+    "locality": {
+      "name": "Porto das Barcas",
+      "country": "Portugal",
+      "region": "Lourinhã"
+    },
+    "formation": "Lourinhã Formation",
+    "age": {
+      "min_ma": 143.1,
+      "max_ma": 149.2,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "stage_constraint_with_ics_conversion",
+      "basis": "The paper assigns the clutch to the early Tithonian; the numeric envelope uses the current ICS Tithonian stage interval."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/srep01924:ml1188",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1038/srep01924",
+        "doi": "10.1038/srep01924",
+        "title": "Filling the gaps of dinosaur eggshell phylogeny: Late Jurassic Theropod clutch with embryos from Portugal",
+        "year": 2013,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/srep01924",
+        "authors": [
+          "Ricardo Araújo",
+          "Rui Castanhinha",
+          "Rui M. S. Martins",
+          "Octávio Mateus",
+          "Christophe Hendrickx",
+          "F. Beckmann",
+          "N. Schell",
+          "L. C. Alves"
+        ]
+      },
+      "claims": [
+        {
+          "type": "reproductive_observation",
+          "summary": "ML1188 is a roughly 65 cm-wide clutch assemblage containing more than 500 clustered eggshell fragments together with embryonic bones and teeth.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Embryonic osteology and associated eggshells are ascribed to the megalosaurid theropod Torvosaurus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "stratigraphic_context",
+          "summary": "The clutch was recovered from a grey mudstone layer in the early Tithonian Sobral Member of the Lourinhã Formation.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:lfgt:zlj0033",
+    "evidence_type": "body_fossil",
+    "taxon": "Yizhousaurus sunae",
+    "taxon_rank": "species",
+    "specimen_label": "LFGT-ZLJ0033",
+    "material": [
+      "anterior caudal vertebrae",
+      "cervical vertebrae",
+      "dorsal vertebrae",
+      "femora",
+      "forelimbs",
+      "mandible",
+      "pectoral girdle",
+      "pelvic girdle",
+      "sacral vertebrae",
+      "skull"
+    ],
+    "locality": {
+      "name": "near Duwafang Village, Chuanjie Town, Lufeng County",
+      "country": "China",
+      "region": "Yunnan Province"
+    },
+    "formation": "Lufeng Formation",
+    "age": {
+      "min_ma": 174.7,
+      "max_ma": 201.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "stage_constraint_with_ics_conversion",
+      "basis": "The paper assigns the uppermost Zhangjiaao Member specimen to the Lower Jurassic; the numeric envelope uses current ICS Lower Jurassic boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41598-018-31874-9:lfgt-zlj0033",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1038/s41598-018-31874-9",
+        "doi": "10.1038/s41598-018-31874-9",
+        "title": "A new sauropodiform dinosaur with a ‘sauropodan’ skull from the Lower Jurassic Lufeng Formation of Yunnan Province, China",
+        "year": 2018,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-018-31874-9",
+        "authors": [
+          "Qian-Nan Zhang",
+          "Hai-Lu You",
+          "Tao Wang",
+          "Sankar Chatterjee"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "LFGT-ZLJ0033 is designated the holotype of Yizhousaurus sunae.",
+          "page": null,
+          "figure": "2A",
+          "table": null
+        },
+        {
+          "type": "anatomical_observation",
+          "summary": "The holotype is an approximately 7 m long, nearly complete skeleton with a well-preserved skull and mandible.",
+          "page": null,
+          "figure": "2A",
+          "table": null
+        },
+        {
+          "type": "stratigraphic_context",
+          "summary": "The skeleton was excavated from the uppermost layer of the Zhangjiaao Member of the Lufeng Formation.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
     "physical_key": "specimen:nmw:2015.5g.1-2015.5g.11",
     "evidence_type": "body_fossil",
     "taxon": "Dracoraptor hanigani",
@@ -514,6 +664,272 @@
           "page": null,
           "figure": "1",
           "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "tracksite:vale-de-meios:megalosauripus-assemblage",
+    "evidence_type": "trackway",
+    "taxon": "Megalosauripus isp.",
+    "taxon_rank": "ichnotaxon",
+    "specimen_label": "Vale de Meios tracksite assemblage",
+    "material": [
+      "711 recorded theropod tracks",
+      ">80 trackways",
+      "large tridactyl tracks"
+    ],
+    "locality": {
+      "name": "Vale de Meios quarry near Pé da Pedreira, Alcanede",
+      "country": "Portugal",
+      "region": "Santarém"
+    },
+    "formation": "Serra de Aire Formation",
+    "age": {
+      "min_ma": 165.3,
+      "max_ma": 168.2,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "stage_constraint_with_ics_conversion",
+      "basis": "The paper assigns the tracksite to the Bathonian; the numeric envelope uses current ICS Bathonian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/srep31494:vale-de-meios",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1038/srep31494",
+        "doi": "10.1038/srep31494",
+        "title": "Ichnological evidence of Megalosaurid Dinosaurs Crossing Middle Jurassic Tidal Flats",
+        "year": 2016,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/srep31494",
+        "authors": [
+          "Novella L. Razzolini",
+          "Oriol Oms",
+          "Diego Castanera",
+          "Bernat Vila",
+          "Vanda Faria dos Santos",
+          "Àngel Galobart"
+        ]
+      },
+      "claims": [
+        {
+          "type": "ichnotaxonomic_assignment",
+          "summary": "Tracks and trackways across the site are assigned to Megalosauripus isp.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "trackmaker_assignment",
+          "summary": "The large tracks are attributed to megalosaurid theropod dinosaurs.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "site_observation",
+          "summary": "The mapped tracksite contains 711 recorded tracks organized into more than 80 trackways, with more than 3,000 tracks estimated across the full surface.",
+          "page": null,
+          "figure": "3A",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "trackway:moyeni:anomoepus-focus",
+    "evidence_type": "trackway",
+    "taxon": "Anomoepus",
+    "taxon_rank": "ichnogenus",
+    "specimen_label": "Moyeni Anomoepus trackway",
+    "material": [
+      "17-step trackway",
+      "manus impressions",
+      "metatarsal impressions",
+      "pes impressions",
+      "tail impression",
+      "toe drag marks"
+    ],
+    "locality": {
+      "name": "Moyeni tracksite",
+      "country": "Lesotho",
+      "region": null
+    },
+    "formation": "Elliot Formation",
+    "age": {
+      "min_ma": 174.7,
+      "max_ma": 201.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "stage_constraint_with_ics_conversion",
+      "basis": "The paper considers the Moyeni tracksite Early Jurassic but states that uncertainty in the Triassic-Jurassic boundary position prevents finer temporal resolution; the numeric envelope uses current ICS Lower Jurassic boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0007331:moyeni-anomoepus",
+      "evidence_role": "redescription",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0007331",
+        "doi": "10.1371/journal.pone.0007331",
+        "title": "Dynamic Locomotor Capabilities Revealed by Early Dinosaur Trackmakers from Southern Africa",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007331",
+        "authors": [
+          "Jeffrey A. Wilson",
+          "Claudia A. Marsicano",
+          "Roger M. H. Smith"
+        ]
+      },
+      "claims": [
+        {
+          "type": "trackmaker_assignment",
+          "summary": "The Anomoepus trackway is attributed to a basal ornithischian dinosaur on manus and pes morphology.",
+          "page": null,
+          "figure": "3B",
+          "table": null
+        },
+        {
+          "type": "behavioral_observation",
+          "summary": "The trackway records transitions from wide-gauge plantigrade quadrupedal locomotion to narrow-gauge digitigrade quadrupedal locomotion and finally bipedal locomotion.",
+          "page": null,
+          "figure": "2",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "trackway:moyeni:grallator-focus",
+    "evidence_type": "trackway",
+    "taxon": "Grallator",
+    "taxon_rank": "ichnogenus",
+    "specimen_label": "Moyeni Grallator trackway",
+    "material": [
+      "25 tridactyl pes prints"
+    ],
+    "locality": {
+      "name": "Moyeni tracksite",
+      "country": "Lesotho",
+      "region": null
+    },
+    "formation": "Elliot Formation",
+    "age": {
+      "min_ma": 174.7,
+      "max_ma": 201.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "stage_constraint_with_ics_conversion",
+      "basis": "The paper considers the Moyeni tracksite Early Jurassic but states that uncertainty in the Triassic-Jurassic boundary position prevents finer temporal resolution; the numeric envelope uses current ICS Lower Jurassic boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0007331:moyeni-grallator",
+      "evidence_role": "redescription",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0007331",
+        "doi": "10.1371/journal.pone.0007331",
+        "title": "Dynamic Locomotor Capabilities Revealed by Early Dinosaur Trackmakers from Southern Africa",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007331",
+        "authors": [
+          "Jeffrey A. Wilson",
+          "Claudia A. Marsicano",
+          "Roger M. H. Smith"
+        ]
+      },
+      "claims": [
+        {
+          "type": "trackmaker_assignment",
+          "summary": "The Grallator trackway is attributed to a theropod dinosaur on pedal morphology.",
+          "page": null,
+          "figure": "3A",
+          "table": null
+        },
+        {
+          "type": "behavioral_observation",
+          "summary": "The 25-print trackway records a digitigrade biped that shortened stride and flexed pedal claws while descending a sloping, slippery surface.",
+          "page": null,
+          "figure": "4A",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "trackway:sgds:18.t1",
+    "evidence_type": "trace_fossil",
+    "taxon": "Eubrontes",
+    "taxon_rank": "ichnogenus",
+    "specimen_label": "SGDS.18.T1",
+    "material": [
+      "ischial callosity impression",
+      "manus impressions",
+      "pes impressions",
+      "tail drags",
+      "theropod trackway"
+    ],
+    "locality": {
+      "name": "St. George Dinosaur Discovery Site at Johnson Farm",
+      "country": "United States",
+      "region": "Utah"
+    },
+    "formation": "Moenave Formation",
+    "age": {
+      "min_ma": 198.0,
+      "max_ma": 198.0,
+      "best_ma": 198.0,
+      "precision": "approximate_point",
+      "method": "published_age_assignment",
+      "basis": "The paper describes the Lower Jurassic trackway as approximately 198 million years old."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0004591:sgds-18-t1",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0004591",
+        "doi": "10.1371/journal.pone.0004591",
+        "title": "Bird-Like Anatomy, Posture, and Behavior Revealed by an Early Jurassic Theropod Dinosaur Resting Trace",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0004591",
+        "authors": [
+          "Andrew R. C. Milner",
+          "Jerald D. Harris",
+          "Martin G. Lockley",
+          "James I. Kirkland",
+          "Neffra A. Matthews"
+        ]
+      },
+      "claims": [
+        {
+          "type": "behavioral_observation",
+          "summary": "The trackway preserves a crouching/resting trace with symmetrical pes impressions and impressions of both hands, the tail, and the ischial callosity.",
+          "page": null,
+          "figure": "4",
+          "table": null
+        },
+        {
+          "type": "anatomical_observation",
+          "summary": "The manus traces support a palms-medial manual posture in an Early Jurassic theropod.",
+          "page": null,
+          "figure": "5",
+          "table": null
+        },
+        {
+          "type": "ichnotaxonomic_assignment",
+          "summary": "The non-crouching pes prints of SGDS.18.T1 conform to the large theropod ichnotaxon Eubrontes.",
+          "page": null,
+          "figure": "3",
+          "table": "1"
         }
       ]
     },
