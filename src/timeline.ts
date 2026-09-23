@@ -1,5 +1,5 @@
 import type { TimelineEvidence } from './types'
-import { categoryOf, groupLabelText, recordLabelText, recordWindow, type GroupLabel, type RecordLabel, type AgeWindow, type ColorBy, type RecordGroup } from './model'
+import { categoryOf, groupLabelText, recordLabelText, recordWindow, type GroupLabel, type RecordLabel, type AgeWindow, type ColorBy, type RecordGroup, type TimeAxis } from './model'
 import { formatMa, formatSpan, formatWindow, humanize, PRECISION_LABELS } from './format'
 import { TIMESCALE, type GeoRank } from './timescale'
 
@@ -17,7 +17,10 @@ const GROUP_LABEL_FONT = '700 12px Inter, ui-sans-serif, system-ui, sans-serif'
 export type Selection = { kind: 'record'; key: string } | { kind: 'group'; id: string }
 
 export interface TimelineModel {
+  axis: TimeAxis
+  /** Value at the left edge: the older age in Ma, or the earlier year. */
   from: number
+  /** Value at the right edge. */
   to: number
   /** Null when records are shown individually. */
   groups: RecordGroup[] | null
@@ -92,14 +95,21 @@ export class Timeline {
     this.attachViewControls()
   }
 
-  private x(age: number): number {
+  private x(value: number): number {
     const { from, to } = this.model!
-    return ((from - age) / (from - to)) * this.width
+    return ((value - from) / (to - from)) * this.width
   }
 
-  private ageAt(px: number): number {
+  private valueAt(px: number): number {
     const { from, to } = this.model!
-    return from - (px / this.width) * (from - to)
+    return from + (px / this.width) * (to - from)
+  }
+
+  /** Left and right pixel edges of a window, whichever axis direction is in use. */
+  private extent(window: Pick<AgeWindow, 'min' | 'max'>): [number, number] {
+    const a = this.x(window.min)
+    const b = this.x(window.max)
+    return [Math.min(a, b), Math.max(a, b)]
   }
 
   private textWidth(text: string, font = '600 12px Inter, ui-sans-serif, system-ui, sans-serif'): number {
@@ -130,6 +140,8 @@ export class Timeline {
     const { geology } = this.elements
     const model = this.model!
     geology.replaceChildren()
+    geology.style.display = model.axis === 'age' ? '' : 'none'
+    if (model.axis !== 'age') return
 
     const ranks: GeoRank[] = ['period', 'epoch', 'stage']
     geology.setAttribute('width', String(this.width))
@@ -139,8 +151,9 @@ export class Timeline {
       const opacity = rank === 'period' ? 0.55 : rank === 'epoch' ? 0.38 : 0.26
       for (const unit of TIMESCALE[rank]) {
         if (unit.end >= model.from || unit.start <= model.to) continue
-        const x0 = Math.max(0, this.x(unit.start))
-        const x1 = Math.min(this.width, this.x(unit.end))
+        const [left, right] = this.extent({ min: unit.end, max: unit.start })
+        const x0 = Math.max(0, left)
+        const x1 = Math.min(this.width, right)
         const width = x1 - x0
         if (width <= 0.5) continue
         const group = svg('g', { class: 'geo-unit' })
@@ -169,12 +182,13 @@ export class Timeline {
     let barEnd = -Infinity
     for (const window of windows) {
       const isPoint = window.max - window.min === 0
-      const start = this.x(window.max) - (isPoint ? POINT_GLOW : 0)
-      const end = Math.max(this.x(window.min), this.x(window.max) + MIN_BAR_WIDTH) + (isPoint ? POINT_GLOW : 0)
+      const [left, right] = this.extent(window)
+      const start = left - (isPoint ? POINT_GLOW : 0)
+      const end = Math.max(right, left + MIN_BAR_WIDTH) + (isPoint ? POINT_GLOW : 0)
       barStart = Math.min(barStart, start)
       barEnd = Math.max(barEnd, end)
     }
-    if (barEnd < 0 || barStart > this.width) return null
+    if (barEnd <= 0 || barStart >= this.width) return null
     if (!label) return { x0: barStart, x1: barEnd, labelX: null, labelAnchor: 'start' }
 
     const labelWidth = this.textWidth(label, kind === 'record' ? undefined : GROUP_LABEL_FONT)
@@ -209,7 +223,7 @@ export class Timeline {
     const groupLabel = (group: RecordGroup) => (labels ? groupLabelText(group, labels.groups) : '')
     const recordRows = (records: TimelineEvidence[]) =>
       records
-        .map(record => this.makeRow('record', record.physical_key, labels ? recordLabelText(record, labels.records) : '', [recordWindow(record)], { record }))
+        .map(record => this.makeRow('record', record.physical_key, labels ? recordLabelText(record, labels.records) : '', [recordWindow(record, model.axis)], { record }))
         .filter((row): row is Row => row !== null)
 
     if (!model.groups) {
@@ -322,16 +336,17 @@ export class Timeline {
     const model = this.model!
     const { bars } = this.elements
     const grid = svg('g', { class: 'grid' })
-    const step = niceStep(model.from - model.to, this.width / 110)
-    for (let age = Math.floor(model.from / step) * step; age >= model.to; age -= step) {
-      const x = this.x(age)
+    for (const value of this.ticks()) {
+      const x = this.x(value)
       if (x < 0 || x > this.width) continue
       grid.append(svg('line', { x1: x, x2: x, y1: 0, y2: height, class: 'grid-line' }))
     }
-    for (const unit of TIMESCALE.period) {
-      const x = this.x(unit.start)
-      if (x <= 0 || x >= this.width) continue
-      grid.append(svg('line', { x1: x, x2: x, y1: 0, y2: height, class: 'period-line' }))
+    if (model.axis === 'age') {
+      for (const unit of TIMESCALE.period) {
+        const x = this.x(unit.start)
+        if (x <= 0 || x >= this.width) continue
+        grid.append(svg('line', { x1: x, x2: x, y1: 0, y2: height, class: 'period-line' }))
+      }
     }
     bars.append(grid)
   }
@@ -354,15 +369,15 @@ export class Timeline {
     group.append(svg('rect', { class: 'hit', x: row.x0 - 4, y, width: row.x1 - row.x0 + 8, height: LANE_PITCH, rx: 4 }))
 
     if (row.kind === 'group-header') {
-      const x0 = this.x(row.group!.max)
-      const x1 = Math.max(this.x(row.group!.min), x0 + MIN_BAR_WIDTH)
+      const [x0, right] = this.extent(row.group!)
+      const x1 = Math.max(right, x0 + MIN_BAR_WIDTH)
       group.append(svg('line', { class: 'header-line', x1: x0, x2: x1, y1: centre, y2: centre }))
       group.append(svg('line', { class: 'header-line', x1: x0, x2: x0, y1: centre - 4, y2: centre + 4 }))
       group.append(svg('line', { class: 'header-line', x1: x1, x2: x1, y1: centre - 4, y2: centre + 4 }))
     } else {
       const barHeight = row.kind === 'group' ? 12 : 9
       if (row.windows.length > 1) {
-        const xs = row.windows.flatMap(window => [this.x(window.max), this.x(window.min)])
+        const xs = row.windows.flatMap(window => this.extent(window))
         group.append(svg('line', { class: 'window-link', x1: Math.min(...xs), x2: Math.max(...xs), y1: centre, y2: centre }))
       }
       for (const window of row.windows) {
@@ -425,8 +440,7 @@ export class Timeline {
     color: string,
     gradient: (color: string, kind: 'feather' | 'soft' | 'glow') => string,
   ) {
-    const x0 = this.x(window.max)
-    const x1 = this.x(window.min)
+    const [x0, x1] = this.extent(window)
     const top = centre - height / 2
     const isPoint = window.max === window.min
 
@@ -458,19 +472,36 @@ export class Timeline {
     axis.replaceChildren()
     axis.setAttribute('width', String(this.width))
     axis.setAttribute('height', '30')
-    const span = model.from - model.to
-    const step = niceStep(span, this.width / 110)
+    const step = this.tickStep()
     const digits = Math.max(0, -Math.floor(Math.log10(step)))
     axis.append(svg('line', { x1: 0, x2: this.width, y1: 0.5, y2: 0.5, class: 'axis-line' }))
-    for (let age = Math.floor(model.from / step) * step; age >= model.to - step / 1000; age -= step) {
-      const x = this.x(age)
+    for (const value of this.ticks()) {
+      // Year ticks mark the start of each year; its label sits mid-year, under its bars.
+      const x = this.x(model.axis === 'year' ? value + 0.5 : value)
       if (x < -0.5 || x > this.width + 0.5) continue
       axis.append(svg('line', { x1: x, x2: x, y1: 0, y2: 5, class: 'axis-line' }))
       const anchor = x < 30 ? 'start' : x > this.width - 30 ? 'end' : 'middle'
       const text = svg('text', { x, y: 20, 'text-anchor': anchor, class: 'axis-label' })
-      text.textContent = formatMa(Math.abs(age) < step / 1000 ? 0 : age, digits)
+      text.textContent = model.axis === 'year' ? String(Math.round(value)) : formatMa(Math.abs(value) < step / 1000 ? 0 : value, digits)
       axis.append(text)
     }
+  }
+
+  private tickStep(): number {
+    const model = this.model!
+    const step = niceStep(Math.abs(model.to - model.from), this.width / 110)
+    // Years are whole numbers; never tick more finely than one year.
+    return model.axis === 'year' ? Math.max(1, step) : step
+  }
+
+  private ticks(): number[] {
+    const model = this.model!
+    const step = this.tickStep()
+    const lo = Math.min(model.from, model.to)
+    const hi = Math.max(model.from, model.to)
+    const values: number[] = []
+    for (let value = Math.ceil(lo / step - 1e-9) * step; value <= hi + step / 1000; value += step) values.push(Number(value.toFixed(6)))
+    return values
   }
 
   // ---------------------------------------------------------------- tooltip
@@ -478,7 +509,8 @@ export class Timeline {
   private ariaLabel(row: Row): string {
     if (row.kind === 'record') {
       const record = row.record!
-      return `${this.recordLabel(record)}, ${formatWindow(row.windows[0])}, ${PRECISION_LABELS[record.age.precision]}`
+      const published = this.model!.axis === 'year' ? `, published ${record.representative_report.publication.year}` : ''
+      return `${this.recordLabel(record)}, ${formatWindow(recordWindow(record))}, ${PRECISION_LABELS[record.age.precision]}${published}`
     }
     const group = row.group!
     return `${[group.label, group.detail].filter(Boolean).join(', ')}, ${group.records.length} records. ${row.kind === 'group' ? 'Expand' : 'Collapse'} group.`
@@ -495,14 +527,26 @@ export class Timeline {
     }
     if (row.kind === 'record') {
       const record = row.record!
-      const window = row.windows[0]
-      line(formatWindow(window), 'tip-value')
-      line(this.recordLabel(record), 'tip-title')
+      const window = recordWindow(record)
+      if (this.model!.axis === 'year') {
+        line(`Published ${record.representative_report.publication.year}`, 'tip-value')
+        line(this.recordLabel(record), 'tip-title')
+        line(`Estimated age ${formatWindow(window)}`, 'tip-meta')
+      } else {
+        line(formatWindow(window), 'tip-value')
+        line(this.recordLabel(record), 'tip-title')
+      }
       line(`${PRECISION_LABELS[record.age.precision]} · ${formatSpan(window)}`, 'tip-meta')
       line(`${humanize(record.evidence_type)} · ${humanize(record.age.method)}`, 'tip-meta')
     } else {
       const group = row.group!
-      line(group.windows.length === 1 ? formatWindow(group.windows[0]) : `${group.windows.length} age windows · ${formatMa(group.max)} – ${formatMa(group.min)}`, 'tip-value')
+      if (this.model!.axis === 'year') {
+        const first = group.min
+        const last = group.max - 1
+        line(first === last ? `Published ${first}` : `Published ${first}–${last}`, 'tip-value')
+      } else {
+        line(group.windows.length === 1 ? formatWindow(group.windows[0]) : `${group.windows.length} age windows · ${formatMa(group.max)} – ${formatMa(group.min)}`, 'tip-value')
+      }
       line(group.label, 'tip-title')
       if (group.detail) line(group.detail, 'tip-meta')
       line(`${group.records.length} physical evidence ${group.records.length === 1 ? 'record' : 'records'} · click to ${row.kind === 'group' ? 'expand' : 'collapse'}`, 'tip-meta')
@@ -525,7 +569,7 @@ export class Timeline {
   zoom(factor: number, anchorPx = this.width / 2) {
     const model = this.model
     if (!model) return
-    const anchor = this.ageAt(anchorPx)
+    const anchor = this.valueAt(anchorPx)
     this.callbacks.onViewChange(anchor + (model.from - anchor) * factor, anchor - (anchor - model.to) * factor)
   }
 

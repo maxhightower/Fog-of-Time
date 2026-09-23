@@ -86,7 +86,18 @@ export interface RecordGroup {
   max: number
 }
 
-export function recordWindow(record: TimelineEvidence): AgeWindow {
+/** What the horizontal axis measures: estimated geologic age (Ma) or publication year. */
+export type TimeAxis = 'age' | 'year'
+
+/**
+ * A record's extent on the chosen axis. On the publication-year axis a record
+ * fills its whole calendar year, [year, year + 1).
+ */
+export function recordWindow(record: TimelineEvidence, axis: TimeAxis = 'age'): AgeWindow {
+  if (axis === 'year') {
+    const year = record.representative_report.publication.year
+    return { min: year, max: year + 1, best: null, precision: 'explicit_range', records: [record] }
+  }
   return {
     min: record.age.min_ma,
     max: record.age.max_ma,
@@ -121,7 +132,7 @@ function groupKey(record: TimelineEvidence, groupBy: Exclude<GroupBy, 'none'>): 
   }
 }
 
-export function groupRecords(records: TimelineEvidence[], groupBy: Exclude<GroupBy, 'none'>): RecordGroup[] {
+export function groupRecords(records: TimelineEvidence[], groupBy: Exclude<GroupBy, 'none'>, axis: TimeAxis = 'age'): RecordGroup[] {
   const groups = new Map<string, RecordGroup>()
   for (const record of records) {
     const { key, label, detail } = groupKey(record, groupBy)
@@ -132,13 +143,14 @@ export function groupRecords(records: TimelineEvidence[], groupBy: Exclude<Group
       groups.set(id, group)
     }
     group.records.push(record)
-    group.min = Math.min(group.min, record.age.min_ma)
-    group.max = Math.max(group.max, record.age.max_ma)
+    const extent = recordWindow(record, axis)
+    group.min = Math.min(group.min, extent.min)
+    group.max = Math.max(group.max, extent.max)
     const window = group.windows.find(
-      w => w.min === record.age.min_ma && w.max === record.age.max_ma && w.precision === record.age.precision && w.best === (record.age.best_ma ?? null),
+      w => w.min === extent.min && w.max === extent.max && w.precision === extent.precision && w.best === extent.best,
     )
     if (window) window.records.push(record)
-    else group.windows.push(recordWindow(record))
+    else group.windows.push(extent)
   }
   return [...groups.values()].sort((a, b) => b.max - a.max)
 }
