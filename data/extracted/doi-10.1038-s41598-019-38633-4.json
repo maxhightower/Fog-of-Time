@@ -1,0 +1,129 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1038/s41598-019-38633-4",
+    "doi": "10.1038/s41598-019-38633-4",
+    "title": "Exquisitely-preserved, high-definition skin traces in diminutive theropod tracks from the Cretaceous of Korea",
+    "year": 2019,
+    "journal": "Scientific Reports",
+    "url": "https://www.nature.com/articles/s41598-019-38633-4",
+    "authors": [
+      "Kyung Soo Kim",
+      "Martin G. Lockley",
+      "Jong Deock Lim",
+      "Lida Xing"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1038/s41598-019-38633-4:cue-jj-m01-m03-trackway",
+      "physical_key": "trackway:cue:jj-m01-m03",
+      "evidence_type": "trackway",
+      "taxon": {
+        "name": "Minisauripus",
+        "rank": "ichnogenus"
+      },
+      "specimen": {
+        "institution_code": "CUE",
+        "catalog_number": "JJ_M01–M03",
+        "label": "CUE JJ_M01–M03 — Minisauripus trackway"
+      },
+      "material": [
+        "four-track Minisauripus trackway",
+        "isolated fifth track likely belonging to same trackway",
+        "natural impressions and counterpart casts"
+      ],
+      "locality": {
+        "name": "Ppuri Industrial Complex, Jinju Innovation City",
+        "country": "South Korea",
+        "region": "Jinju",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Jinju Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 112,
+        "max_ma": 120,
+        "best_ma": null,
+        "precision": "approximate_range",
+        "method": "published_formation_age_range",
+        "basis": "The paper reports the Jinju Formation as inferred Aptian deposition between approximately 120 and 112 Ma.",
+        "notes": "The published numerical bounds are explicitly approximate."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "ichnological_observation",
+          "summary": "CUE JJ_M01 and JJ_M02 preserve counterpart and natural-impression portions of a four-track Minisauripus trackway; CUE JJ_M03 is an isolated fifth cast likely belonging to the same trackway.",
+          "page": null,
+          "figure": "2–3",
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-019-38633-4:cue-jj-m01-m03-skin",
+      "physical_key": "skin-impression:cue:jj-m01-m03",
+      "evidence_type": "skin_impression",
+      "taxon": {
+        "name": "Minisauripus",
+        "rank": "ichnogenus"
+      },
+      "specimen": {
+        "institution_code": "CUE",
+        "catalog_number": "JJ_M01–M03",
+        "label": "CUE JJ_M01–M03 — skin traces"
+      },
+      "material": [
+        "high-definition pedal skin impressions",
+        "densely packed reticulate polygonal skin texture",
+        "skin traces spanning entire footprints"
+      ],
+      "locality": {
+        "name": "Ppuri Industrial Complex, Jinju Innovation City",
+        "country": "South Korea",
+        "region": "Jinju",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Jinju Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 112,
+        "max_ma": 120,
+        "best_ma": null,
+        "precision": "approximate_range",
+        "method": "published_formation_age_range",
+        "basis": "Same Jinju Formation track-bearing surface; the paper reports approximately 120–112 Ma.",
+        "notes": null
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "integument_observation",
+          "summary": "Every footprint in the trackway preserves unusually high-definition skin texture composed of densely packed reticulate polygons smaller than about 0.5 mm.",
+          "page": null,
+          "figure": "2–3",
+          "table": null
+        },
+        {
+          "type": "preservation_observation",
+          "summary": "Skin texture is preserved as both impressions and casts, in some cases effectively forming foot replicas.",
+          "page": null,
+          "figure": "2",
+          "table": null
+        }
+      ]
+    }
+  ]
+}
