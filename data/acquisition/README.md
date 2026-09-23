@@ -65,6 +65,31 @@ python scripts/data/acquisition/validate_queue.py
 
 CI runs this validator without network access.
 
+## PBDB scale-out ingestion
+
+The 25-paper benchmark is the high-confidence direct-full-text tier. Larger coverage can be
+snapshotted from Paleobiology Database without weakening that distinction:
+
+```bash
+python scripts/data/acquisition/import_pbdb_references.py --paper-count 100
+```
+
+The importer selects 100 additional PBDB references linked to Mesozoic dinosaur
+occurrences, excludes titles/DOIs already represented by direct extraction, and writes:
+
+```text
+data/extracted/pbdb-ref-*.json
+data/acquisition/pbdb-import-manifest.json
+```
+
+Each PBDB-derived record is a `fossil_occurrence`, not a museum specimen claim.
+It retains the PBDB occurrence number, collection/locality, accepted taxon, stratigraphy,
+numerical age range, and publication reference. These records use
+`evidence_role: secondary_citation` until direct publication review upgrades them.
+
+The first DINO-2 snapshot contains **100 additional publications and 268 PBDB
+occurrences**.
+
 ## Paper bytes
 
 Fog of Time does not need to commit full paper PDFs. Full text may be acquired
