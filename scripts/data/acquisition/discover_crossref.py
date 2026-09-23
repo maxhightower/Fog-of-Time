@@ -28,6 +28,28 @@ DINOSAUR_TERMS = (
     "ornithisch", "tyrannosaur", "ceratops", "hadrosaur", "ankylosaur",
     "stegosaur", "dromaeosaur", "troodont", "oviraptor", "iguanodont",
 )
+PRIMARY_EVIDENCE_TERMS = (
+    "new ", "fossil", "specimen", "osteolog", "anatom", "histolog", "track",
+    "footprint", "ichno", "egg", "nest", "embry", "skin", "feather",
+    "integument", "bone", "skull", "cranial", "skeleton", "formation",
+    "locality", "patholog", "clutch", "preserv", "remains", "description",
+    "redescription", "tooth", "teeth", "dental", "coprolite", "bite",
+    "trace", "growth", "ontogen",
+)
+BLOCKED_JOURNALS = {
+    "new scientist",
+    "science news",
+    "discover magazine",
+    "national geographic",
+}
+BLOCKED_DOI_PREFIXES = (
+    "10.1038/d41586",      # Nature news/features rather than research articles
+    "10.1016/s0262-4079",  # New Scientist
+)
+BLOCKED_TITLE_MARKERS = (
+    "book review", "correction to", "erratum", "editorial", "obituary",
+    "reply to", "comment on",
+)
 DOI_RE = re.compile(r"^10\.\d{4,9}/\S+$", re.I)
 
 
@@ -64,9 +86,22 @@ def first_text(item: dict[str, Any], field: str) -> str | None:
     return None
 
 
-def likely_dinosaur(title: str) -> bool:
+def likely_primary_dinosaur(title: str, journal: str | None, doi: str) -> bool:
     lower = title.lower()
-    return any(term in lower for term in DINOSAUR_TERMS)
+    journal_lower = (journal or "").strip().lower()
+    doi_lower = doi.lower()
+
+    if not any(term in lower for term in DINOSAUR_TERMS):
+        return False
+    if not any(term in lower for term in PRIMARY_EVIDENCE_TERMS):
+        return False
+    if journal_lower in BLOCKED_JOURNALS:
+        return False
+    if any(doi_lower.startswith(prefix) for prefix in BLOCKED_DOI_PREFIXES):
+        return False
+    if any(marker in lower for marker in BLOCKED_TITLE_MARKERS):
+        return False
+    return True
 
 
 def fetch_crossref(query: str, rows: int, mailto: str | None) -> list[dict[str, Any]]:
@@ -117,7 +152,13 @@ def main() -> int:
         for item in fetch_crossref(query, args.rows_per_query, args.mailto):
             doi = str(item.get("DOI", "")).strip().lower()
             title = first_text(item, "title")
-            if not doi or not DOI_RE.match(doi) or not title or not likely_dinosaur(title):
+            journal = first_text(item, "container-title")
+            if (
+                not doi
+                or not DOI_RE.match(doi)
+                or not title
+                or not likely_primary_dinosaur(title, journal, doi)
+            ):
                 continue
             if doi in benchmark_dois:
                 continue
@@ -135,7 +176,7 @@ def main() -> int:
                 "doi": doi,
                 "title": title,
                 "year": publication_year(item),
-                "journal": first_text(item, "container-title"),
+                "journal": journal,
                 "publisher_url": item.get("URL"),
                 "temporal_band": "unknown",
                 "target_evidence_types": [],
