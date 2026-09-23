@@ -74,6 +74,169 @@
     "development_fixture": false
   },
   {
+    "physical_key": "specimen-batch:omnh:10144",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "OMNH 10144",
+    "material": [
+      "histologically sampled femur",
+      "histologically sampled humerus",
+      "histologically sampled tibia",
+      "histologically sampled ulna"
+    ],
+    "locality": {
+      "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Cloverly Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-10144",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 10144 is listed in Table 1 as a juvenile specimen; sampled elements: humerus, ulna, femur, tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "sample_identity_note",
+          "summary": "OMNH 10144 is a batch-catalogued juvenile collection representing at least four similarly sized individuals; the study treats sampled elements as one ontogenetic unit.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:fmnh-pr:2261",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "FMNH PR 2261",
+    "material": [
+      "histologically sampled femur",
+      "histologically sampled humerus",
+      "histologically sampled tibia",
+      "histologically sampled ulna"
+    ],
+    "locality": {
+      "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Cloverly Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:fmnh-pr-2261",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "FMNH PR 2261 is listed in Table 1 as a adult specimen; sampled elements: humerus, ulna, femur, tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:fmnh-pr:2263",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "FMNH PR 2263",
+    "material": [
+      "histologically sampled femur"
+    ],
+    "locality": {
+      "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Cloverly Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:fmnh-pr-2263",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "FMNH PR 2263 is listed in Table 1 as a juvenile specimen; sampled elements: femur.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
     "physical_key": "specimen:lfgt:zlj0033",
     "evidence_type": "body_fossil",
     "taxon": "Yizhousaurus sunae",
@@ -150,6 +313,156 @@
     "development_fixture": false
   },
   {
+    "physical_key": "specimen:mor:679",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "MOR 679",
+    "material": [
+      "histologically sampled femur"
+    ],
+    "locality": {
+      "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Cloverly Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:mor-679",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "MOR 679 is listed in Table 1 as a juvenile specimen; sampled elements: femur.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:mor:682",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "MOR 682",
+    "material": [
+      "histologically sampled femur"
+    ],
+    "locality": {
+      "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Cloverly Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:mor-682",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "MOR 682 is listed in Table 1 as a subadult specimen; sampled elements: femur.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:mor:788",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "MOR 788",
+    "material": [
+      "histologically sampled tibia"
+    ],
+    "locality": {
+      "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Cloverly Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:mor-788",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "MOR 788 is listed in Table 1 as a perinate specimen; sampled elements: tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
     "physical_key": "specimen:nmw:2015.5g.1-2015.5g.11",
     "evidence_type": "body_fossil",
     "taxon": "Dracoraptor hanigani",
@@ -216,6 +529,615 @@
           "page": null,
           "figure": "4",
           "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:omnh:10134",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "OMNH 10134",
+    "material": [
+      "histologically sampled tibia"
+    ],
+    "locality": {
+      "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Cloverly Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-10134",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 10134 is listed in Table 1 as a subadult specimen; sampled elements: tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:omnh:16563",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "OMNH 16563",
+    "material": [
+      "histologically sampled fibula",
+      "histologically sampled rib",
+      "histologically sampled tibia"
+    ],
+    "locality": {
+      "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Antlers Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-16563",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 16563 is listed in Table 1 as a subadult specimen; sampled elements: tibia, fibula, rib.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:omnh:2531",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "OMNH 2531",
+    "material": [
+      "histologically sampled humerus",
+      "histologically sampled ulna"
+    ],
+    "locality": {
+      "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Antlers Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-2531",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 2531 is listed in Table 1 as a subadult specimen; sampled elements: humerus, ulna.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:omnh:2926",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "OMNH 2926",
+    "material": [
+      "histologically sampled tibia"
+    ],
+    "locality": {
+      "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Antlers Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-2926",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 2926 is listed in Table 1 as a subadult specimen; sampled elements: tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:omnh:34191",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "OMNH 34191",
+    "material": [
+      "histologically sampled ulna"
+    ],
+    "locality": {
+      "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Antlers Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-34191",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 34191 is listed in Table 1 as a subadult specimen; sampled elements: ulna.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:omnh:34783",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "OMNH 34783",
+    "material": [
+      "histologically sampled fibula",
+      "histologically sampled tibia"
+    ],
+    "locality": {
+      "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Cloverly Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-34783",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 34783 is listed in Table 1 as a subadult specimen; sampled elements: tibia, fibula.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:omnh:34784",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "OMNH 34784",
+    "material": [
+      "histologically sampled femur",
+      "histologically sampled tibia"
+    ],
+    "locality": {
+      "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Cloverly Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-34784",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 34784 is listed in Table 1 as a subadult specimen; sampled elements: femur, tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:omnh:34785",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "OMNH 34785",
+    "material": [
+      "histologically sampled femur",
+      "histologically sampled fibula",
+      "histologically sampled tibia"
+    ],
+    "locality": {
+      "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Cloverly Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-34785",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 34785 is listed in Table 1 as a juvenile specimen; sampled elements: femur, tibia, fibula.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:omnh:58340",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "OMNH 58340",
+    "material": [
+      "histologically sampled tibia"
+    ],
+    "locality": {
+      "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Antlers Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-58340",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 58340 is listed in Table 1 as a subadult specimen; sampled elements: tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:omnh:62990",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "OMNH 62990",
+    "material": [
+      "histologically sampled ulna"
+    ],
+    "locality": {
+      "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Antlers Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-62990",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 62990 is listed in Table 1 as a adult specimen; sampled elements: ulna.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:omnh:63525",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "OMNH 63525",
+    "material": [
+      "histologically sampled rib",
+      "histologically sampled tibia"
+    ],
+    "locality": {
+      "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Antlers Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-63525",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 63525 is listed in Table 1 as a subadult specimen; sampled elements: tibia, rib.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:omnh:8137",
+    "evidence_type": "body_fossil",
+    "taxon": "Tenontosaurus tilletti",
+    "taxon_rank": "species",
+    "specimen_label": "OMNH 8137",
+    "material": [
+      "histologically sampled humerus",
+      "histologically sampled tibia"
+    ],
+    "locality": {
+      "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+      "country": "United States",
+      "region": null
+    },
+    "formation": "Antlers Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_range_with_ics_conversion",
+      "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-8137",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0033539",
+        "doi": "10.1371/journal.pone.0033539",
+        "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+        "authors": [
+          "Sarah Werning"
+        ]
+      },
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 8137 is listed in Table 1 as a subadult specimen; sampled elements: humerus, tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
         }
       ]
     },
@@ -605,6 +1527,2332 @@
     "development_fixture": false
   },
   {
+    "physical_key": "specimen:smu:70444",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 70444",
+    "material": [
+      "partial skull"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-70444",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 70444 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 70444: partial skull.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:70456",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 70456",
+    "material": [
+      "articulated skeleton"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-70456",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 70456 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 70456: articulated skeleton.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:70534",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 70534",
+    "material": [
+      "articulated left hindlimb"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-70534",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 70534 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 70534: articulated left hindlimb.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:70635",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 70635",
+    "material": [
+      "partial right maxilla"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-70635",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 70635 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 70635: partial right maxilla.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:71492",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 71492",
+    "material": [
+      "caudal vertebra"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71492",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71492 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71492: caudal vertebra.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:71504",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 71504",
+    "material": [
+      "right paroccipital process"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71504",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71504 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71504: right paroccipital process.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:71510",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 71510",
+    "material": [
+      "right surangular"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71510",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71510 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71510: right surangular.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:71631",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 71631",
+    "material": [
+      "right quadratojugal"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71631",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71631 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71631: right quadratojugal.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:71690",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 71690",
+    "material": [
+      "left astragalus"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71690",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71690 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71690: left astragalus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:71818",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 71818",
+    "material": [
+      "left radius"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71818",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71818 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71818: left radius.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:71821",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 71821",
+    "material": [
+      "left ulna"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71821",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71821 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71821: left ulna.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:71854",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 71854",
+    "material": [
+      "right scapula"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71854",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71854 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71854: right scapula.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:72054",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 72054",
+    "material": [
+      "left manus"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-72054",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 72054 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 72054: left manus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:72316",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 72316",
+    "material": [
+      "articulated pelvic girdle",
+      "articulated vertebral column",
+      "partial left hindlimb",
+      "partial skull"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-72316",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 72316 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 72316: partial skull, articulated pelvic girdle, articulated vertebral column, partial left hindlimb.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:72534",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 72534",
+    "material": [
+      "left calcaneum"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-72534",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 72534 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 72534: left calcaneum.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:72541",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 72541",
+    "material": [
+      "left distal femur"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-72541",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 72541 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 72541: left distal femur.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:72834",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 72834",
+    "material": [
+      "15 dorsal vertebrae",
+      "23 caudal vertebrae",
+      "6 sacral vertebrae",
+      "9 cervical vertebrae",
+      "articulated pelvis",
+      "coracoids",
+      "femora",
+      "humeri",
+      "left radius",
+      "left ulna",
+      "partial articulated skeleton",
+      "partial left manus",
+      "proximal left fibula",
+      "scapulae",
+      "skull",
+      "tibiae"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-72834",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 72834 is designated the holotype of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 72834: skull, partial articulated skeleton, 9 cervical vertebrae, 15 dorsal vertebrae, 6 sacral vertebrae, 23 caudal vertebrae, scapulae, coracoids, humeri, left ulna, left radius, partial left manus, articulated pelvis, femora, tibiae, proximal left fibula.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:73170",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 73170",
+    "material": [
+      "articulated left pes"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-73170",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 73170 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 73170: articulated left pes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:73171",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 73171",
+    "material": [
+      "right pes"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-73171",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 73171 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 73171: right pes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:74087",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 74087",
+    "material": [
+      "partial skull"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74087",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74087 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74087: partial skull.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:74093",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 74093",
+    "material": [
+      "right femur",
+      "right tibia"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74093",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74093 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74093: right femur, right tibia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:74104",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 74104",
+    "material": [
+      "partial left pubis"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74104",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74104 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74104: partial left pubis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:74119",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 74119",
+    "material": [
+      "distal left ischium"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74119",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74119 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74119: distal left ischium.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:74124",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 74124",
+    "material": [
+      "left scapula"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74124",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74124 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74124: left scapula.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:74131",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 74131",
+    "material": [
+      "cervical vertebrae"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74131",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74131 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74131: cervical vertebrae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:74576",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 74576",
+    "material": [
+      "articulated caudal vertebrae",
+      "ossified tendons"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74576",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74576 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74576: articulated caudal vertebrae, ossified tendons.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:74663",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 74663",
+    "material": [
+      "partial skeleton",
+      "skull"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74663",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74663 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74663: skull, partial skeleton.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:74664",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 74664",
+    "material": [
+      "left scapula",
+      "right scapula"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74664",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74664 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74664: left scapula, right scapula.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:74665",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 74665",
+    "material": [
+      "partial right hindlimb"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74665",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74665 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74665: partial right hindlimb.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:74670",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 74670",
+    "material": [
+      "articulated caudal vertebrae",
+      "ossified tendons"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74670",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74670 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74670: articulated caudal vertebrae, ossified tendons.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:74678",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 74678",
+    "material": [
+      "partial skull"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74678",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74678 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74678: partial skull.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:74749",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 74749",
+    "material": [
+      "partial skeleton",
+      "skull"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74749",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74749 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74749: skull, partial skeleton.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:75379",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 75379",
+    "material": [
+      "partial skull"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-75379",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 75379 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 75379: partial skull.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:75380",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 75380",
+    "material": [
+      "right premaxilla"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-75380",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 75380 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 75380: right premaxilla.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:75564",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 75564",
+    "material": [
+      "partial skeleton"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-75564",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 75564 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 75564: partial skeleton.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:75621",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 75621",
+    "material": [
+      "axis",
+      "third cervical vertebra"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-75621",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 75621 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 75621: axis, third cervical vertebra.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:75636",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 75636",
+    "material": [
+      "partial left pubis"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-75636",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 75636 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 75636: partial left pubis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:77617",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 77617",
+    "material": [
+      "partial skeleton"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-77617",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 77617 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 77617: partial skeleton.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:smu:77638",
+    "evidence_type": "body_fossil",
+    "taxon": "Convolosaurus marri",
+    "taxon_rank": "species",
+    "specimen_label": "SMU 77638",
+    "material": [
+      "partial skeleton"
+    ],
+    "locality": {
+      "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+      "country": "United States",
+      "region": "Texas"
+    },
+    "formation": "Twin Mountains Formation",
+    "age": {
+      "min_ma": 113.0,
+      "max_ma": 125.0,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_context_from_paper",
+      "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0207935:smu-77638",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0207935",
+        "doi": "10.1371/journal.pone.0207935",
+        "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+        "authors": [
+          "Kate A. Andrzejewski",
+          "Dale A. Winkler",
+          "Louis L. Jacobs"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 77638 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 77638: partial skeleton.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
     "physical_key": "specimen:umnh-vp:18040",
     "evidence_type": "body_fossil",
     "taxon": "Seitaad ruessi",
@@ -663,6 +3911,297 @@
           "summary": "The articulated partial skeleton was preserved in a massive sandstone bed at the base of the Navajo Sandstone and is interpreted as having been buried in a local dune-collapse deposit.",
           "page": null,
           "figure": "1",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:umnh-vp:21400",
+    "evidence_type": "body_fossil",
+    "taxon": "Martharaptor greenriverensis",
+    "taxon_rank": "species",
+    "specimen_label": "UMNH VP 21400",
+    "material": [
+      "forelimb bones",
+      "hindlimb bones",
+      "ischium",
+      "left scapula",
+      "manual unguals",
+      "metatarsals",
+      "pedal phalanges",
+      "vertebral fragments"
+    ],
+    "locality": {
+      "name": "Hayden-Corbett Site (Gr287v), approximately 8 miles southeast of Green River",
+      "country": "United States",
+      "region": "Utah"
+    },
+    "formation": "Cedar Mountain Formation",
+    "age": {
+      "min_ma": 124.0,
+      "max_ma": 124.0,
+      "best_ma": 124.0,
+      "precision": "approximate_point",
+      "method": "detrital_zircon_context",
+      "basis": "The paper reports the upper Yellow Cat Member at about 124 Ma (early Aptian) based on detrital zircons."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0043911:umnh-vp-21400",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0043911",
+        "doi": "10.1371/journal.pone.0043911",
+        "title": "Martharaptor greenriverensis, a New Theropod Dinosaur from the Lower Cretaceous of Utah",
+        "year": 2012,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0043911",
+        "authors": [
+          "Phil Senter",
+          "James I. Kirkland",
+          "Donald D. DeBlieux"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "UMNH VP 21400 is designated the holotype of Martharaptor greenriverensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taphonomic_observation",
+          "summary": "Disarticulated material was concentrated within less than two square meters, with no duplicated elements or evidence for more than one individual.",
+          "page": null,
+          "figure": "3–6",
+          "table": null
+        },
+        {
+          "type": "anatomical_observation",
+          "summary": "The specimen includes strongly curved manual and pedal unguals together with axial, girdle, forelimb, and hindlimb material.",
+          "page": null,
+          "figure": "3–6",
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:yfgp:t5199",
+    "evidence_type": "feather_impression",
+    "taxon": "Anchiornis huxleyi",
+    "taxon_rank": "species",
+    "specimen_label": "YFGP-T5199",
+    "material": [
+      "14 sampled feather and feather-like integument patches",
+      "essentially complete articulated skeleton",
+      "plumage remnants"
+    ],
+    "locality": {
+      "name": "Yaolugou locality, Jianchang County",
+      "country": "China",
+      "region": "western Liaoning"
+    },
+    "formation": "Tiaojishan Formation",
+    "age": {
+      "min_ma": 143.1,
+      "max_ma": 174.7,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_geologic_interval_with_ics_conversion",
+      "basis": "The paper describes the Tiaojishan assemblage as Middle–Late Jurassic; the numeric envelope spans the current ICS Middle and Late Jurassic interval."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/srep13520:yfgp-t5199",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/srep13520",
+        "doi": "10.1038/srep13520",
+        "title": "Molecular composition and ultrastructure of Jurassic paravian feathers",
+        "year": 2015,
+        "journal": "Scientific Reports",
+        "url": "https://www.nature.com/articles/srep13520",
+        "authors": [
+          "Johan Lindgren",
+          "Peter Sjövall",
+          "Ryan M. Carney",
+          "Aude Cincotta",
+          "Per Uvdal",
+          "Steven W. Hutcheson",
+          "Ola Gustafsson",
+          "Ulysse Lefèvre",
+          "François Escuillié",
+          "Jimmy Heimdal",
+          "Anders Engdahl",
+          "Johan A. Gren",
+          "Benjamin P. Kear",
+          "Kazumasa Wakamatsu",
+          "Johan Yans",
+          "Pascal Godefroit"
+        ]
+      },
+      "claims": [
+        {
+          "type": "molecular_observation",
+          "summary": "Integrated imaging and chemical analyses support preservation of endogenous eumelanin and eumelanosomes in the fossil feather remains.",
+          "page": null,
+          "figure": "2–8",
+          "table": null
+        },
+        {
+          "type": "anatomical_observation",
+          "summary": "Feather and feather-like structures are preserved around the skull, shoulder girdle, pelvis, forelimbs, hind limbs, and tail.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "sampling_observation",
+          "summary": "Fourteen plumage samples (S1–S14) were removed, with the forecrown sample S1 receiving detailed molecular and ultrastructural analysis.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "tracksite:brothers-point:bp1",
+    "evidence_type": "trackway",
+    "taxon": "Dinosauria",
+    "taxon_rank": "clade",
+    "specimen_label": "Brothers' Point 1 (BP1)",
+    "material": [
+      "1 track association",
+      "3 distinctive trackways",
+      "35 identified dinosaur tracks",
+      "isolated tracks"
+    ],
+    "locality": {
+      "name": "Brothers' Point 1, east of Lonfearn Burn",
+      "country": "United Kingdom",
+      "region": "Isle of Skye, Scotland"
+    },
+    "formation": "Lealt Shale Formation",
+    "age": {
+      "min_ma": 165.3,
+      "max_ma": 168.2,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_stage_constraint_with_ics_conversion",
+      "basis": "The track-bearing bed is in the Lonfearn Member of the Lealt Shale Formation, which is generally treated as Bathonian; the numeric envelope uses current ICS Bathonian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0229640:bp1",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0229640",
+        "doi": "10.1371/journal.pone.0229640",
+        "title": "Novel track morphotypes from new tracksites indicate increased Middle Jurassic dinosaur diversity on the Isle of Skye, Scotland",
+        "year": 2020,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229640",
+        "authors": [
+          "Paige E. dePolo",
+          "Stephen L. Brusatte",
+          "Thomas J. Challands",
+          "Davide Foffa",
+          "Mark Wilkinson",
+          "Neil D. L. Clark",
+          "Jon Hoad",
+          "Paulo Victor Luiz Gomes da Costa Pereira",
+          "Dugald A. Ross",
+          "Thomas J. Wade"
+        ]
+      },
+      "claims": [
+        {
+          "type": "site_observation",
+          "summary": "BP1 preserves 35 identified tracks, three distinctive trackways, a track association, and isolated tracks.",
+          "page": null,
+          "figure": "4",
+          "table": null
+        },
+        {
+          "type": "ichnological_observation",
+          "summary": "The site includes several dinosaur track morphologies, contributing to evidence for a diverse Middle Jurassic dinosaur fauna on Skye.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "tracksite:brothers-point:bp3",
+    "evidence_type": "trackway",
+    "taxon": "Dinosauria",
+    "taxon_rank": "clade",
+    "specimen_label": "Brothers' Point 3 (BP3)",
+    "material": [
+      "18 identified dinosaur tracks",
+      "2 bipedal trackways",
+      "isolated tracks"
+    ],
+    "locality": {
+      "name": "Brothers' Point 3, west of Lonfearn Burn",
+      "country": "United Kingdom",
+      "region": "Isle of Skye, Scotland"
+    },
+    "formation": "Lealt Shale Formation",
+    "age": {
+      "min_ma": 165.3,
+      "max_ma": 168.2,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "formation_stage_constraint_with_ics_conversion",
+      "basis": "The track-bearing bed is in the Lonfearn Member of the Lealt Shale Formation, which is generally treated as Bathonian; the numeric envelope uses current ICS Bathonian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0229640:bp3",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0229640",
+        "doi": "10.1371/journal.pone.0229640",
+        "title": "Novel track morphotypes from new tracksites indicate increased Middle Jurassic dinosaur diversity on the Isle of Skye, Scotland",
+        "year": 2020,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229640",
+        "authors": [
+          "Paige E. dePolo",
+          "Stephen L. Brusatte",
+          "Thomas J. Challands",
+          "Davide Foffa",
+          "Mark Wilkinson",
+          "Neil D. L. Clark",
+          "Jon Hoad",
+          "Paulo Victor Luiz Gomes da Costa Pereira",
+          "Dugald A. Ross",
+          "Thomas J. Wade"
+        ]
+      },
+      "claims": [
+        {
+          "type": "site_observation",
+          "summary": "BP3 preserves 18 identified tracks, including two bipedal trackways and isolated tracks.",
+          "page": null,
+          "figure": "5",
+          "table": null
+        },
+        {
+          "type": "ichnological_observation",
+          "summary": "Together with BP1, BP3 records theropod, possible ornithopod, and possible stegosaurian trackmakers in a dynamic coastal setting.",
+          "page": null,
+          "figure": null,
           "table": null
         }
       ]
