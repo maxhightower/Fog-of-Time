@@ -39,7 +39,7 @@ All ages are millions of years before present (Ma).
 - `min_ma` is the younger numerical boundary.
 - `max_ma` is the older numerical boundary.
 - `best_ma` is optional and must fall inside the interval.
-- `precision` distinguishes an explicit range from a reported point, an approximate point, a derived interval, or unknown precision.
+- `precision` distinguishes an explicit range, an approximate range, a reported point, an approximate point, a derived interval, or unknown precision.
 - the dating method and basis remain attached to the publication report.
 
 A paper that says “ca. 228.3 Ma” therefore remains an approximate point even when no numerical error term is supplied. The UI must display uncertainty rather than silently replacing an interval with its midpoint or an approximate age with fake exactness.
