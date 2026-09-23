@@ -1,0 +1,47 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1371/journal.pone.0004397",
+    "doi": "10.1371/journal.pone.0004397",
+    "title": "A Basal Sauropodomorph (Dinosauria: Saurischia) from the Ischigualasto Formation (Triassic, Carnian) and the Early Evolution of Sauropodomorpha",
+    "year": 2009,
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0004397",
+    "authors": ["Ricardo N. Martinez", "Oscar A. Alcober"]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1371/journal.pone.0004397:pvsj-874",
+      "physical_key": "specimen:pvsj:874",
+      "evidence_type": "body_fossil",
+      "taxon": {"name": "Panphagia protos", "rank": "species"},
+      "specimen": {"institution_code": "PVSJ", "catalog_number": "874", "label": "PVSJ 874"},
+      "material": ["partial skull", "lower jaws", "cervical vertebrae", "dorsal vertebrae", "sacral vertebra", "caudal vertebrae", "left scapula", "left ilium", "left pubis", "left ischium", "right tibia", "right astragalus", "metatarsals", "pedal phalanges"],
+      "locality": {
+        "name": "Valle Pintado, Hollada de Ischigualasto, Ischigualasto Provincial Park",
+        "country": "Argentina",
+        "region": "San Juan Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {"formation": "Ischigualasto Formation", "member": null, "group": null},
+      "age": {
+        "min_ma": 228.3,
+        "max_ma": 228.3,
+        "best_ma": 228.3,
+        "precision": "approximate_point",
+        "method": "dated_ash_stratigraphic_correlation",
+        "basis": "Holotypic layer 40 m above the formation base and approximately level with a dated ash.",
+        "notes": "The paper reports ca. 228.3 Ma and a Lower Carnian age; numerical uncertainty is not specified in the specimen description."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {"type": "taxonomic_assignment", "summary": "PVSJ 874 is designated the holotype of Panphagia protos.", "page": null, "figure": null, "table": null},
+        {"type": "anatomical_observation", "summary": "The holotype preserves partial cranial, axial, pectoral, pelvic, hindlimb and pedal elements.", "page": null, "figure": null, "table": null},
+        {"type": "stratigraphic_context", "summary": "The holotype occurs 40 m above the base of the Ischigualasto Formation, approximately at the level of the dated ash used for the reported age.", "page": null, "figure": "1", "table": null}
+      ]
+    }
+  ]
+}
