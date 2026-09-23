@@ -8,6 +8,9 @@ import { Timeline, type Selection } from './timeline'
 const DEFAULT_VIEW = { from: 500, to: 0 }
 const MAX_AGE = TIMESCALE_OLDEST
 const MIN_SPAN = 0.5
+const MIN_APP_WIDTH = 960
+const MAX_APP_WIDTH = 2560
+const DEFAULT_APP_WIDTH = 1440
 
 const app = document.querySelector<HTMLDivElement>('#app')
 if (!app) throw new Error('Missing #app root')
@@ -99,6 +102,16 @@ app.innerHTML = `
             <p class="layer-note">Replay how the evidence accumulated as papers were published.</p>
           </div>
         </section>
+
+        <section class="panel">
+          <h2 class="panel-title">Display</h2>
+          <div class="year-heading">
+            <label class="field-label" for="width-slider">Maximum width</label>
+            <output id="width-output" for="width-slider"></output>
+          </div>
+          <input id="width-slider" class="width-slider" type="range" min="${MIN_APP_WIDTH}" max="${MAX_APP_WIDTH}" step="40" value="${DEFAULT_APP_WIDTH}" />
+          <p class="layer-note">Drag to the far right to use the full window width.</p>
+        </section>
       </aside>
 
       <main class="main-column">
@@ -120,6 +133,7 @@ app.innerHTML = `
                 <button id="zoom-out" type="button" class="icon-button" aria-label="Zoom out">−</button>
                 <button id="zoom-in" type="button" class="icon-button" aria-label="Zoom in">+</button>
                 <button id="zoom-fit" type="button" class="text-button">Fit evidence</button>
+                <button id="zoom-reset" type="button" class="text-button">Reset</button>
               </div>
             </div>
           </div>
@@ -520,6 +534,20 @@ function wireControls() {
 
   $<HTMLButtonElement>('#zoom-in').addEventListener('click', () => timeline.zoom(0.6))
   $<HTMLButtonElement>('#zoom-out').addEventListener('click', () => timeline.zoom(1 / 0.6))
+  $<HTMLButtonElement>('#zoom-reset').addEventListener('click', () => setView(DEFAULT_VIEW.from, DEFAULT_VIEW.to))
+
+  const widthSlider = $<HTMLInputElement>('#width-slider')
+  const widthOutput = $<HTMLOutputElement>('#width-output')
+  const applyWidth = () => {
+    const width = Number(widthSlider.value)
+    const full = width >= MAX_APP_WIDTH
+    // The top of the slider means "no limit"; the shell still keeps its side gutters.
+    document.documentElement.style.setProperty('--app-max-width', full ? '100vw' : `${width}px`)
+    widthOutput.textContent = full ? 'Full width' : `${width} px`
+  }
+  widthSlider.addEventListener('input', applyWidth)
+  applyWidth()
+
   $<HTMLButtonElement>('#zoom-fit').addEventListener('click', () => {
     const visible = filteredRecords()
     if (!visible.length) return
