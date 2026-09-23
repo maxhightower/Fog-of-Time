@@ -73,7 +73,8 @@ function formatAge(record: TimelineEvidence): string {
   if (precision === 'approximate_point') return `~${point.toFixed(2)} Ma`
   if (precision === 'reported_point' || min_ma === max_ma) return `${point.toFixed(2)} Ma`
   const range = `${max_ma.toFixed(2)}–${min_ma.toFixed(2)} Ma`
-  return best_ma == null ? range : `${range} · best ${best_ma.toFixed(2)} Ma`
+  const displayedRange = precision === 'approximate_range' ? `~${range}` : range
+  return best_ma == null ? displayedRange : `${displayedRange} · best ${best_ma.toFixed(2)} Ma`
 }
 
 function midpoint(record: TimelineEvidence): number {
