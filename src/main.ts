@@ -31,10 +31,28 @@ app.innerHTML = `
       <aside class="layers" aria-label="Timeline layers and filters">
         <section class="panel">
           <h2 class="panel-title">Filters</h2>
-          <label class="field">Taxon <select id="taxon-filter"><option value="">All taxa</option></select></label>
-          <label class="field">Evidence <select id="type-filter"><option value="">All evidence types</option></select></label>
-          <label class="field">Country <select id="country-filter"><option value="">All countries</option></select></label>
-          <label class="field">Date precision <select id="precision-filter"><option value="">Any precision</option></select></label>
+          <div class="filter-list">
+            <div class="filter-row" data-filter="taxon" hidden>
+              <label class="field">Taxon <select id="taxon-filter"><option value="">All taxa</option></select></label>
+              <button type="button" class="icon-button remove-filter" aria-label="Remove taxon filter">×</button>
+            </div>
+            <div class="filter-row" data-filter="type" hidden>
+              <label class="field">Evidence <select id="type-filter"><option value="">All evidence types</option></select></label>
+              <button type="button" class="icon-button remove-filter" aria-label="Remove evidence filter">×</button>
+            </div>
+            <div class="filter-row" data-filter="country" hidden>
+              <label class="field">Country <select id="country-filter"><option value="">All countries</option></select></label>
+              <button type="button" class="icon-button remove-filter" aria-label="Remove country filter">×</button>
+            </div>
+            <div class="filter-row" data-filter="precision" hidden>
+              <label class="field">Date precision <select id="precision-filter"><option value="">Any precision</option></select></label>
+              <button type="button" class="icon-button remove-filter" aria-label="Remove date precision filter">×</button>
+            </div>
+          </div>
+          <div class="add-filter">
+            <button id="add-filter" type="button" class="text-button" aria-haspopup="menu" aria-expanded="false" aria-controls="filter-menu">+ Add filter</button>
+            <div id="filter-menu" class="filter-menu" role="menu" hidden></div>
+          </div>
           <button id="reset-filter" type="button" class="text-button">Reset filters</button>
         </section>
 
@@ -177,6 +195,11 @@ const filters = {
   country: $<HTMLSelectElement>('#country-filter'),
   precision: $<HTMLSelectElement>('#precision-filter'),
 }
+type FilterKey = keyof typeof filters
+const FILTER_LABELS: Record<FilterKey, string> = { taxon: 'Taxon', type: 'Evidence type', country: 'Country', precision: 'Date precision' }
+const addFilterButton = $<HTMLButtonElement>('#add-filter')
+const filterMenu = $<HTMLDivElement>('#filter-menu')
+const filterRow = (key: FilterKey) => $<HTMLDivElement>(`.filter-row[data-filter="${key}"]`)
 
 let manifest: DatasetManifest
 let records: TimelineEvidence[] = []
@@ -400,6 +423,67 @@ function fillOptions(select: HTMLSelectElement, values: string[], label: (value:
   }
 }
 
+// Filters stay hidden until added from the "Add filter" menu; removing one
+// clears its value.
+function closeFilterMenu() {
+  filterMenu.hidden = true
+  addFilterButton.setAttribute('aria-expanded', 'false')
+}
+
+function openFilterMenu() {
+  filterMenu.replaceChildren()
+  for (const key of Object.keys(filters) as FilterKey[]) {
+    if (!filterRow(key).hidden) continue
+    const item = document.createElement('button')
+    item.type = 'button'
+    item.role = 'menuitem'
+    item.className = 'filter-menu-item'
+    item.textContent = FILTER_LABELS[key]
+    item.addEventListener('click', () => {
+      filterRow(key).hidden = false
+      closeFilterMenu()
+      updateAddFilter()
+      filters[key].focus()
+    })
+    filterMenu.append(item)
+  }
+  filterMenu.hidden = false
+  addFilterButton.setAttribute('aria-expanded', 'true')
+  filterMenu.querySelector<HTMLButtonElement>('button')?.focus()
+}
+
+function removeFilter(key: FilterKey) {
+  filterRow(key).hidden = true
+  filters[key].value = ''
+  updateAddFilter()
+  scheduleRender()
+}
+
+function updateAddFilter() {
+  addFilterButton.disabled = (Object.keys(filters) as FilterKey[]).every(key => !filterRow(key).hidden)
+}
+
+function wireFilterMenu() {
+  addFilterButton.addEventListener('click', () => (filterMenu.hidden ? openFilterMenu() : closeFilterMenu()))
+  for (const key of Object.keys(filters) as FilterKey[]) {
+    filterRow(key).querySelector<HTMLButtonElement>('.remove-filter')!.addEventListener('click', () => removeFilter(key))
+  }
+  document.addEventListener('click', event => {
+    if (!filterMenu.hidden && !(event.target instanceof Node && (filterMenu.contains(event.target) || addFilterButton.contains(event.target)))) closeFilterMenu()
+  })
+  filterMenu.addEventListener('keydown', event => {
+    const items = [...filterMenu.querySelectorAll<HTMLButtonElement>('button')]
+    const index = items.indexOf(document.activeElement as HTMLButtonElement)
+    if (event.key === 'Escape') {
+      closeFilterMenu()
+      addFilterButton.focus()
+    } else if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+      event.preventDefault()
+      items[(index + (event.key === 'ArrowDown' ? 1 : -1) + items.length) % items.length]?.focus()
+    }
+  })
+}
+
 function stopPlaying() {
   if (playTimer !== null) clearInterval(playTimer)
   playTimer = null
@@ -451,8 +535,9 @@ function wireControls() {
   labelGroups.addEventListener('change', scheduleRender)
   labelRecords.addEventListener('change', scheduleRender)
   for (const select of Object.values(filters)) select.addEventListener('change', scheduleRender)
+  wireFilterMenu()
   $<HTMLButtonElement>('#reset-filter').addEventListener('click', () => {
-    for (const select of Object.values(filters)) select.value = ''
+    for (const key of Object.keys(filters) as FilterKey[]) removeFilter(key)
     stopPlaying()
     yearSlider.value = yearSlider.max
     updateYear()

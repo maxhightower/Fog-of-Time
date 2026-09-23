@@ -82,6 +82,18 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
 .shape-legend li { color: var(--text); }
 .shape-legend svg { flex: none; color: #c8c4b3; }
 
+.filter-list { display: grid; gap: 10px; }
+.filter-list:not(:has(.filter-row:not([hidden]))) { display: none; }
+.filter-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; align-items: end; }
+.filter-row[hidden] { display: none; }
+.remove-filter { height: 36px; min-height: 36px; font-size: 1.1rem; color: var(--muted); }
+.add-filter { position: relative; }
+.add-filter .text-button { width: 100%; }
+.text-button:disabled { opacity: 0.5; cursor: default; }
+.filter-menu { position: absolute; z-index: 5; top: calc(100% + 6px); left: 0; right: 0; display: grid; padding: 6px; border: 1px solid var(--border); border-radius: 10px; background: #0d0e0b; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45); }
+.filter-menu[hidden] { display: none; }
+.filter-menu-item { text-align: left; padding: 8px 10px; border: 0; border-radius: 6px; background: transparent; color: var(--text); cursor: pointer; font-size: 0.9rem; }
+.filter-menu-item:hover, .filter-menu-item:focus-visible { background: var(--panel-2); outline: none; }
 .year-heading { display: flex; justify-content: space-between; align-items: baseline; }
 .year-heading output { font-weight: 700; font-variant-numeric: tabular-nums; }
 .year-control { display: flex; gap: 8px; align-items: center; }
