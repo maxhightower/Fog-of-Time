@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1038/s41598-018-31874-9",
+    "doi": "10.1038/s41598-018-31874-9",
+    "title": "A new sauropodiform dinosaur with a ‘sauropodan’ skull from the Lower Jurassic Lufeng Formation of Yunnan Province, China",
+    "year": 2018,
+    "journal": "Scientific Reports",
+    "url": "https://www.nature.com/articles/s41598-018-31874-9",
+    "authors": ["Qian-Nan Zhang", "Hai-Lu You", "Tao Wang", "Sankar Chatterjee"]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1038/s41598-018-31874-9:lfgt-zlj0033",
+      "physical_key": "specimen:lfgt:zlj0033",
+      "evidence_type": "body_fossil",
+      "taxon": {"name": "Yizhousaurus sunae", "rank": "species"},
+      "specimen": {"institution_code": "LFGT", "catalog_number": "ZLJ0033", "label": "LFGT-ZLJ0033"},
+      "material": ["skull", "mandible", "cervical vertebrae", "dorsal vertebrae", "sacral vertebrae", "anterior caudal vertebrae", "pectoral girdle", "pelvic girdle", "forelimbs", "femora"],
+      "locality": {"name": "near Duwafang Village, Chuanjie Town, Lufeng County", "country": "China", "region": "Yunnan Province", "latitude": null, "longitude": null, "coordinate_uncertainty_km": null},
+      "stratigraphy": {"formation": "Lufeng Formation", "member": "Zhangjiaao Member", "group": null},
+      "age": {
+        "min_ma": 174.7,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "stage_constraint_with_ics_conversion",
+        "basis": "The paper assigns the uppermost Zhangjiaao Member specimen to the Lower Jurassic; the numeric envelope uses current ICS Lower Jurassic boundaries.",
+        "notes": "The source paper does not provide a narrower numerical specimen age."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {"type": "taxonomic_assignment", "summary": "LFGT-ZLJ0033 is designated the holotype of Yizhousaurus sunae.", "page": null, "figure": "2A", "table": null},
+        {"type": "anatomical_observation", "summary": "The holotype is an approximately 7 m long, nearly complete skeleton with a well-preserved skull and mandible.", "page": null, "figure": "2A", "table": null},
+        {"type": "stratigraphic_context", "summary": "The skeleton was excavated from the uppermost layer of the Zhangjiaao Member of the Lufeng Formation.", "page": null, "figure": "1", "table": null}
+      ]
+    }
+  ]
+}
