@@ -68,8 +68,10 @@ let records: TimelineEvidence[] = []
 let selectedKey: string | null = null
 
 function formatAge(record: TimelineEvidence): string {
-  const { min_ma, max_ma, best_ma } = record.age
-  if (min_ma === max_ma) return `${min_ma.toFixed(2)} Ma`
+  const { min_ma, max_ma, best_ma, precision } = record.age
+  const point = best_ma ?? min_ma
+  if (precision === 'approximate_point') return `~${point.toFixed(2)} Ma`
+  if (precision === 'reported_point' || min_ma === max_ma) return `${point.toFixed(2)} Ma`
   const range = `${max_ma.toFixed(2)}–${min_ma.toFixed(2)} Ma`
   return best_ma == null ? range : `${range} · best ${best_ma.toFixed(2)} Ma`
 }
