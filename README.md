@@ -117,8 +117,8 @@ not part of the production timeline.
 
 ## DINO-2 scale-out
 
-A separate PBDB-backed import adds **100 more publications** and **268 fossil occurrence records** while keeping provenance explicit. These database-derived records are marked `secondary_citation`; they do not masquerade as direct full-text extraction.
+Two PBDB-backed scale-out batches add **200 publications** and **571 fossil occurrence records** while keeping provenance explicit. These database-derived records are marked `secondary_citation`; they do not masquerade as direct full-text extraction.
 
-The current DINO-2 snapshot contains **125 publications and 424 physical evidence objects** in total.
+The current DINO-3 snapshot contains **225 publications and 727 physical evidence objects** in total.
 
 See `data/acquisition/README.md` for both acquisition tiers and the import workflow.
