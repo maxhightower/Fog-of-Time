@@ -1,0 +1,260 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1038/s41467-018-04443-x",
+    "doi": "10.1038/s41467-018-04443-x",
+    "title": "Fossilized skin reveals coevolution with feathers and metabolism in feathered dinosaurs and early birds",
+    "year": 2018,
+    "journal": "Nature Communications",
+    "url": "https://www.nature.com/articles/s41467-018-04443-x",
+    "authors": [
+      "Maria E. McNamara",
+      "Fucheng Zhang",
+      "Stuart L. Kearns",
+      "Patrick J. Orr",
+      "André Toulouse",
+      "Tara Foley",
+      "David W. E. Hone",
+      "Chris S. Rogers",
+      "Michael J. Benton",
+      "Diane Johnson",
+      "Xing Xu",
+      "Zhonghe Zhou"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1038/s41467-018-04443-x:ivpp-v-13171",
+      "physical_key": "soft-tissue:ivpp-v-13171",
+      "evidence_type": "soft_tissue",
+      "taxon": {
+        "name": "Confuciusornis",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "IVPP V",
+        "catalog_number": "13171",
+        "label": "IVPP V 13171"
+      },
+      "material": [
+        "phosphatised fossil skin patches",
+        "epidermal corneocytes",
+        "feather-associated soft tissue sample"
+      ],
+      "locality": {
+        "name": "Jehol Biota specimen; exact source locality not specified in study methods",
+        "country": "China",
+        "region": "northeastern China",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 143.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_epoch_assignment_with_ics_conversion",
+        "basis": "The paper identifies the four specimens as Early Cretaceous Jehol Biota fossils; the numeric envelope conservatively spans the current Early Cretaceous.",
+        "notes": "No more precise specimen-level age or formation is transferred without specimen-specific provenance."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "soft_tissue_observation",
+          "summary": "Small phosphatised skin patches associated with feathers were identified in IVPP V 13171.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "microstructural_observation",
+          "summary": "The fossil tissue preserves polygonal epidermal corneocytes and keratin-tonofibril-scale ultrastructure.",
+          "page": null,
+          "figure": "1–2",
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41467-018-04443-x:stm31-1",
+      "physical_key": "soft-tissue:stm31-1",
+      "evidence_type": "soft_tissue",
+      "taxon": {
+        "name": "Beipiaosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "STM",
+        "catalog_number": "31-1",
+        "label": "STM31-1"
+      },
+      "material": [
+        "phosphatised fossil skin patches",
+        "epidermal corneocytes",
+        "feather-associated soft tissue sample"
+      ],
+      "locality": {
+        "name": "Jehol Biota specimen; exact source locality not specified in study methods",
+        "country": "China",
+        "region": "northeastern China",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 143.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_epoch_assignment_with_ics_conversion",
+        "basis": "The paper identifies the four specimens as Early Cretaceous Jehol Biota fossils; the numeric envelope conservatively spans the current Early Cretaceous.",
+        "notes": "No more precise specimen-level age or formation is transferred without specimen-specific provenance."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "soft_tissue_observation",
+          "summary": "Small phosphatised skin patches associated with feathers were identified in STM31-1.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "microstructural_observation",
+          "summary": "The fossil tissue preserves polygonal epidermal corneocytes and keratin-tonofibril-scale ultrastructure.",
+          "page": null,
+          "figure": "1–2",
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41467-018-04443-x:ivpp-v-12811",
+      "physical_key": "soft-tissue:ivpp-v-12811",
+      "evidence_type": "soft_tissue",
+      "taxon": {
+        "name": "Sinornithosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "IVPP V",
+        "catalog_number": "12811",
+        "label": "IVPP V 12811"
+      },
+      "material": [
+        "phosphatised fossil skin patches",
+        "epidermal corneocytes",
+        "feather-associated soft tissue sample"
+      ],
+      "locality": {
+        "name": "Jehol Biota specimen; exact source locality not specified in study methods",
+        "country": "China",
+        "region": "northeastern China",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 143.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_epoch_assignment_with_ics_conversion",
+        "basis": "The paper identifies the four specimens as Early Cretaceous Jehol Biota fossils; the numeric envelope conservatively spans the current Early Cretaceous.",
+        "notes": "No more precise specimen-level age or formation is transferred without specimen-specific provenance."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "soft_tissue_observation",
+          "summary": "Small phosphatised skin patches associated with feathers were identified in IVPP V 12811.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "microstructural_observation",
+          "summary": "The fossil tissue preserves polygonal epidermal corneocytes and keratin-tonofibril-scale ultrastructure.",
+          "page": null,
+          "figure": "1–2",
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41467-018-04443-x:ivpp-v-17972a",
+      "physical_key": "soft-tissue:ivpp-v-17972a",
+      "evidence_type": "soft_tissue",
+      "taxon": {
+        "name": "Microraptor",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "IVPP V",
+        "catalog_number": "17972A",
+        "label": "IVPP V 17972A"
+      },
+      "material": [
+        "phosphatised fossil skin patches",
+        "epidermal corneocytes",
+        "feather-associated soft tissue sample"
+      ],
+      "locality": {
+        "name": "Jehol Biota specimen; exact source locality not specified in study methods",
+        "country": "China",
+        "region": "northeastern China",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 143.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_epoch_assignment_with_ics_conversion",
+        "basis": "The paper identifies the four specimens as Early Cretaceous Jehol Biota fossils; the numeric envelope conservatively spans the current Early Cretaceous.",
+        "notes": "No more precise specimen-level age or formation is transferred without specimen-specific provenance."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "soft_tissue_observation",
+          "summary": "Small phosphatised skin patches associated with feathers were identified in IVPP V 17972A.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "microstructural_observation",
+          "summary": "The fossil tissue preserves polygonal epidermal corneocytes and keratin-tonofibril-scale ultrastructure.",
+          "page": null,
+          "figure": "1–2",
+          "table": null
+        }
+      ]
+    }
+  ]
+}
