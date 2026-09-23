@@ -176,9 +176,10 @@ export class Timeline {
       barEnd = Math.max(barEnd, end)
     }
     if (barEnd < 0 || barStart > this.width) return null
+    // Paper rows carry no text label; the tooltip and detail view identify them.
+    if (kind !== 'record') return { x0: barStart, x1: barEnd, labelX: null, labelAnchor: 'start' }
 
-    const font = kind === 'record' ? undefined : '700 12px Inter, ui-sans-serif, system-ui, sans-serif'
-    const labelWidth = this.textWidth(label, font)
+    const labelWidth = this.textWidth(label)
     if (barEnd + LABEL_GAP + labelWidth <= this.width) {
       return { x0: barStart, x1: barEnd + LABEL_GAP + labelWidth, labelX: barEnd + LABEL_GAP, labelAnchor: 'start' }
     }
@@ -217,10 +218,8 @@ export class Timeline {
     }
 
     for (const paper of model.papers) {
-      const count = paper.records.length
-      const label = `${paper.short} · ${count} ${count === 1 ? 'record' : 'records'}`
       if (model.expanded.has(paper.id)) {
-        const header = this.makeRow('paper-header', paper.id, `▾ ${label}`, [{ min: paper.min, max: paper.max, best: null, precision: 'explicit_range', records: paper.records }], { paper })
+        const header = this.makeRow('paper-header', paper.id, '', [{ min: paper.min, max: paper.max, best: null, precision: 'explicit_range', records: paper.records }], { paper })
         if (!header) continue
         // Pack the paper's records into their own sub-lanes so the block stays together.
         const rows = recordRows([...paper.records].sort((a, b) => b.age.max_ma - a.age.max_ma))
@@ -233,7 +232,7 @@ export class Timeline {
         }
         blocks.push({ rows: [header, ...rows], paper, expanded: true })
       } else {
-        const row = this.makeRow('paper', paper.id, label, paper.windows, { paper })
+        const row = this.makeRow('paper', paper.id, '', paper.windows, { paper })
         if (row) blocks.push({ rows: [row], paper, expanded: false })
       }
     }
@@ -376,7 +375,7 @@ export class Timeline {
     }
 
     if (row.labelX !== null) {
-      const text = svg('text', { x: row.labelX, y: centre + 4, 'text-anchor': row.labelAnchor, class: row.kind === 'record' ? 'bar-label' : 'bar-label paper-label' })
+      const text = svg('text', { x: row.labelX, y: centre + 4, 'text-anchor': row.labelAnchor, class: 'bar-label' })
       text.textContent = row.label
       group.append(text)
     }

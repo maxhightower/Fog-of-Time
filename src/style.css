@@ -117,8 +117,6 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
 .row:focus-visible .hit { stroke: var(--accent-strong); stroke-width: 2; }
 .row:hover rect:not(.hit), .row:hover circle { filter: brightness(1.18); }
 .bar-label { fill: #d7d5cc; font-size: 12px; font-weight: 600; paint-order: stroke; stroke: #191b17; stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
-.paper-label { fill: var(--text); font-weight: 700; }
-.row-paper-header .bar-label { fill: var(--accent-strong); }
 .header-line { stroke: var(--accent-strong); stroke-width: 2; stroke-linecap: round; }
 .window-link { stroke: rgba(255, 255, 255, 0.3); stroke-width: 1; stroke-dasharray: 2 3; }
 .best-tick { stroke: var(--text); stroke-width: 2; stroke-linecap: round; }
