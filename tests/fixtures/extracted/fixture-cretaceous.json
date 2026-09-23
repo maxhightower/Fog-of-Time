@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": true,
+  "publication": {
+    "id": "fixture:cretaceous-description",
+    "doi": null,
+    "title": "Development fixture: terminal Cretaceous tyrannosaur specimen description",
+    "year": 2022,
+    "journal": "Fixture Journal — not a real publication",
+    "url": null,
+    "authors": ["Example Author"]
+  },
+  "evidence": [
+    {
+      "id": "fixture:cretaceous-description:e1",
+      "physical_key": "fixture:specimen:cretaceous-001",
+      "evidence_type": "body_fossil",
+      "taxon": { "name": "Tyrannosaurus rex", "rank": "species" },
+      "specimen": { "institution_code": "FIX", "catalog_number": "KPG-001", "label": "FIX KPG-001" },
+      "material": ["skull", "femur"],
+      "locality": { "name": "Fixture locality C", "country": "United States", "region": "Montana", "latitude": null, "longitude": null, "coordinate_uncertainty_km": null },
+      "stratigraphy": { "formation": "Hell Creek Formation", "member": null, "group": null },
+      "age": { "min_ma": 66.0, "max_ma": 68.0, "best_ma": 67.0, "precision": "explicit_range", "method": "stratigraphic_constraint", "basis": "Development fixture interval", "notes": null },
+      "evidence_role": "original_description",
+      "claims": [
+        { "type": "anatomical_observation", "summary": "Fixture anatomical claim used to test terminal-Cretaceous timeline placement.", "page": "21", "figure": "7", "table": null }
+      ]
+    }
+  ]
+}
