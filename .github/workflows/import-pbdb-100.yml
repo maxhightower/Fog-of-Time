@@ -1,0 +1,87 @@
+name: import 100 pbdb dinosaur papers
+
+on:
+  push:
+    branches:
+      - feature/dino2-pbdb-100
+    paths:
+      - .github/workflows/import-pbdb-100.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: feature/dino2-pbdb-100
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Import 100 PBDB-backed dinosaur publications
+        run: |
+          python scripts/data/acquisition/import_pbdb_references.py \
+            --paper-count 100 \
+            --max-occurrences-per-reference 75 \
+            --reference-probe-count 550 \
+            --max-occurrence-rows 60000 \
+            --workers 16
+
+      - name: Build canonical SQLite and static dataset
+        run: python scripts/data/build_data.py
+
+      - name: Validate import counts and SQLite integrity
+        run: |
+          python - <<'PY'
+          import json
+          import sqlite3
+          from pathlib import Path
+
+          manifest = json.loads(Path("data/acquisition/pbdb-import-manifest.json").read_text())
+          assert manifest["imported_publications"] == 100, manifest
+          assert manifest["imported_occurrences"] > 0, manifest
+
+          con = sqlite3.connect("build/fog-of-time.sqlite")
+          assert con.execute("PRAGMA foreign_key_check").fetchall() == []
+          publication_count = con.execute("SELECT COUNT(*) FROM publication").fetchone()[0]
+          evidence_count = con.execute("SELECT COUNT(*) FROM physical_evidence").fetchone()[0]
+          report_count = con.execute("SELECT COUNT(*) FROM publication_evidence").fetchone()[0]
+          assert publication_count >= 125, publication_count
+          assert evidence_count >= 256, evidence_count
+          assert report_count >= evidence_count
+
+          print("PBDB imported publications:", manifest["imported_publications"])
+          print("PBDB imported occurrences:", manifest["imported_occurrences"])
+          print("Total publications:", publication_count)
+          print("Total physical evidence:", evidence_count)
+          print("Total publication reports:", report_count)
+          PY
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: Validate frontend with enlarged dataset
+        run: |
+          npm install
+          npm run build
+
+      - name: Commit imported snapshot
+        run: |
+          git config user.name "fog-of-time-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/extracted/pbdb-ref-*.json
+          git add data/acquisition/pbdb-import-manifest.json
+          git add public/data/manifest.json public/data/timeline/all.json
+          if git diff --cached --quiet; then
+            echo "PBDB snapshot unchanged."
+            exit 0
+          fi
+          git commit -m "DINO-2: ingest 100 PBDB-backed dinosaur publications"
+          git push origin HEAD:feature/dino2-pbdb-100
