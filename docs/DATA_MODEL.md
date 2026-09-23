@@ -44,6 +44,10 @@ All ages are millions of years before present (Ma).
 
 A paper that says “ca. 228.3 Ma” therefore remains an approximate point even when no numerical error term is supplied. The UI must display uncertainty rather than silently replacing an interval with its midpoint or an approximate age with fake exactness.
 
+## Publication dates
+
+`publication.year` is required. `publication.month` (1–12) is optional and records the month of first publication, online or print, whichever came first. Months for the current corpus come from each DOI's Crossref `published` date and were spot-checked against the publisher article pages.
+
 ## Provenance
 
 Claims retain compact source locators (page, figure, table when available). Fog of Time does not need to store full copyrighted papers in the repository.

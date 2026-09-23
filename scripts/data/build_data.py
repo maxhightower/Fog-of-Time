@@ -61,6 +61,9 @@ def validate_document(document: dict[str, Any], path: Path) -> None:
         fail(path, "publication id/title may not be empty")
     if not isinstance(publication["year"], int) or not 1600 <= publication["year"] <= 2100:
         fail(path, "publication year must be an integer in 1600..2100")
+    month = publication.get("month")
+    if month is not None and (not isinstance(month, int) or isinstance(month, bool) or not 1 <= month <= 12):
+        fail(path, "publication month must be null or an integer in 1..12")
     if not isinstance(publication["authors"], list) or not publication["authors"]:
         fail(path, "publication authors must be a non-empty array")
     if not all(isinstance(author, str) and author.strip() for author in publication["authors"]):
@@ -174,11 +177,11 @@ def insert_documents(connection: sqlite3.Connection, documents: list[tuple[Path,
         publication_ids.add(publication["id"])
 
         connection.execute(
-            """INSERT INTO publication(id, doi, title, year, journal, url, development_fixture)
-               VALUES (?, ?, ?, ?, ?, ?, ?)""",
+            """INSERT INTO publication(id, doi, title, year, month, journal, url, development_fixture)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
             (
                 publication["id"], publication.get("doi"), publication["title"], publication["year"],
-                publication.get("journal"), publication.get("url"), fixture,
+                publication.get("month"), publication.get("journal"), publication.get("url"), fixture,
             ),
         )
 
@@ -325,6 +328,7 @@ def export_web(connection: sqlite3.Connection, documents: list[tuple[Path, dict[
              p.doi AS publication_doi,
              p.title AS publication_title,
              p.year AS publication_year,
+             p.month AS publication_month,
              p.journal AS publication_journal,
              p.url AS publication_url
            FROM publication_evidence r
@@ -413,6 +417,7 @@ def export_web(connection: sqlite3.Connection, documents: list[tuple[Path, dict[
                         "doi": representative["publication_doi"],
                         "title": representative["publication_title"],
                         "year": representative["publication_year"],
+                        "month": representative["publication_month"],
                         "journal": representative["publication_journal"],
                         "url": representative["publication_url"],
                         "authors": authors,

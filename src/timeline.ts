@@ -1,6 +1,6 @@
 import type { TimelineEvidence } from './types'
 import { categoryOf, groupLabelText, recordLabelText, recordWindow, type GroupLabel, type RecordLabel, type AgeWindow, type ColorBy, type RecordGroup, type TimeAxis } from './model'
-import { formatMa, formatSpan, formatWindow, humanize, PRECISION_LABELS } from './format'
+import { formatMa, formatPublished, formatSpan, formatWindow, humanize, MONTHS, PRECISION_LABELS } from './format'
 import { TIMESCALE, type GeoRank } from './timescale'
 
 const SVG_NS = 'http://www.w3.org/2000/svg'
@@ -444,7 +444,10 @@ export class Timeline {
     const top = centre - height / 2
     const isPoint = window.max === window.min
 
-    if (isPoint && window.precision === 'approximate_point') {
+    if (isPoint && this.model!.axis === 'year') {
+      // A paper's publication month: a plain dot with a surface ring so overlapping dots stay distinct.
+      group.append(svg('circle', { cx: x0, cy: centre, r: 5, class: 'publication-dot', style: `fill: ${color}` }))
+    } else if (isPoint && window.precision === 'approximate_point') {
       group.append(svg('circle', { cx: x0, cy: centre, r: POINT_GLOW, fill: `url(#${gradient(color, 'glow')})` }))
       group.append(svg('circle', { cx: x0, cy: centre, r: 3, class: 'point-core', style: `fill: ${color}` }))
     } else if (isPoint) {
@@ -476,22 +479,36 @@ export class Timeline {
     const digits = Math.max(0, -Math.floor(Math.log10(step)))
     axis.append(svg('line', { x1: 0, x2: this.width, y1: 0.5, y2: 0.5, class: 'axis-line' }))
     for (const value of this.ticks()) {
-      // Year ticks mark the start of each year; its label sits mid-year, under its bars.
-      const x = this.x(model.axis === 'year' ? value + 0.5 : value)
+      const x = this.x(value)
       if (x < -0.5 || x > this.width + 0.5) continue
       axis.append(svg('line', { x1: x, x2: x, y1: 0, y2: 5, class: 'axis-line' }))
       const anchor = x < 30 ? 'start' : x > this.width - 30 ? 'end' : 'middle'
       const text = svg('text', { x, y: 20, 'text-anchor': anchor, class: 'axis-label' })
-      text.textContent = model.axis === 'year' ? String(Math.round(value)) : formatMa(Math.abs(value) < step / 1000 ? 0 : value, digits)
+      text.textContent = model.axis === 'year' ? this.yearTickLabel(value, step) : formatMa(Math.abs(value) < step / 1000 ? 0 : value, digits)
       axis.append(text)
     }
   }
 
   private tickStep(): number {
     const model = this.model!
-    const step = niceStep(Math.abs(model.to - model.from), this.width / 110)
-    // Years are whole numbers; never tick more finely than one year.
-    return model.axis === 'year' ? Math.max(1, step) : step
+    const span = Math.abs(model.to - model.from)
+    const targetTicks = this.width / 110
+    if (model.axis === 'year') {
+      // Calendar-friendly steps: whole months below a year, round years above.
+      // Year and month labels are short, so they can sit closer together than Ma labels.
+      const steps = [1 / 12, 2 / 12, 3 / 12, 6 / 12, 1, 2, 5, 10, 20, 50, 100]
+      return steps.find(step => span / step <= this.width / 70) ?? steps[steps.length - 1]
+    }
+    return niceStep(span, targetTicks)
+  }
+
+  /** January ticks (and every tick of a year-or-coarser step) show the year; others the month. */
+  private yearTickLabel(value: number, step: number): string {
+    // Ticks sit exactly on month starts, so round rather than floor to absorb float error.
+    const months = Math.round(value * 12)
+    const year = Math.floor(months / 12)
+    const month = months - year * 12
+    return step >= 1 || month === 0 ? String(year) : MONTHS[month]
   }
 
   private ticks(): number[] {
@@ -500,7 +517,10 @@ export class Timeline {
     const lo = Math.min(model.from, model.to)
     const hi = Math.max(model.from, model.to)
     const values: number[] = []
-    for (let value = Math.ceil(lo / step - 1e-9) * step; value <= hi + step / 1000; value += step) values.push(Number(value.toFixed(6)))
+    for (let index = Math.ceil(lo / step - 1e-9); index * step <= hi + step / 1000; index++) {
+      // Multiply rather than accumulate so month steps land exactly on month starts.
+      values.push(Number((index * step).toFixed(6)))
+    }
     return values
   }
 
@@ -509,7 +529,7 @@ export class Timeline {
   private ariaLabel(row: Row): string {
     if (row.kind === 'record') {
       const record = row.record!
-      const published = this.model!.axis === 'year' ? `, published ${record.representative_report.publication.year}` : ''
+      const published = this.model!.axis === 'year' ? `, published ${formatPublished(record.representative_report.publication)}` : ''
       return `${this.recordLabel(record)}, ${formatWindow(recordWindow(record))}, ${PRECISION_LABELS[record.age.precision]}${published}`
     }
     const group = row.group!
@@ -529,7 +549,7 @@ export class Timeline {
       const record = row.record!
       const window = recordWindow(record)
       if (this.model!.axis === 'year') {
-        line(`Published ${record.representative_report.publication.year}`, 'tip-value')
+        line(`Published ${formatPublished(record.representative_report.publication)}`, 'tip-value')
         line(this.recordLabel(record), 'tip-title')
         line(`Estimated age ${formatWindow(window)}`, 'tip-meta')
       } else {
@@ -541,9 +561,12 @@ export class Timeline {
     } else {
       const group = row.group!
       if (this.model!.axis === 'year') {
-        const first = group.min
-        const last = group.max - 1
-        line(first === last ? `Published ${first}` : `Published ${first}–${last}`, 'tip-value')
+        const dates = group.records
+          .map(record => record.representative_report.publication)
+          .sort((a, b) => a.year - b.year || (a.month ?? 0) - (b.month ?? 0))
+        const first = formatPublished(dates[0])
+        const last = formatPublished(dates[dates.length - 1])
+        line(first === last ? `Published ${first}` : `Published ${first} – ${last}`, 'tip-value')
       } else {
         line(group.windows.length === 1 ? formatWindow(group.windows[0]) : `${group.windows.length} age windows · ${formatMa(group.max)} – ${formatMa(group.min)}`, 'tip-value')
       }

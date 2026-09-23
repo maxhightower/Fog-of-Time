@@ -23,6 +23,8 @@ export interface PublicationSummary {
   doi?: string | null
   title: string
   year: number
+  /** Month of first publication, 1-12, when known. */
+  month?: number | null
   journal?: string | null
   url?: string | null
   authors: string[]
