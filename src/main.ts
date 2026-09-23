@@ -2,7 +2,7 @@ import './style.css'
 import type { DatasetManifest, TimelineEvidence } from './types'
 import { CATEGORIES, categoryOf, GROUP_LABEL_OPTIONS, GROUP_OPTIONS, groupRecords, RECORD_LABEL_OPTIONS, type ColorBy, type GroupBy, type GroupLabel, type RecordLabel } from './model'
 import { formatAge, formatMa, humanize, PRECISION_LABELS } from './format'
-import { PRESETS, TIMESCALE_OLDEST, TIMESCALE_SOURCE } from './timescale'
+import { PRESETS, TIMESCALE_OLDEST } from './timescale'
 import { Timeline, type Selection } from './timeline'
 
 const DEFAULT_VIEW = { from: 500, to: 0 }
@@ -42,9 +42,7 @@ app.innerHTML = `
           <h2 class="panel-title">Layers</h2>
 
           <div class="layer">
-            <label class="toggle"><input id="layer-discoveries" type="checkbox" checked /> <span>Discoveries</span></label>
-            <p class="layer-note">Physical evidence from ingested papers, drawn across its full estimated age range.</p>
-            <div class="layer-options" id="discovery-options">
+            <div class="layer-options">
               <label class="field">Group by
                 <select id="group-by"></select>
               </label>
@@ -69,11 +67,6 @@ app.innerHTML = `
                 <select id="label-records"></select>
               </label>
             </div>
-          </div>
-
-          <div class="layer">
-            <label class="toggle"><input id="layer-geology" type="checkbox" checked /> <span>Geologic time scale</span></label>
-            <p class="layer-note">Periods, epochs and Mesozoic stages (${TIMESCALE_SOURCE}).</p>
           </div>
 
           <div class="layer">
@@ -162,8 +155,6 @@ const heading = $<HTMLHeadingElement>('#timeline-heading')
 const rangeFrom = $<HTMLInputElement>('#range-from')
 const rangeTo = $<HTMLInputElement>('#range-to')
 const presets = $<HTMLDivElement>('#presets')
-const layerDiscoveries = $<HTMLInputElement>('#layer-discoveries')
-const layerGeology = $<HTMLInputElement>('#layer-geology')
 const groupBy = $<HTMLSelectElement>('#group-by')
 const colorBy = $<HTMLSelectElement>('#color-by')
 for (const { value, label } of GROUP_OPTIONS) groupBy.add(new Option(label, value))
@@ -175,8 +166,6 @@ for (const { value, label } of GROUP_LABEL_OPTIONS) labelGroups.add(new Option(l
 for (const { value, label } of RECORD_LABEL_OPTIONS) labelRecords.add(new Option(label, value))
 const colorLegend = $<HTMLUListElement>('#color-legend')
 const shapeLegend = $<HTMLUListElement>('#shape-legend')
-const discoveryOptions = $<HTMLDivElement>('#discovery-options')
-const guides = $<HTMLElement>('#guides')
 const colorGuide = $<HTMLDivElement>('#color-guide')
 const colorGuideTitle = $<HTMLParagraphElement>('#color-guide-title')
 const yearSlider = $<HTMLInputElement>('#year-slider')
@@ -283,8 +272,6 @@ function render() {
     groups,
     expanded,
     colorBy: colorBy.value as ColorBy,
-    showDiscoveries: layerDiscoveries.checked,
-    showGeology: layerGeology.checked,
     selection,
     labels: layerLabels.checked ? { groups: labelGroups.value as GroupLabel, records: labelRecords.value as RecordLabel } : null,
   })
@@ -329,11 +316,9 @@ function renderShapeLegend() {
 }
 
 function renderLegend() {
-  discoveryOptions.hidden = !layerDiscoveries.checked
   labelOptions.hidden = !layerLabels.checked
   const mode = colorBy.value as ColorBy
   const visible = filteredRecords()
-  guides.hidden = !layerDiscoveries.checked
   colorGuide.hidden = mode === 'none'
   colorGuideTitle.textContent = `Colour = ${colorBy.selectedOptions[0]?.textContent?.toLowerCase() ?? ''}`
   colorLegend.replaceChildren()
@@ -460,7 +445,7 @@ function wireControls() {
     setView(oldest + pad, youngest - pad)
   })
 
-  for (const input of [layerDiscoveries, layerGeology, layerLabels]) input.addEventListener('change', scheduleRender)
+  layerLabels.addEventListener('change', scheduleRender)
   colorBy.addEventListener('change', scheduleRender)
   groupBy.addEventListener('change', scheduleRender)
   labelGroups.addEventListener('change', scheduleRender)

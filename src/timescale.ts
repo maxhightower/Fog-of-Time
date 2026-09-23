@@ -17,8 +17,6 @@ export interface GeoUnit {
   color: string
 }
 
-export const TIMESCALE_SOURCE = 'ICS International Chronostratigraphic Chart'
-
 const PERIODS: Array<[string, string, number, number, string]> = [
   ['Ediacaran', 'Ed', 635, 538.8, '#FED96A'],
   ['Cambrian', 'Є', 538.8, 486.85, '#7FA056'],

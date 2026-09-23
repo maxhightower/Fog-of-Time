@@ -43,7 +43,6 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
 .layers { grid-area: layers; }
 .main-column { grid-area: main; }
 .guides { grid-area: guides; position: sticky; top: 16px; display: grid; gap: 14px; min-width: 0; }
-.guides[hidden] { display: none; }
 .guide { display: grid; gap: 8px; }
 .guide + .guide { padding-top: 12px; border-top: 1px solid var(--border); }
 .guide[hidden] { display: none; }

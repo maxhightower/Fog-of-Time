@@ -74,9 +74,10 @@ feathered stage-derived interval, glowing approximate point, crisp reported poin
 Records can be grouped by paper, taxon, evidence type, dating basis or country (or
 shown individually); clicking a group expands its records.
 
-The **Layers** panel toggles discoveries, the geologic time scale (periods, epochs,
-Mesozoic stages) and data labels (with a choice of what group bars and record bars
-show), and a "Known by" slider replays the evidence by publication year.
+Geologic time scale bands (periods, epochs, Mesozoic stages) run along the top of the
+timeline. The **Layers** panel sets grouping, colour and data labels (with a choice of
+what group bars and record bars show), and a "Known by" slider replays the evidence
+by publication year.
 
 The repository currently commits a tiny **development-fixture dataset** so the frontend works immediately. The UI labels it clearly as non-scientific fixture data.
 

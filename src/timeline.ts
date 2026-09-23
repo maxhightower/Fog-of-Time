@@ -24,8 +24,6 @@ export interface TimelineModel {
   records: TimelineEvidence[]
   expanded: ReadonlySet<string>
   colorBy: ColorBy
-  showDiscoveries: boolean
-  showGeology: boolean
   selection: Selection | null
   /** Null hides all data labels. */
   labels: { groups: GroupLabel; records: RecordLabel } | null
@@ -132,8 +130,6 @@ export class Timeline {
     const { geology } = this.elements
     const model = this.model!
     geology.replaceChildren()
-    geology.style.display = model.showGeology ? '' : 'none'
-    if (!model.showGeology) return
 
     const ranks: GeoRank[] = ['period', 'epoch', 'stage']
     geology.setAttribute('width', String(this.width))
@@ -274,7 +270,7 @@ export class Timeline {
     const { bars, plot } = this.elements
     bars.replaceChildren()
 
-    const blocks = model.showDiscoveries ? this.buildBlocks() : []
+    const blocks = this.buildBlocks()
     const laneCount = this.packBlocks(blocks)
     const height = Math.max(MIN_PLOT_HEIGHT, laneCount * LANE_PITCH + PLOT_PADDING * 2)
     bars.setAttribute('width', String(this.width))
@@ -315,7 +311,7 @@ export class Timeline {
       for (const row of block.rows) this.renderRow(row, gradient)
     }
 
-    if (model.showDiscoveries && blocks.length === 0) {
+    if (blocks.length === 0) {
       const text = svg('text', { x: this.width / 2, y: height / 2, 'text-anchor': 'middle', class: 'empty-label' })
       text.textContent = model.records.length ? 'No discoveries in this window.' : 'No evidence matches these settings.'
       bars.append(text)
@@ -332,12 +328,10 @@ export class Timeline {
       if (x < 0 || x > this.width) continue
       grid.append(svg('line', { x1: x, x2: x, y1: 0, y2: height, class: 'grid-line' }))
     }
-    if (model.showGeology) {
-      for (const unit of TIMESCALE.period) {
-        const x = this.x(unit.start)
-        if (x <= 0 || x >= this.width) continue
-        grid.append(svg('line', { x1: x, x2: x, y1: 0, y2: height, class: 'period-line' }))
-      }
+    for (const unit of TIMESCALE.period) {
+      const x = this.x(unit.start)
+      if (x <= 0 || x >= this.width) continue
+      grid.append(svg('line', { x1: x, x2: x, y1: 0, y2: height, class: 'period-line' }))
     }
     bars.append(grid)
   }
