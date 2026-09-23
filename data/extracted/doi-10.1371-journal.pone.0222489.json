@@ -1,0 +1,1198 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1371/journal.pone.0222489",
+    "doi": "10.1371/journal.pone.0222489",
+    "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+    "year": 2019,
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+    "authors": [
+      "Duangsuda Chokchaloemwong",
+      "Soki Hattori",
+      "Elena Cuesta",
+      "Pratueng Jintasakul",
+      "Masateru Shibata",
+      "Yoichi Azuma"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-01",
+      "physical_key": "specimen:nrru:01",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020001",
+        "label": "NRRU-F01020001"
+      },
+      "material": [
+        "right premaxilla"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020001 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: right premaxilla.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-02",
+      "physical_key": "specimen:nrru:02",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020002",
+        "label": "NRRU-F01020002"
+      },
+      "material": [
+        "right premaxilla"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020002 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: right premaxilla.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-03",
+      "physical_key": "specimen:nrru:03",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020003",
+        "label": "NRRU-F01020003"
+      },
+      "material": [
+        "right premaxilla"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020003 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: right premaxilla.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-04",
+      "physical_key": "specimen:nrru:04",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020004",
+        "label": "NRRU-F01020004"
+      },
+      "material": [
+        "right maxilla"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020004 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: right maxilla.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-05",
+      "physical_key": "specimen:nrru:05",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020005",
+        "label": "NRRU-F01020005"
+      },
+      "material": [
+        "left maxilla"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020005 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: left maxilla.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-06",
+      "physical_key": "specimen:nrru:06",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020006",
+        "label": "NRRU-F01020006"
+      },
+      "material": [
+        "left jugal"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020006 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: left jugal.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-07",
+      "physical_key": "specimen:nrru:07",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020007",
+        "label": "NRRU-F01020007"
+      },
+      "material": [
+        "posterior left mandible (surangular, prearticular, articular)"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020007 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: posterior left mandible (surangular, prearticular, articular).",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-08",
+      "physical_key": "specimen:nrru:08",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020008",
+        "label": "NRRU-F01020008"
+      },
+      "material": [
+        "posterior right mandible (surangular, prearticular, articular)"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020008 is designated the holotype of Siamraptor suwati.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: posterior right mandible (surangular, prearticular, articular).",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-09",
+      "physical_key": "specimen:nrru:09",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020009",
+        "label": "NRRU-F01020009"
+      },
+      "material": [
+        "posterior left mandible (surangular, prearticular, articular)"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020009 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: posterior left mandible (surangular, prearticular, articular).",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-10",
+      "physical_key": "specimen:nrru:10",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020010",
+        "label": "NRRU-F01020010"
+      },
+      "material": [
+        "posterior left mandible (surangular, prearticular)"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020010 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: posterior left mandible (surangular, prearticular).",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-11",
+      "physical_key": "specimen:nrru:11",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020011",
+        "label": "NRRU-F01020011"
+      },
+      "material": [
+        "anterior cervical vertebra"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020011 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: anterior cervical vertebra.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-12",
+      "physical_key": "specimen:nrru:12",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020012",
+        "label": "NRRU-F01020012"
+      },
+      "material": [
+        "anterior cervical vertebra"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020012 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: anterior cervical vertebra.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-13",
+      "physical_key": "specimen:nrru:13",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020013",
+        "label": "NRRU-F01020013"
+      },
+      "material": [
+        "anterior cervical vertebra"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020013 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: anterior cervical vertebra.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-14",
+      "physical_key": "specimen:nrru:14",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020014",
+        "label": "NRRU-F01020014"
+      },
+      "material": [
+        "posterior dorsal vertebra"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020014 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: posterior dorsal vertebra.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-15",
+      "physical_key": "specimen:nrru:15",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020015",
+        "label": "NRRU-F01020015"
+      },
+      "material": [
+        "posterior dorsal vertebra"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020015 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: posterior dorsal vertebra.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-16",
+      "physical_key": "specimen:nrru:16",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020016",
+        "label": "NRRU-F01020016"
+      },
+      "material": [
+        "posterior dorsal vertebra"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020016 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: posterior dorsal vertebra.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-17",
+      "physical_key": "specimen:nrru:17",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020017",
+        "label": "NRRU-F01020017"
+      },
+      "material": [
+        "middle caudal vertebra"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020017 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: middle caudal vertebra.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-18",
+      "physical_key": "specimen:nrru:18",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020018",
+        "label": "NRRU-F01020018"
+      },
+      "material": [
+        "manual ungual"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020018 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: manual ungual.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-19-20",
+      "physical_key": "specimen:nrru:19-20",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020019 + F01020020",
+        "label": "NRRU-F01020019 + F01020020"
+      },
+      "material": [
+        "right ischium represented by NRRU-F01020019 and NRRU-F01020020"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020019 + F01020020 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: right ischium represented by NRRU-F01020019 and NRRU-F01020020.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-21",
+      "physical_key": "specimen:nrru:21",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020021",
+        "label": "NRRU-F01020021"
+      },
+      "material": [
+        "distal right tibia"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020021 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: distal right tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-22",
+      "physical_key": "specimen:nrru:22",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Siamraptor suwati",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NRRU",
+        "catalog_number": "F01020022",
+        "label": "NRRU-F01020022"
+      },
+      "material": [
+        "left pedal phalanx IV-1"
+      ],
+      "locality": {
+        "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+        "country": "Thailand",
+        "region": "Nakhon Ratchasima Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat Formation",
+        "member": null,
+        "group": "Khorat Group"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020022 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: left pedal phalanx IV-1.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    }
+  ]
+}
