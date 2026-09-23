@@ -1,0 +1,187 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:95022",
+    "doi": "10.1038/s41598-026-47482-x",
+    "title": "The first sauropod dinosaur from the Lower Cretaceous Khok Kruat Formation of Thailand enriches the diversity of somphospondylan titanosauriforms in southeast Asia",
+    "year": 2026,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-026-47482-x",
+    "authors": [
+      "T. Sethapanichsakul",
+      "S. Khansubha",
+      "S. Manitkoon, R. Hanta, P. D. Mannion, P. Upchurch"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:95022:occ:1589297",
+      "physical_key": "pbdb-occ:1589297",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Nagatitan chaiyaphumensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1589297",
+        "label": "PBDB occurrence 1589297"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 224600: alongside a communal pond, Ban Pha Nang Sua",
+        "country": "TH",
+        "region": "Chaiyaphum, Nong Bua Rawe",
+        "latitude": 15.761667,
+        "longitude": 101.773888,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 224600 to Aptian–Albian with numeric bounds 121.4–100.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95022; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1589297 records Nagatitan chaiyaphumensis in collection 224600, linked by PBDB to reference 95022.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Nagatitan chaiyaphumensis n. gen. n. sp. and the accepted name as Nagatitan chaiyaphumensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:95022:occ:1589299",
+      "physical_key": "pbdb-occ:1589299",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Spinosauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1589299",
+        "label": "PBDB occurrence 1589299"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 224600: alongside a communal pond, Ban Pha Nang Sua",
+        "country": "TH",
+        "region": "Chaiyaphum, Nong Bua Rawe",
+        "latitude": 15.761667,
+        "longitude": 101.773888,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 224600 to Aptian–Albian with numeric bounds 121.4–100.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95022; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1589299 records Spinosauridae in collection 224600, linked by PBDB to reference 95022.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Spinosauridae indet. and the accepted name as Spinosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:95022:occ:1589300",
+      "physical_key": "pbdb-occ:1589300",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Allosauroidea",
+        "rank": "superfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1589300",
+        "label": "PBDB occurrence 1589300"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 224600: alongside a communal pond, Ban Pha Nang Sua",
+        "country": "TH",
+        "region": "Chaiyaphum, Nong Bua Rawe",
+        "latitude": 15.761667,
+        "longitude": 101.773888,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khok Kruat",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 224600 to Aptian–Albian with numeric bounds 121.4–100.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95022; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1589300 records Allosauroidea in collection 224600, linked by PBDB to reference 95022.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Allosauroidea indet. and the accepted name as Allosauroidea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

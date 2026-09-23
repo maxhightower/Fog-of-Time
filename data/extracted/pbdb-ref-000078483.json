@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78483",
+    "doi": "10.3390/d13110561",
+    "title": "Issi saaneq gen. et sp. nov.—A New Sauropodomorph Dinosaur from the Late Triassic (Norian) of Jameson Land, Central East Greenland",
+    "year": 2021,
+    "journal": "Diversity",
+    "url": "https://doi.org/10.3390/d13110561",
+    "authors": [
+      "V. Beccari",
+      "O. Mateus",
+      "O. Wings, J. Milàn, L. B. Clemmensen"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:78483:occ:283860",
+      "physical_key": "pbdb-occ:283860",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Issi saaneq",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "283860",
+        "label": "PBDB occurrence 283860"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 26996: “Iron Cake” site, northern flank of Macknight Bjerg, Jameson Land, Greenland",
+        "country": "GL",
+        "region": null,
+        "latitude": 71.383614,
+        "longitude": -22.568611,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Malmros Klint",
+        "member": null,
+        "group": "Fleming Fjord"
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 26996 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 78483; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 283860 records Issi saaneq in collection 26996, linked by PBDB to reference 78483.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Issi saaneq n. gen. n. sp. and the accepted name as Issi saaneq.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94672",
+    "doi": "10.1093/zoolinnean/zlae153",
+    "title": "Rethinking dinosaur origins: oldest known equatorial dinosaur-bearing assemblage (mid-late Carnian Popo Agie FM, Wyoming, USA)",
+    "year": 2025,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1093/zoolinnean/zlae153",
+    "authors": [
+      "D. M. Lovelace",
+      "A. M. Kufner",
+      "A. J. Fitch, K. Curry Rogers, M. Schmitz, D. M. Schwartz, A. LeClair-Diaz, L. St.Clair, J. Mann, R. Teran"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94672:occ:2063638",
+      "physical_key": "pbdb-occ:2063638",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ahvaytum bahndooiveche",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063638",
+        "label": "PBDB occurrence 2063638"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278644",
+        "country": "US",
+        "region": "Wyoming, Fremont",
+        "latitude": 43.565281,
+        "longitude": -109.454956,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Popo Agie",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278644 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94672; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063638 records Ahvaytum bahndooiveche in collection 278644, linked by PBDB to reference 94672.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ahvaytum bahndooiveche n. gen. n. sp. and the accepted name as Ahvaytum bahndooiveche.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94672:occ:2063639",
+      "physical_key": "pbdb-occ:2063639",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sulcimentisauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063639",
+        "label": "PBDB occurrence 2063639"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278644",
+        "country": "US",
+        "region": "Wyoming, Fremont",
+        "latitude": 43.565281,
+        "longitude": -109.454956,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Popo Agie",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278644 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94672; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063639 records Sulcimentisauria in collection 278644, linked by PBDB to reference 94672.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sulcimentisauria indet. and the accepted name as Sulcimentisauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

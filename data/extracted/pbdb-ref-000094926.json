@@ -1,0 +1,124 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94926",
+    "doi": "10.1080/02724634.2026.2656456",
+    "title": "New unenlagiid from the Chorrillo Formation (Late Cretaceous, Maastrichtian), SW Patagonia, Argentina",
+    "year": 2026,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2026.2656456",
+    "authors": [
+      "M. J. Motta",
+      "A. M. Aranciaga Rolando",
+      "S. Rozadilla, F. L. Agnolín, F. B. Egli, G. P. Álvarez Herrera, N. R. Chimento, G. L. Coco, T. Tsuihiji, M. Manabe, D. Pol, F. E. Novas"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94926:occ:1693642",
+      "physical_key": "pbdb-occ:1693642",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kank australis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1693642",
+        "label": "PBDB occurrence 1693642"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 234712: The specimens here reported were discovered at ‘La Anita’ farm, located approximately 30 km SW from El Calafate City, Santa Cruz Province, Argentina.\\r\\n‘Monotreme site’ (S 50° 31.128´ W 72° 33.845´)",
+        "country": "AR",
+        "region": "Santa Cruz",
+        "latitude": -50.518612,
+        "longitude": -72.563889,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chorrillo",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 234712 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94926; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1693642 records Kank australis in collection 234712, linked by PBDB to reference 94926.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Kank australis n. gen. n. sp. and the accepted name as Kank australis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94926:occ:2065165",
+      "physical_key": "pbdb-occ:2065165",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kank australis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2065165",
+        "label": "PBDB occurrence 2065165"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 221115: 30 km SW of El Calafate",
+        "country": "AR",
+        "region": "Santa Cruz, Lago Argentino",
+        "latitude": -50.510555,
+        "longitude": -72.560555,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chorrillo",
+        "member": "Upper",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 221115 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94926; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2065165 records Kank australis in collection 221115, linked by PBDB to reference 94926.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

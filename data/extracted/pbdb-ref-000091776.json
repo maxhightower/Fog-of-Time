@@ -1,0 +1,187 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:91776",
+    "doi": "10.1371/journal.pone.0319862",
+    "title": "A new Middle Jurassic lagoon margin assemblage of theropod and sauropod dinosaur trackways from the Isle of Skye, Scotland",
+    "year": 2025,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0319862",
+    "authors": [
+      "T. Blakesley",
+      "P. E. dePolo",
+      "T. J. Wade, D. A. Ross, S. L. Brusatte"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:91776:occ:1691783",
+      "physical_key": "pbdb-occ:1691783",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Megalosauripus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1691783",
+        "label": "PBDB occurrence 1691783"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240034: Prince Charles’s Point tracksite, Isle of Skye",
+        "country": "UK",
+        "region": "Scotland, Highland",
+        "latitude": 57.6138,
+        "longitude": -6.3959,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Kilmaluag",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240034 to Late Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91776; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1691783 records Megalosauripus in collection 240034, linked by PBDB to reference 91776.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Megalosauripus sp. and the accepted name as Megalosauripus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91776:occ:1691784",
+      "physical_key": "pbdb-occ:1691784",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1691784",
+        "label": "PBDB occurrence 1691784"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240034: Prince Charles’s Point tracksite, Isle of Skye",
+        "country": "UK",
+        "region": "Scotland, Highland",
+        "latitude": 57.6138,
+        "longitude": -6.3959,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Kilmaluag",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240034 to Late Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91776; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1691784 records Sauropoda in collection 240034, linked by PBDB to reference 91776.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropoda indet. and the accepted name as Sauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91776:occ:1691785",
+      "physical_key": "pbdb-occ:1691785",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dinosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1691785",
+        "label": "PBDB occurrence 1691785"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240035: Prince Charles’s Point tracksite, Isle of Skye",
+        "country": "UK",
+        "region": "Scotland, Highland",
+        "latitude": 57.6138,
+        "longitude": -6.3959,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Kilmaluag",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240035 to Late Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91776; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1691785 records Dinosauria in collection 240035, linked by PBDB to reference 91776.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Dinosauria indet. and the accepted name as Dinosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

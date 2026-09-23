@@ -1,0 +1,124 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94134",
+    "doi": "10.3390/d18010038",
+    "title": "A thick-skulled troodontid theropod from the Late Cretaceous of Mexico",
+    "year": 2026,
+    "journal": "Diversity",
+    "url": "https://doi.org/10.3390/d18010038",
+    "authors": [
+      "H. E. Rivera-Sylva",
+      "M. C. Aguillón-Martinez",
+      "J. Flores-Ventura, I. E. Sánchez-Uribe, J. R. Guzman-Gutierrez, N. R. Longrich"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94134:occ:2056064",
+      "physical_key": "pbdb-occ:2056064",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Xenovenator espinosai",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056064",
+        "label": "PBDB occurrence 2056064"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 154244: Municipality of General Cepeda, Coahuila",
+        "country": "MX",
+        "region": "Coahuila",
+        "latitude": 25.541889,
+        "longitude": -101.358788,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cerro del Pueblo",
+        "member": null,
+        "group": "Difunta"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 154244 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94134; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056064 records Xenovenator espinosai in collection 154244, linked by PBDB to reference 94134.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Xenovenator espinosai n. gen. n. sp. and the accepted name as Xenovenator espinosai.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94134:occ:2056065",
+      "physical_key": "pbdb-occ:2056065",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Xenovenator espinosai",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056065",
+        "label": "PBDB occurrence 2056065"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277685: Ejido Trincheras, 109 km west of Saltillo, municipality of Parras de la Fuente",
+        "country": "MX",
+        "region": "Coahuila, Parras",
+        "latitude": 25.6078,
+        "longitude": -101.982201,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cerro del Pueblo",
+        "member": null,
+        "group": "Difunta"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277685 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94134; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056065 records Xenovenator espinosai in collection 277685, linked by PBDB to reference 94134.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

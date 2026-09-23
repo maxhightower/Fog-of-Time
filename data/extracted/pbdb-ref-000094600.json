@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94600",
+    "doi": "10.1038/s41598-025-29995-z",
+    "title": "A new mamenchisaurid sauropod dinosaur from the Upper Jurassic of Southwest China reveals new evolutionary evidence from East Asian eusauropods",
+    "year": 2025,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-025-29995-z",
+    "authors": [
+      "H. Dai",
+      "X. Hu",
+      "C. Tan, X. Ren, Q. Ma, G. Wei, H. You"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94600:occ:2063347",
+      "physical_key": "pbdb-occ:2063347",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Mamenchisaurus sanjiangensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063347",
+        "label": "PBDB occurrence 2063347"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278588: Coordinates estimated from Map in Figure 1",
+        "country": "CN",
+        "region": "Chongqing, Hechuan",
+        "latitude": 30.18314,
+        "longitude": 106.211113,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Upper Shaximiao",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 154.8,
+        "max_ma": 161.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278588 to Oxfordian with numeric bounds 161.5–154.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94600; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063347 records Mamenchisaurus sanjiangensis in collection 278588, linked by PBDB to reference 94600.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Mamenchisaurus sanjiangensis n. sp. and the accepted name as Mamenchisaurus sanjiangensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

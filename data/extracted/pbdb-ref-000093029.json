@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93029",
+    "doi": "10.1111/1755-6724.15331",
+    "title": "A new eusauropod dinosaur from the Lower and Middle Jurassic Wangmen Formation of Ningming County, Guangxi, south China",
+    "year": 2025,
+    "journal": "Acta Geologica Sinica - English Edition",
+    "url": "https://doi.org/10.1111/1755-6724.15331",
+    "authors": [
+      "J. Mo",
+      "X. Zhou",
+      "Q. Fu, D. Xiong, M. Hu, X. Xu"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93029:occ:1709039",
+      "physical_key": "pbdb-occ:1709039",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Huashanosaurus qini",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1709039",
+        "label": "PBDB occurrence 1709039"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 242278: Huqiu Quarry near Dongshi Village, Beijiang Town, Ningming County, Guangxi; Shiwandashan Basin",
+        "country": "CN",
+        "region": "Guangxi, Ningming",
+        "latitude": 22.106001,
+        "longitude": 107.248497,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Wangmen",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 242278 to Early Jurassic–Middle Jurassic with numeric bounds 201.4–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93029; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1709039 records Huashanosaurus qini in collection 242278, linked by PBDB to reference 93029.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Huashanosaurus qini n. gen. n. sp. and the accepted name as Huashanosaurus qini.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93029:occ:1709042",
+      "physical_key": "pbdb-occ:1709042",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dinosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1709042",
+        "label": "PBDB occurrence 1709042"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 242278: Huqiu Quarry near Dongshi Village, Beijiang Town, Ningming County, Guangxi; Shiwandashan Basin",
+        "country": "CN",
+        "region": "Guangxi, Ningming",
+        "latitude": 22.106001,
+        "longitude": 107.248497,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Wangmen",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 242278 to Early Jurassic–Middle Jurassic with numeric bounds 201.4–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93029; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1709042 records Dinosauria in collection 242278, linked by PBDB to reference 93029.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Dinosauria indet. and the accepted name as Dinosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

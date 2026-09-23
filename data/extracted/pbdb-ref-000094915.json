@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94915",
+    "doi": "10.1093/zoolinnean/zlag062",
+    "title": "A new non-averostran neotheropod specimen from the Early Jurassic of Southwestern China and its implications for early theropod evolution",
+    "year": 2026,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1093/zoolinnean/zlag062",
+    "authors": [
+      "R. Wang",
+      "L. Xing",
+      "V. Nikolov, T. Wang, X. Xu"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94915:occ:2068299",
+      "physical_key": "pbdb-occ:2068299",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Averostriformes",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2068299",
+        "label": "PBDB occurrence 2068299"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 279596: approx. 1 km W of Heilongtan, Lufeng County, Yunnan",
+        "country": "CN",
+        "region": "Yunnan, Chuxiong Yizu",
+        "latitude": 25.162201,
+        "longitude": 102.0886,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lufeng",
+        "member": "Shawan",
+        "group": null
+      },
+      "age": {
+        "min_ma": 199.5,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 279596 to Hettangian with numeric bounds 201.4–199.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94915; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2068299 records Averostriformes in collection 279596, linked by PBDB to reference 94915.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Averostriformes indet. and the accepted name as Averostriformes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

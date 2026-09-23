@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78307",
+    "doi": "10.1098/rsos.210915",
+    "title": "Pendraig milnerae, a new small-sized coelophysoid theropod from the Late Triassic of Wales",
+    "year": 2021,
+    "journal": "Royal Society Open Science",
+    "url": "https://doi.org/10.1098/rsos.210915",
+    "authors": [
+      "S. N. F. Spiekman",
+      "M. D. Ezcurra",
+      "R. J. Butler, N. C. Fraser, S. C. R. Maidment"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:78307:occ:1574570",
+      "physical_key": "pbdb-occ:1574570",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Pendraig milnerae",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1574570",
+        "label": "PBDB occurrence 1574570"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 27012: Pant-y-ffynnon Quarry, near Bonvilston, South Glamorgan, Wales; also called Pant-y-ffynon, Cowbridge Island, ST 046 743; 3 mi E of Cowbridge. Simms & Drost 2024: (grid ref. ST 045742; 51.4590, − 3.3755)",
+        "country": "UK",
+        "region": "Wales, Swansea",
+        "latitude": 51.459,
+        "longitude": -3.3755,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 27012 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 78307; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1574570 records Pendraig milnerae in collection 27012, linked by PBDB to reference 78307.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Pendraig milnerae n. gen. n. sp. and the accepted name as Pendraig milnerae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:90869",
+    "doi": "10.1038/s41586-024-08410-z",
+    "title": "Earliest short-tailed bird from the Late Jurassic of China",
+    "year": 2025,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/s41586-024-08410-z",
+    "authors": [
+      "R. Chen",
+      "M. Wang",
+      "L. Dong, G. Zhou, X. Xu, K. Deng, L. Xu, C. Zhang, L. Wang, H. Du, G. Lin, M. Lin, Z. Zhou"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:90869:occ:1686322",
+      "physical_key": "pbdb-occ:1686322",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Baminornis zhenghensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1686322",
+        "label": "PBDB occurrence 1686322"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 231775: near Yangyuan Village, Zhenghe County, Nanping City",
+        "country": "CN",
+        "region": "Fujian, Zhenghe",
+        "latitude": 27.148056,
+        "longitude": 119.00444,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Nanyuan",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 145.06,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 231775 to Late Kimmeridgian–Early Tithonian with numeric bounds 152.21–145.06 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90869; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1686322 records Baminornis zhenghensis in collection 231775, linked by PBDB to reference 90869.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Baminornis zhenghensis n. gen. n. sp. and the accepted name as Baminornis zhenghensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

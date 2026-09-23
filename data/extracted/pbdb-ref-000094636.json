@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94636",
+    "doi": "10.1098/rsos.252219",
+    "title": "A new sauropodomorph dinosaur from the Lower Jurassic Fengjiahe Formation of Dali of Yunnan Province, China",
+    "year": 2026,
+    "journal": "Royal Society Open Science",
+    "url": "https://doi.org/10.1098/rsos.252219",
+    "authors": [
+      "S. Hu",
+      "Y. Wang",
+      "X. Mo, X. Zhang, W. Zeng, T. Wang, Z. Sun, Q. Dong, Q. Guan, Y. Liu, Y. Zhang, Y. Bing, Y. Wang, H. You"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94636:occ:2063477",
+      "physical_key": "pbdb-occ:2063477",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Xiangyunloong fengming",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063477",
+        "label": "PBDB occurrence 2063477"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278626",
+        "country": "CN",
+        "region": "Yunnan, Xiangyun",
+        "latitude": 25.328779,
+        "longitude": 100.760818,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Fengjiahe",
+        "member": "First",
+        "group": null
+      },
+      "age": {
+        "min_ma": 174.7,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278626 to Early Jurassic with numeric bounds 201.4–174.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94636; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063477 records Xiangyunloong fengming in collection 278626, linked by PBDB to reference 94636.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Xiangyunloong fengming n. gen. n. sp. and the accepted name as Xiangyunloong fengming.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

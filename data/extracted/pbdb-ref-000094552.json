@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94552",
+    "doi": "10.1038/s41559-025-02960-9",
+    "title": "Cellular-level preservation of cutaneous spikes in an Early Cretaceous iguanodontian dinosaur",
+    "year": 2026,
+    "journal": "Nature Ecology & Evolution",
+    "url": "https://doi.org/10.1038/s41559-025-02960-9",
+    "authors": [
+      "J. Huang",
+      "W. Wu",
+      "L. Mao, F. Bertozzo, D. Dhouailly, N. Robin, M. Pittman, T. G. Kaye, F. Manucci, X. He, X. Wang, P. Godefroit"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94552:occ:2063016",
+      "physical_key": "pbdb-occ:2063016",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Haolong dongi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063016",
+        "label": "PBDB occurrence 2063016"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278538: Lamagou locality, Xiawujiazi village, Lamadong town, Jianchang County, Liaoning Province, People’s Republic of China",
+        "country": "CN",
+        "region": "Liaoning, Jianchang",
+        "latitude": 40.682804,
+        "longitude": 119.67215,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Yixian",
+        "member": "Jianshangou",
+        "group": "Jehol"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278538 to Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94552; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063016 records Haolong dongi in collection 278538, linked by PBDB to reference 94552.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Haolong dongi n. gen. n. sp. and the accepted name as Haolong dongi.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

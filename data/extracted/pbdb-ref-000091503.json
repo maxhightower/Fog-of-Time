@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:91503",
+    "doi": "10.1098/rsos.241624",
+    "title": "The world’s oldest cerapodan ornithischian dinosaur from the Middle Jurassic of Morocco",
+    "year": 2025,
+    "journal": "Royal Society Open Science",
+    "url": "https://doi.org/10.1098/rsos.241624",
+    "authors": [
+      "S. Maidment",
+      "D. Ouarhache",
+      "R. J. Butler, K. Boumir, A. Oussou, K. Ech-charay, A. El Khanchoufi, P. M. Barrett"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:91503:occ:1690653",
+      "physical_key": "pbdb-occ:1690653",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Cerapoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1690653",
+        "label": "PBDB occurrence 1690653"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 98356: Boulahfa, south of Boulemane",
+        "country": "MA",
+        "region": "Fès-Meknes, Ifrane",
+        "latitude": 33.150002,
+        "longitude": -5.11667,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "El Mers III",
+        "member": null,
+        "group": "El Mers"
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 98356 to Late Bathonian–Callovian with numeric bounds 168.2–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91503; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1690653 records Cerapoda in collection 98356, linked by PBDB to reference 91503.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Cerapoda indet. and the accepted name as Cerapoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

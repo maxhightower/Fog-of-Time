@@ -1,0 +1,522 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:91504",
+    "doi": "10.1002/spp2.70001",
+    "title": "New sauropod teeth from the Upper Jurassic of Portugal and their implications for sauropod dental evolution",
+    "year": 2025,
+    "journal": "Papers in Palaeontology",
+    "url": "https://doi.org/10.1002/spp2.70001",
+    "authors": [
+      "A. Saleiro",
+      "E. Tschopp"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:91504:occ:1690654",
+      "physical_key": "pbdb-occ:1690654",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Titanosauriformes",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1690654",
+        "label": "PBDB occurrence 1690654"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239790: Praia da Gralha",
+        "country": "PT",
+        "region": "Oeste e Vale do Tejo, Leiria",
+        "latitude": 39.526001,
+        "longitude": -9.129,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lourinhã",
+        "member": "Praia da Amoreira-Porto Novo",
+        "group": null
+      },
+      "age": {
+        "min_ma": 149.2,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239790 to Late Kimmeridgian with numeric bounds 152.21–149.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91504; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1690654 records Titanosauriformes in collection 239790, linked by PBDB to reference 91504.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Titanosauriformes indet. and the accepted name as Titanosauriformes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91504:occ:1690655",
+      "physical_key": "pbdb-occ:1690655",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Turiasauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1690655",
+        "label": "PBDB occurrence 1690655"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239791: Barrocalvo, Bombarral",
+        "country": "PT",
+        "region": "Oeste e Vale do Tejo, Leiria",
+        "latitude": 39.300999,
+        "longitude": -9.109,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bombarral",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 149.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239791 to Tithonian with numeric bounds 149.2–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91504; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1690655 records Turiasauria in collection 239791, linked by PBDB to reference 91504.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Turiasauria indet. and the accepted name as Turiasauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91504:occ:1690656",
+      "physical_key": "pbdb-occ:1690656",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Turiasauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1690656",
+        "label": "PBDB occurrence 1690656"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 91397: Vale de Pombas cliffs, N of Lourinha and Forte de Paimogo, central-west Portugal",
+        "country": "PT",
+        "region": "Centro, Lisboa",
+        "latitude": 39.169998,
+        "longitude": -9.2,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Praia da Amoreira-Porto Novo",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 149.2,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 91397 to Late Kimmeridgian with numeric bounds 152.21–149.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91504; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1690656 records Turiasauria in collection 91397, linked by PBDB to reference 91504.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Turiasauria indet. and the accepted name as Turiasauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91504:occ:1690657",
+      "physical_key": "pbdb-occ:1690657",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Titanosauriformes",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1690657",
+        "label": "PBDB occurrence 1690657"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239792: Tornada",
+        "country": "PT",
+        "region": "Oeste e Vale do Tejo",
+        "latitude": 39.446999,
+        "longitude": -9.132,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bombarral",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 149.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239792 to Tithonian with numeric bounds 149.2–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91504; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1690657 records Titanosauriformes in collection 239792, linked by PBDB to reference 91504.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Titanosauriformes indet. and the accepted name as Titanosauriformes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91504:occ:1690658",
+      "physical_key": "pbdb-occ:1690658",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Turiasauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1690658",
+        "label": "PBDB occurrence 1690658"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 49304: near top of coastal cliff along Praia de Porto Dinheiro, Bacia Lusitânica; top of cliff north of the port",
+        "country": "PT",
+        "region": "Centro, Lisboa",
+        "latitude": 39.2164,
+        "longitude": -9.3435,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lourinhã",
+        "member": "Praia da Amoreira-Porto Novo",
+        "group": null
+      },
+      "age": {
+        "min_ma": 149.2,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 49304 to Late Kimmeridgian with numeric bounds 152.21–149.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91504; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1690658 records Turiasauria in collection 49304, linked by PBDB to reference 91504.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Turiasauria indet. and the accepted name as Turiasauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91504:occ:1690659",
+      "physical_key": "pbdb-occ:1690659",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Flagellicaudata",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1690659",
+        "label": "PBDB occurrence 1690659"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 68904: Praia da Vermelha, Peniche",
+        "country": "PT",
+        "region": "Centro, Leiria",
+        "latitude": 39.330112,
+        "longitude": -9.358712,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lourinhã",
+        "member": "Praia da Amoreira-Porto Novo",
+        "group": null
+      },
+      "age": {
+        "min_ma": 149.2,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 68904 to Late Kimmeridgian with numeric bounds 152.21–149.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91504; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1690659 records Flagellicaudata in collection 68904, linked by PBDB to reference 91504.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Flagellicaudata indet. and the accepted name as Flagellicaudata.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91504:occ:1690660",
+      "physical_key": "pbdb-occ:1690660",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Flagellicaudata",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1690660",
+        "label": "PBDB occurrence 1690660"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 233187: Praia de Paimogo (GPS coordinates: 39° 17’ 10.4” N, 9° 20 ’17.4” W), Lourinhã",
+        "country": "PT",
+        "region": "Centro, Lisboa",
+        "latitude": 39.28611,
+        "longitude": -9.338056,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lourinhã",
+        "member": "Praia Azul",
+        "group": null
+      },
+      "age": {
+        "min_ma": 145.06,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 233187 to Late Kimmeridgian–Early Tithonian with numeric bounds 152.21–145.06 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91504; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1690660 records Flagellicaudata in collection 233187, linked by PBDB to reference 91504.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Flagellicaudata indet. and the accepted name as Flagellicaudata.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91504:occ:1690661",
+      "physical_key": "pbdb-occ:1690661",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Flagellicaudata",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1690661",
+        "label": "PBDB occurrence 1690661"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239793: Praia do Seixo",
+        "country": "PT",
+        "region": "Oeste e Vale do Tejo, Lisbon",
+        "latitude": 39.314999,
+        "longitude": -9.349,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lourinhã",
+        "member": "Praia da Amoreira",
+        "group": null
+      },
+      "age": {
+        "min_ma": 149.2,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239793 to Late Kimmeridgian with numeric bounds 152.21–149.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91504; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1690661 records Flagellicaudata in collection 239793, linked by PBDB to reference 91504.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Flagellicaudata indet. and the accepted name as Flagellicaudata.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91504:occ:1690662",
+      "physical_key": "pbdb-occ:1690662",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Turiasauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1690662",
+        "label": "PBDB occurrence 1690662"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239794: Praia da Corva, near Torres Vedras, W coast of central Portugal. Praia de Areia Branca syncline, Bombarral-Alcobaça subbasin, Lusitanian basin",
+        "country": "PT",
+        "region": "Lisboa, Torres Vedras",
+        "latitude": 39.174553,
+        "longitude": -9.358879,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lourinhã",
+        "member": "Praia da Amoreira-Porto Novo",
+        "group": null
+      },
+      "age": {
+        "min_ma": 149.2,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239794 to Late Kimmeridgian with numeric bounds 152.21–149.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91504; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1690662 records Turiasauria in collection 239794, linked by PBDB to reference 91504.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Turiasauria indet. and the accepted name as Turiasauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

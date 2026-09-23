@@ -1,0 +1,68 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:96034",
+    "doi": "10.3897/sjp.145.196379",
+    "title": "A new postcranial skeleton of Sinovenator changii (Theropoda, Troodontidae) from the Jehol Biota of the Ningcheng Basin, Inner Mongolia, China",
+    "year": 2026,
+    "journal": "Swiss Journal of Palaeontology",
+    "url": "https://doi.org/10.3897/sjp.145.196379",
+    "authors": [
+      "D. Yu",
+      "H. Zhang",
+      "C. Zhou, R. Pei"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:96034:occ:1657967",
+      "physical_key": "pbdb-occ:1657967",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sinovenator changii",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1657967",
+        "label": "PBDB occurrence 1657967"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235272: Duanjiagou, Bisiyingzi, Ningcheng, Chifeng, southeastern Inner Mongolia, China (41°24′45.78″N, 119°7′10.31″E).",
+        "country": "CN",
+        "region": "Liaoning, Ningcheng",
+        "latitude": 41.412498,
+        "longitude": 119.119446,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Yixian",
+        "member": "Lujiatun",
+        "group": "Jehol"
+      },
+      "age": {
+        "min_ma": 119.57,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235272 to Late Barremian–Early Aptian with numeric bounds 125.77–119.57 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 96034; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1657967 records Sinovenator changii in collection 235272, linked by PBDB to reference 96034.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

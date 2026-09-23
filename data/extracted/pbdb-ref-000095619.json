@@ -1,0 +1,187 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:95619",
+    "doi": "10.1016/j.geobios.2025.05.004",
+    "title": "Newly discovered Middle Jurassic dinosaur tracks in the Baladeh region and faunal changes in northern Iran",
+    "year": 2025,
+    "journal": "Geobios",
+    "url": "https://doi.org/10.1016/j.geobios.2025.05.004",
+    "authors": [
+      "L. Xing",
+      "N. Abbassi",
+      "Q. Chen"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:95619:occ:1477160",
+      "physical_key": "pbdb-occ:1477160",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Brontopodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1477160",
+        "label": "PBDB occurrence 1477160"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 206052: Bol-Yasel section, W of Baladeh",
+        "country": "IR",
+        "region": "Mazandaran",
+        "latitude": 36.177101,
+        "longitude": 51.763699,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dansirit",
+        "member": null,
+        "group": "Shemshak"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 170.9,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 206052 to Bajocian–Bathonian with numeric bounds 170.9–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95619; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1477160 records Brontopodus in collection 206052, linked by PBDB to reference 95619.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Brontopodus sp. and the accepted name as Brontopodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:95619:occ:1477162",
+      "physical_key": "pbdb-occ:1477162",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithischia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1477162",
+        "label": "PBDB occurrence 1477162"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 206053: W of Baladeh, Bol-Yasel",
+        "country": "IR",
+        "region": "Mazandaran",
+        "latitude": 36.180599,
+        "longitude": 51.745998,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dansirit",
+        "member": null,
+        "group": "Shemshak"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 170.9,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 206053 to Bajocian–Bathonian with numeric bounds 170.9–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95619; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1477162 records Ornithischia in collection 206053, linked by PBDB to reference 95619.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithischia indet. and the accepted name as Ornithischia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:95619:occ:2068761",
+      "physical_key": "pbdb-occ:2068761",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Anomoepus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2068761",
+        "label": "PBDB occurrence 2068761"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 279712: broad outcrop exposures along ca. 6 km in the Bol-Yasel section, W of Baladeh",
+        "country": "IR",
+        "region": "Mazandaran, Nur",
+        "latitude": 36.176998,
+        "longitude": 51.757999,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dansirit",
+        "member": null,
+        "group": "Shemshak"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 170.9,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 279712 to Bajocian–Bathonian with numeric bounds 170.9–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95619; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2068761 records Anomoepus in collection 279712, linked by PBDB to reference 95619.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Anomoepus sp. and the accepted name as Anomoepus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

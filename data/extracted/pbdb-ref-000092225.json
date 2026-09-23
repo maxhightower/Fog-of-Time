@@ -1,0 +1,411 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:92225",
+    "doi": null,
+    "title": "The continental vertebrate fossil record from Pombal: contribution to the knowledge of Upper Jurassic faunas of the Lusitanian Basin",
+    "year": 2025,
+    "journal": "Comunicações Geológicas",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=92225",
+    "authors": [
+      "E. Malafaia",
+      "P. Mocho",
+      "F. Escaso, I. Narváez, J. M. Gasulla, A. Pérez-Garcia, F. Marcos-Fernândez, F. Ortega"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:92225:occ:1554292",
+      "physical_key": "pbdb-occ:1554292",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Titanosauriformes",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1554292",
+        "label": "PBDB occurrence 1554292"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 102882: Junqueira, near Pombal",
+        "country": "PT",
+        "region": "Centro, Leiria",
+        "latitude": 39.865002,
+        "longitude": -8.597,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lourinhã",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 145.06,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 102882 to Late Kimmeridgian–Early Tithonian with numeric bounds 152.21–145.06 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92225; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1554292 records Titanosauriformes in collection 102882, linked by PBDB to reference 92225.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Titanosauriformes indet. and the accepted name as Titanosauriformes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92225:occ:1554370",
+      "physical_key": "pbdb-occ:1554370",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithopoda",
+        "rank": "suborder"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1554370",
+        "label": "PBDB occurrence 1554370"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 219238: Torrinhas, Batalha, central Portugal",
+        "country": "PT",
+        "region": "Centro, Leiria",
+        "latitude": 39.669998,
+        "longitude": -8.77,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 219238 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92225; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1554370 records Ornithopoda in collection 219238, linked by PBDB to reference 92225.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithopoda indet. and the accepted name as Ornithopoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92225:occ:1700408",
+      "physical_key": "pbdb-occ:1700408",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700408",
+        "label": "PBDB occurrence 1700408"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 219238: Torrinhas, Batalha, central Portugal",
+        "country": "PT",
+        "region": "Centro, Leiria",
+        "latitude": 39.669998,
+        "longitude": -8.77,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 219238 to Kimmeridgian–Tithonian with numeric bounds 154.8–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92225; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700408 records Sauropoda in collection 219238, linked by PBDB to reference 92225.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropoda indet. and the accepted name as Sauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92225:occ:1700410",
+      "physical_key": "pbdb-occ:1700410",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700410",
+        "label": "PBDB occurrence 1700410"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 38680: near village of Andrés, parish of Santiago de Litém, Leiria district, Pombal, W-central Portugal, about 135 km NNE of Lisbon; region of Bombal Litoral, Mamede Sub-basin",
+        "country": "PT",
+        "region": "Centro, Leiria",
+        "latitude": 39.849998,
+        "longitude": -8.617,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lourinhã",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 145.06,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 38680 to Late Kimmeridgian–Early Tithonian with numeric bounds 152.21–145.06 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92225; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700410 records Sauropoda in collection 38680, linked by PBDB to reference 92225.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropoda indet. and the accepted name as Sauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92225:occ:1700414",
+      "physical_key": "pbdb-occ:1700414",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Titanosauriformes",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700414",
+        "label": "PBDB occurrence 1700414"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240912: near Monte Agudo",
+        "country": "PT",
+        "region": "Centro, Leiria",
+        "latitude": 39.823002,
+        "longitude": -8.81,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bombarral",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 149.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240912 to Tithonian with numeric bounds 149.2–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92225; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700414 records Titanosauriformes in collection 240912, linked by PBDB to reference 92225.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Titanosauriformes indet. and the accepted name as Titanosauriformes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92225:occ:1700420",
+      "physical_key": "pbdb-occ:1700420",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Titanosauriformes",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700420",
+        "label": "PBDB occurrence 1700420"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240950: ca. 3 km S of Pombal",
+        "country": "PT",
+        "region": "Centro, Leiria",
+        "latitude": 39.870998,
+        "longitude": -8.595,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bombarral",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 149.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240950 to Tithonian with numeric bounds 149.2–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92225; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700420 records Titanosauriformes in collection 240950, linked by PBDB to reference 92225.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Titanosauriformes indet. and the accepted name as Titanosauriformes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92225:occ:1700422",
+      "physical_key": "pbdb-occ:1700422",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700422",
+        "label": "PBDB occurrence 1700422"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240950: ca. 3 km S of Pombal",
+        "country": "PT",
+        "region": "Centro, Leiria",
+        "latitude": 39.870998,
+        "longitude": -8.595,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bombarral",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 149.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240950 to Tithonian with numeric bounds 149.2–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92225; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700422 records Theropoda in collection 240950, linked by PBDB to reference 92225.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

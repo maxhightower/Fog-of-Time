@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:95624",
+    "doi": "10.64369/mkcm4334",
+    "title": "Two ornithodiran unguals from the Rhaetian bonebed of Warburg-Bonenburg (Germany): Possible evidence for dinosaurs and pterosaurs",
+    "year": 2026,
+    "journal": "Geologie und Paläontologie in Westfalen",
+    "url": "https://doi.org/10.64369/mkcm4334",
+    "authors": [
+      "J. Hack",
+      "D. Nau",
+      "A. Schwermann, P. M. Sander"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:95624:occ:2068801",
+      "physical_key": "pbdb-occ:2068801",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropodomorpha",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2068801",
+        "label": "PBDB occurrence 2068801"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 275902: one kilometer north of the village of Bonenburg, city of Warburg; GPS as generalized central point. Exact geographic information on the excavations over the years is scarce, but a generalized central point of the excavated beds lies at 51° 33' 45.79\" N 9° 2' 15.23\" E.",
+        "country": "DE",
+        "region": "North Rhine-Westphalia",
+        "latitude": 52.5625,
+        "longitude": 9.0375,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Exter",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 201.4,
+        "max_ma": 205.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 275902 to Rhaetian with numeric bounds 205.7–201.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95624; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2068801 records Sauropodomorpha in collection 275902, linked by PBDB to reference 95624.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropodomorpha indet. and the accepted name as Sauropodomorpha.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

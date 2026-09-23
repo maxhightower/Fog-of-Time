@@ -1,0 +1,73 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:95769",
+    "doi": "10.19615/j.cnki.2096-9899.260616",
+    "title": "A new feathered dinosaur from Early Cretaceous of northern China highlighting the complexity of early pennaraptoran evolution and comments on several relevant conceptual and methodological issues",
+    "year": 2026,
+    "journal": "Vertebrata Palasiatica",
+    "url": "https://doi.org/10.19615/j.cnki.2096-9899.260616",
+    "authors": [
+      "X. Xu"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:95769:occ:2070958",
+      "physical_key": "pbdb-occ:2070958",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Changzhousaurus sinensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2070958",
+        "label": "PBDB occurrence 2070958"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 105772: Lamadong town, Jianchang county",
+        "country": "CN",
+        "region": "Liaoning, Jianchang",
+        "latitude": 40.654999,
+        "longitude": 119.690002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Jiufotang",
+        "member": null,
+        "group": "Jehol"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 105772 to Aptian with numeric bounds 121.4–113.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95769; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2070958 records Changzhousaurus sinensis in collection 105772, linked by PBDB to reference 95769.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Changzhousaurus sinensis n. gen. n. sp. and the accepted name as Changzhousaurus sinensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

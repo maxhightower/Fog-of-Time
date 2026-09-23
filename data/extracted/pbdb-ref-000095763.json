@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:95763",
+    "doi": "10.2992/007.092.0201",
+    "title": "First non-avian theropod (Dromaeosauridae, Microraptorinae) from the bird-bearing Lower Cretaceous Xiagou Formation of the Changma Basin, Gansu Province, northwestern China",
+    "year": 2026,
+    "journal": "Annals of Carnegie Museum",
+    "url": "https://doi.org/10.2992/007.092.0201",
+    "authors": [
+      "L. Zhou",
+      "M. C. Lamanna",
+      "A. W. Poust, D. Li, H. You, J. K. O'Connor"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:95763:occ:2070809",
+      "physical_key": "pbdb-occ:2070809",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Jian changmaensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2070809",
+        "label": "PBDB occurrence 2070809"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 62293: near village of Changma, Jiuquan area\\nCoordinates taken from Zhou et al. (2026)",
+        "country": "CN",
+        "region": "Gansu",
+        "latitude": 39.855278,
+        "longitude": 96.779442,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Xiagou",
+        "member": null,
+        "group": "Xinminbao"
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 62293 to Aptian with numeric bounds 121.4–113.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95763; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2070809 records Jian changmaensis in collection 62293, linked by PBDB to reference 95763.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Jian changmaensis n. gen. n. sp. and the accepted name as Jian changmaensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

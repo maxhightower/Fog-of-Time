@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94581",
+    "doi": "10.1080/02724634.2026.2618183",
+    "title": "A new turiasaur (Dinosauria, Eusauropoda) specimen from the Middle Jurassic of India",
+    "year": 2026,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2026.2618183",
+    "authors": [
+      "T. Ghosh",
+      "M. T. Carrano",
+      "A. M. Jukar, E. L. Stanley, K. Kumar, S. Bajpai"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94581:occ:2063151",
+      "physical_key": "pbdb-occ:2063151",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Turiasauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063151",
+        "label": "PBDB occurrence 2063151"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278545: 27°00'36.7\" N; 70°56'56.6\" E; near Jethwai village, Jaisalmer Tehsil, in the Jaisalmer Basin. This is about 1.5 km northwest of the Tharosaurus indicus type locality",
+        "country": "IN",
+        "region": "Rajasthan, Jaisalmer",
+        "latitude": 27.010279,
+        "longitude": 70.949165,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Jaisalmer",
+        "member": "Fort",
+        "group": null
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278545 to Early Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94581; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063151 records Turiasauria in collection 278545, linked by PBDB to reference 94581.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Turiasauria indet. and the accepted name as Turiasauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

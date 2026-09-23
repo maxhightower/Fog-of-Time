@@ -1,0 +1,579 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:77101",
+    "doi": "10.1017/S0016756820001089",
+    "title": "Sedimentology and palaeontology of the Upper Karoo Group in the Mid-Zambezi Basin, Zimbabwe: new localities and their implications for interbasinal correlation",
+    "year": 2021,
+    "journal": "Geological Magazine",
+    "url": "https://doi.org/10.1017/S0016756820001089",
+    "authors": [
+      "L. Sciscio",
+      "P. A. Viglietti",
+      "P. M. Barrett, T. J. Broderick, D. Munyikwa, K. E. J. Chapelle, K. N. Dollman, S. F. Edwards, M. Zondo, J. N. Choiniere"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:77101:occ:1562556",
+      "physical_key": "pbdb-occ:1562556",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Massospondylus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1562556",
+        "label": "PBDB occurrence 1562556"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 220586: Spurwing Island, Lake Kariba",
+        "country": "ZW",
+        "region": "Mashonaland West",
+        "latitude": -16.729,
+        "longitude": 28.691,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pebbly Arkose",
+        "member": null,
+        "group": "Karoo"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 220586 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 77101; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1562556 records Massospondylus in collection 220586, linked by PBDB to reference 77101.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Massospondylus sp. and the accepted name as Massospondylus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:77101:occ:1562557",
+      "physical_key": "pbdb-occ:1562557",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dinosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1562557",
+        "label": "PBDB occurrence 1562557"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 220587: Elephant Point, Lake Kariba",
+        "country": "ZW",
+        "region": "Mashonaland West",
+        "latitude": -16.774,
+        "longitude": 28.476999,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pebbly Arkose",
+        "member": null,
+        "group": "Karoo"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 220587 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 77101; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1562557 records Dinosauria in collection 220587, linked by PBDB to reference 77101.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Dinosauria indet. and the accepted name as Dinosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:77101:occ:1562561",
+      "physical_key": "pbdb-occ:1562561",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropodomorpha",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1562561",
+        "label": "PBDB occurrence 1562561"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 220589: Gordon's Bay area, S shore of Lake Kariba",
+        "country": "ZW",
+        "region": "Mashonaland West",
+        "latitude": -16.759167,
+        "longitude": 28.576944,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pebbly Arkose",
+        "member": null,
+        "group": "Karoo"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 220589 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 77101; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1562561 records Sauropodomorpha in collection 220589, linked by PBDB to reference 77101.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropodomorpha indet. and the accepted name as Sauropodomorpha.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:77101:occ:1563366",
+      "physical_key": "pbdb-occ:1563366",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dinosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1563366",
+        "label": "PBDB occurrence 1563366"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 220709: Namembere Island, Lake Kariba (W of Island 126/127)",
+        "country": "ZW",
+        "region": "Mashonaland West",
+        "latitude": -16.817223,
+        "longitude": 28.232222,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Forest Sandstone",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 192.9,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 220709 to Hettangian–Sinemurian with numeric bounds 201.4–192.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 77101; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1563366 records Dinosauria in collection 220709, linked by PBDB to reference 77101.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Dinosauria indet. and the accepted name as Dinosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:77101:occ:1563367",
+      "physical_key": "pbdb-occ:1563367",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropodomorpha",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1563367",
+        "label": "PBDB occurrence 1563367"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 220709: Namembere Island, Lake Kariba (W of Island 126/127)",
+        "country": "ZW",
+        "region": "Mashonaland West",
+        "latitude": -16.817223,
+        "longitude": 28.232222,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Forest Sandstone",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 192.9,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 220709 to Hettangian–Sinemurian with numeric bounds 201.4–192.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 77101; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1563367 records Sauropodomorpha in collection 220709, linked by PBDB to reference 77101.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Sauropodomorpha indet. and the accepted name as Sauropodomorpha.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:77101:occ:1563368",
+      "physical_key": "pbdb-occ:1563368",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropodomorpha",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1563368",
+        "label": "PBDB occurrence 1563368"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 220710: Nyanzirau, along the Leopard Hill geotraverse, S of Lake Kariba",
+        "country": "ZW",
+        "region": "Mashonaland West",
+        "latitude": -16.836666,
+        "longitude": 28.352501,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pebbly Arkose",
+        "member": null,
+        "group": "Karoo"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 220710 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 77101; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1563368 records Sauropodomorpha in collection 220710, linked by PBDB to reference 77101.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropodomorpha indet. and the accepted name as Sauropodomorpha.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:77101:occ:1563370",
+      "physical_key": "pbdb-occ:1563370",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Massospondylidae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1563370",
+        "label": "PBDB occurrence 1563370"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 220711: On an unnamed island (Island 126/127) in Lake Kariba, about 8 km WSW of Bumi Hills Hotel, Zambezi Valley, Zimbabwe (Rhodesia in this paper).",
+        "country": "ZW",
+        "region": "Mashonaland North",
+        "latitude": -16.808332,
+        "longitude": 28.275,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Forest Sandstone",
+        "member": null,
+        "group": "Karoo"
+      },
+      "age": {
+        "min_ma": 184.2,
+        "max_ma": 199.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 220711 to Sinemurian–Pliensbachian with numeric bounds 199.5–184.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 77101; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1563370 records Massospondylidae in collection 220711, linked by PBDB to reference 77101.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Massospondylidae indet. and the accepted name as Massospondylidae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:77101:occ:1563373",
+      "physical_key": "pbdb-occ:1563373",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropodomorpha",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1563373",
+        "label": "PBDB occurrence 1563373"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 220712: The Dock, Spurwing Island, Lake Kariba",
+        "country": "ZW",
+        "region": "Mashonaland West",
+        "latitude": -16.731112,
+        "longitude": 28.692499,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pebbly Arkose",
+        "member": null,
+        "group": "Karoo"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 220712 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 77101; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1563373 records Sauropodomorpha in collection 220712, linked by PBDB to reference 77101.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropodomorpha indet. and the accepted name as Sauropodomorpha.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:77101:occ:1563374",
+      "physical_key": "pbdb-occ:1563374",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1563374",
+        "label": "PBDB occurrence 1563374"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 220712: The Dock, Spurwing Island, Lake Kariba",
+        "country": "ZW",
+        "region": "Mashonaland West",
+        "latitude": -16.731112,
+        "longitude": 28.692499,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pebbly Arkose",
+        "member": null,
+        "group": "Karoo"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 220712 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 77101; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1563374 records Theropoda in collection 220712, linked by PBDB to reference 77101.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:77101:occ:1563375",
+      "physical_key": "pbdb-occ:1563375",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1563375",
+        "label": "PBDB occurrence 1563375"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 220712: The Dock, Spurwing Island, Lake Kariba",
+        "country": "ZW",
+        "region": "Mashonaland West",
+        "latitude": -16.731112,
+        "longitude": 28.692499,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pebbly Arkose",
+        "member": null,
+        "group": "Karoo"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 220712 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 77101; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1563375 records Theropoda in collection 220712, linked by PBDB to reference 77101.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

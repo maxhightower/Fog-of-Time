@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94568",
+    "doi": "10.5710/amgh.17.09.2025.3654",
+    "title": "Isolated Abelisaurid Teeth from Gondwana and Dental Evolution in Abelisauridae",
+    "year": 2025,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/amgh.17.09.2025.3654",
+    "authors": [
+      "C. Hendrickx",
+      "M. S. Núñez",
+      "R. Araújo, J. G. Meso, S. Maganuco, A. Ben-Salahuddin"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94568:occ:534627",
+      "physical_key": "pbdb-occ:534627",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "534627",
+        "label": "PBDB occurrence 534627"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 55319: between Ambondromamy and Port Bergè",
+        "country": "MG",
+        "region": "Mahajanga",
+        "latitude": -16.48,
+        "longitude": 47.400002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Isalo IIIb",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 55319 to Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94568; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 534627 records Abelisauridae in collection 55319, linked by PBDB to reference 94568.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae indet. and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94568:occ:2063044",
+      "physical_key": "pbdb-occ:2063044",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063044",
+        "label": "PBDB occurrence 2063044"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 55318: near village of Ambondromamy",
+        "country": "MG",
+        "region": "Mahajanga",
+        "latitude": -16.433001,
+        "longitude": 47.150002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Isalo IIIb",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 55318 to Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94568; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063044 records Abelisauridae in collection 55318, linked by PBDB to reference 94568.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae indet. and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

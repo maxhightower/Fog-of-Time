@@ -1,0 +1,117 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:96032",
+    "doi": "10.1371/journal.pone.0353362",
+    "title": "Morphology and articular configuration of the ceratopsid (Dinosauria: Ornithischia) lower hindlimb as revealed by a specimen from the Upper Cretaceous Dinosaur Park Formation of southern Alberta, Canada",
+    "year": 2026,
+    "journal": "PLOS One",
+    "url": "https://doi.org/10.1371/journal.pone.0353362",
+    "authors": [
+      "B. Theurer",
+      "D. H. Tanke",
+      "D. Bastiaans, K. Nguyen, P. Currie, C. Sullivan"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:96032:occ:2076001",
+      "physical_key": "pbdb-occ:2076001",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ceratopsidae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2076001",
+        "label": "PBDB occurrence 2076001"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 280754: UTM 12U 464163; 5621193; 165 m N of RTMP Quarry 237 and 31 m from AMNH quarry (1913-1914)",
+        "country": "CA",
+        "region": "Alberta, Newell",
+        "latitude": 50.741417,
+        "longitude": -111.507904,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dinosaur Park",
+        "member": null,
+        "group": "Belly River"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 280754 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 96032; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2076001 records Ceratopsidae in collection 280754, linked by PBDB to reference 96032.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:96032:occ:2076002",
+      "physical_key": "pbdb-occ:2076002",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Centrosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2076002",
+        "label": "PBDB occurrence 2076002"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 280755: White Rock Coulee, near Medicine Hat, Alberta",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 50.4077,
+        "longitude": -110.291,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": "Belly River"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 280755 to Middle Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 96032; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2076002 records Centrosaurus in collection 280755, linked by PBDB to reference 96032.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

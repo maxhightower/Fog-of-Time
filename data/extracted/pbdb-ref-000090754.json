@@ -1,0 +1,243 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:90754",
+    "doi": "10.31711/giw.v12.pp1-23",
+    "title": "Census of currently known specimens of the Late Jurassic sauropod Haplocanthosaurus from the Morrison Formation, USA",
+    "year": 2025,
+    "journal": "Geology of the Intermountain West",
+    "url": "https://doi.org/10.31711/giw.v12.pp1-23",
+    "authors": [
+      "C. Boisvert",
+      "G. T. Bivens",
+      "B. Curtice, D. R. Wilhite, M. J. Wedel"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:90754:occ:1685357",
+      "physical_key": "pbdb-occ:1685357",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diplodocoidea",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1685357",
+        "label": "PBDB occurrence 1685357"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 28366: 11 km N of Cañon City, Colorado. NE 1/4 of SE 1/4 of sec. 28, T17S, R70W. S end of Garden Park. Site above a cliff on N side of arroyo feeding into Four Mile (= Oil) Creek (main drainage for Garden Park).",
+        "country": "US",
+        "region": "Colorado, Fremont",
+        "latitude": 38.539501,
+        "longitude": -105.224701,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": "Brushy Basin",
+        "group": null
+      },
+      "age": {
+        "min_ma": 145.06,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 28366 to Late Kimmeridgian–Early Tithonian with numeric bounds 152.21–145.06 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90754; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1685357 records Diplodocoidea in collection 28366, linked by PBDB to reference 90754.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Diplodocoidea indet. and the accepted name as Diplodocoidea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90754:occ:1685358",
+      "physical_key": "pbdb-occ:1685358",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Diplodocidae",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1685358",
+        "label": "PBDB occurrence 1685358"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 28366: 11 km N of Cañon City, Colorado. NE 1/4 of SE 1/4 of sec. 28, T17S, R70W. S end of Garden Park. Site above a cliff on N side of arroyo feeding into Four Mile (= Oil) Creek (main drainage for Garden Park).",
+        "country": "US",
+        "region": "Colorado, Fremont",
+        "latitude": 38.539501,
+        "longitude": -105.224701,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": "Brushy Basin",
+        "group": null
+      },
+      "age": {
+        "min_ma": 145.06,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 28366 to Late Kimmeridgian–Early Tithonian with numeric bounds 152.21–145.06 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90754; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1685358 records Diplodocidae in collection 28366, linked by PBDB to reference 90754.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Diplodocidae indet. and the accepted name as Diplodocidae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90754:occ:1685359",
+      "physical_key": "pbdb-occ:1685359",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Brachiosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1685359",
+        "label": "PBDB occurrence 1685359"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 28366: 11 km N of Cañon City, Colorado. NE 1/4 of SE 1/4 of sec. 28, T17S, R70W. S end of Garden Park. Site above a cliff on N side of arroyo feeding into Four Mile (= Oil) Creek (main drainage for Garden Park).",
+        "country": "US",
+        "region": "Colorado, Fremont",
+        "latitude": 38.539501,
+        "longitude": -105.224701,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": "Brushy Basin",
+        "group": null
+      },
+      "age": {
+        "min_ma": 145.06,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 28366 to Late Kimmeridgian–Early Tithonian with numeric bounds 152.21–145.06 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90754; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1685359 records Brachiosaurus in collection 28366, linked by PBDB to reference 90754.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Brachiosaurus sp. and the accepted name as Brachiosaurus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90754:occ:1685360",
+      "physical_key": "pbdb-occ:1685360",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Brachiosauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1685360",
+        "label": "PBDB occurrence 1685360"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 28366: 11 km N of Cañon City, Colorado. NE 1/4 of SE 1/4 of sec. 28, T17S, R70W. S end of Garden Park. Site above a cliff on N side of arroyo feeding into Four Mile (= Oil) Creek (main drainage for Garden Park).",
+        "country": "US",
+        "region": "Colorado, Fremont",
+        "latitude": 38.539501,
+        "longitude": -105.224701,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": "Brushy Basin",
+        "group": null
+      },
+      "age": {
+        "min_ma": 145.06,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 28366 to Late Kimmeridgian–Early Tithonian with numeric bounds 152.21–145.06 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90754; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1685360 records Brachiosauridae in collection 28366, linked by PBDB to reference 90754.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Brachiosauridae indet. and the accepted name as Brachiosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

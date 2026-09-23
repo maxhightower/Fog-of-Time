@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94598",
+    "doi": "10.1080/14772019.2025.2607800",
+    "title": "New early Maastrichtian ‘duck-billed’ dinosaur from Hațeg Basin (Densuș-Ciula Formation, Romania) documents an endemic clade of non-hadrosaurid hadrosauroids in the south-eastern Late Cretaceous European Archipelago",
+    "year": 2026,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2025.2607800",
+    "authors": [
+      "J. Magyar",
+      "A. Ősi",
+      "Z. Csiki-Sava, S. Budai, G. Botfalvai"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94598:occ:2063345",
+      "physical_key": "pbdb-occ:2063345",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kryptohadros kallaiae",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063345",
+        "label": "PBDB occurrence 2063345"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278586: Estimated coordinates from map in Figure 1 of Magyar et al. 2026",
+        "country": "RO",
+        "region": "Transylvania, Hunedoara",
+        "latitude": 45.621868,
+        "longitude": 22.79283,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Densuș-Ciula",
+        "member": "Middle",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278586 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94598; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063345 records Kryptohadros kallaiae in collection 278586, linked by PBDB to reference 94598.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Kryptohadros kallaiae n. gen. n. sp. and the accepted name as Kryptohadros kallaiae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

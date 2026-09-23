@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93869",
+    "doi": "10.1080/08912963.2025.2584707",
+    "title": "Yeneen houssayi gen. et sp. nov. and an overview of the sauropod titanosaurian diversity from Cerro Overo– La Invernada area (Bajo de la Carpa Formation, Santonian), North Patagonia, Argentina",
+    "year": 2026,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2025.2584707",
+    "authors": [
+      "L. S. Filippi",
+      "F. Bellardini",
+      "J. l. Carballido, A. H. Méndez, A. C. Garrido"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93869:occ:2048890",
+      "physical_key": "pbdb-occ:2048890",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Yeneen houssayi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2048890",
+        "label": "PBDB occurrence 2048890"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 176562: La Invernada area, 50 km (also said to be 35 km) SW of Rincón de los Sauces, northern Patagonia",
+        "country": "AR",
+        "region": "Neuquén",
+        "latitude": -37.593056,
+        "longitude": -69.315559,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bajo de la Carpa",
+        "member": null,
+        "group": "Neuquén"
+      },
+      "age": {
+        "min_ma": 83.6,
+        "max_ma": 85.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 176562 to Santonian with numeric bounds 85.7–83.6 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93869; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2048890 records Yeneen houssayi in collection 176562, linked by PBDB to reference 93869.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Yeneen houssayi n. gen. n. sp. and the accepted name as Yeneen houssayi.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

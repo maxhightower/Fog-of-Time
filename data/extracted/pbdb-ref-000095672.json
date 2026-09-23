@@ -1,0 +1,411 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:95672",
+    "doi": "10.1371/journal.pone.0335893",
+    "title": "Paleontological and paleoecological significance of the oldest highly productive Upper Cretaceous (lowermost Maastrichtian) bonebed of Haţeg Basin (western Romania; Densuş-Ciula Formation)",
+    "year": 2025,
+    "journal": "PLOS One",
+    "url": "https://doi.org/10.1371/journal.pone.0335893",
+    "authors": [
+      "G. Botfalvai",
+      "Z. Csiki-Sava",
+      "J. Magyar, B. Páll-Gergely, L. Koczó, D. Ţabără, G. Konecsni, S. Budai"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:95672:occ:2069703",
+      "physical_key": "pbdb-occ:2069703",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Hadrosauroidea",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2069703",
+        "label": "PBDB occurrence 2069703"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235665: in the Neagului Valley (Pârâul Neagului), NW of Valioara",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.617401,
+        "longitude": 22.7775,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Densuș-Ciula",
+        "member": "Middle",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235665 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95672; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2069703 records Hadrosauroidea in collection 235665, linked by PBDB to reference 95672.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Hadrosauroidea indet. and the accepted name as Hadrosauroidea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:95672:occ:2069704",
+      "physical_key": "pbdb-occ:2069704",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Titanosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2069704",
+        "label": "PBDB occurrence 2069704"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235665: in the Neagului Valley (Pârâul Neagului), NW of Valioara",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.617401,
+        "longitude": 22.7775,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Densuș-Ciula",
+        "member": "Middle",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235665 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95672; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2069704 records Titanosauria in collection 235665, linked by PBDB to reference 95672.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Titanosauria indet. and the accepted name as Titanosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:95672:occ:2069705",
+      "physical_key": "pbdb-occ:2069705",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Richardoestesia",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2069705",
+        "label": "PBDB occurrence 2069705"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235665: in the Neagului Valley (Pârâul Neagului), NW of Valioara",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.617401,
+        "longitude": 22.7775,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Densuș-Ciula",
+        "member": "Middle",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235665 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95672; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2069705 records Richardoestesia in collection 235665, linked by PBDB to reference 95672.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Richardoestesia sp. and the accepted name as Richardoestesia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:95672:occ:2069706",
+      "physical_key": "pbdb-occ:2069706",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Velociraptorinae",
+        "rank": "subfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2069706",
+        "label": "PBDB occurrence 2069706"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235665: in the Neagului Valley (Pârâul Neagului), NW of Valioara",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.617401,
+        "longitude": 22.7775,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Densuș-Ciula",
+        "member": "Middle",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235665 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95672; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2069706 records Velociraptorinae in collection 235665, linked by PBDB to reference 95672.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Velociraptorinae indet. and the accepted name as Velociraptorinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:95672:occ:2069707",
+      "physical_key": "pbdb-occ:2069707",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Paraves",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2069707",
+        "label": "PBDB occurrence 2069707"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235665: in the Neagului Valley (Pârâul Neagului), NW of Valioara",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.617401,
+        "longitude": 22.7775,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Densuș-Ciula",
+        "member": "Middle",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235665 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95672; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2069707 records Paraves in collection 235665, linked by PBDB to reference 95672.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Paraves indet. and the accepted name as Paraves.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:95672:occ:2069711",
+      "physical_key": "pbdb-occ:2069711",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithopoda",
+        "rank": "suborder"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2069711",
+        "label": "PBDB occurrence 2069711"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235665: in the Neagului Valley (Pârâul Neagului), NW of Valioara",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.617401,
+        "longitude": 22.7775,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Densuș-Ciula",
+        "member": "Middle",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235665 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95672; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2069711 records Ornithopoda in collection 235665, linked by PBDB to reference 95672.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithopoda indet. and the accepted name as Ornithopoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:95672:occ:2069712",
+      "physical_key": "pbdb-occ:2069712",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2069712",
+        "label": "PBDB occurrence 2069712"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235665: in the Neagului Valley (Pârâul Neagului), NW of Valioara",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.617401,
+        "longitude": 22.7775,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Densuș-Ciula",
+        "member": "Middle",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235665 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95672; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2069712 records Theropoda in collection 235665, linked by PBDB to reference 95672.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

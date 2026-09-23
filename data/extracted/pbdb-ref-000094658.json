@@ -1,0 +1,235 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94658",
+    "doi": "10.3897/vz.75.e146618",
+    "title": "New insights into the phylogeny and skull evolution of stegosaurian dinosaurs: An extraordinary cranium from the European Late Jurassic (Dinosauria: Stegosauria)",
+    "year": 2025,
+    "journal": "Vertebrate Zoology",
+    "url": "https://doi.org/10.3897/vz.75.e146618",
+    "authors": [
+      "S. Sánchez-Fenollosa",
+      "A. Cobos"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94658:occ:1606201",
+      "physical_key": "pbdb-occ:1606201",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dacentrurus armatus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1606201",
+        "label": "PBDB occurrence 1606201"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 227113: southern Teruel, near Riodeva",
+        "country": "ES",
+        "region": "Teruel",
+        "latitude": 40.116699,
+        "longitude": -1.15,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Villar del Arzobispo",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 227113 to Late Kimmeridgian–Tithonian with numeric bounds 152.21–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94658; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1606201 records Dacentrurus armatus in collection 227113, linked by PBDB to reference 94658.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94658:occ:2063591",
+      "physical_key": "pbdb-occ:2063591",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063591",
+        "label": "PBDB occurrence 2063591"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 227113: southern Teruel, near Riodeva",
+        "country": "ES",
+        "region": "Teruel",
+        "latitude": 40.116699,
+        "longitude": -1.15,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Villar del Arzobispo",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 227113 to Late Kimmeridgian–Tithonian with numeric bounds 152.21–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94658; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063591 records Theropoda in collection 227113, linked by PBDB to reference 94658.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94658:occ:2063592",
+      "physical_key": "pbdb-occ:2063592",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063592",
+        "label": "PBDB occurrence 2063592"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 227113: southern Teruel, near Riodeva",
+        "country": "ES",
+        "region": "Teruel",
+        "latitude": 40.116699,
+        "longitude": -1.15,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Villar del Arzobispo",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 227113 to Late Kimmeridgian–Tithonian with numeric bounds 152.21–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94658; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063592 records Sauropoda in collection 227113, linked by PBDB to reference 94658.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropoda indet. and the accepted name as Sauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94658:occ:2063593",
+      "physical_key": "pbdb-occ:2063593",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithopoda",
+        "rank": "suborder"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063593",
+        "label": "PBDB occurrence 2063593"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 227113: southern Teruel, near Riodeva",
+        "country": "ES",
+        "region": "Teruel",
+        "latitude": 40.116699,
+        "longitude": -1.15,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Villar del Arzobispo",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 227113 to Late Kimmeridgian–Tithonian with numeric bounds 152.21–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94658; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063593 records Ornithopoda in collection 227113, linked by PBDB to reference 94658.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithopoda indet. and the accepted name as Ornithopoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

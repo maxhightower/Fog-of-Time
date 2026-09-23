@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:90958",
+    "doi": "10.1016/j.isci.2024.111641",
+    "title": "New evidence for the earliest ornithischian dinosaurs from Asia",
+    "year": 2025,
+    "journal": "iScience",
+    "url": "https://doi.org/10.1016/j.isci.2024.111641",
+    "authors": [
+      "X. Yao",
+      "Q. Zhao",
+      "T. Ren, G. Wei, X. Xu"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:90958:occ:1686746",
+      "physical_key": "pbdb-occ:1686746",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Archaeocursor asiaticus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1686746",
+        "label": "PBDB occurrence 1686746"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239044: Xiantao Street near Congyansi subway station, GPS coordinates N 29°44'57.0\" E 106°34'57.0\", approximately 2 km north of Chongqing Central Park in Yubei District, Chongqing Municipality, southwestern China",
+        "country": "CN",
+        "region": "Chongqing, Chongqing Shi",
+        "latitude": 29.749166,
+        "longitude": 106.582497,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Ziliujing",
+        "member": "Dongyuemiao",
+        "group": null
+      },
+      "age": {
+        "min_ma": 184.2,
+        "max_ma": 199.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239044 to Late Sinemurian–Pliensbachian with numeric bounds 199.5–184.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90958; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1686746 records Archaeocursor asiaticus in collection 239044, linked by PBDB to reference 90958.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Archaeocursor asiaticus n. gen. n. sp. and the accepted name as Archaeocursor asiaticus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

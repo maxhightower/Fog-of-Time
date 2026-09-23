@@ -1,0 +1,129 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93019",
+    "doi": "10.69575/RPKH2343",
+    "title": "A large silesaurid specimen from Petrified Forest National Park, U.S.A., with comments on large body sizes in latest Triassic ornithodirans",
+    "year": 2025,
+    "journal": "Lithodendron: The Science and History Journal of Petrified Forest National Park",
+    "url": "https://doi.org/10.69575/RPKH2343",
+    "authors": [
+      "A. D. Marsh"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93019:occ:1546787",
+      "physical_key": "pbdb-occ:1546787",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Coelophysoidea",
+        "rank": "superfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1546787",
+        "label": "PBDB occurrence 1546787"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 218118: PFV 477 occurs in the southeast corner of the former Paulsell Ranch",
+        "country": "US",
+        "region": "Arizona, Apache",
+        "latitude": 34.929901,
+        "longitude": -109.695702,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle",
+        "member": "Petrified Forest",
+        "group": null
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 218118 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93019; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1546787 records Coelophysoidea in collection 218118, linked by PBDB to reference 93019.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Coelophysoidea indet. and the accepted name as Coelophysoidea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93019:occ:1708981",
+      "physical_key": "pbdb-occ:1708981",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Silesauridae",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1708981",
+        "label": "PBDB occurrence 1708981"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 218118: PFV 477 occurs in the southeast corner of the former Paulsell Ranch",
+        "country": "US",
+        "region": "Arizona, Apache",
+        "latitude": 34.929901,
+        "longitude": -109.695702,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle",
+        "member": "Petrified Forest",
+        "group": null
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 218118 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93019; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1708981 records Silesauridae in collection 218118, linked by PBDB to reference 93019.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Silesauridae indet. and the accepted name as Silesauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

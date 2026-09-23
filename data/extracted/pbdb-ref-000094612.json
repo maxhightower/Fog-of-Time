@@ -1,0 +1,173 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94612",
+    "doi": "10.7717/peerj.20945",
+    "title": "Bicharracosaurus dionidei, gen. et sp. nov., a new macronarian (Dinosauria, Sauropoda) from the Late Jurassic Cañadón Calcáreo Formation of Argentina and the problematic early evolution of macronarians",
+    "year": 2026,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.20945",
+    "authors": [
+      "A. Reutter",
+      "J. L. Carballido",
+      "G. J. Windholz, D. Pol, O. W. Rauhut"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94612:occ:1296272",
+      "physical_key": "pbdb-occ:1296272",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Bicharracosaurus dionidei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1296272",
+        "label": "PBDB occurrence 1296272"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 172899: The locality lies ca. 20 km north of the village of Cerro Condor on the eastern side of the Chubut River",
+        "country": "AR",
+        "region": "Chubut, Gastre",
+        "latitude": -43.217899,
+        "longitude": -69.068802,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cañadón Calcáreo",
+        "member": null,
+        "group": "Sierra de Olte"
+      },
+      "age": {
+        "min_ma": 149.2,
+        "max_ma": 154.8,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 172899 to Kimmeridgian with numeric bounds 154.8–149.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94612; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1296272 records Bicharracosaurus dionidei in collection 172899, linked by PBDB to reference 94612.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94612:occ:2063435",
+      "physical_key": "pbdb-occ:2063435",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Bicharracosaurus dionidei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063435",
+        "label": "PBDB occurrence 2063435"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278612: Dionide 3 locality, approximately 24 km north of Cerro Cóndor and east of the Chubut River, Chubut Province, Argentina.",
+        "country": "AR",
+        "region": "Chubut, Gastre",
+        "latitude": -43.2075,
+        "longitude": -69.105278,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cañadón Calcáreo",
+        "member": null,
+        "group": "Sierra de Olte"
+      },
+      "age": {
+        "min_ma": 149.2,
+        "max_ma": 161.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278612 to Oxfordian–Kimmeridgian with numeric bounds 161.5–149.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94612; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063435 records Bicharracosaurus dionidei in collection 278612, linked by PBDB to reference 94612.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Bicharracosaurus dionidei n. gen. n. sp. and the accepted name as Bicharracosaurus dionidei.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94612:occ:2074251",
+      "physical_key": "pbdb-occ:2074251",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2074251",
+        "label": "PBDB occurrence 2074251"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278612: Dionide 3 locality, approximately 24 km north of Cerro Cóndor and east of the Chubut River, Chubut Province, Argentina.",
+        "country": "AR",
+        "region": "Chubut, Gastre",
+        "latitude": -43.2075,
+        "longitude": -69.105278,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cañadón Calcáreo",
+        "member": null,
+        "group": "Sierra de Olte"
+      },
+      "age": {
+        "min_ma": 149.2,
+        "max_ma": 161.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278612 to Oxfordian–Kimmeridgian with numeric bounds 161.5–149.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94612; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2074251 records Theropoda in collection 278612, linked by PBDB to reference 94612.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

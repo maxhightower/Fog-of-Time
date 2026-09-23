@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:95287",
+    "doi": "10.1038/s41598-026-49822-3",
+    "title": "A new mamenchisaurid sauropod from the Lower Phu Kradung Formation, Upper Jurassic of northeastern Thailand",
+    "year": 2026,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-026-49822-3",
+    "authors": [
+      "A. Nilpanapan",
+      "S. Manitkoon",
+      "V. Suteethorn, K. Lauprasert"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:95287:occ:2068252",
+      "physical_key": "pbdb-occ:2068252",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Uragasaurus kalasinensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2068252",
+        "label": "PBDB occurrence 2068252"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 157421: The Phu Noi locality is located on the flank of a small hill near the village (Ban) Dinji [Ban Din Chi], Kham Muang District, Kalasin Province. Within the Kalasin Geopark.",
+        "country": "TH",
+        "region": "Kalasin, Kham Muang",
+        "latitude": 16.65,
+        "longitude": 102.25,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Phu Kradung",
+        "member": null,
+        "group": "Khorat"
+      },
+      "age": {
+        "min_ma": 137.05,
+        "max_ma": 149.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 157421 to Tithonian–Berriasian with numeric bounds 149.2–137.05 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95287; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2068252 records Uragasaurus kalasinensis in collection 157421, linked by PBDB to reference 95287.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Uragasaurus kalasinensis n. gen. n. sp. and the accepted name as Uragasaurus kalasinensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

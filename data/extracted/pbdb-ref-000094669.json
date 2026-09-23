@@ -1,0 +1,74 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94669",
+    "doi": "10.1002/spp2.70069",
+    "title": "A new taxon of saurischian dinosaur from the  Coelophysis Quarry of New Mexico, USA  (Triassic: latest Norian or Rhaetian) highlights herrerasaurian diversity in the latest Triassic",
+    "year": 2026,
+    "journal": "Papers in Palaeontology",
+    "url": "https://doi.org/10.1002/spp2.70069",
+    "authors": [
+      "S. Srivastava",
+      "S. J. Nesbitt"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94669:occ:2063635",
+      "physical_key": "pbdb-occ:2063635",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ptychotherates bucculentus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063635",
+        "label": "PBDB occurrence 2063635"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 48422: SE 1/4, SE 1/4, SW 1/4, sec 1, T24N, R4E. Ghost Ranch, orig. owned by Arthur N. Pack",
+        "country": "US",
+        "region": "New Mexico, Rio Arriba",
+        "latitude": 36.331699,
+        "longitude": -106.473099,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle",
+        "member": "Siltstone",
+        "group": null
+      },
+      "age": {
+        "min_ma": 201.4,
+        "max_ma": 205.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 48422 to Rhaetian with numeric bounds 205.7–201.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94669; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063635 records Ptychotherates bucculentus in collection 48422, linked by PBDB to reference 94669.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ptychotherates bucculentus n. gen. n. sp. and the accepted name as Ptychotherates bucculentus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

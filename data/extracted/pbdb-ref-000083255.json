@@ -1,0 +1,278 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:83255",
+    "doi": "10.1038/s41586-022-05133-x",
+    "title": "Africa’s oldest dinosaurs reveal early suppression of dinosaur distribution",
+    "year": 2022,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/s41586-022-05133-x",
+    "authors": [
+      "C. T. Griffin",
+      "B. M. Wynd",
+      "D. Munyikwa, T. J. Broderick, M. Zondo, S. Tolan, M. C. Langer, S. J. Nesbitt, H. R. Taruvinga"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:83255:occ:1614363",
+      "physical_key": "pbdb-occ:1614363",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Mbiresaurus raathi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1614363",
+        "label": "PBDB occurrence 1614363"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 228330: Transect A, Dande Communal Land",
+        "country": "ZW",
+        "region": "Mashonaland Central",
+        "latitude": -16.1008,
+        "longitude": 30.4683,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pebbly Arkose",
+        "member": null,
+        "group": "Karoo"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 228330 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 83255; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1614363 records Mbiresaurus raathi in collection 228330, linked by PBDB to reference 83255.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Mbiresaurus raathi n. gen. n. sp. and the accepted name as Mbiresaurus raathi.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:83255:occ:1614365",
+      "physical_key": "pbdb-occ:1614365",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Herrerasauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1614365",
+        "label": "PBDB occurrence 1614365"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 228331: Transect B, Dande Communal Land",
+        "country": "ZW",
+        "region": "Mashonaland Central",
+        "latitude": -16.1008,
+        "longitude": 30.4683,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pebbly Arkose",
+        "member": null,
+        "group": "Karoo"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 228331 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 83255; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1614365 records Herrerasauridae in collection 228331, linked by PBDB to reference 83255.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Herrerasauridae indet. and the accepted name as Herrerasauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:83255:occ:1614367",
+      "physical_key": "pbdb-occ:1614367",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Mbiresaurus raathi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1614367",
+        "label": "PBDB occurrence 1614367"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 228331: Transect B, Dande Communal Land",
+        "country": "ZW",
+        "region": "Mashonaland Central",
+        "latitude": -16.1008,
+        "longitude": 30.4683,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pebbly Arkose",
+        "member": null,
+        "group": "Karoo"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 228331 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 83255; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1614367 records Mbiresaurus raathi in collection 228331, linked by PBDB to reference 83255.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:83255:occ:1614369",
+      "physical_key": "pbdb-occ:1614369",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Mbiresaurus raathi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1614369",
+        "label": "PBDB occurrence 1614369"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 228332: Transect C, Dande Communal Land",
+        "country": "ZW",
+        "region": "Mashonaland Central",
+        "latitude": -16.1008,
+        "longitude": 30.4683,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pebbly Arkose",
+        "member": null,
+        "group": "Karoo"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 228332 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 83255; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1614369 records Mbiresaurus raathi in collection 228332, linked by PBDB to reference 83255.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:83255:occ:1614372",
+      "physical_key": "pbdb-occ:1614372",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Mbiresaurus raathi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1614372",
+        "label": "PBDB occurrence 1614372"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 228333: northwest of transects A–C, Dande Communal Land",
+        "country": "ZW",
+        "region": "Mashonaland Central",
+        "latitude": -16.1008,
+        "longitude": 30.4683,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pebbly Arkose",
+        "member": null,
+        "group": "Karoo"
+      },
+      "age": {
+        "min_ma": 227.3,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 228333 to Carnian with numeric bounds 237–227.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 83255; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1614372 records Mbiresaurus raathi in collection 228333, linked by PBDB to reference 83255.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

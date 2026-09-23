@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:91295",
+    "doi": null,
+    "title": "New fossiliferous locality from the Anacleto Formation (Late Cretaceous, Campanian) from northern Patagonia, with the description of a new titanosaur",
+    "year": 2025,
+    "journal": "Revista del Museo Argentino de Ciencias Naturales",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=91295",
+    "authors": [
+      "F. Agnolin",
+      "M. Motta",
+      "J. García Marsá, M. Aranciaga Rolando, G. Alvarez Herrera, N. Chimento, S. Rozadilla, F. Brizzon-Egli, M. Cerroni, K. Panzeri, S. Bogan, S. Casadio, J. Sterli, S. Miquel, S. Martínez, L. Perez, D. Pol, F. Novas"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:91295:occ:1688765",
+      "physical_key": "pbdb-occ:1688765",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Chadititan calvoi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1688765",
+        "label": "PBDB occurrence 1688765"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239490: The new fossiliferous locality here reported is located within the Marín family Farm (39° 22’\\r\\n43.8” S, 67° 41’ 24.1” W), which is located close to Paso Córdoba locality, at 10 km at the southwest of General Roca city.",
+        "country": "AR",
+        "region": "Río Negro, Paso Córdoba",
+        "latitude": -39.378613,
+        "longitude": -67.690002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Anacleto",
+        "member": null,
+        "group": "Neuquén"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239490 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91295; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1688765 records Chadititan calvoi in collection 239490, linked by PBDB to reference 91295.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Chadititan calvoi n. gen. n. sp. and the accepted name as Chadititan calvoi.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91295:occ:1688766",
+      "physical_key": "pbdb-occ:1688766",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1688766",
+        "label": "PBDB occurrence 1688766"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239490: The new fossiliferous locality here reported is located within the Marín family Farm (39° 22’\\r\\n43.8” S, 67° 41’ 24.1” W), which is located close to Paso Córdoba locality, at 10 km at the southwest of General Roca city.",
+        "country": "AR",
+        "region": "Río Negro, Paso Córdoba",
+        "latitude": -39.378613,
+        "longitude": -67.690002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Anacleto",
+        "member": null,
+        "group": "Neuquén"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239490 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91295; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1688766 records Abelisauridae in collection 239490, linked by PBDB to reference 91295.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae indet. and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

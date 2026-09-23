@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94876",
+    "doi": "10.1080/14772019.2025.2601579",
+    "title": "A new titanosauriform with European affinities in the Early Cretaceous of Brazil: insights on Somphospondyli phylogeny, histology and biogeography",
+    "year": 2026,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2025.2601579",
+    "authors": [
+      "E. L. Mayer",
+      "J. C. G. Silva Junior",
+      "L. R. Kerber, B. A. Navarro, K. L. N. Bandeira, J. C. Cisneros, E. P. Sousa, A. A. Pereira, M. A. Medeiros, R. M. Lindoso, F. P. Cavalcanti Neto, A. M. Ghilardi, T. Aureliano, P. L. Godoy, G. S. Ferreira, M. C. Langer"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94876:occ:2064913",
+      "physical_key": "pbdb-occ:2064913",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dasosaurus tocantinensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2064913",
+        "label": "PBDB occurrence 2064913"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278852",
+        "country": "BR",
+        "region": "Northeast, Davinopolis, Maranhao",
+        "latitude": -5.556944,
+        "longitude": -47.43111,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Itapecuru",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 113.2,
+        "max_ma": 119.57,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278852 to Late Aptian with numeric bounds 119.57–113.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94876; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2064913 records Dasosaurus tocantinensis in collection 278852, linked by PBDB to reference 94876.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Dasosaurus tocantinensis n. gen. n. sp. and the accepted name as Dasosaurus tocantinensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

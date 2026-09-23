@@ -1,0 +1,859 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94126",
+    "doi": "10.1098/rsos.251016",
+    "title": "Small theropod-dominated dinosaur footprint assemblages in the Middle Jurassic Valtos Sandstone and Kilmaluag Formations on the Isle of Skye, Scotland",
+    "year": 2025,
+    "journal": "Royal Society Open Science",
+    "url": "https://doi.org/10.1098/rsos.251016",
+    "authors": [
+      "T. Blakesley",
+      "P. E. dePolo",
+      "D. A. Ross, N. D. L. Clark, S. L. Brusatte"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94126:occ:2055962",
+      "physical_key": "pbdb-occ:2055962",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2055962",
+        "label": "PBDB occurrence 2055962"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277679: \"on a grassy bank below cliffs north of Kilt Rock from which it had fallen\"",
+        "country": "UK",
+        "region": "Scotland, Highland",
+        "latitude": 57.611,
+        "longitude": -6.172,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277679 to Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2055962 records Theropoda in collection 277679, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94126:occ:2055964",
+      "physical_key": "pbdb-occ:2055964",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2055964",
+        "label": "PBDB occurrence 2055964"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277681: found at Carraig Mhòr near Valtos (Trotternish Peninsula)",
+        "country": "UK",
+        "region": "Scotland, Western Isles",
+        "latitude": 57.59528,
+        "longitude": -6.156389,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277681 to Late Bajocian–Bathonian with numeric bounds 168.6–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2055964 records Theropoda in collection 277681, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94126:occ:2056051",
+      "physical_key": "pbdb-occ:2056051",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056051",
+        "label": "PBDB occurrence 2056051"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277684: on foreshore at Valtos, Isle of Skye, Scotland, UK",
+        "country": "UK",
+        "region": "Scotland, Highland",
+        "latitude": 57.601799,
+        "longitude": -6.1644,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277684 to Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056051 records Theropoda in collection 277684, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94126:occ:2056052",
+      "physical_key": "pbdb-occ:2056052",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Megalosauripus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056052",
+        "label": "PBDB occurrence 2056052"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277680: on foreshore at Valtos, Isle of Skye, Scotland, UK",
+        "country": "UK",
+        "region": "Scotland, Highland",
+        "latitude": 57.59861,
+        "longitude": -6.158611,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277680 to Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056052 records Megalosauripus in collection 277680, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Megalosauripus sp. and the accepted name as Megalosauripus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94126:occ:2056053",
+      "physical_key": "pbdb-occ:2056053",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Eubrontes",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056053",
+        "label": "PBDB occurrence 2056053"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277680: on foreshore at Valtos, Isle of Skye, Scotland, UK",
+        "country": "UK",
+        "region": "Scotland, Highland",
+        "latitude": 57.59861,
+        "longitude": -6.158611,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277680 to Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056053 records Eubrontes in collection 277680, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Eubrontes sp. and the accepted name as Eubrontes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94126:occ:2056054",
+      "physical_key": "pbdb-occ:2056054",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Carmelopodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056054",
+        "label": "PBDB occurrence 2056054"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277680: on foreshore at Valtos, Isle of Skye, Scotland, UK",
+        "country": "UK",
+        "region": "Scotland, Highland",
+        "latitude": 57.59861,
+        "longitude": -6.158611,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277680 to Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056054 records Carmelopodus in collection 277680, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Carmelopodus sp. and the accepted name as Carmelopodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94126:occ:2056055",
+      "physical_key": "pbdb-occ:2056055",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Grallator",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056055",
+        "label": "PBDB occurrence 2056055"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277680: on foreshore at Valtos, Isle of Skye, Scotland, UK",
+        "country": "UK",
+        "region": "Scotland, Highland",
+        "latitude": 57.59861,
+        "longitude": -6.158611,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277680 to Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056055 records Grallator in collection 277680, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Grallator sp. and the accepted name as Grallator.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94126:occ:2056056",
+      "physical_key": "pbdb-occ:2056056",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Carmelopodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056056",
+        "label": "PBDB occurrence 2056056"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277679: \"on a grassy bank below cliffs north of Kilt Rock from which it had fallen\"",
+        "country": "UK",
+        "region": "Scotland, Highland",
+        "latitude": 57.611,
+        "longitude": -6.172,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277679 to Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056056 records Carmelopodus in collection 277679, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Carmelopodus sp. and the accepted name as Carmelopodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94126:occ:2056057",
+      "physical_key": "pbdb-occ:2056057",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Grallator",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056057",
+        "label": "PBDB occurrence 2056057"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277679: \"on a grassy bank below cliffs north of Kilt Rock from which it had fallen\"",
+        "country": "UK",
+        "region": "Scotland, Highland",
+        "latitude": 57.611,
+        "longitude": -6.172,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277679 to Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056057 records Grallator in collection 277679, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Grallator sp. and the accepted name as Grallator.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94126:occ:2056058",
+      "physical_key": "pbdb-occ:2056058",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Eubrontes",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056058",
+        "label": "PBDB occurrence 2056058"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277679: \"on a grassy bank below cliffs north of Kilt Rock from which it had fallen\"",
+        "country": "UK",
+        "region": "Scotland, Highland",
+        "latitude": 57.611,
+        "longitude": -6.172,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277679 to Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056058 records Eubrontes in collection 277679, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Eubrontes sp. and the accepted name as Eubrontes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94126:occ:2056059",
+      "physical_key": "pbdb-occ:2056059",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Megalosauripus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056059",
+        "label": "PBDB occurrence 2056059"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277679: \"on a grassy bank below cliffs north of Kilt Rock from which it had fallen\"",
+        "country": "UK",
+        "region": "Scotland, Highland",
+        "latitude": 57.611,
+        "longitude": -6.172,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277679 to Bathonian with numeric bounds 168.2–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056059 records Megalosauripus in collection 277679, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Megalosauripus sp. and the accepted name as Megalosauripus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94126:occ:2056060",
+      "physical_key": "pbdb-occ:2056060",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Therangospodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056060",
+        "label": "PBDB occurrence 2056060"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277681: found at Carraig Mhòr near Valtos (Trotternish Peninsula)",
+        "country": "UK",
+        "region": "Scotland, Western Isles",
+        "latitude": 57.59528,
+        "longitude": -6.156389,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277681 to Late Bajocian–Bathonian with numeric bounds 168.6–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056060 records Therangospodus in collection 277681, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Therangospodus sp. and the accepted name as Therangospodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94126:occ:2056061",
+      "physical_key": "pbdb-occ:2056061",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Eubrontes",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056061",
+        "label": "PBDB occurrence 2056061"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277681: found at Carraig Mhòr near Valtos (Trotternish Peninsula)",
+        "country": "UK",
+        "region": "Scotland, Western Isles",
+        "latitude": 57.59528,
+        "longitude": -6.156389,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277681 to Late Bajocian–Bathonian with numeric bounds 168.6–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056061 records Eubrontes in collection 277681, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Eubrontes sp. and the accepted name as Eubrontes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94126:occ:2056062",
+      "physical_key": "pbdb-occ:2056062",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Grallator",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056062",
+        "label": "PBDB occurrence 2056062"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277681: found at Carraig Mhòr near Valtos (Trotternish Peninsula)",
+        "country": "UK",
+        "region": "Scotland, Western Isles",
+        "latitude": 57.59528,
+        "longitude": -6.156389,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277681 to Late Bajocian–Bathonian with numeric bounds 168.6–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056062 records Grallator in collection 277681, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Grallator sp. and the accepted name as Grallator.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94126:occ:2056063",
+      "physical_key": "pbdb-occ:2056063",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Carmelopodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2056063",
+        "label": "PBDB occurrence 2056063"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 277681: found at Carraig Mhòr near Valtos (Trotternish Peninsula)",
+        "country": "UK",
+        "region": "Scotland, Western Isles",
+        "latitude": 57.59528,
+        "longitude": -6.156389,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Valtos Sandstone",
+        "member": null,
+        "group": "Great Estuarine"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 277681 to Late Bajocian–Bathonian with numeric bounds 168.6–165.3 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94126; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2056063 records Carmelopodus in collection 277681, linked by PBDB to reference 94126.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Carmelopodus sp. and the accepted name as Carmelopodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:88533",
+    "doi": "10.4202/app.01100.2023",
+    "title": "A new Late Triassic sauropodomorph dinosaur from the Mid-Zambezi Basin, Zimbabwe",
+    "year": 2024,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://doi.org/10.4202/app.01100.2023",
+    "authors": [
+      "P. M. Barrett",
+      "K. E. J. Chapelle",
+      "L. Sciscio, T. J. Broderick, M. Zondo, D. Munyikwa, J. N. Choiniere"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:88533:occ:1655999",
+      "physical_key": "pbdb-occ:1655999",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Musankwa sanyatiensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1655999",
+        "label": "PBDB occurrence 1655999"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 220713: Spurwing East Palaeosol, north-eastern shoreline of Spurwing Island, Lake Kariba, Zimbabwe",
+        "country": "ZW",
+        "region": "Mashonaland West",
+        "latitude": -16.726667,
+        "longitude": 28.696112,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pebbly Arkose",
+        "member": null,
+        "group": "Karoo"
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 237.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 220713 to Carnian–Norian with numeric bounds 237–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 88533; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1655999 records Musankwa sanyatiensis in collection 220713, linked by PBDB to reference 88533.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Musankwa sanyatiensis n. gen. n. sp. and the accepted name as Musankwa sanyatiensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

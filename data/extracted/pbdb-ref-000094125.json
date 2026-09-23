@@ -1,0 +1,187 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94125",
+    "doi": "10.1080/14772019.2025.2470789",
+    "title": "Evidence of large-sized ankylopollexian dinosaurs (Ornithischia: Iguanodontia) in the Upper Jurassic of Portugal",
+    "year": 2025,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2025.2470789",
+    "authors": [
+      "F. M. Rotatori",
+      "F. Escaso",
+      "B. Camilo, F. Bertozzo, E. Malafaia, O. Mateus, P. Mocho, F. Ortega, M. Moreno-Azanza"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94125:occ:489360",
+      "physical_key": "pbdb-occ:489360",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ankylopollexia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "489360",
+        "label": "PBDB occurrence 489360"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 49263: Praia do Caniçal, 1 km south of the type locality for Draconyx (Vale de Frades)",
+        "country": "PT",
+        "region": "Lisboa",
+        "latitude": 39.283333,
+        "longitude": -9.333333,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lourinhã",
+        "member": "Praia Azul",
+        "group": null
+      },
+      "age": {
+        "min_ma": 145.06,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 49263 to Late Kimmeridgian–Early Tithonian with numeric bounds 152.21–145.06 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94125; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 489360 records Ankylopollexia in collection 49263, linked by PBDB to reference 94125.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ankylopollexia indet. and the accepted name as Ankylopollexia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94125:occ:1661195",
+      "physical_key": "pbdb-occ:1661195",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ankylopollexia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1661195",
+        "label": "PBDB occurrence 1661195"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 163145: beach at Zimbral, near Porto Dinheiro, Lourinha municipality",
+        "country": "PT",
+        "region": "Lisboa",
+        "latitude": 39.2225,
+        "longitude": -9.3412,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lourinhã",
+        "member": "Praia Azul",
+        "group": null
+      },
+      "age": {
+        "min_ma": 145.06,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 163145 to Late Kimmeridgian–Early Tithonian with numeric bounds 152.21–145.06 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94125; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1661195 records Ankylopollexia in collection 163145, linked by PBDB to reference 94125.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ankylopollexia indet. and the accepted name as Ankylopollexia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94125:occ:2055961",
+      "physical_key": "pbdb-occ:2055961",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ankylopollexia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2055961",
+        "label": "PBDB occurrence 2055961"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239794: Praia da Corva, near Torres Vedras, W coast of central Portugal. Praia de Areia Branca syncline, Bombarral-Alcobaça subbasin, Lusitanian basin",
+        "country": "PT",
+        "region": "Lisboa, Torres Vedras",
+        "latitude": 39.174553,
+        "longitude": -9.358879,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lourinhã",
+        "member": "Praia da Amoreira-Porto Novo",
+        "group": null
+      },
+      "age": {
+        "min_ma": 149.2,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239794 to Late Kimmeridgian with numeric bounds 152.21–149.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94125; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2055961 records Ankylopollexia in collection 239794, linked by PBDB to reference 94125.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ankylopollexia indet. and the accepted name as Ankylopollexia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

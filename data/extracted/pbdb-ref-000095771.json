@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:95771",
+    "doi": "10.5710/amgh.19.06.2026.3689",
+    "title": "A NEW AEOLOSAURINI (SAUROPODA, TITANOSAURIA) FROM THE UPPER CRETACEOUS OF URUGUAY",
+    "year": 2026,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/amgh.19.06.2026.3689",
+    "authors": [
+      "M. Soto Núñez",
+      "F. Montenegro",
+      "D. Perea"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:95771:occ:2071090",
+      "physical_key": "pbdb-occ:2071090",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Mesetasaurus protector",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2071090",
+        "label": "PBDB occurrence 2071090"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 279961",
+        "country": "UY",
+        "region": "Paysandú, Chapicuy",
+        "latitude": -31.615299,
+        "longitude": -57.9851,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Guichón",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 85.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 279961 to Late Santonian–Early Campanian with numeric bounds 85.7–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95771; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2071090 records Mesetasaurus protector in collection 279961, linked by PBDB to reference 95771.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Mesetasaurus protector n. gen. n. sp. and the accepted name as Mesetasaurus protector.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

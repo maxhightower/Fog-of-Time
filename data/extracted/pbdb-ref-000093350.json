@@ -1,0 +1,522 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93350",
+    "doi": "10.1080/14772019.2025.2550760",
+    "title": "Critical reappraisal of a putative dicraeosaurid sauropod dinosaur from the Middle Jurassic of Gondwana and a revised view of diplodocoid evolutionary relationships and biogeography",
+    "year": 2025,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2025.2550760",
+    "authors": [
+      "P. D. Mannion",
+      "A. J. Moore"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93350:occ:533566",
+      "physical_key": "pbdb-occ:533566",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Saurischia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "533566",
+        "label": "PBDB occurrence 533566"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 55209: Coordinates based on town of Mapele; from the Mapelle Quarry",
+        "country": "BR",
+        "region": "Bahia",
+        "latitude": -12.783333,
+        "longitude": -38.433334,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Salvador",
+        "member": null,
+        "group": "Massacará"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 143.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 55209 to Berriasian–Barremian with numeric bounds 143.1–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93350; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 533566 records Saurischia in collection 55209, linked by PBDB to reference 93350.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Saurischia indet. and the accepted name as Saurischia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93350:occ:581067",
+      "physical_key": "pbdb-occ:581067",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Eusauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "581067",
+        "label": "PBDB occurrence 581067"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 61163: S margin of Cheriya Bet, 4 km N of Gadhada, Khadir Island, in the Rann of Kachchh (Kutch), about 95 km NNE of Bhuj. Location is next to the salt flats of the Rann, between the small island of Cheriya Bet and the larger Khadir Island",
+        "country": "IN",
+        "region": "Gujarat, Kachchh",
+        "latitude": 23.913889,
+        "longitude": 70.292778,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Khadir",
+        "member": "Hadibhadang Shale",
+        "group": null
+      },
+      "age": {
+        "min_ma": 168.2,
+        "max_ma": 170.9,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 61163 to Bajocian with numeric bounds 170.9–168.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93350; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 581067 records Eusauropoda in collection 61163, linked by PBDB to reference 93350.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Eusauropoda indet. and the accepted name as Eusauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93350:occ:795301",
+      "physical_key": "pbdb-occ:795301",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Rebbachisauridae",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "795301",
+        "label": "PBDB occurrence 795301"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 86345: near Crespo farm, along La Amarga stream, in the vicinity of a hill and the bridge on NR 40 over La Amarga Arroyo",
+        "country": "AR",
+        "region": "Neuquén, Catan Lil",
+        "latitude": -39.481079,
+        "longitude": -70.192703,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "La Amarga",
+        "member": "Puesto Antigual",
+        "group": "Bajada del Agrio"
+      },
+      "age": {
+        "min_ma": 119.57,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 86345 to Barremian–Early Aptian with numeric bounds 125.77–119.57 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93350; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 795301 records Rebbachisauridae in collection 86345, linked by PBDB to reference 93350.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Rebbachisauridae indet. and the accepted name as Rebbachisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93350:occ:1130817",
+      "physical_key": "pbdb-occ:1130817",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Eusauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1130817",
+        "label": "PBDB occurrence 1130817"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 143808: Boca del Agua Chica, 1 km SW of San Felipe Otlaltepec",
+        "country": "MX",
+        "region": "Puebla",
+        "latitude": 18.401045,
+        "longitude": -97.907967,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Otlaltepec",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 161.5,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 143808 to Bathonian–Callovian with numeric bounds 168.2–161.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93350; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1130817 records Eusauropoda in collection 143808, linked by PBDB to reference 93350.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Eusauropoda indet. and the accepted name as Eusauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93350:occ:1162536",
+      "physical_key": "pbdb-occ:1162536",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Rebbachisaurinae",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1162536",
+        "label": "PBDB occurrence 1162536"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 59057: Near to Jebel Beg’aa, Taouz, Tafilalt, Errachidia Province, southeastern Morocco",
+        "country": "MA",
+        "region": "Drâa-Tafilalet, Errachidia",
+        "latitude": 30.906389,
+        "longitude": -4.007778,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": "Kem Kem"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 59057 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93350; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1162536 records Rebbachisaurinae in collection 59057, linked by PBDB to reference 93350.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Rebbachisaurinae indet. and the accepted name as Rebbachisaurinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93350:occ:1306508",
+      "physical_key": "pbdb-occ:1306508",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dicraeosaurinae",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1306508",
+        "label": "PBDB occurrence 1306508"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 174952: KwaNobuhle Township outskirts, 3.3 km south of Uitenhage",
+        "country": "ZA",
+        "region": "Eastern Cape",
+        "latitude": -33.75,
+        "longitude": 25.4,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Kirkwood",
+        "member": null,
+        "group": "Uitenhage"
+      },
+      "age": {
+        "min_ma": 132.6,
+        "max_ma": 143.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 174952 to Berriasian–Valanginian with numeric bounds 143.1–132.6 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93350; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1306508 records Dicraeosaurinae in collection 174952, linked by PBDB to reference 93350.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Dicraeosaurinae indet. and the accepted name as Dicraeosaurinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93350:occ:1660002",
+      "physical_key": "pbdb-occ:1660002",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Rebbachisauridae",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1660002",
+        "label": "PBDB occurrence 1660002"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 235616",
+        "country": "AR",
+        "region": "Neuquén",
+        "latitude": -38.023335,
+        "longitude": -69.147781,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Candeleros",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 110.1,
+        "max_ma": 113.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 235616 to Early Albian with numeric bounds 113.2–110.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93350; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1660002 records Rebbachisauridae in collection 235616, linked by PBDB to reference 93350.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Rebbachisauridae indet. and the accepted name as Rebbachisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93350:occ:1674428",
+      "physical_key": "pbdb-occ:1674428",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Neosauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1674428",
+        "label": "PBDB occurrence 1674428"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 94537: beach between Plataforma and Itacaranha, Pedra Furada Bay",
+        "country": "BR",
+        "region": "Bahia",
+        "latitude": -12.911111,
+        "longitude": -38.5,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": "Ilhas"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 132.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 94537 to Late Hauterivian–Early Barremian with numeric bounds 132.6–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93350; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1674428 records Neosauropoda in collection 94537, linked by PBDB to reference 93350.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Neosauropoda indet. and the accepted name as Neosauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93350:occ:2040675",
+      "physical_key": "pbdb-occ:2040675",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dicraeosauridae",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2040675",
+        "label": "PBDB occurrence 2040675"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 70032",
+        "country": "US",
+        "region": "Colorado, Mesa",
+        "latitude": 38.853611,
+        "longitude": -108.477219,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Morrison",
+        "member": "Brushy Basin",
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 152.21,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 70032 to Late Kimmeridgian–Tithonian with numeric bounds 152.21–143.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93350; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2040675 records Dicraeosauridae in collection 70032, linked by PBDB to reference 93350.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Dicraeosauridae indet. and the accepted name as Dicraeosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

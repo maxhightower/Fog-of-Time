@@ -1,0 +1,186 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93952",
+    "doi": "10.5710/amgh.17.10.2025.3660",
+    "title": "New contributions to the knowledge of Abelisauridae (Dinosauria, Theropoda) from the Upper Cretaceous Ibero-Armorican landmass",
+    "year": 2025,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/amgh.17.10.2025.3660",
+    "authors": [
+      "E. Isasmendi",
+      "E. Malafaia"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93952:occ:2052016",
+      "physical_key": "pbdb-occ:2052016",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2052016",
+        "label": "PBDB occurrence 2052016"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 36727: Montrebey (Montrebei), 60 km W of Selles, Ager syncline, south-central Pyrenées, Cataluna province, Spain",
+        "country": "ES",
+        "region": "Cataluña",
+        "latitude": 42.049999,
+        "longitude": -0.22,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "La Posa",
+        "member": null,
+        "group": "Tremp"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 36727 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93952; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2052016 records Abelisauridae in collection 36727, linked by PBDB to reference 93952.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae indet. and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93952:occ:2052017",
+      "physical_key": "pbdb-occ:2052017",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Abelisauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2052017",
+        "label": "PBDB occurrence 2052017"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 49228: at 20 km on the railway, at Viso (Arazède), situated NE of Serra de Boa Viagem, orig. province of Beira Litoral",
+        "country": "PT",
+        "region": "Coimbra",
+        "latitude": 40.245556,
+        "longitude": -8.716944,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Viso",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 49228 to Campanian–Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93952; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2052017 records Abelisauridae in collection 49228, linked by PBDB to reference 93952.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Abelisauridae indet. and the accepted name as Abelisauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93952:occ:2052018",
+      "physical_key": "pbdb-occ:2052018",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Arcovenator",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2052018",
+        "label": "PBDB occurrence 2052018"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 37199: Iberian Peninsula (Basque-Cantabrian Region), Condado de Treviño, Burgos",
+        "country": "ES",
+        "region": "Castilla y Leon, Burgos",
+        "latitude": 42.664555,
+        "longitude": -2.634513,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sedano",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 37199 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93952; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2052018 records Arcovenator in collection 37199, linked by PBDB to reference 93952.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Arcovenator sp. and the accepted name as Arcovenator.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

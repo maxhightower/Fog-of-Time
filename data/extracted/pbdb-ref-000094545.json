@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94545",
+    "doi": "10.3897/fr.29.178152",
+    "title": "A new dinosaur species from Korea and its implications for early-diverging neornithischian diversity",
+    "year": 2026,
+    "journal": "Fossil Record",
+    "url": "https://doi.org/10.3897/fr.29.178152",
+    "authors": [
+      "J. Jung",
+      "M. Kim",
+      "H. Jo, J. A. Clarke"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94545:occ:2062810",
+      "physical_key": "pbdb-occ:2062810",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Doolysaurus huhmini",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2062810",
+        "label": "PBDB occurrence 2062810"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278534: Position estimated from Figure 1 of paper; southeastern coast of Aphae Island (Aphaedo), Shinan; \"North Section\" outcrop",
+        "country": "KR",
+        "region": "Jeollanam-Do, Sinan",
+        "latitude": 34.8325,
+        "longitude": 126.371002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Ilseongsan",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 113.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278534 to Albian–Early Cenomanian with numeric bounds 113.2–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94545; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2062810 records Doolysaurus huhmini in collection 278534, linked by PBDB to reference 94545.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Doolysaurus huhmini n. gen. n. sp. and the accepted name as Doolysaurus huhmini.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:92156",
+    "doi": "10.1111/1755-6724.15288",
+    "title": "New dinosaur teeth from the Upper Cretaceous Nenjiang Formation in Songliao Basin, northeast China",
+    "year": 2025,
+    "journal": "Acta Geologica Sinica - English Edition",
+    "url": "https://doi.org/10.1111/1755-6724.15288",
+    "authors": [
+      "K. Yu",
+      "W. Wu",
+      "W. Sun, J. Chen, X. Wang"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:92156:occ:1700077",
+      "physical_key": "pbdb-occ:1700077",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Tyrannosauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700077",
+        "label": "PBDB occurrence 1700077"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240910: Qinggang",
+        "country": "CN",
+        "region": "Heilongjiang",
+        "latitude": 46.700001,
+        "longitude": 126.029999,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Nenjiang",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240910 to Early Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92156; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700077 records Tyrannosauridae in collection 240910, linked by PBDB to reference 92156.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Tyrannosauridae indet. and the accepted name as Tyrannosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92156:occ:1700078",
+      "physical_key": "pbdb-occ:1700078",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Tyrannosauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700078",
+        "label": "PBDB occurrence 1700078"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240911: Bei'an",
+        "country": "CN",
+        "region": "Heilongjiang",
+        "latitude": 42.220001,
+        "longitude": 127.32,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Nenjiang",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240911 to Early Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92156; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700078 records Tyrannosauridae in collection 240911, linked by PBDB to reference 92156.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Tyrannosauridae indet. and the accepted name as Tyrannosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92156:occ:1700079",
+      "physical_key": "pbdb-occ:1700079",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Velociraptorinae",
+        "rank": "subfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700079",
+        "label": "PBDB occurrence 1700079"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240911: Bei'an",
+        "country": "CN",
+        "region": "Heilongjiang",
+        "latitude": 42.220001,
+        "longitude": 127.32,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Nenjiang",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240911 to Early Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92156; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700079 records Velociraptorinae in collection 240911, linked by PBDB to reference 92156.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Velociraptorinae indet. and the accepted name as Velociraptorinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92156:occ:1700080",
+      "physical_key": "pbdb-occ:1700080",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dromaeosaurinae",
+        "rank": "subfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700080",
+        "label": "PBDB occurrence 1700080"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240911: Bei'an",
+        "country": "CN",
+        "region": "Heilongjiang",
+        "latitude": 42.220001,
+        "longitude": 127.32,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Nenjiang",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240911 to Early Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92156; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700080 records Dromaeosaurinae in collection 240911, linked by PBDB to reference 92156.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Dromaeosaurinae indet. and the accepted name as Dromaeosaurinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92156:occ:1700081",
+      "physical_key": "pbdb-occ:1700081",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Titanosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700081",
+        "label": "PBDB occurrence 1700081"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240911: Bei'an",
+        "country": "CN",
+        "region": "Heilongjiang",
+        "latitude": 42.220001,
+        "longitude": 127.32,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Nenjiang",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240911 to Early Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92156; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700081 records Titanosauria in collection 240911, linked by PBDB to reference 92156.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Titanosauria indet. and the accepted name as Titanosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92156:occ:1700088",
+      "physical_key": "pbdb-occ:1700088",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Titanosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700088",
+        "label": "PBDB occurrence 1700088"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 227000: in a valley near Gengjiawopu village, approximately 11.5 km southeast of Fulongquan Township where the Nenjiang Fm. is sporadically exposed along this valley, at Nong'an",
+        "country": "CN",
+        "region": "Jilin, Nong’an",
+        "latitude": 44.318298,
+        "longitude": 124.683502,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Nenjiang",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 227000 to Early Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92156; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700088 records Titanosauria in collection 227000, linked by PBDB to reference 92156.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Titanosauria indet. and the accepted name as Titanosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92156:occ:1700089",
+      "physical_key": "pbdb-occ:1700089",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Hadrosauroidea",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700089",
+        "label": "PBDB occurrence 1700089"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 227000: in a valley near Gengjiawopu village, approximately 11.5 km southeast of Fulongquan Township where the Nenjiang Fm. is sporadically exposed along this valley, at Nong'an",
+        "country": "CN",
+        "region": "Jilin, Nong’an",
+        "latitude": 44.318298,
+        "longitude": 124.683502,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Nenjiang",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 227000 to Early Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92156; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700089 records Hadrosauroidea in collection 227000, linked by PBDB to reference 92156.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Hadrosauroidea indet. and the accepted name as Hadrosauroidea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

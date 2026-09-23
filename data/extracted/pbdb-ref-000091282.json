@@ -1,0 +1,446 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:91282",
+    "doi": "10.1080/14772019.2024.2441516",
+    "title": "Revision of Romanian sauropod dinosaurs reveals high titanosaur diversity and body-size disparity on the latest Cretaceous Haţeg Island, with implications for titanosaurian biogeography",
+    "year": 2025,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2024.2441516",
+    "authors": [
+      "V. Díez Díaz",
+      "P. D. Mannion",
+      "Z. Csiki-Sava, P. Upchurch"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:91282:occ:872399",
+      "physical_key": "pbdb-occ:872399",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Lithostrotia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "872399",
+        "label": "PBDB occurrence 872399"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 59410: on the Nopcsa family estate near Sînpetru (Szentpéterfalva), in the southern Carpathian Mtns., near Hunedoara, Hateg Basin",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.549999,
+        "longitude": 22.916668,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sînpetru",
+        "member": "lower",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 59410 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91282; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 872399 records Lithostrotia in collection 59410, linked by PBDB to reference 91282.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Lithostrotia indet. and the accepted name as Lithostrotia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91282:occ:1395943",
+      "physical_key": "pbdb-occ:1395943",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Titanosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1395943",
+        "label": "PBDB occurrence 1395943"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 192274: right side of the Sibisel Valley, across from Sinpetru",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.493622,
+        "longitude": 23.092192,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sînpetru",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 192274 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91282; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1395943 records Titanosauria in collection 192274, linked by PBDB to reference 91282.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Titanosauria indet. and the accepted name as Titanosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91282:occ:1553409",
+      "physical_key": "pbdb-occ:1553409",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Uriash kadici",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1553409",
+        "label": "PBDB occurrence 1553409"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 163320: Pareu buduron (Budurone Creek), Site VI, at fork in valley. R side of Valiora, below the church. Also listed (Csiki et al., 2010) as \"Vălioara, Budurone Creek, left branch\"",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.616669,
+        "longitude": 22.783331,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Densuș-Ciula",
+        "member": "Middle",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 163320 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91282; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1553409 records Uriash kadici in collection 163320, linked by PBDB to reference 91282.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Uriash kadici n. gen. n. sp. and the accepted name as Uriash kadici.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91282:occ:1570413",
+      "physical_key": "pbdb-occ:1570413",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Petrustitan hungaricus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1570413",
+        "label": "PBDB occurrence 1570413"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 14454: includes sites 1 and 2; R side of Sânpetru, near Sacel",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.556301,
+        "longitude": 22.9207,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sînpetru",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 14454 to Late Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91282; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1570413 records Petrustitan hungaricus in collection 14454, linked by PBDB to reference 91282.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91282:occ:1570426",
+      "physical_key": "pbdb-occ:1570426",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Lithostrotia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1570426",
+        "label": "PBDB occurrence 1570426"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 153889: Groapa, in the Sibisel Valley",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.541698,
+        "longitude": 22.914301,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Sînpetru",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 153889 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91282; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1570426 records Lithostrotia in collection 153889, linked by PBDB to reference 91282.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Lithostrotia indet. and the accepted name as Lithostrotia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91282:occ:1688516",
+      "physical_key": "pbdb-occ:1688516",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Magyarosaurus dacus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1688516",
+        "label": "PBDB occurrence 1688516"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239464",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.607101,
+        "longitude": 22.7829,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Densuș-Ciula",
+        "member": "Middle",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239464 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91282; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1688516 records Magyarosaurus dacus in collection 239464, linked by PBDB to reference 91282.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91282:occ:1688537",
+      "physical_key": "pbdb-occ:1688537",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Magyarosaurus dacus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1688537",
+        "label": "PBDB occurrence 1688537"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239466",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.493622,
+        "longitude": 23.092192,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Pui Beds",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239466 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91282; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1688537 records Magyarosaurus dacus in collection 239466, linked by PBDB to reference 91282.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91282:occ:1688544",
+      "physical_key": "pbdb-occ:1688544",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Lithostrotia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1688544",
+        "label": "PBDB occurrence 1688544"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 13334: northern part of Hateg Basin, 4.5 km east of Valioara, Romania. In a vertical escarpment of Oltoane Hill (= Ultoane), Tustea Village, Hateg Basin, Hunedoara County",
+        "country": "RO",
+        "region": "Hunedoara",
+        "latitude": 45.603615,
+        "longitude": 22.845142,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Densuș-Ciula",
+        "member": "Middle",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 13334 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91282; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1688544 records Lithostrotia in collection 13334, linked by PBDB to reference 91282.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Lithostrotia indet. and the accepted name as Lithostrotia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

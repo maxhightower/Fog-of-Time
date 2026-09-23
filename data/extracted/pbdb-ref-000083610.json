@@ -1,0 +1,228 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:83610",
+    "doi": "10.3897/vz.72.e86348",
+    "title": "A new massopodan sauropodomorph from Trossingen Formation (Germany) hidden as ‘Plateosaurus’ for 100 years in the historical Tübingen collection",
+    "year": 2022,
+    "journal": "Vertebrate Zoology",
+    "url": "https://doi.org/10.3897/vz.72.e86348",
+    "authors": [
+      "O. R. Regalado Fernández",
+      "I. Werneburg"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:83610:occ:1586159",
+      "physical_key": "pbdb-occ:1586159",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Plateosaurus trossingensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1586159",
+        "label": "PBDB occurrence 1586159"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 22683: cutbank of Trosselbach (Trossel Creek), near Obere Mühle (Upper Mill)",
+        "country": "DE",
+        "region": "Baden-Württemberg, Freiburg",
+        "latitude": 48.066669,
+        "longitude": 8.65,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Löwenstein",
+        "member": null,
+        "group": "Keuper"
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 22683 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 83610; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1586159 records Plateosaurus trossingensis in collection 22683, linked by PBDB to reference 83610.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:83610:occ:1616704",
+      "physical_key": "pbdb-occ:1616704",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Tuebingosaurus maierfritzorum",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1616704",
+        "label": "PBDB occurrence 1616704"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 22683: cutbank of Trosselbach (Trossel Creek), near Obere Mühle (Upper Mill)",
+        "country": "DE",
+        "region": "Baden-Württemberg, Freiburg",
+        "latitude": 48.066669,
+        "longitude": 8.65,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Löwenstein",
+        "member": null,
+        "group": "Keuper"
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 22683 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 83610; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1616704 records Tuebingosaurus maierfritzorum in collection 22683, linked by PBDB to reference 83610.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Tuebingosaurus maierfritzorum n. gen. n. sp. and the accepted name as Tuebingosaurus maierfritzorum.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:83610:occ:1624399",
+      "physical_key": "pbdb-occ:1624399",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Prosauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1624399",
+        "label": "PBDB occurrence 1624399"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 22682: cutbank of Trosselbach (Trossel Creek), near Obere Mühle (Upper Mill)",
+        "country": "DE",
+        "region": "Baden-Württemberg",
+        "latitude": 48.066669,
+        "longitude": 8.65,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Trossingen",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 201.4,
+        "max_ma": 205.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 22682 to Rhaetian with numeric bounds 205.7–201.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 83610; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1624399 records Prosauropoda in collection 22682, linked by PBDB to reference 83610.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Gresslyosaurus robustus and the accepted name as Prosauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:83610:occ:1624400",
+      "physical_key": "pbdb-occ:1624400",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Plateosaurus trossingensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1624400",
+        "label": "PBDB occurrence 1624400"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 22683: cutbank of Trosselbach (Trossel Creek), near Obere Mühle (Upper Mill)",
+        "country": "DE",
+        "region": "Baden-Württemberg, Freiburg",
+        "latitude": 48.066669,
+        "longitude": 8.65,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Löwenstein",
+        "member": null,
+        "group": "Keuper"
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 22683 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 83610; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1624400 records Plateosaurus trossingensis in collection 22683, linked by PBDB to reference 83610.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

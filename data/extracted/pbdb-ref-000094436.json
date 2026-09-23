@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94436",
+    "doi": "10.1002/ar.70118",
+    "title": "An unusual titanosaur axis from the Upper Cretaceous of Brazil and its significance for sauropod anatomy and systematics",
+    "year": 2026,
+    "journal": "The Anatomical Record",
+    "url": "https://doi.org/10.1002/ar.70118",
+    "authors": [
+      "B. A. Navarro",
+      "J. A. Wilson Mantilla",
+      "J. H. A. Martins, F. V. Iori, L. S. Paschoa, A. B. Carvalho, J. M. Piranha, H. Zaher"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94436:occ:2062629",
+      "physical_key": "pbdb-occ:2062629",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Lithostrotia",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2062629",
+        "label": "PBDB occurrence 2062629"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278495: Vila Ventura, municipality of Uchôa",
+        "country": "BR",
+        "region": "São Paulo",
+        "latitude": -20.965832,
+        "longitude": -49.169445,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "São José do Rio Preto",
+        "member": null,
+        "group": "Bauru"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 85.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278495 to Santonian–Campanian with numeric bounds 85.7–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94436; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2062629 records Lithostrotia in collection 278495, linked by PBDB to reference 94436.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Lithostrotia indet. and the accepted name as Lithostrotia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:91198",
+    "doi": "10.1016/j.cretres.2025.106084",
+    "title": "A new marine vertebrate assemblage from the Upper Cretaceous Dakota Formation in Nebraska, USA, and its paleoecology and taphonomy",
+    "year": 2025,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2025.106084",
+    "authors": [
+      "J. K. Juranek",
+      "K. Shimada"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:91198:occ:1688075",
+      "physical_key": "pbdb-occ:1688075",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Hesperornithiformes",
+        "rank": "order"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1688075",
+        "label": "PBDB occurrence 1688075"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239336: In the town of Reynolds",
+        "country": "US",
+        "region": "Nebraska, Jefferson",
+        "latitude": 40.059723,
+        "longitude": -97.340279,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dakota",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239336 to Middle Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91198; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1688075 records Hesperornithiformes in collection 239336, linked by PBDB to reference 91198.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Hesperornithiformes indet. and the accepted name as Hesperornithiformes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

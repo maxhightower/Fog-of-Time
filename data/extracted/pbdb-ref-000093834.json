@@ -1,0 +1,355 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93834",
+    "doi": "10.18435/vamp29410",
+    "title": "A marginal marine fauna from the upper Dinosaur Park Formation, Canada",
+    "year": 2025,
+    "journal": "Vertebrate Anatomy Morphology Palaeontology",
+    "url": "https://doi.org/10.18435/vamp29410",
+    "authors": [
+      "L. Nelson",
+      "J. Doyon",
+      "A. M. Murray, D. B. Brinkman, R. B. Holmes"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93834:occ:2048118",
+      "physical_key": "pbdb-occ:2048118",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithopoda",
+        "rank": "suborder"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2048118",
+        "label": "PBDB occurrence 2048118"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276674: East of Dinosaur Provincial Park in the Lethbridge Coal Zone, near Iddesleigh, Alberta. \"The study area is on private land along the southern bank of the Red Deer River, about 6 km east of the provincial park boundary. We defined 21 sites, each of which represents an approximately 100 m stretch along the length of the exposed outcrop.\" [Paper does not separate taxa by site, so all are lumped and coordinates based on site L, the richest site]",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 50.775002,
+        "longitude": -111.358002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dinosaur Park",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276674 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93834; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2048118 records Ornithopoda in collection 276674, linked by PBDB to reference 93834.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithopoda indet. and the accepted name as Ornithopoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93834:occ:2048119",
+      "physical_key": "pbdb-occ:2048119",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ankylosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2048119",
+        "label": "PBDB occurrence 2048119"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276674: East of Dinosaur Provincial Park in the Lethbridge Coal Zone, near Iddesleigh, Alberta. \"The study area is on private land along the southern bank of the Red Deer River, about 6 km east of the provincial park boundary. We defined 21 sites, each of which represents an approximately 100 m stretch along the length of the exposed outcrop.\" [Paper does not separate taxa by site, so all are lumped and coordinates based on site L, the richest site]",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 50.775002,
+        "longitude": -111.358002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dinosaur Park",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276674 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93834; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2048119 records Ankylosauria in collection 276674, linked by PBDB to reference 93834.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ankylosauria indet. and the accepted name as Ankylosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93834:occ:2048120",
+      "physical_key": "pbdb-occ:2048120",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Tyrannosauroidea",
+        "rank": "superfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2048120",
+        "label": "PBDB occurrence 2048120"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276674: East of Dinosaur Provincial Park in the Lethbridge Coal Zone, near Iddesleigh, Alberta. \"The study area is on private land along the southern bank of the Red Deer River, about 6 km east of the provincial park boundary. We defined 21 sites, each of which represents an approximately 100 m stretch along the length of the exposed outcrop.\" [Paper does not separate taxa by site, so all are lumped and coordinates based on site L, the richest site]",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 50.775002,
+        "longitude": -111.358002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dinosaur Park",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276674 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93834; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2048120 records Tyrannosauroidea in collection 276674, linked by PBDB to reference 93834.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Tyrannosauroidea indet. and the accepted name as Tyrannosauroidea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93834:occ:2048121",
+      "physical_key": "pbdb-occ:2048121",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Maniraptora",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2048121",
+        "label": "PBDB occurrence 2048121"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276674: East of Dinosaur Provincial Park in the Lethbridge Coal Zone, near Iddesleigh, Alberta. \"The study area is on private land along the southern bank of the Red Deer River, about 6 km east of the provincial park boundary. We defined 21 sites, each of which represents an approximately 100 m stretch along the length of the exposed outcrop.\" [Paper does not separate taxa by site, so all are lumped and coordinates based on site L, the richest site]",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 50.775002,
+        "longitude": -111.358002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dinosaur Park",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276674 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93834; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2048121 records Maniraptora in collection 276674, linked by PBDB to reference 93834.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Maniraptora indet. and the accepted name as Maniraptora.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93834:occ:2048122",
+      "physical_key": "pbdb-occ:2048122",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithomimidae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2048122",
+        "label": "PBDB occurrence 2048122"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276674: East of Dinosaur Provincial Park in the Lethbridge Coal Zone, near Iddesleigh, Alberta. \"The study area is on private land along the southern bank of the Red Deer River, about 6 km east of the provincial park boundary. We defined 21 sites, each of which represents an approximately 100 m stretch along the length of the exposed outcrop.\" [Paper does not separate taxa by site, so all are lumped and coordinates based on site L, the richest site]",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 50.775002,
+        "longitude": -111.358002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dinosaur Park",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276674 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93834; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2048122 records Ornithomimidae in collection 276674, linked by PBDB to reference 93834.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithomimidae indet. and the accepted name as Ornithomimidae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93834:occ:2048123",
+      "physical_key": "pbdb-occ:2048123",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dromaeosauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2048123",
+        "label": "PBDB occurrence 2048123"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276674: East of Dinosaur Provincial Park in the Lethbridge Coal Zone, near Iddesleigh, Alberta. \"The study area is on private land along the southern bank of the Red Deer River, about 6 km east of the provincial park boundary. We defined 21 sites, each of which represents an approximately 100 m stretch along the length of the exposed outcrop.\" [Paper does not separate taxa by site, so all are lumped and coordinates based on site L, the richest site]",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 50.775002,
+        "longitude": -111.358002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Dinosaur Park",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276674 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93834; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2048123 records Dromaeosauridae in collection 276674, linked by PBDB to reference 93834.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Dromaeosauridae indet. and the accepted name as Dromaeosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

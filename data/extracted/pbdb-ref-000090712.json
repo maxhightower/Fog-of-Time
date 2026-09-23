@@ -1,0 +1,130 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:90712",
+    "doi": "10.1080/02724634.2024.2337802",
+    "title": "Melanorosaurus readi \\n Haughton, 1924 (Dinosauria, Sauropodomorpha) from the Late Triassic of South Africa: osteology and designation of a lectotype",
+    "year": 2024,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2024.2337802",
+    "authors": [
+      "P. M. Barrett",
+      "J. N. Choiniere"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:90712:occ:385302",
+      "physical_key": "pbdb-occ:385302",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropodomorpha",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "385302",
+        "label": "PBDB occurrence 385302"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 36705: below Rooi Neck, between Kromme Spruit and Majuba Nek, Herschel district, Eastern Cape province, South Africa; Sterkspruit map",
+        "country": "ZA",
+        "region": "Eastern Cape, Herschel",
+        "latitude": -30.549999,
+        "longitude": 27.433332,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Elliot",
+        "member": "Lower",
+        "group": "Stormberg"
+      },
+      "age": {
+        "min_ma": 201.4,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 36705 to Norian–Rhaetian with numeric bounds 227.3–201.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90712; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 385302 records Sauropodomorpha in collection 36705, linked by PBDB to reference 90712.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropodomorpha indet. and the accepted name as Sauropodomorpha.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:90712:occ:1685061",
+      "physical_key": "pbdb-occ:1685061",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropodomorpha",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1685061",
+        "label": "PBDB occurrence 1685061"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 36704: Thaba 'Nyama (Black Mtn.) between Josana's Hoek and Josana's Neck, near Bensonvale, Herschel district, Eastern Cape province, South Africa. Coordinates for Josana's Hoek. Sterkspruit map. Approx. 11 km SSW of Sterkspruit. \"According to archival information in the SAM the specimen was found 'under the first sandstone ridge west of the dolerite dyke on the north slope of Thaba ‘Nyama.'\"",
+        "country": "ZA",
+        "region": "Eastern Cape, Herschel",
+        "latitude": -30.615459,
+        "longitude": 27.34761,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Elliot",
+        "member": "Lower",
+        "group": "Stormberg"
+      },
+      "age": {
+        "min_ma": 201.4,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 36704 to Norian–Rhaetian with numeric bounds 227.3–201.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90712; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1685061 records Sauropodomorpha in collection 36704, linked by PBDB to reference 90712.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Sauropodomorpha indet. and the accepted name as Sauropodomorpha.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

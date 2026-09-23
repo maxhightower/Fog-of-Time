@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:90799",
+    "doi": "10.1371/journal.pone.0308366",
+    "title": "New information on Bonapartenykus (Alvarezsauridae: Theropoda) from the Allen Formation (middle Campanian-lower Maastrichtian) of Río Negro Province, Patagonia, Argentina clarifies the Patagonykinae body plan",
+    "year": 2025,
+    "journal": "PLOS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0308366",
+    "authors": [
+      "J. G. Meso",
+      "J. N. Choiniere",
+      "M. A. Baiano, S. L. Brusatte, J. I. Canale, L. Salgado, D. Pol, M. Pittman"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:90799:occ:866748",
+      "physical_key": "pbdb-occ:866748",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Bonapartenykus ultimus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "866748",
+        "label": "PBDB occurrence 866748"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 95694: From the Arriagada III locality, on the southern edge of Salitral Ojo de Agua",
+        "country": "AR",
+        "region": "Río Negro",
+        "latitude": -39.431946,
+        "longitude": -67.294441,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Allen",
+        "member": "Lower",
+        "group": "Malargüe"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 95694 to Maastrichtian–Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 90799; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 866748 records Bonapartenykus ultimus in collection 95694, linked by PBDB to reference 90799.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Bonapartenykus ultimus and the accepted name as Bonapartenykus ultimus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:96014",
+    "doi": "10.1080/08912963.2026.2633178",
+    "title": "The morphology and systematics of  Pinacosaurus",
+    "year": 2026,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2026.2633178",
+    "authors": [
+      "P. Penkalski"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:96014:occ:393071",
+      "physical_key": "pbdb-occ:393071",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Eopinacosaurus mephistocephalus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "393071",
+        "label": "PBDB occurrence 393071"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 37807: Bayan Mandahu, Urad Houqi banner, Bayan Nor league, Inner Mongolia, China",
+        "country": "CN",
+        "region": "Nei Mongol, Bayan Nor",
+        "latitude": 41.787777,
+        "longitude": 106.726112,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bayan Mandahu",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 37807 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 96014; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 393071 records Eopinacosaurus mephistocephalus in collection 37807, linked by PBDB to reference 96014.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Eopinacosaurus mephistocephalus n. gen. and the accepted name as Eopinacosaurus mephistocephalus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:96014:occ:521704",
+      "physical_key": "pbdb-occ:521704",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Pinacosaurus hilwitnorum",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "521704",
+        "label": "PBDB occurrence 521704"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 45329: Ukhaa Tolgod, Gurvan Tes Somon, Omnogov Aimak, Mongolia; near salt extraction settlement of Daus",
+        "country": "MN",
+        "region": "Omnogov, Gurvan Tes",
+        "latitude": 43.664444,
+        "longitude": 100.901947,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Djadokhta",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 45329 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 96014; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 521704 records Pinacosaurus hilwitnorum in collection 45329, linked by PBDB to reference 96014.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Pinacosaurus hilwitnorum n. sp. and the accepted name as Pinacosaurus hilwitnorum.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:96014:occ:1040244",
+      "physical_key": "pbdb-occ:1040244",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Eopinacosaurus mephistocephalus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1040244",
+        "label": "PBDB occurrence 1040244"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 55256: N: 44-13-42.28; E: 103-18-09.70; A: 1043m\\r\\n35 km W of Bayn Dzak",
+        "country": "MN",
+        "region": "Omnogov",
+        "latitude": 44.228333,
+        "longitude": 103.30278,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Djadokhta",
+        "member": "Tugrugyin",
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 55256 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 96014; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1040244 records Eopinacosaurus mephistocephalus in collection 55256, linked by PBDB to reference 96014.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:96014:occ:1574550",
+      "physical_key": "pbdb-occ:1574550",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Pinacosaurus hilwitnorum",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1574550",
+        "label": "PBDB occurrence 1574550"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 222595: Death Row sublocality of Camels Humps Amphitheater, Ukhaa Tolgod, Gurvan Tes Somon, Omnogov Aimak, Mongolia; near salt extraction settlement of Daus",
+        "country": "MN",
+        "region": "Omnogov, Gurvan Tes",
+        "latitude": 43.664444,
+        "longitude": 100.901947,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Djadokhta",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 222595 to Middle Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 96014; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1574550 records Pinacosaurus hilwitnorum in collection 222595, linked by PBDB to reference 96014.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

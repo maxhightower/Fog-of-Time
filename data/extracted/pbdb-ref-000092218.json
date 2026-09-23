@@ -1,0 +1,354 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:92218",
+    "doi": "10.2181/036.050.0204",
+    "title": "“Here be dragons”: shed teeth potentially Indicate the presence of multiple unidentified allosauroids from the Early Cretaceous Cedar Mountain Formation of Utah",
+    "year": 2025,
+    "journal": "Journal of the Arizona-Nevada Academy of Science",
+    "url": "https://doi.org/10.2181/036.050.0204",
+    "authors": [
+      "T. Oswald",
+      "C. Boisvert"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:92218:occ:883360",
+      "physical_key": "pbdb-occ:883360",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Carcharodontosauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "883360",
+        "label": "PBDB occurrence 883360"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 97953: Arches National Park near Moab, Utah \"Lower Cedar Mountain Formation on the south rim of Doelling's Bowl\"",
+        "country": "US",
+        "region": "Utah",
+        "latitude": 38.731945,
+        "longitude": -109.592781,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Yellow Cat",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 132.6,
+        "max_ma": 137.05,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 97953 to Valanginian with numeric bounds 137.05–132.6 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92218; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 883360 records Carcharodontosauridae in collection 97953, linked by PBDB to reference 92218.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Carcharodontosauridae indet. and the accepted name as Carcharodontosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92218:occ:1332073",
+      "physical_key": "pbdb-occ:1332073",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Acrocanthosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1332073",
+        "label": "PBDB occurrence 1332073"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 13105: southwest foothills of Whetstone Mountains, SE Arizona",
+        "country": "US",
+        "region": "Arizona, Cochise",
+        "latitude": 31.81139,
+        "longitude": -110.418053,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Turney Ranch",
+        "member": null,
+        "group": "Bisbee"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 106.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 13105 to Late Albian–Early Cenomanian with numeric bounds 106.3–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92218; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1332073 records Acrocanthosaurus in collection 13105, linked by PBDB to reference 92218.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Acrocanthosaurus sp. and the accepted name as Acrocanthosaurus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92218:occ:1700373",
+      "physical_key": "pbdb-occ:1700373",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700373",
+        "label": "PBDB occurrence 1700373"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240928: \"located near Thompson Springs, UT, just outside of Arches National Park.\"",
+        "country": "US",
+        "region": "Utah, Grand",
+        "latitude": 38.919998,
+        "longitude": -109.690002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Yellow Cat",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 132.6,
+        "max_ma": 137.05,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240928 to Valanginian with numeric bounds 137.05–132.6 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92218; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700373 records Sauropoda in collection 240928, linked by PBDB to reference 92218.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropoda indet. and the accepted name as Sauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92218:occ:1700374",
+      "physical_key": "pbdb-occ:1700374",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Carcharodontosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700374",
+        "label": "PBDB occurrence 1700374"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240928: \"located near Thompson Springs, UT, just outside of Arches National Park.\"",
+        "country": "US",
+        "region": "Utah, Grand",
+        "latitude": 38.919998,
+        "longitude": -109.690002,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Yellow Cat",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 132.6,
+        "max_ma": 137.05,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240928 to Valanginian with numeric bounds 137.05–132.6 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92218; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700374 records Carcharodontosauria in collection 240928, linked by PBDB to reference 92218.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Carcharodontosauria indet. and the accepted name as Carcharodontosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92218:occ:1700376",
+      "physical_key": "pbdb-occ:1700376",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Allosauroidea",
+        "rank": "superfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700376",
+        "label": "PBDB occurrence 1700376"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240930: along Cow Dung Road, near Hanksville",
+        "country": "US",
+        "region": "Utah, Wayne",
+        "latitude": 38.43,
+        "longitude": -110.790001,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Yellow Cat",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 132.6,
+        "max_ma": 137.05,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240930 to Valanginian with numeric bounds 137.05–132.6 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92218; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700376 records Allosauroidea in collection 240930, linked by PBDB to reference 92218.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Allosauroidea indet. and the accepted name as Allosauroidea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92218:occ:1700377",
+      "physical_key": "pbdb-occ:1700377",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Utahraptor",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1700377",
+        "label": "PBDB occurrence 1700377"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240930: along Cow Dung Road, near Hanksville",
+        "country": "US",
+        "region": "Utah, Wayne",
+        "latitude": 38.43,
+        "longitude": -110.790001,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Yellow Cat",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 132.6,
+        "max_ma": 137.05,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240930 to Valanginian with numeric bounds 137.05–132.6 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92218; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1700377 records Utahraptor in collection 240930, linked by PBDB to reference 92218.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Utahraptor sp. and the accepted name as Utahraptor.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

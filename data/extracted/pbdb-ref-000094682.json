@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94682",
+    "doi": "10.3390/d18050241",
+    "title": "A Titanosaurian Sauropod with South American Affinities (Lognkosauria: Argentinosauridae) from the Late Maastrichtian of Morocco and Evidence for Dinosaur Endemism in Africa",
+    "year": 2026,
+    "journal": "Diversity",
+    "url": "https://doi.org/10.3390/d18050241",
+    "authors": [
+      "N. R. Longrich",
+      "A. Pérez-Moreno",
+      "V. Díez Díaz, X. Pereda-Suberbiola, N. Bardet, N. Jalil"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94682:occ:2063689",
+      "physical_key": "pbdb-occ:2063689",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Phosphatotitan khouribgaensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063689",
+        "label": "PBDB occurrence 2063689"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 230233: Office Chérifien des Phosphates mines at Sidi Chennane, Khouribga Province, Morocco",
+        "country": "MA",
+        "region": "Khouribga",
+        "latitude": 32.832222,
+        "longitude": -6.23,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Couche III",
+        "member": "Lower",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 230233 to Late Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94682; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063689 records Phosphatotitan khouribgaensis in collection 230233, linked by PBDB to reference 94682.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Phosphatotitan khouribgaensis n. gen. n. sp. and the accepted name as Phosphatotitan khouribgaensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

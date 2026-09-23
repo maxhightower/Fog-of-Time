@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:95858",
+    "doi": "10.1016/j.cretres.2025.106259",
+    "title": "Diving in the Maastrichtian of Marambio (Seymour) Island: A new member of the Neoaves in the Cretaceous Antarctic avifauna",
+    "year": 2026,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2025.106259",
+    "authors": [
+      "F. Irazoqui",
+      "C. Acosta Hospitaleche",
+      "J. N. Gelfo, A. Paulina Carabajal, P. Bona, L. Acosta Burlaille"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:95858:occ:2071930",
+      "physical_key": "pbdb-occ:2071930",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Pujatopouli soberana",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2071930",
+        "label": "PBDB occurrence 2071930"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 63513: Section C measured by Macellari, south coast of Seymour Island.",
+        "country": "AQ",
+        "region": "Seymour Island",
+        "latitude": -64.25,
+        "longitude": -56.75,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lopez de Bertodano",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 63513 to Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95858; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2071930 records Pujatopouli soberana in collection 63513, linked by PBDB to reference 95858.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Pujatopouli soberana n. gen. n. sp. and the accepted name as Pujatopouli soberana.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

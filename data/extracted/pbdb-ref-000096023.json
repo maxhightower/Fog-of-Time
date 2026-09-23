@@ -1,0 +1,68 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:96023",
+    "doi": "10.1098/rsos.260333",
+    "title": "Titanosaur eggshells from the latest Cretaceous of Patagonia, Argentina: implications for nesting at high latitude",
+    "year": 2026,
+    "journal": "Royal Society Open Science",
+    "url": "https://doi.org/10.1098/rsos.260333",
+    "authors": [
+      "K. Tanaka",
+      "F. E. Novas",
+      "M. Manabe, C. Sakata, J. A. Garcia Marsà, D. K. Zelenitsky"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:96023:occ:2075857",
+      "physical_key": "pbdb-occ:2075857",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Fusioolithus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2075857",
+        "label": "PBDB occurrence 2075857"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 206969: 30 km SW of El Calafate. Reported in Moyano-Paz et al. (2022) as Magallanodon Site (collection point 227004 is a DUPLICATE)",
+        "country": "AR",
+        "region": "Santa Cruz, Lago Argentino",
+        "latitude": -50.510834,
+        "longitude": -72.560555,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chorrillo",
+        "member": "Middle",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 206969 to Early Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 96023; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2075857 records Fusioolithus in collection 206969, linked by PBDB to reference 96023.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

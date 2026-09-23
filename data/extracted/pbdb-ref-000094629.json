@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94629",
+    "doi": "10.1080/14772019.2026.2635569",
+    "title": "A new saurolophine hadrosaurid (Dinosauria: Ornithopoda) from the Upper Cretaceous of South China, providing further support for the possible Asian origin of Brachylophosaurini",
+    "year": 2026,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2026.2635569",
+    "authors": [
+      "H. Yao",
+      "W. Qiu",
+      "J. Yu, L. Yang, H. Wang, S. Cao, K. Zhao, M. Xu, G. Shi, F. Lou, C. Zeng, P. Lu, R. Wu, X. Xu, F. Han, H. Xing"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94629:occ:2063455",
+      "physical_key": "pbdb-occ:2063455",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Gongshuilong fanwei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063455",
+        "label": "PBDB occurrence 2063455"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278619: The bonebed elements ascribed to Gongshuilong were collected from a quarry during the construction of the East China International Trade and Industrial Zone. The quarry is located at the Zhutongkeng locality, Shahe Town, Zhanggong District, Ganzhou City, Jiangxi Province, and is 2 km south-east of the railway station.",
+        "country": "CN",
+        "region": "Jiangxi, Ganzhou",
+        "latitude": 25.8193,
+        "longitude": 114.9674,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lianhe",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278619 to Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94629; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063455 records Gongshuilong fanwei in collection 278619, linked by PBDB to reference 94629.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Gongshuilong fanwei n. gen. n. sp. and the accepted name as Gongshuilong fanwei.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

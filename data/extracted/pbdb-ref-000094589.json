@@ -1,0 +1,131 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94589",
+    "doi": "10.1186/s13358-025-00378-1",
+    "title": "A new sauropod-dominated tracksite from the Lower Cretaceous in central Ningxia, northwestern China, and the implications on palaeoenvironments",
+    "year": 2025,
+    "journal": "Swiss Journal of Palaeontology",
+    "url": "https://doi.org/10.1186/s13358-025-00378-1",
+    "authors": [
+      "Q. Yang",
+      "L. Xing",
+      "F. Du, Q. Chen, H. Klein, A. Romilio, Y. Jin, L. Liu, J. Qi, M. Zhao, X. Chen, Y. Zhao, L. Wei, Y. Wan"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94589:occ:2063170",
+      "physical_key": "pbdb-occ:2063170",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Brontopodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063170",
+        "label": "PBDB occurrence 2063170"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278557: in the Yaoshan area, about 20 km east of Tongxin County",
+        "country": "CN",
+        "region": "Ningxia, Tongxin",
+        "latitude": 36.941898,
+        "longitude": 106.210899,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Madongshan",
+        "member": null,
+        "group": "Liupanshan"
+      },
+      "age": {
+        "min_ma": 110.1,
+        "max_ma": 113.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278557 to Early Albian with numeric bounds 113.2–110.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94589; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063170 records Brontopodus in collection 278557, linked by PBDB to reference 94589.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Brontopodus sp. and the accepted name as Brontopodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94589:occ:2063172",
+      "physical_key": "pbdb-occ:2063172",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dinosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063172",
+        "label": "PBDB occurrence 2063172"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278557: in the Yaoshan area, about 20 km east of Tongxin County",
+        "country": "CN",
+        "region": "Ningxia, Tongxin",
+        "latitude": 36.941898,
+        "longitude": 106.210899,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Madongshan",
+        "member": null,
+        "group": "Liupanshan"
+      },
+      "age": {
+        "min_ma": 110.1,
+        "max_ma": 113.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278557 to Early Albian with numeric bounds 113.2–110.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94589; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063172 records Dinosauria in collection 278557, linked by PBDB to reference 94589.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Dinosauria indet. and the accepted name as Dinosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

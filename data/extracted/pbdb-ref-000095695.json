@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:95695",
+    "doi": "10.5710/amgh.22.04.2026.3661",
+    "title": "First record of Faveoloolithidae eggshells from the Late Maastrichtian of the Lago Colhué Huapi Formation, Golfo San Jorge Basin, Argentina",
+    "year": 2026,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/amgh.22.04.2026.3661",
+    "authors": [
+      "N. Cardozo",
+      "M. Fernández",
+      "G. Casal, B. Alvarez, J. Caglianone, L. Campano, M. Luna, L. Ibiricu"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:95695:occ:2069909",
+      "physical_key": "pbdb-occ:2069909",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Faveoloolithidae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2069909",
+        "label": "PBDB occurrence 2069909"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 220171",
+        "country": "AR",
+        "region": "Chubut",
+        "latitude": -45.620834,
+        "longitude": -68.478889,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lago Colhué Huapi",
+        "member": "Upper",
+        "group": "Chubut"
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 72.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 220171 to Late Maastrichtian with numeric bounds 72.2–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95695; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2069909 records Faveoloolithidae in collection 220171, linked by PBDB to reference 95695.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Faveoloolithidae indet. and the accepted name as Faveoloolithidae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

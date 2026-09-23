@@ -1,0 +1,229 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94597",
+    "doi": "10.1093/zoolinnean/zlaf087",
+    "title": "The first pachycephalosaurid from the Late Cretaceous Two Medicine Formation: effects of the Western Interior Seaway on North American pachycephalosaurid evolution",
+    "year": 2025,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1093/zoolinnean/zlaf087",
+    "authors": [
+      "D. C. Woodruff",
+      "J. R. Horner",
+      "M. B. Goodwin, D. C. Evans"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94597:occ:2063341",
+      "physical_key": "pbdb-occ:2063341",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Brontotholus harmoni",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063341",
+        "label": "PBDB occurrence 2063341"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 236765: approx. 40 km NW of Cut Bank",
+        "country": "US",
+        "region": "Montana, Glacier",
+        "latitude": 48.970821,
+        "longitude": -112.642014,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Two Medicine",
+        "member": "Flag Butte",
+        "group": "Montana"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 236765 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94597; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063341 records Brontotholus harmoni in collection 236765, linked by PBDB to reference 94597.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Brontotholus harmoni n. gen. n. sp. and the accepted name as Brontotholus harmoni.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94597:occ:2063342",
+      "physical_key": "pbdb-occ:2063342",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Brontotholus harmoni",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063342",
+        "label": "PBDB occurrence 2063342"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 62541: a short distance from the Brachyceratops type site, on the Milk River; R 37 N, R 8 W, 1 mi N of Blackfeet Indian Reservation",
+        "country": "US",
+        "region": "Montana, Glacier",
+        "latitude": 48.910999,
+        "longitude": -112.641998,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Two Medicine",
+        "member": "Flag Butte",
+        "group": "Montana"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 62541 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94597; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063342 records Brontotholus harmoni in collection 62541, linked by PBDB to reference 94597.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94597:occ:2063343",
+      "physical_key": "pbdb-occ:2063343",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Brontotholus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063343",
+        "label": "PBDB occurrence 2063343"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 236763: along N bank of Two Medicine River, just E of MT Rte 358, in strat section 92-TMT-4",
+        "country": "US",
+        "region": "Montana, Pondera",
+        "latitude": 48.476501,
+        "longitude": -112.351799,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Two Medicine",
+        "member": "Shields Crossing",
+        "group": "Montana"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 236763 to Middle Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94597; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063343 records Brontotholus in collection 236763, linked by PBDB to reference 94597.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Brontotholus sp. and the accepted name as Brontotholus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94597:occ:2063344",
+      "physical_key": "pbdb-occ:2063344",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Brontotholus harmoni",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063344",
+        "label": "PBDB occurrence 2063344"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 162171: near village of Onefour, SE Alberta",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 49.066666,
+        "longitude": -110.449997,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Oldman",
+        "member": null,
+        "group": "Belly River"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 162171 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94597; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063344 records Brontotholus harmoni in collection 162171, linked by PBDB to reference 94597.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94695",
+    "doi": "10.1139/facets-2023-0079",
+    "title": "An ornithomimosaur from the Campanian Cedar District Formation (Nanaimo Group) of Denman Island, British Columbia, Canada",
+    "year": 2026,
+    "journal": "FACETS",
+    "url": "https://doi.org/10.1139/facets-2023-0079",
+    "authors": [
+      "V. M. Arbour",
+      "T. S. Bullard",
+      "D. C. Evans"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94695:occ:1204698",
+      "physical_key": "pbdb-occ:1204698",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ornithomimosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1204698",
+        "label": "PBDB occurrence 1204698"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 53053: west coast of Denman Island (Sla-dai-aich)",
+        "country": "CA",
+        "region": "British Columbia",
+        "latitude": 49.562969,
+        "longitude": -124.797997,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar District",
+        "member": null,
+        "group": "Nanaimo"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 53053 to Late Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94695; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1204698 records Ornithomimosauria in collection 53053, linked by PBDB to reference 94695.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ornithomimosauria indet. and the accepted name as Ornithomimosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

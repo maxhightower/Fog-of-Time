@@ -1,0 +1,124 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94635",
+    "doi": "10.1126/science.adx5486",
+    "title": "Scimitar-crested Spinosaurus species from the Sahara caps stepwise spinosaurid radiation",
+    "year": 2026,
+    "journal": "Science",
+    "url": "https://doi.org/10.1126/science.adx5486",
+    "authors": [
+      "P. C. Sereno",
+      "D. Vidal",
+      "N. P. Myhrvold, E. Johnson-Ransom, M. Ciudad Real, S. L. Baumgart, N. Sánchez Fontela, T. L. Green, E. T. Saitta, B. Adamou, L. L. Bop, T. M. Keillor, E. C. Fitzgerald, D. B. Dutheil, R. A. S. Laroche, A. V. Demers-Potvin"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94635:occ:2063475",
+      "physical_key": "pbdb-occ:2063475",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Spinosaurus mirabilis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063475",
+        "label": "PBDB occurrence 2063475"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278624",
+        "country": "NE",
+        "region": "Agadez Region, Jenguebi area",
+        "latitude": 16.97349,
+        "longitude": 8.06629,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Farak",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278624 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94635; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063475 records Spinosaurus mirabilis in collection 278624, linked by PBDB to reference 94635.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Spinosaurus mirabilis n. sp. and the accepted name as Spinosaurus mirabilis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:94635:occ:2063476",
+      "physical_key": "pbdb-occ:2063476",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Spinosaurus mirabilis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2063476",
+        "label": "PBDB occurrence 2063476"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 278625",
+        "country": "NE",
+        "region": "Agadez Region, Jenguebi area",
+        "latitude": 17.0751,
+        "longitude": 7.82129,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Farak",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 278625 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94635; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2063476 records Spinosaurus mirabilis in collection 278625, linked by PBDB to reference 94635.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

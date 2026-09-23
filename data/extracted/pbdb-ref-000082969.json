@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:82969",
+    "doi": "10.1186/s13358-022-00260-4",
+    "title": "First evidence of Proganochelys quenstedtii (Testudinata) from the Plateosaurus bonebeds (Norian, Late Triassic) of Frick, Canton Aargau, Switzerland",
+    "year": 2022,
+    "journal": "Swiss Journal of Palaeontology",
+    "url": "https://doi.org/10.1186/s13358-022-00260-4",
+    "authors": [
+      "T. M. Scheyer",
+      "N. Klein",
+      "S. W. Evers, A.-K. Mautner, B. Pabst"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:82969:occ:1610810",
+      "physical_key": "pbdb-occ:1610810",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Plateosaurus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1610810",
+        "label": "PBDB occurrence 1610810"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 227790: The new specimen, SMF 09-F2, was found in 2009 in the course of a housing construction project at Frickberg, a hill opposite the famous Plateosaurus-bearing clay pit Gruhalde in the town of Frick, northern Switzerland",
+        "country": "CH",
+        "region": "Aargau",
+        "latitude": 47.494999,
+        "longitude": 8.019167,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Klettgau",
+        "member": "Gruhalde",
+        "group": "Keuper"
+      },
+      "age": {
+        "min_ma": 205.7,
+        "max_ma": 227.3,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 227790 to Norian with numeric bounds 227.3–205.7 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 82969; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1610810 records Plateosaurus in collection 227790, linked by PBDB to reference 82969.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Plateosaurus sp. and the accepted name as Plateosaurus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

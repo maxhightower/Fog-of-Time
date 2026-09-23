@@ -1,0 +1,768 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:91397",
+    "doi": "10.1371/journal.pone.0314689",
+    "title": "Fossil eggshell diversity of the Mussentuchit Member, Cedar Mountain Formation, Utah",
+    "year": 2025,
+    "journal": "PLOS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0314689",
+    "authors": [
+      "J. Hedge",
+      "R. T. Tucker",
+      "P. J. Makovicky, L. E. Zanno"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:91397:occ:1689447",
+      "physical_key": "pbdb-occ:1689447",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Macroelongatoolithus carlylei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689447",
+        "label": "PBDB occurrence 1689447"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239609: W of Mussentuchit Wash",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.865276,
+        "longitude": -111.139442,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239609 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689447 records Macroelongatoolithus carlylei in collection 239609, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91397:occ:1689448",
+      "physical_key": "pbdb-occ:1689448",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Macroelongatoolithus carlylei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689448",
+        "label": "PBDB occurrence 1689448"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 206450",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.644444,
+        "longitude": -111.26889,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 206450 to Early Cenomanian–Middle Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689448 records Macroelongatoolithus carlylei in collection 206450, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91397:occ:1689449",
+      "physical_key": "pbdb-occ:1689449",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Continuoolithus canadensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689449",
+        "label": "PBDB occurrence 1689449"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 200123: This site occurs in a restricted section of outcrop to the west of currently sampled localities, capturing microhabitat variation that adds critical information to the standing biodiversity during this transition period and new information on the timing and pattern of Laurasian exchange",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.638332,
+        "longitude": -111.36528,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 200123 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689449 records Continuoolithus canadensis in collection 200123, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91397:occ:1689450",
+      "physical_key": "pbdb-occ:1689450",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Spheroolithus albertensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689450",
+        "label": "PBDB occurrence 1689450"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239610",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.642223,
+        "longitude": -111.269997,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239610 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689450 records Spheroolithus albertensis in collection 239610, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91397:occ:1689451",
+      "physical_key": "pbdb-occ:1689451",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Undulatoolithus pengi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689451",
+        "label": "PBDB occurrence 1689451"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239610",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.642223,
+        "longitude": -111.269997,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239610 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689451 records Undulatoolithus pengi in collection 239610, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91397:occ:1689452",
+      "physical_key": "pbdb-occ:1689452",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Macroelongatoolithus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689452",
+        "label": "PBDB occurrence 1689452"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239610",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.642223,
+        "longitude": -111.269997,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239610 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689452 records Macroelongatoolithus in collection 239610, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Macroelongatoolithus sp. and the accepted name as Macroelongatoolithus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91397:occ:1689453",
+      "physical_key": "pbdb-occ:1689453",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Elongatoolithidae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689453",
+        "label": "PBDB occurrence 1689453"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239610",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.642223,
+        "longitude": -111.269997,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239610 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689453 records Elongatoolithidae in collection 239610, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Elongatoolithidae indet. and the accepted name as Elongatoolithidae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91397:occ:1689454",
+      "physical_key": "pbdb-occ:1689454",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Continuoolithus canadensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689454",
+        "label": "PBDB occurrence 1689454"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239610",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.642223,
+        "longitude": -111.269997,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239610 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689454 records Continuoolithus canadensis in collection 239610, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91397:occ:1689455",
+      "physical_key": "pbdb-occ:1689455",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Continuoolithus canadensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689455",
+        "label": "PBDB occurrence 1689455"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239611",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.645279,
+        "longitude": -111.27639,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239611 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689455 records Continuoolithus canadensis in collection 239611, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91397:occ:1689456",
+      "physical_key": "pbdb-occ:1689456",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Spheroolithus albertensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689456",
+        "label": "PBDB occurrence 1689456"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239612",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.84861,
+        "longitude": -111.152779,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239612 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689456 records Spheroolithus albertensis in collection 239612, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91397:occ:1689457",
+      "physical_key": "pbdb-occ:1689457",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Macroelongatoolithus carlylei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689457",
+        "label": "PBDB occurrence 1689457"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239612",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.84861,
+        "longitude": -111.152779,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239612 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689457 records Macroelongatoolithus carlylei in collection 239612, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91397:occ:1689458",
+      "physical_key": "pbdb-occ:1689458",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Spheroolithus europaeus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689458",
+        "label": "PBDB occurrence 1689458"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 14399",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.93861,
+        "longitude": -111.081108,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 14399 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689458 records Spheroolithus europaeus in collection 14399, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91397:occ:1689460",
+      "physical_key": "pbdb-occ:1689460",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Macroelongatoolithus carlylei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689460",
+        "label": "PBDB occurrence 1689460"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 206452",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 39.054169,
+        "longitude": -111.001663,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 206452 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689460 records Macroelongatoolithus carlylei in collection 206452, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91397:occ:1689461",
+      "physical_key": "pbdb-occ:1689461",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Macroelongatoolithus carlylei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689461",
+        "label": "PBDB occurrence 1689461"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239614",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.890835,
+        "longitude": -111.114723,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239614 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689461 records Macroelongatoolithus carlylei in collection 239614, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91397:occ:1689462",
+      "physical_key": "pbdb-occ:1689462",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Macroelongatoolithus carlylei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1689462",
+        "label": "PBDB occurrence 1689462"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 239610",
+        "country": "US",
+        "region": "Utah, Emery",
+        "latitude": 38.642223,
+        "longitude": -111.269997,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cedar Mountain",
+        "member": "Mussentuchit",
+        "group": "Dakota"
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 239610 to Early Cenomanian with numeric bounds 100.5–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91397; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1689462 records Macroelongatoolithus carlylei in collection 239610, linked by PBDB to reference 91397.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

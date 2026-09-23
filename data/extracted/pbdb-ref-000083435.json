@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:83435",
+    "doi": "10.1016/j.jsames.2022.104039",
+    "title": "The oldest South American silesaurid: New remains from the Middle Triassic (Pinheiros-Chiniquá Sequence, Dinodontosaurus Assemblage Zone) increase the time range of silesaurid fossil record in southern Brazil",
+    "year": 2022,
+    "journal": "Journal of South American Earth Sciences",
+    "url": "https://doi.org/10.1016/j.jsames.2022.104039",
+    "authors": [
+      "F. A. Pretto",
+      "R. T. Müller",
+      "D. Moroab, M. Silva Garcia, V. Dutra Paes Neto, Á. A. Stock Da Rosa"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:83435:occ:1615939",
+      "physical_key": "pbdb-occ:1615939",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Gamatavus antiquus",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1615939",
+        "label": "PBDB occurrence 1615939"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 228664: \"Specimens were collected in the Picada do Gama site which crops-out at the northern side of the BR 158 federal road (29°46′37.60″S; 54°06′00.42″W), Dilermando de Aguiar Municipality, circa 33 Km southwest of Santa Maria.\"",
+        "country": "BR",
+        "region": "Rio Grande do Sul, Dilermando de Aguiar",
+        "latitude": -29.776943,
+        "longitude": -54.099998,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Santa Maria",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 237.0,
+        "max_ma": 241.464,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 228664 to Ladinian with numeric bounds 241.464–237 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 83435; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1615939 records Gamatavus antiquus in collection 228664, linked by PBDB to reference 83435.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Gamatavus antiquus n. gen. n. sp. and the accepted name as Gamatavus antiquus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

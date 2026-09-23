@@ -1,0 +1,355 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:91784",
+    "doi": "10.1080/02724634.2024.2441903",
+    "title": "Evolutionary and paleobiogeographic implications of new carcharodontosaurian, megaraptorid, and unenlagiine theropod remains from the upper Lower Cretaceous of Victoria, southeast Australia",
+    "year": 2025,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2024.2441903",
+    "authors": [
+      "J. Kotevski",
+      "R. J. Duncan",
+      "T. Ziegler, J. J. Bevitt, P. Vickers-Rich, T. H. Rich, A. R. Evans, S. F. Poropat"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:91784:occ:1041318",
+      "physical_key": "pbdb-occ:1041318",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Avetheropoda",
+        "rank": "order"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1041318",
+        "label": "PBDB occurrence 1041318"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 51961: on shore platform of Bunurong Marine Park, W of Inverloch. Includes site listed as \"800 m east of Flat Rocks\" in ref 38205",
+        "country": "AU",
+        "region": "Victoria",
+        "latitude": -38.66111,
+        "longitude": 145.681107,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "\"Wonthaggi\"",
+        "member": null,
+        "group": "Strzelecki"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 51961 to Late Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91784; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1041318 records Avetheropoda in collection 51961, linked by PBDB to reference 91784.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Avetheropoda indet. and the accepted name as Avetheropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91784:occ:1692549",
+      "physical_key": "pbdb-occ:1692549",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Carcharodontosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1692549",
+        "label": "PBDB occurrence 1692549"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240055: Lesley's Lair, near Eagles Nest, Inverloch",
+        "country": "AU",
+        "region": "Victoria",
+        "latitude": -38.649723,
+        "longitude": 145.692505,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "\"Wonthaggi\"",
+        "member": null,
+        "group": "Strzelecki"
+      },
+      "age": {
+        "min_ma": 119.57,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240055 to Early Aptian with numeric bounds 121.4–119.57 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91784; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1692549 records Carcharodontosauria in collection 240055, linked by PBDB to reference 91784.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Carcharodontosauria indet. and the accepted name as Carcharodontosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91784:occ:1692555",
+      "physical_key": "pbdb-occ:1692555",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Carcharodontosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1692555",
+        "label": "PBDB occurrence 1692555"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 38540: actual area ranges from 143°34'53\" to 57\"; from shore platform exposures near Point Lewis, Otway Basin",
+        "country": "AU",
+        "region": "Victoria",
+        "latitude": -38.835835,
+        "longitude": 143.58194,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Eumeralla",
+        "member": null,
+        "group": "Otway"
+      },
+      "age": {
+        "min_ma": 110.1,
+        "max_ma": 113.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 38540 to Early Albian with numeric bounds 113.2–110.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91784; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1692555 records Carcharodontosauria in collection 38540, linked by PBDB to reference 91784.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Carcharodontosauria indet. and the accepted name as Carcharodontosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91784:occ:1692556",
+      "physical_key": "pbdb-occ:1692556",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Megaraptoridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1692556",
+        "label": "PBDB occurrence 1692556"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 228968: Twin Reefs, near Cape Paterson, Gippsland Basin",
+        "country": "AU",
+        "region": "Victoria",
+        "latitude": -38.676399,
+        "longitude": 145.652802,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "\"Wonthaggi\"",
+        "member": null,
+        "group": "Strzelecki"
+      },
+      "age": {
+        "min_ma": 110.1,
+        "max_ma": 113.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 228968 to Early Albian with numeric bounds 113.2–110.1 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91784; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1692556 records Megaraptoridae in collection 228968, linked by PBDB to reference 91784.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Megaraptoridae indet. and the accepted name as Megaraptoridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91784:occ:1692567",
+      "physical_key": "pbdb-occ:1692567",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Unenlagiinae",
+        "rank": "subfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1692567",
+        "label": "PBDB occurrence 1692567"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 38538: shore platform 250 m NW of Eagle's Nest, near Inverloch and Cape Paterson (= Patterson), Victoria; 38°40”10.31”S 145°40”32.88”E",
+        "country": "AU",
+        "region": "Victoria",
+        "latitude": -38.669445,
+        "longitude": 145.675827,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "\"Wonthaggi\"",
+        "member": null,
+        "group": "Strzelecki"
+      },
+      "age": {
+        "min_ma": 119.57,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 38538 to Early Aptian with numeric bounds 121.4–119.57 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91784; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1692567 records Unenlagiinae in collection 38538, linked by PBDB to reference 91784.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Unenlagiinae indet. and the accepted name as Unenlagiinae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:91784:occ:1692578",
+      "physical_key": "pbdb-occ:1692578",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Megaraptora",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1692578",
+        "label": "PBDB occurrence 1692578"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 51961: on shore platform of Bunurong Marine Park, W of Inverloch. Includes site listed as \"800 m east of Flat Rocks\" in ref 38205",
+        "country": "AU",
+        "region": "Victoria",
+        "latitude": -38.66111,
+        "longitude": 145.681107,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "\"Wonthaggi\"",
+        "member": null,
+        "group": "Strzelecki"
+      },
+      "age": {
+        "min_ma": 121.4,
+        "max_ma": 125.77,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 51961 to Late Barremian with numeric bounds 125.77–121.4 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 91784; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1692578 records Megaraptora in collection 51961, linked by PBDB to reference 91784.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Megaraptora indet. and the accepted name as Megaraptora.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

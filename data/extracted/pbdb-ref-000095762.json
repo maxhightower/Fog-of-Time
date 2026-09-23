@@ -1,0 +1,68 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:95762",
+    "doi": "10.1139/cjes-2026-0013",
+    "title": "A new parasaurolophin dinosaur (Hadrosauridae: Lambeosaurinae) from the Oldman Formation of southern Alberta",
+    "year": 2026,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/cjes-2026-0013",
+    "authors": [
+      "B. D. McFeeters",
+      "D. C. Evans",
+      "M. J. Ryan, H. C. Maddin"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:95762:occ:2070808",
+      "physical_key": "pbdb-occ:2070808",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Plesiolophus warnerensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2070808",
+        "label": "PBDB occurrence 2070808"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 60364: near Warner, Alberta approx. 180 km southwest of RTMP BB 138; coordinates are for Warner",
+        "country": "CA",
+        "region": "Alberta",
+        "latitude": 49.286388,
+        "longitude": -112.205559,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Oldman",
+        "member": null,
+        "group": "Belly River"
+      },
+      "age": {
+        "min_ma": 72.2,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 60364 to Campanian with numeric bounds 83.6–72.2 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 95762; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2070808 records Plesiolophus warnerensis in collection 60364, linked by PBDB to reference 95762.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

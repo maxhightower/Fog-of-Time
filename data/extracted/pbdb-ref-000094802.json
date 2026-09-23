@@ -1,0 +1,75 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94802",
+    "doi": "10.5710/peapa.25.11.2025.551",
+    "title": "New thyreophoran remains with stegosaurian affinities from the Lower Cretaceous of Argentina",
+    "year": 2026,
+    "journal": "Publicación Electrónica de la Asociación Paleontológica Argentina",
+    "url": "https://doi.org/10.5710/peapa.25.11.2025.551",
+    "authors": [
+      "F. J. Riguetti",
+      "S. Apesteguía",
+      "J. I. Canale, P. A. Gallina"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:94802:occ:2064149",
+      "physical_key": "pbdb-occ:2064149",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Thyreophora",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2064149",
+        "label": "PBDB occurrence 2064149"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 219496: The remains were found in outcrops of the Bajada Colorada Formation (Neuquén Basin), at its type locality 40 km south of Picún Leufú town on the national route 237, in southeastern Neuquén Province, Patagonia, Argentina",
+        "country": "AR",
+        "region": "Neuquén",
+        "latitude": -39.817501,
+        "longitude": -69.674164,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bajada Colorada",
+        "member": null,
+        "group": "Mendoza"
+      },
+      "age": {
+        "min_ma": 132.6,
+        "max_ma": 139.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 219496 to Late Berriasian–Valanginian with numeric bounds 139.1–132.6 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 94802; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2064149 records Thyreophora in collection 219496, linked by PBDB to reference 94802.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Thyreophora indet. and the accepted name as Thyreophora.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

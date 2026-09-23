@@ -1,0 +1,521 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:92022",
+    "doi": "10.1017/jpa.2025.4",
+    "title": "First report of ceratopsians and tyrannosauroids (Dinosauria) in the Newark Canyon Formation (Lower Cretaceous) of Nevada",
+    "year": 2025,
+    "journal": "Journal of Paleontology",
+    "url": "https://doi.org/10.1017/jpa.2025.4",
+    "authors": [
+      "M. T. Carrano"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:92022:occ:1259872",
+      "physical_key": "pbdb-occ:1259872",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Nodosauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1259872",
+        "label": "PBDB occurrence 1259872"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 167383: just W of center of sec. 14, T30W, R51E",
+        "country": "US",
+        "region": "Nevada, Eureka",
+        "latitude": 40.472599,
+        "longitude": -116.186897,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Newark Canyon",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 119.57,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 167383 to Late Aptian–Albian with numeric bounds 119.57–100.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92022; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1259872 records Nodosauridae in collection 167383, linked by PBDB to reference 92022.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Nodosauridae indet. and the accepted name as Nodosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92022:occ:1259873",
+      "physical_key": "pbdb-occ:1259873",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Averostra",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1259873",
+        "label": "PBDB occurrence 1259873"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 167384: NW 1/4, sec. 14, T30W, R51E",
+        "country": "US",
+        "region": "Nevada, Eureka",
+        "latitude": 40.472599,
+        "longitude": -116.186897,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Newark Canyon",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 119.57,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 167384 to Late Aptian–Albian with numeric bounds 119.57–100.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92022; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1259873 records Averostra in collection 167384, linked by PBDB to reference 92022.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Averostra indet. and the accepted name as Averostra.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92022:occ:1698705",
+      "physical_key": "pbdb-occ:1698705",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Ankylosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1698705",
+        "label": "PBDB occurrence 1698705"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 167383: just W of center of sec. 14, T30W, R51E",
+        "country": "US",
+        "region": "Nevada, Eureka",
+        "latitude": 40.472599,
+        "longitude": -116.186897,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Newark Canyon",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 119.57,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 167383 to Late Aptian–Albian with numeric bounds 119.57–100.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92022; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1698705 records Ankylosauria in collection 167383, linked by PBDB to reference 92022.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Ankylosauria indet. and the accepted name as Ankylosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92022:occ:1698706",
+      "physical_key": "pbdb-occ:1698706",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dinosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1698706",
+        "label": "PBDB occurrence 1698706"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 167383: just W of center of sec. 14, T30W, R51E",
+        "country": "US",
+        "region": "Nevada, Eureka",
+        "latitude": 40.472599,
+        "longitude": -116.186897,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Newark Canyon",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 119.57,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 167383 to Late Aptian–Albian with numeric bounds 119.57–100.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92022; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1698706 records Dinosauria in collection 167383, linked by PBDB to reference 92022.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Dinosauria indet. and the accepted name as Dinosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92022:occ:1698707",
+      "physical_key": "pbdb-occ:1698707",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Neoceratopsia",
+        "rank": "infraorder"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1698707",
+        "label": "PBDB occurrence 1698707"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 167383: just W of center of sec. 14, T30W, R51E",
+        "country": "US",
+        "region": "Nevada, Eureka",
+        "latitude": 40.472599,
+        "longitude": -116.186897,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Newark Canyon",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 119.57,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 167383 to Late Aptian–Albian with numeric bounds 119.57–100.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92022; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1698707 records Neoceratopsia in collection 167383, linked by PBDB to reference 92022.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Neoceratopsia indet. and the accepted name as Neoceratopsia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92022:occ:1698708",
+      "physical_key": "pbdb-occ:1698708",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Tyrannosauroidea",
+        "rank": "superfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1698708",
+        "label": "PBDB occurrence 1698708"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 167383: just W of center of sec. 14, T30W, R51E",
+        "country": "US",
+        "region": "Nevada, Eureka",
+        "latitude": 40.472599,
+        "longitude": -116.186897,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Newark Canyon",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 119.57,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 167383 to Late Aptian–Albian with numeric bounds 119.57–100.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92022; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1698708 records Tyrannosauroidea in collection 167383, linked by PBDB to reference 92022.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Tyrannosauroidea indet. and the accepted name as Tyrannosauroidea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92022:occ:1698710",
+      "physical_key": "pbdb-occ:1698710",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Tyrannosauroidea",
+        "rank": "superfamily"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1698710",
+        "label": "PBDB occurrence 1698710"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 167384: NW 1/4, sec. 14, T30W, R51E",
+        "country": "US",
+        "region": "Nevada, Eureka",
+        "latitude": 40.472599,
+        "longitude": -116.186897,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Newark Canyon",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 119.57,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 167384 to Late Aptian–Albian with numeric bounds 119.57–100.5 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92022; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1698710 records Tyrannosauroidea in collection 167384, linked by PBDB to reference 92022.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Tyrannosauroidea indet. and the accepted name as Tyrannosauroidea.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92022:occ:1698711",
+      "physical_key": "pbdb-occ:1698711",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Iguanodontia",
+        "rank": "infraorder"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1698711",
+        "label": "PBDB occurrence 1698711"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240664: NW 1/4, sec. 23, T30W, R51E, Pine Valley quadrangle",
+        "country": "US",
+        "region": "Nevada, Eureka",
+        "latitude": 40.4744,
+        "longitude": -116.199501,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Newark Canyon",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 119.57,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240664 to Late Aptian–Early Cenomanian with numeric bounds 119.57–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92022; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1698711 records Iguanodontia in collection 240664, linked by PBDB to reference 92022.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Iguanodontia indet. and the accepted name as Iguanodontia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:92022:occ:1698712",
+      "physical_key": "pbdb-occ:1698712",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "1698712",
+        "label": "PBDB occurrence 1698712"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 240664: NW 1/4, sec. 23, T30W, R51E, Pine Valley quadrangle",
+        "country": "US",
+        "region": "Nevada, Eureka",
+        "latitude": 40.4744,
+        "longitude": -116.199501,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Newark Canyon",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 93.9,
+        "max_ma": 119.57,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 240664 to Late Aptian–Early Cenomanian with numeric bounds 119.57–93.9 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 92022; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 1698712 records Theropoda in collection 240664, linked by PBDB to reference 92022.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

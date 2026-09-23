@@ -1,0 +1,635 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93555",
+    "doi": "10.1186/s13358-025-00419-9",
+    "title": "Upper Jurassic dinosaur tracks from the Majala Formation in the Huatacondo area (Tarapacá Basin, Chile): reappraisal of known localities and new tracksite discoveries",
+    "year": 2025,
+    "journal": "Swiss Journal of Palaeontology",
+    "url": "https://doi.org/10.1186/s13358-025-00419-9",
+    "authors": [
+      "M. Yurac",
+      "M. Belvedere",
+      "C. Salazar, J. Méndez, C. Meyer"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93555:occ:2043318",
+      "physical_key": "pbdb-occ:2043318",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Dinosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2043318",
+        "label": "PBDB occurrence 2043318"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276062: Tarapacá, Chacarilla, Quebrada de Chacarilla",
+        "country": "CL",
+        "region": "Tarapaca",
+        "latitude": -20.653055,
+        "longitude": -69.122498,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Majala",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 154.8,
+        "max_ma": 159.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276062 to Middle Oxfordian–Late Oxfordian with numeric bounds 159–154.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93555; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2043318 records Dinosauria in collection 276062, linked by PBDB to reference 93555.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Dinosauria indet. and the accepted name as Dinosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93555:occ:2043319",
+      "physical_key": "pbdb-occ:2043319",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2043319",
+        "label": "PBDB occurrence 2043319"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276063: 1.5 km W of the hamlet of Huatacondo in the Tarapacá Region in northern Chile (20°55′43.35″S, 69°3′44.81″W)",
+        "country": "CL",
+        "region": "Tarapaca",
+        "latitude": -20.928612,
+        "longitude": -69.0625,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Majala",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 154.8,
+        "max_ma": 159.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276063 to Middle Oxfordian–Late Oxfordian with numeric bounds 159–154.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93555; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2043319 records Theropoda in collection 276063, linked by PBDB to reference 93555.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93555:occ:2043320",
+      "physical_key": "pbdb-occ:2043320",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Megalosauripus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2043320",
+        "label": "PBDB occurrence 2043320"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276064: 1.5 km W of the hamlet of Huatacondo in the Tarapacá Region in northern Chile (20°55′43.35″S, 69°3′44.81″W)",
+        "country": "CL",
+        "region": "Tarapaca",
+        "latitude": -20.928612,
+        "longitude": -69.0625,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Majala",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 154.8,
+        "max_ma": 159.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276064 to Middle Oxfordian–Late Oxfordian with numeric bounds 159–154.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93555; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2043320 records Megalosauripus in collection 276064, linked by PBDB to reference 93555.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Megalosauripus sp. and the accepted name as Megalosauripus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93555:occ:2043321",
+      "physical_key": "pbdb-occ:2043321",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2043321",
+        "label": "PBDB occurrence 2043321"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276065: 1.5 km W of the hamlet of Huatacondo in the Tarapacá Region in northern Chile (20°55′43.35″S, 69°3′44.81″W)",
+        "country": "CL",
+        "region": "Tarapaca",
+        "latitude": -20.928612,
+        "longitude": -69.0625,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Majala",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 154.8,
+        "max_ma": 159.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276065 to Middle Oxfordian–Late Oxfordian with numeric bounds 159–154.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93555; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2043321 records Sauropoda in collection 276065, linked by PBDB to reference 93555.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Sauropoda indet. and the accepted name as Sauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93555:occ:2043322",
+      "physical_key": "pbdb-occ:2043322",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Megalosauripus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2043322",
+        "label": "PBDB occurrence 2043322"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276066: 1.5 km W of the hamlet of Huatacondo in the Tarapacá Region in northern Chile (20°55′43.35″S, 69°3′44.81″W)",
+        "country": "CL",
+        "region": "Tarapaca",
+        "latitude": -20.928612,
+        "longitude": -69.0625,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Majala",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 154.8,
+        "max_ma": 159.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276066 to Middle Oxfordian–Late Oxfordian with numeric bounds 159–154.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93555; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2043322 records Megalosauripus in collection 276066, linked by PBDB to reference 93555.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Megalosauripus sp. and the accepted name as Megalosauripus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93555:occ:2043323",
+      "physical_key": "pbdb-occ:2043323",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Theropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2043323",
+        "label": "PBDB occurrence 2043323"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276067: 1.5 km W of the hamlet of Huatacondo in the Tarapacá Region in northern Chile (20°55′43.35″S, 69°3′44.81″W)",
+        "country": "CL",
+        "region": "Tarapaca",
+        "latitude": -20.928612,
+        "longitude": -69.0625,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Majala",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 154.8,
+        "max_ma": 159.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276067 to Middle Oxfordian–Late Oxfordian with numeric bounds 159–154.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93555; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2043323 records Theropoda in collection 276067, linked by PBDB to reference 93555.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Theropoda indet. and the accepted name as Theropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93555:occ:2043324",
+      "physical_key": "pbdb-occ:2043324",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Therangospodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2043324",
+        "label": "PBDB occurrence 2043324"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276067: 1.5 km W of the hamlet of Huatacondo in the Tarapacá Region in northern Chile (20°55′43.35″S, 69°3′44.81″W)",
+        "country": "CL",
+        "region": "Tarapaca",
+        "latitude": -20.928612,
+        "longitude": -69.0625,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Majala",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 154.8,
+        "max_ma": 159.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276067 to Middle Oxfordian–Late Oxfordian with numeric bounds 159–154.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93555; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2043324 records Therangospodus in collection 276067, linked by PBDB to reference 93555.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Therangospodus sp. and the accepted name as Therangospodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93555:occ:2043325",
+      "physical_key": "pbdb-occ:2043325",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Grallator",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2043325",
+        "label": "PBDB occurrence 2043325"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276067: 1.5 km W of the hamlet of Huatacondo in the Tarapacá Region in northern Chile (20°55′43.35″S, 69°3′44.81″W)",
+        "country": "CL",
+        "region": "Tarapaca",
+        "latitude": -20.928612,
+        "longitude": -69.0625,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Majala",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 154.8,
+        "max_ma": 159.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276067 to Middle Oxfordian–Late Oxfordian with numeric bounds 159–154.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93555; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2043325 records Grallator in collection 276067, linked by PBDB to reference 93555.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Grallator sp. and the accepted name as Grallator.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93555:occ:2043326",
+      "physical_key": "pbdb-occ:2043326",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Carmelopodus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2043326",
+        "label": "PBDB occurrence 2043326"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276067: 1.5 km W of the hamlet of Huatacondo in the Tarapacá Region in northern Chile (20°55′43.35″S, 69°3′44.81″W)",
+        "country": "CL",
+        "region": "Tarapaca",
+        "latitude": -20.928612,
+        "longitude": -69.0625,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Majala",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 154.8,
+        "max_ma": 159.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276067 to Middle Oxfordian–Late Oxfordian with numeric bounds 159–154.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93555; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2043326 records Carmelopodus in collection 276067, linked by PBDB to reference 93555.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Carmelopodus sp. and the accepted name as Carmelopodus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93555:occ:2043327",
+      "physical_key": "pbdb-occ:2043327",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kayentapus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2043327",
+        "label": "PBDB occurrence 2043327"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276066: 1.5 km W of the hamlet of Huatacondo in the Tarapacá Region in northern Chile (20°55′43.35″S, 69°3′44.81″W)",
+        "country": "CL",
+        "region": "Tarapaca",
+        "latitude": -20.928612,
+        "longitude": -69.0625,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Majala",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 154.8,
+        "max_ma": 159.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276066 to Middle Oxfordian–Late Oxfordian with numeric bounds 159–154.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93555; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2043327 records Kayentapus in collection 276066, linked by PBDB to reference 93555.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Kayentapus sp. and the accepted name as Kayentapus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93555:occ:2043328",
+      "physical_key": "pbdb-occ:2043328",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Kayentapus",
+        "rank": "genus"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2043328",
+        "label": "PBDB occurrence 2043328"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 276063: 1.5 km W of the hamlet of Huatacondo in the Tarapacá Region in northern Chile (20°55′43.35″S, 69°3′44.81″W)",
+        "country": "CL",
+        "region": "Tarapaca",
+        "latitude": -20.928612,
+        "longitude": -69.0625,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Majala",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 154.8,
+        "max_ma": 159.0,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 276063 to Middle Oxfordian–Late Oxfordian with numeric bounds 159–154.8 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93555; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2043328 records Kayentapus in collection 276063, linked by PBDB to reference 93555.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as cf. Kayentapus sp. and the accepted name as Kayentapus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}

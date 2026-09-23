@@ -1,0 +1,299 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93423",
+    "doi": "10.5710/AMGH.13.02.2025.3627",
+    "title": "Campanian-Maastrichtian dinosaurs from the Bagua Basin of Perú: first possible report of Spinosauridae in western South America",
+    "year": 2025,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/AMGH.13.02.2025.3627",
+    "authors": [
+      "G. Olmedo Romaña",
+      "J. Wilson Mantilla",
+      "J. Tejada, P. Olivier Antoine, M. Burga-Castillo, A. Aliaga-Castillo, R. Varas-Malca, A. Benites-Palomino, R. Salas-Gismondi"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "pbdb-ref:93423:occ:508569",
+      "physical_key": "pbdb-occ:508569",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Titanosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "508569",
+        "label": "PBDB occurrence 508569"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 51672: in region of Bagua syncline, above main road to Chiriaca and forest region, at entry of pass (pongo) of Rentema",
+        "country": "PE",
+        "region": "Amazonas",
+        "latitude": -5.508333,
+        "longitude": -78.550003,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bagua",
+        "member": "Fundo El Triunfo",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 51672 to Middle Campanian–Early Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93423; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 508569 records Titanosauria in collection 51672, linked by PBDB to reference 93423.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Titanosauria indet. and the accepted name as Titanosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93423:occ:2041347",
+      "physical_key": "pbdb-occ:2041347",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Sauropoda",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2041347",
+        "label": "PBDB occurrence 2041347"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 275785: unspecified locality near Inambari, SE Peru",
+        "country": "PE",
+        "region": "Madre de Dios",
+        "latitude": -12.9,
+        "longitude": -70.029999,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": null,
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 100.5,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 275785 to Late Cretaceous with numeric bounds 100.5–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93423; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2041347 records Sauropoda in collection 275785, linked by PBDB to reference 93423.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as ? Sauropoda indet. and the accepted name as Sauropoda.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93423:occ:2041348",
+      "physical_key": "pbdb-occ:2041348",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Titanosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2041348",
+        "label": "PBDB occurrence 2041348"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 275786: in region of Bagua syncline, Gallo Cantana",
+        "country": "PE",
+        "region": "Amazonas",
+        "latitude": -5.741667,
+        "longitude": -78.511108,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bagua",
+        "member": "Fundo El Triunfo",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 275786 to Middle Campanian–Early Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93423; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2041348 records Titanosauria in collection 275786, linked by PBDB to reference 93423.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Titanosauria indet. and the accepted name as Titanosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93423:occ:2041349",
+      "physical_key": "pbdb-occ:2041349",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Spinosauridae",
+        "rank": "family"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2041349",
+        "label": "PBDB occurrence 2041349"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 275787: southwest of Bagua and east of the Marañón River",
+        "country": "PE",
+        "region": "Amazonas",
+        "latitude": -5.677222,
+        "longitude": -78.565834,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bagua",
+        "member": "Fundo el Triunfo",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 275787 to Campanian–Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93423; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2041349 records Spinosauridae in collection 275787, linked by PBDB to reference 93423.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Spinosauridae indet. and the accepted name as Spinosauridae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "pbdb-ref:93423:occ:2041350",
+      "physical_key": "pbdb-occ:2041350",
+      "evidence_type": "fossil_occurrence",
+      "taxon": {
+        "name": "Titanosauria",
+        "rank": "unranked clade"
+      },
+      "specimen": {
+        "institution_code": "PBDB",
+        "catalog_number": "2041350",
+        "label": "PBDB occurrence 2041350"
+      },
+      "material": [
+        "PBDB fossil occurrence record"
+      ],
+      "locality": {
+        "name": "PBDB collection 275787: southwest of Bagua and east of the Marañón River",
+        "country": "PE",
+        "region": "Amazonas",
+        "latitude": -5.677222,
+        "longitude": -78.565834,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Bagua",
+        "member": "Fundo el Triunfo",
+        "group": null
+      },
+      "age": {
+        "min_ma": 66.0,
+        "max_ma": 83.6,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "pbdb_collection_numeric_age_range",
+        "basis": "PBDB assigns collection 275787 to Campanian–Maastrichtian with numeric bounds 83.6–66 Ma.",
+        "notes": "Database-derived occurrence snapshot from Paleobiology Database reference 93423; not yet re-verified against the publication full text."
+      },
+      "evidence_role": "secondary_citation",
+      "claims": [
+        {
+          "type": "pbdb_occurrence",
+          "summary": "PBDB occurrence 2041350 records Titanosauria in collection 275787, linked by PBDB to reference 93423.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "taxonomic_reidentification",
+          "summary": "PBDB stores the original/identified name as Titanosauria indet. and the accepted name as Titanosauria.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}
