@@ -1,0 +1,291 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1371/journal.pone.0006190",
+    "doi": "10.1371/journal.pone.0006190",
+    "title": "New Mid-Cretaceous (Latest Albian) Dinosaurs from Winton, Queensland, Australia",
+    "year": 2009,
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006190",
+    "authors": [
+      "Scott A. Hocknull",
+      "Matt A. White",
+      "Travis R. Tischler",
+      "Alex G. Cook",
+      "Naomi D. Calleja",
+      "Trish Sloan",
+      "David A. Elliott"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1371/journal.pone.0006190:aodf-603",
+      "physical_key": "specimen:aodf:603",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Diamantinasaurus matildae",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AODF",
+        "catalog_number": "603",
+        "label": "AODF 603"
+      },
+      "material": [
+        "right scapula",
+        "left humerus",
+        "right humerus",
+        "right ulna",
+        "right metacarpus II–V",
+        "left metacarpal I",
+        "dorsal ribs",
+        "gastralia",
+        "left sternal plate",
+        "left ilium",
+        "sacral processes",
+        "pubes",
+        "ischia",
+        "right femur",
+        "right tibia",
+        "right fibula",
+        "right astragalus"
+      ],
+      "locality": {
+        "name": "AODL 85 “Matilda Site”, Elderslie Station",
+        "country": "Australia",
+        "region": "Queensland",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 113.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the material to the latest Albian Winton Formation; the numeric envelope conservatively uses the current full Albian boundaries.",
+        "notes": "The paper's palynostratigraphic argument is more specific than the numeric envelope retained here."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "AODF 603 is designated as the holotype of Diamantinasaurus matildae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for AODF 603: right scapula, left humerus, right humerus, right ulna, right metacarpus II–V, left metacarpal I, dorsal ribs, gastralia, left sternal plate, left ilium, sacral processes, pubes, ischia, right femur, right tibia, right fibula, right astragalus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0006190:qmf-7292",
+      "physical_key": "specimen:qmf:7292",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Wintonotitan wattsi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "QMF",
+        "catalog_number": "7292",
+        "label": "QMF 7292"
+      },
+      "material": [
+        "left scapula",
+        "partial humeri",
+        "partial ulnae",
+        "radii",
+        "right metacarpus",
+        "fragmentary dorsal vertebrae",
+        "fragmentary sacral vertebrae",
+        "ribs",
+        "partial right ilium",
+        "right ischium",
+        "caudal vertebral series",
+        "proximal chevrons"
+      ],
+      "locality": {
+        "name": "QML 313 “Triangle Paddock”, Elderslie Station",
+        "country": "Australia",
+        "region": "Queensland",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 113.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the material to the latest Albian Winton Formation; the numeric envelope conservatively uses the current full Albian boundaries.",
+        "notes": "The paper's palynostratigraphic argument is more specific than the numeric envelope retained here."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "QMF 7292 is designated as the holotype of Wintonotitan wattsi.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for QMF 7292: left scapula, partial humeri, partial ulnae, radii, right metacarpus, fragmentary dorsal vertebrae, fragmentary sacral vertebrae, ribs, partial right ilium, right ischium, caudal vertebral series, proximal chevrons.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0006190:qmf-10916",
+      "physical_key": "specimen:qmf:10916",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Wintonotitan wattsi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "QMF",
+        "catalog_number": "10916",
+        "label": "QMF 10916"
+      },
+      "material": [
+        "isolated middle caudal vertebrae",
+        "isolated posterior caudal vertebrae"
+      ],
+      "locality": {
+        "name": "Chorregan, Winton",
+        "country": "Australia",
+        "region": "Queensland",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 113.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the material to the latest Albian Winton Formation; the numeric envelope conservatively uses the current full Albian boundaries.",
+        "notes": "The paper's palynostratigraphic argument is more specific than the numeric envelope retained here."
+      },
+      "evidence_role": "redescription",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "QMF 10916 is referred to Wintonotitan wattsi.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for QMF 10916: isolated middle caudal vertebrae, isolated posterior caudal vertebrae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0006190:aodf-604",
+      "physical_key": "specimen:aodf:604",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Australovenator wintonensis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AODF",
+        "catalog_number": "604",
+        "label": "AODF 604"
+      },
+      "material": [
+        "nine isolated teeth",
+        "left dentary",
+        "dorsal ribs",
+        "gastralia",
+        "partial right ilium",
+        "both ulnae",
+        "right radius",
+        "manual metacarpals",
+        "manual phalanges",
+        "manual unguals",
+        "right femur",
+        "both tibiae",
+        "right fibula",
+        "right astragalus",
+        "metatarsals",
+        "pedal phalanges",
+        "pedal unguals"
+      ],
+      "locality": {
+        "name": "AODL 85 “Matilda Site”, Elderslie Station",
+        "country": "Australia",
+        "region": "Queensland",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Winton Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 113.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the material to the latest Albian Winton Formation; the numeric envelope conservatively uses the current full Albian boundaries.",
+        "notes": "The paper's palynostratigraphic argument is more specific than the numeric envelope retained here."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "AODF 604 is designated as the holotype of Australovenator wintonensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for AODF 604: nine isolated teeth, left dentary, dorsal ribs, gastralia, partial right ilium, both ulnae, right radius, manual metacarpals, manual phalanges, manual unguals, right femur, both tibiae, right fibula, right astragalus, metatarsals, pedal phalanges, pedal unguals.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}
