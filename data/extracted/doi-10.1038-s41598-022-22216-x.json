@@ -1,0 +1,1380 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1038/s41598-022-22216-x",
+    "doi": "10.1038/s41598-022-22216-x",
+    "title": "Osteohistology of a Triassic dinosaur population reveals highly variable growth trajectories typified early dinosaur ontogeny",
+    "year": 2022,
+    "journal": "Scientific Reports",
+    "url": "https://www.nature.com/articles/s41598-022-22216-x",
+    "authors": [
+      "Daniel E. Barta",
+      "Christopher T. Griffin",
+      "Mark A. Norell"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7228",
+      "physical_key": "histology:amnh-farb-7228",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7228",
+        "label": "AMNH FARB 7228"
+      },
+      "material": [
+        "histologically sampled left tibia",
+        "histologically sampled left fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7228 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 1 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7229",
+      "physical_key": "histology:amnh-farb-7229",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7229",
+        "label": "AMNH FARB 7229"
+      },
+      "material": [
+        "histologically sampled left tibia",
+        "histologically sampled left fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7229 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 0 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7232",
+      "physical_key": "histology:amnh-farb-7232",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7232",
+        "label": "AMNH FARB 7232"
+      },
+      "material": [
+        "histologically sampled left tibia",
+        "histologically sampled left fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7232 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 0 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7233",
+      "physical_key": "histology:amnh-farb-7233",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7233",
+        "label": "AMNH FARB 7233"
+      },
+      "material": [
+        "histologically sampled right tibia",
+        "histologically sampled right fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7233 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia, right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 2 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7234",
+      "physical_key": "histology:amnh-farb-7234",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7234",
+        "label": "AMNH FARB 7234"
+      },
+      "material": [
+        "histologically sampled left tibia",
+        "histologically sampled left fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7234 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 0 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7238",
+      "physical_key": "histology:amnh-farb-7238",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7238",
+        "label": "AMNH FARB 7238"
+      },
+      "material": [
+        "histologically sampled left tibia"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7238 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 1 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7243",
+      "physical_key": "histology:amnh-farb-7243",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7243",
+        "label": "AMNH FARB 7243"
+      },
+      "material": [
+        "histologically sampled right tibia",
+        "histologically sampled right fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7243 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia, right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 2 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7244",
+      "physical_key": "histology:amnh-farb-7244",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7244",
+        "label": "AMNH FARB 7244"
+      },
+      "material": [
+        "histologically sampled left tibia",
+        "histologically sampled left fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7244 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 3 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7245",
+      "physical_key": "histology:amnh-farb-7245",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7245",
+        "label": "AMNH FARB 7245"
+      },
+      "material": [
+        "histologically sampled right tibia"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7245 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 2 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7246",
+      "physical_key": "histology:amnh-farb-7246",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7246",
+        "label": "AMNH FARB 7246"
+      },
+      "material": [
+        "histologically sampled right tibia",
+        "histologically sampled right fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7246 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia, right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 2 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7247",
+      "physical_key": "histology:amnh-farb-7247",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7247",
+        "label": "AMNH FARB 7247"
+      },
+      "material": [
+        "histologically sampled distally sampled tibia",
+        "histologically sampled fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7247 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: distally sampled tibia, fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "sampling_limitation",
+          "summary": "This distally sampled specimen was excluded from quantitative analyses because cortical drift obscured much of the original microstructure.",
+          "page": null,
+          "figure": "Supplementary Fig. 11",
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7249",
+      "physical_key": "histology:amnh-farb-7249",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7249",
+        "label": "AMNH FARB 7249"
+      },
+      "material": [
+        "histologically sampled left? tibia"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7249 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left? tibia.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 1 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7251",
+      "physical_key": "histology:amnh-farb-7251",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7251",
+        "label": "AMNH FARB 7251"
+      },
+      "material": [
+        "histologically sampled left? tibia"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7251 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left? tibia.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 3 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7253",
+      "physical_key": "histology:amnh-farb-7253",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7253",
+        "label": "AMNH FARB 7253"
+      },
+      "material": [
+        "histologically sampled right tibia",
+        "histologically sampled right fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7253 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia, right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 0 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:amnh-farb-7256",
+      "physical_key": "histology:amnh-farb-7256",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "AMNH FARB",
+        "catalog_number": "7256",
+        "label": "AMNH FARB 7256"
+      },
+      "material": [
+        "histologically sampled right tibia",
+        "histologically sampled right fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "AMNH FARB 7256 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia, right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 0 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:cm-89948",
+      "physical_key": "histology:cm-89948",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "CM",
+        "catalog_number": "89948",
+        "label": "CM 89948"
+      },
+      "material": [
+        "histologically sampled right tibia",
+        "histologically sampled right fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "CM 89948 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia, right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 4 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:cm-89958",
+      "physical_key": "histology:cm-89958",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "CM",
+        "catalog_number": "89958",
+        "label": "CM 89958"
+      },
+      "material": [
+        "histologically sampled left tibia",
+        "histologically sampled left fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "CM 89958 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 0 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:mcz-vpra-4332",
+      "physical_key": "histology:mcz-vpra-4332",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "MCZ VPRA",
+        "catalog_number": "4332",
+        "label": "MCZ VPRA 4332"
+      },
+      "material": [
+        "histologically sampled left tibia",
+        "histologically sampled left fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "MCZ VPRA 4332 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 1 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:mcz-vpra-4334",
+      "physical_key": "histology:mcz-vpra-4334",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "MCZ VPRA",
+        "catalog_number": "4334",
+        "label": "MCZ VPRA 4334"
+      },
+      "material": [
+        "histologically sampled right tibia",
+        "histologically sampled right fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "MCZ VPRA 4334 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia, right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 1 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:rom-72668",
+      "physical_key": "histology:rom-72668",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "ROM",
+        "catalog_number": "72668",
+        "label": "ROM 72668"
+      },
+      "material": [
+        "histologically sampled right tibia"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "ROM 72668 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right tibia.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 0 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:ypm-vp-41197",
+      "physical_key": "histology:ypm-vp-41197",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "YPM VP",
+        "catalog_number": "41197",
+        "label": "YPM VP 41197"
+      },
+      "material": [
+        "histologically sampled left tibia",
+        "histologically sampled left fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "YPM VP 41197 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: left tibia, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 4 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:ypm-vp-59865",
+      "physical_key": "histology:ypm-vp-59865",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "YPM VP",
+        "catalog_number": "59865",
+        "label": "YPM VP 59865"
+      },
+      "material": [
+        "histologically sampled tibia"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "YPM VP 59865 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: tibia.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 1 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:cmnh-10971-1",
+      "physical_key": "histology:cmnh-10971-1",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "CMNH",
+        "catalog_number": "10971 #1",
+        "label": "CMNH 10971 #1"
+      },
+      "material": [
+        "histologically sampled right femur",
+        "histologically sampled left fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "CMNH 10971 #1 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right femur, left fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 6 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-22216-x:cmnh-10971-5",
+      "physical_key": "histology:cmnh-10971-5",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Coelophysis bauri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "CMNH",
+        "catalog_number": "10971 #5",
+        "label": "CMNH 10971 #5"
+      },
+      "material": [
+        "histologically sampled right fibula"
+      ],
+      "locality": {
+        "name": "Coelophysis Quarry, Ghost Ranch",
+        "country": "United States",
+        "region": "New Mexico",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Chinle Formation",
+        "member": "siltstone member",
+        "group": null
+      },
+      "age": {
+        "min_ma": 200,
+        "max_ma": 200,
+        "best_ma": 200,
+        "precision": "approximate_point",
+        "method": "published_approximate_population_age",
+        "basis": "The paper describes the Ghost Ranch bonebed as an approximately 200-million-year-old Coelophysis population.",
+        "notes": "This is the paper's deliberately approximate population age, not a direct date on each individual."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "CMNH 10971 #5 is one of the 24 Coelophysis bauri individuals histologically sampled from the Ghost Ranch bonebed; sampled elements: right fibula.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        },
+        {
+          "type": "growth_mark_observation",
+          "summary": "Supplementary Table 1 reports a maximum observed growth-mark count of 3 for this individual.",
+          "page": null,
+          "figure": null,
+          "table": "Supplementary Table 1"
+        }
+      ]
+    }
+  ]
+}
