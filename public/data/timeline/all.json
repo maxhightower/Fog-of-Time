@@ -74,6 +74,348 @@
     "development_fixture": false
   },
   {
+    "physical_key": "pathology:umhn-vp:19479:pedal-digit-ii",
+    "evidence_type": "pathology",
+    "taxon": "Talos sampsoni",
+    "taxon_rank": "species",
+    "specimen_label": "UMNH VP 19479",
+    "material": [
+      "healed traumatic injury",
+      "pathologically modified second pedal digit"
+    ],
+    "locality": {
+      "name": "The Blues, northern Kaiparowits Plateau, Grand Staircase-Escalante National Monument",
+      "country": "United States",
+      "region": "Utah"
+    },
+    "formation": "Kaiparowits Formation",
+    "age": {
+      "min_ma": 72.1,
+      "max_ma": 76.13,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "stratigraphic_constraint_from_dated_bentonite_and_stage",
+      "basis": "Same individual and horizon as UMNH VP 19479."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0024487:umhn-vp-19479-pathology",
+      "evidence_role": "new_imaging",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0024487",
+        "doi": "10.1371/journal.pone.0024487",
+        "title": "A New Troodontid Theropod, Talos sampsoni gen. et sp. nov., from the Upper Cretaceous Western Interior Basin of North America",
+        "year": 2011,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0024487",
+        "authors": [
+          "Lindsay E. Zanno",
+          "David J. Varricchio",
+          "Patrick M. O'Connor",
+          "Alan L. Titus",
+          "Michael J. Knell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "The foot preserves an apparent traumatic injury with evidence of subsequent healing.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "functional_interpretation",
+          "summary": "The pathology supports interpretations in which the specialized second pedal digit had a limited role in ordinary weight bearing and may have been used in prey grappling or intraspecific combat.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "soft-tissue:ivpp-v-12811",
+    "evidence_type": "soft_tissue",
+    "taxon": "Sinornithosaurus",
+    "taxon_rank": "genus",
+    "specimen_label": "IVPP V 12811",
+    "material": [
+      "epidermal corneocytes",
+      "feather-associated soft tissue sample",
+      "phosphatised fossil skin patches"
+    ],
+    "locality": {
+      "name": "Jehol Biota specimen; exact source locality not specified in study methods",
+      "country": "China",
+      "region": "northeastern China"
+    },
+    "formation": null,
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 143.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_epoch_assignment_with_ics_conversion",
+      "basis": "The paper identifies the four specimens as Early Cretaceous Jehol Biota fossils; the numeric envelope conservatively spans the current Early Cretaceous."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41467-018-04443-x:ivpp-v-12811",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41467-018-04443-x",
+        "doi": "10.1038/s41467-018-04443-x",
+        "title": "Fossilized skin reveals coevolution with feathers and metabolism in feathered dinosaurs and early birds",
+        "year": 2018,
+        "journal": "Nature Communications",
+        "url": "https://www.nature.com/articles/s41467-018-04443-x",
+        "authors": [
+          "Maria E. McNamara",
+          "Fucheng Zhang",
+          "Stuart L. Kearns",
+          "Patrick J. Orr",
+          "André Toulouse",
+          "Tara Foley",
+          "David W. E. Hone",
+          "Chris S. Rogers",
+          "Michael J. Benton",
+          "Diane Johnson",
+          "Xing Xu",
+          "Zhonghe Zhou"
+        ]
+      },
+      "claims": [
+        {
+          "type": "soft_tissue_observation",
+          "summary": "Small phosphatised skin patches associated with feathers were identified in IVPP V 12811.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "microstructural_observation",
+          "summary": "The fossil tissue preserves polygonal epidermal corneocytes and keratin-tonofibril-scale ultrastructure.",
+          "page": null,
+          "figure": "1–2",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "soft-tissue:ivpp-v-13171",
+    "evidence_type": "soft_tissue",
+    "taxon": "Confuciusornis",
+    "taxon_rank": "genus",
+    "specimen_label": "IVPP V 13171",
+    "material": [
+      "epidermal corneocytes",
+      "feather-associated soft tissue sample",
+      "phosphatised fossil skin patches"
+    ],
+    "locality": {
+      "name": "Jehol Biota specimen; exact source locality not specified in study methods",
+      "country": "China",
+      "region": "northeastern China"
+    },
+    "formation": null,
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 143.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_epoch_assignment_with_ics_conversion",
+      "basis": "The paper identifies the four specimens as Early Cretaceous Jehol Biota fossils; the numeric envelope conservatively spans the current Early Cretaceous."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41467-018-04443-x:ivpp-v-13171",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41467-018-04443-x",
+        "doi": "10.1038/s41467-018-04443-x",
+        "title": "Fossilized skin reveals coevolution with feathers and metabolism in feathered dinosaurs and early birds",
+        "year": 2018,
+        "journal": "Nature Communications",
+        "url": "https://www.nature.com/articles/s41467-018-04443-x",
+        "authors": [
+          "Maria E. McNamara",
+          "Fucheng Zhang",
+          "Stuart L. Kearns",
+          "Patrick J. Orr",
+          "André Toulouse",
+          "Tara Foley",
+          "David W. E. Hone",
+          "Chris S. Rogers",
+          "Michael J. Benton",
+          "Diane Johnson",
+          "Xing Xu",
+          "Zhonghe Zhou"
+        ]
+      },
+      "claims": [
+        {
+          "type": "soft_tissue_observation",
+          "summary": "Small phosphatised skin patches associated with feathers were identified in IVPP V 13171.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "microstructural_observation",
+          "summary": "The fossil tissue preserves polygonal epidermal corneocytes and keratin-tonofibril-scale ultrastructure.",
+          "page": null,
+          "figure": "1–2",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "soft-tissue:ivpp-v-17972a",
+    "evidence_type": "soft_tissue",
+    "taxon": "Microraptor",
+    "taxon_rank": "genus",
+    "specimen_label": "IVPP V 17972A",
+    "material": [
+      "epidermal corneocytes",
+      "feather-associated soft tissue sample",
+      "phosphatised fossil skin patches"
+    ],
+    "locality": {
+      "name": "Jehol Biota specimen; exact source locality not specified in study methods",
+      "country": "China",
+      "region": "northeastern China"
+    },
+    "formation": null,
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 143.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_epoch_assignment_with_ics_conversion",
+      "basis": "The paper identifies the four specimens as Early Cretaceous Jehol Biota fossils; the numeric envelope conservatively spans the current Early Cretaceous."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41467-018-04443-x:ivpp-v-17972a",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41467-018-04443-x",
+        "doi": "10.1038/s41467-018-04443-x",
+        "title": "Fossilized skin reveals coevolution with feathers and metabolism in feathered dinosaurs and early birds",
+        "year": 2018,
+        "journal": "Nature Communications",
+        "url": "https://www.nature.com/articles/s41467-018-04443-x",
+        "authors": [
+          "Maria E. McNamara",
+          "Fucheng Zhang",
+          "Stuart L. Kearns",
+          "Patrick J. Orr",
+          "André Toulouse",
+          "Tara Foley",
+          "David W. E. Hone",
+          "Chris S. Rogers",
+          "Michael J. Benton",
+          "Diane Johnson",
+          "Xing Xu",
+          "Zhonghe Zhou"
+        ]
+      },
+      "claims": [
+        {
+          "type": "soft_tissue_observation",
+          "summary": "Small phosphatised skin patches associated with feathers were identified in IVPP V 17972A.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "microstructural_observation",
+          "summary": "The fossil tissue preserves polygonal epidermal corneocytes and keratin-tonofibril-scale ultrastructure.",
+          "page": null,
+          "figure": "1–2",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "soft-tissue:stm31-1",
+    "evidence_type": "soft_tissue",
+    "taxon": "Beipiaosaurus",
+    "taxon_rank": "genus",
+    "specimen_label": "STM31-1",
+    "material": [
+      "epidermal corneocytes",
+      "feather-associated soft tissue sample",
+      "phosphatised fossil skin patches"
+    ],
+    "locality": {
+      "name": "Jehol Biota specimen; exact source locality not specified in study methods",
+      "country": "China",
+      "region": "northeastern China"
+    },
+    "formation": null,
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 143.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_epoch_assignment_with_ics_conversion",
+      "basis": "The paper identifies the four specimens as Early Cretaceous Jehol Biota fossils; the numeric envelope conservatively spans the current Early Cretaceous."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1038/s41467-018-04443-x:stm31-1",
+      "evidence_role": "new_measurement",
+      "publication": {
+        "id": "doi:10.1038/s41467-018-04443-x",
+        "doi": "10.1038/s41467-018-04443-x",
+        "title": "Fossilized skin reveals coevolution with feathers and metabolism in feathered dinosaurs and early birds",
+        "year": 2018,
+        "journal": "Nature Communications",
+        "url": "https://www.nature.com/articles/s41467-018-04443-x",
+        "authors": [
+          "Maria E. McNamara",
+          "Fucheng Zhang",
+          "Stuart L. Kearns",
+          "Patrick J. Orr",
+          "André Toulouse",
+          "Tara Foley",
+          "David W. E. Hone",
+          "Chris S. Rogers",
+          "Michael J. Benton",
+          "Diane Johnson",
+          "Xing Xu",
+          "Zhonghe Zhou"
+        ]
+      },
+      "claims": [
+        {
+          "type": "soft_tissue_observation",
+          "summary": "Small phosphatised skin patches associated with feathers were identified in STM31-1.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "microstructural_observation",
+          "summary": "The fossil tissue preserves polygonal epidermal corneocytes and keratin-tonofibril-scale ultrastructure.",
+          "page": null,
+          "figure": "1–2",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
     "physical_key": "specimen-batch:omnh:10144",
     "evidence_type": "body_fossil",
     "taxon": "Tenontosaurus tilletti",
@@ -125,6 +467,320 @@
         {
           "type": "sample_identity_note",
           "summary": "OMNH 10144 is a batch-catalogued juvenile collection representing at least four similarly sized individuals; the study treats sampled elements as one ontogenetic unit.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:aodf:603",
+    "evidence_type": "body_fossil",
+    "taxon": "Diamantinasaurus matildae",
+    "taxon_rank": "species",
+    "specimen_label": "AODF 603",
+    "material": [
+      "dorsal ribs",
+      "gastralia",
+      "ischia",
+      "left humerus",
+      "left ilium",
+      "left metacarpal I",
+      "left sternal plate",
+      "pubes",
+      "right astragalus",
+      "right femur",
+      "right fibula",
+      "right humerus",
+      "right metacarpus II–V",
+      "right scapula",
+      "right tibia",
+      "right ulna",
+      "sacral processes"
+    ],
+    "locality": {
+      "name": "AODL 85 “Matilda Site”, Elderslie Station",
+      "country": "Australia",
+      "region": "Queensland"
+    },
+    "formation": "Winton Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 113.2,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the material to the latest Albian Winton Formation; the numeric envelope conservatively uses the current full Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0006190:aodf-603",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0006190",
+        "doi": "10.1371/journal.pone.0006190",
+        "title": "New Mid-Cretaceous (Latest Albian) Dinosaurs from Winton, Queensland, Australia",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006190",
+        "authors": [
+          "Scott A. Hocknull",
+          "Matt A. White",
+          "Travis R. Tischler",
+          "Alex G. Cook",
+          "Naomi D. Calleja",
+          "Trish Sloan",
+          "David A. Elliott"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "AODF 603 is designated as the holotype of Diamantinasaurus matildae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for AODF 603: right scapula, left humerus, right humerus, right ulna, right metacarpus II–V, left metacarpal I, dorsal ribs, gastralia, left sternal plate, left ilium, sacral processes, pubes, ischia, right femur, right tibia, right fibula, right astragalus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:aodf:604",
+    "evidence_type": "body_fossil",
+    "taxon": "Australovenator wintonensis",
+    "taxon_rank": "species",
+    "specimen_label": "AODF 604",
+    "material": [
+      "both tibiae",
+      "both ulnae",
+      "dorsal ribs",
+      "gastralia",
+      "left dentary",
+      "manual metacarpals",
+      "manual phalanges",
+      "manual unguals",
+      "metatarsals",
+      "nine isolated teeth",
+      "partial right ilium",
+      "pedal phalanges",
+      "pedal unguals",
+      "right astragalus",
+      "right femur",
+      "right fibula",
+      "right radius"
+    ],
+    "locality": {
+      "name": "AODL 85 “Matilda Site”, Elderslie Station",
+      "country": "Australia",
+      "region": "Queensland"
+    },
+    "formation": "Winton Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 113.2,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the material to the latest Albian Winton Formation; the numeric envelope conservatively uses the current full Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0006190:aodf-604",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0006190",
+        "doi": "10.1371/journal.pone.0006190",
+        "title": "New Mid-Cretaceous (Latest Albian) Dinosaurs from Winton, Queensland, Australia",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006190",
+        "authors": [
+          "Scott A. Hocknull",
+          "Matt A. White",
+          "Travis R. Tischler",
+          "Alex G. Cook",
+          "Naomi D. Calleja",
+          "Trish Sloan",
+          "David A. Elliott"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "AODF 604 is designated as the holotype of Australovenator wintonensis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for AODF 604: nine isolated teeth, left dentary, dorsal ribs, gastralia, partial right ilium, both ulnae, right radius, manual metacarpals, manual phalanges, manual unguals, right femur, both tibiae, right fibula, right astragalus, metatarsals, pedal phalanges, pedal unguals.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:cm:78000",
+    "evidence_type": "body_fossil",
+    "taxon": "Anzu wyliei",
+    "taxon_rank": "species",
+    "specimen_label": "CM 78000",
+    "material": [
+      "astragalocalcanea",
+      "caudal vertebrae",
+      "cervical vertebrae",
+      "femora",
+      "fibulae",
+      "gastralia",
+      "hemal arches",
+      "incomplete braincase",
+      "left radius",
+      "left ulna",
+      "manual elements",
+      "metatarsals",
+      "nearly complete mandible",
+      "pedal phalanges",
+      "premaxilla fragments",
+      "pterygoids",
+      "quadrates",
+      "ribs",
+      "right humerus",
+      "scapulocoracoids",
+      "tibiae"
+    ],
+    "locality": {
+      "name": "Harding County, South Dakota",
+      "country": "United States",
+      "region": "South Dakota"
+    },
+    "formation": "Hell Creek Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the specimens to the upper Maastrichtian Hell Creek Formation; the numeric envelope conservatively spans the current Maastrichtian."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0092022:cm-78000",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0092022",
+        "doi": "10.1371/journal.pone.0092022",
+        "title": "A New Large-Bodied Oviraptorosaurian Theropod Dinosaur from the Latest Cretaceous of Western North America",
+        "year": 2014,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0092022",
+        "authors": [
+          "Matthew C. Lamanna",
+          "Hans-Dieter Sues",
+          "Emma R. Schachner",
+          "Tyler R. Lyson"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "CM 78000 is designated the holotype of Anzu wyliei.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for CM 78000: premaxilla fragments, incomplete braincase, quadrates, pterygoids, nearly complete mandible, cervical vertebrae, caudal vertebrae, ribs, gastralia, hemal arches, scapulocoracoids, right humerus, left radius, left ulna, manual elements, femora, tibiae, fibulae, astragalocalcanea, metatarsals, pedal phalanges.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:cm:78001",
+    "evidence_type": "body_fossil",
+    "taxon": "Anzu wyliei",
+    "taxon_rank": "species",
+    "specimen_label": "CM 78001",
+    "material": [
+      "astragalocalcanea",
+      "caudal vertebrae",
+      "complete cervical vertebral series",
+      "complete dorsal vertebral series",
+      "cranial elements",
+      "femora",
+      "fibulae",
+      "gastralia",
+      "hemal arches",
+      "ilia",
+      "incomplete sacrum",
+      "ischia",
+      "pedal elements",
+      "pubes",
+      "ribs",
+      "sternal plates",
+      "tibiae"
+    ],
+    "locality": {
+      "name": "Harding County, South Dakota",
+      "country": "United States",
+      "region": "South Dakota"
+    },
+    "formation": "Hell Creek Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the specimens to the upper Maastrichtian Hell Creek Formation; the numeric envelope conservatively spans the current Maastrichtian."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0092022:cm-78001",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0092022",
+        "doi": "10.1371/journal.pone.0092022",
+        "title": "A New Large-Bodied Oviraptorosaurian Theropod Dinosaur from the Latest Cretaceous of Western North America",
+        "year": 2014,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0092022",
+        "authors": [
+          "Matthew C. Lamanna",
+          "Hans-Dieter Sues",
+          "Emma R. Schachner",
+          "Tyler R. Lyson"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "CM 78001 is referred to Anzu wyliei based on shared diagnostic anatomy.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for CM 78001: cranial elements, complete cervical vertebral series, complete dorsal vertebral series, incomplete sacrum, caudal vertebrae, ribs, gastralia, hemal arches, sternal plates, ilia, pubes, ischia, femora, tibiae, fibulae, astragalocalcanea, pedal elements.",
           "page": null,
           "figure": null,
           "table": null
@@ -231,6 +887,66 @@
           "page": null,
           "figure": null,
           "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:fmnh-pr:2296",
+    "evidence_type": "body_fossil",
+    "taxon": "Anzu wyliei",
+    "taxon_rank": "species",
+    "specimen_label": "FMNH PR 2296",
+    "material": [
+      "coossified left surangular-articular-coronoid complex"
+    ],
+    "locality": {
+      "name": "Harding County, South Dakota",
+      "country": "United States",
+      "region": "South Dakota"
+    },
+    "formation": "Hell Creek Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the specimens to the upper Maastrichtian Hell Creek Formation; the numeric envelope conservatively spans the current Maastrichtian."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0092022:fmnh-pr-2296",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0092022",
+        "doi": "10.1371/journal.pone.0092022",
+        "title": "A New Large-Bodied Oviraptorosaurian Theropod Dinosaur from the Latest Cretaceous of Western North America",
+        "year": 2014,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0092022",
+        "authors": [
+          "Matthew C. Lamanna",
+          "Hans-Dieter Sues",
+          "Emma R. Schachner",
+          "Tyler R. Lyson"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "FMNH PR 2296 is referred to Anzu wyliei based on shared diagnostic anatomy.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for FMNH PR 2296: coossified left surangular-articular-coronoid complex.",
+          "page": null,
+          "figure": null,
+          "table": null
         }
       ]
     },
@@ -463,6 +1179,70 @@
     "development_fixture": false
   },
   {
+    "physical_key": "specimen:mrf:319",
+    "evidence_type": "body_fossil",
+    "taxon": "Anzu wyliei",
+    "taxon_rank": "species",
+    "specimen_label": "MRF 319",
+    "material": [
+      "dorsal rib",
+      "left radius",
+      "left scapulocoracoid",
+      "left ulna",
+      "three cervical vertebrae"
+    ],
+    "locality": {
+      "name": "Slope County, North Dakota",
+      "country": "United States",
+      "region": "North Dakota"
+    },
+    "formation": "Hell Creek Formation",
+    "age": {
+      "min_ma": 66.0,
+      "max_ma": 72.1,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the specimens to the upper Maastrichtian Hell Creek Formation; the numeric envelope conservatively spans the current Maastrichtian."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0092022:mrf-319",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0092022",
+        "doi": "10.1371/journal.pone.0092022",
+        "title": "A New Large-Bodied Oviraptorosaurian Theropod Dinosaur from the Latest Cretaceous of Western North America",
+        "year": 2014,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0092022",
+        "authors": [
+          "Matthew C. Lamanna",
+          "Hans-Dieter Sues",
+          "Emma R. Schachner",
+          "Tyler R. Lyson"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "MRF 319 is referred to Anzu wyliei based on shared diagnostic anatomy.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for MRF 319: three cervical vertebrae, dorsal rib, left scapulocoracoid, left radius, left ulna.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
     "physical_key": "specimen:nmw:2015.5g.1-2015.5g.11",
     "evidence_type": "body_fossil",
     "taxon": "Dracoraptor hanigani",
@@ -529,6 +1309,1308 @@
           "page": null,
           "figure": "4",
           "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:01",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020001",
+    "material": [
+      "right premaxilla"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-01",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020001 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: right premaxilla.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:02",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020002",
+    "material": [
+      "right premaxilla"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-02",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020002 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: right premaxilla.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:03",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020003",
+    "material": [
+      "right premaxilla"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-03",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020003 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: right premaxilla.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:04",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020004",
+    "material": [
+      "right maxilla"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-04",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020004 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: right maxilla.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:05",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020005",
+    "material": [
+      "left maxilla"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-05",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020005 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: left maxilla.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:06",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020006",
+    "material": [
+      "left jugal"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-06",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020006 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: left jugal.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:07",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020007",
+    "material": [
+      "posterior left mandible (surangular, prearticular, articular)"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-07",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020007 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: posterior left mandible (surangular, prearticular, articular).",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:08",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020008",
+    "material": [
+      "posterior right mandible (surangular, prearticular, articular)"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-08",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020008 is designated the holotype of Siamraptor suwati.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: posterior right mandible (surangular, prearticular, articular).",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:09",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020009",
+    "material": [
+      "posterior left mandible (surangular, prearticular, articular)"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-09",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020009 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: posterior left mandible (surangular, prearticular, articular).",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:10",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020010",
+    "material": [
+      "posterior left mandible (surangular, prearticular)"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-10",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020010 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: posterior left mandible (surangular, prearticular).",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:11",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020011",
+    "material": [
+      "anterior cervical vertebra"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-11",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020011 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: anterior cervical vertebra.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:12",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020012",
+    "material": [
+      "anterior cervical vertebra"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-12",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020012 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: anterior cervical vertebra.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:13",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020013",
+    "material": [
+      "anterior cervical vertebra"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-13",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020013 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: anterior cervical vertebra.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:14",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020014",
+    "material": [
+      "posterior dorsal vertebra"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-14",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020014 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: posterior dorsal vertebra.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:15",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020015",
+    "material": [
+      "posterior dorsal vertebra"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-15",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020015 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: posterior dorsal vertebra.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:16",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020016",
+    "material": [
+      "posterior dorsal vertebra"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-16",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020016 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: posterior dorsal vertebra.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:17",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020017",
+    "material": [
+      "middle caudal vertebra"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-17",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020017 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: middle caudal vertebra.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:18",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020018",
+    "material": [
+      "manual ungual"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-18",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020018 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: manual ungual.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:19-20",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020019 + F01020020",
+    "material": [
+      "right ischium represented by NRRU-F01020019 and NRRU-F01020020"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-19-20",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020019 + F01020020 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: right ischium represented by NRRU-F01020019 and NRRU-F01020020.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:21",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020021",
+    "material": [
+      "distal right tibia"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-21",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020021 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: distal right tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:nrru:22",
+    "evidence_type": "body_fossil",
+    "taxon": "Siamraptor suwati",
+    "taxon_rank": "species",
+    "specimen_label": "NRRU-F01020022",
+    "material": [
+      "left pedal phalanx IV-1"
+    ],
+    "locality": {
+      "name": "Ban Saphan Hin fossil locality, Suranaree subdistrict, Mueang Nakhon Ratchasima District",
+      "country": "Thailand",
+      "region": "Nakhon Ratchasima Province"
+    },
+    "formation": "Khok Kruat Formation",
+    "age": {
+      "min_ma": 113.2,
+      "max_ma": 121.4,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper adopts an Aptian age for the Khok Kruat Formation; the numeric envelope uses current ICS Aptian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0222489:nrru-22",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0222489",
+        "doi": "10.1371/journal.pone.0222489",
+        "title": "A new carcharodontosaurian theropod (Dinosauria: Saurischia) from the Lower Cretaceous of Thailand",
+        "year": 2019,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222489",
+        "authors": [
+          "Duangsuda Chokchaloemwong",
+          "Soki Hattori",
+          "Elena Cuesta",
+          "Pratueng Jintasakul",
+          "Masateru Shibata",
+          "Yoichi Azuma"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "NRRU-F01020022 is among the referred Siamraptor suwati material from the single Saphan Hin layer.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "Published element: left pedal phalanx IV-1.",
+          "page": null,
+          "figure": null,
+          "table": "1"
         }
       ]
     },
@@ -1520,6 +3602,144 @@
           "summary": "The holotype occurs 40 m above the base of the Ischigualasto Formation, approximately at the level of the dated ash used for the reported age.",
           "page": null,
           "figure": "1",
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:qmf:10916",
+    "evidence_type": "body_fossil",
+    "taxon": "Wintonotitan wattsi",
+    "taxon_rank": "species",
+    "specimen_label": "QMF 10916",
+    "material": [
+      "isolated middle caudal vertebrae",
+      "isolated posterior caudal vertebrae"
+    ],
+    "locality": {
+      "name": "Chorregan, Winton",
+      "country": "Australia",
+      "region": "Queensland"
+    },
+    "formation": "Winton Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 113.2,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the material to the latest Albian Winton Formation; the numeric envelope conservatively uses the current full Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0006190:qmf-10916",
+      "evidence_role": "redescription",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0006190",
+        "doi": "10.1371/journal.pone.0006190",
+        "title": "New Mid-Cretaceous (Latest Albian) Dinosaurs from Winton, Queensland, Australia",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006190",
+        "authors": [
+          "Scott A. Hocknull",
+          "Matt A. White",
+          "Travis R. Tischler",
+          "Alex G. Cook",
+          "Naomi D. Calleja",
+          "Trish Sloan",
+          "David A. Elliott"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "QMF 10916 is referred to Wintonotitan wattsi.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for QMF 10916: isolated middle caudal vertebrae, isolated posterior caudal vertebrae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:qmf:7292",
+    "evidence_type": "body_fossil",
+    "taxon": "Wintonotitan wattsi",
+    "taxon_rank": "species",
+    "specimen_label": "QMF 7292",
+    "material": [
+      "caudal vertebral series",
+      "fragmentary dorsal vertebrae",
+      "fragmentary sacral vertebrae",
+      "left scapula",
+      "partial humeri",
+      "partial right ilium",
+      "partial ulnae",
+      "proximal chevrons",
+      "radii",
+      "ribs",
+      "right ischium",
+      "right metacarpus"
+    ],
+    "locality": {
+      "name": "QML 313 “Triangle Paddock”, Elderslie Station",
+      "country": "Australia",
+      "region": "Queensland"
+    },
+    "formation": "Winton Formation",
+    "age": {
+      "min_ma": 100.5,
+      "max_ma": 113.2,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "paper_stage_assignment_with_ics_conversion",
+      "basis": "The paper assigns the material to the latest Albian Winton Formation; the numeric envelope conservatively uses the current full Albian boundaries."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0006190:qmf-7292",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0006190",
+        "doi": "10.1371/journal.pone.0006190",
+        "title": "New Mid-Cretaceous (Latest Albian) Dinosaurs from Winton, Queensland, Australia",
+        "year": 2009,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006190",
+        "authors": [
+          "Scott A. Hocknull",
+          "Matt A. White",
+          "Travis R. Tischler",
+          "Alex G. Cook",
+          "Naomi D. Calleja",
+          "Trish Sloan",
+          "David A. Elliott"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "QMF 7292 is designated as the holotype of Wintonotitan wattsi.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for QMF 7292: left scapula, partial humeri, partial ulnae, radii, right metacarpus, fragmentary dorsal vertebrae, fragmentary sacral vertebrae, ribs, partial right ilium, right ischium, caudal vertebral series, proximal chevrons.",
+          "page": null,
+          "figure": null,
           "table": null
         }
       ]
@@ -3846,6 +6066,74 @@
           "summary": "Published material for SMU 77638: partial skeleton.",
           "page": null,
           "figure": null,
+          "table": null
+        }
+      ]
+    },
+    "development_fixture": false
+  },
+  {
+    "physical_key": "specimen:umhn-vp:19479",
+    "evidence_type": "body_fossil",
+    "taxon": "Talos sampsoni",
+    "taxon_rank": "species",
+    "specimen_label": "UMNH VP 19479",
+    "material": [
+      "forelimb fragments",
+      "fragmentary caudal axial column",
+      "fragmentary dorsal axial column",
+      "fragmentary sacral axial column",
+      "left ulna",
+      "partial left hindlimb",
+      "partial pelvis",
+      "partial right hindlimb"
+    ],
+    "locality": {
+      "name": "The Blues, northern Kaiparowits Plateau, Grand Staircase-Escalante National Monument",
+      "country": "United States",
+      "region": "Utah"
+    },
+    "formation": "Kaiparowits Formation",
+    "age": {
+      "min_ma": 72.1,
+      "max_ma": 76.13,
+      "best_ma": null,
+      "precision": "derived_interval",
+      "method": "stratigraphic_constraint_from_dated_bentonite_and_stage",
+      "basis": "The specimen is late Campanian and lies 75 m above a bentonite dated 75.95 ± 0.18 Ma; the interval uses the Campanian–Maastrichtian boundary as the younger limit and the older uncertainty on the underlying ash as a conservative maximum age."
+    },
+    "report_count": 1,
+    "representative_report": {
+      "id": "doi:10.1371/journal.pone.0024487:umhn-vp-19479",
+      "evidence_role": "original_description",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0024487",
+        "doi": "10.1371/journal.pone.0024487",
+        "title": "A New Troodontid Theropod, Talos sampsoni gen. et sp. nov., from the Upper Cretaceous Western Interior Basin of North America",
+        "year": 2011,
+        "journal": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0024487",
+        "authors": [
+          "Lindsay E. Zanno",
+          "David J. Varricchio",
+          "Patrick M. O'Connor",
+          "Alan L. Titus",
+          "Michael J. Knell"
+        ]
+      },
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "UMNH VP 19479 is designated the holotype of Talos sampsoni.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "stratigraphic_context",
+          "summary": "The skeleton occurs about 260 m above the base of the Kaiparowits Formation, 75 m above a 75.95 ± 0.18 Ma bentonite.",
+          "page": null,
+          "figure": "2",
           "table": null
         }
       ]
