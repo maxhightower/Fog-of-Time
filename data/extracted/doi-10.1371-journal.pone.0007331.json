@@ -1,0 +1,63 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1371/journal.pone.0007331",
+    "doi": "10.1371/journal.pone.0007331",
+    "title": "Dynamic Locomotor Capabilities Revealed by Early Dinosaur Trackmakers from Southern Africa",
+    "year": 2009,
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0007331",
+    "authors": ["Jeffrey A. Wilson", "Claudia A. Marsicano", "Roger M. H. Smith"]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1371/journal.pone.0007331:moyeni-grallator",
+      "physical_key": "trackway:moyeni:grallator-focus",
+      "evidence_type": "trackway",
+      "taxon": {"name": "Grallator", "rank": "ichnogenus"},
+      "specimen": {"institution_code": null, "catalog_number": null, "label": "Moyeni Grallator trackway"},
+      "material": ["25 tridactyl pes prints"],
+      "locality": {"name": "Moyeni tracksite", "country": "Lesotho", "region": null, "latitude": null, "longitude": null, "coordinate_uncertainty_km": null},
+      "stratigraphy": {"formation": "Elliot Formation", "member": null, "group": "Stormberg Group"},
+      "age": {
+        "min_ma": 174.7,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "stage_constraint_with_ics_conversion",
+        "basis": "The paper considers the Moyeni tracksite Early Jurassic but states that uncertainty in the Triassic-Jurassic boundary position prevents finer temporal resolution; the numeric envelope uses current ICS Lower Jurassic boundaries.",
+        "notes": null
+      },
+      "evidence_role": "redescription",
+      "claims": [
+        {"type": "trackmaker_assignment", "summary": "The Grallator trackway is attributed to a theropod dinosaur on pedal morphology.", "page": null, "figure": "3A", "table": null},
+        {"type": "behavioral_observation", "summary": "The 25-print trackway records a digitigrade biped that shortened stride and flexed pedal claws while descending a sloping, slippery surface.", "page": null, "figure": "4A", "table": null}
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0007331:moyeni-anomoepus",
+      "physical_key": "trackway:moyeni:anomoepus-focus",
+      "evidence_type": "trackway",
+      "taxon": {"name": "Anomoepus", "rank": "ichnogenus"},
+      "specimen": {"institution_code": null, "catalog_number": null, "label": "Moyeni Anomoepus trackway"},
+      "material": ["17-step trackway", "manus impressions", "pes impressions", "metatarsal impressions", "tail impression", "toe drag marks"],
+      "locality": {"name": "Moyeni tracksite", "country": "Lesotho", "region": null, "latitude": null, "longitude": null, "coordinate_uncertainty_km": null},
+      "stratigraphy": {"formation": "Elliot Formation", "member": null, "group": "Stormberg Group"},
+      "age": {
+        "min_ma": 174.7,
+        "max_ma": 201.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "stage_constraint_with_ics_conversion",
+        "basis": "The paper considers the Moyeni tracksite Early Jurassic but states that uncertainty in the Triassic-Jurassic boundary position prevents finer temporal resolution; the numeric envelope uses current ICS Lower Jurassic boundaries.",
+        "notes": null
+      },
+      "evidence_role": "redescription",
+      "claims": [
+        {"type": "trackmaker_assignment", "summary": "The Anomoepus trackway is attributed to a basal ornithischian dinosaur on manus and pes morphology.", "page": null, "figure": "3B", "table": null},
+        {"type": "behavioral_observation", "summary": "The trackway records transitions from wide-gauge plantigrade quadrupedal locomotion to narrow-gauge digitigrade quadrupedal locomotion and finally bipedal locomotion.", "page": null, "figure": "2", "table": null}
+      ]
+    }
+  ]
+}
