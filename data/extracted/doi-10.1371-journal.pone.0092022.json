@@ -1,0 +1,284 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1371/journal.pone.0092022",
+    "doi": "10.1371/journal.pone.0092022",
+    "title": "A New Large-Bodied Oviraptorosaurian Theropod Dinosaur from the Latest Cretaceous of Western North America",
+    "year": 2014,
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0092022",
+    "authors": [
+      "Matthew C. Lamanna",
+      "Hans-Dieter Sues",
+      "Emma R. Schachner",
+      "Tyler R. Lyson"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1371/journal.pone.0092022:cm-78000",
+      "physical_key": "specimen:cm:78000",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Anzu wyliei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "CM",
+        "catalog_number": "78000",
+        "label": "CM 78000"
+      },
+      "material": [
+        "premaxilla fragments",
+        "incomplete braincase",
+        "quadrates",
+        "pterygoids",
+        "nearly complete mandible",
+        "cervical vertebrae",
+        "caudal vertebrae",
+        "ribs",
+        "gastralia",
+        "hemal arches",
+        "scapulocoracoids",
+        "right humerus",
+        "left radius",
+        "left ulna",
+        "manual elements",
+        "femora",
+        "tibiae",
+        "fibulae",
+        "astragalocalcanea",
+        "metatarsals",
+        "pedal phalanges"
+      ],
+      "locality": {
+        "name": "Harding County, South Dakota",
+        "country": "United States",
+        "region": "South Dakota",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Hell Creek Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the specimens to the upper Maastrichtian Hell Creek Formation; the numeric envelope conservatively spans the current Maastrichtian.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "CM 78000 is designated the holotype of Anzu wyliei.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for CM 78000: premaxilla fragments, incomplete braincase, quadrates, pterygoids, nearly complete mandible, cervical vertebrae, caudal vertebrae, ribs, gastralia, hemal arches, scapulocoracoids, right humerus, left radius, left ulna, manual elements, femora, tibiae, fibulae, astragalocalcanea, metatarsals, pedal phalanges.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0092022:cm-78001",
+      "physical_key": "specimen:cm:78001",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Anzu wyliei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "CM",
+        "catalog_number": "78001",
+        "label": "CM 78001"
+      },
+      "material": [
+        "cranial elements",
+        "complete cervical vertebral series",
+        "complete dorsal vertebral series",
+        "incomplete sacrum",
+        "caudal vertebrae",
+        "ribs",
+        "gastralia",
+        "hemal arches",
+        "sternal plates",
+        "ilia",
+        "pubes",
+        "ischia",
+        "femora",
+        "tibiae",
+        "fibulae",
+        "astragalocalcanea",
+        "pedal elements"
+      ],
+      "locality": {
+        "name": "Harding County, South Dakota",
+        "country": "United States",
+        "region": "South Dakota",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Hell Creek Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the specimens to the upper Maastrichtian Hell Creek Formation; the numeric envelope conservatively spans the current Maastrichtian.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "CM 78001 is referred to Anzu wyliei based on shared diagnostic anatomy.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for CM 78001: cranial elements, complete cervical vertebral series, complete dorsal vertebral series, incomplete sacrum, caudal vertebrae, ribs, gastralia, hemal arches, sternal plates, ilia, pubes, ischia, femora, tibiae, fibulae, astragalocalcanea, pedal elements.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0092022:mrf-319",
+      "physical_key": "specimen:mrf:319",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Anzu wyliei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "MRF",
+        "catalog_number": "319",
+        "label": "MRF 319"
+      },
+      "material": [
+        "three cervical vertebrae",
+        "dorsal rib",
+        "left scapulocoracoid",
+        "left radius",
+        "left ulna"
+      ],
+      "locality": {
+        "name": "Slope County, North Dakota",
+        "country": "United States",
+        "region": "North Dakota",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Hell Creek Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the specimens to the upper Maastrichtian Hell Creek Formation; the numeric envelope conservatively spans the current Maastrichtian.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "MRF 319 is referred to Anzu wyliei based on shared diagnostic anatomy.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for MRF 319: three cervical vertebrae, dorsal rib, left scapulocoracoid, left radius, left ulna.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0092022:fmnh-pr-2296",
+      "physical_key": "specimen:fmnh-pr:2296",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Anzu wyliei",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "FMNH PR",
+        "catalog_number": "2296",
+        "label": "FMNH PR 2296"
+      },
+      "material": [
+        "coossified left surangular-articular-coronoid complex"
+      ],
+      "locality": {
+        "name": "Harding County, South Dakota",
+        "country": "United States",
+        "region": "South Dakota",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Hell Creek Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the specimens to the upper Maastrichtian Hell Creek Formation; the numeric envelope conservatively spans the current Maastrichtian.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "FMNH PR 2296 is referred to Anzu wyliei based on shared diagnostic anatomy.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for FMNH PR 2296: coossified left surangular-articular-coronoid complex.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}
