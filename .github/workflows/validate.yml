@@ -25,6 +25,9 @@ jobs:
       - name: Build evidence database
         run: python scripts/data/build_data.py
 
+      - name: Check generated web artifacts
+        run: git diff --exit-code -- public/data
+
       - name: Check SQLite integrity
         run: |
           python - <<'PY'
