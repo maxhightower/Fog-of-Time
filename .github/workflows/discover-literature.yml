@@ -26,7 +26,7 @@ jobs:
       - name: Discover Crossref candidates
         run: |
           python scripts/data/acquisition/discover_crossref.py \
-            --rows-per-query 40 \
+            --rows-per-query 60 \
             --max-candidates 100 \
             --delay-seconds 0.25
 
@@ -54,7 +54,7 @@ jobs:
 
       - name: Commit candidate queue
         run: |
-          if git diff --quiet -- data/acquisition/candidates.crossref.jsonl; then
+          if [ -z "$(git status --porcelain -- data/acquisition/candidates.crossref.jsonl)" ]; then
             echo "Candidate queue unchanged."
             exit 0
           fi
