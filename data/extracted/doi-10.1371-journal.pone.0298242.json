@@ -1,0 +1,95 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1371/journal.pone.0298242",
+    "doi": "10.1371/journal.pone.0298242",
+    "title": "Osteohistological insight into the growth dynamics of early dinosaurs and their contemporaries",
+    "year": 2024,
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298242",
+    "authors": ["Kristina Curry Rogers", "Ricardo N. Martínez", "Carina Colombi", "Raymond R. Rogers", "Oscar Alcober"]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1371/journal.pone.0298242:pvsj-605",
+      "physical_key": "specimen:pvsj:605",
+      "evidence_type": "body_fossil",
+      "taxon": {"name": "Sanjuansaurus gordilloi", "rank": "species"},
+      "specimen": {"institution_code": "PVSJ", "catalog_number": "605", "label": "PVSJ 605"},
+      "material": ["right femur"],
+      "locality": {"name": "HEH biozone, Ischigualasto Formation", "country": "Argentina", "region": "San Juan Province", "latitude": null, "longitude": null, "coordinate_uncertainty_km": null},
+      "stratigraphy": {"formation": "Ischigualasto Formation", "member": "Cancha de Bochas Member", "group": null},
+      "age": {"min_ma": 228.9, "max_ma": 230.8, "best_ma": null, "precision": "explicit_range", "method": "radiometrically_constrained_biozone", "basis": "The paper states that all sampled HEH-biozone vertebrates were deposited between 230.8 and 228.9 Ma.", "notes": null},
+      "evidence_role": "new_measurement",
+      "claims": [
+        {"type": "histological_observation", "summary": "The holotype right femur is dominated by highly vascularized primary fibrolamellar bone and lacks observed LAGs or annuli where preservation permits assessment.", "page": null, "figure": "15", "table": "1"},
+        {"type": "ontogenetic_interpretation", "summary": "No external fundamental system is observed, indicating growth had not fully ceased at death.", "page": null, "figure": "15", "table": null}
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0298242:pvsj-614",
+      "physical_key": "specimen:pvsj:614",
+      "evidence_type": "body_fossil",
+      "taxon": {"name": "Herrerasaurus ischigualastensis", "rank": "species"},
+      "specimen": {"institution_code": "PVSJ", "catalog_number": "614", "label": "PVSJ 614"},
+      "material": ["left femur"],
+      "locality": {"name": "HEH biozone, Ischigualasto Formation", "country": "Argentina", "region": "San Juan Province", "latitude": null, "longitude": null, "coordinate_uncertainty_km": null},
+      "stratigraphy": {"formation": "Ischigualasto Formation", "member": "Cancha de Bochas Member", "group": null},
+      "age": {"min_ma": 228.9, "max_ma": 230.8, "best_ma": null, "precision": "explicit_range", "method": "radiometrically_constrained_biozone", "basis": "The paper states that all sampled HEH-biozone vertebrates were deposited between 230.8 and 228.9 Ma.", "notes": null},
+      "evidence_role": "new_measurement",
+      "claims": [
+        {"type": "histological_observation", "summary": "The sampled left femur preserves dense secondary remodeling in the deep cortex together with a highly vascularized primary fibrolamellar cortex.", "page": null, "figure": "16", "table": "1"},
+        {"type": "ontogenetic_interpretation", "summary": "No external fundamental system is observed; preserved periosteal regions indicate ongoing growth at death.", "page": null, "figure": "16", "table": null}
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0298242:pvsj-561",
+      "physical_key": "specimen:pvsj:561",
+      "evidence_type": "body_fossil",
+      "taxon": {"name": "Eodromaeus murphi", "rank": "species"},
+      "specimen": {"institution_code": "PVSJ", "catalog_number": "561", "label": "PVSJ 561"},
+      "material": ["right femur"],
+      "locality": {"name": "HEH biozone, Ischigualasto Formation", "country": "Argentina", "region": "San Juan Province", "latitude": null, "longitude": null, "coordinate_uncertainty_km": null},
+      "stratigraphy": {"formation": "Ischigualasto Formation", "member": "Valle de la Luna Member", "group": null},
+      "age": {"min_ma": 228.9, "max_ma": 230.8, "best_ma": null, "precision": "explicit_range", "method": "radiometrically_constrained_biozone", "basis": "The paper states that all sampled HEH-biozone vertebrates were deposited between 230.8 and 228.9 Ma; this specimen is from the base of the Valle de la Luna Member.", "notes": null},
+      "evidence_role": "new_measurement",
+      "claims": [
+        {"type": "histological_observation", "summary": "The sampled right femur preserves a densely vascularized fibrolamellar cortex without observed LAGs or annuli.", "page": null, "figure": "17", "table": "1"},
+        {"type": "ontogenetic_interpretation", "summary": "The femur lacks an external fundamental system and records ongoing growth at death.", "page": null, "figure": "17", "table": null}
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0298242:pvsj-559",
+      "physical_key": "specimen:pvsj:559",
+      "evidence_type": "body_fossil",
+      "taxon": {"name": "Eoraptor lunensis", "rank": "species"},
+      "specimen": {"institution_code": "PVSJ", "catalog_number": "559", "label": "PVSJ 559"},
+      "material": ["right femur"],
+      "locality": {"name": "HEH biozone, Ischigualasto Formation", "country": "Argentina", "region": "San Juan Province", "latitude": null, "longitude": null, "coordinate_uncertainty_km": null},
+      "stratigraphy": {"formation": "Ischigualasto Formation", "member": "Cancha de Bochas Member", "group": null},
+      "age": {"min_ma": 228.9, "max_ma": 230.8, "best_ma": null, "precision": "explicit_range", "method": "radiometrically_constrained_biozone", "basis": "The paper states that all sampled HEH-biozone vertebrates were deposited between 230.8 and 228.9 Ma.", "notes": null},
+      "evidence_role": "new_measurement",
+      "claims": [
+        {"type": "histological_observation", "summary": "The referred right femur records multiple transitions in bone deposition and extensive deep-cortical remodeling.", "page": null, "figure": "18", "table": "1"},
+        {"type": "ontogenetic_interpretation", "summary": "The femur lacks LAGs and a peripheral external fundamental system, with outer-cortex changes suggesting growth-rate attenuation.", "page": null, "figure": "18", "table": null}
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0298242:pvsj-845",
+      "physical_key": "specimen:pvsj:845",
+      "evidence_type": "body_fossil",
+      "taxon": {"name": "Chromogisaurus novasi", "rank": "species"},
+      "specimen": {"institution_code": "PVSJ", "catalog_number": "845", "label": "PVSJ 845"},
+      "material": ["partial right femur"],
+      "locality": {"name": "HEH biozone, Ischigualasto Formation", "country": "Argentina", "region": "San Juan Province", "latitude": null, "longitude": null, "coordinate_uncertainty_km": null},
+      "stratigraphy": {"formation": "Ischigualasto Formation", "member": "Cancha de Bochas Member", "group": null},
+      "age": {"min_ma": 228.9, "max_ma": 230.8, "best_ma": null, "precision": "explicit_range", "method": "radiometrically_constrained_biozone", "basis": "The paper states that all sampled HEH-biozone vertebrates were deposited between 230.8 and 228.9 Ma.", "notes": null},
+      "evidence_role": "new_measurement",
+      "claims": [
+        {"type": "histological_observation", "summary": "The holotypic partial right femur preserves at least four cycles of endosteal remodeling and continued fibrolamellar bone deposition.", "page": null, "figure": "19", "table": "1"},
+        {"type": "ontogenetic_interpretation", "summary": "No intracortical LAGs or peripheral external fundamental system are observed, indicating appositional growth continued at death.", "page": null, "figure": "19", "table": null}
+      ]
+    }
+  ]
+}
