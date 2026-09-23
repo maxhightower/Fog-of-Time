@@ -1,0 +1,2228 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1371/journal.pone.0207935",
+    "doi": "10.1371/journal.pone.0207935",
+    "title": "A new basal ornithopod (Dinosauria: Ornithischia) from the Early Cretaceous of Texas",
+    "year": 2019,
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207935",
+    "authors": [
+      "Kate A. Andrzejewski",
+      "Dale A. Winkler",
+      "Louis L. Jacobs"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-72834",
+      "physical_key": "specimen:smu:72834",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "72834",
+        "label": "SMU 72834"
+      },
+      "material": [
+        "skull",
+        "partial articulated skeleton",
+        "9 cervical vertebrae",
+        "15 dorsal vertebrae",
+        "6 sacral vertebrae",
+        "23 caudal vertebrae",
+        "scapulae",
+        "coracoids",
+        "humeri",
+        "left ulna",
+        "left radius",
+        "partial left manus",
+        "articulated pelvis",
+        "femora",
+        "tibiae",
+        "proximal left fibula"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 72834 is designated the holotype of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 72834: skull, partial articulated skeleton, 9 cervical vertebrae, 15 dorsal vertebrae, 6 sacral vertebrae, 23 caudal vertebrae, scapulae, coracoids, humeri, left ulna, left radius, partial left manus, articulated pelvis, femora, tibiae, proximal left fibula.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-70444",
+      "physical_key": "specimen:smu:70444",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "70444",
+        "label": "SMU 70444"
+      },
+      "material": [
+        "partial skull"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 70444 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 70444: partial skull.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-70456",
+      "physical_key": "specimen:smu:70456",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "70456",
+        "label": "SMU 70456"
+      },
+      "material": [
+        "articulated skeleton"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 70456 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 70456: articulated skeleton.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-70534",
+      "physical_key": "specimen:smu:70534",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "70534",
+        "label": "SMU 70534"
+      },
+      "material": [
+        "articulated left hindlimb"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 70534 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 70534: articulated left hindlimb.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-70635",
+      "physical_key": "specimen:smu:70635",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "70635",
+        "label": "SMU 70635"
+      },
+      "material": [
+        "partial right maxilla"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 70635 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 70635: partial right maxilla.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71492",
+      "physical_key": "specimen:smu:71492",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "71492",
+        "label": "SMU 71492"
+      },
+      "material": [
+        "caudal vertebra"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71492 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71492: caudal vertebra.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71504",
+      "physical_key": "specimen:smu:71504",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "71504",
+        "label": "SMU 71504"
+      },
+      "material": [
+        "right paroccipital process"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71504 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71504: right paroccipital process.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71510",
+      "physical_key": "specimen:smu:71510",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "71510",
+        "label": "SMU 71510"
+      },
+      "material": [
+        "right surangular"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71510 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71510: right surangular.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71631",
+      "physical_key": "specimen:smu:71631",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "71631",
+        "label": "SMU 71631"
+      },
+      "material": [
+        "right quadratojugal"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71631 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71631: right quadratojugal.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71690",
+      "physical_key": "specimen:smu:71690",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "71690",
+        "label": "SMU 71690"
+      },
+      "material": [
+        "left astragalus"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71690 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71690: left astragalus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71818",
+      "physical_key": "specimen:smu:71818",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "71818",
+        "label": "SMU 71818"
+      },
+      "material": [
+        "left radius"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71818 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71818: left radius.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71821",
+      "physical_key": "specimen:smu:71821",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "71821",
+        "label": "SMU 71821"
+      },
+      "material": [
+        "left ulna"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71821 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71821: left ulna.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-71854",
+      "physical_key": "specimen:smu:71854",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "71854",
+        "label": "SMU 71854"
+      },
+      "material": [
+        "right scapula"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 71854 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 71854: right scapula.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-72054",
+      "physical_key": "specimen:smu:72054",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "72054",
+        "label": "SMU 72054"
+      },
+      "material": [
+        "left manus"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 72054 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 72054: left manus.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-72316",
+      "physical_key": "specimen:smu:72316",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "72316",
+        "label": "SMU 72316"
+      },
+      "material": [
+        "partial skull",
+        "articulated pelvic girdle",
+        "articulated vertebral column",
+        "partial left hindlimb"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 72316 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 72316: partial skull, articulated pelvic girdle, articulated vertebral column, partial left hindlimb.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-72534",
+      "physical_key": "specimen:smu:72534",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "72534",
+        "label": "SMU 72534"
+      },
+      "material": [
+        "left calcaneum"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 72534 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 72534: left calcaneum.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-72541",
+      "physical_key": "specimen:smu:72541",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "72541",
+        "label": "SMU 72541"
+      },
+      "material": [
+        "left distal femur"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 72541 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 72541: left distal femur.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-73170",
+      "physical_key": "specimen:smu:73170",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "73170",
+        "label": "SMU 73170"
+      },
+      "material": [
+        "articulated left pes"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 73170 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 73170: articulated left pes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-73171",
+      "physical_key": "specimen:smu:73171",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "73171",
+        "label": "SMU 73171"
+      },
+      "material": [
+        "right pes"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 73171 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 73171: right pes.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74087",
+      "physical_key": "specimen:smu:74087",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "74087",
+        "label": "SMU 74087"
+      },
+      "material": [
+        "partial skull"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74087 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74087: partial skull.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74093",
+      "physical_key": "specimen:smu:74093",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "74093",
+        "label": "SMU 74093"
+      },
+      "material": [
+        "right femur",
+        "right tibia"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74093 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74093: right femur, right tibia.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74104",
+      "physical_key": "specimen:smu:74104",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "74104",
+        "label": "SMU 74104"
+      },
+      "material": [
+        "partial left pubis"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74104 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74104: partial left pubis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74119",
+      "physical_key": "specimen:smu:74119",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "74119",
+        "label": "SMU 74119"
+      },
+      "material": [
+        "distal left ischium"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74119 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74119: distal left ischium.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74124",
+      "physical_key": "specimen:smu:74124",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "74124",
+        "label": "SMU 74124"
+      },
+      "material": [
+        "left scapula"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74124 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74124: left scapula.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74131",
+      "physical_key": "specimen:smu:74131",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "74131",
+        "label": "SMU 74131"
+      },
+      "material": [
+        "cervical vertebrae"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74131 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74131: cervical vertebrae.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74576",
+      "physical_key": "specimen:smu:74576",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "74576",
+        "label": "SMU 74576"
+      },
+      "material": [
+        "articulated caudal vertebrae",
+        "ossified tendons"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74576 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74576: articulated caudal vertebrae, ossified tendons.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74663",
+      "physical_key": "specimen:smu:74663",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "74663",
+        "label": "SMU 74663"
+      },
+      "material": [
+        "skull",
+        "partial skeleton"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74663 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74663: skull, partial skeleton.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74664",
+      "physical_key": "specimen:smu:74664",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "74664",
+        "label": "SMU 74664"
+      },
+      "material": [
+        "left scapula",
+        "right scapula"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74664 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74664: left scapula, right scapula.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74665",
+      "physical_key": "specimen:smu:74665",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "74665",
+        "label": "SMU 74665"
+      },
+      "material": [
+        "partial right hindlimb"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74665 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74665: partial right hindlimb.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74670",
+      "physical_key": "specimen:smu:74670",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "74670",
+        "label": "SMU 74670"
+      },
+      "material": [
+        "articulated caudal vertebrae",
+        "ossified tendons"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74670 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74670: articulated caudal vertebrae, ossified tendons.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74678",
+      "physical_key": "specimen:smu:74678",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "74678",
+        "label": "SMU 74678"
+      },
+      "material": [
+        "partial skull"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74678 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74678: partial skull.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-74749",
+      "physical_key": "specimen:smu:74749",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "74749",
+        "label": "SMU 74749"
+      },
+      "material": [
+        "skull",
+        "partial skeleton"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 74749 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 74749: skull, partial skeleton.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-75379",
+      "physical_key": "specimen:smu:75379",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "75379",
+        "label": "SMU 75379"
+      },
+      "material": [
+        "partial skull"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 75379 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 75379: partial skull.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-75380",
+      "physical_key": "specimen:smu:75380",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "75380",
+        "label": "SMU 75380"
+      },
+      "material": [
+        "right premaxilla"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 75380 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 75380: right premaxilla.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-75564",
+      "physical_key": "specimen:smu:75564",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "75564",
+        "label": "SMU 75564"
+      },
+      "material": [
+        "partial skeleton"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 75564 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 75564: partial skeleton.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-75621",
+      "physical_key": "specimen:smu:75621",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "75621",
+        "label": "SMU 75621"
+      },
+      "material": [
+        "axis",
+        "third cervical vertebra"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 75621 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 75621: axis, third cervical vertebra.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-75636",
+      "physical_key": "specimen:smu:75636",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "75636",
+        "label": "SMU 75636"
+      },
+      "material": [
+        "partial left pubis"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 75636 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 75636: partial left pubis.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-77617",
+      "physical_key": "specimen:smu:77617",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "77617",
+        "label": "SMU 77617"
+      },
+      "material": [
+        "partial skeleton"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 77617 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 77617: partial skeleton.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0207935:smu-77638",
+      "physical_key": "specimen:smu:77638",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Convolosaurus marri",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "SMU",
+        "catalog_number": "77638",
+        "label": "SMU 77638"
+      },
+      "material": [
+        "partial skeleton"
+      ],
+      "locality": {
+        "name": "Proctor Lake locality (Camp Quarry and North Quarry collection)",
+        "country": "United States",
+        "region": "Texas",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Twin Mountains Formation",
+        "member": null,
+        "group": "Trinity Group"
+      },
+      "age": {
+        "min_ma": 113,
+        "max_ma": 125,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_context_from_paper",
+        "basis": "The paper assigns the Proctor Lake material to the Aptian Twin Mountains Formation and describes the locality low in the unit, with the formation base around 125 Ma or potentially older and the overlying Glen Rose base near 113 Ma.",
+        "notes": "This is a broad contextual bracket, not a direct specimen date; the source notes uncertainty at the older boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "SMU 77638 is listed among the referred specimens of Convolosaurus marri.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "material_record",
+          "summary": "Published material for SMU 77638: partial skeleton.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}
