@@ -5,6 +5,7 @@ CREATE TABLE publication (
   doi TEXT UNIQUE,
   title TEXT NOT NULL,
   year INTEGER NOT NULL,
+  month INTEGER CHECK (month BETWEEN 1 AND 12),
   journal TEXT,
   url TEXT,
   development_fixture INTEGER NOT NULL DEFAULT 0 CHECK (development_fixture IN (0, 1))

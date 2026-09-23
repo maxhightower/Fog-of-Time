@@ -1,7 +1,7 @@
 import './style.css'
 import type { DatasetManifest, PublicationSummary, Side, Stance, TheoreticalCreature, TimelineEvidence } from './types'
-import { CATEGORIES, categoryOf, GROUP_LABEL_OPTIONS, GROUP_OPTIONS, groupRecords, RECORD_LABEL_OPTIONS, type ColorBy, type GroupBy, type GroupLabel, type RecordLabel, type TimeAxis } from './model'
-import { formatAge, formatMa, humanize, PRECISION_LABELS } from './format'
+import { CATEGORIES, categoryOf, GROUP_LABEL_OPTIONS, GROUP_OPTIONS, groupRecords, publicationTime, RECORD_LABEL_OPTIONS, type ColorBy, type GroupBy, type GroupLabel, type RecordLabel, type TimeAxis } from './model'
+import { formatAge, formatMa, formatPublished, formatYearValue, humanize, PRECISION_LABELS } from './format'
 import { PRESETS, TIMESCALE_OLDEST } from './timescale'
 import { Timeline, type Selection } from './timeline'
 import { matchesName, nameSuggestions, searchWords } from './names'
@@ -12,7 +12,7 @@ const MAX_AGE = TIMESCALE_OLDEST
 const MIN_SPAN = 0.5
 const MIN_YEAR = 1800
 const MAX_YEAR = new Date().getFullYear() + 1
-const MIN_YEAR_SPAN = 1
+const MIN_YEAR_SPAN = 2 / 12
 const MIN_APP_WIDTH = 960
 const MAX_APP_WIDTH = 2560
 const APP_WIDTH_STEP = 160
@@ -140,7 +140,7 @@ app.innerHTML = `
           <div class="axis-switch" role="group" aria-label="Time axis">
             <span class="field-label">Time axis</span>
             <button type="button" class="chip" data-axis="age" aria-pressed="true">Estimated age</button>
-            <button type="button" class="chip" data-axis="year" aria-pressed="false">Publication year</button>
+            <button type="button" class="chip" data-axis="year" aria-pressed="false">Publication date</button>
           </div>
 
           <div class="range-controls" role="group" aria-label="Time window">
@@ -208,7 +208,7 @@ app.innerHTML = `
             <p id="color-guide-title" class="legend-heading">Colour</p>
             <ul id="color-legend" class="legend" aria-label="Colour legend"></ul>
           </div>
-          <p id="year-guide" class="layer-note" hidden>On the publication-year axis each bar fills the calendar year its paper was published, so bar shape carries no dating meaning.</p>
+          <p id="year-guide" class="layer-note" hidden>On the publication axis each record is a dot at the month its paper was published.</p>
           <div id="shape-guide" class="guide">
             <p class="legend-heading">Bar shape = how the date is known</p>
             <ul id="shape-legend" class="legend shape-legend"></ul>
@@ -310,7 +310,7 @@ function clampView(from: number, to: number) {
 
 function roundAge(value: number): number {
   const span = Math.abs(view.from - view.to)
-  if (axis === 'year') return Number(value.toFixed(span > 20 ? 0 : 1))
+  if (axis === 'year') return Number(value.toFixed(span > 4 ? 0 : 2))
   const digits = span > 100 ? 1 : span > 10 ? 2 : 3
   return Number(value.toFixed(digits))
 }
@@ -366,8 +366,18 @@ function selectCreature(id: string) {
 /** The window Reset returns to: 500 Ma – today, or every publication year in the dataset. */
 function defaultView() {
   if (axis === 'age') return { ...DEFAULT_VIEW }
-  const years = records.map(record => record.representative_report.publication.year)
-  return { from: Math.min(...years) - 1, to: Math.max(...years) + 2 }
+  return publicationSpan(records)
+}
+
+/** The publication-time window around a set of records, padded so edge dots stay clear of the frame. */
+function publicationSpan(list: TimelineEvidence[]) {
+  const times = list.map(record => publicationTime(record.representative_report.publication))
+  const first = Math.min(...times)
+  const last = Math.max(...times)
+  const pad = Math.max(3 / 12, (last - first) * 0.04)
+  // Long spans snap to whole years so the From/To boxes and heading read cleanly.
+  if (last - first > 4) return { from: Math.floor(first - pad), to: Math.ceil(last + pad) }
+  return { from: first - pad, to: last + pad }
 }
 
 function switchAxis(next: TimeAxis) {
@@ -381,7 +391,7 @@ function switchAxis(next: TimeAxis) {
   }
   const age = axis === 'age'
   presets.hidden = !age
-  eyebrow.textContent = age ? 'DEEP TIME' : 'PUBLICATION YEAR'
+  eyebrow.textContent = age ? 'DEEP TIME' : 'PUBLICATION DATE'
   for (const unit of document.querySelectorAll<HTMLSpanElement>('.range-inputs .unit')) unit.textContent = age ? 'Ma' : ''
   for (const input of [rangeFrom, rangeTo]) {
     input.min = String(age ? 0 : MIN_YEAR)
@@ -412,8 +422,8 @@ function render() {
   const groups = grouping === 'none' ? null : groupRecords(visible, grouping, axis)
   const inView = visible.filter(record => {
     if (axis === 'year') {
-      const year = record.representative_report.publication.year
-      return year + 1 > view.from && year < view.to
+      const time = publicationTime(record.representative_report.publication)
+      return time >= view.from && time <= view.to
     }
     return record.age.max_ma >= view.to && record.age.min_ma <= view.from
   })
@@ -431,11 +441,12 @@ function render() {
   })
 
   if (document.activeElement !== rangeFrom) rangeFrom.value = String(roundAge(view.from))
-  // On the year axis "To" names the last year shown; the window's edge is the start of the next year.
-  if (document.activeElement !== rangeTo) rangeTo.value = String(roundAge(axis === 'year' ? view.to - 1 : view.to))
+  if (document.activeElement !== rangeTo) rangeTo.value = String(roundAge(view.to))
   heading.textContent =
     axis === 'year'
-      ? `Published ${Math.floor(view.from)} – ${Math.ceil(view.to) - 1}`
+      ? view.to - view.from > 4
+        ? `Published ${roundAge(view.from)} – ${roundAge(view.to)}`
+        : `Published ${formatYearValue(view.from, true)} – ${formatYearValue(view.to, true)}`
       : `${formatMa(roundAge(view.from))} – ${view.to === 0 ? 'today' : formatMa(roundAge(view.to))}`
   visibleCount.textContent = `${inView.length} of ${records.length} physical evidence records`
   for (const button of presets.querySelectorAll<HTMLButtonElement>('button')) {
@@ -689,7 +700,7 @@ function showRecordDetail(record: TimelineEvidence) {
     ['Material', record.material.length ? record.material.join(', ') : 'Not recorded'],
     ['Paper', record.representative_report.publication.title],
     ['Authors', record.representative_report.publication.authors.join(', ')],
-    ['Publication year', String(record.representative_report.publication.year)],
+    ['Published', formatPublished(record.representative_report.publication)],
     ['Evidence role', humanize(record.representative_report.evidence_role)],
     ['Reports attached', String(record.report_count)],
   ])
@@ -806,7 +817,7 @@ function wireControls() {
   const applyRange = () => {
     const from = Number(rangeFrom.value)
     const to = Number(rangeTo.value)
-    if (Number.isFinite(from) && Number.isFinite(to) && rangeFrom.value !== '' && rangeTo.value !== '') setView(from, axis === 'year' ? to + 1 : to)
+    if (Number.isFinite(from) && Number.isFinite(to) && rangeFrom.value !== '' && rangeTo.value !== '') setView(from, to)
   }
   for (const input of [rangeFrom, rangeTo]) {
     input.addEventListener('change', applyRange)
@@ -857,8 +868,8 @@ function wireControls() {
     const visible = filteredRecords()
     if (!visible.length) return
     if (axis === 'year') {
-      const years = visible.map(record => record.representative_report.publication.year)
-      setView(Math.min(...years) - 1, Math.max(...years) + 2)
+      const fitted = publicationSpan(visible)
+      setView(fitted.from, fitted.to)
       return
     }
     const oldest = Math.max(...visible.map(record => record.age.max_ma))

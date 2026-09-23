@@ -69,7 +69,8 @@ npm run dev
 ### The timeline
 
 A **Time axis** switch changes the horizontal axis between the estimated geologic age
-(Ma) and the publication year of each record's paper. Each axis keeps its own window.
+(Ma) and the publication date of each record's paper, where each record is a point at
+its paper's publication month. Each axis keeps its own window.
 
 The default view spans 500 million years ago to today. Presets, From/To inputs,
 zoom buttons, drag-to-pan and Ctrl/⌘-scroll adjust the window.

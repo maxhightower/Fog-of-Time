@@ -156,6 +156,9 @@ def validate_publication(publication: Any, path: Path, context: str) -> None:
         fail(path, f"{context} id/title may not be empty")
     if not isinstance(publication["year"], int) or not 1600 <= publication["year"] <= 2100:
         fail(path, f"{context} year must be an integer in 1600..2100")
+    month = publication.get("month")
+    if month is not None and (not isinstance(month, int) or isinstance(month, bool) or not 1 <= month <= 12):
+        fail(path, f"{context} month must be null or an integer in 1..12")
     if not isinstance(publication["authors"], list) or not publication["authors"]:
         fail(path, f"{context} authors must be a non-empty array")
     if not all(isinstance(author, str) and author.strip() for author in publication["authors"]):
@@ -254,11 +257,11 @@ def load_documents() -> list[tuple[Path, dict[str, Any]]]:
 
 def insert_publication(connection: sqlite3.Connection, publication: dict[str, Any], fixture: int) -> None:
     connection.execute(
-        """INSERT INTO publication(id, doi, title, year, journal, url, development_fixture)
-           VALUES (?, ?, ?, ?, ?, ?, ?)""",
+        """INSERT INTO publication(id, doi, title, year, month, journal, url, development_fixture)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
         (
             publication["id"], publication.get("doi"), publication["title"], publication["year"],
-            publication.get("journal"), publication.get("url"), fixture,
+            publication.get("month"), publication.get("journal"), publication.get("url"), fixture,
         ),
     )
     for position, author_name in enumerate(publication["authors"]):
@@ -524,7 +527,7 @@ def insert_creatures(connection: sqlite3.Connection, creatures: list[tuple[Path,
 
 def publication_summary(connection: sqlite3.Connection, publication_id: str) -> dict[str, Any]:
     row = connection.execute(
-        "SELECT id, doi, title, year, journal, url FROM publication WHERE id = ?", (publication_id,)
+        "SELECT id, doi, title, year, month, journal, url FROM publication WHERE id = ?", (publication_id,)
     ).fetchone()
     authors = [
         author[0]
@@ -536,7 +539,7 @@ def publication_summary(connection: sqlite3.Connection, publication_id: str) -> 
     ]
     return {
         "id": row["id"], "doi": row["doi"], "title": row["title"], "year": row["year"],
-        "journal": row["journal"], "url": row["url"], "authors": authors,
+        "month": row["month"], "journal": row["journal"], "url": row["url"], "authors": authors,
     }
 
 
@@ -643,6 +646,7 @@ def export_web(
              p.doi AS publication_doi,
              p.title AS publication_title,
              p.year AS publication_year,
+             p.month AS publication_month,
              p.journal AS publication_journal,
              p.url AS publication_url
            FROM publication_evidence r
@@ -731,6 +735,7 @@ def export_web(
                         "doi": representative["publication_doi"],
                         "title": representative["publication_title"],
                         "year": representative["publication_year"],
+                        "month": representative["publication_month"],
                         "journal": representative["publication_journal"],
                         "url": representative["publication_url"],
                         "authors": authors,

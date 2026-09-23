@@ -19,6 +19,7 @@
           "doi": "10.1126/science.205.4411.1155",
           "title": "The cheetah: native American",
           "year": 1979,
+          "month": null,
           "journal": "Science",
           "url": "https://doi.org/10.1126/science.205.4411.1155",
           "authors": [
@@ -43,6 +44,7 @@
           "doi": null,
           "title": "Pleistocene mammals of North America",
           "year": 1980,
+          "month": null,
           "journal": null,
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=6221",
           "authors": [
@@ -68,6 +70,7 @@
           "doi": "10.2307/2426317",
           "title": "Ice Age mammals of northwestern Texas",
           "year": 1992,
+          "month": null,
           "journal": "Midwestern State University Press",
           "url": "https://doi.org/10.2307/2426317",
           "authors": [
@@ -93,6 +96,7 @@
           "doi": "10.1016/j.cub.2026.07.072",
           "title": "Range and diet diversity in the Pleistocene American “cheetah,” Miracinonyx trumani",
           "year": 2026,
+          "month": 9,
           "journal": "Current Biology",
           "url": "https://doi.org/10.1016/j.cub.2026.07.072",
           "authors": [
@@ -126,6 +130,7 @@
           "doi": "10.1126/science.205.4411.1155",
           "title": "The cheetah: native American",
           "year": 1979,
+          "month": null,
           "journal": "Science",
           "url": "https://doi.org/10.1126/science.205.4411.1155",
           "authors": [
@@ -172,6 +177,7 @@
           "doi": null,
           "title": "Pleistocene mammals of North America",
           "year": 1980,
+          "month": null,
           "journal": null,
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=6221",
           "authors": [
@@ -219,6 +225,7 @@
           "doi": "10.1080/02724634.1990.10011827",
           "title": "The Plio-Pleistocene Cheetah-Like Cat Miracinonyx inexpectatus of North America",
           "year": 1990,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1080/02724634.1990.10011827",
           "authors": [
@@ -277,6 +284,7 @@
           "doi": "10.2307/2426317",
           "title": "Ice Age mammals of northwestern Texas",
           "year": 1992,
+          "month": null,
           "journal": "Midwestern State University Press",
           "url": "https://doi.org/10.2307/2426317",
           "authors": [
@@ -314,6 +322,7 @@
           "doi": "10.1130/abs/2016am-285667",
           "title": "Natural Trap Cave",
           "year": 1993,
+          "month": null,
           "journal": "National Geographic Research & Exploration",
           "url": "https://doi.org/10.1130/abs/2016am-285667",
           "authors": [
@@ -341,6 +350,7 @@
           "doi": "10.1017/s0022336000038439",
           "title": "Hemphillian and Blancan felids from central Mexico",
           "year": 1996,
+          "month": null,
           "journal": "Journal of Paleontology",
           "url": "https://doi.org/10.1017/s0022336000038439",
           "authors": [
@@ -368,6 +378,7 @@
           "doi": "10.58782/flmnh.emto6774",
           "title": "Fossil history of the panther (Puma concolor) and the cheetah-like cat (Miracinonyx inexpectatus) in Florida",
           "year": 1997,
+          "month": null,
           "journal": "Bulletin of the Florida Museum of Natural History",
           "url": "https://doi.org/10.58782/flmnh.emto6774",
           "authors": [
@@ -415,6 +426,7 @@
           "doi": null,
           "title": "Felidae",
           "year": 1998,
+          "month": null,
           "journal": "Evolution of Tertiary Mammals of North America",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=7589",
           "authors": [
@@ -441,6 +453,7 @@
           "doi": null,
           "title": "Synonymies and reidentifications of North American fossil mammals",
           "year": 2002,
+          "month": null,
           "journal": null,
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=6294",
           "authors": [
@@ -467,6 +480,7 @@
           "doi": "10.58782/flmnh.qqgg4577",
           "title": "Cenozoic vertebrate biostratigraphy of South Carolina, U.S.A. and additions to the fauna",
           "year": 2019,
+          "month": null,
           "journal": "Bulletin of the Florida Museum of Natural History",
           "url": "https://doi.org/10.58782/flmnh.qqgg4577",
           "authors": [
@@ -505,6 +519,7 @@
           "doi": "10.5479/si.28597193",
           "title": "Middle Pleistocene Cumberland Bone Cave Local Fauna, Allegany County, Maryland: A Systematic Revision and Paleoecological Interpretation of the Irvingtonian, Middle Appalachians, USA",
           "year": 2025,
+          "month": null,
           "journal": "Smithsonian Contributions to Paleobiology",
           "url": "https://doi.org/10.5479/si.28597193",
           "authors": [
@@ -543,6 +558,7 @@
           "doi": "10.1016/j.cub.2026.07.072",
           "title": "Range and diet diversity in the Pleistocene American “cheetah,” Miracinonyx trumani",
           "year": 2026,
+          "month": 9,
           "journal": "Current Biology",
           "url": "https://doi.org/10.1016/j.cub.2026.07.072",
           "authors": [
@@ -591,6 +607,7 @@
           "doi": "10.2475/ajs.s3-18.108.501",
           "title": "Notice of new Jurassic reptiles",
           "year": 1879,
+          "month": null,
           "journal": "The American Journal of Science and Arts, series 3",
           "url": "https://doi.org/10.2475/ajs.s3-18.108.501",
           "authors": [
@@ -615,6 +632,7 @@
           "doi": null,
           "title": "Structure and relationships of opisthocoelian dinosaurs, part I: <i>Apatosaurus</i> Marsh",
           "year": 1903,
+          "month": null,
           "journal": "Field Columbian Museum Geological Series",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9789",
           "authors": [
@@ -639,6 +657,7 @@
           "doi": "10.7717/peerj.857",
           "title": "A specimen-level phylogenetic analysis and taxonomic revision of Diplodocidae (Dinosauria, Sauropoda)",
           "year": 2015,
+          "month": null,
           "journal": "PeerJ",
           "url": "https://doi.org/10.7717/peerj.857",
           "authors": [
@@ -666,6 +685,7 @@
           "doi": "10.2475/ajs.s3-18.108.501",
           "title": "Notice of new Jurassic reptiles",
           "year": 1879,
+          "month": null,
           "journal": "The American Journal of Science and Arts, series 3",
           "url": "https://doi.org/10.2475/ajs.s3-18.108.501",
           "authors": [
@@ -702,6 +722,7 @@
           "doi": null,
           "title": "Sur les dinosauriens jurassiques [On Jurassic dinosaurs]",
           "year": 1880,
+          "month": null,
           "journal": "Bulletin de la Société Géologique de France, 3s série",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19133",
           "authors": [
@@ -728,6 +749,7 @@
           "doi": "10.2475/ajs.s3-21.125.417",
           "title": "Principal characters of American Jurassic dinosaurs. Part V",
           "year": 1881,
+          "month": null,
           "journal": "The American Journal of Science and Arts, series 3",
           "url": "https://doi.org/10.2475/ajs.s3-21.125.417",
           "authors": [
@@ -754,6 +776,7 @@
           "doi": null,
           "title": "Recherches sur les reptiles trouvés dans le Gault de l'est du bassin de Paris [Research on the reptiles found in the Gault of the eastern Paris Basin]",
           "year": 1882,
+          "month": null,
           "journal": "Mémoires de la Société Géologique de France, série 3",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19140",
           "authors": [
@@ -780,6 +803,7 @@
           "doi": null,
           "title": "The classification and affinities of dinosaurian reptiles",
           "year": 1884,
+          "month": null,
           "journal": "Nature",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19268",
           "authors": [
@@ -806,6 +830,7 @@
           "doi": null,
           "title": "Les Dinosauriens [The dinosaurs]",
           "year": 1884,
+          "month": null,
           "journal": "Revue des Questions Scientifiques",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55893",
           "authors": [
@@ -832,6 +857,7 @@
           "doi": null,
           "title": "Zur Kenntnis der Dinosaurier und einiger anderer fossiler Reptilien [To the knowledge of dinosaurs and some other fossil reptiles]",
           "year": 1884,
+          "month": null,
           "journal": "Kosmos",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63603",
           "authors": [
@@ -868,6 +894,7 @@
           "doi": "10.1017/s0016756800188211",
           "title": "On Iguanodon mantelli, Meyer",
           "year": 1885,
+          "month": null,
           "journal": "Geological Magazine, decade 3",
           "url": "https://doi.org/10.1017/s0016756800188211",
           "authors": [
@@ -894,6 +921,7 @@
           "doi": null,
           "title": "On the classification and affinities of dinosaurian reptiles",
           "year": 1885,
+          "month": null,
           "journal": "Report of the British Association for the Advancement of Science",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18407",
           "authors": [
@@ -920,6 +948,7 @@
           "doi": null,
           "title": "Les Iguanodons de Bernissart [The Iguanodons of Bernissart]",
           "year": 1885,
+          "month": null,
           "journal": "Revue des Questions Scientifiques",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55910",
           "authors": [
@@ -946,6 +975,7 @@
           "doi": null,
           "title": "Les Enchainements du Monde Animal dans les Temps Geologiques. Fossiles Secondaires",
           "year": 1890,
+          "month": null,
           "journal": "Librairie F. Savy",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=46182",
           "authors": [
@@ -972,6 +1002,7 @@
           "doi": null,
           "title": "Handbuch der Palaeontologie. I. Abteilung Paleozoologie. III. Band. Vertebrata (Pisces, Amphibia, Reptilia, Aves) [Handbook of Paleontology. Division I. Paleozoology. Volume III. Vertebrata (Pisces, Amphibia, Reptilia, Aves)]",
           "year": 1890,
+          "month": null,
           "journal": "R. Oldenbourg",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=64473",
           "authors": [
@@ -1008,6 +1039,7 @@
           "doi": null,
           "title": "Les grands animaux fossiles de l’Amerique [The great fossil animals of America]",
           "year": 1891,
+          "month": null,
           "journal": "La Revue Scientifique",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63575",
           "authors": [
@@ -1034,6 +1066,7 @@
           "doi": "10.1038/048437b0",
           "title": "Some recent restorations of dinosaurs",
           "year": 1893,
+          "month": null,
           "journal": "Nature",
           "url": "https://doi.org/10.1038/048437b0",
           "authors": [
@@ -1060,6 +1093,7 @@
           "doi": "10.1002/ange.18930062002",
           "title": "De Gewervelde Dieren van Het Verleden. Palaeontologische Studiën in Telyer’s Museum [The Vertebrate Animals of the Past. Paleontoogical Studies in Teyler’s Museum]",
           "year": 1893,
+          "month": null,
           "journal": "Erven Loosjes",
           "url": "https://doi.org/10.1002/ange.18930062002",
           "authors": [
@@ -1096,6 +1130,7 @@
           "doi": "10.2475/ajs.s3-50.300.483",
           "title": "On the affinities and classification of the dinosaurian reptiles",
           "year": 1895,
+          "month": null,
           "journal": "American Journal of Science",
           "url": "https://doi.org/10.2475/ajs.s3-50.300.483",
           "authors": [
@@ -1122,6 +1157,7 @@
           "doi": "10.5962/bhl.title.60562",
           "title": "The dinosaurs of North America",
           "year": 1896,
+          "month": null,
           "journal": "United States Geological Survey, 16th Annual Report, 1894-95",
           "url": "https://doi.org/10.5962/bhl.title.60562",
           "authors": [
@@ -1158,6 +1194,7 @@
           "doi": null,
           "title": "Essai de Paléontologie Philosophique [Essay on Philosophical Paleontology]",
           "year": 1896,
+          "month": null,
           "journal": "Masson et Companie",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=64571",
           "authors": [
@@ -1184,6 +1221,7 @@
           "doi": null,
           "title": "Remarks on the supposed relationship of birds and dinosaurs",
           "year": 1897,
+          "month": null,
           "journal": "Proceedings of the Cambridge Philosophical Society",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55892",
           "authors": [
@@ -1210,6 +1248,7 @@
           "doi": null,
           "title": "Vertebrate fossils of the Denver Basin",
           "year": 1897,
+          "month": null,
           "journal": "United States Geological Survey Monograph",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=78169",
           "authors": [
@@ -1246,6 +1285,7 @@
           "doi": "10.1017/s0016756800142980",
           "title": "On the families of sauropodous Dinosauria",
           "year": 1898,
+          "month": null,
           "journal": "Geological Magazine, decade 4",
           "url": "https://doi.org/10.1017/s0016756800142980",
           "authors": [
@@ -1272,6 +1312,7 @@
           "doi": "10.1016/s0140-6736(01)83115-9",
           "title": "Outlines of Vertebrate Palaeontology for Students of Zoology",
           "year": 1898,
+          "month": null,
           "journal": "Cambridge University Press",
           "url": "https://doi.org/10.1016/s0140-6736(01)83115-9",
           "authors": [
@@ -1298,6 +1339,7 @@
           "doi": "10.1038/059169a0",
           "title": "A Classification of Vertebrata Recent and Extinct",
           "year": 1898,
+          "month": null,
           "journal": "Adam and Charles Black",
           "url": "https://doi.org/10.1038/059169a0",
           "authors": [
@@ -1324,6 +1366,7 @@
           "doi": "10.1016/s0140-6736(00)65338-2",
           "title": "Some of Wyoming’s Vertebrate Fossils",
           "year": 1899,
+          "month": null,
           "journal": "Passenger Department, Union Pacific Railroad Co.",
           "url": "https://doi.org/10.1016/s0140-6736(00)65338-2",
           "authors": [
@@ -1350,6 +1393,7 @@
           "doi": "10.1130/gsab-11-377",
           "title": "Jurassic rocks of southeastern Wyoming",
           "year": 1900,
+          "month": null,
           "journal": "Bulletin of the Geological Society of America",
           "url": "https://doi.org/10.1130/gsab-11-377",
           "authors": [
@@ -1376,6 +1420,7 @@
           "doi": "10.1126/science.13.327.549.b",
           "title": "The largest known dinosaur",
           "year": 1901,
+          "month": null,
           "journal": "Science (new series)",
           "url": "https://doi.org/10.1126/science.13.327.549.b",
           "authors": [
@@ -1402,6 +1447,7 @@
           "doi": "10.5962/bhl.title.160212",
           "title": "Amphibia and Reptiles",
           "year": 1901,
+          "month": null,
           "journal": "MacMillan and Co.",
           "url": "https://doi.org/10.5962/bhl.title.160212",
           "authors": [
@@ -1438,6 +1484,7 @@
           "doi": null,
           "title": "A dinosaurusok átnézete és származása [Review and origin of dinosaurs]",
           "year": 1901,
+          "month": null,
           "journal": "Földtani Közlöny",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76570",
           "authors": [
@@ -1474,6 +1521,7 @@
           "doi": "10.1016/s0033-3506(02)80139-1",
           "title": "Bibliography and Catalogue of the Fossil Vertebrata of North America",
           "year": 1902,
+          "month": null,
           "journal": "Bulletin of the United States Geological Survey",
           "url": "https://doi.org/10.1016/s0033-3506(02)80139-1",
           "authors": [
@@ -1510,6 +1558,7 @@
           "doi": null,
           "title": "Anniversary address of the President",
           "year": 1902,
+          "month": null,
           "journal": "Proceedings of the Dorset Natural History and Antiquarian Field Club",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=25193",
           "authors": [
@@ -1546,6 +1595,7 @@
           "doi": null,
           "title": "Structure and relationships of opisthocoelian dinosaurs, part I: <i>Apatosaurus</i> Marsh",
           "year": 1903,
+          "month": null,
           "journal": "Field Columbian Museum Geological Series",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9789",
           "authors": [
@@ -1582,6 +1632,7 @@
           "doi": null,
           "title": "Fossil wonders of the west. The dinosaurs of the Bone-Cabin Quarry, being the first description of the greatest \"find\" of extinct animals ever made",
           "year": 1904,
+          "month": null,
           "journal": "Century Magazine",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54059",
           "authors": [
@@ -1608,6 +1659,7 @@
           "doi": null,
           "title": "The brontosaur. How a giant prehistoric animal was discovered, transported and restored",
           "year": 1905,
+          "month": null,
           "journal": "Scientific American",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63666",
           "authors": [
@@ -1634,6 +1686,7 @@
           "doi": null,
           "title": "Die Dinosaurier der Europäischen Triasformation mit berücksichtigung der Ausseuropäischen vorkommnisse [The dinosaurs of the European Triassic formations with consideration of occurrences outside Europe]",
           "year": 1908,
+          "month": null,
           "journal": "Geologische und Palaeontologische Abhandlungen",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=10510",
           "authors": [
@@ -1660,6 +1713,7 @@
           "doi": null,
           "title": "Ostafrikanische Dinosaurier [East African dinosaurs]",
           "year": 1908,
+          "month": null,
           "journal": "Palaeontographica",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=51607",
           "authors": [
@@ -1686,6 +1740,7 @@
           "doi": null,
           "title": "Skizze zu einer Systematik und Stammesgeschichte der Dinosaurier [Sketch of the systematics and origins of the dinosaurs]",
           "year": 1909,
+          "month": null,
           "journal": "Centralblatt für Mineralogie, Geologie und Paläontologie",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16879",
           "authors": [
@@ -1712,6 +1767,7 @@
           "doi": "10.5962/bhl.title.26217",
           "title": "On the manner of locomotion of the dinosaurs, especially Diplodocus, with remarks on the origin of birds",
           "year": 1910,
+          "month": null,
           "journal": "Proceedings of the Washington Academy of Sciences",
           "url": "https://doi.org/10.5962/bhl.title.26217",
           "authors": [
@@ -1738,6 +1794,7 @@
           "doi": null,
           "title": "Grundzüge der Paläontologie (Paläozoologie). II. Abteilung. Vertebrata [Fundamentals of Paleontology (Paleozoology). Section II. Vertebrata]",
           "year": 1911,
+          "month": null,
           "journal": "Druck und Verlag von R. Oldenbourg, München",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17275",
           "authors": [
@@ -1774,6 +1831,7 @@
           "doi": null,
           "title": "Reptilia. Paläontologie [Reptilia. Paleontology]",
           "year": 1913,
+          "month": null,
           "journal": "Handwörterbuch der Naturwissenschaften",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52458",
           "authors": [
@@ -1800,6 +1858,7 @@
           "doi": "10.1130/gsab-26-323",
           "title": "Sauropoda and Stegosauria of the Morrison of North America compared with those of Europe and eastern Africa",
           "year": 1915,
+          "month": null,
           "journal": "Bulletin of the Geological Society of America",
           "url": "https://doi.org/10.1130/gsab-26-323",
           "authors": [
@@ -1826,6 +1885,7 @@
           "doi": null,
           "title": "The dinosaurs of the Bone-Cabin Quarry",
           "year": 1915,
+          "month": null,
           "journal": "Dinosaurs, with Special Reference to the American Museum Collections",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53965",
           "authors": [
@@ -1852,6 +1912,7 @@
           "doi": null,
           "title": "Section V. Paleontology",
           "year": 1916,
+          "month": null,
           "journal": "Nineteenth Annual Report of the Director of the Carnegie Museum for the Year Ending March 31, 1916",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53213",
           "authors": [
@@ -1878,6 +1939,7 @@
           "doi": "10.1111/j.1749-6632.1916.tb55185.x",
           "title": "Study of the Morrison Formation",
           "year": 1916,
+          "month": null,
           "journal": "Annals of the New York Academy of Sciences",
           "url": "https://doi.org/10.1111/j.1749-6632.1916.tb55185.x",
           "authors": [
@@ -1904,6 +1966,7 @@
           "doi": null,
           "title": "Criteria for the determination of species in the Sauropoda, with description of a new species of Apatosaurus",
           "year": 1917,
+          "month": null,
           "journal": "Bulletin of the American Museum of Natural History",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18091",
           "authors": [
@@ -1930,6 +1993,7 @@
           "doi": null,
           "title": "Les reptiles fossiles [Fossil reptiles]",
           "year": 1922,
+          "month": null,
           "journal": "Association Française pour l'Avancement des Sciences. Conférences. Compte Rendu de la 45e Session",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63047",
           "authors": [
@@ -1956,6 +2020,7 @@
           "doi": null,
           "title": "Dinosaurian climatic response",
           "year": 1924,
+          "month": null,
           "journal": "Organic Adaptation to Environment",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63357",
           "authors": [
@@ -1982,6 +2047,7 @@
           "doi": null,
           "title": "Early fossil hunting in the Rocky Mountains",
           "year": 1926,
+          "month": null,
           "journal": "Natural History",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54331",
           "authors": [
@@ -2008,6 +2074,7 @@
           "doi": null,
           "title": "Short review of the present knowledge of the Sauropoda",
           "year": 1927,
+          "month": null,
           "journal": "Memoirs of the Queensland Museum",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16866",
           "authors": [
@@ -2044,6 +2111,7 @@
           "doi": null,
           "title": "Sichtung der Grundlagen der jetzigen Kenntnis der Sauropoden [Sorting through the basis of the current knowledge of sauropods]",
           "year": 1927,
+          "month": null,
           "journal": "Eclogae Geologica Helveticae",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16915",
           "authors": [
@@ -2070,6 +2138,7 @@
           "doi": "10.1007/bf03029874",
           "title": "Traité de Zoologie. Fascicule VIII. Développement Embryogénique des Vertébrés Allantoïdiens. Les Reptiles",
           "year": 1928,
+          "month": null,
           "journal": "Masson et Companie, Libraires de l'Academie de Médecine",
           "url": "https://doi.org/10.1007/bf03029874",
           "authors": [
@@ -2096,6 +2165,7 @@
           "doi": null,
           "title": "Los sauriquios y ornitisquios del Cretáceo argentino",
           "year": 1929,
+          "month": null,
           "journal": "Anales del Museo de La Plata, serie 2",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=59060",
           "authors": [
@@ -2122,6 +2192,7 @@
           "doi": "10.1136/bmj.2.3626.43-b",
           "title": "Second Bibliography and Catalogue of the Fossil Vertebrata of North America",
           "year": 1930,
+          "month": null,
           "journal": "Carnegie Institution of Washington",
           "url": "https://doi.org/10.1136/bmj.2.3626.43-b",
           "authors": [
@@ -2158,6 +2229,7 @@
           "doi": null,
           "title": "The dinosaur skeleton at the Peabody Museum",
           "year": 1931,
+          "month": null,
           "journal": "The Scientific Monthly",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53982",
           "authors": [
@@ -2184,6 +2256,7 @@
           "doi": "10.5479/si.00963801.81-2941.1",
           "title": "On a newly mounted skeleton of Diplodocus in the United States National Museum",
           "year": 1932,
+          "month": null,
           "journal": "Proceedings of the United States National Museum",
           "url": "https://doi.org/10.5479/si.00963801.81-2941.1",
           "authors": [
@@ -2210,6 +2283,7 @@
           "doi": "10.2307/1125747",
           "title": "A Guide to the Fossil Birds, Reptiles, and Amphibians in the Department of Geology and Paleontology in the British Museum (Natural History), Cromwell Road, London, S.W. 7",
           "year": 1934,
+          "month": null,
           "journal": "Trustees of the British Museum",
           "url": "https://doi.org/10.2307/1125747",
           "authors": [
@@ -2236,6 +2310,7 @@
           "doi": "10.5962/p.234849",
           "title": "Osteology of Apatosaurus, with special reference to specimens in the Carnegie Museum",
           "year": 1936,
+          "month": null,
           "journal": "Memoirs of the Carnegie Museum",
           "url": "https://doi.org/10.5962/p.234849",
           "authors": [
@@ -2272,6 +2347,7 @@
           "doi": null,
           "title": "5. Reptilia [5. Reptilia]",
           "year": 1937,
+          "month": null,
           "journal": "Fortschritte der Paläontologie",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53060",
           "authors": [
@@ -2298,6 +2374,7 @@
           "doi": null,
           "title": "America enshrines its hugest creature—the dinosaur",
           "year": 1937,
+          "month": null,
           "journal": "Life",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63744",
           "authors": [
@@ -2324,6 +2401,7 @@
           "doi": null,
           "title": "Gestalt und Grösse von Brachiosaurus und anderen riesenwüchsigen Sauropoden [Form and size of Brachiosurus and other giant-growing sauropods]",
           "year": 1938,
+          "month": null,
           "journal": "Der Biologe",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53027",
           "authors": [
@@ -2350,6 +2428,7 @@
           "doi": null,
           "title": "Les dinosauriens jurassiques de Damparis (Jura) [The Jurassic dinosaurs of Damparis (Jura)]",
           "year": 1943,
+          "month": null,
           "journal": "Mémoires de la Société Géologique de France (Nouvelle Série), Mémoire",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=4250",
           "authors": [
@@ -2376,6 +2455,7 @@
           "doi": null,
           "title": "Stratigraphy of the Cimarron Valley (Mesozoic rocks)",
           "year": 1943,
+          "month": null,
           "journal": "Geology and Ground Water Resources of Cimarron County, Oklahoma. Oklahoma Geological Survey Bulletin",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62307",
           "authors": [
@@ -2402,6 +2482,7 @@
           "doi": null,
           "title": "Geology of Dinosaur National Monument and vicinity, Utah-Colorado",
           "year": 1954,
+          "month": null,
           "journal": "Utah Geological and Mineralogical Survey Bulletin",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=81469",
           "authors": [
@@ -2429,6 +2510,7 @@
           "doi": null,
           "title": "Osteology of the Reptiles, University of Chicago Press",
           "year": 1956,
+          "month": null,
           "journal": null,
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13854",
           "authors": [
@@ -2455,6 +2537,7 @@
           "doi": null,
           "title": "Die Oberkretazischen “Dinosaurier” von Alberta, Kanada [The Upper Cretaceous “dinosaurs” of Alberta, Canada]",
           "year": 1963,
+          "month": null,
           "journal": "Stuttgarter Beiträge zur Naturkunde",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63229",
           "authors": [
@@ -2481,6 +2564,7 @@
           "doi": null,
           "title": "Nadotryad Dinosauria. Dinozavry [Superorder Dinosauria. Dinosaurs]",
           "year": 1964,
+          "month": null,
           "journal": "Osnovy Paleontologii [Fundamentals of Paleontology]",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52169",
           "authors": [
@@ -2517,6 +2601,7 @@
           "doi": "10.1119/1.1973174",
           "title": "Vertebrate Paleontology, 3rd edition",
           "year": 1966,
+          "month": null,
           "journal": "University of Chicago Press",
           "url": "https://doi.org/10.1119/1.1973174",
           "authors": [
@@ -2543,6 +2628,7 @@
           "doi": null,
           "title": "Part 14. Saurischia",
           "year": 1970,
+          "month": null,
           "journal": "Handbuch der Paläoherpetologie/Encyclopedia of Paleoherpetology. Gustav Fischer Verlag, Stuttgart",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=15490",
           "authors": [
@@ -2579,6 +2665,7 @@
           "doi": "10.1007/bf02617673",
           "title": "The Dinosaurs, Wiley-Interscience, New York",
           "year": 1970,
+          "month": null,
           "journal": null,
           "url": "https://doi.org/10.1007/bf02617673",
           "authors": [
@@ -2605,6 +2692,7 @@
           "doi": null,
           "title": "Description of the palate and lower jaw of the sauropod dinosaur Diplodocus (Reptilia: Saurischia) with remarks on the nature of the skull of Apatosaurus",
           "year": 1975,
+          "month": null,
           "journal": "Journal of Paleontology",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62864",
           "authors": [
@@ -2632,6 +2720,7 @@
           "doi": null,
           "title": "El Mesozoico de America de Sur y sus Tetrapodos [The Mesozoic of South America and its tetrapods]",
           "year": 1978,
+          "month": null,
           "journal": "Opera Lilloana",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=59610",
           "authors": [
@@ -2658,6 +2747,7 @@
           "doi": null,
           "title": "Some characteristics of Barapasaurus tagorei, a sauropod dinosaur from the Lower Jurassic of Deccan, India",
           "year": 1979,
+          "month": null,
           "journal": "In B. Laskar & C. S. Raja Rao (eds.), Fourth International Gondwana Symposium: Papers. Hindustan Publishing Corporation, Delhi",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17770",
           "authors": [
@@ -2686,6 +2776,7 @@
           "doi": null,
           "title": "the fossil vertebrates of Utah, an annotated bibliography",
           "year": 1979,
+          "month": null,
           "journal": "Brigham Young University Geology Studies",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=69417",
           "authors": [
@@ -2713,6 +2804,7 @@
           "doi": "10.5962/p.228597",
           "title": "Annotated catalogue of the dinosaurs (Reptilia, Archosauria) in the collections of the Carnegie Museum of Natural History",
           "year": 1981,
+          "month": null,
           "journal": "Bulletin of Carnegie Museum of Natural History",
           "url": "https://doi.org/10.5962/p.228597",
           "authors": [
@@ -2749,6 +2841,7 @@
           "doi": null,
           "title": "Un nuevo yacimiento de Dinosaurios en el Aptiense inferior de Morella (Castellón) [A new dinosaur locality in the lower Aptian of Morella (Castellón)]",
           "year": 1981,
+          "month": null,
           "journal": "Acta Geològica Hispànica",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62422",
           "authors": [
@@ -2777,6 +2870,7 @@
           "doi": null,
           "title": "Geologia y Paleontologia (Dinosaurios) de las Capas rojas de Morella (Castellón, España) [Geology and paleontology (Dinosauria) of the Capas Rojas of Morella (Castellón, Spain)]",
           "year": 1982,
+          "month": null,
           "journal": "Diputación Provincial de Castellón y Diputación de Barcelona",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=11753",
           "authors": [
@@ -2805,6 +2899,7 @@
           "doi": "10.1177/019874298200700204",
           "title": "Carnegie's Dinosaurs. A Comprehensive Guide to Dinosaur Hall at Carnegie Museum of Natural History, Carnegie Institute",
           "year": 1982,
+          "month": null,
           "journal": "The Board of Trustees, Carnegie Institute",
           "url": "https://doi.org/10.1177/019874298200700204",
           "authors": [
@@ -2831,6 +2926,7 @@
           "doi": null,
           "title": "A paleontological pilgrimage through Philadelphia, the birthplace of American paleontology",
           "year": 1986,
+          "month": null,
           "journal": "The Mosasaur",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63165",
           "authors": [
@@ -2868,6 +2964,7 @@
           "doi": "10.1017/cbo9780511608377.007",
           "title": "Species determination in sauropod dinosaurs with tentative suggestions for their classification",
           "year": 1990,
+          "month": null,
           "journal": "Dinosaur Systematics: Perspectives and Approaches, Cambridge University Press, Cambridge",
           "url": "https://doi.org/10.1017/cbo9780511608377.007",
           "authors": [
@@ -2894,6 +2991,7 @@
           "doi": null,
           "title": "Sauropoda",
           "year": 1990,
+          "month": null,
           "journal": "The Dinosauria. University of California Press, Berkeley",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=36737",
           "authors": [
@@ -2930,6 +3028,7 @@
           "doi": null,
           "title": "Tracking the rise of dinosaurs in eastern Utah",
           "year": 1990,
+          "month": null,
           "journal": "Canyon Legacy",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=61952",
           "authors": [
@@ -2956,6 +3055,7 @@
           "doi": "10.17704/eshi.9.1.59584t2t2gl6r04t",
           "title": "Biography of William Harlow Reed: the story of a frontier fossil collector",
           "year": 1990,
+          "month": null,
           "journal": "Earth Sciences History",
           "url": "https://doi.org/10.17704/eshi.9.1.59584t2t2gl6r04t",
           "authors": [
@@ -2982,6 +3082,7 @@
           "doi": null,
           "title": "First day road log from Grand Junction to Moab via Riggs and Dinosaur hills, Fruita Paleontological Area, Rabbit Valley Research Natural Area, and Utah Highway 128",
           "year": 1991,
+          "month": null,
           "journal": "Guidebook for Dinosaur Quarries and Tracksites Tour, Western Colorado and Eastern Utah",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63755",
           "authors": [
@@ -3010,6 +3111,7 @@
           "doi": "10.1080/02724634.1992.10011446",
           "title": "A new diplodocid sauropod (Dinosauria) from Wyoming, U.S.A.",
           "year": 1992,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1080/02724634.1992.10011446",
           "authors": [
@@ -3038,6 +3140,7 @@
           "doi": null,
           "title": "Apatosaurus yahnahpin: a preliminary description of a new species of diplodocid dinosaur from the Late Jurassic Morrison Formation of southern Wyoming, the first sauropod dinosaur found with a complete set of \"belly ribs\"",
           "year": 1994,
+          "month": null,
           "journal": "Wyoming Geological Association Forty-Fourth Annual Field Conference. Wyoming Geological Association Guidebook",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14073",
           "authors": [
@@ -3065,6 +3168,7 @@
           "doi": null,
           "title": "Upper Jurassic sauropod babies from the Morrison Formation",
           "year": 1994,
+          "month": null,
           "journal": "Dinosaur Eggs and Babies",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14211",
           "authors": [
@@ -3092,6 +3196,7 @@
           "doi": null,
           "title": "Remarks on the North American sauropod Apatosaurus Marsh",
           "year": 1995,
+          "month": null,
           "journal": "Sixth Symposium on Mesozoic Terrestrial Ecosystems and Biota, Short Papers, A. Sun and Y. Wang (eds.), China Ocean Press, Beijing",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=10726",
           "authors": [
@@ -3128,6 +3233,7 @@
           "doi": null,
           "title": "The Early Cretaceous brachiosaurid dinosaurs Ornithopsis and Eucamerotus from the Isle of Wight, England",
           "year": 1995,
+          "month": null,
           "journal": "Palaeontology",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17003",
           "authors": [
@@ -3154,6 +3260,7 @@
           "doi": null,
           "title": "The real Jurassic park: dinosaurs and habitats at Como Bluff, Wyoming",
           "year": 1996,
+          "month": null,
           "journal": "The Continental Jurassic. Museum of Northern Arizona Bulletin",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=65427",
           "authors": [
@@ -3180,6 +3287,7 @@
           "doi": null,
           "title": "Sauropoda",
           "year": 1997,
+          "month": null,
           "journal": "Encyclopedia of Dinosaurs",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62063",
           "authors": [
@@ -3206,6 +3314,7 @@
           "doi": null,
           "title": "Yale Peabody Museum",
           "year": 1997,
+          "month": null,
           "journal": "Encyclopedia of Dinosaurs",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62081",
           "authors": [
@@ -3232,6 +3341,7 @@
           "doi": null,
           "title": "Evolución de las vértebras presacras en Sauropodomorpha [Evolution of the presacral vertebrae in Sauropodomorpha]",
           "year": 1999,
+          "month": null,
           "journal": "Ameghiniana",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=15138",
           "authors": [
@@ -3258,6 +3368,7 @@
           "doi": null,
           "title": "The macroevolution of the Diplodocimorpha (Dinosauria; Sauropoda): a developmental model",
           "year": 1999,
+          "month": null,
           "journal": "Ameghiniana",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19130",
           "authors": [
@@ -3284,6 +3395,7 @@
           "doi": null,
           "title": "Osteology, paleobiology, and relationships of the sauropod dinosaur Sauroposeidon",
           "year": 2000,
+          "month": null,
           "journal": "Acta Palaeontologica Polonica",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=78853",
           "authors": [
@@ -3312,6 +3424,7 @@
           "doi": "10.1525/california/9780520242098.003.0015",
           "title": "Sauropoda",
           "year": 2004,
+          "month": null,
           "journal": "The Dinosauria (2nd edition). University of California Press, Berkeley",
           "url": "https://doi.org/10.1525/california/9780520242098.003.0015",
           "authors": [
@@ -3350,6 +3463,7 @@
           "doi": null,
           "title": "A new specimen of Apatosaurus ajax (Sauropoda, Diplodocidae) from the Morrison Formation (Upper Jurassic) of Wyoming, USA",
           "year": 2004,
+          "month": null,
           "journal": "National Science Museum Monographs",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55036",
           "authors": [
@@ -3388,6 +3502,7 @@
           "doi": null,
           "title": "Evolution in the hyposphene-hypantrum complex within Sauropoda",
           "year": 2005,
+          "month": null,
           "journal": "Thunder-Lizards: The Sauropodomorph Dinosaurs. Indiana University Press, Bloomington",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19570",
           "authors": [
@@ -3414,6 +3529,7 @@
           "doi": null,
           "title": "Evolution of the titanosaur metacarpus",
           "year": 2005,
+          "month": null,
           "journal": "Thunder-Lizards: The Sauropodomorph Dinosaurs. Indiana University Press, Bloomington",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19573",
           "authors": [
@@ -3440,6 +3556,7 @@
           "doi": "10.1111/j.1475-4983.2006.00577.x",
           "title": "The axial skeleton of the dinosaur Suuwassea emilieae (Sauropoda: Flagellicaudata) from the Upper Jurassic Morrison Formation of Montana, USA",
           "year": 2006,
+          "month": null,
           "journal": "Palaeontology",
           "url": "https://doi.org/10.1111/j.1475-4983.2006.00577.x",
           "authors": [
@@ -3466,6 +3583,7 @@
           "doi": null,
           "title": "Late Jurassic dinosaurs from the Morrison Formation (USA), the Lourinhã and Alcobaça Formations (Portugal), and the Tendaguru Beds (Tanzania): a comparison",
           "year": 2006,
+          "month": null,
           "journal": "Paleontology and Geology of the Upper Jurassic Morrison Formation. New Mexico Museum of Natural History and Science Bulletin",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19893",
           "authors": [
@@ -3492,6 +3610,7 @@
           "doi": null,
           "title": "Consideraciones sobre las láminas neurales de los dinosaurios saurópodos y su significado morfofuncional [Considerations on the neural laminae of sauropod dinosaurs and their morphofunctional significance]",
           "year": 2006,
+          "month": null,
           "journal": "Revista del Museo Argentino de Ciencias Naturales, nuevo serie",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=23342",
           "authors": [
@@ -3520,6 +3639,7 @@
           "doi": null,
           "title": "The fauna and flora of the Morrison Formation: 2006",
           "year": 2006,
+          "month": null,
           "journal": "Paleontology and Geology of the Upper Jurassic Morrison Formation. New Mexico Museum of Natural History and Science Bulletin",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=31174",
           "authors": [
@@ -3548,6 +3668,7 @@
           "doi": null,
           "title": "Seismosaurus hallorium: osteological reconstruction from the holotype",
           "year": 2006,
+          "month": null,
           "journal": "Paleontology and Geology of the Upper Jurassic Morrison Formation. New Mexico Museum of Natural History and Science Bulletin",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=65210",
           "authors": [
@@ -3575,6 +3696,7 @@
           "doi": "10.1080/08912960601118651",
           "title": "A nearly complete skeleton of an early juvenile diplodocid (Dinosauria: Sauropoda) from the Lower Morrison Formation (Late Jurassic) of north central Wyoming and its implications for early ontogeny and pneumaticity in sauropods",
           "year": 2007,
+          "month": null,
           "journal": "Historical Biology",
           "url": "https://doi.org/10.1080/08912960601118651",
           "authors": [
@@ -3603,6 +3725,7 @@
           "doi": null,
           "title": "The discovery and loss of the “colossal” Brontosaurus giganteus from the fossil fields of Wyoming (USA) and the events that led to the discovery of Diplodocus carnegii: the first mounted dinosaur on the Iberian Peninsula",
           "year": 2013,
+          "month": null,
           "journal": "VI Jornadas Internacionales sobre Paleontología de Dinosaurios y su Entorno. Libro de Resúmenes",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=81293",
           "authors": [
@@ -3629,6 +3752,7 @@
           "doi": "10.7717/peerj.857",
           "title": "A specimen-level phylogenetic analysis and taxonomic revision of Diplodocidae (Dinosauria, Sauropoda)",
           "year": 2015,
+          "month": null,
           "journal": "PeerJ",
           "url": "https://doi.org/10.7717/peerj.857",
           "authors": [
@@ -3667,6 +3791,7 @@
           "doi": "10.1016/j.palwor.2015.11.006",
           "title": "First report of Apatosaurus (Diplodocidae: Apatosaurinae) from the Cleveland-Lloyd Quarry in the Upper Jurassic Morrison Formation of Utah: abundance, distribution, paleoecology, and taphonomy of an endemic North American sauropod clade",
           "year": 2016,
+          "month": null,
           "journal": "Palaeoworld",
           "url": "https://doi.org/10.1016/j.palwor.2015.11.006",
           "authors": [
@@ -3704,6 +3829,7 @@
           "doi": "10.1080/02724634.2019.1578782",
           "title": "A new macronarian sauropod from the Upper Jurassic of Portugal",
           "year": 2019,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1080/02724634.2019.1578782",
           "authors": [
@@ -3732,6 +3858,7 @@
           "doi": "10.1206/0003-0090.437.1.1",
           "title": "Reassessment of a historical collection of sauropod dinosaurs from the northern Morrison Formation of Wyoming, with implications for sauropod biogeography",
           "year": 2019,
+          "month": null,
           "journal": "Bulletin of the American Museum of Natural History",
           "url": "https://doi.org/10.1206/0003-0090.437.1.1",
           "authors": [
@@ -3760,6 +3887,7 @@
           "doi": "10.1080/08912963.2019.1661406",
           "title": "New taxonomic assignment for a dinosaur sauropod bone from Cuba",
           "year": 2021,
+          "month": null,
           "journal": "Historical Biology",
           "url": "https://doi.org/10.1080/08912963.2019.1661406",
           "authors": [
@@ -3802,6 +3930,7 @@
           "doi": null,
           "title": "L'age des formations sédimentaires de Patagonie [The age of the sedimentary formations of Patagonia]",
           "year": 1900,
+          "month": null,
           "journal": "Anales de la Sociedad Científica Argentina",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52202",
           "authors": [
@@ -3826,6 +3955,7 @@
           "doi": null,
           "title": "Nadotryad Dinosauria. Dinozavry [Superorder Dinosauria. Dinosaurs]",
           "year": 1964,
+          "month": null,
           "journal": "Osnovy Paleontologii [Fundamentals of Paleontology]",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52169",
           "authors": [
@@ -3850,6 +3980,7 @@
           "doi": null,
           "title": "El Mesozoico de America de Sur y sus Tetrapodos [The Mesozoic of South America and its tetrapods]",
           "year": 1978,
+          "month": null,
           "journal": "Opera Lilloana",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=59610",
           "authors": [
@@ -3874,6 +4005,7 @@
           "doi": null,
           "title": "Sauropoda",
           "year": 1990,
+          "month": null,
           "journal": "The Dinosauria. University of California Press, Berkeley",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=36737",
           "authors": [
@@ -3899,6 +4031,7 @@
           "doi": null,
           "title": "L'age des formations sédimentaires de Patagonie [The age of the sedimentary formations of Patagonia]",
           "year": 1900,
+          "month": null,
           "journal": "Anales de la Sociedad Científica Argentina",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52202",
           "authors": [
@@ -3935,6 +4068,7 @@
           "doi": null,
           "title": "Contribución a la paleogeografía de Sud América [Contribution to the paleogeography of South America]",
           "year": 1927,
+          "month": null,
           "journal": "Boletín de la Academia Nacional de Ciencias de la República Argentina",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63986",
           "authors": [
@@ -3971,6 +4105,7 @@
           "doi": null,
           "title": "Los sauriquios y ornitisquios del Cretáceo argentino",
           "year": 1929,
+          "month": null,
           "journal": "Anales del Museo de La Plata, serie 2",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=59060",
           "authors": [
@@ -4007,6 +4142,7 @@
           "doi": "10.1002/cber.19390720447",
           "title": "Fossilium Catalogus. I: Animalia. Pars 87: Saurischia",
           "year": 1939,
+          "month": null,
           "journal": "W. Junk",
           "url": "https://doi.org/10.1002/cber.19390720447",
           "authors": [
@@ -4043,6 +4179,7 @@
           "doi": null,
           "title": "Ein obercretacischer Saurierrest aus Polen [An Upper Cretaceous saurian remain from Poland]",
           "year": 1941,
+          "month": null,
           "journal": "Zentralblatt für Mineralogie, Geologie und Paläontologie, Abteilung B: Geologie und Paläontologie",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=24386",
           "authors": [
@@ -4069,6 +4206,7 @@
           "doi": null,
           "title": "Osteology of the Reptiles, University of Chicago Press",
           "year": 1956,
+          "month": null,
           "journal": null,
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13854",
           "authors": [
@@ -4095,6 +4233,7 @@
           "doi": null,
           "title": "Nadotryad Dinosauria. Dinozavry [Superorder Dinosauria. Dinosaurs]",
           "year": 1964,
+          "month": null,
           "journal": "Osnovy Paleontologii [Fundamentals of Paleontology]",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52169",
           "authors": [
@@ -4121,6 +4260,7 @@
           "doi": "10.1119/1.1973174",
           "title": "Vertebrate Paleontology, 3rd edition",
           "year": 1966,
+          "month": null,
           "journal": "University of Chicago Press",
           "url": "https://doi.org/10.1119/1.1973174",
           "authors": [
@@ -4147,6 +4287,7 @@
           "doi": null,
           "title": "Part 14. Saurischia",
           "year": 1970,
+          "month": null,
           "journal": "Handbuch der Paläoherpetologie/Encyclopedia of Paleoherpetology. Gustav Fischer Verlag, Stuttgart",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=15490",
           "authors": [
@@ -4183,6 +4324,7 @@
           "doi": null,
           "title": "El Mesozoico de America de Sur y sus Tetrapodos [The Mesozoic of South America and its tetrapods]",
           "year": 1978,
+          "month": null,
           "journal": "Opera Lilloana",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=59610",
           "authors": [
@@ -4219,6 +4361,7 @@
           "doi": null,
           "title": "Faunas y paleobiogografia de los tetrápodos mesozoicos de América del Sur [Faunas and paleobiogeography of the Mesozoic tetrapods of South America]",
           "year": 1979,
+          "month": null,
           "journal": "Ameghiniana",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55148",
           "authors": [
@@ -4245,6 +4388,7 @@
           "doi": null,
           "title": "Australian late Mesozoic continental tetrapods: some implications",
           "year": 1980,
+          "month": null,
           "journal": "Mémoires de la Société Géologique de France, Nouvelle Série",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=10348",
           "authors": [
@@ -4271,6 +4415,7 @@
           "doi": null,
           "title": "Sauropoda",
           "year": 1990,
+          "month": null,
           "journal": "The Dinosauria. University of California Press, Berkeley",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=36737",
           "authors": [
@@ -4307,6 +4452,7 @@
           "doi": null,
           "title": "Los dinosaurios de Ameghino [The dinosaurs of Ameghino]",
           "year": 1999,
+          "month": null,
           "journal": "Ameghiniana",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76421",
           "authors": [
@@ -4344,6 +4490,7 @@
           "doi": null,
           "title": "Revision of South American titanosaurid dinosaurs: palaeobiological, palaeobiogeographical and phylogenetic aspects",
           "year": 2003,
+          "month": null,
           "journal": "Records of the Queen Victoria Museum Launceston",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13712",
           "authors": [
@@ -4380,6 +4527,7 @@
           "doi": "10.1525/california/9780520242098.003.0015",
           "title": "Sauropoda",
           "year": 2004,
+          "month": null,
           "journal": "The Dinosauria (2nd edition). University of California Press, Berkeley",
           "url": "https://doi.org/10.1525/california/9780520242098.003.0015",
           "authors": [
@@ -4418,6 +4566,7 @@
           "doi": "10.1016/j.gr.2007.04.007",
           "title": "The sauropod diversity of the La Amarga Formation (Barremian), Neuquén (Argentina)",
           "year": 2007,
+          "month": null,
           "journal": "Gondwana Research",
           "url": "https://doi.org/10.1016/j.gr.2007.04.007",
           "authors": [
@@ -4454,6 +4603,7 @@
           "doi": "10.1016/j.cretres.2023.105735",
           "title": "Fossil vertebrates from the Cerro Fortaleza Formation (Upper Cretaceous), Santa Cruz Province, Argentina",
           "year": 2024,
+          "month": null,
           "journal": "Cretaceous Research",
           "url": "https://doi.org/10.1016/j.cretres.2023.105735",
           "authors": [
@@ -4517,6 +4667,7 @@
           "doi": null,
           "title": "[Fossile Reptilienknochen aus dem Keuper] [Fossil reptile bones from the Keuper]",
           "year": 1856,
+          "month": null,
           "journal": "Verhandlungen der Schweizerischen Naturforschenden Gesellschaft",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=34081",
           "authors": [
@@ -4541,6 +4692,7 @@
           "doi": null,
           "title": "Prosauropod dinosaurs (Reptilia: Saurischia) of North America",
           "year": 1976,
+          "month": null,
           "journal": "Postilla",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12624",
           "authors": [
@@ -4565,6 +4717,7 @@
           "doi": "10.1186/s00015-020-00360-8",
           "title": "A derived sauropodiform dinosaur and other sauropodomorph material from the Late Triassic of Canton Schaffhausen, Switzerland",
           "year": 2020,
+          "month": null,
           "journal": "Swiss Journal of Geosciences",
           "url": "https://doi.org/10.1186/s00015-020-00360-8",
           "authors": [
@@ -4592,6 +4745,7 @@
           "doi": null,
           "title": "[Fossile Reptilienknochen aus dem Keuper] [Fossil reptile bones from the Keuper]",
           "year": 1856,
+          "month": null,
           "journal": "Verhandlungen der Schweizerischen Naturforschenden Gesellschaft",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=34081",
           "authors": [
@@ -4628,6 +4782,7 @@
           "doi": null,
           "title": "Über die im Keuper zu Liestal bei Basel aufgefundenen Reptilien-Reste von Belodon [On the reptilian remains of Belodon, found in the Keuper at Leistal near Basel]",
           "year": 1857,
+          "month": null,
           "journal": "Neues Jahrbuch für Mineralogie, Geognosie, Geologie und Petrfakten-Kunde",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18434",
           "authors": [
@@ -4654,6 +4809,7 @@
           "doi": null,
           "title": "Epochen der Natur [Epochs of Nature]",
           "year": 1861,
+          "month": null,
           "journal": "H. Laupp’schen Buchhandlung",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=22076",
           "authors": [
@@ -4680,6 +4836,7 @@
           "doi": null,
           "title": "Handbuch der Petrefaktenkunde [Handbook of Fossils]",
           "year": 1882,
+          "month": null,
           "journal": "H. Laupp'schen Buchhandlung",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=69419",
           "authors": [
@@ -4716,6 +4873,7 @@
           "doi": "10.1017/s0016756800173480",
           "title": "Catalogue of the Fossil Reptilia and Amphibia in the British Museum (Natural History). Part I. Containing the Orders Ornithosauria, Crocodilia, Dinosauria, Squamata, Rhynchocephalia, and Proterosauria. British Museum (Natural History), London",
           "year": 1888,
+          "month": null,
           "journal": null,
           "url": "https://doi.org/10.1017/s0016756800173480",
           "authors": [
@@ -4742,6 +4900,7 @@
           "doi": null,
           "title": "Handbuch der Palaeontologie. I. Abteilung Paleozoologie. III. Band. Vertebrata (Pisces, Amphibia, Reptilia, Aves) [Handbook of Paleontology. Division I. Paleozoology. Volume III. Vertebrata (Pisces, Amphibia, Reptilia, Aves)]",
           "year": 1890,
+          "month": null,
           "journal": "R. Oldenbourg",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=64473",
           "authors": [
@@ -4768,6 +4927,7 @@
           "doi": null,
           "title": "A dinosaurusok átnézete és származása [Review and origin of dinosaurs]",
           "year": 1901,
+          "month": null,
           "journal": "Földtani Közlöny",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76570",
           "authors": [
@@ -4804,6 +4964,7 @@
           "doi": null,
           "title": "Übersicht über die Reptilien der Trias [Review of the Reptilia of the Triassic]",
           "year": 1902,
+          "month": null,
           "journal": "Geologische und Paläontologische Abhandlungen (Neue Serie). Gustav Fischer Verlag, Jena",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=31892",
           "authors": [
@@ -4830,6 +4991,7 @@
           "doi": null,
           "title": "Neue Untersuchungen über Keuper und Lias bei Niederschönthal (Basler Tafeljura) [New investigations on the Keuper and Lias near Niederschönthal (Basel Table Jura)]",
           "year": 1902,
+          "month": null,
           "journal": "Verhandlungen der Naturforschenden Gesellschaft in Basel",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=65673",
           "authors": [
@@ -4856,6 +5018,7 @@
           "doi": "10.1127/mbzdgg/57/1905/345",
           "title": "Trias-Dinosaurier Europas [European Triassic dinosaurs]",
           "year": 1905,
+          "month": null,
           "journal": "Zeitschrift der Deutschen Geologischen Gesellschaft",
           "url": "https://doi.org/10.1127/mbzdgg/57/1905/345",
           "authors": [
@@ -4892,6 +5055,7 @@
           "doi": null,
           "title": "Die Dinosaurier der Europäischen Triasformation mit berücksichtigung der Ausseuropäischen vorkommnisse [The dinosaurs of the European Triassic formations with consideration of occurrences outside Europe]",
           "year": 1908,
+          "month": null,
           "journal": "Geologische und Palaeontologische Abhandlungen",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=10510",
           "authors": [
@@ -4938,6 +5102,7 @@
           "doi": null,
           "title": "Eine Zusammenstellung über die englische Trias und das Alter ihrer Fossilien [A compilation on the English Trias and the age of its fossils]",
           "year": 1908,
+          "month": null,
           "journal": "Centralblatt für Mineralogie, Geologie und Paläontologie",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16877",
           "authors": [
@@ -4964,6 +5129,7 @@
           "doi": null,
           "title": "Skizze zu einer Systematik und Stammesgeschichte der Dinosaurier [Sketch of the systematics and origins of the dinosaurs]",
           "year": 1909,
+          "month": null,
           "journal": "Centralblatt für Mineralogie, Geologie und Paläontologie",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16879",
           "authors": [
@@ -4990,6 +5156,7 @@
           "doi": null,
           "title": "Grundzüge der Paläontologie (Paläozoologie). II. Abteilung. Vertebrata [Fundamentals of Paleontology (Paleozoology). Section II. Vertebrata]",
           "year": 1911,
+          "month": null,
           "journal": "Druck und Verlag von R. Oldenbourg, München",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17275",
           "authors": [
@@ -5016,6 +5183,7 @@
           "doi": null,
           "title": "Reptilia. Paläontologie [Reptilia. Paleontology]",
           "year": 1913,
+          "month": null,
           "journal": "Handwörterbuch der Naturwissenschaften",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52458",
           "authors": [
@@ -5042,6 +5210,7 @@
           "doi": null,
           "title": "Das natürliche System der Saurischia [The systematics of the Saurischia]",
           "year": 1914,
+          "month": null,
           "journal": "Centralblatt für Mineralogie, Geologie und Paläontologie",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16859",
           "authors": [
@@ -5078,6 +5247,7 @@
           "doi": null,
           "title": "I: Animalia. Pars 4. Saurischia et Ornithischia triadica (“Dinosauria” triadica)",
           "year": 1914,
+          "month": null,
           "journal": "W. Junk",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62966",
           "authors": [
@@ -5124,6 +5294,7 @@
           "doi": null,
           "title": "Beiträge zur Kenntnis einiger Saurischier der schwäbischen Trias [Contributions to the knowledge of some saurischians from the Swabian Trias]",
           "year": 1915,
+          "month": null,
           "journal": "Neues Jahrbuch für Mineralogie, Geologie und Paläontologie",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18501",
           "authors": [
@@ -5150,6 +5321,7 @@
           "doi": null,
           "title": "Über ein neues Rhätvorkommen im Keuper des Donau-Rheinzuges [On a new occurrence of the Rhaetian in the Keuper of the Danube-Rhine valleys]",
           "year": 1919,
+          "month": null,
           "journal": "Mitteilungen der Badischen Geologischen Landesanstalt",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=71681",
           "authors": [
@@ -5177,6 +5349,7 @@
           "doi": null,
           "title": "Contributions to the knowledge of the reptiles of the Karroo Formation. 6. Further dinosaurian material in the Transvaal Museum",
           "year": 1920,
+          "month": null,
           "journal": "Annals of the Transvaal Museum",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14536",
           "authors": [
@@ -5203,6 +5376,7 @@
           "doi": null,
           "title": "Dinosaurian climatic response",
           "year": 1924,
+          "month": null,
           "journal": "Organic Adaptation to Environment",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63357",
           "authors": [
@@ -5229,6 +5403,7 @@
           "doi": "10.1515/9783112350300",
           "title": "Die Lebewelt Unserer Trias. Nachtrag 1938 [The Living World of Our Triassic. 1938 Supplement]",
           "year": 1938,
+          "month": null,
           "journal": "Hohenloche’sche Buchhandlung",
           "url": "https://doi.org/10.1515/9783112350300",
           "authors": [
@@ -5265,6 +5440,7 @@
           "doi": "10.1002/cber.19390720447",
           "title": "Fossilium Catalogus. I: Animalia. Pars 87: Saurischia",
           "year": 1939,
+          "month": null,
           "journal": "W. Junk",
           "url": "https://doi.org/10.1002/cber.19390720447",
           "authors": [
@@ -5311,6 +5487,7 @@
           "doi": null,
           "title": "Über Wirbeltierfunde aus dem Rhät von Hallau (Kt. Schaffhausen) [On the vertebrate finds from the Rhaetian of Hallau (Canton Schaffhausen)]",
           "year": 1944,
+          "month": null,
           "journal": "Eclogae Geologicae Helveticae",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=49933",
           "authors": [
@@ -5337,6 +5514,7 @@
           "doi": null,
           "title": "Osteology of the Reptiles, University of Chicago Press",
           "year": 1956,
+          "month": null,
           "journal": null,
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13854",
           "authors": [
@@ -5363,6 +5541,7 @@
           "doi": null,
           "title": "The Mesozoic reptiles of Dorset. Part two",
           "year": 1960,
+          "month": null,
           "journal": "Proceedings of the Dorset Natural History and Archaeological Society",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=31216",
           "authors": [
@@ -5389,6 +5568,7 @@
           "doi": null,
           "title": "Nadotryad Dinosauria. Dinozavry [Superorder Dinosauria. Dinosaurs]",
           "year": 1964,
+          "month": null,
           "journal": "Osnovy Paleontologii [Fundamentals of Paleontology]",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52169",
           "authors": [
@@ -5415,6 +5595,7 @@
           "doi": "10.5962/bhl.title.5426",
           "title": "The non-therapsid reptiles of the Lufeng Basin, Yunnan, China",
           "year": 1965,
+          "month": null,
           "journal": "Fieldiana: Geology",
           "url": "https://doi.org/10.5962/bhl.title.5426",
           "authors": [
@@ -5441,6 +5622,7 @@
           "doi": "10.1119/1.1973174",
           "title": "Vertebrate Paleontology, 3rd edition",
           "year": 1966,
+          "month": null,
           "journal": "University of Chicago Press",
           "url": "https://doi.org/10.1119/1.1973174",
           "authors": [
@@ -5467,6 +5649,7 @@
           "doi": null,
           "title": "Archosauria",
           "year": 1967,
+          "month": null,
           "journal": "The Fossil Record: A Symposium with Documentation. Geological Society of London Special Publication",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=77959",
           "authors": [
@@ -5503,6 +5686,7 @@
           "doi": null,
           "title": "Part 14. Saurischia",
           "year": 1970,
+          "month": null,
           "journal": "Handbuch der Paläoherpetologie/Encyclopedia of Paleoherpetology. Gustav Fischer Verlag, Stuttgart",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=15490",
           "authors": [
@@ -5549,6 +5733,7 @@
           "doi": null,
           "title": "Empreintes de Pas de Vertébrés du Trias de la Bordure Nord-Est du Massif Central (Vertebrate Footprints from the Triassic of the Northeast Border of the Massif Central]",
           "year": 1970,
+          "month": null,
           "journal": "Cahiers de Paléontologie",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=68923",
           "authors": [
@@ -5575,6 +5760,7 @@
           "doi": "10.1007/978-94-010-2977-3_33",
           "title": "Die Saurier der deutschen Trias [Reptiles of the German Triassic]",
           "year": 1971,
+          "month": null,
           "journal": "Verlag Gebr. Geiselberger",
           "url": "https://doi.org/10.1007/978-94-010-2977-3_33",
           "authors": [
@@ -5621,6 +5807,7 @@
           "doi": null,
           "title": "Prosauropod dinosaurs (Reptilia: Saurischia) of North America",
           "year": 1976,
+          "month": null,
           "journal": "Postilla",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12624",
           "authors": [
@@ -5647,6 +5834,7 @@
           "doi": null,
           "title": "Some characteristics of Barapasaurus tagorei, a sauropod dinosaur from the Lower Jurassic of Deccan, India",
           "year": 1979,
+          "month": null,
           "journal": "In B. Laskar & C. S. Raja Rao (eds.), Fourth International Gondwana Symposium: Papers. Hindustan Publishing Corporation, Delhi",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17770",
           "authors": [
@@ -5675,6 +5863,7 @@
           "doi": null,
           "title": "The prosauropod dinosaur Massospondylus carinatus Owen from Zimbabwe: its biology, mode of life and phylogenetic significance",
           "year": 1981,
+          "month": null,
           "journal": "Occasional Papers of the National Museums and Monuments of Rhodesia, Series B, Natural Sciences",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=10538",
           "authors": [
@@ -5701,6 +5890,7 @@
           "doi": null,
           "title": "Cranial anatomy of the prosauropod dinosaur Plateosaurus from the Knollenmergel (Middle Keuper, Upper Triassic) of Germany. II. All the cranial materials and details of soft-part anatomy",
           "year": 1985,
+          "month": null,
           "journal": "Geologica et Palaeontologica",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12789",
           "authors": [
@@ -5747,6 +5937,7 @@
           "doi": null,
           "title": "Prosauropod dinosaur Plateosaurus (= Gresslyosaurus) (Saurischia: Sauropodomorpha) from the Upper Triassic of Switzerland",
           "year": 1986,
+          "month": null,
           "journal": "Geologica et Palaeontologica",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12799",
           "authors": [
@@ -5783,6 +5974,7 @@
           "doi": "10.1127/njgpa/216/2000/233",
           "title": "The prosauropod dinosaur Plateosaurus MEYER, 1837 (Saurischia, Sauropodomorpha).  I.  The syntypes of P. engelhardti MEYER, 1837 (Upper Triassic, Germany), with notes on other European prosauropods with \"distally straight\" femora",
           "year": 2000,
+          "month": null,
           "journal": "Neues Jahrbuch für Geologie und Paläontologie Abhandlungen",
           "url": "https://doi.org/10.1127/njgpa/216/2000/233",
           "authors": [
@@ -5809,6 +6001,7 @@
           "doi": null,
           "title": "Prosauropod dinosaurs from the Upper Triassic of Germany",
           "year": 2001,
+          "month": null,
           "journal": "Actas de Las I Jornadas Internacionales Sobre Paleontología de Dinosaurios y Su Entorno, Salas de Los Infantes, Burgos, Spain, September 1999. Colectivo Arqueológico-Paleontológico de Salas, C.A.S.",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=25716",
           "authors": [
@@ -5835,6 +6028,7 @@
           "doi": "10.1525/california/9780520242098.003.0014",
           "title": "Prosauropoda",
           "year": 2004,
+          "month": null,
           "journal": "The Dinosauria (second edition). University of California Press, Berkeley",
           "url": "https://doi.org/10.1525/california/9780520242098.003.0014",
           "authors": [
@@ -5882,6 +6076,7 @@
           "doi": "10.1144/0016-76492006-032",
           "title": "Dinosaurs of Great Britain and the role of the Geological Society of London in their discovery: basal Dinosauria and Saurischia",
           "year": 2007,
+          "month": null,
           "journal": "Journal of the Geological Society, London",
           "url": "https://doi.org/10.1144/0016-76492006-032",
           "authors": [
@@ -5909,6 +6104,7 @@
           "doi": "10.1186/s00015-020-00360-8",
           "title": "A derived sauropodiform dinosaur and other sauropodomorph material from the Late Triassic of Canton Schaffhausen, Switzerland",
           "year": 2020,
+          "month": null,
           "journal": "Swiss Journal of Geosciences",
           "url": "https://doi.org/10.1186/s00015-020-00360-8",
           "authors": [
@@ -5937,6 +6133,7 @@
           "doi": "10.4202/app.00757.2020",
           "title": "Postcranial osteology of the first early-stage juvenile skeleton of Plateosaurus trossingensis from the Norian of Frick, Switzerland",
           "year": 2020,
+          "month": null,
           "journal": "Acta Palaeontologica Polonica",
           "url": "https://doi.org/10.4202/app.00757.2020",
           "authors": [
@@ -5965,6 +6162,7 @@
           "doi": "10.3897/vz.72.e86348",
           "title": "A new massopodan sauropodomorph from Trossingen Formation (Germany) hidden as ‘Plateosaurus’ for 100 years in the historical Tübingen collection",
           "year": 2022,
+          "month": null,
           "journal": "Vertebrate Zoology",
           "url": "https://doi.org/10.3897/vz.72.e86348",
           "authors": [
@@ -6006,6 +6204,7 @@
           "doi": null,
           "title": "A new carnivorous dinosaur from the Lance Formation of Montana",
           "year": 1946,
+          "month": null,
           "journal": "Smithsonian Miscellaneous Collections",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14592",
           "authors": [
@@ -6030,6 +6229,7 @@
           "doi": null,
           "title": "Nanotyrannus, a new genus of pygmy tyrannosaur, from the latest Cretaceous of Montana",
           "year": 1988,
+          "month": null,
           "journal": "Hunteria",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=7925",
           "authors": [
@@ -6056,6 +6256,7 @@
           "doi": "10.1080/02724634.1999.10011161",
           "title": "Craniofacial ontogeny in Tyrannosauridae (Dinosauria, Coelurosauria)",
           "year": 1999,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1080/02724634.1999.10011161",
           "authors": [
@@ -6080,6 +6281,7 @@
           "doi": "10.1139/e02-083",
           "title": "Allometric growth in tyrannosaurids (Dinosauria: Theropoda) from the Upper Cretaceous of North America and Asia",
           "year": 2003,
+          "month": null,
           "journal": "Canadian Journal of Earth Sciences",
           "url": "https://doi.org/10.1139/e02-083",
           "authors": [
@@ -6104,6 +6306,7 @@
           "doi": "10.1111/j.1096-3642.2004.00130.x",
           "title": "Diversity of late Maastrichtian Tyrannosauridae (Dinosauria: Theropoda) from western North America",
           "year": 2004,
+          "month": null,
           "journal": "Zoological Journal of the Linnean Society",
           "url": "https://doi.org/10.1111/j.1096-3642.2004.00130.x",
           "authors": [
@@ -6129,6 +6332,7 @@
           "doi": "10.3390/fossils2040012",
           "title": "A new tyrant dinosaur from the late Campanian of Mexico reveals a tribe of southern tyrannosaurs",
           "year": 2024,
+          "month": null,
           "journal": "Fossil Studies",
           "url": "https://doi.org/10.3390/fossils2040012",
           "authors": [
@@ -6154,6 +6358,7 @@
           "doi": "10.1038/s41586-025-09801-6",
           "title": "Nanotyrannus and Tyrannosaurus coexisted at the close of the Cretaceous",
           "year": 2025,
+          "month": null,
           "journal": "Nature",
           "url": "https://doi.org/10.1038/s41586-025-09801-6",
           "authors": [
@@ -6180,6 +6385,7 @@
           "doi": null,
           "title": "A new carnivorous dinosaur from the Lance Formation of Montana",
           "year": 1946,
+          "month": null,
           "journal": "Smithsonian Miscellaneous Collections",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14592",
           "authors": [
@@ -6206,6 +6412,7 @@
           "doi": null,
           "title": "Archosauria",
           "year": 1967,
+          "month": null,
           "journal": "The Fossil Record: A Symposium with Documentation. Geological Society of London Special Publication",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=77959",
           "authors": [
@@ -6232,6 +6439,7 @@
           "doi": null,
           "title": "Part 14. Saurischia",
           "year": 1970,
+          "month": null,
           "journal": "Handbuch der Paläoherpetologie/Encyclopedia of Paleoherpetology. Gustav Fischer Verlag, Stuttgart",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=15490",
           "authors": [
@@ -6258,6 +6466,7 @@
           "doi": "10.1139/e72-031",
           "title": "Tyrannosaurs from the Late Cretaceous of western Canada",
           "year": 1970,
+          "month": null,
           "journal": "National Museum of Natural Sciences, Publications in Paleontology",
           "url": "https://doi.org/10.1139/e72-031",
           "authors": [
@@ -6284,6 +6493,7 @@
           "doi": null,
           "title": "Comments on new tyrannosaurid material from Montana",
           "year": 1970,
+          "month": null,
           "journal": "1970 Meeting of the Southern California Academy of Sciences. Bulletin of the Southern California Paleontological Society",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=64603",
           "authors": [
@@ -6310,6 +6520,7 @@
           "doi": null,
           "title": "Noviy pozdnemelovoy karnozavr is Nogon-Tsava, Mongoliya [A new late Mesozoic carnosaur from Nogon-Tsav, Mongolia]",
           "year": 1976,
+          "month": null,
           "journal": "Paleontology and Biostratigraphy of Mongolia. The Joint Soviet-Mongolian Paleontological Expedition, Transactions",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19316",
           "authors": [
@@ -6336,6 +6547,7 @@
           "doi": null,
           "title": "The ecology of dinosaur extinction",
           "year": 1976,
+          "month": null,
           "journal": "Athlon: Essays on Palaeontology in Honor of Loris Shano Russell. Royal Ontario Museum, Life Sciences Miscellaneous Publications",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53515",
           "authors": [
@@ -6362,6 +6574,7 @@
           "doi": null,
           "title": "A new theropod dinosaur from the Upper Cretaceous of central Montana",
           "year": 1978,
+          "month": null,
           "journal": "Journal of Paleontology",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=10351",
           "authors": [
@@ -6388,6 +6601,7 @@
           "doi": null,
           "title": "An albertosaur from the Hell Creek Formation of Montana",
           "year": 1980,
+          "month": null,
           "journal": "Journal of Paleontology",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17469",
           "authors": [
@@ -6414,6 +6628,7 @@
           "doi": null,
           "title": "Saurischian monophyly and the origin of birds",
           "year": 1986,
+          "month": null,
           "journal": "The Origin of Birds and the Evolution of Flight, K. Padian (ed.), Memoirs of the California Academy of Sciences",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=10102",
           "authors": [
@@ -6440,6 +6655,7 @@
           "doi": null,
           "title": "Predatory Dinosaurs of the World. Simon & Schuster, New York",
           "year": 1988,
+          "month": null,
           "journal": null,
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=10350",
           "authors": [
@@ -6466,6 +6682,7 @@
           "doi": null,
           "title": "Nanotyrannus, a new genus of pygmy tyrannosaur, from the latest Cretaceous of Montana",
           "year": 1988,
+          "month": null,
           "journal": "Hunteria",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=7925",
           "authors": [
@@ -6504,6 +6721,7 @@
           "doi": null,
           "title": "Carnosauria",
           "year": 1990,
+          "month": null,
           "journal": "The Dinosauria. University of California Press, Berkeley",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=36802",
           "authors": [
@@ -6542,6 +6760,7 @@
           "doi": null,
           "title": "The cranial morphology of Tyrannosaurus rex",
           "year": 1991,
+          "month": null,
           "journal": "Palaeontographica Abteilung A",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17477",
           "authors": [
@@ -6568,6 +6787,7 @@
           "doi": null,
           "title": "Tyrannosaurids (Dinosauria) of Asia and North America",
           "year": 1992,
+          "month": null,
           "journal": "Aspects of Nonmarine Cretaceous Geology, N. J. Mateer and P. J. Chen (eds.), China Ocean Press, Beijing",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12201",
           "authors": [
@@ -6594,6 +6814,7 @@
           "doi": null,
           "title": "Saurischian dinosaurs of the Late Cretaceous of Asia and North America",
           "year": 1992,
+          "month": null,
           "journal": "Aspects of Nonmarine Cretaceous Geology. China Ocean Press, Beijing",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=33325",
           "authors": [
@@ -6630,6 +6851,7 @@
           "doi": null,
           "title": "Craniofacial ontogeny in tyrannosaurids: taxonomic implications",
           "year": 1996,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14741",
           "authors": [
@@ -6656,6 +6878,7 @@
           "doi": "10.1127/njgpa/210/1998/41",
           "title": "A rationale for phylogenetic definitions, with application to the higher-level taxonomy of Dinosauria",
           "year": 1998,
+          "month": null,
           "journal": "Neues Jahrbuch für Geologie und Paläontologie, Abhandlungen",
           "url": "https://doi.org/10.1127/njgpa/210/1998/41",
           "authors": [
@@ -6682,6 +6905,7 @@
           "doi": "10.1080/02724634.1999.10011161",
           "title": "Craniofacial ontogeny in Tyrannosauridae (Dinosauria, Coelurosauria)",
           "year": 1999,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1080/02724634.1999.10011161",
           "authors": [
@@ -6718,6 +6942,7 @@
           "doi": "10.1139/e02-083",
           "title": "Allometric growth in tyrannosaurids (Dinosauria: Theropoda) from the Upper Cretaceous of North America and Asia",
           "year": 2003,
+          "month": null,
           "journal": "Canadian Journal of Earth Sciences",
           "url": "https://doi.org/10.1139/e02-083",
           "authors": [
@@ -6754,6 +6979,7 @@
           "doi": null,
           "title": "Skull structure and evolution in tyrannosaurid dinosaurs",
           "year": 2003,
+          "month": null,
           "journal": "Acta Palaeontologica Polonica",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14430",
           "authors": [
@@ -6792,6 +7018,7 @@
           "doi": null,
           "title": "The interrelationships and evolution of basal theropod dinosaurs",
           "year": 2003,
+          "month": null,
           "journal": "Special Papers in Palaeontology",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=24190",
           "authors": [
@@ -6828,6 +7055,7 @@
           "doi": "10.1111/j.1096-3642.2004.00130.x",
           "title": "Diversity of late Maastrichtian Tyrannosauridae (Dinosauria: Theropoda) from western North America",
           "year": 2004,
+          "month": null,
           "journal": "Zoological Journal of the Linnean Society",
           "url": "https://doi.org/10.1111/j.1096-3642.2004.00130.x",
           "authors": [
@@ -6855,6 +7083,7 @@
           "doi": null,
           "title": "First rostrum of carnivorous Vitakridrinda (Abelisaurid Theropod Dinosaur) found from the latest Cretaceous Dinosaur Beds (Vitakri) Member of PAB formation, Alam Kali Kakor Locality of Vitakri area, Barkhan District, Balochistan, Pakistan",
           "year": 2006,
+          "month": null,
           "journal": "Sindh University Research Journal (Science Series)",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=32613",
           "authors": [
@@ -6881,6 +7110,7 @@
           "doi": null,
           "title": "The first giant raptor (Theropoda: Dromaeosauridae) from the Hell Creek Formation",
           "year": 2015,
+          "month": null,
           "journal": "The University of Kansas Paleontological Contributions",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=56882",
           "authors": [
@@ -6909,6 +7139,7 @@
           "doi": "10.1016/j.cretres.2015.12.020",
           "title": "A tyrannosaur trackway at Glenrock, Lance Formation (Maastrichtian), Wyoming",
           "year": 2016,
+          "month": null,
           "journal": "Cretaceous Research",
           "url": "https://doi.org/10.1016/j.cretres.2015.12.020",
           "authors": [
@@ -6937,6 +7168,7 @@
           "doi": null,
           "title": "Tyrannosaurid teeth from the Upper Cretaceous (Campanian) Two Medicine Formation of Montana",
           "year": 2018,
+          "month": null,
           "journal": "Fossil Record 6. New Mexico Museum of Natural History and Science Bulletin",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76550",
           "authors": [
@@ -6965,6 +7197,7 @@
           "doi": "10.1126/sciadv.aax6250",
           "title": "Growing up Tyrannosaurus rex: osteohistology refutes the pygmy “Nanotyrannus” and supports ontogenetic niche partitioning in juvenile Tyrannosaurus",
           "year": 2020,
+          "month": null,
           "journal": "Science Advances",
           "url": "https://doi.org/10.1126/sciadv.aax6250",
           "authors": [
@@ -7003,6 +7236,7 @@
           "doi": "10.3390/fossils2040012",
           "title": "A new tyrant dinosaur from the late Campanian of Mexico reveals a tribe of southern tyrannosaurs",
           "year": 2024,
+          "month": null,
           "journal": "Fossil Studies",
           "url": "https://doi.org/10.3390/fossils2040012",
           "authors": [
@@ -7030,6 +7264,7 @@
           "doi": "10.1038/s41586-025-09801-6",
           "title": "Nanotyrannus and Tyrannosaurus coexisted at the close of the Cretaceous",
           "year": 2025,
+          "month": null,
           "journal": "Nature",
           "url": "https://doi.org/10.1038/s41586-025-09801-6",
           "authors": [
@@ -7081,6 +7316,7 @@
           "doi": "10.1139/e83-043",
           "title": "New data on pachycephalosaurid dinosaurs (Reptilia: Ornithischia) from North America",
           "year": 1983,
+          "month": null,
           "journal": "Canadian Journal of Earth Sciences",
           "url": "https://doi.org/10.1139/e83-043",
           "authors": [
@@ -7106,6 +7342,7 @@
           "doi": "10.1671/039.029.0111",
           "title": "Early ontogeny of pachycephalosaurine squamosals as revealed by juvenile specimens from the Hell Creek Formation, eastern Montana",
           "year": 2009,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1671/039.029.0111",
           "authors": [
@@ -7132,6 +7369,7 @@
           "doi": "10.1080/02724631003763532",
           "title": "Pachycephalosauridae from the San Carlos and Aguja Formations (Upper Cretaceous) of West Texas, and observations of the frontoparietal dome",
           "year": 2010,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1080/02724631003763532",
           "authors": [
@@ -7156,6 +7394,7 @@
           "doi": "10.1080/02724634.2016.1078343",
           "title": "The early expression of squamosal horns and parietal ornamentation confirmed by new end-stage juvenile Pachycephalosaurus fossils from the Upper Cretaceous Hell Creek Formation, Montana",
           "year": 2016,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1080/02724634.2016.1078343",
           "authors": [
@@ -7182,6 +7421,7 @@
           "doi": "10.1139/e83-043",
           "title": "New data on pachycephalosaurid dinosaurs (Reptilia: Ornithischia) from North America",
           "year": 1983,
+          "month": null,
           "journal": "Canadian Journal of Earth Sciences",
           "url": "https://doi.org/10.1139/e83-043",
           "authors": [
@@ -7219,6 +7459,7 @@
           "doi": null,
           "title": "A check list of the families and genera of North American dinosaurs",
           "year": 1984,
+          "month": null,
           "journal": "Syllogeus",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14233",
           "authors": [
@@ -7245,6 +7486,7 @@
           "doi": null,
           "title": "Evolution of the terrestrial vertebrate fauna during the Cretaceous-Tertiary transition",
           "year": 1986,
+          "month": null,
           "journal": "Dynamics of Extinction",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63772",
           "authors": [
@@ -7271,6 +7513,7 @@
           "doi": null,
           "title": "Anatomy and classification of the North American Pachycephalosauria (Dinosauria: Ornithischia)",
           "year": 1987,
+          "month": null,
           "journal": "Palaeontographica Abteilung A",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9806",
           "authors": [
@@ -7308,6 +7551,7 @@
           "doi": null,
           "title": "Vertebrate Paleontology and Evolution",
           "year": 1988,
+          "month": null,
           "journal": "W. H. Freeman and Company",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=4783",
           "authors": [
@@ -7334,6 +7578,7 @@
           "doi": null,
           "title": "Pachycephalosauria",
           "year": 1990,
+          "month": null,
           "journal": "The Dinosauria. University of California Press, Berkeley",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=23834",
           "authors": [
@@ -7370,6 +7615,7 @@
           "doi": null,
           "title": "Dinosaurs of the Lance Formation in eastern Wyoming",
           "year": 1994,
+          "month": null,
           "journal": "Wyoming Geological Association Forty-Fourth Annual Field Conference. Wyoming Geological Association Guidebook",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=81845",
           "authors": [
@@ -7396,6 +7642,7 @@
           "doi": null,
           "title": "[The origin and evolution of the heterodontosaurians]",
           "year": 1994,
+          "month": null,
           "journal": "Dinosaur Frontline, Gakken Mook",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=82699",
           "authors": [
@@ -7433,6 +7680,7 @@
           "doi": null,
           "title": "Ornamentation",
           "year": 1997,
+          "month": null,
           "journal": "Encyclopedia of Dinosaurs",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62017",
           "authors": [
@@ -7460,6 +7708,7 @@
           "doi": null,
           "title": "Pachycephalosauria",
           "year": 1997,
+          "month": null,
           "journal": "Encyclopedia of Dinosaurs",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62055",
           "authors": [
@@ -7496,6 +7745,7 @@
           "doi": "10.1080/02724634.1998.10011064",
           "title": "Cranial anatomy and diagnosis of Stygimoloch spinifer (Ornithischia: Pachycephalosauria) with comments on cranial display structures in agonistic behavior",
           "year": 1998,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1080/02724634.1998.10011064",
           "authors": [
@@ -7534,6 +7784,7 @@
           "doi": "10.1126/science.284.5423.2137",
           "title": "The evolution of dinosaurs",
           "year": 1999,
+          "month": null,
           "journal": "Science",
           "url": "https://doi.org/10.1126/science.284.5423.2137",
           "authors": [
@@ -7560,6 +7811,7 @@
           "doi": null,
           "title": "The fossil record, systematics and evolution of pachycephalosaurs and ceratopsians from Asia",
           "year": 2000,
+          "month": null,
           "journal": "The Age of Dinosaurs in Russia and Mongolia",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14425",
           "authors": [
@@ -7586,6 +7838,7 @@
           "doi": "10.1671/0272-4634(2002)022[0779:angodp]2.0.co;2",
           "title": "A new genus of derived pachycephalosaurian from western North America",
           "year": 2003,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1671/0272-4634(2002)022[0779:angodp]2.0.co;2",
           "authors": [
@@ -7623,6 +7876,7 @@
           "doi": "10.1671/0272-4634(2003)23[181:rotdsl]2.0.co;2",
           "title": "Revision of the dinosaur Stegoceras Lambe (Ornithischia, Pachycephalosauridae)",
           "year": 2003,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1671/0272-4634(2003)23[181:rotdsl]2.0.co;2",
           "authors": [
@@ -7659,6 +7913,7 @@
           "doi": "10.1525/california/9780520242098.003.0024",
           "title": "Pachycephalosauria",
           "year": 2004,
+          "month": null,
           "journal": "In D. B. Weishampel, P. Dodson & H. Osmólska (eds.), The Dinosauria (second edition). University of California Press, Berkeley",
           "url": "https://doi.org/10.1525/california/9780520242098.003.0024",
           "authors": [
@@ -7697,6 +7952,7 @@
           "doi": null,
           "title": "First record of a pachycephalosaurine (Ornithischia, Pachycephalosauria) from the Dinosaur Park Formation, Alberta, Canada",
           "year": 2006,
+          "month": null,
           "journal": "Late Cretaceous Vertebrates from the Western Interior. New Mexico Museum of Natural History and Science Bulletin",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=25972",
           "authors": [
@@ -7734,6 +7990,7 @@
           "doi": null,
           "title": "A taxonomic review of the Pachycephalosauridae (Dinosauria: Ornithischia)",
           "year": 2006,
+          "month": null,
           "journal": "Late Cretaceous Vertebrates from the Western Interior. New Mexico Museum of Natural History and Science Bulletin",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=28654",
           "authors": [
@@ -7770,6 +8027,7 @@
           "doi": "10.1671/039.029.0111",
           "title": "Early ontogeny of pachycephalosaurine squamosals as revealed by juvenile specimens from the Hell Creek Formation, eastern Montana",
           "year": 2009,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1671/039.029.0111",
           "authors": [
@@ -7798,6 +8056,7 @@
           "doi": "10.1671/039.029.0329",
           "title": "The anatomy and systematics of Colepiocephale lambei (Dinosauria: Pachycephalosauridae)",
           "year": 2009,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1671/039.029.0329",
           "authors": [
@@ -7836,6 +8095,7 @@
           "doi": "10.1016/j.cretres.2009.12.002",
           "title": "Texacephale langstoni, a new genus of pachycephalosaurid (Dinosauria: Ornithischia) from the upper Campanian Aguja Formation, southern Texas, USA",
           "year": 2010,
+          "month": null,
           "journal": "Cretaceous Research",
           "url": "https://doi.org/10.1016/j.cretres.2009.12.002",
           "authors": [
@@ -7864,6 +8124,7 @@
           "doi": "10.1080/02724631003763532",
           "title": "Pachycephalosauridae from the San Carlos and Aguja Formations (Upper Cretaceous) of West Texas, and observations of the frontoparietal dome",
           "year": 2010,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1080/02724631003763532",
           "authors": [
@@ -7890,6 +8151,7 @@
           "doi": "10.1080/02724634.2016.1078343",
           "title": "The early expression of squamosal horns and parietal ornamentation confirmed by new end-stage juvenile Pachycephalosaurus fossils from the Upper Cretaceous Hell Creek Formation, Montana",
           "year": 2016,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1080/02724634.2016.1078343",
           "authors": [
@@ -7927,6 +8189,7 @@
           "doi": "10.1093/zoolinnean/zlaa179",
           "title": "Ontogeny and variation of the pachycephalosaurine dinosaur Sphaerotholus buchholtzae, and its systematics within the genus",
           "year": 2021,
+          "month": null,
           "journal": "Zoological Journal of the Linnean Society",
           "url": "https://doi.org/10.1093/zoolinnean/zlaa179",
           "authors": [
@@ -7965,6 +8228,7 @@
           "doi": "10.18261/let.57.4.7",
           "title": "Southernmost record of the pachycephalosaurine  Stygimoloch spinifer and palaeobiogeography of latest Cretaceous North American dinosaurs",
           "year": 2024,
+          "month": null,
           "journal": "Lethaia",
           "url": "https://doi.org/10.18261/let.57.4.7",
           "authors": [
@@ -8015,6 +8279,7 @@
           "doi": "10.1080/02724634.2010.483632",
           "title": "Torosaurus Marsh, 1891, is Triceratops Marsh, 1889 (Ceratopsidae: Chasmosaurinae): synonymy through ontogeny",
           "year": 2010,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1080/02724634.2010.483632",
           "authors": [
@@ -8040,6 +8305,7 @@
           "doi": "10.1371/journal.pone.0016196",
           "title": "Anatomy and taxonomic status of the chasmosaurine ceratopsid Nedoceratops hatcheri from the Upper Cretaceous Lance Formation of Wyoming, U.S.A.",
           "year": 2011,
+          "month": null,
           "journal": "PLoS One",
           "url": "https://doi.org/10.1371/journal.pone.0016196",
           "authors": [
@@ -8064,6 +8330,7 @@
           "doi": "10.1371/journal.pone.0028705",
           "title": "‘Nedoceratops’: an example of a transitional morphology",
           "year": 2011,
+          "month": null,
           "journal": "PLoS ONE",
           "url": "https://doi.org/10.1371/journal.pone.0028705",
           "authors": [
@@ -8089,6 +8356,7 @@
           "doi": "10.1371/journal.pone.0032623",
           "title": "Torosaurus is not Triceratops: ontogeny in chasmosaurine ceratopsids as a case study in dinosaur taxonomy",
           "year": 2012,
+          "month": null,
           "journal": "PLoS ONE",
           "url": "https://doi.org/10.1371/journal.pone.0032623",
           "authors": [
@@ -8115,6 +8383,7 @@
           "doi": "10.1007/s11434-009-3614-5",
           "title": "First ceratopsid dinosaur from China and its biogeographical implications",
           "year": 2010,
+          "month": null,
           "journal": "Chinese Science Bulletin",
           "url": "https://doi.org/10.1007/s11434-009-3614-5",
           "authors": [
@@ -8143,6 +8412,7 @@
           "doi": null,
           "title": "A new chasmosaurine ceratopsid from the Judith River Formation, Montana",
           "year": 2010,
+          "month": null,
           "journal": "New Perspectives on Horned Dinosaurs: The Royal Tyrrell Museum Ceratopsian Symposium. Indiana University Press, Bloomington",
           "url": "https://paleobiodb.org/data1.2/refs/single.json?id=33792",
           "authors": [
@@ -8171,6 +8441,7 @@
           "doi": "10.1666/09-114.1",
           "title": "Mojoceratops perifania, a new chasmosaurine ceratopsid from the late Campanian of western Canada",
           "year": 2010,
+          "month": null,
           "journal": "Journal of Paleontology",
           "url": "https://doi.org/10.1666/09-114.1",
           "authors": [
@@ -8197,6 +8468,7 @@
           "doi": "10.1080/02724634.2010.483632",
           "title": "Torosaurus Marsh, 1891, is Triceratops Marsh, 1889 (Ceratopsidae: Chasmosaurinae): synonymy through ontogeny",
           "year": 2010,
+          "month": null,
           "journal": "Journal of Vertebrate Paleontology",
           "url": "https://doi.org/10.1080/02724634.2010.483632",
           "authors": [
@@ -8224,6 +8496,7 @@
           "doi": "10.1371/journal.pone.0016196",
           "title": "Anatomy and taxonomic status of the chasmosaurine ceratopsid Nedoceratops hatcheri from the Upper Cretaceous Lance Formation of Wyoming, U.S.A.",
           "year": 2011,
+          "month": null,
           "journal": "PLoS One",
           "url": "https://doi.org/10.1371/journal.pone.0016196",
           "authors": [
@@ -8260,6 +8533,7 @@
           "doi": "10.1371/journal.pone.0028705",
           "title": "‘Nedoceratops’: an example of a transitional morphology",
           "year": 2011,
+          "month": null,
           "journal": "PLoS ONE",
           "url": "https://doi.org/10.1371/journal.pone.0028705",
           "authors": [
@@ -8287,6 +8561,7 @@
           "doi": "10.1371/journal.pone.0032623",
           "title": "Torosaurus is not Triceratops: ontogeny in chasmosaurine ceratopsids as a case study in dinosaur taxonomy",
           "year": 2012,
+          "month": null,
           "journal": "PLoS ONE",
           "url": "https://doi.org/10.1371/journal.pone.0032623",
           "authors": [
@@ -8324,6 +8599,7 @@
           "doi": "10.3374/014.054.0103",
           "title": "Judiceratops tigris, a new horned dinosaur from the middle Campanian Judith River Formation of Montana",
           "year": 2013,
+          "month": null,
           "journal": "Bulletin of the Peabody Museum of Natural History",
           "url": "https://doi.org/10.3374/014.054.0103",
           "authors": [
@@ -8350,6 +8626,7 @@
           "doi": "10.1016/j.cretres.2014.06.011",
           "title": "The horned dinosaurs Pentaceratops and Kosmoceratops from the upper Campanian of Alberta and implications for dinosaur biogeography",
           "year": 2014,
+          "month": null,
           "journal": "Cretaceous Research",
           "url": "https://doi.org/10.1016/j.cretres.2014.06.011",
           "authors": [

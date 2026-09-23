@@ -90,13 +90,22 @@ export interface RecordGroup {
 export type TimeAxis = 'age' | 'year'
 
 /**
- * A record's extent on the chosen axis. On the publication-year axis a record
- * fills its whole calendar year, [year, year + 1).
+ * Position of a paper on the publication-time axis, in fractional years: the
+ * middle of its publication month, or the middle of the year when the month is
+ * unknown.
+ */
+export function publicationTime(publication: Pick<PublicationSummary, 'year' | 'month'>): number {
+  return publication.year + (publication.month ? (publication.month - 0.5) / 12 : 0.5)
+}
+
+/**
+ * A record's extent on the chosen axis. On the publication axis a record is a
+ * single point at its paper's publication month.
  */
 export function recordWindow(record: TimelineEvidence, axis: TimeAxis = 'age'): AgeWindow {
   if (axis === 'year') {
-    const year = record.representative_report.publication.year
-    return { min: year, max: year + 1, best: null, precision: 'explicit_range', records: [record] }
+    const time = publicationTime(record.representative_report.publication)
+    return { min: time, max: time, best: null, precision: 'reported_point', records: [record] }
   }
   return {
     min: record.age.min_ma,
