@@ -1,0 +1,65 @@
+name: discover dinosaur literature
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feature/dino1-acquisition
+    paths:
+      - .github/workflows/discover-literature.yml
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: feature/dino1-acquisition
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Discover Crossref candidates
+        run: |
+          python scripts/data/acquisition/discover_crossref.py \
+            --rows-per-query 40 \
+            --max-candidates 100 \
+            --delay-seconds 0.25
+
+      - name: Validate candidate queue
+        run: |
+          python scripts/data/acquisition/validate_queue.py \
+            --queue data/acquisition/candidates.crossref.jsonl
+
+      - name: Summarize candidate queue
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+
+          rows = [
+              json.loads(line)
+              for line in Path("data/acquisition/candidates.crossref.jsonl").read_text(encoding="utf-8").splitlines()
+              if line.strip()
+          ]
+          print(f"candidate_count={len(rows)}")
+          print("years=", dict(sorted(Counter(row.get("year") for row in rows).items(), key=lambda x: (x[0] is None, x[0]))))
+          print("journals=", Counter(row.get("journal") for row in rows).most_common(15))
+          PY
+
+      - name: Commit candidate queue
+        run: |
+          if git diff --quiet -- data/acquisition/candidates.crossref.jsonl; then
+            echo "Candidate queue unchanged."
+            exit 0
+          fi
+          git config user.name "fog-of-time-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/acquisition/candidates.crossref.jsonl
+          git commit -m "DINO-1: refresh Crossref discovery candidates"
+          git push origin HEAD:feature/dino1-acquisition
