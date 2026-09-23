@@ -31,6 +31,9 @@ EVIDENCE_ROLES = {
     "original_discovery", "original_description", "new_measurement", "new_imaging",
     "redescription", "reinterpretation", "secondary_citation", "review",
 }
+AGE_PRECISIONS = {
+    "explicit_range", "reported_point", "approximate_point", "derived_interval", "unknown",
+}
 
 
 def fail(path: Path, message: str) -> None:
@@ -102,7 +105,7 @@ def validate_document(document: dict[str, Any], path: Path) -> None:
 
         if not isinstance(item["age"], dict):
             fail(path, f"{context}.age must be an object")
-        required(item["age"], ("min_ma", "max_ma", "method"), path, f"{context}.age")
+        required(item["age"], ("min_ma", "max_ma", "precision", "method"), path, f"{context}.age")
         age = item["age"]
         if not isinstance(age["min_ma"], (int, float)) or not isinstance(age["max_ma"], (int, float)):
             fail(path, f"{context}.age bounds must be numeric")
@@ -113,6 +116,8 @@ def validate_document(document: dict[str, Any], path: Path) -> None:
             not isinstance(best, (int, float)) or not age["min_ma"] <= best <= age["max_ma"]
         ):
             fail(path, f"{context}.age.best_ma must fall inside the age interval")
+        if age["precision"] not in AGE_PRECISIONS:
+            fail(path, f"{context}.age unknown precision {age['precision']!r}")
 
         if not isinstance(item["material"], list) or not all(
             isinstance(value, str) and value.strip() for value in item["material"]
@@ -260,12 +265,12 @@ def insert_documents(connection: sqlite3.Connection, documents: list[tuple[Path,
             connection.execute(
                 """INSERT INTO publication_evidence
                    (id, publication_id, physical_key, taxon_id, locality_id, formation_id, evidence_role,
-                    age_min_ma, age_max_ma, age_best_ma, dating_method, age_basis, age_notes, development_fixture)
-                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                    age_min_ma, age_max_ma, age_best_ma, age_precision, dating_method, age_basis, age_notes, development_fixture)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
                 (
                     item["id"], publication["id"], item["physical_key"], taxon_id, locality_id, formation_id,
-                    item["evidence_role"], age["min_ma"], age["max_ma"], age.get("best_ma"), age["method"],
-                    age.get("basis"), age.get("notes"), fixture,
+                    item["evidence_role"], age["min_ma"], age["max_ma"], age.get("best_ma"), age["precision"],
+                    age["method"], age.get("basis"), age.get("notes"), fixture,
                 ),
             )
 
@@ -312,6 +317,7 @@ def export_web(connection: sqlite3.Connection, documents: list[tuple[Path, dict[
              r.age_min_ma AS age_min_ma,
              r.age_max_ma AS age_max_ma,
              r.age_best_ma AS age_best_ma,
+             r.age_precision AS age_precision,
              r.dating_method AS dating_method,
              r.age_basis AS age_basis,
              r.development_fixture AS development_fixture,
@@ -394,6 +400,7 @@ def export_web(connection: sqlite3.Connection, documents: list[tuple[Path, dict[
                     "min_ma": representative["age_min_ma"],
                     "max_ma": representative["age_max_ma"],
                     "best_ma": representative["age_best_ma"],
+                    "precision": representative["age_precision"],
                     "method": representative["dating_method"],
                     "basis": representative["age_basis"],
                 },
