@@ -69,6 +69,7 @@ CREATE TABLE publication_evidence (
   age_min_ma REAL NOT NULL,
   age_max_ma REAL NOT NULL,
   age_best_ma REAL,
+  age_precision TEXT NOT NULL,
   dating_method TEXT NOT NULL,
   age_basis TEXT,
   age_notes TEXT,
