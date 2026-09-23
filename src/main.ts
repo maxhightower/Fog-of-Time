@@ -4,6 +4,7 @@ import { CATEGORIES, categoryOf, GROUP_LABEL_OPTIONS, GROUP_OPTIONS, groupRecord
 import { formatAge, formatMa, humanize, PRECISION_LABELS } from './format'
 import { PRESETS, TIMESCALE_OLDEST } from './timescale'
 import { Timeline, type Selection } from './timeline'
+import { matchesName, nameSuggestions, searchWords } from './names'
 
 const DEFAULT_VIEW = { from: 500, to: 0 }
 const MAX_AGE = TIMESCALE_OLDEST
@@ -37,8 +38,11 @@ app.innerHTML = `
           <h2 class="panel-title">Filters</h2>
           <div class="filter-list">
             <div class="filter-row" data-filter="taxon" hidden>
-              <label class="field">Taxon <select id="taxon-filter"><option value="">All taxa</option></select></label>
-              <button type="button" class="icon-button remove-filter" aria-label="Remove taxon filter">×</button>
+              <label class="field">Taxon or name
+                <input id="taxon-filter" type="search" list="taxon-names" placeholder="e.g. T. rex, Sue, raptor" autocomplete="off" spellcheck="false" />
+              </label>
+              <datalist id="taxon-names"></datalist>
+              <button type="button" class="icon-button remove-filter" aria-label="Remove taxon or name filter">×</button>
             </div>
             <div class="filter-row" data-filter="type" hidden>
               <label class="field">Evidence <select id="type-filter"><option value="">All evidence types</option></select></label>
@@ -208,19 +212,20 @@ const yearSlider = $<HTMLInputElement>('#year-slider')
 const yearOutput = $<HTMLOutputElement>('#year-output')
 const yearPlay = $<HTMLButtonElement>('#year-play')
 const filters = {
-  taxon: $<HTMLSelectElement>('#taxon-filter'),
+  taxon: $<HTMLInputElement>('#taxon-filter'),
   type: $<HTMLSelectElement>('#type-filter'),
   country: $<HTMLSelectElement>('#country-filter'),
   precision: $<HTMLSelectElement>('#precision-filter'),
 }
 type FilterKey = keyof typeof filters
-const FILTER_LABELS: Record<FilterKey, string> = { taxon: 'Taxon', type: 'Evidence type', country: 'Country', precision: 'Date precision' }
+const FILTER_LABELS: Record<FilterKey, string> = { taxon: 'Taxon or name', type: 'Evidence type', country: 'Country', precision: 'Date precision' }
 const addFilterButton = $<HTMLButtonElement>('#add-filter')
 const filterMenu = $<HTMLDivElement>('#filter-menu')
 const filterRow = (key: FilterKey) => $<HTMLDivElement>(`.filter-row[data-filter="${key}"]`)
 
 let manifest: DatasetManifest
 let records: TimelineEvidence[] = []
+const recordNameWords = new Map<TimelineEvidence, string[]>()
 let view = { ...DEFAULT_VIEW }
 let selection: Selection | null = null
 const expanded = new Set<string>()
@@ -253,8 +258,10 @@ function roundAge(value: number): number {
 
 function filteredRecords(): TimelineEvidence[] {
   const year = Number(yearSlider.value)
+  // Matches scientific names, specimen labels, common names and nicknames.
+  const nameQuery = filters.taxon.value.trim()
   return records.filter(record =>
-    (!filters.taxon.value || record.taxon === filters.taxon.value) &&
+    (!nameQuery || matchesName(recordNameWords.get(record)!, nameQuery)) &&
     (!filters.type.value || record.evidence_type === filters.type.value) &&
     (!filters.country.value || record.locality.country === filters.country.value) &&
     (!filters.precision.value || record.age.precision === filters.precision.value) &&
@@ -585,6 +592,7 @@ function wireControls() {
   labelGroups.addEventListener('change', scheduleRender)
   labelRecords.addEventListener('change', scheduleRender)
   for (const select of Object.values(filters)) select.addEventListener('change', scheduleRender)
+  filters.taxon.addEventListener('input', scheduleRender)
   wireFilterMenu()
   $<HTMLButtonElement>('#reset-filter').addEventListener('click', () => {
     for (const key of Object.keys(filters) as FilterKey[]) removeFilter(key)
@@ -625,7 +633,9 @@ async function load() {
     status.textContent = `${manifest.physical_evidence_count} physical records · ${manifest.publication_count} publications`
     banner.hidden = !manifest.development_fixture
 
-    fillOptions(filters.taxon, records.map(record => record.taxon), value => value)
+    for (const record of records) recordNameWords.set(record, searchWords(record))
+    const nameList = $<HTMLDataListElement>('#taxon-names')
+    for (const { value, hint } of nameSuggestions(records)) nameList.append(new Option(hint, value))
     fillOptions(filters.type, records.map(record => record.evidence_type))
     fillOptions(filters.country, records.map(record => record.locality.country), value => value)
     fillOptions(filters.precision, records.map(record => record.age.precision), value => PRECISION_LABELS[value as TimelineEvidence['age']['precision']] ?? humanize(value))
