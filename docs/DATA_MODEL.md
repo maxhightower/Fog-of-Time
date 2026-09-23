@@ -48,6 +48,13 @@ A paper that says “ca. 228.3 Ma” therefore remains an approximate point even
 
 Claims retain compact source locators (page, figure, table when available). Fog of Time does not need to store full copyrighted papers in the repository.
 
+Fog of Time currently has two explicit provenance tiers:
+
+- **Direct full-text extraction** — the 25-paper benchmark was read against the publication and stores specimen/trace-level details directly from the paper and supplements.
+- **PBDB occurrence-backed extraction** — scale-out records use Paleobiology Database occurrence and reference records. These are stored as `fossil_occurrence` with `evidence_role: secondary_citation`, and their age notes state that they have not yet been re-verified against publication full text.
+
+Database-backed occurrence records use stable keys such as `pbdb-occ:130209`. They represent a PBDB taxon occurrence at a collection, not a claim that PBDB exposed an individual catalogued museum specimen.
+
 ## Canonical and delivery formats
 
 Checked-in extraction JSON is the reviewable source record. The offline build normalizes those records into `build/fog-of-time.sqlite`. The Vite client does not read SQLite and does not contact scientific APIs; it loads generated artifacts under `public/data/`.
