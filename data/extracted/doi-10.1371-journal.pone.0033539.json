@@ -1,0 +1,921 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1371/journal.pone.0033539",
+    "doi": "10.1371/journal.pone.0033539",
+    "title": "The Ontogenetic Osteohistology of Tenontosaurus tilletti",
+    "year": 2012,
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033539",
+    "authors": [
+      "Sarah Werning"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1371/journal.pone.0033539:mor-788",
+      "physical_key": "specimen:mor:788",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "MOR",
+        "catalog_number": "788",
+        "label": "MOR 788"
+      },
+      "material": [
+        "histologically sampled tibia"
+      ],
+      "locality": {
+        "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cloverly Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "MOR 788 is listed in Table 1 as a perinate specimen; sampled elements: tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:fmnh-pr-2263",
+      "physical_key": "specimen:fmnh-pr:2263",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "FMNH PR",
+        "catalog_number": "2263",
+        "label": "FMNH PR 2263"
+      },
+      "material": [
+        "histologically sampled femur"
+      ],
+      "locality": {
+        "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cloverly Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "FMNH PR 2263 is listed in Table 1 as a juvenile specimen; sampled elements: femur.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:mor-679",
+      "physical_key": "specimen:mor:679",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "MOR",
+        "catalog_number": "679",
+        "label": "MOR 679"
+      },
+      "material": [
+        "histologically sampled femur"
+      ],
+      "locality": {
+        "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cloverly Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "MOR 679 is listed in Table 1 as a juvenile specimen; sampled elements: femur.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-10144",
+      "physical_key": "specimen-batch:omnh:10144",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "OMNH",
+        "catalog_number": "10144",
+        "label": "OMNH 10144"
+      },
+      "material": [
+        "histologically sampled humerus",
+        "histologically sampled ulna",
+        "histologically sampled femur",
+        "histologically sampled tibia"
+      ],
+      "locality": {
+        "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cloverly Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 10144 is listed in Table 1 as a juvenile specimen; sampled elements: humerus, ulna, femur, tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "sample_identity_note",
+          "summary": "OMNH 10144 is a batch-catalogued juvenile collection representing at least four similarly sized individuals; the study treats sampled elements as one ontogenetic unit.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-34785",
+      "physical_key": "specimen:omnh:34785",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "OMNH",
+        "catalog_number": "34785",
+        "label": "OMNH 34785"
+      },
+      "material": [
+        "histologically sampled femur",
+        "histologically sampled tibia",
+        "histologically sampled fibula"
+      ],
+      "locality": {
+        "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cloverly Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 34785 is listed in Table 1 as a juvenile specimen; sampled elements: femur, tibia, fibula.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:mor-682",
+      "physical_key": "specimen:mor:682",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "MOR",
+        "catalog_number": "682",
+        "label": "MOR 682"
+      },
+      "material": [
+        "histologically sampled femur"
+      ],
+      "locality": {
+        "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cloverly Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "MOR 682 is listed in Table 1 as a subadult specimen; sampled elements: femur.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-2531",
+      "physical_key": "specimen:omnh:2531",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "OMNH",
+        "catalog_number": "2531",
+        "label": "OMNH 2531"
+      },
+      "material": [
+        "histologically sampled humerus",
+        "histologically sampled ulna"
+      ],
+      "locality": {
+        "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Antlers Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 2531 is listed in Table 1 as a subadult specimen; sampled elements: humerus, ulna.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-2926",
+      "physical_key": "specimen:omnh:2926",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "OMNH",
+        "catalog_number": "2926",
+        "label": "OMNH 2926"
+      },
+      "material": [
+        "histologically sampled tibia"
+      ],
+      "locality": {
+        "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Antlers Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 2926 is listed in Table 1 as a subadult specimen; sampled elements: tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-8137",
+      "physical_key": "specimen:omnh:8137",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "OMNH",
+        "catalog_number": "8137",
+        "label": "OMNH 8137"
+      },
+      "material": [
+        "histologically sampled humerus",
+        "histologically sampled tibia"
+      ],
+      "locality": {
+        "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Antlers Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 8137 is listed in Table 1 as a subadult specimen; sampled elements: humerus, tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-10134",
+      "physical_key": "specimen:omnh:10134",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "OMNH",
+        "catalog_number": "10134",
+        "label": "OMNH 10134"
+      },
+      "material": [
+        "histologically sampled tibia"
+      ],
+      "locality": {
+        "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cloverly Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 10134 is listed in Table 1 as a subadult specimen; sampled elements: tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-16563",
+      "physical_key": "specimen:omnh:16563",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "OMNH",
+        "catalog_number": "16563",
+        "label": "OMNH 16563"
+      },
+      "material": [
+        "histologically sampled tibia",
+        "histologically sampled fibula",
+        "histologically sampled rib"
+      ],
+      "locality": {
+        "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Antlers Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 16563 is listed in Table 1 as a subadult specimen; sampled elements: tibia, fibula, rib.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-34191",
+      "physical_key": "specimen:omnh:34191",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "OMNH",
+        "catalog_number": "34191",
+        "label": "OMNH 34191"
+      },
+      "material": [
+        "histologically sampled ulna"
+      ],
+      "locality": {
+        "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Antlers Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 34191 is listed in Table 1 as a subadult specimen; sampled elements: ulna.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-34783",
+      "physical_key": "specimen:omnh:34783",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "OMNH",
+        "catalog_number": "34783",
+        "label": "OMNH 34783"
+      },
+      "material": [
+        "histologically sampled tibia",
+        "histologically sampled fibula"
+      ],
+      "locality": {
+        "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cloverly Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 34783 is listed in Table 1 as a subadult specimen; sampled elements: tibia, fibula.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-34784",
+      "physical_key": "specimen:omnh:34784",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "OMNH",
+        "catalog_number": "34784",
+        "label": "OMNH 34784"
+      },
+      "material": [
+        "histologically sampled femur",
+        "histologically sampled tibia"
+      ],
+      "locality": {
+        "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cloverly Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 34784 is listed in Table 1 as a subadult specimen; sampled elements: femur, tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-58340",
+      "physical_key": "specimen:omnh:58340",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "OMNH",
+        "catalog_number": "58340",
+        "label": "OMNH 58340"
+      },
+      "material": [
+        "histologically sampled tibia"
+      ],
+      "locality": {
+        "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Antlers Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 58340 is listed in Table 1 as a subadult specimen; sampled elements: tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-63525",
+      "physical_key": "specimen:omnh:63525",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "OMNH",
+        "catalog_number": "63525",
+        "label": "OMNH 63525"
+      },
+      "material": [
+        "histologically sampled tibia",
+        "histologically sampled rib"
+      ],
+      "locality": {
+        "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Antlers Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 63525 is listed in Table 1 as a subadult specimen; sampled elements: tibia, rib.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:fmnh-pr-2261",
+      "physical_key": "specimen:fmnh-pr:2261",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "FMNH PR",
+        "catalog_number": "2261",
+        "label": "FMNH PR 2261"
+      },
+      "material": [
+        "histologically sampled humerus",
+        "histologically sampled ulna",
+        "histologically sampled femur",
+        "histologically sampled tibia"
+      ],
+      "locality": {
+        "name": "Cloverly Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Cloverly Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "FMNH PR 2261 is listed in Table 1 as a adult specimen; sampled elements: humerus, ulna, femur, tibia.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0033539:omnh-62990",
+      "physical_key": "specimen:omnh:62990",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Tenontosaurus tilletti",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "OMNH",
+        "catalog_number": "62990",
+        "label": "OMNH 62990"
+      },
+      "material": [
+        "histologically sampled ulna"
+      ],
+      "locality": {
+        "name": "Antlers Formation specimen locality (individual locality not specified in Table 1)",
+        "country": "United States",
+        "region": null,
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Antlers Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 100.5,
+        "max_ma": 121.4,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_range_with_ics_conversion",
+        "basis": "The paper describes Tenontosaurus tilletti from the Aptian–Albian Cloverly and Antlers formations; the numeric envelope uses current ICS Aptian through Albian boundaries.",
+        "notes": "Individual specimen horizons are not resolved in Table 1."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_sampling",
+          "summary": "OMNH 62990 is listed in Table 1 as a adult specimen; sampled elements: ulna.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        }
+      ]
+    }
+  ]
+}
