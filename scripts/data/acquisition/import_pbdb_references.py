@@ -260,6 +260,11 @@ def choose_references(
             continue
         if not reference_is_usable(ref, existing_dois, existing_titles, used_dois, used_titles):
             continue
+        title_key = norm_title(ref.get("reftitle"))
+        doi_key = (ref.get("doi") or "").strip().casefold()
+        used_titles.add(title_key)
+        if doi_key:
+            used_dois.add(doi_key)
         year = int_or_none(ref.get("pubyr")) or 0
         bucket = occurrence_bucket(occurrence_rows)
         candidates.append((ref_id, bucket, year, len(occurrence_rows)))
