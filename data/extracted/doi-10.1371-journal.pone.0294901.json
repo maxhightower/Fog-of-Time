@@ -1,0 +1,146 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1371/journal.pone.0294901",
+    "doi": "10.1371/journal.pone.0294901",
+    "title": "A new oviraptorosaur (Dinosauria: Theropoda) from the end-Maastrichtian Hell Creek Formation of North America",
+    "year": 2024,
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0294901",
+    "authors": [
+      "Kyle L. Atkins-Weltman",
+      "D. Jade Simon",
+      "Holly N. Woodward",
+      "Gregory F. Funston",
+      "Eric Snively"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1371/journal.pone.0294901:cm-96523",
+      "physical_key": "specimen:cm:96523",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Eoneophron infernalis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "CM",
+        "catalog_number": "96523",
+        "label": "CM 96523"
+      },
+      "material": [
+        "right femur",
+        "right tibia",
+        "right astragalocalcaneum",
+        "right metatarsal III",
+        "right metatarsal IV"
+      ],
+      "locality": {
+        "name": "Hell Creek Formation exposures, Meade County",
+        "country": "United States",
+        "region": "South Dakota",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Hell Creek Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The specimen is from upper Maastrichtian Hell Creek Formation exposures in Meade County; the numeric envelope conservatively spans the Maastrichtian.",
+        "notes": "The article does not publish a specimen-specific radiometric date."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "CM 96523 is designated the holotype of Eoneophron infernalis.",
+          "page": null,
+          "figure": "1",
+          "table": "1"
+        },
+        {
+          "type": "material_record",
+          "summary": "The holotype is a partial right hindlimb preserving the femur, tibia and astragalocalcaneum, and metatarsals III and IV.",
+          "page": null,
+          "figure": "1",
+          "table": "1"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0294901:cm-96523-histology",
+      "physical_key": "histology:cm:96523",
+      "evidence_type": "bone_histology",
+      "taxon": {
+        "name": "Eoneophron infernalis",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "CM",
+        "catalog_number": "96523",
+        "label": "CM 96523 — histology"
+      },
+      "material": [
+        "histologically sampled right femur",
+        "histologically sampled right tibia",
+        "histologically sampled right metatarsal IV"
+      ],
+      "locality": {
+        "name": "Hell Creek Formation exposures, Meade County",
+        "country": "United States",
+        "region": "South Dakota",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Hell Creek Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "Same specimen and horizon as CM 96523.",
+        "notes": null
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "histological_observation",
+          "summary": "The femur, tibia, and metatarsal IV each record six lines of arrested growth (LAGs).",
+          "page": null,
+          "figure": "6–8",
+          "table": null
+        },
+        {
+          "type": "ontogenetic_interpretation",
+          "summary": "A putative neonatal line followed by six LAGs in metatarsal IV suggests death during the individual's sixth year.",
+          "page": null,
+          "figure": "8",
+          "table": null
+        },
+        {
+          "type": "ontogenetic_interpretation",
+          "summary": "Growth was approaching an asymptote but had not fully ceased at death.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}
