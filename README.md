@@ -66,8 +66,7 @@ npm run dev
 ### The timeline
 
 The default view spans 500 million years ago to today. Presets, From/To inputs,
-zoom buttons, drag-to-pan and Ctrl/⌘-scroll adjust the window; the window is kept in
-the URL (`?from=500&to=0`) so views can be shared.
+zoom buttons, drag-to-pan and Ctrl/⌘-scroll adjust the window.
 
 Every record is drawn as a bar across its full age interval, never collapsed to a
 midpoint. Bar shape encodes how the date is known (hard-edged explicit range,

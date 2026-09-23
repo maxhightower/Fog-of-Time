@@ -110,25 +110,3 @@ export function groupByPaper(records: TimelineEvidence[]): PaperGroup[] {
   }
   return [...groups.values()].sort((a, b) => b.max - a.max)
 }
-
-/** Fraction of [to, from] covered by at least one record's age interval. */
-export function coverage(records: TimelineEvidence[], from: number, to: number): number {
-  const intervals = records
-    .map(record => [Math.max(to, record.age.min_ma), Math.min(from, record.age.max_ma)] as const)
-    .filter(([lo, hi]) => hi >= lo)
-    .sort((a, b) => a[0] - b[0])
-  let covered = 0
-  let currentLo = -Infinity
-  let currentHi = -Infinity
-  for (const [lo, hi] of intervals) {
-    if (lo > currentHi) {
-      if (currentHi > currentLo) covered += currentHi - currentLo
-      currentLo = lo
-      currentHi = hi
-    } else {
-      currentHi = Math.max(currentHi, hi)
-    }
-  }
-  if (currentHi > currentLo) covered += currentHi - currentLo
-  return covered / (from - to)
-}

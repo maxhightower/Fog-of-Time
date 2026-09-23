@@ -1,7 +1,7 @@
 import './style.css'
 import type { DatasetManifest, TimelineEvidence } from './types'
-import { CATEGORIES, categoryOf, coverage, groupByPaper, type ColorBy, type PaperGroup } from './model'
-import { formatAge, formatMa, formatSpan, humanize, PRECISION_LABELS } from './format'
+import { CATEGORIES, categoryOf, groupByPaper, type ColorBy } from './model'
+import { formatAge, formatMa, humanize, PRECISION_LABELS } from './format'
 import { PRESETS, TIMESCALE_OLDEST, TIMESCALE_SOURCE } from './timescale'
 import { Timeline, type Selection } from './timeline'
 
@@ -18,7 +18,7 @@ app.innerHTML = `
       <div>
         <p class="eyebrow">DINOSAUR EVIDENCE EXPLORER</p>
         <h1>Fog of Time</h1>
-        <p class="lede">Each published discovery grants a brief, uncertain snapshot of the past — and every snapshot keeps a path back to its paper.</p>
+        <p class="lede">Every mark is physical evidence. Every displayed fact keeps a path back to a publication.</p>
       </div>
       <div id="dataset-status" class="dataset-status" aria-live="polite">Loading local dataset…</div>
     </header>
@@ -111,17 +111,12 @@ app.innerHTML = `
             <svg id="axis" class="axis" aria-hidden="true"></svg>
           </div>
           <p class="hint">Drag to pan · Ctrl/⌘ + scroll or pinch to zoom · click a paper to open its records</p>
-
-          <details class="table-view">
-            <summary>Table view</summary>
-            <div class="table-wrap"><table id="evidence-table"></table></div>
-          </details>
         </section>
 
         <section class="detail-card" aria-labelledby="detail-heading">
           <p class="eyebrow">SELECTED EVIDENCE</p>
           <div id="detail">
-            <h2 id="detail-heading">Choose a window on the timeline</h2>
+            <h2 id="detail-heading">Choose a bar on the timeline</h2>
             <p class="muted">The evidence record, dating basis, specimen identity, and publication provenance will appear here.</p>
           </div>
         </section>
@@ -151,7 +146,6 @@ const discoveryOptions = $<HTMLDivElement>('#discovery-options')
 const yearSlider = $<HTMLInputElement>('#year-slider')
 const yearOutput = $<HTMLOutputElement>('#year-output')
 const yearPlay = $<HTMLButtonElement>('#year-play')
-const table = $<HTMLTableElement>('#evidence-table')
 const filters = {
   taxon: $<HTMLSelectElement>('#taxon-filter'),
   type: $<HTMLSelectElement>('#type-filter'),
@@ -183,13 +177,6 @@ function clampView(from: number, to: number) {
     younger = MAX_AGE - span
   }
   return { from: older, to: younger }
-}
-
-function readViewFromUrl() {
-  const params = new URLSearchParams(location.search)
-  const from = Number(params.get('from'))
-  const to = Number(params.get('to'))
-  if (params.has('from') && params.has('to') && Number.isFinite(from) && Number.isFinite(to)) view = clampView(from, to)
 }
 
 function roundAge(value: number): number {
@@ -228,7 +215,6 @@ const timeline = new Timeline(
       if (expanded.has(paper.id)) expanded.delete(paper.id)
       else expanded.add(paper.id)
       selection = { kind: 'paper', id: paper.id }
-      showPaperDetail(paper)
       scheduleRender()
     },
     onViewChange: (from, to) => setView(from, to),
@@ -268,24 +254,13 @@ function render() {
 
   if (document.activeElement !== rangeFrom) rangeFrom.value = String(roundAge(view.from))
   if (document.activeElement !== rangeTo) rangeTo.value = String(roundAge(view.to))
-  const span = view.from - view.to
   heading.textContent = `${formatMa(roundAge(view.from))} – ${view.to === 0 ? 'today' : formatMa(roundAge(view.to))}`
-  const paperCount = new Set(inView.map(record => record.representative_report.publication.id)).size
-  const touched = coverage(inView, view.from, view.to)
-  visibleCount.textContent =
-    `${inView.length} of ${records.length} records · ${paperCount} ${paperCount === 1 ? 'paper' : 'papers'} · ` +
-    `evidence ranges touch ${(touched * 100).toFixed(touched < 0.1 ? 1 : 0)}% of this ${span >= 1 ? `${Number(span.toFixed(1))} Myr` : `${Number((span * 1000).toFixed(0))} kyr`} window`
+  visibleCount.textContent = `${inView.length} of ${records.length} physical evidence records`
   for (const button of presets.querySelectorAll<HTMLButtonElement>('button')) {
     button.setAttribute('aria-pressed', String(Math.abs(Number(button.dataset.from) - view.from) < 0.01 && Math.abs(Number(button.dataset.to) - view.to) < 0.01))
   }
 
   renderLegend()
-  renderTable(inView)
-
-  const url = new URL(location.href)
-  url.searchParams.set('from', String(roundAge(view.from)))
-  url.searchParams.set('to', String(roundAge(view.to)))
-  history.replaceState(null, '', url)
 }
 
 // ------------------------------------------------------------------ legends
@@ -339,48 +314,9 @@ function renderLegend() {
   }
 }
 
-// ------------------------------------------------------------------ table
-
-function renderTable(visible: TimelineEvidence[]) {
-  table.replaceChildren()
-  const head = table.createTHead().insertRow()
-  for (const label of ['Taxon', 'Specimen', 'Age', 'Precision', 'Dating basis', 'Evidence', 'Paper']) {
-    const cell = document.createElement('th')
-    cell.scope = 'col'
-    cell.textContent = label
-    head.append(cell)
-  }
-  const body = table.createTBody()
-  for (const record of [...visible].sort((a, b) => b.age.max_ma - a.age.max_ma)) {
-    const row = body.insertRow()
-    const publication = record.representative_report.publication
-    for (const value of [
-      record.taxon,
-      record.specimen_label || record.physical_key,
-      formatAge(record),
-      PRECISION_LABELS[record.age.precision],
-      humanize(record.age.method),
-      humanize(record.evidence_type),
-      `${publication.authors[0]?.split(' ').pop() ?? ''} ${publication.year}`,
-    ]) {
-      row.insertCell().textContent = value
-    }
-    row.tabIndex = 0
-    row.addEventListener('click', () => selectRecord(record))
-    row.addEventListener('keydown', event => event.key === 'Enter' && selectRecord(record))
-  }
-}
-
-function selectRecord(record: TimelineEvidence) {
-  selection = { kind: 'record', key: record.physical_key }
-  if (groupPapers.checked) expanded.add(record.representative_report.publication.id)
-  showRecordDetail(record)
-  scheduleRender()
-}
-
 // ------------------------------------------------------------------ details
 
-function factGrid(facts: Array<[string, string | Node]>): HTMLDListElement {
+function factGrid(facts: Array<[string, string]>): HTMLDListElement {
   const grid = document.createElement('dl')
   grid.className = 'fact-grid'
   for (const [label, value] of facts) {
@@ -393,18 +329,6 @@ function factGrid(facts: Array<[string, string | Node]>): HTMLDListElement {
   return grid
 }
 
-function paperLink(record: TimelineEvidence | PaperGroup): Node {
-  const publication = 'publication' in record ? record.publication : record.representative_report.publication
-  const href = publication.url || (publication.doi ? `https://doi.org/${publication.doi}` : null)
-  if (!href || !/^https:\/\//.test(href)) return document.createTextNode(publication.title)
-  const link = document.createElement('a')
-  link.href = href
-  link.target = '_blank'
-  link.rel = 'noopener noreferrer'
-  link.textContent = publication.title
-  return link
-}
-
 function showRecordDetail(record: TimelineEvidence) {
   detail.replaceChildren()
   const title = document.createElement('h2')
@@ -415,17 +339,14 @@ function showRecordDetail(record: TimelineEvidence) {
   meta.className = 'detail-meta'
   meta.textContent = [record.specimen_label || record.physical_key, humanize(record.evidence_type), formatAge(record), record.formation || 'Formation not recorded'].join(' · ')
 
-  const publication = record.representative_report.publication
   const grid = factGrid([
-    ['Age', `${formatAge(record)} (${formatSpan({ min: record.age.min_ma, max: record.age.max_ma })})`],
-    ['Precision', PRECISION_LABELS[record.age.precision]],
+    ['Locality', [record.locality.name, record.locality.region, record.locality.country].filter(Boolean).join(', ')],
     ['Dating', humanize(record.age.method)],
     ['Age basis', record.age.basis || 'Not recorded'],
-    ['Locality', [record.locality.name, record.locality.region, record.locality.country].filter(Boolean).join(', ')],
     ['Material', record.material.length ? record.material.join(', ') : 'Not recorded'],
-    ['Paper', paperLink(record)],
-    ['Authors', publication.authors.join(', ')],
-    ['Published', [publication.journal, publication.year].filter(Boolean).join(', ')],
+    ['Paper', record.representative_report.publication.title],
+    ['Authors', record.representative_report.publication.authors.join(', ')],
+    ['Publication year', String(record.representative_report.publication.year)],
     ['Evidence role', humanize(record.representative_report.evidence_role)],
     ['Reports attached', String(record.report_count)],
   ])
@@ -441,44 +362,6 @@ function showRecordDetail(record: TimelineEvidence) {
     claims.append(item)
   }
   detail.append(title, meta, grid, claimHeading, claims)
-}
-
-function showPaperDetail(paper: PaperGroup) {
-  detail.replaceChildren()
-  const title = document.createElement('h2')
-  title.id = 'detail-heading'
-  title.append(paperLink(paper))
-
-  const meta = document.createElement('p')
-  meta.className = 'detail-meta'
-  meta.textContent = [paper.short, paper.publication.journal, `${paper.records.length} physical evidence ${paper.records.length === 1 ? 'record' : 'records'}`].filter(Boolean).join(' · ')
-
-  const grid = factGrid([
-    ['Authors', paper.publication.authors.join(', ')],
-    ['Age windows', paper.windows.map(window => `${formatAge(window.records[0])} × ${window.records.length}`).join('; ')],
-    ['DOI', paper.publication.doi || 'Not recorded'],
-  ])
-
-  const listHeading = document.createElement('h3')
-  listHeading.textContent = 'Evidence reported in this paper'
-  const list = document.createElement('ul')
-  list.className = 'record-list'
-  for (const record of paper.records) {
-    const item = document.createElement('li')
-    const button = document.createElement('button')
-    button.type = 'button'
-    button.className = 'record-button'
-    const name = document.createElement('span')
-    name.textContent = record.specimen_label ? `${record.taxon} · ${record.specimen_label}` : record.taxon
-    const age = document.createElement('span')
-    age.className = 'muted'
-    age.textContent = `${humanize(record.evidence_type)} · ${formatAge(record)}`
-    button.append(name, age)
-    button.addEventListener('click', () => selectRecord(record))
-    item.append(button)
-    list.append(item)
-  }
-  detail.append(title, meta, grid, listHeading, list)
 }
 
 // ------------------------------------------------------------------ controls
@@ -589,7 +472,6 @@ async function load() {
     yearSlider.max = String(Math.max(...years))
     yearSlider.value = yearSlider.max
 
-    readViewFromUrl()
     renderShapeLegend()
     wireControls()
     updateYear()
