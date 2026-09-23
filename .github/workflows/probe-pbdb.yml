@@ -14,28 +14,12 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - name: Probe PBDB reference lookup
+      - name: Probe PBDB stratigraphy columns
         run: |
           python - <<'PY'
           import urllib.request
-          urls = [
-            "https://paleobiodb.org/data1.2/refs/single.json?id=149",
-            "https://paleobiodb.org/data1.2/refs/single.json?id=ref:149",
-            "https://paleobiodb.org/data1.2/refs/list.json?ref_id=149&limit=3",
-            "https://paleobiodb.org/data1.2/refs/list.json?id=149&limit=3",
-            "https://paleobiodb.org/data1.2/refs/list.csv?ref_id=149&limit=3",
-          ]
-          for url in urls:
-              print("\nURL", url)
-              req = urllib.request.Request(url, headers={"User-Agent":"Fog-of-Time/0.1"})
-              try:
-                  with urllib.request.urlopen(req, timeout=30) as r:
-                      body = r.read(8000).decode("utf-8", "replace")
-                      print("STATUS", r.status)
-                      print(body)
-              except Exception as e:
-                  if hasattr(e, "read"):
-                      try: print("BODY", e.read().decode("utf-8","replace")[:2000])
-                      except Exception: pass
-                  print("ERROR", type(e).__name__, e)
+          url = "https://paleobiodb.org/data1.2/occs/list.csv?base_name=Dinosauria&show=coords,loc,ident,refattr,strat&limit=5"
+          req = urllib.request.Request(url, headers={"User-Agent":"Fog-of-Time/0.1"})
+          with urllib.request.urlopen(req, timeout=30) as r:
+              print(r.read(12000).decode("utf-8","replace"))
           PY
