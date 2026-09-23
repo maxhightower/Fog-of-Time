@@ -104,8 +104,7 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
 .scroller { position: relative; max-height: 560px; overflow-y: auto; overflow-x: hidden; cursor: grab; touch-action: pan-y; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); overscroll-behavior: contain; }
 .scroller.panning { cursor: grabbing; user-select: none; }
 .plot { position: relative; min-height: 260px; }
-.fog, .bars { position: absolute; inset: 0 auto auto 0; display: block; }
-.fog { pointer-events: none; }
+.bars { position: absolute; inset: 0 auto auto 0; display: block; }
 
 .grid-line { stroke: rgba(255, 255, 255, 0.05); stroke-width: 1; }
 .period-line { stroke: rgba(255, 255, 255, 0.14); stroke-width: 1; }

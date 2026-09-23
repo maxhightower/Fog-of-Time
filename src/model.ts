@@ -111,63 +111,6 @@ export function groupByPaper(records: TimelineEvidence[]): PaperGroup[] {
   return [...groups.values()].sort((a, b) => b.max - a.max)
 }
 
-/**
- * Evidence clarity per screen column, in [0, 1].
- *
- * Each record spreads one unit of "evidence" evenly across its age interval, so a
- * tightly dated record clears a narrow window strongly while a 40-Myr stage range
- * barely thins the fog along its whole length. Points are given the width of
- * `minWidthMyr` (a couple of screen pixels) purely so they remain visible.
- */
-export function fogClarity(
-  records: TimelineEvidence[],
-  from: number,
-  to: number,
-  columns: number,
-  minWidthMyr: number,
-  strengthMyr = 4,
-): Float32Array {
-  const density = new Float32Array(columns)
-  const span = from - to
-  const columnMyr = span / columns
-  for (const record of records) {
-    let lo = record.age.min_ma
-    let hi = record.age.max_ma
-    if (hi - lo < minWidthMyr) {
-      const centre = record.age.best_ma ?? (lo + hi) / 2
-      lo = centre - minWidthMyr / 2
-      hi = centre + minWidthMyr / 2
-    }
-    if (hi < to || lo > from) continue
-    const perMyr = 1 / (hi - lo)
-    const first = Math.max(0, Math.floor((from - hi) / columnMyr))
-    const last = Math.min(columns - 1, Math.floor((from - lo) / columnMyr))
-    for (let column = first; column <= last; column++) {
-      const colOld = from - column * columnMyr
-      const colYoung = colOld - columnMyr
-      const overlap = Math.min(colOld, hi) - Math.max(colYoung, lo)
-      if (overlap > 0) density[column] += (overlap / columnMyr) * perMyr
-    }
-  }
-
-  // Soften column edges so the fog drifts rather than stepping.
-  const radius = 3
-  const blurred = new Float32Array(columns)
-  for (let column = 0; column < columns; column++) {
-    let sum = 0
-    let count = 0
-    for (let offset = -radius; offset <= radius; offset++) {
-      const index = column + offset
-      if (index >= 0 && index < columns) {
-        sum += density[index]
-        count++
-      }
-    }
-    blurred[column] = 1 - Math.exp(-(sum / count) * strengthMyr)
-  }
-  return blurred
-}
-
 /** Fraction of [to, from] covered by at least one record's age interval. */
 export function coverage(records: TimelineEvidence[], from: number, to: number): number {
   const intervals = records

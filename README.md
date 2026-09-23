@@ -51,8 +51,8 @@ public/data/
 
 src/
   main.ts               page shell, layers panel, filters, detail view
-  timeline.ts           SVG/canvas timeline (bars, fog, geologic bands, pan/zoom)
-  model.ts              paper grouping, colour categories, fog density
+  timeline.ts           SVG timeline (bars, geologic bands, pan/zoom)
+  model.ts              paper grouping, colour categories, coverage
   timescale.ts          ICS geologic time scale reference bands
 ```
 
@@ -75,9 +75,7 @@ feathered stage-derived interval, glowing approximate point, crisp reported poin
 Records are grouped into one window per paper; clicking a paper expands its records.
 
 The **Layers** panel toggles discoveries, the geologic time scale (periods, epochs,
-Mesozoic stages) and the fog layer, and a "Known by" slider replays the evidence
-by publication year. The fog is thick wherever no record in the dataset reaches and
-is thinned by each record in proportion to how tightly it is dated.
+Mesozoic stages), and a "Known by" slider replays the evidence by publication year.
 
 The repository currently commits a tiny **development-fixture dataset** so the frontend works immediately. The UI labels it clearly as non-scientific fixture data.
 

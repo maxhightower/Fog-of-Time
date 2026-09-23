@@ -18,7 +18,7 @@ app.innerHTML = `
       <div>
         <p class="eyebrow">DINOSAUR EVIDENCE EXPLORER</p>
         <h1>Fog of Time</h1>
-        <p class="lede">Deep time is mostly fog. Each published discovery clears a brief, blurry window onto the past — and every window keeps a path back to its paper.</p>
+        <p class="lede">Each published discovery grants a brief, uncertain snapshot of the past — and every snapshot keeps a path back to its paper.</p>
       </div>
       <div id="dataset-status" class="dataset-status" aria-live="polite">Loading local dataset…</div>
     </header>
@@ -56,11 +56,6 @@ app.innerHTML = `
           </div>
 
           <div class="layer">
-            <label class="toggle"><input id="layer-fog" type="checkbox" checked /> <span>Fog of time</span></label>
-            <p class="layer-note">Thick where no evidence in this dataset reaches; each record thins it in proportion to how tightly it is dated.</p>
-          </div>
-
-          <div class="layer">
             <div class="year-heading">
               <span class="field-label">Known by</span>
               <output id="year-output" for="year-slider">—</output>
@@ -69,7 +64,7 @@ app.innerHTML = `
               <button id="year-play" type="button" class="icon-button" aria-label="Play discoveries by publication year">▶</button>
               <input id="year-slider" type="range" step="1" aria-label="Show evidence published up to this year" />
             </div>
-            <p class="layer-note">Replay how the fog lifted as papers were published.</p>
+            <p class="layer-note">Replay how the evidence accumulated as papers were published.</p>
           </div>
         </section>
 
@@ -110,7 +105,6 @@ app.innerHTML = `
             <svg id="geology" class="geology" aria-hidden="true"></svg>
             <div id="scroller" class="scroller">
               <div id="plot" class="plot">
-                <canvas id="fog" class="fog" aria-hidden="true"></canvas>
                 <svg id="bars" class="bars" role="group" aria-label="Dinosaur evidence timeline"></svg>
               </div>
             </div>
@@ -149,7 +143,6 @@ const rangeTo = $<HTMLInputElement>('#range-to')
 const presets = $<HTMLDivElement>('#presets')
 const layerDiscoveries = $<HTMLInputElement>('#layer-discoveries')
 const layerGeology = $<HTMLInputElement>('#layer-geology')
-const layerFog = $<HTMLInputElement>('#layer-fog')
 const groupPapers = $<HTMLInputElement>('#group-papers')
 const colorBy = $<HTMLSelectElement>('#color-by')
 const colorLegend = $<HTMLUListElement>('#color-legend')
@@ -221,7 +214,6 @@ const timeline = new Timeline(
     geology: $<SVGSVGElement>('#geology'),
     scroller: $<HTMLDivElement>('#scroller'),
     plot: $<HTMLDivElement>('#plot'),
-    fog: $<HTMLCanvasElement>('#fog'),
     bars: $<SVGSVGElement>('#bars'),
     axis: $<SVGSVGElement>('#axis'),
     tooltip: $<HTMLDivElement>('#tooltip'),
@@ -271,7 +263,6 @@ function render() {
     colorBy: colorBy.value as ColorBy,
     showDiscoveries: layerDiscoveries.checked,
     showGeology: layerGeology.checked,
-    showFog: layerFog.checked,
     selection,
   })
 
@@ -546,7 +537,7 @@ function wireControls() {
     setView(oldest + pad, youngest - pad)
   })
 
-  for (const input of [layerDiscoveries, layerGeology, layerFog, groupPapers]) input.addEventListener('change', scheduleRender)
+  for (const input of [layerDiscoveries, layerGeology, groupPapers]) input.addEventListener('change', scheduleRender)
   colorBy.addEventListener('change', scheduleRender)
   for (const select of Object.values(filters)) select.addEventListener('change', scheduleRender)
   $<HTMLButtonElement>('#reset-filter').addEventListener('click', () => {

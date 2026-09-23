@@ -1,5 +1,5 @@
 import type { TimelineEvidence } from './types'
-import { categoryOf, fogClarity, recordWindow, type AgeWindow, type ColorBy, type PaperGroup } from './model'
+import { categoryOf, recordWindow, type AgeWindow, type ColorBy, type PaperGroup } from './model'
 import { formatMa, formatSpan, formatWindow, humanize, PRECISION_LABELS } from './format'
 import { TIMESCALE, type GeoRank } from './timescale'
 
@@ -12,7 +12,6 @@ const GEO_ROW_HEIGHT = 18
 const LABEL_GAP = 6
 const POINT_GLOW = 9
 const MIN_BAR_WIDTH = 3
-const FOG_MAX_ALPHA = 0.66
 
 export type Selection = { kind: 'record'; key: string } | { kind: 'paper'; id: string }
 
@@ -26,7 +25,6 @@ export interface TimelineModel {
   colorBy: ColorBy
   showDiscoveries: boolean
   showGeology: boolean
-  showFog: boolean
   selection: Selection | null
 }
 
@@ -40,7 +38,6 @@ export interface TimelineElements {
   geology: SVGSVGElement
   scroller: HTMLDivElement
   plot: HTMLDivElement
-  fog: HTMLCanvasElement
   bars: SVGSVGElement
   axis: SVGSVGElement
   tooltip: HTMLDivElement
@@ -82,52 +79,10 @@ function niceStep(span: number, targetTicks: number): number {
   return nice * power
 }
 
-function makeNoisePattern(context: CanvasRenderingContext2D): CanvasPattern | null {
-  const size = 256
-  const tile = document.createElement('canvas')
-  tile.width = size
-  tile.height = size
-  const tileContext = tile.getContext('2d')
-  if (!tileContext) return null
-  const image = tileContext.createImageData(size, size)
-
-  // Two octaves of tileable value noise give the fog a soft, uneven body.
-  const octave = (cells: number) => {
-    const grid = Array.from({ length: cells * cells }, () => Math.random())
-    const at = (x: number, y: number) => grid[((y + cells) % cells) * cells + ((x + cells) % cells)]
-    return (px: number, py: number) => {
-      const gx = (px / size) * cells
-      const gy = (py / size) * cells
-      const x0 = Math.floor(gx)
-      const y0 = Math.floor(gy)
-      const tx = (gx - x0) ** 2 * (3 - 2 * (gx - x0))
-      const ty = (gy - y0) ** 2 * (3 - 2 * (gy - y0))
-      const top = at(x0, y0) * (1 - tx) + at(x0 + 1, y0) * tx
-      const bottom = at(x0, y0 + 1) * (1 - tx) + at(x0 + 1, y0 + 1) * tx
-      return top * (1 - ty) + bottom * ty
-    }
-  }
-  const coarse = octave(6)
-  const fine = octave(24)
-  for (let y = 0; y < size; y++) {
-    for (let x = 0; x < size; x++) {
-      const value = coarse(x, y) * 0.7 + fine(x, y) * 0.3
-      const offset = (y * size + x) * 4
-      image.data[offset] = 196
-      image.data[offset + 1] = 200
-      image.data[offset + 2] = 184
-      image.data[offset + 3] = Math.round(255 * (0.45 + 0.55 * value))
-    }
-  }
-  tileContext.putImageData(image, 0, 0)
-  return context.createPattern(tile, 'repeat')
-}
-
 export class Timeline {
   private model: TimelineModel | null = null
   private width = 0
   private measureContext = document.createElement('canvas').getContext('2d')
-  private fogPattern: CanvasPattern | null = null
   private drag: { pointerId: number; startX: number; from: number; to: number; moved: boolean } | null = null
   private suppressClick = false
 
@@ -157,7 +112,7 @@ export class Timeline {
     this.width = Math.max(1, this.elements.scroller.clientWidth)
     const focused = document.activeElement instanceof SVGElement ? document.activeElement.dataset.key : undefined
     this.renderGeology()
-    const plotHeight = this.renderBars()
+    this.renderBars()
     if (focused) {
       // Re-rendering replaces the rows; keep keyboard focus on the same mark.
       const kind = focused.startsWith('paper') ? ['paper:', 'paper-header:'] : ['record:']
@@ -165,7 +120,6 @@ export class Timeline {
       const match = kind.map(prefix => this.elements.bars.querySelector<SVGGElement>(`[data-key="${CSS.escape(prefix + key)}"]`)).find(Boolean)
       match?.focus({ preventScroll: true })
     }
-    this.renderFog(plotHeight)
     this.renderAxis()
   }
 
@@ -312,7 +266,7 @@ export class Timeline {
 
   // ---------------------------------------------------------------- bars
 
-  private renderBars(): number {
+  private renderBars() {
     const model = this.model!
     const { bars, plot } = this.elements
     bars.replaceChildren()
@@ -360,10 +314,9 @@ export class Timeline {
 
     if (model.showDiscoveries && blocks.length === 0) {
       const text = svg('text', { x: this.width / 2, y: height / 2, 'text-anchor': 'middle', class: 'empty-label' })
-      text.textContent = model.records.length ? 'No discoveries in this window — only fog.' : 'No evidence matches these settings.'
+      text.textContent = model.records.length ? 'No discoveries in this window.' : 'No evidence matches these settings.'
       bars.append(text)
     }
-    return height
   }
 
   private renderGrid(height: number) {
@@ -482,50 +435,6 @@ export class Timeline {
         group.append(svg('line', { class: 'best-tick', x1: bx, x2: bx, y1: top - 2, y2: top + height + 2 }))
       }
     }
-  }
-
-  // ---------------------------------------------------------------- fog
-
-  private renderFog(height: number) {
-    const model = this.model!
-    const canvas = this.elements.fog
-    const ratio = window.devicePixelRatio || 1
-    canvas.style.width = `${this.width}px`
-    canvas.style.height = `${height}px`
-    canvas.width = Math.round(this.width * ratio)
-    canvas.height = Math.round(height * ratio)
-    canvas.style.display = model.showFog ? '' : 'none'
-    if (!model.showFog) return
-    const context = canvas.getContext('2d')
-    if (!context) return
-    context.setTransform(ratio, 0, 0, ratio, 0, 0)
-    this.fogPattern ??= makeNoisePattern(context)
-
-    const columns = Math.max(1, Math.round(this.width))
-    const myrPerPx = (model.from - model.to) / this.width
-    const clarity = fogClarity(model.records, model.from, model.to, columns, 2 * myrPerPx)
-
-    // A one-pixel-tall alpha mask, stretched over the plot, carves clear windows
-    // out of the textured fog.
-    const mask = document.createElement('canvas')
-    mask.width = columns
-    mask.height = 1
-    const maskContext = mask.getContext('2d')
-    if (!maskContext) return
-    const pixels = maskContext.createImageData(columns, 1)
-    for (let column = 0; column < columns; column++) {
-      pixels.data[column * 4 + 3] = Math.round(255 * FOG_MAX_ALPHA * (1 - clarity[column]))
-    }
-    maskContext.putImageData(pixels, 0, 0)
-
-    context.globalCompositeOperation = 'source-over'
-    context.clearRect(0, 0, this.width, height)
-    context.fillStyle = this.fogPattern ?? 'rgb(196, 200, 184)'
-    context.fillRect(0, 0, this.width, height)
-    context.globalCompositeOperation = 'destination-in'
-    context.imageSmoothingEnabled = true
-    context.drawImage(mask, 0, 0, this.width, height)
-    context.globalCompositeOperation = 'source-over'
   }
 
   // ---------------------------------------------------------------- axis
