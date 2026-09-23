@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": true,
+  "publication": {
+    "id": "fixture:jurassic-description",
+    "doi": null,
+    "title": "Development fixture: Late Jurassic stegosaur specimen description",
+    "year": 2021,
+    "journal": "Fixture Journal — not a real publication",
+    "url": null,
+    "authors": ["Example Author", "Second Example"]
+  },
+  "evidence": [
+    {
+      "id": "fixture:jurassic-description:e1",
+      "physical_key": "fixture:specimen:jurassic-001",
+      "evidence_type": "body_fossil",
+      "taxon": { "name": "Stegosaurus stenops", "rank": "species" },
+      "specimen": { "institution_code": "FIX", "catalog_number": "JUR-001", "label": "FIX JUR-001" },
+      "material": ["dorsal plates", "vertebrae", "pelvis"],
+      "locality": { "name": "Fixture locality B", "country": "United States", "region": "Wyoming", "latitude": null, "longitude": null, "coordinate_uncertainty_km": null },
+      "stratigraphy": { "formation": "Morrison Formation", "member": null, "group": null },
+      "age": { "min_ma": 148.0, "max_ma": 154.0, "best_ma": 151.0, "precision": "explicit_range", "method": "stratigraphic_constraint", "basis": "Development fixture interval", "notes": null },
+      "evidence_role": "original_description",
+      "claims": [
+        { "type": "measurement", "summary": "Fixture measurement claim used to test paper-level evidence extraction.", "page": "8", "figure": null, "table": "2" }
+      ]
+    }
+  ]
+}
