@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1038/srep01924",
+    "doi": "10.1038/srep01924",
+    "title": "Filling the gaps of dinosaur eggshell phylogeny: Late Jurassic Theropod clutch with embryos from Portugal",
+    "year": 2013,
+    "journal": "Scientific Reports",
+    "url": "https://www.nature.com/articles/srep01924",
+    "authors": ["Ricardo Araújo", "Rui Castanhinha", "Rui M. S. Martins", "Octávio Mateus", "Christophe Hendrickx", "F. Beckmann", "N. Schell", "L. C. Alves"]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1038/srep01924:ml1188",
+      "physical_key": "clutch:ml:1188",
+      "evidence_type": "nest",
+      "taxon": {"name": "Torvosaurus", "rank": "genus"},
+      "specimen": {"institution_code": "ML", "catalog_number": "1188", "label": "ML1188"},
+      "material": ["dinosaur clutch assemblage", ">500 eggshell fragments", "embryonic bones", "embryonic teeth"],
+      "locality": {"name": "Porto das Barcas", "country": "Portugal", "region": "Lourinhã", "latitude": 39.2166667, "longitude": -9.3333333, "coordinate_uncertainty_km": null},
+      "stratigraphy": {"formation": "Lourinhã Formation", "member": "Sobral Member", "group": null},
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 149.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "stage_constraint_with_ics_conversion",
+        "basis": "The paper assigns the clutch to the early Tithonian; the numeric envelope uses the current ICS Tithonian stage interval.",
+        "notes": "The paper additionally reports the layer approximately 35 m above the Kimmeridgian-Tithonian boundary."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {"type": "reproductive_observation", "summary": "ML1188 is a roughly 65 cm-wide clutch assemblage containing more than 500 clustered eggshell fragments together with embryonic bones and teeth.", "page": null, "figure": "1", "table": null},
+        {"type": "taxonomic_assignment", "summary": "Embryonic osteology and associated eggshells are ascribed to the megalosaurid theropod Torvosaurus.", "page": null, "figure": null, "table": null},
+        {"type": "stratigraphic_context", "summary": "The clutch was recovered from a grey mudstone layer in the early Tithonian Sobral Member of the Lourinhã Formation.", "page": null, "figure": null, "table": null}
+      ]
+    }
+  ]
+}
