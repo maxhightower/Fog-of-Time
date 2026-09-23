@@ -1,0 +1,423 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1038/s41598-022-09125-9",
+    "doi": "10.1038/s41598-022-09125-9",
+    "title": "First titanosaur dinosaur nesting site from the Late Cretaceous of Brazil",
+    "year": 2022,
+    "journal": "Scientific Reports",
+    "url": "https://www.nature.com/articles/s41598-022-09125-9",
+    "authors": [
+      "Lucas E. Fiorelli",
+      "Agustín G. Martinelli",
+      "João Ismael da Silva",
+      "E. Martín Hechenleitner",
+      "Marcus Vinícius Theodoro Soares",
+      "Julian C. G. Silva Junior",
+      "José Carlos da Silva",
+      "Élbia Messias Roteli Borges",
+      "Luiz Carlos Borges Ribeiro",
+      "André Marconato",
+      "Giorgio Basilici",
+      "Thiago da Silva Marinho"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1038/s41598-022-09125-9:cpplip-1798",
+      "physical_key": "clutch:cpplip:1798",
+      "evidence_type": "nest",
+      "taxon": {
+        "name": "Titanosauria indet.",
+        "rank": "clade"
+      },
+      "specimen": {
+        "institution_code": "CPPLIP",
+        "catalog_number": "1798",
+        "label": "CPPLIP 1798"
+      },
+      "material": [
+        "clutch with ten eggs",
+        "five almost complete spherical eggs"
+      ],
+      "locality": {
+        "name": "Ponte Alta nesting site, Lafarge Quarry, Ponte Alta, Uberaba Municipality",
+        "country": "Brazil",
+        "region": "Minas Gerais",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Serra da Galga Formation",
+        "member": null,
+        "group": "Bauru Group"
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the egg-bearing Serra da Galga Formation horizon to the Maastrichtian; the numeric envelope uses current Maastrichtian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "material_record",
+          "summary": "Best-preserved partial clutch; ten eggs are arranged with evidence of at least two superposed rows.",
+          "page": null,
+          "figure": "1798",
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Egg and eggshell morphology is interpreted as titanosaurian, although no embryos were recovered in ovo.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-09125-9:cpplip-1799",
+      "physical_key": "egg:cpplip:1799",
+      "evidence_type": "egg",
+      "taxon": {
+        "name": "Titanosauria indet.",
+        "rank": "clade"
+      },
+      "specimen": {
+        "institution_code": "CPPLIP",
+        "catalog_number": "1799",
+        "label": "CPPLIP 1799"
+      },
+      "material": [
+        "two spherical eggs",
+        "fragment of a third egg"
+      ],
+      "locality": {
+        "name": "Ponte Alta nesting site, Lafarge Quarry, Ponte Alta, Uberaba Municipality",
+        "country": "Brazil",
+        "region": "Minas Gerais",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Serra da Galga Formation",
+        "member": null,
+        "group": "Bauru Group"
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the egg-bearing Serra da Galga Formation horizon to the Maastrichtian; the numeric envelope uses current Maastrichtian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "material_record",
+          "summary": "Two spherical eggs and a fragment of a third occur within sedimentary matrix.",
+          "page": null,
+          "figure": "1798",
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Egg and eggshell morphology is interpreted as titanosaurian, although no embryos were recovered in ovo.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-09125-9:cpplip-1800",
+      "physical_key": "egg:cpplip:1800",
+      "evidence_type": "egg",
+      "taxon": {
+        "name": "Titanosauria indet.",
+        "rank": "clade"
+      },
+      "specimen": {
+        "institution_code": "CPPLIP",
+        "catalog_number": "1800",
+        "label": "CPPLIP 1800"
+      },
+      "material": [
+        "two almost complete spherical eggs"
+      ],
+      "locality": {
+        "name": "Ponte Alta nesting site, Lafarge Quarry, Ponte Alta, Uberaba Municipality",
+        "country": "Brazil",
+        "region": "Minas Gerais",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Serra da Galga Formation",
+        "member": null,
+        "group": "Bauru Group"
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the egg-bearing Serra da Galga Formation horizon to the Maastrichtian; the numeric envelope uses current Maastrichtian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "material_record",
+          "summary": "Two almost complete spherical eggs occur with matrix and no clear association with other specimens.",
+          "page": null,
+          "figure": "1798",
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Egg and eggshell morphology is interpreted as titanosaurian, although no embryos were recovered in ovo.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-09125-9:cpplip-1801",
+      "physical_key": "egg:cpplip:1801",
+      "evidence_type": "egg",
+      "taxon": {
+        "name": "Titanosauria indet.",
+        "rank": "clade"
+      },
+      "specimen": {
+        "institution_code": "CPPLIP",
+        "catalog_number": "1801",
+        "label": "CPPLIP 1801"
+      },
+      "material": [
+        "almost complete spherical egg"
+      ],
+      "locality": {
+        "name": "Ponte Alta nesting site, Lafarge Quarry, Ponte Alta, Uberaba Municipality",
+        "country": "Brazil",
+        "region": "Minas Gerais",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Serra da Galga Formation",
+        "member": null,
+        "group": "Bauru Group"
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the egg-bearing Serra da Galga Formation horizon to the Maastrichtian; the numeric envelope uses current Maastrichtian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "material_record",
+          "summary": "An almost complete spherical egg occurs at the higher of the two documented egg-bearing levels.",
+          "page": null,
+          "figure": "1798",
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Egg and eggshell morphology is interpreted as titanosaurian, although no embryos were recovered in ovo.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-09125-9:cpplip-1802",
+      "physical_key": "egg:cpplip:1802",
+      "evidence_type": "egg",
+      "taxon": {
+        "name": "Titanosauria indet.",
+        "rank": "clade"
+      },
+      "specimen": {
+        "institution_code": "CPPLIP",
+        "catalog_number": "1802",
+        "label": "CPPLIP 1802"
+      },
+      "material": [
+        "two associated fragmented eggs"
+      ],
+      "locality": {
+        "name": "Ponte Alta nesting site, Lafarge Quarry, Ponte Alta, Uberaba Municipality",
+        "country": "Brazil",
+        "region": "Minas Gerais",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Serra da Galga Formation",
+        "member": null,
+        "group": "Bauru Group"
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the egg-bearing Serra da Galga Formation horizon to the Maastrichtian; the numeric envelope uses current Maastrichtian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "material_record",
+          "summary": "Two associated fragmented eggs are documented.",
+          "page": null,
+          "figure": "1798",
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Egg and eggshell morphology is interpreted as titanosaurian, although no embryos were recovered in ovo.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-09125-9:cpplip-1803",
+      "physical_key": "clutch:cpplip:1803",
+      "evidence_type": "nest",
+      "taxon": {
+        "name": "Titanosauria indet.",
+        "rank": "clade"
+      },
+      "specimen": {
+        "institution_code": "CPPLIP",
+        "catalog_number": "1803",
+        "label": "CPPLIP 1803"
+      },
+      "material": [
+        "three associated fragmented eggs"
+      ],
+      "locality": {
+        "name": "Ponte Alta nesting site, Lafarge Quarry, Ponte Alta, Uberaba Municipality",
+        "country": "Brazil",
+        "region": "Minas Gerais",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Serra da Galga Formation",
+        "member": null,
+        "group": "Bauru Group"
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the egg-bearing Serra da Galga Formation horizon to the Maastrichtian; the numeric envelope uses current Maastrichtian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "material_record",
+          "summary": "Three associated fragmented eggs are documented, two still within sedimentary matrix.",
+          "page": null,
+          "figure": "1798",
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Egg and eggshell morphology is interpreted as titanosaurian, although no embryos were recovered in ovo.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-022-09125-9:cpplip-1804",
+      "physical_key": "clutch:cpplip:1804",
+      "evidence_type": "nest",
+      "taxon": {
+        "name": "Titanosauria indet.",
+        "rank": "clade"
+      },
+      "specimen": {
+        "institution_code": "CPPLIP",
+        "catalog_number": "1804",
+        "label": "CPPLIP 1804"
+      },
+      "material": [
+        "two associated almost complete eggs",
+        "sedimentary mold of another egg"
+      ],
+      "locality": {
+        "name": "Ponte Alta nesting site, Lafarge Quarry, Ponte Alta, Uberaba Municipality",
+        "country": "Brazil",
+        "region": "Minas Gerais",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Serra da Galga Formation",
+        "member": null,
+        "group": "Bauru Group"
+      },
+      "age": {
+        "min_ma": 66,
+        "max_ma": 72.1,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_stage_assignment_with_ics_conversion",
+        "basis": "The paper assigns the egg-bearing Serra da Galga Formation horizon to the Maastrichtian; the numeric envelope uses current Maastrichtian boundaries.",
+        "notes": null
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "material_record",
+          "summary": "Two associated, almost complete eggs are preserved, including a sedimentary mold relationship.",
+          "page": null,
+          "figure": "1798",
+          "table": null
+        },
+        {
+          "type": "taxonomic_assignment",
+          "summary": "Egg and eggshell morphology is interpreted as titanosaurian, although no embryos were recovered in ovo.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}
