@@ -1,0 +1,21 @@
+{
+  "schema_version": "fog-of-time.discovery-queries/v1",
+  "queries": [
+    "dinosaur new species specimen fossil",
+    "Dinosauria osteology specimen",
+    "theropod new species fossil",
+    "sauropod new species fossil",
+    "sauropodomorph fossil specimen",
+    "ornithischian new species fossil",
+    "ceratopsian fossil specimen",
+    "hadrosaur fossil specimen",
+    "ankylosaur fossil specimen",
+    "stegosaur fossil specimen",
+    "dromaeosaur fossil specimen",
+    "tyrannosaur fossil specimen",
+    "dinosaur trackway ichnology",
+    "dinosaur egg nest embryo",
+    "dinosaur bone histology",
+    "dinosaur skin feather integument fossil"
+  ]
+}

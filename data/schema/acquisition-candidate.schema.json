@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fog-of-time.local/schema/acquisition-candidate-v1.json",
+  "title": "Fog of Time acquisition candidate",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["id", "cohort", "doi", "title", "year", "temporal_band", "target_evidence_types", "access_status", "metadata_status", "extraction_status", "discovered_via"],
+  "properties": {
+    "id": {"type":"string","minLength":1},
+    "cohort": {"enum":["benchmark","discovery"]},
+    "hand_selected": {"type":"boolean"},
+    "doi": {"type":["string","null"]},
+    "title": {"type":"string","minLength":1},
+    "year": {"type":["integer","null"]},
+    "journal": {"type":["string","null"]},
+    "publisher_url": {"type":["string","null"]},
+    "temporal_band": {"enum":["triassic","early_jurassic","middle_jurassic","late_jurassic","early_cretaceous","late_cretaceous","mixed","unknown"]},
+    "target_evidence_types": {
+      "type":"array",
+      "items":{"type":"string","minLength":1},
+      "uniqueItems":true
+    },
+    "selection_reason": {"type":["string","null"]},
+    "access_status": {"enum":["open_access","needs_access","unknown"]},
+    "metadata_status": {"enum":["publisher_verified","crossref_resolved","discovered","needs_review"]},
+    "metadata_verified_on": {"type":["string","null"]},
+    "extraction_status": {"enum":["pending","ready","extracted","reviewed","admitted","rejected"]},
+    "discovered_via": {"type":"array","items":{"type":"string","minLength":1},"minItems":1}
+  }
+}

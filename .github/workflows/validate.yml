@@ -3,7 +3,7 @@ name: validate
 on:
   push:
     branches:
-      - feature/fot0-foundation
+      - "feature/**"
   pull_request:
 
 jobs:
@@ -15,6 +15,12 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+
+      - name: Validate acquisition benchmark
+        run: python scripts/data/acquisition/validate_queue.py
+
+      - name: Compile acquisition scripts
+        run: python -m py_compile scripts/data/acquisition/*.py
 
       - name: Build evidence database
         run: python scripts/data/build_data.py
