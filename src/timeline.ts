@@ -1,5 +1,5 @@
 import type { TimelineEvidence } from './types'
-import { categoryOf, recordWindow, type AgeWindow, type ColorBy, type PaperGroup } from './model'
+import { categoryOf, recordWindow, type AgeWindow, type ColorBy, type RecordGroup } from './model'
 import { formatMa, formatSpan, formatWindow, humanize, PRECISION_LABELS } from './format'
 import { TIMESCALE, type GeoRank } from './timescale'
 
@@ -13,14 +13,14 @@ const LABEL_GAP = 6
 const POINT_GLOW = 9
 const MIN_BAR_WIDTH = 3
 
-export type Selection = { kind: 'record'; key: string } | { kind: 'paper'; id: string }
+export type Selection = { kind: 'record'; key: string } | { kind: 'group'; id: string }
 
 export interface TimelineModel {
   from: number
   to: number
-  papers: PaperGroup[]
+  /** Null when records are shown individually. */
+  groups: RecordGroup[] | null
   records: TimelineEvidence[]
-  groupByPaper: boolean
   expanded: ReadonlySet<string>
   colorBy: ColorBy
   showDiscoveries: boolean
@@ -30,7 +30,7 @@ export interface TimelineModel {
 
 export interface TimelineCallbacks {
   onSelectRecord(record: TimelineEvidence): void
-  onSelectPaper(paper: PaperGroup): void
+  onSelectGroup(group: RecordGroup): void
   onViewChange(from: number, to: number): void
 }
 
@@ -43,7 +43,7 @@ export interface TimelineElements {
   tooltip: HTMLDivElement
 }
 
-type RowKind = 'paper' | 'paper-header' | 'record'
+type RowKind = 'group' | 'group-header' | 'record'
 
 interface Row {
   kind: RowKind
@@ -51,7 +51,7 @@ interface Row {
   label: string
   windows: AgeWindow[]
   record?: TimelineEvidence
-  paper?: PaperGroup
+  group?: RecordGroup
   x0: number
   x1: number
   labelX: number | null
@@ -61,7 +61,7 @@ interface Row {
 
 interface Block {
   rows: Row[]
-  paper?: PaperGroup
+  group?: RecordGroup
   expanded: boolean
 }
 
@@ -115,7 +115,7 @@ export class Timeline {
     this.renderBars()
     if (focused) {
       // Re-rendering replaces the rows; keep keyboard focus on the same mark.
-      const kind = focused.startsWith('paper') ? ['paper:', 'paper-header:'] : ['record:']
+      const kind = focused.startsWith('group') ? ['group:', 'group-header:'] : ['record:']
       const key = focused.slice(focused.indexOf(':') + 1)
       const match = kind.map(prefix => this.elements.bars.querySelector<SVGGElement>(`[data-key="${CSS.escape(prefix + key)}"]`)).find(Boolean)
       match?.focus({ preventScroll: true })
@@ -176,7 +176,7 @@ export class Timeline {
       barEnd = Math.max(barEnd, end)
     }
     if (barEnd < 0 || barStart > this.width) return null
-    // Paper rows carry no text label; the tooltip and detail view identify them.
+    // Group rows carry no text label; the tooltip identifies them.
     if (kind !== 'record') return { x0: barStart, x1: barEnd, labelX: null, labelAnchor: 'start' }
 
     const labelWidth = this.textWidth(label)
@@ -212,17 +212,17 @@ export class Timeline {
         .map(record => this.makeRow('record', record.physical_key, this.recordLabel(record), [recordWindow(record)], { record }))
         .filter((row): row is Row => row !== null)
 
-    if (!model.groupByPaper) {
+    if (!model.groups) {
       for (const row of recordRows(model.records)) blocks.push({ rows: [row], expanded: false })
       return blocks
     }
 
-    for (const paper of model.papers) {
-      if (model.expanded.has(paper.id)) {
-        const header = this.makeRow('paper-header', paper.id, '', [{ min: paper.min, max: paper.max, best: null, precision: 'explicit_range', records: paper.records }], { paper })
+    for (const group of model.groups) {
+      if (model.expanded.has(group.id)) {
+        const header = this.makeRow('group-header', group.id, '', [{ min: group.min, max: group.max, best: null, precision: 'explicit_range', records: group.records }], { group })
         if (!header) continue
-        // Pack the paper's records into their own sub-lanes so the block stays together.
-        const rows = recordRows([...paper.records].sort((a, b) => b.age.max_ma - a.age.max_ma))
+        // Pack the group's records into their own sub-lanes so the block stays together.
+        const rows = recordRows([...group.records].sort((a, b) => b.age.max_ma - a.age.max_ma))
         const laneEnds: number[] = []
         for (const row of rows) {
           let lane = laneEnds.findIndex(end => end + 8 <= row.x0)
@@ -230,10 +230,10 @@ export class Timeline {
           laneEnds[lane] = row.x1
           row.lane = lane + 1
         }
-        blocks.push({ rows: [header, ...rows], paper, expanded: true })
+        blocks.push({ rows: [header, ...rows], group, expanded: true })
       } else {
-        const row = this.makeRow('paper', paper.id, '', paper.windows, { paper })
-        if (row) blocks.push({ rows: [row], paper, expanded: false })
+        const row = this.makeRow('group', group.id, '', group.windows, { group })
+        if (row) blocks.push({ rows: [row], group, expanded: false })
       }
     }
     return blocks
@@ -355,22 +355,38 @@ export class Timeline {
 
     group.append(svg('rect', { class: 'hit', x: row.x0 - 4, y, width: row.x1 - row.x0 + 8, height: LANE_PITCH, rx: 4 }))
 
-    if (row.kind === 'paper-header') {
-      const x0 = this.x(row.paper!.max)
-      const x1 = Math.max(this.x(row.paper!.min), x0 + MIN_BAR_WIDTH)
+    if (row.kind === 'group-header') {
+      const x0 = this.x(row.group!.max)
+      const x1 = Math.max(this.x(row.group!.min), x0 + MIN_BAR_WIDTH)
       group.append(svg('line', { class: 'header-line', x1: x0, x2: x1, y1: centre, y2: centre }))
       group.append(svg('line', { class: 'header-line', x1: x0, x2: x0, y1: centre - 4, y2: centre + 4 }))
       group.append(svg('line', { class: 'header-line', x1: x1, x2: x1, y1: centre - 4, y2: centre + 4 }))
     } else {
-      const records = row.windows.flatMap(window => window.records)
-      const barHeight = row.kind === 'paper' ? 12 : 9
+      const barHeight = row.kind === 'group' ? 12 : 9
       if (row.windows.length > 1) {
         const xs = row.windows.flatMap(window => [this.x(window.max), this.x(window.min)])
         group.append(svg('line', { class: 'window-link', x1: Math.min(...xs), x2: Math.max(...xs), y1: centre, y2: centre }))
       }
       for (const window of row.windows) {
-        const color = categoryOf(window.records[0] ?? records[0], model.colorBy).color
-        this.renderWindow(group, window, centre, barHeight, color, gradient)
+        // A window shared by records of different colour categories is split into
+        // horizontal stripes sized by record count.
+        const counts = new Map<string, number>()
+        for (const record of window.records) {
+          const color = categoryOf(record, model.colorBy).color
+          counts.set(color, (counts.get(color) ?? 0) + 1)
+        }
+        const isPoint = window.max === window.min
+        if (counts.size === 1 || isPoint) {
+          const majority = [...counts.entries()].sort((a, b) => b[1] - a[1])[0][0]
+          this.renderWindow(group, window, centre, barHeight, majority, gradient)
+          continue
+        }
+        let top = centre - barHeight / 2
+        for (const [color, count] of counts) {
+          const height = (barHeight * count) / window.records.length
+          this.renderWindow(group, window, top + height / 2, height, color, gradient)
+          top += height
+        }
       }
     }
 
@@ -383,7 +399,7 @@ export class Timeline {
     const activate = () => {
       if (this.suppressClick) return
       if (row.kind === 'record') this.callbacks.onSelectRecord(row.record!)
-      else this.callbacks.onSelectPaper(row.paper!)
+      else this.callbacks.onSelectGroup(row.group!)
     }
     group.addEventListener('click', activate)
     group.addEventListener('keydown', event => {
@@ -466,8 +482,8 @@ export class Timeline {
       const record = row.record!
       return `${this.recordLabel(record)}, ${formatWindow(row.windows[0])}, ${PRECISION_LABELS[record.age.precision]}`
     }
-    const paper = row.paper!
-    return `${paper.publication.title}, ${paper.short}, ${paper.records.length} records. ${row.kind === 'paper' ? 'Expand' : 'Collapse'} paper.`
+    const group = row.group!
+    return `${[group.label, group.detail].filter(Boolean).join(', ')}, ${group.records.length} records. ${row.kind === 'group' ? 'Expand' : 'Collapse'} group.`
   }
 
   private showTooltip(row: Row, clientX: number, clientY: number) {
@@ -487,11 +503,11 @@ export class Timeline {
       line(`${PRECISION_LABELS[record.age.precision]} · ${formatSpan(window)}`, 'tip-meta')
       line(`${humanize(record.evidence_type)} · ${humanize(record.age.method)}`, 'tip-meta')
     } else {
-      const paper = row.paper!
-      line(paper.windows.length === 1 ? formatWindow(paper.windows[0]) : `${paper.windows.length} age windows · ${formatMa(paper.max)} – ${formatMa(paper.min)}`, 'tip-value')
-      line(paper.short, 'tip-title')
-      line(paper.publication.title, 'tip-meta')
-      line(`${paper.records.length} physical evidence ${paper.records.length === 1 ? 'record' : 'records'} · click to ${row.kind === 'paper' ? 'expand' : 'collapse'}`, 'tip-meta')
+      const group = row.group!
+      line(group.windows.length === 1 ? formatWindow(group.windows[0]) : `${group.windows.length} age windows · ${formatMa(group.max)} – ${formatMa(group.min)}`, 'tip-value')
+      line(group.label, 'tip-title')
+      if (group.detail) line(group.detail, 'tip-meta')
+      line(`${group.records.length} physical evidence ${group.records.length === 1 ? 'record' : 'records'} · click to ${row.kind === 'group' ? 'expand' : 'collapse'}`, 'tip-meta')
     }
     tooltip.hidden = false
     const { innerWidth, innerHeight } = window

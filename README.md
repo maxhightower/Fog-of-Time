@@ -52,7 +52,7 @@ public/data/
 src/
   main.ts               page shell, layers panel, filters, detail view
   timeline.ts           SVG timeline (bars, geologic bands, pan/zoom)
-  model.ts              paper grouping, colour categories, coverage
+  model.ts              grouping, colour categories
   timescale.ts          ICS geologic time scale reference bands
 ```
 
@@ -71,7 +71,8 @@ zoom buttons, drag-to-pan and Ctrl/⌘-scroll adjust the window.
 Every record is drawn as a bar across its full age interval, never collapsed to a
 midpoint. Bar shape encodes how the date is known (hard-edged explicit range,
 feathered stage-derived interval, glowing approximate point, crisp reported point).
-Records are grouped into one window per paper; clicking a paper expands its records.
+Records can be grouped by paper, taxon, evidence type, dating basis or country (or
+shown individually); clicking a group expands its records.
 
 The **Layers** panel toggles discoveries, the geologic time scale (periods, epochs,
 Mesozoic stages), and a "Known by" slider replays the evidence by publication year.

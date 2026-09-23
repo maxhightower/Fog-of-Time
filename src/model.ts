@@ -1,7 +1,18 @@
 import type { PublicationSummary, TimelineEvidence } from './types'
+import { humanize } from './format'
 
 export type Precision = TimelineEvidence['age']['precision']
 export type ColorBy = 'evidence' | 'dating' | 'none'
+export type GroupBy = 'none' | 'paper' | 'taxon' | 'evidence' | 'dating' | 'country'
+
+export const GROUP_OPTIONS: Array<{ value: GroupBy; label: string }> = [
+  { value: 'paper', label: 'Paper' },
+  { value: 'taxon', label: 'Taxon' },
+  { value: 'evidence', label: 'Evidence type' },
+  { value: 'dating', label: 'Dating basis' },
+  { value: 'country', label: 'Country' },
+  { value: 'none', label: 'No grouping' },
+]
 
 export interface Category {
   key: string
@@ -55,7 +66,7 @@ export function categoryOf(record: TimelineEvidence, colorBy: ColorBy): Category
   return categories.find(category => category.key === key) ?? categories[categories.length - 1]
 }
 
-/** One distinct age window reported by a paper, possibly shared by many records. */
+/** One distinct age window within a group, possibly shared by many records. */
 export interface AgeWindow {
   min: number
   max: number
@@ -64,10 +75,11 @@ export interface AgeWindow {
   records: TimelineEvidence[]
 }
 
-export interface PaperGroup {
+export interface RecordGroup {
   id: string
-  publication: PublicationSummary
-  short: string
+  label: string
+  /** Secondary description, e.g. a paper's full title. */
+  detail: string | null
   records: TimelineEvidence[]
   windows: AgeWindow[]
   min: number
@@ -90,14 +102,34 @@ export function shortCitation(publication: PublicationSummary): string {
   return `${first}${etAl} ${publication.year}`
 }
 
-export function groupByPaper(records: TimelineEvidence[]): PaperGroup[] {
-  const groups = new Map<string, PaperGroup>()
+function groupKey(record: TimelineEvidence, groupBy: Exclude<GroupBy, 'none'>): { key: string; label: string; detail: string | null } {
+  switch (groupBy) {
+    case 'paper': {
+      const publication = record.representative_report.publication
+      return { key: publication.id, label: shortCitation(publication), detail: publication.title }
+    }
+    case 'taxon':
+      return { key: record.taxon, label: record.taxon, detail: null }
+    case 'evidence':
+      return { key: record.evidence_type, label: humanize(record.evidence_type), detail: null }
+    case 'dating': {
+      const key = datingCategory(record.age.method)
+      return { key, label: CATEGORIES.dating.find(category => category.key === key)!.label, detail: null }
+    }
+    case 'country':
+      return { key: record.locality.country, label: record.locality.country, detail: null }
+  }
+}
+
+export function groupRecords(records: TimelineEvidence[], groupBy: Exclude<GroupBy, 'none'>): RecordGroup[] {
+  const groups = new Map<string, RecordGroup>()
   for (const record of records) {
-    const publication = record.representative_report.publication
-    let group = groups.get(publication.id)
+    const { key, label, detail } = groupKey(record, groupBy)
+    const id = `${groupBy}:${key}`
+    let group = groups.get(id)
     if (!group) {
-      group = { id: publication.id, publication, short: shortCitation(publication), records: [], windows: [], min: Infinity, max: -Infinity }
-      groups.set(publication.id, group)
+      group = { id, label, detail, records: [], windows: [], min: Infinity, max: -Infinity }
+      groups.set(id, group)
     }
     group.records.push(record)
     group.min = Math.min(group.min, record.age.min_ma)

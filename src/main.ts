@@ -1,6 +1,6 @@
 import './style.css'
 import type { DatasetManifest, TimelineEvidence } from './types'
-import { CATEGORIES, categoryOf, groupByPaper, type ColorBy } from './model'
+import { CATEGORIES, categoryOf, GROUP_OPTIONS, groupRecords, type ColorBy, type GroupBy } from './model'
 import { formatAge, formatMa, humanize, PRECISION_LABELS } from './format'
 import { PRESETS, TIMESCALE_OLDEST, TIMESCALE_SOURCE } from './timescale'
 import { Timeline, type Selection } from './timeline'
@@ -30,13 +30,24 @@ app.innerHTML = `
     <div class="workspace">
       <aside class="layers" aria-label="Timeline layers and filters">
         <section class="panel">
+          <h2 class="panel-title">Filters</h2>
+          <label class="field">Taxon <select id="taxon-filter"><option value="">All taxa</option></select></label>
+          <label class="field">Evidence <select id="type-filter"><option value="">All evidence types</option></select></label>
+          <label class="field">Country <select id="country-filter"><option value="">All countries</option></select></label>
+          <label class="field">Date precision <select id="precision-filter"><option value="">Any precision</option></select></label>
+          <button id="reset-filter" type="button" class="text-button">Reset filters</button>
+        </section>
+
+        <section class="panel">
           <h2 class="panel-title">Layers</h2>
 
           <div class="layer">
             <label class="toggle"><input id="layer-discoveries" type="checkbox" checked /> <span>Discoveries</span></label>
             <p class="layer-note">Physical evidence from ingested papers, drawn across its full estimated age range.</p>
             <div class="layer-options" id="discovery-options">
-              <label class="toggle small"><input id="group-papers" type="checkbox" checked /> <span>Group by paper</span></label>
+              <label class="field">Group by
+                <select id="group-by"></select>
+              </label>
               <label class="field">Colour by
                 <select id="color-by">
                   <option value="evidence">Evidence type</option>
@@ -66,15 +77,6 @@ app.innerHTML = `
             </div>
             <p class="layer-note">Replay how the evidence accumulated as papers were published.</p>
           </div>
-        </section>
-
-        <section class="panel">
-          <h2 class="panel-title">Filters</h2>
-          <label class="field">Taxon <select id="taxon-filter"><option value="">All taxa</option></select></label>
-          <label class="field">Evidence <select id="type-filter"><option value="">All evidence types</option></select></label>
-          <label class="field">Country <select id="country-filter"><option value="">All countries</option></select></label>
-          <label class="field">Date precision <select id="precision-filter"><option value="">Any precision</option></select></label>
-          <button id="reset-filter" type="button" class="text-button">Reset filters</button>
         </section>
       </aside>
 
@@ -110,7 +112,7 @@ app.innerHTML = `
             </div>
             <svg id="axis" class="axis" aria-hidden="true"></svg>
           </div>
-          <p class="hint">Drag to pan · Ctrl/⌘ + scroll or pinch to zoom · click a paper to open its records</p>
+          <p class="hint">Drag to pan · Ctrl/⌘ + scroll or pinch to zoom · click a group to open its records</p>
         </section>
 
         <section class="detail-card" aria-labelledby="detail-heading">
@@ -138,8 +140,9 @@ const rangeTo = $<HTMLInputElement>('#range-to')
 const presets = $<HTMLDivElement>('#presets')
 const layerDiscoveries = $<HTMLInputElement>('#layer-discoveries')
 const layerGeology = $<HTMLInputElement>('#layer-geology')
-const groupPapers = $<HTMLInputElement>('#group-papers')
+const groupBy = $<HTMLSelectElement>('#group-by')
 const colorBy = $<HTMLSelectElement>('#color-by')
+for (const { value, label } of GROUP_OPTIONS) groupBy.add(new Option(label, value))
 const colorLegend = $<HTMLUListElement>('#color-legend')
 const shapeLegend = $<HTMLUListElement>('#shape-legend')
 const discoveryOptions = $<HTMLDivElement>('#discovery-options')
@@ -211,10 +214,10 @@ const timeline = new Timeline(
       showRecordDetail(record)
       scheduleRender()
     },
-    onSelectPaper: paper => {
-      if (expanded.has(paper.id)) expanded.delete(paper.id)
-      else expanded.add(paper.id)
-      selection = { kind: 'paper', id: paper.id }
+    onSelectGroup: group => {
+      if (expanded.has(group.id)) expanded.delete(group.id)
+      else expanded.add(group.id)
+      selection = { kind: 'group', id: group.id }
       scheduleRender()
     },
     onViewChange: (from, to) => setView(from, to),
@@ -236,15 +239,15 @@ function scheduleRender() {
 
 function render() {
   const visible = filteredRecords()
-  const papers = groupByPaper(visible)
+  const grouping = groupBy.value as GroupBy
+  const groups = grouping === 'none' ? null : groupRecords(visible, grouping)
   const inView = visible.filter(record => record.age.max_ma >= view.to && record.age.min_ma <= view.from)
 
   timeline.render({
     from: view.from,
     to: view.to,
     records: visible,
-    papers,
-    groupByPaper: groupPapers.checked,
+    groups,
     expanded,
     colorBy: colorBy.value as ColorBy,
     showDiscoveries: layerDiscoveries.checked,
@@ -420,8 +423,9 @@ function wireControls() {
     setView(oldest + pad, youngest - pad)
   })
 
-  for (const input of [layerDiscoveries, layerGeology, groupPapers]) input.addEventListener('change', scheduleRender)
+  for (const input of [layerDiscoveries, layerGeology]) input.addEventListener('change', scheduleRender)
   colorBy.addEventListener('change', scheduleRender)
+  groupBy.addEventListener('change', scheduleRender)
   for (const select of Object.values(filters)) select.addEventListener('change', scheduleRender)
   $<HTMLButtonElement>('#reset-filter').addEventListener('click', () => {
     for (const select of Object.values(filters)) select.value = ''
