@@ -1,0 +1,97 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1038/srep13520",
+    "doi": "10.1038/srep13520",
+    "title": "Molecular composition and ultrastructure of Jurassic paravian feathers",
+    "year": 2015,
+    "journal": "Scientific Reports",
+    "url": "https://www.nature.com/articles/srep13520",
+    "authors": [
+      "Johan Lindgren",
+      "Peter Sjövall",
+      "Ryan M. Carney",
+      "Aude Cincotta",
+      "Per Uvdal",
+      "Steven W. Hutcheson",
+      "Ola Gustafsson",
+      "Ulysse Lefèvre",
+      "François Escuillié",
+      "Jimmy Heimdal",
+      "Anders Engdahl",
+      "Johan A. Gren",
+      "Benjamin P. Kear",
+      "Kazumasa Wakamatsu",
+      "Johan Yans",
+      "Pascal Godefroit"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1038/srep13520:yfgp-t5199",
+      "physical_key": "specimen:yfgp:t5199",
+      "evidence_type": "feather_impression",
+      "taxon": {
+        "name": "Anchiornis huxleyi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "YFGP",
+        "catalog_number": "T5199",
+        "label": "YFGP-T5199"
+      },
+      "material": [
+        "essentially complete articulated skeleton",
+        "plumage remnants",
+        "14 sampled feather and feather-like integument patches"
+      ],
+      "locality": {
+        "name": "Yaolugou locality, Jianchang County",
+        "country": "China",
+        "region": "western Liaoning",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Tiaojishan Formation",
+        "member": null,
+        "group": null
+      },
+      "age": {
+        "min_ma": 143.1,
+        "max_ma": 174.7,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "paper_geologic_interval_with_ics_conversion",
+        "basis": "The paper describes the Tiaojishan assemblage as Middle–Late Jurassic; the numeric envelope spans the current ICS Middle and Late Jurassic interval.",
+        "notes": "This deliberately broad interval avoids transferring a precise age from a different Anchiornis locality to YFGP-T5199."
+      },
+      "evidence_role": "new_measurement",
+      "claims": [
+        {
+          "type": "molecular_observation",
+          "summary": "Integrated imaging and chemical analyses support preservation of endogenous eumelanin and eumelanosomes in the fossil feather remains.",
+          "page": null,
+          "figure": "2–8",
+          "table": null
+        },
+        {
+          "type": "anatomical_observation",
+          "summary": "Feather and feather-like structures are preserved around the skull, shoulder girdle, pelvis, forelimbs, hind limbs, and tail.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "sampling_observation",
+          "summary": "Fourteen plumage samples (S1–S14) were removed, with the forecrown sample S1 receiving detailed molecular and ultrastructural analysis.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        }
+      ]
+    }
+  ]
+}
