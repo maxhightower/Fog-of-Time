@@ -37,7 +37,7 @@
           "id": { "type": "string", "minLength": 1 },
           "physical_key": { "type": "string", "minLength": 1 },
           "evidence_type": {
-            "enum": ["body_fossil", "trace_fossil", "egg", "nest", "coprolite", "trackway", "skin_impression", "feather_impression", "soft_tissue", "bone_histology", "tooth", "gastrolith", "pathology", "bite_mark", "biomolecule"]
+            "enum": ["body_fossil", "fossil_occurrence", "trace_fossil", "egg", "nest", "coprolite", "trackway", "skin_impression", "feather_impression", "soft_tissue", "bone_histology", "tooth", "gastrolith", "pathology", "bite_mark", "biomolecule"]
           },
           "taxon": {
             "type": "object",
