@@ -94,7 +94,10 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
 .filter-menu[hidden] { display: none; }
 .filter-menu-item { text-align: left; padding: 8px 10px; border: 0; border-radius: 6px; background: transparent; color: var(--text); cursor: pointer; font-size: 0.9rem; }
 .filter-menu-item:hover, .filter-menu-item:focus-visible { background: var(--panel-2); outline: none; }
-.width-slider { width: 100%; accent-color: var(--accent); }
+.width-controls { display: flex; gap: 8px; }
+.width-controls .text-button { flex: 1; }
+.icon-button:disabled { opacity: 0.4; cursor: default; }
+.text-button[aria-pressed="true"] { background: color-mix(in srgb, var(--accent) 22%, var(--panel-2)); border-color: var(--accent); }
 .year-heading { display: flex; justify-content: space-between; align-items: baseline; }
 .year-heading output { font-weight: 700; font-variant-numeric: tabular-nums; }
 .year-control { display: flex; gap: 8px; align-items: center; }

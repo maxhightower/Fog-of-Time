@@ -10,6 +10,7 @@ const MAX_AGE = TIMESCALE_OLDEST
 const MIN_SPAN = 0.5
 const MIN_APP_WIDTH = 960
 const MAX_APP_WIDTH = 2560
+const APP_WIDTH_STEP = 160
 const DEFAULT_APP_WIDTH = 1440
 
 const app = document.querySelector<HTMLDivElement>('#app')
@@ -106,11 +107,14 @@ app.innerHTML = `
         <section class="panel">
           <h2 class="panel-title">Display</h2>
           <div class="year-heading">
-            <label class="field-label" for="width-slider">Maximum width</label>
-            <output id="width-output" for="width-slider"></output>
+            <span class="field-label">Maximum width</span>
+            <output id="width-output" aria-live="polite"></output>
           </div>
-          <input id="width-slider" class="width-slider" type="range" min="${MIN_APP_WIDTH}" max="${MAX_APP_WIDTH}" step="40" value="${DEFAULT_APP_WIDTH}" />
-          <p class="layer-note">Drag to the far right to use the full window width.</p>
+          <div class="width-controls" role="group" aria-label="Maximum width">
+            <button id="width-narrower" type="button" class="icon-button" aria-label="Narrower">−</button>
+            <button id="width-wider" type="button" class="icon-button" aria-label="Wider">+</button>
+            <button id="width-fit" type="button" class="text-button">Fit to screen</button>
+          </div>
         </section>
       </aside>
 
@@ -536,16 +540,34 @@ function wireControls() {
   $<HTMLButtonElement>('#zoom-out').addEventListener('click', () => timeline.zoom(1 / 0.6))
   $<HTMLButtonElement>('#zoom-reset').addEventListener('click', () => setView(DEFAULT_VIEW.from, DEFAULT_VIEW.to))
 
-  const widthSlider = $<HTMLInputElement>('#width-slider')
+  // Maximum page width: a pixel cap stepped by −/+, or 'fit' for the whole window.
   const widthOutput = $<HTMLOutputElement>('#width-output')
+  const narrower = $<HTMLButtonElement>('#width-narrower')
+  const wider = $<HTMLButtonElement>('#width-wider')
+  const fit = $<HTMLButtonElement>('#width-fit')
+  let appWidth: number | 'fit' = DEFAULT_APP_WIDTH
   const applyWidth = () => {
-    const width = Number(widthSlider.value)
-    const full = width >= MAX_APP_WIDTH
-    // The top of the slider means "no limit"; the shell still keeps its side gutters.
-    document.documentElement.style.setProperty('--app-max-width', full ? '100vw' : `${width}px`)
-    widthOutput.textContent = full ? 'Full width' : `${width} px`
+    // 'fit' still keeps the shell's side gutters.
+    document.documentElement.style.setProperty('--app-max-width', appWidth === 'fit' ? '100vw' : `${appWidth}px`)
+    widthOutput.textContent = appWidth === 'fit' ? 'Full window' : `${appWidth} px`
+    narrower.disabled = appWidth !== 'fit' && appWidth <= MIN_APP_WIDTH
+    wider.disabled = appWidth === 'fit' || appWidth >= MAX_APP_WIDTH
+    fit.setAttribute('aria-pressed', String(appWidth === 'fit'))
   }
-  widthSlider.addEventListener('input', applyWidth)
+  narrower.addEventListener('click', () => {
+    // From "fit", step down from the page's current rendered width.
+    const current = appWidth === 'fit' ? document.querySelector('.shell')!.getBoundingClientRect().width : appWidth
+    appWidth = Math.max(MIN_APP_WIDTH, Math.ceil(current / APP_WIDTH_STEP) * APP_WIDTH_STEP - APP_WIDTH_STEP)
+    applyWidth()
+  })
+  wider.addEventListener('click', () => {
+    if (appWidth !== 'fit') appWidth = Math.min(MAX_APP_WIDTH, appWidth + APP_WIDTH_STEP)
+    applyWidth()
+  })
+  fit.addEventListener('click', () => {
+    appWidth = 'fit'
+    applyWidth()
+  })
   applyWidth()
 
   $<HTMLButtonElement>('#zoom-fit').addEventListener('click', () => {
