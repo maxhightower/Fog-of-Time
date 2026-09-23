@@ -32,7 +32,7 @@ EVIDENCE_ROLES = {
     "redescription", "reinterpretation", "secondary_citation", "review",
 }
 AGE_PRECISIONS = {
-    "explicit_range", "reported_point", "approximate_point", "derived_interval", "unknown",
+    "explicit_range", "approximate_range", "reported_point", "approximate_point", "derived_interval", "unknown",
 }
 
 
