@@ -17,6 +17,12 @@
   --series-2: #d95926;
   --series-3: #199e70;
   --series-other: #8d9184;
+  /* Hypothesis life states. */
+  --life-alive: #199e70;
+  --life-confirmed: #4fd6a3;
+  --life-contested: #d8c36f;
+  --life-dead: #8d9184;
+  --life-refute: #d95926;
 }
 
 * { box-sizing: border-box; }
@@ -50,7 +56,7 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
 .layers > *, .layer, .field { min-width: 0; }
 .main-column { min-width: 0; display: grid; gap: 18px; }
 
-.panel, .timeline-card, .detail-card { border: 1px solid var(--border); background: color-mix(in srgb, var(--panel) 92%, transparent); border-radius: 14px; }
+.panel, .timeline-card, .creatures-card, .detail-card { border: 1px solid var(--border); background: color-mix(in srgb, var(--panel) 92%, transparent); border-radius: 14px; }
 .panel { padding: 16px; display: grid; gap: 12px; }
 .panel-title { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
 
@@ -163,6 +169,72 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
 .tip-meta { color: var(--muted); margin-top: 2px; }
 
 
+/* ------------------------------------------------------------ theoretical creatures */
+
+.creatures-card { padding: 20px 20px 16px; min-width: 0; }
+.lifelines { margin-top: 16px; border-top: 1px solid var(--border); padding-top: 4px; }
+.lifelines svg { display: block; }
+.future-fog { fill: rgba(17, 18, 15, 0.55); }
+.life-row { cursor: pointer; outline: none; }
+.life-row .hit { fill: transparent; }
+.life-row:hover .hit, .life-row:focus-visible .hit { fill: rgba(255, 255, 255, 0.05); }
+.life-row.selected .hit { fill: rgba(240, 216, 124, 0.1); stroke: var(--accent-strong); stroke-width: 1.5; }
+.life-row:focus-visible .hit { stroke: var(--accent-strong); stroke-width: 2; }
+.life-name { fill: var(--text); font-size: 13px; font-weight: 700; }
+.life-status { font-size: 11.5px; font-weight: 600; fill: var(--muted); }
+.life-status.state-alive { fill: var(--life-alive); }
+.life-status.state-confirmed { fill: var(--life-confirmed); }
+.life-status.state-contested { fill: var(--life-contested); }
+.life-bar.state-alive { fill: var(--life-alive); }
+.life-bar.state-confirmed { fill: var(--life-confirmed); }
+.life-bar.state-contested { fill: color-mix(in srgb, var(--life-contested) 70%, transparent); stroke: var(--life-contested); stroke-dasharray: 4 3; }
+.life-dead { stroke: var(--life-dead); stroke-width: 2; stroke-dasharray: 1 4; stroke-linecap: round; }
+.stance-mark { fill: var(--text); stroke: #191b17; stroke-width: 1.5; cursor: help; }
+.stance-mark.ring { fill: #191b17; stroke: var(--life-confirmed); stroke-width: 2.5; }
+.stance-mark.cross { fill: none; stroke: var(--life-refute); stroke-width: 3; stroke-linecap: round; }
+.stance-mark.stance-confirms { fill: var(--life-confirmed); }
+.stance-mark.stance-challenges { fill: var(--life-contested); }
+.stance-mark.stance-revises { fill: var(--muted); stroke: none; }
+.stance-mark:hover { filter: brightness(1.3); }
+
+.life-legend { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 10px; }
+.inline-legend { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.inline-legend li { gap: 6px; color: var(--text); }
+.inline-legend svg { flex: none; }
+.life-swatch { width: 18px; height: 8px; border-radius: 3px; flex: none; }
+.life-swatch.state-alive { background: var(--life-alive); }
+.life-swatch.state-confirmed { background: var(--life-confirmed); }
+.life-swatch.state-contested { background: repeating-linear-gradient(90deg, var(--life-contested) 0 4px, transparent 4px 7px); }
+.life-swatch.state-dead { height: 0; border-radius: 0; border-top: 2px dotted var(--life-dead); }
+
+.creature-panel { gap: 10px; }
+.creature-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.creature-item { width: 100%; display: flex; align-items: center; gap: 9px; padding: 7px 8px; border: 1px solid transparent; border-radius: 8px; background: transparent; color: var(--text); text-align: left; cursor: pointer; }
+.creature-item:hover { background: var(--panel-2); }
+.creature-item[aria-pressed="true"] { background: color-mix(in srgb, var(--accent) 16%, var(--panel-2)); border-color: var(--accent); }
+.creature-names { display: grid; min-width: 0; flex: 1; }
+.creature-name { font-weight: 700; font-size: 0.88rem; }
+.creature-scientific { color: var(--muted); font-size: 0.76rem; font-style: italic; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.creature-count { display: grid; justify-items: end; font-variant-numeric: tabular-nums; line-height: 1.15; }
+.creature-count strong { font-size: 1rem; }
+.creature-split { color: var(--muted); font-size: 0.7rem; white-space: nowrap; }
+.state-dot { width: 10px; height: 10px; border-radius: 50%; flex: none; background: transparent; border: 1.5px solid var(--muted); }
+.state-dot.state-alive { background: var(--life-alive); border-color: var(--life-alive); }
+.state-dot.state-confirmed { background: var(--life-confirmed); border-color: var(--life-confirmed); }
+.state-dot.state-contested { background: var(--life-contested); border-color: var(--life-contested); }
+.state-dot.state-dead { background: transparent; border-color: var(--life-dead); border-style: dotted; }
+
+.life-history { list-style: none; margin: 0; padding: 0 0 0 14px; border-left: 2px solid var(--border); display: grid; gap: 16px; }
+.life-history li { position: relative; }
+.life-history-head { display: flex; align-items: center; gap: 10px; }
+.life-history-year { font-weight: 800; font-variant-numeric: tabular-nums; }
+.life-history p { margin: 6px 0 0; line-height: 1.55; color: #d7d5cc; }
+.life-history .life-history-source { font-size: 0.82rem; color: var(--muted); }
+.life-history a { color: var(--accent-strong); }
+.stance-chip { display: inline-flex; align-items: center; gap: 4px; padding: 1px 9px 1px 4px; border-radius: 999px; border: 1px solid var(--border); font-size: 0.78rem; font-weight: 700; }
+.stance-chip.side-for { border-color: color-mix(in srgb, var(--life-alive) 60%, var(--border)); }
+.stance-chip.side-against { border-color: color-mix(in srgb, var(--life-refute) 60%, var(--border)); }
+
 /* ------------------------------------------------------------ detail */
 
 .detail-card { padding: 22px; }
@@ -189,7 +261,7 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
   .shell { width: calc(100% - 32px); padding-top: 28px; }
   .hero, .section-heading { align-items: start; flex-direction: column; gap: 14px; }
   .dataset-status, .section-heading .muted { text-align: left; }
-  .timeline-card { padding-inline: 12px; }
+  .timeline-card, .creatures-card { padding-inline: 12px; }
   .fact-grid { grid-template-columns: 1fr; gap: 4px; }
   .fact-grid dd { margin-bottom: 10px; }
 }

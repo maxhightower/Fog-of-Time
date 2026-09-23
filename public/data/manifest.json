@@ -1,9 +1,10 @@
 {
   "schema_version": "fog-of-time.web-manifest/v1",
-  "dataset_version": "sha256:4520fc70175cd2a38f51400055c96f1fd8cd4ce1f0cb4b254bef3a5e0b5d66db",
+  "dataset_version": "sha256:5a26ef9cfccd26ea2171b0076ae318f815224f85ab30a92b8d2d8858394ecd2d",
   "physical_evidence_count": 727,
   "publication_report_count": 727,
-  "publication_count": 225,
+  "publication_count": 240,
+  "theoretical_creature_count": 4,
   "oldest_ma": 252.0,
   "youngest_ma": 66.0,
   "development_fixture": false,

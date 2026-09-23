@@ -97,3 +97,23 @@ CREATE TABLE claim (
 CREATE INDEX idx_publication_evidence_age ON publication_evidence(age_min_ma, age_max_ma);
 CREATE INDEX idx_publication_evidence_taxon ON publication_evidence(taxon_id);
 CREATE INDEX idx_publication_evidence_physical ON publication_evidence(physical_key);
+
+-- Theoretical creatures: a hypothesised animal whose "life" is the life of the
+-- hypothesis. Every event is one publication taking a stance on it.
+CREATE TABLE theoretical_creature (
+  id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  scientific_name TEXT,
+  hypothesis TEXT NOT NULL
+);
+
+CREATE TABLE hypothesis_event (
+  id TEXT PRIMARY KEY,
+  creature_id TEXT NOT NULL REFERENCES theoretical_creature(id) ON DELETE CASCADE,
+  publication_id TEXT NOT NULL REFERENCES publication(id),
+  stance TEXT NOT NULL CHECK (stance IN ('proposes', 'supports', 'revises', 'challenges', 'refutes', 'revives', 'confirms')),
+  summary TEXT NOT NULL,
+  event_order INTEGER NOT NULL
+);
+
+CREATE INDEX idx_hypothesis_event_creature ON hypothesis_event(creature_id);

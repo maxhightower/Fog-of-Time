@@ -1,0 +1,305 @@
+[
+  {
+    "id": "american-cheetah",
+    "name": "American cheetah",
+    "scientific_name": "Miracinonyx",
+    "hypothesis": "A true cheetah lineage (Acinonyx) lived in Pleistocene North America, represented by Miracinonyx.",
+    "evidence_count": 4,
+    "events": [
+      {
+        "id": "american-cheetah:1979-adams",
+        "stance": "proposes",
+        "summary": "Placed the North American Pleistocene cat Felis trumani in Acinonyx as the new subgenus Miracinonyx, arguing that the cheetah has a native American ancestry.",
+        "publication": {
+          "id": "doi:10.1126/science.205.4411.1155",
+          "doi": "10.1126/science.205.4411.1155",
+          "title": "The Cheetah: Native American",
+          "year": 1979,
+          "journal": "Science",
+          "url": "https://doi.org/10.1126/science.205.4411.1155",
+          "authors": [
+            "Daniel B. Adams"
+          ]
+        }
+      },
+      {
+        "id": "american-cheetah:1990-van-valkenburgh",
+        "stance": "revises",
+        "summary": "Described the Plio-Pleistocene cheetah-like cat Miracinonyx inexpectatus of North America, treating Miracinonyx as a full genus.",
+        "publication": {
+          "id": "doi:10.1080/02724634.1990.10011827",
+          "doi": "10.1080/02724634.1990.10011827",
+          "title": "The Plio-Pleistocene cheetah-like cat Miracinonyx inexpectatus of North America",
+          "year": 1990,
+          "journal": "Journal of Vertebrate Paleontology",
+          "url": "https://doi.org/10.1080/02724634.1990.10011827",
+          "authors": [
+            "Blaire Van Valkenburgh",
+            "Frederick Grady",
+            "Björn Kurtén"
+          ]
+        }
+      },
+      {
+        "id": "american-cheetah:2005-barnett",
+        "stance": "refutes",
+        "summary": "Ancient mitochondrial DNA placed Miracinonyx closest to the puma rather than the African cheetah, so its cheetah-like build is convergent.",
+        "publication": {
+          "id": "doi:10.1016/j.cub.2005.07.052",
+          "doi": "10.1016/j.cub.2005.07.052",
+          "title": "Evolution of the extinct Sabretooths and the American cheetah-like cat",
+          "year": 2005,
+          "journal": "Current Biology",
+          "url": "https://doi.org/10.1016/j.cub.2005.07.052",
+          "authors": [
+            "Ross Barnett",
+            "Ian Barnes",
+            "Matthew J. Phillips",
+            "Larry D. Martin",
+            "C. Richard Harington",
+            "Jennifer A. Leonard",
+            "Alan Cooper"
+          ]
+        }
+      },
+      {
+        "id": "american-cheetah:2026-cassatt-johnstone",
+        "stance": "refutes",
+        "summary": "Nuclear paleogenomes confirm Miracinonyx trumani as a puma relative, not a cheetah. Stable isotopes extend its range about 20 degrees of latitude north to the Yukon, where it likely fed on anadromous fish; southern populations were generalist predators.",
+        "publication": {
+          "id": "doi:10.1016/j.cub.2026.07.072",
+          "doi": "10.1016/j.cub.2026.07.072",
+          "title": "Range and diet diversity in the Pleistocene American “cheetah,” Miracinonyx trumani",
+          "year": 2026,
+          "journal": "Current Biology",
+          "url": "https://doi.org/10.1016/j.cub.2026.07.072",
+          "authors": [
+            "Molly Cassatt-Johnstone",
+            "T. Brock Wooldridge",
+            "Sambit Ghosh",
+            "Elizabeth Hall",
+            "Susan Hewitson",
+            "Julie Meachen",
+            "Matthew J. Wooller",
+            "Grant Zazula",
+            "Beth Shapiro"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "brontosaurus",
+    "name": "Brontosaurus",
+    "scientific_name": "Brontosaurus excelsus",
+    "hypothesis": "Brontosaurus is a valid genus, distinct from Apatosaurus.",
+    "evidence_count": 3,
+    "events": [
+      {
+        "id": "brontosaurus:1879-marsh",
+        "stance": "proposes",
+        "summary": "Named Brontosaurus excelsus from the Late Jurassic of Wyoming.",
+        "publication": {
+          "id": "doi:10.2475/ajs.s3-18.108.501",
+          "doi": "10.2475/ajs.s3-18.108.501",
+          "title": "Notice of new Jurassic reptiles",
+          "year": 1879,
+          "journal": "American Journal of Science",
+          "url": "https://doi.org/10.2475/ajs.s3-18.108.501",
+          "authors": [
+            "O. C. Marsh"
+          ]
+        }
+      },
+      {
+        "id": "brontosaurus:1903-riggs",
+        "stance": "refutes",
+        "summary": "Judged Brontosaurus too close to Apatosaurus (Marsh, 1877) to stand as its own genus and sank it as a junior synonym.",
+        "publication": {
+          "id": "ref:riggs-1903-field-columbian-museum",
+          "doi": null,
+          "title": "Structure and relationships of opisthocoelian dinosaurs. Part I: Apatosaurus Marsh",
+          "year": 1903,
+          "journal": "Field Columbian Museum, Geological Series",
+          "url": null,
+          "authors": [
+            "Elmer S. Riggs"
+          ]
+        }
+      },
+      {
+        "id": "brontosaurus:2015-tschopp",
+        "stance": "revives",
+        "summary": "A specimen-level phylogenetic analysis of Diplodocidae found Brontosaurus different enough from Apatosaurus to reinstate it as a genus.",
+        "publication": {
+          "id": "doi:10.7717/peerj.857",
+          "doi": "10.7717/peerj.857",
+          "title": "A specimen-level phylogenetic analysis and taxonomic revision of Diplodocidae (Dinosauria, Sauropoda)",
+          "year": 2015,
+          "journal": "PeerJ",
+          "url": "https://doi.org/10.7717/peerj.857",
+          "authors": [
+            "Emanuel Tschopp",
+            "Octávio Mateus",
+            "Roger B. J. Benson"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "nanotyrannus",
+    "name": "Nanotyrannus",
+    "scientific_name": "Nanotyrannus lancensis",
+    "hypothesis": "Nanotyrannus is a distinct small-bodied tyrannosaur, not a juvenile Tyrannosaurus rex.",
+    "evidence_count": 5,
+    "events": [
+      {
+        "id": "nanotyrannus:1988-bakker",
+        "stance": "proposes",
+        "summary": "Named the genus Nanotyrannus, a 'pygmy tyrannosaur', for the Hell Creek Formation skull CMNH 7541 first described as Gorgosaurus lancensis.",
+        "publication": {
+          "id": "ref:bakker-williams-currie-1988-hunteria",
+          "doi": null,
+          "title": "Nanotyrannus, a new genus of pygmy tyrannosaur, from the latest Cretaceous of Montana",
+          "year": 1988,
+          "journal": "Hunteria",
+          "url": null,
+          "authors": [
+            "Robert T. Bakker",
+            "Michael Williams",
+            "Philip J. Currie"
+          ]
+        }
+      },
+      {
+        "id": "nanotyrannus:1999-carr",
+        "stance": "refutes",
+        "summary": "A study of skull growth across tyrannosaurids interpreted the Nanotyrannus holotype as a juvenile Tyrannosaurus rex.",
+        "publication": {
+          "id": "doi:10.1080/02724634.1999.10011161",
+          "doi": "10.1080/02724634.1999.10011161",
+          "title": "Craniofacial ontogeny in Tyrannosauridae (Dinosauria, Coelurosauria)",
+          "year": 1999,
+          "journal": "Journal of Vertebrate Paleontology",
+          "url": "https://doi.org/10.1080/02724634.1999.10011161",
+          "authors": [
+            "Thomas D. Carr"
+          ]
+        }
+      },
+      {
+        "id": "nanotyrannus:2020-carr",
+        "stance": "refutes",
+        "summary": "A growth series built from many specimens placed the small Hell Creek tyrannosaurs within the ontogeny of Tyrannosaurus rex.",
+        "publication": {
+          "id": "doi:10.7717/peerj.9192",
+          "doi": "10.7717/peerj.9192",
+          "title": "A high-resolution growth series of Tyrannosaurus rex obtained from multiple lines of evidence",
+          "year": 2020,
+          "journal": "PeerJ",
+          "url": "https://doi.org/10.7717/peerj.9192",
+          "authors": [
+            "Thomas D. Carr"
+          ]
+        }
+      },
+      {
+        "id": "nanotyrannus:2024-longrich",
+        "stance": "revives",
+        "summary": "Argued that Nanotyrannus lancensis is a distinct taxon of small-bodied tyrannosaur rather than a growth stage of T. rex.",
+        "publication": {
+          "id": "doi:10.3390/fossils2010001",
+          "doi": "10.3390/fossils2010001",
+          "title": "Taxonomic Status of Nanotyrannus lancensis (Dinosauria: Tyrannosauroidea)—A Distinct Taxon of Small-Bodied Tyrannosaur",
+          "year": 2024,
+          "journal": "Fossil Studies",
+          "url": "https://doi.org/10.3390/fossils2010001",
+          "authors": [
+            "Nicholas R. Longrich",
+            "Evan T. Saitta"
+          ]
+        }
+      },
+      {
+        "id": "nanotyrannus:2025-zanno",
+        "stance": "confirms",
+        "summary": "A nearly mature tyrannosaur skeleton from the 'Dueling Dinosaurs' find in Montana supports Nanotyrannus as a genus separate from Tyrannosaurus; the paper also names a second species, N. lethaeus.",
+        "publication": {
+          "id": "doi:10.1038/s41586-025-09801-6",
+          "doi": "10.1038/s41586-025-09801-6",
+          "title": "Nanotyrannus and Tyrannosaurus coexisted at the close of the Cretaceous",
+          "year": 2025,
+          "journal": "Nature",
+          "url": "https://doi.org/10.1038/s41586-025-09801-6",
+          "authors": [
+            "Lindsay E. Zanno",
+            "James G. Napoli"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "toroceratops",
+    "name": "“Toroceratops”",
+    "scientific_name": "Torosaurus = Triceratops",
+    "hypothesis": "Torosaurus is not a separate animal but the fully mature growth stage of Triceratops.",
+    "evidence_count": 3,
+    "events": [
+      {
+        "id": "toroceratops:2010-scannella",
+        "stance": "proposes",
+        "summary": "Proposed that Torosaurus specimens are fully mature Triceratops, with the frill thinning and opening up late in growth.",
+        "publication": {
+          "id": "doi:10.1080/02724634.2010.483632",
+          "doi": "10.1080/02724634.2010.483632",
+          "title": "Torosaurus Marsh, 1891, is Triceratops Marsh, 1889 (Ceratopsidae: Chasmosaurinae): synonymy through ontogeny",
+          "year": 2010,
+          "journal": "Journal of Vertebrate Paleontology",
+          "url": "https://doi.org/10.1080/02724634.2010.483632",
+          "authors": [
+            "John B. Scannella",
+            "John R. Horner"
+          ]
+        }
+      },
+      {
+        "id": "toroceratops:2012-longrich",
+        "stance": "challenges",
+        "summary": "Argued Torosaurus is a distinct genus: some Torosaurus specimens are not fully mature, and some mature Triceratops show no sign of becoming Torosaurus.",
+        "publication": {
+          "id": "doi:10.1371/journal.pone.0032623",
+          "doi": "10.1371/journal.pone.0032623",
+          "title": "Torosaurus Is Not Triceratops: Ontogeny in Chasmosaurine Ceratopsids as a Case Study in Dinosaur Taxonomy",
+          "year": 2012,
+          "journal": "PLoS ONE",
+          "url": "https://doi.org/10.1371/journal.pone.0032623",
+          "authors": [
+            "Nicholas R. Longrich",
+            "Daniel J. Field"
+          ]
+        }
+      },
+      {
+        "id": "toroceratops:2013-maiorino",
+        "stance": "challenges",
+        "summary": "Geometric morphometrics of skull shape found Torosaurus falling outside the Triceratops growth trajectory, supporting separate genera.",
+        "publication": {
+          "id": "doi:10.1371/journal.pone.0081608",
+          "doi": "10.1371/journal.pone.0081608",
+          "title": "Is Torosaurus Triceratops? Geometric Morphometric Evidence of Late Maastrichtian Ceratopsid Dinosaurs",
+          "year": 2013,
+          "journal": "PLoS ONE",
+          "url": "https://doi.org/10.1371/journal.pone.0081608",
+          "authors": [
+            "Leonardo Maiorino",
+            "Andrew A. Farke",
+            "Tassos Kotsakis",
+            "Paolo Piras"
+          ]
+        }
+      }
+    ]
+  }
+]

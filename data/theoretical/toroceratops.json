@@ -1,0 +1,51 @@
+{
+  "schema_version": "fog-of-time.theoretical-creature/v1",
+  "id": "toroceratops",
+  "name": "“Toroceratops”",
+  "scientific_name": "Torosaurus = Triceratops",
+  "hypothesis": "Torosaurus is not a separate animal but the fully mature growth stage of Triceratops.",
+  "events": [
+    {
+      "id": "toroceratops:2010-scannella",
+      "stance": "proposes",
+      "summary": "Proposed that Torosaurus specimens are fully mature Triceratops, with the frill thinning and opening up late in growth.",
+      "publication": {
+        "id": "doi:10.1080/02724634.2010.483632",
+        "doi": "10.1080/02724634.2010.483632",
+        "title": "Torosaurus Marsh, 1891, is Triceratops Marsh, 1889 (Ceratopsidae: Chasmosaurinae): synonymy through ontogeny",
+        "year": 2010,
+        "journal": "Journal of Vertebrate Paleontology",
+        "url": "https://doi.org/10.1080/02724634.2010.483632",
+        "authors": ["John B. Scannella", "John R. Horner"]
+      }
+    },
+    {
+      "id": "toroceratops:2012-longrich",
+      "stance": "challenges",
+      "summary": "Argued Torosaurus is a distinct genus: some Torosaurus specimens are not fully mature, and some mature Triceratops show no sign of becoming Torosaurus.",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0032623",
+        "doi": "10.1371/journal.pone.0032623",
+        "title": "Torosaurus Is Not Triceratops: Ontogeny in Chasmosaurine Ceratopsids as a Case Study in Dinosaur Taxonomy",
+        "year": 2012,
+        "journal": "PLoS ONE",
+        "url": "https://doi.org/10.1371/journal.pone.0032623",
+        "authors": ["Nicholas R. Longrich", "Daniel J. Field"]
+      }
+    },
+    {
+      "id": "toroceratops:2013-maiorino",
+      "stance": "challenges",
+      "summary": "Geometric morphometrics of skull shape found Torosaurus falling outside the Triceratops growth trajectory, supporting separate genera.",
+      "publication": {
+        "id": "doi:10.1371/journal.pone.0081608",
+        "doi": "10.1371/journal.pone.0081608",
+        "title": "Is Torosaurus Triceratops? Geometric Morphometric Evidence of Late Maastrichtian Ceratopsid Dinosaurs",
+        "year": 2013,
+        "journal": "PLoS ONE",
+        "url": "https://doi.org/10.1371/journal.pone.0081608",
+        "authors": ["Leonardo Maiorino", "Andrew A. Farke", "Tassos Kotsakis", "Paolo Piras"]
+      }
+    }
+  ]
+}

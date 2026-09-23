@@ -14,12 +14,14 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[2]
 EXTRACTED = ROOT / "data" / "extracted"
+THEORETICAL = ROOT / "data" / "theoretical"
 SQL_SCHEMA = ROOT / "db" / "schema.sql"
 BUILD_DIR = ROOT / "build"
 DB_PATH = BUILD_DIR / "fog-of-time.sqlite"
 PUBLIC_DATA = ROOT / "public" / "data"
 TIMELINE_PATH = PUBLIC_DATA / "timeline" / "all.json"
 MANIFEST_PATH = PUBLIC_DATA / "manifest.json"
+CREATURES_PATH = PUBLIC_DATA / "theoretical" / "creatures.json"
 
 SCHEMA_VERSION = "fog-of-time.paper-extraction/v1"
 EVIDENCE_TYPES = {
@@ -31,6 +33,10 @@ EVIDENCE_ROLES = {
     "original_discovery", "original_description", "new_measurement", "new_imaging",
     "redescription", "reinterpretation", "secondary_citation", "review",
 }
+CREATURE_SCHEMA_VERSION = "fog-of-time.theoretical-creature/v1"
+# Stances a paper can take on a hypothesis. Only "refutes" kills it and only
+# "revives" brings a dead hypothesis back; "revises" is a neutral reframing.
+STANCES = {"proposes", "supports", "revises", "challenges", "refutes", "revives", "confirms"}
 AGE_PRECISIONS = {
     "explicit_range", "approximate_range", "reported_point", "approximate_point", "derived_interval", "unknown",
 }
@@ -53,18 +59,7 @@ def validate_document(document: dict[str, Any], path: Path) -> None:
     if not isinstance(document["development_fixture"], bool):
         fail(path, "development_fixture must be boolean")
 
-    publication = document["publication"]
-    if not isinstance(publication, dict):
-        fail(path, "publication must be an object")
-    required(publication, ("id", "title", "year", "authors"), path, "publication")
-    if not publication["id"] or not publication["title"]:
-        fail(path, "publication id/title may not be empty")
-    if not isinstance(publication["year"], int) or not 1600 <= publication["year"] <= 2100:
-        fail(path, "publication year must be an integer in 1600..2100")
-    if not isinstance(publication["authors"], list) or not publication["authors"]:
-        fail(path, "publication authors must be a non-empty array")
-    if not all(isinstance(author, str) and author.strip() for author in publication["authors"]):
-        fail(path, "publication authors must be non-empty strings")
+    validate_publication(document["publication"], path, "publication")
 
     evidence = document["evidence"]
     if not isinstance(evidence, list) or not evidence:
@@ -132,6 +127,75 @@ def validate_document(document: dict[str, Any], path: Path) -> None:
             required(claim, ("type", "summary"), path, f"{context}.claims[{claim_index}]")
 
 
+def validate_publication(publication: Any, path: Path, context: str) -> None:
+    if not isinstance(publication, dict):
+        fail(path, f"{context} must be an object")
+    required(publication, ("id", "title", "year", "authors"), path, context)
+    if not publication["id"] or not publication["title"]:
+        fail(path, f"{context} id/title may not be empty")
+    if not isinstance(publication["year"], int) or not 1600 <= publication["year"] <= 2100:
+        fail(path, f"{context} year must be an integer in 1600..2100")
+    if not isinstance(publication["authors"], list) or not publication["authors"]:
+        fail(path, f"{context} authors must be a non-empty array")
+    if not all(isinstance(author, str) and author.strip() for author in publication["authors"]):
+        fail(path, f"{context} authors must be non-empty strings")
+
+
+def validate_creature(document: dict[str, Any], path: Path) -> None:
+    required(document, ("schema_version", "id", "name", "hypothesis", "events"), path, "creature")
+    if document["schema_version"] != CREATURE_SCHEMA_VERSION:
+        fail(path, f"unsupported schema_version {document['schema_version']!r}")
+    for key in ("id", "name", "hypothesis"):
+        if not isinstance(document[key], str) or not document[key].strip():
+            fail(path, f"creature {key} must be a non-empty string")
+    events = document["events"]
+    if not isinstance(events, list) or not events:
+        fail(path, "events must be a non-empty array")
+
+    alive = False
+    previous_year = None
+    for index, event in enumerate(events):
+        context = f"events[{index}]"
+        if not isinstance(event, dict):
+            fail(path, f"{context} must be an object")
+        required(event, ("id", "stance", "summary", "publication"), path, context)
+        if not event["id"] or not isinstance(event["summary"], str) or not event["summary"].strip():
+            fail(path, f"{context} id/summary may not be empty")
+        stance = event["stance"]
+        if stance not in STANCES:
+            fail(path, f"{context} unknown stance {stance!r}")
+        validate_publication(event["publication"], path, f"{context}.publication")
+
+        year = event["publication"]["year"]
+        if previous_year is not None and year < previous_year:
+            fail(path, f"{context} events must be in publication-year order")
+        previous_year = year
+
+        # The lifeline must be a coherent story: born once, dies only while
+        # alive, and revived only once dead.
+        if index == 0 and stance != "proposes":
+            fail(path, "the first event must propose the hypothesis")
+        if index > 0 and stance == "proposes":
+            fail(path, f"{context} only the first event may propose the hypothesis")
+        if stance == "revives" and alive:
+            fail(path, f"{context} cannot revive a hypothesis that is still alive")
+        if stance in {"supports", "challenges", "confirms"} and not alive:
+            fail(path, f"{context} a refuted hypothesis must be revived before a paper {stance} it")
+        if stance in {"proposes", "revives"}:
+            alive = True
+        elif stance == "refutes":
+            alive = False
+
+
+def load_creatures() -> list[tuple[Path, dict[str, Any]]]:
+    loaded: list[tuple[Path, dict[str, Any]]] = []
+    for path in sorted(THEORETICAL.glob("*.json")):
+        document = json.loads(path.read_text(encoding="utf-8"))
+        validate_creature(document, path)
+        loaded.append((path, document))
+    return loaded
+
+
 def stable_key(prefix: str, *parts: Any) -> str:
     normalized = "|".join("" if part is None else str(part).strip().lower() for part in parts)
     digest = hashlib.sha256(normalized.encode("utf-8")).hexdigest()[:20]
@@ -147,6 +211,26 @@ def load_documents() -> list[tuple[Path, dict[str, Any]]]:
     if not loaded:
         raise RuntimeError("No extraction JSON found under data/extracted")
     return loaded
+
+
+def insert_publication(connection: sqlite3.Connection, publication: dict[str, Any], fixture: int) -> None:
+    connection.execute(
+        """INSERT INTO publication(id, doi, title, year, journal, url, development_fixture)
+           VALUES (?, ?, ?, ?, ?, ?, ?)""",
+        (
+            publication["id"], publication.get("doi"), publication["title"], publication["year"],
+            publication.get("journal"), publication.get("url"), fixture,
+        ),
+    )
+    for position, author_name in enumerate(publication["authors"]):
+        connection.execute("INSERT OR IGNORE INTO author(name) VALUES (?)", (author_name,))
+        author_id = connection.execute(
+            "SELECT id FROM author WHERE name = ?", (author_name,)
+        ).fetchone()[0]
+        connection.execute(
+            "INSERT INTO publication_author(publication_id, author_id, author_order) VALUES (?, ?, ?)",
+            (publication["id"], author_id, position),
+        )
 
 
 def physical_signature(item: dict[str, Any]) -> tuple[Any, ...]:
@@ -173,24 +257,7 @@ def insert_documents(connection: sqlite3.Connection, documents: list[tuple[Path,
             fail(path, f"duplicate publication id {publication['id']!r}")
         publication_ids.add(publication["id"])
 
-        connection.execute(
-            """INSERT INTO publication(id, doi, title, year, journal, url, development_fixture)
-               VALUES (?, ?, ?, ?, ?, ?, ?)""",
-            (
-                publication["id"], publication.get("doi"), publication["title"], publication["year"],
-                publication.get("journal"), publication.get("url"), fixture,
-            ),
-        )
-
-        for position, author_name in enumerate(publication["authors"]):
-            connection.execute("INSERT OR IGNORE INTO author(name) VALUES (?)", (author_name,))
-            author_id = connection.execute(
-                "SELECT id FROM author WHERE name = ?", (author_name,)
-            ).fetchone()[0]
-            connection.execute(
-                "INSERT INTO publication_author(publication_id, author_id, author_order) VALUES (?, ?, ?)",
-                (publication["id"], author_id, position),
-            )
+        insert_publication(connection, publication, fixture)
 
         for item in document["evidence"]:
             if item["id"] in report_ids:
@@ -297,9 +364,97 @@ def insert_documents(connection: sqlite3.Connection, documents: list[tuple[Path,
                 )
 
 
-def export_web(connection: sqlite3.Connection, documents: list[tuple[Path, dict[str, Any]]]) -> None:
+def insert_creatures(connection: sqlite3.Connection, creatures: list[tuple[Path, dict[str, Any]]]) -> None:
+    creature_ids: set[str] = set()
+    event_ids: set[str] = set()
+    for path, document in creatures:
+        if document["id"] in creature_ids:
+            fail(path, f"duplicate creature id {document['id']!r}")
+        creature_ids.add(document["id"])
+        connection.execute(
+            "INSERT INTO theoretical_creature(id, name, scientific_name, hypothesis) VALUES (?, ?, ?, ?)",
+            (document["id"], document["name"], document.get("scientific_name"), document["hypothesis"]),
+        )
+        for order, event in enumerate(document["events"]):
+            if event["id"] in event_ids:
+                fail(path, f"duplicate hypothesis event id {event['id']!r}")
+            event_ids.add(event["id"])
+            publication = event["publication"]
+            # A paper can speak to several hypotheses (or also report fossils);
+            # it is stored once and must be described identically everywhere.
+            existing = connection.execute(
+                "SELECT doi, title, year FROM publication WHERE id = ?", (publication["id"],)
+            ).fetchone()
+            if existing is None:
+                insert_publication(connection, publication, 0)
+            elif tuple(existing) != (publication.get("doi"), publication["title"], publication["year"]):
+                fail(path, f"publication {publication['id']!r} disagrees with an earlier record of it")
+            connection.execute(
+                """INSERT INTO hypothesis_event(id, creature_id, publication_id, stance, summary, event_order)
+                   VALUES (?, ?, ?, ?, ?, ?)""",
+                (event["id"], document["id"], publication["id"], event["stance"], event["summary"], order),
+            )
+
+
+def export_creatures(connection: sqlite3.Connection) -> list[dict[str, Any]]:
+    creatures: list[dict[str, Any]] = []
+    for creature in connection.execute(
+        "SELECT id, name, scientific_name, hypothesis FROM theoretical_creature ORDER BY name"
+    ).fetchall():
+        events = []
+        for row in connection.execute(
+            """SELECT e.id, e.stance, e.summary, p.id AS publication_id, p.doi, p.title, p.year, p.journal, p.url
+               FROM hypothesis_event e
+               JOIN publication p ON p.id = e.publication_id
+               WHERE e.creature_id = ?
+               ORDER BY e.event_order""",
+            (creature["id"],),
+        ).fetchall():
+            authors = [
+                author[0]
+                for author in connection.execute(
+                    """SELECT a.name FROM publication_author pa JOIN author a ON a.id = pa.author_id
+                       WHERE pa.publication_id = ? ORDER BY pa.author_order""",
+                    (row["publication_id"],),
+                ).fetchall()
+            ]
+            events.append(
+                {
+                    "id": row["id"],
+                    "stance": row["stance"],
+                    "summary": row["summary"],
+                    "publication": {
+                        "id": row["publication_id"],
+                        "doi": row["doi"],
+                        "title": row["title"],
+                        "year": row["year"],
+                        "journal": row["journal"],
+                        "url": row["url"],
+                        "authors": authors,
+                    },
+                }
+            )
+        creatures.append(
+            {
+                "id": creature["id"],
+                "name": creature["name"],
+                "scientific_name": creature["scientific_name"],
+                "hypothesis": creature["hypothesis"],
+                "evidence_count": len(events),
+                "events": events,
+            }
+        )
+    return creatures
+
+
+def export_web(
+    connection: sqlite3.Connection,
+    documents: list[tuple[Path, dict[str, Any]]],
+    creature_documents: list[tuple[Path, dict[str, Any]]],
+) -> None:
     PUBLIC_DATA.mkdir(parents=True, exist_ok=True)
     TIMELINE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    CREATURES_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     rows = connection.execute(
         """SELECT
@@ -423,7 +578,7 @@ def export_web(connection: sqlite3.Connection, documents: list[tuple[Path, dict[
             }
         )
 
-    source_payload = [json.loads(path.read_text(encoding="utf-8")) for path, _ in documents]
+    source_payload = [json.loads(path.read_text(encoding="utf-8")) for path, _ in documents + creature_documents]
     digest = hashlib.sha256(
         json.dumps(
             source_payload,
@@ -447,6 +602,7 @@ def export_web(connection: sqlite3.Connection, documents: list[tuple[Path, dict[
         "publication_count": connection.execute(
             "SELECT COUNT(*) FROM publication"
         ).fetchone()[0],
+        "theoretical_creature_count": len(creature_documents),
         "oldest_ma": max(252.0, max_age),
         "youngest_ma": min(66.0, min_age),
         "development_fixture": fixture_only,
@@ -457,6 +613,10 @@ def export_web(connection: sqlite3.Connection, documents: list[tuple[Path, dict[
         json.dumps(records, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
+    CREATURES_PATH.write_text(
+        json.dumps(export_creatures(connection), indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
     MANIFEST_PATH.write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
@@ -465,6 +625,7 @@ def export_web(connection: sqlite3.Connection, documents: list[tuple[Path, dict[
 
 def main() -> None:
     documents = load_documents()
+    creatures = load_creatures()
     BUILD_DIR.mkdir(parents=True, exist_ok=True)
     if DB_PATH.exists():
         DB_PATH.unlink()
@@ -474,13 +635,17 @@ def main() -> None:
     try:
         connection.executescript(SQL_SCHEMA.read_text(encoding="utf-8"))
         insert_documents(connection, documents)
+        insert_creatures(connection, creatures)
         connection.commit()
-        export_web(connection, documents)
+        export_web(connection, documents, creatures)
     finally:
         connection.close()
 
     print(f"Built {DB_PATH.relative_to(ROOT)}")
-    print(f"Exported {MANIFEST_PATH.relative_to(ROOT)} and {TIMELINE_PATH.relative_to(ROOT)}")
+    print(
+        f"Exported {MANIFEST_PATH.relative_to(ROOT)}, {TIMELINE_PATH.relative_to(ROOT)} "
+        f"and {CREATURES_PATH.relative_to(ROOT)}"
+    )
 
 
 if __name__ == "__main__":

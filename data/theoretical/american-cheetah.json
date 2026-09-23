@@ -1,0 +1,65 @@
+{
+  "schema_version": "fog-of-time.theoretical-creature/v1",
+  "id": "american-cheetah",
+  "name": "American cheetah",
+  "scientific_name": "Miracinonyx",
+  "hypothesis": "A true cheetah lineage (Acinonyx) lived in Pleistocene North America, represented by Miracinonyx.",
+  "events": [
+    {
+      "id": "american-cheetah:1979-adams",
+      "stance": "proposes",
+      "summary": "Placed the North American Pleistocene cat Felis trumani in Acinonyx as the new subgenus Miracinonyx, arguing that the cheetah has a native American ancestry.",
+      "publication": {
+        "id": "doi:10.1126/science.205.4411.1155",
+        "doi": "10.1126/science.205.4411.1155",
+        "title": "The Cheetah: Native American",
+        "year": 1979,
+        "journal": "Science",
+        "url": "https://doi.org/10.1126/science.205.4411.1155",
+        "authors": ["Daniel B. Adams"]
+      }
+    },
+    {
+      "id": "american-cheetah:1990-van-valkenburgh",
+      "stance": "revises",
+      "summary": "Described the Plio-Pleistocene cheetah-like cat Miracinonyx inexpectatus of North America, treating Miracinonyx as a full genus.",
+      "publication": {
+        "id": "doi:10.1080/02724634.1990.10011827",
+        "doi": "10.1080/02724634.1990.10011827",
+        "title": "The Plio-Pleistocene cheetah-like cat Miracinonyx inexpectatus of North America",
+        "year": 1990,
+        "journal": "Journal of Vertebrate Paleontology",
+        "url": "https://doi.org/10.1080/02724634.1990.10011827",
+        "authors": ["Blaire Van Valkenburgh", "Frederick Grady", "Björn Kurtén"]
+      }
+    },
+    {
+      "id": "american-cheetah:2005-barnett",
+      "stance": "refutes",
+      "summary": "Ancient mitochondrial DNA placed Miracinonyx closest to the puma rather than the African cheetah, so its cheetah-like build is convergent.",
+      "publication": {
+        "id": "doi:10.1016/j.cub.2005.07.052",
+        "doi": "10.1016/j.cub.2005.07.052",
+        "title": "Evolution of the extinct Sabretooths and the American cheetah-like cat",
+        "year": 2005,
+        "journal": "Current Biology",
+        "url": "https://doi.org/10.1016/j.cub.2005.07.052",
+        "authors": ["Ross Barnett", "Ian Barnes", "Matthew J. Phillips", "Larry D. Martin", "C. Richard Harington", "Jennifer A. Leonard", "Alan Cooper"]
+      }
+    },
+    {
+      "id": "american-cheetah:2026-cassatt-johnstone",
+      "stance": "refutes",
+      "summary": "Nuclear paleogenomes confirm Miracinonyx trumani as a puma relative, not a cheetah. Stable isotopes extend its range about 20 degrees of latitude north to the Yukon, where it likely fed on anadromous fish; southern populations were generalist predators.",
+      "publication": {
+        "id": "doi:10.1016/j.cub.2026.07.072",
+        "doi": "10.1016/j.cub.2026.07.072",
+        "title": "Range and diet diversity in the Pleistocene American “cheetah,” Miracinonyx trumani",
+        "year": 2026,
+        "journal": "Current Biology",
+        "url": "https://doi.org/10.1016/j.cub.2026.07.072",
+        "authors": ["Molly Cassatt-Johnstone", "T. Brock Wooldridge", "Sambit Ghosh", "Elizabeth Hall", "Susan Hewitson", "Julie Meachen", "Matthew J. Wooller", "Grant Zazula", "Beth Shapiro"]
+      }
+    }
+  ]
+}

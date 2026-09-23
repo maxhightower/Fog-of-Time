@@ -4,6 +4,7 @@ export interface DatasetManifest {
   physical_evidence_count: number
   publication_report_count: number
   publication_count: number
+  theoretical_creature_count?: number
   oldest_ma: number
   youngest_ma: number
   development_fixture: boolean
@@ -59,4 +60,23 @@ export interface TimelineEvidence {
   report_count: number
   representative_report: TimelineReport
   development_fixture: boolean
+}
+
+export type Stance = 'proposes' | 'supports' | 'revises' | 'challenges' | 'refutes' | 'revives' | 'confirms'
+
+export interface HypothesisEvent {
+  id: string
+  stance: Stance
+  summary: string
+  publication: PublicationSummary
+}
+
+/** A hypothesised animal; its life is the life of the hypothesis in the literature. */
+export interface TheoreticalCreature {
+  id: string
+  name: string
+  scientific_name?: string | null
+  hypothesis: string
+  evidence_count: number
+  events: HypothesisEvent[]
 }

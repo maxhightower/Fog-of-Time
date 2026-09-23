@@ -34,6 +34,7 @@ See [docs/DATA_MODEL.md](docs/DATA_MODEL.md).
 ```text
 data/
   extracted/           reviewable paper extraction records
+  theoretical/         hypothesised creatures and the papers that argue over them
   schema/              extraction contract
 
 db/
@@ -48,12 +49,14 @@ build/
 public/data/
   manifest.json
   timeline/all.json     generated browser artifacts
+  theoretical/creatures.json
 
 src/
   main.ts               page shell, layers panel, filters, detail view
   timeline.ts           SVG timeline (bars, geologic bands, pan/zoom)
   model.ts              grouping, colour categories
   timescale.ts          ICS geologic time scale reference bands
+  creatures.ts          theoretical creature lifelines
 ```
 
 ## Run the website
@@ -83,6 +86,16 @@ what group bars and record bars show), and a "Known by" slider replays the evide
 by publication year.
 
 The committed production dataset now combines a 25-paper direct-full-text benchmark with a separate PBDB occurrence-backed scale-out tier. Development fixtures remain only under `tests/fixtures/` and never enter the production timeline.
+
+### Theoretical creatures
+
+Below the fossil timeline, **Theoretical creatures** tracks animals that started life as
+hypotheses, such as the American cheetah (*Miracinonyx*), Nanotyrannus, Brontosaurus and
+"Toroceratops". Each row is a lifeline across publication years: born when a paper
+proposes the animal, contested, killed by a refutation, and sometimes revived. The
+"Known by" slider replays these lives too. A side panel lists every creature with its
+current status and number of papers (for ▲ / against ▼); click one for its full cited
+history. See [docs/DATA_MODEL.md](docs/DATA_MODEL.md#theoretical-creatures) to add one.
 
 ## Rebuild data
 

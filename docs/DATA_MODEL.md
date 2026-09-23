@@ -62,3 +62,23 @@ Checked-in extraction JSON is the reviewable source record. The offline build no
 ## Representative report policy
 
 The first web exporter uses `latest-publication-report-v0` only as a display policy when multiple papers refer to the same physical key. The database retains all reports. This policy is intentionally explicit and replaceable rather than pretending the newest paper is automatically correct.
+
+## Theoretical creatures
+
+Some animals are first known as hypotheses: the "American cheetah" was a proposed North American cheetah lineage until ancient DNA showed *Miracinonyx* was a puma relative. Fog of Time tracks these as **theoretical creatures** in `data/theoretical/*.json` (schema: `data/schema/theoretical-creature.schema.json`).
+
+A creature's life is the life of its hypothesis. Each event is one publication taking a stance, in publication-year order:
+
+| Stance | Effect on the hypothesis |
+| --- | --- |
+| `proposes` | Born (must be the first event, and only the first) |
+| `supports` | Stays alive; ends a contested spell |
+| `confirms` | Confirmed |
+| `challenges` | Contested, but still alive |
+| `refutes` | Dead (a further refutation reinforces the death) |
+| `revives` | Alive again (only valid while dead) |
+| `revises` | Neutral reframing; no change |
+
+The build rejects files whose events break that story, for example a paper that supports or challenges a refuted hypothesis without a revival first. Publications are stored in the shared `publication` table, so a paper cited by several creatures, or also reporting fossils, is one row; the SQLite tables are `theoretical_creature` and `hypothesis_event`. The web export is `public/data/theoretical/creatures.json`.
+
+"Pieces of evidence" in the UI are these papers: each creature shows how many took a stance, split into for (proposes, supports, confirms, revives) and against (challenges, refutes).
