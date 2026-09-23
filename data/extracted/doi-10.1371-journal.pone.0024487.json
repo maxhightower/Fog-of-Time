@@ -1,0 +1,141 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1371/journal.pone.0024487",
+    "doi": "10.1371/journal.pone.0024487",
+    "title": "A New Troodontid Theropod, Talos sampsoni gen. et sp. nov., from the Upper Cretaceous Western Interior Basin of North America",
+    "year": 2011,
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0024487",
+    "authors": [
+      "Lindsay E. Zanno",
+      "David J. Varricchio",
+      "Patrick M. O'Connor",
+      "Alan L. Titus",
+      "Michael J. Knell"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1371/journal.pone.0024487:umhn-vp-19479",
+      "physical_key": "specimen:umhn-vp:19479",
+      "evidence_type": "body_fossil",
+      "taxon": {
+        "name": "Talos sampsoni",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "UMNH VP",
+        "catalog_number": "19479",
+        "label": "UMNH VP 19479"
+      },
+      "material": [
+        "fragmentary dorsal axial column",
+        "fragmentary sacral axial column",
+        "fragmentary caudal axial column",
+        "left ulna",
+        "forelimb fragments",
+        "partial pelvis",
+        "partial left hindlimb",
+        "partial right hindlimb"
+      ],
+      "locality": {
+        "name": "The Blues, northern Kaiparowits Plateau, Grand Staircase-Escalante National Monument",
+        "country": "United States",
+        "region": "Utah",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Kaiparowits Formation",
+        "member": "middle unit",
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.1,
+        "max_ma": 76.13,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "stratigraphic_constraint_from_dated_bentonite_and_stage",
+        "basis": "The specimen is late Campanian and lies 75 m above a bentonite dated 75.95 ± 0.18 Ma; the interval uses the Campanian–Maastrichtian boundary as the younger limit and the older uncertainty on the underlying ash as a conservative maximum age.",
+        "notes": "The ash date is a lower stratigraphic bed, not a direct specimen date."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "taxonomic_assignment",
+          "summary": "UMNH VP 19479 is designated the holotype of Talos sampsoni.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "stratigraphic_context",
+          "summary": "The skeleton occurs about 260 m above the base of the Kaiparowits Formation, 75 m above a 75.95 ± 0.18 Ma bentonite.",
+          "page": null,
+          "figure": "2",
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0024487:umhn-vp-19479-pathology",
+      "physical_key": "pathology:umhn-vp:19479:pedal-digit-ii",
+      "evidence_type": "pathology",
+      "taxon": {
+        "name": "Talos sampsoni",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "UMNH VP",
+        "catalog_number": "19479",
+        "label": "UMNH VP 19479 — pedal digit II lesion"
+      },
+      "material": [
+        "pathologically modified second pedal digit",
+        "healed traumatic injury"
+      ],
+      "locality": {
+        "name": "The Blues, northern Kaiparowits Plateau, Grand Staircase-Escalante National Monument",
+        "country": "United States",
+        "region": "Utah",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Kaiparowits Formation",
+        "member": "middle unit",
+        "group": null
+      },
+      "age": {
+        "min_ma": 72.1,
+        "max_ma": 76.13,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "stratigraphic_constraint_from_dated_bentonite_and_stage",
+        "basis": "Same individual and horizon as UMNH VP 19479.",
+        "notes": "The lesion is part of the holotype skeleton, represented separately only so pathology can be queried as physical evidence."
+      },
+      "evidence_role": "new_imaging",
+      "claims": [
+        {
+          "type": "pathological_observation",
+          "summary": "The foot preserves an apparent traumatic injury with evidence of subsequent healing.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "functional_interpretation",
+          "summary": "The pathology supports interpretations in which the specialized second pedal digit had a limited role in ordinary weight bearing and may have been used in prey grappling or intraspecific combat.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}
