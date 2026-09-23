@@ -1,0 +1,143 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "doi:10.1371/journal.pone.0229640",
+    "doi": "10.1371/journal.pone.0229640",
+    "title": "Novel track morphotypes from new tracksites indicate increased Middle Jurassic dinosaur diversity on the Isle of Skye, Scotland",
+    "year": 2020,
+    "journal": "PLOS ONE",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229640",
+    "authors": [
+      "Paige E. dePolo",
+      "Stephen L. Brusatte",
+      "Thomas J. Challands",
+      "Davide Foffa",
+      "Mark Wilkinson",
+      "Neil D. L. Clark",
+      "Jon Hoad",
+      "Paulo Victor Luiz Gomes da Costa Pereira",
+      "Dugald A. Ross",
+      "Thomas J. Wade"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "doi:10.1371/journal.pone.0229640:bp1",
+      "physical_key": "tracksite:brothers-point:bp1",
+      "evidence_type": "trackway",
+      "taxon": {
+        "name": "Dinosauria",
+        "rank": "clade"
+      },
+      "specimen": {
+        "institution_code": null,
+        "catalog_number": "BP1",
+        "label": "Brothers' Point 1 (BP1)"
+      },
+      "material": [
+        "35 identified dinosaur tracks",
+        "3 distinctive trackways",
+        "1 track association",
+        "isolated tracks"
+      ],
+      "locality": {
+        "name": "Brothers' Point 1, east of Lonfearn Burn",
+        "country": "United Kingdom",
+        "region": "Isle of Skye, Scotland",
+        "latitude": 57.5865,
+        "longitude": -6.1472,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lealt Shale Formation",
+        "member": "Lonfearn Member",
+        "group": "Great Estuarine Group"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_stage_constraint_with_ics_conversion",
+        "basis": "The track-bearing bed is in the Lonfearn Member of the Lealt Shale Formation, which is generally treated as Bathonian; the numeric envelope uses current ICS Bathonian boundaries.",
+        "notes": "The paper itself emphasizes Middle Jurassic age; the numeric stage conversion is contextual rather than a direct date."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "site_observation",
+          "summary": "BP1 preserves 35 identified tracks, three distinctive trackways, a track association, and isolated tracks.",
+          "page": null,
+          "figure": "4",
+          "table": null
+        },
+        {
+          "type": "ichnological_observation",
+          "summary": "The site includes several dinosaur track morphologies, contributing to evidence for a diverse Middle Jurassic dinosaur fauna on Skye.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    },
+    {
+      "id": "doi:10.1371/journal.pone.0229640:bp3",
+      "physical_key": "tracksite:brothers-point:bp3",
+      "evidence_type": "trackway",
+      "taxon": {
+        "name": "Dinosauria",
+        "rank": "clade"
+      },
+      "specimen": {
+        "institution_code": null,
+        "catalog_number": "BP3",
+        "label": "Brothers' Point 3 (BP3)"
+      },
+      "material": [
+        "18 identified dinosaur tracks",
+        "2 bipedal trackways",
+        "isolated tracks"
+      ],
+      "locality": {
+        "name": "Brothers' Point 3, west of Lonfearn Burn",
+        "country": "United Kingdom",
+        "region": "Isle of Skye, Scotland",
+        "latitude": 57.5863,
+        "longitude": -6.1494,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lealt Shale Formation",
+        "member": "Lonfearn Member",
+        "group": "Great Estuarine Group"
+      },
+      "age": {
+        "min_ma": 165.3,
+        "max_ma": 168.2,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "formation_stage_constraint_with_ics_conversion",
+        "basis": "The track-bearing bed is in the Lonfearn Member of the Lealt Shale Formation, which is generally treated as Bathonian; the numeric envelope uses current ICS Bathonian boundaries.",
+        "notes": "The paper itself emphasizes Middle Jurassic age; the numeric stage conversion is contextual rather than a direct date."
+      },
+      "evidence_role": "original_description",
+      "claims": [
+        {
+          "type": "site_observation",
+          "summary": "BP3 preserves 18 identified tracks, including two bipedal trackways and isolated tracks.",
+          "page": null,
+          "figure": "5",
+          "table": null
+        },
+        {
+          "type": "ichnological_observation",
+          "summary": "Together with BP1, BP3 records theropod, possible ornithopod, and possible stegosaurian trackmakers in a dynamic coastal setting.",
+          "page": null,
+          "figure": null,
+          "table": null
+        }
+      ]
+    }
+  ]
+}
