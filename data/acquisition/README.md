@@ -88,7 +88,14 @@ numerical age range, and publication reference. These records use
 `evidence_role: secondary_citation` until direct publication review upgrades them.
 
 The first DINO-2 snapshot contains **100 additional publications and 268 PBDB
-occurrences**.
+occurrences**. DINO-3 appends a second non-overlapping batch of **100 publications
+and 303 PBDB occurrences**, recorded in
+`data/acquisition/pbdb-import-manifest-batch-2.json`.
+
+PBDB imports are append-safe by default: existing direct and PBDB publication
+titles/DOIs are excluded, and existing `pbdb-ref-*.json` records are preserved.
+Use `--replace-existing-pbdb` only when deliberately rebuilding the entire PBDB
+snapshot.
 
 ## Paper bytes
 
