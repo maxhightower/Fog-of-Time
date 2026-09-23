@@ -1,0 +1,102 @@
+name: import second 100 pbdb dinosaur papers
+
+on:
+  push:
+    branches:
+      - feature/dino3-pbdb-200
+    paths:
+      - .github/workflows/import-pbdb-batch-2.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: feature/dino3-pbdb-200
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Import next 100 non-overlapping PBDB publications
+        run: |
+          python scripts/data/acquisition/import_pbdb_references.py \
+            --paper-count 100 \
+            --max-occurrences-per-reference 75 \
+            --reference-probe-count 850 \
+            --max-occurrence-rows 60000 \
+            --workers 16 \
+            --manifest data/acquisition/pbdb-import-manifest-batch-2.json
+
+      - name: Build canonical SQLite and static dataset
+        run: python scripts/data/build_data.py
+
+      - name: Validate second batch and aggregate corpus
+        run: |
+          python - <<'PY'
+          import json
+          import sqlite3
+          from pathlib import Path
+
+          batch = json.loads(Path("data/acquisition/pbdb-import-manifest-batch-2.json").read_text())
+          first = json.loads(Path("data/acquisition/pbdb-import-manifest.json").read_text())
+
+          assert first["imported_publications"] == 100, first
+          assert batch["imported_publications"] == 100, batch
+          assert batch["imported_occurrences"] > 0, batch
+
+          first_refs = {row["reference_id"] for row in first["references"]}
+          second_refs = {row["reference_id"] for row in batch["references"]}
+          assert len(second_refs) == 100
+          assert first_refs.isdisjoint(second_refs), first_refs & second_refs
+
+          first_dois = {str(row.get("doi") or "").lower() for row in first["references"] if row.get("doi")}
+          second_dois = {str(row.get("doi") or "").lower() for row in batch["references"] if row.get("doi")}
+          assert first_dois.isdisjoint(second_dois), first_dois & second_dois
+
+          con = sqlite3.connect("build/fog-of-time.sqlite")
+          assert con.execute("PRAGMA foreign_key_check").fetchall() == []
+          publication_count = con.execute("SELECT COUNT(*) FROM publication").fetchone()[0]
+          evidence_count = con.execute("SELECT COUNT(*) FROM physical_evidence").fetchone()[0]
+          report_count = con.execute("SELECT COUNT(*) FROM publication_evidence").fetchone()[0]
+
+          assert publication_count == 225, publication_count
+          assert evidence_count >= 524, evidence_count
+          assert report_count >= evidence_count
+
+          print("Batch 1 PBDB publications:", first["imported_publications"])
+          print("Batch 2 PBDB publications:", batch["imported_publications"])
+          print("Batch 2 PBDB occurrences:", batch["imported_occurrences"])
+          print("Total publications:", publication_count)
+          print("Total physical evidence:", evidence_count)
+          print("Total publication reports:", report_count)
+          PY
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: Validate frontend with 200-paper PBDB scale-out
+        run: |
+          npm install
+          npm run build
+
+      - name: Commit second PBDB snapshot
+        run: |
+          git config user.name "fog-of-time-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/extracted/pbdb-ref-*.json
+          git add data/acquisition/pbdb-import-manifest-batch-2.json
+          git add public/data/manifest.json public/data/timeline/all.json
+          if git diff --cached --quiet; then
+            echo "Second PBDB batch unchanged."
+            exit 0
+          fi
+          git commit -m "DINO-3: ingest second 100 PBDB-backed dinosaur publications"
+          git push origin HEAD:feature/dino3-pbdb-200
