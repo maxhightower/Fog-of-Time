@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78144",
+    "doi": "10.1371/journal.pone.0021376",
+    "title": "Reanalysis of \"Raptorex kriegsteini\": a juvenile tyrannosaurid dinosaur from Mongolia",
+    "year": 2011,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0021376",
+    "authors": [
+      "D. W. Fowler",
+      "H. N. Woodward",
+      "E. A. Freedman, P. L. Larson, J. R. Horner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:850136",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

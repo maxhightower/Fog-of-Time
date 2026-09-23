@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24681",
+    "doi": "10.1007/s00114-006-0209-8",
+    "title": "New evidence of shared dinosaur across Upper Jurassic proto-North Atlantic: Stegosaurus from Portugal",
+    "year": 2007,
+    "journal": "Naturwissenschaften",
+    "url": "https://doi.org/10.1007/s00114-006-0209-8",
+    "authors": [
+      "F. Escaso",
+      "F. Ortega",
+      "P. Dantas, E. Malafaia, N. L. Pimentel, X. Pereda-Suberbiola, J. L. Sanz, J. C. Kullberg, M. C. Kullberg, F. Barriga"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:182657",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

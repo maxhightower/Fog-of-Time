@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25681",
+    "doi": "10.1007/s00114-007-0310-7",
+    "title": "Behavioral and faunal implications of Early Cretaceous deinonychosaur trackways from China",
+    "year": 2007,
+    "journal": "Naturwissenschaften",
+    "url": "https://doi.org/10.1007/s00114-007-0310-7",
+    "authors": [
+      "R. Li",
+      "M. G. Lockley",
+      "P. J. Makovicky, M. Matsukawa, M. A. Norell, J. D. Harris, M. Liu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:196290",
+      "taxon": "Velociraptorichnus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeopodidae",
+      "basis": "stated without evidence",
+      "summary": "Velociraptorichnus belongs to Dromaeopodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

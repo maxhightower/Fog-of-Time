@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:39489",
+    "doi": "10.1080/10420949809386424",
+    "title": "Dinosaur tracks from the Carmel Formation, northeastern Utah: implications for Middle Jurassic paleoecology",
+    "year": 1998,
+    "journal": "Ichnos",
+    "url": "https://doi.org/10.1080/10420949809386424",
+    "authors": [
+      "M. G. Lockley",
+      "A. P. Hunt",
+      "M. Paquette, S.-A. Bilbey, A. H. Hamblin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:382776",
+      "taxon": "Carmelopodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated with evidence",
+      "summary": "Carmelopodus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18614",
+    "doi": null,
+    "title": "The skeleton of Saurolophus, a crested duck-billed dinosaur from the Edmonton Cretaceous",
+    "year": 1913,
+    "journal": "Bulletin of the American Museum of Natural History",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18614",
+    "authors": [
+      "B. Brown"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:144099",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Trachodon annectens",
+      "status": "belongs_to",
+      "related_taxon": "Trachodon",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Trachodon annectens) belongs to Trachodon.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

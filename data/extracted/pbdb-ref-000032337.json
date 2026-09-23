@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32337",
+    "doi": "10.1126/science.1187456",
+    "title": "A southern tyrant reptile",
+    "year": 2010,
+    "journal": "Science",
+    "url": "https://doi.org/10.1126/science.1187456",
+    "authors": [
+      "R. B. J. Benson",
+      "P. M. Barrett",
+      "T. H. Rich, P. Vickers-Rich"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:300806",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauroidea",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosauridae belongs to Tyrannosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

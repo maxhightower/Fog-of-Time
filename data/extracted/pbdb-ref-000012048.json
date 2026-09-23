@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12048",
+    "doi": "10.4095/105004",
+    "title": "A new species of hadrosaurian dinosaur from the Edmonton Formation (Cretaceous) of Alberta",
+    "year": 1924,
+    "journal": "Canada Department of Mines Geological Survey Bulletin (Geological Series)",
+    "url": "https://doi.org/10.4095/105004",
+    "authors": [
+      "C. W. Gilmore"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:138696",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Thespesius annectens",
+      "status": "belongs_to",
+      "related_taxon": "Thespesius",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Thespesius annectens) belongs to Thespesius.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

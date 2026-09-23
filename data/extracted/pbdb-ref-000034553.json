@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:34553",
+    "doi": "10.1038/nature02699",
+    "title": "Gigantism and comparative life-history parameters of tyrannosaurid dinosaurs",
+    "year": 2004,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/nature02699",
+    "authors": [
+      "G. M. Erickson",
+      "P. J. Makovicky",
+      "P. J. Currie, M. A. Norell, S. A. Yerby, C. A. Brochu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:316867",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:316868",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:316869",
+      "taxon": "Daspletosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Daspletosaurus belongs to Tyrannosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:316870",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

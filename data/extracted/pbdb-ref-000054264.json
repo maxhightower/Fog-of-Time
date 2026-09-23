@@ -15,6 +15,66 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:559337",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:559338",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Haplocanthosaurus belongs to Cetiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:559340",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:559344",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:559345",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:559363",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:559371",
       "taxon": "Torosaurus",
       "published_as": null,

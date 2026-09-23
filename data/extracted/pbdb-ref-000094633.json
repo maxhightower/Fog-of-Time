@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1014931",
+      "taxon": "Jinchuanloong niedu",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Jinchuanloong",
+      "basis": "stated with evidence",
+      "summary": "Jinchuanloong niedu belongs to Jinchuanloong.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1014932",
+      "taxon": "Jinchuanloong",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eusauropoda",
+      "basis": "stated without evidence",
+      "summary": "Jinchuanloong belongs to Eusauropoda.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1014908",
+      "taxon": "Gongshuilong fanwei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gongshuilong",
+      "basis": "stated with evidence",
+      "summary": "Gongshuilong fanwei belongs to Gongshuilong.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1014909",
+      "taxon": "Gongshuilong",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurolophinae",
+      "basis": "stated without evidence",
+      "summary": "Gongshuilong belongs to Saurolophinae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

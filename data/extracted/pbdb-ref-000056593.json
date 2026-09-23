@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:56593",
+    "doi": "10.1111/joa.12012",
+    "title": "Clavicles, interclavicles, gastralia, and sternal ribs in sauropod dinosaurs: new reports from Diplodocidae and their morphological, functional and evolutionary implications",
+    "year": 2013,
+    "journal": "Journal of Anatomy",
+    "url": "https://doi.org/10.1111/joa.12012",
+    "authors": [
+      "E. Tschopp",
+      "O. Mateus"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:590582",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated without evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

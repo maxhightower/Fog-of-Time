@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75729",
+    "doi": "10.1016/j.cretres.2017.07.022",
+    "title": "First ornithopod remains from the Bajo de la Carpa Formation (Santonian, Upper Cretaceous), northern Patagonia, Argentina",
+    "year": 2018,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2017.07.022",
+    "authors": [
+      "P. Cruzado-Caballero",
+      "L. S. Filippi",
+      "A. H. Méndez, A. C. Garrido, I. Díaz-Martínez"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:831955",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

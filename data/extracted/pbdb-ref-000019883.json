@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19883",
+    "doi": null,
+    "title": "The manus print of Kayentapus minor: its bearing on the biomechanics and ichnotaxonomy of early Mesozoic saurischian dinosaurs",
+    "year": 2006,
+    "journal": "The Triassic-Jurassic Terrestrial Transition. New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19883",
+    "authors": [
+      "R. E. Weems"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:162491",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:162493",
+      "taxon": "Kayentapus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratosauria",
+      "basis": "stated without evidence",
+      "summary": "Kayentapus belongs to Ceratosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:162498",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Prosauropoda",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Prosauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

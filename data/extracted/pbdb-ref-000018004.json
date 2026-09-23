@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18004",
+    "doi": null,
+    "title": "A review of ankylosaur osteoderms from New Mexico and a preliminary review of ankylosaur armor",
+    "year": 2000,
+    "journal": "Dinosaurs of New Mexico. New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18004",
+    "authors": [
+      "T. L. Ford"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:137809",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Syrmosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Pinacosaurus belongs to Syrmosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

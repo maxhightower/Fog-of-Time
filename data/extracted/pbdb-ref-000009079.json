@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9079",
+    "doi": null,
+    "title": "The affinities of the Dinosauria",
+    "year": 1878,
+    "journal": "American Naturalist",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9079",
+    "authors": [
+      "E. D. Cope"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:108349",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

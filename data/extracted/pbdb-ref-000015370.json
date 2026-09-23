@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:15370",
+    "doi": null,
+    "title": "A dinosaur track association from the Early Jurassic deltaic deposits of Podole near Opatów, Poland",
+    "year": 2004,
+    "journal": "Geological Quarterly",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=15370",
+    "authors": [
+      "G. Niedzwiedzki",
+      "G. Pienkowski"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:105095",
+      "taxon": "Kayentapus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated without evidence",
+      "summary": "Kayentapus belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:105099",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anomoepodidae",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Anomoepodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

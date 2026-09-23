@@ -1,0 +1,110 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:4218",
+    "doi": null,
+    "title": "Alberta's dinosaurs and other fossil vertebrates: Judith River and Edmonton groups (Campanian-Maastrichtian)",
+    "year": 2001,
+    "journal": "In C. L. Hill (ed), Society of Vertebrate Paleontology, 61st Annual Meeting, Bozeman. Guidebook for the Field Trips: Mesozoic and Cenozoic Paleontology in the Western Plains and Rocky Mountains, Museum of the Rockies Occasional Paper",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=4218",
+    "authors": [
+      "D. A. Eberth",
+      "P. J. Currie",
+      "D. B. Brinkman, M. J. Ryan, D. R. Braman, J. D. Gardner, V. D. Lam, D. N. Spivak, A. G. Neuman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:297966",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:297973",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:297974",
+      "taxon": "Daspletosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Daspletosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:297978",
+      "taxon": "Richardoestesia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Richardoestesia belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:297993",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Centrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Centrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:298014",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:298045",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:298046",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:298051",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1009751",
+      "taxon": "Yeneen houssayi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Yeneen",
+      "basis": "stated with evidence",
+      "summary": "Yeneen houssayi belongs to Yeneen.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1009752",
+      "taxon": "Yeneen",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauria",
+      "basis": "stated with evidence",
+      "summary": "Yeneen belongs to Titanosauria.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

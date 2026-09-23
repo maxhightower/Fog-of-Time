@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86355",
+    "doi": "10.1016/j.cretres.2023.105754",
+    "title": "A rebbachisaurid-mimicking titanosaur and evidence of a Late Cretaceous faunal\\r\\ndisturbance event in South-West Gondwana",
+    "year": 2024,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2023.105754",
+    "authors": [
+      "L. S. Filippi",
+      "R. D. Juárez Valieri",
+      "P. A. Gallina, A. H. Méndez, F. A. Gianechini, A. C. Garrido"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:938416",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

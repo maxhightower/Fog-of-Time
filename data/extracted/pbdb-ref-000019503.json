@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19503",
+    "doi": null,
+    "title": "Sexual dimorphism in the Early Jurassic theropod dinosaur Dilophosaurus and a comparison with other related forms",
+    "year": 2005,
+    "journal": "The Carnivorous Dinosaurs. Indiana University Press, Bloomington",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19503",
+    "authors": [
+      "R. Gay"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:156487",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

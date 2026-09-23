@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:981501",
+      "taxon": "Baminornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Avialae",
+      "basis": "stated without evidence",
+      "summary": "Baminornis belongs to Avialae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:981504",
+      "taxon": "Baminornis zhenghensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Baminornis",
+      "basis": "stated with evidence",
+      "summary": "Baminornis zhenghensis belongs to Baminornis.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29437",
+    "doi": "10.1073/pnas.0810055106",
+    "title": "A new feather type in a nonavian theropod and the early evolution of feathers",
+    "year": 2009,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "url": "https://doi.org/10.1073/pnas.0810055106",
+    "authors": [
+      "X. Xu",
+      "X. Zheng",
+      "H. You"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:260071",
+      "taxon": "Beipiaosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Beipiaosaurus belongs to Therizinosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

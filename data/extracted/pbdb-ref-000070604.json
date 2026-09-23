@@ -64,5 +64,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:841762",
+      "taxon": "Lewisuchus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Silesauridae",
+      "basis": "stated with evidence",
+      "summary": "Lewisuchus belongs to Silesauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:841763",
+      "taxon": "Lewisuchus admixtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lewisuchus",
+      "basis": "stated with evidence",
+      "summary": "Lewisuchus admixtus belongs to Lewisuchus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

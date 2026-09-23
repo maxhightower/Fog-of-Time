@@ -1,0 +1,49 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76668",
+    "doi": "10.13173/wienslavjahr.9.2021.0104",
+    "title": "The Triassic Tetrapod Footprint Record. New Mexico Museum of Natural History & Science Bulletin",
+    "year": 2021,
+    "journal": "New Mexico Museum of Natural History & Science",
+    "url": "https://doi.org/10.13173/wienslavjahr.9.2021.0104",
+    "authors": [
+      "H. Klein",
+      "S. G. Lucas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:833795",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated with evidence",
+      "summary": "Eubrontes belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833798",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated with evidence",
+      "summary": "Grallator belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833800",
+      "taxon": "Pengxianpus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated with evidence",
+      "summary": "Pengxianpus belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

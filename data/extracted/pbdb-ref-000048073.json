@@ -1,0 +1,69 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:48073",
+    "doi": "10.1080/02724634.2013.769444",
+    "title": "Postcranial anatomy and phylogenetic relationships of Mussaurus patagonicus (Dinosauria, Sauropodomorpha)",
+    "year": 2013,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2013.769444",
+    "authors": [
+      "A. Otero",
+      "D. Pol"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:482756",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:482767",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Massospondylidae",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Massospondylidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:482772",
+      "taxon": "Seitaad",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauria",
+      "basis": "stated with evidence",
+      "summary": "Seitaad belongs to Anchisauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:482784",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eusauropoda",
+      "basis": "stated with evidence",
+      "summary": "Mamenchisaurus belongs to Eusauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:482802",
+      "taxon": "Chromogisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated with evidence",
+      "summary": "Chromogisaurus belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

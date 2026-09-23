@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:6971",
+    "doi": "10.1038/361064a0",
+    "title": "Primitive dinosaur skeleton from Argentina and the early evolution of Dinosauria",
+    "year": 1993,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/361064a0",
+    "authors": [
+      "P. C. Sereno",
+      "C. A. Forster",
+      "R. R. Rogers, A. M. Monetta"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:79597",
+      "taxon": "Eoraptor lunensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eoraptor",
+      "basis": "stated without evidence",
+      "summary": "Eoraptor lunensis belongs to Eoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:79598",
+      "taxon": "Eoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Eoraptor belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

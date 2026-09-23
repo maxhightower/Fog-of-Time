@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:46723",
+    "doi": "10.1080/02724634.2013.746229",
+    "title": "New data on the diversity and abundance of small-bodied ornithopods (Dinosauria, Ornithischia) from the Belly River Group (Campanian) of Alberta",
+    "year": 2013,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2013.746229",
+    "authors": [
+      "C. M. Brown",
+      "D. C. Evans",
+      "M. J. Ryan, A. P. Russell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:468314",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

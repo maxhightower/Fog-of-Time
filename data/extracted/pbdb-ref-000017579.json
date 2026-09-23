@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17579",
+    "doi": "10.1007/bf02988396",
+    "title": "Oldest camarasauromorph sauropod (Dinosauria) discovered in the Middle Jurassic (Bajocian) of the Khadir Island, Kachchh, western India",
+    "year": 2006,
+    "journal": "Paläontologische Zeitschrift",
+    "url": "https://doi.org/10.1007/bf02988396",
+    "authors": [
+      "M. Moser",
+      "U. B. Mathur",
+      "F. T. Fürsich, D. K. Pandey, N. Mathur"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:135257",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:135259",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camarasauromorpha",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Camarasauromorpha.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:135263",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauria",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus belongs to Titanosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:135265",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

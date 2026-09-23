@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:37397",
+    "doi": "10.1139/E11-017",
+    "title": "Basal ornithopod (Dinosauria: Ornithischia) teeth from the Prince Creek Formation (early Maastrichtian) of Alaska",
+    "year": 2011,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/E11-017",
+    "authors": [
+      "C. M. Brown",
+      "P. S. Druckenmiller"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:353872",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:353879",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

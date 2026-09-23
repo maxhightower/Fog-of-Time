@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:23344",
+    "doi": null,
+    "title": "A bibliographical list of Reptilia from the Karroo Beds of South Africa",
+    "year": 1954,
+    "journal": "Palaeontologia Africana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=23344",
+    "authors": [
+      "S. H. Haughton",
+      "A. S. Brink"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:164514",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thecodontosauridae",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Thecodontosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

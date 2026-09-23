@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:27164",
+    "doi": "10.1016/j.cretres.2008.01.001",
+    "title": "Orkoraptor burkei nov. gen. et sp., a large theropod from the Maastrichtian Pari Aike Formation, southern Patagonia, Argentina",
+    "year": 2008,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2008.01.001",
+    "authors": [
+      "F. E. Novas",
+      "M. D. Ezcurra",
+      "A. Lecuona"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:218718",
+      "taxon": "Orkoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelurosauria",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor belongs to Coelurosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:218719",
+      "taxon": "Orkoraptor burkei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orkoraptor",
+      "basis": "stated with evidence",
+      "summary": "Orkoraptor burkei belongs to Orkoraptor.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

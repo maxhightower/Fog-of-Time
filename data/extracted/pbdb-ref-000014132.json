@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14132",
+    "doi": null,
+    "title": "Monographs on the fossil Reptilia of the Mesozoic formations. Part III. (Omosaurus)",
+    "year": 1877,
+    "journal": "The Palaeontographical Society",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14132",
+    "authors": [
+      "R. Owen"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:569609",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17011",
+    "doi": null,
+    "title": "Ornithischian dinosaurs",
+    "year": 2005,
+    "journal": "Dinosaur Provincial Park: A Spectacular Ancient Ecosystem Revealed. Indiana University Press, Bloomington",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17011",
+    "authors": [
+      "M. J. Ryan",
+      "D. C. Evans"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:146716",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Centrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Centrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

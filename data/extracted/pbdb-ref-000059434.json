@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:59434",
+    "doi": "10.1017/jpa.2016.42",
+    "title": "The ‘duck-billed’ dinosaurs of Careless Creek (Upper Cretaceous of Montana, USA), with comments on hadrosaurid ontogeny",
+    "year": 2016,
+    "journal": "Journal of Paleontology",
+    "url": "https://doi.org/10.1017/jpa.2016.42",
+    "authors": [
+      "A. Prieto-Márquez",
+      "S. Gutarra"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:620530",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:620533",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

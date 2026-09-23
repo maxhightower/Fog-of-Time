@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:71193",
+    "doi": "10.22179/revmacn.21.655",
+    "title": "Paleontological discoveries in the Chorrillo Formation (upper Campanian-lower Maastrichtian, Upper Cretaceous), Santa Cruz Province, Patagonia, Argentina",
+    "year": 2019,
+    "journal": "Revista del Museo Argentino de Ciencias Naturales, Nueva Serie",
+    "url": "https://doi.org/10.22179/revmacn.21.655",
+    "authors": [
+      "F. E. Novas",
+      "F. L. Agnolin",
+      "S Rozadilla, A. M. Aranciaga-Rolando, F. Brisson-Egli, M. J. Motta, M. Cerroni, M. D. Ezcurra, A. G. Martinelli, J. S. D’Angelo, G. Alvarez-Herrera"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:940333",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:940340",
+      "taxon": "Fusioolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Fusioolithidae",
+      "basis": "stated without evidence",
+      "summary": "Fusioolithus belongs to Fusioolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

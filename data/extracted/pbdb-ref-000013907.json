@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13907",
+    "doi": null,
+    "title": "O evolutsiy chishcheich dinosavrov [On the evolution of carnivorous dinosaurs]",
+    "year": 1977,
+    "journal": "Trudy - Sovmestnaya Sovetsko-Mongol'skaya Paleontologicheskaya Ekspeditsiya",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13907",
+    "authors": [
+      "R. Barsbold"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:97279",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

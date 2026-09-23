@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30846",
+    "doi": null,
+    "title": "Contribution de l'ichnologie à la connaissance de l'evolution des Reptiles pendant la période triasique [Ichnological contribution to the knowledge of reptile evolution during the Triassic Period]",
+    "year": 1970,
+    "journal": "Comptes Rendus de la Société Géologique de France",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=30846",
+    "authors": [
+      "G. R. Demathieu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:282256",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

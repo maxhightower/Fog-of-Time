@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19959",
+    "doi": "10.1080/10420940490428797",
+    "title": "A new dinosaur ichnotaxon from the Lower Cretaceous Patuxent Formation of Maryland and Virginia",
+    "year": 2004,
+    "journal": "Ichnos",
+    "url": "https://doi.org/10.1080/10420940490428797",
+    "authors": [
+      "R. Stanford",
+      "R. E. Weems",
+      "M. G. Lockley"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:163671",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hypsilophodontidae",
+      "basis": "implied",
+      "summary": "Tenontosaurus belongs to Hypsilophodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:163672",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "implied",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

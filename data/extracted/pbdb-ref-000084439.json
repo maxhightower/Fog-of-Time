@@ -1,0 +1,70 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:84439",
+    "doi": "10.1098/rsos.221618",
+    "title": "A nearly complete skull of the sauropod dinosaur Diamantinasaurus matildae from the Upper Cretaceous Winton Formation of Australia and implications for the early evolution of titanosaurs",
+    "year": 2023,
+    "journal": "Royal Society Open Science",
+    "url": "https://doi.org/10.1098/rsos.221618",
+    "authors": [
+      "S. F. Poropat",
+      "P. D. Mannion",
+      "S. L. Rigby, R. J. Duncan, A. H. Pentland, J. J. Bevitt, T. Sloan, D. A. Elliott"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:919948",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:919949",
+      "taxon": "Diamantinasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasauria",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus belongs to Diamantinasauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:921277",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated without evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:921278",
+      "taxon": "Savannasaurus elliottorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Savannasaurus",
+      "basis": "stated without evidence",
+      "summary": "Savannasaurus elliottorum belongs to Savannasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:921279",
+      "taxon": "Wintonotitan wattsi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Wintonotitan",
+      "basis": "stated without evidence",
+      "summary": "Wintonotitan wattsi belongs to Wintonotitan.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

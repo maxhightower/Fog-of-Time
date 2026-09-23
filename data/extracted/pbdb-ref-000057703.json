@@ -25,6 +25,26 @@
       "basis": "stated without evidence",
       "summary": "Nanotyrannus belongs to Tyrannosauridae.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:602581",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:602582",
+      "taxon": "Anzu wyliei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anzu",
+      "basis": "stated without evidence",
+      "summary": "Anzu wyliei belongs to Anzu.",
+      "source": "pbdb_opinion"
     }
   ]
 }

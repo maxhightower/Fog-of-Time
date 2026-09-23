@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:37234",
+    "doi": "10.1007/s00114-010-0742-3",
+    "title": "Bone histology of the titanosaur Lirainosaurus astibiae (Dinosauria: Sauropoda) from the Latest Cretaceous of Spain",
+    "year": 2011,
+    "journal": "Naturwissenschaften",
+    "url": "https://doi.org/10.1007/s00114-010-0742-3",
+    "authors": [
+      "J. Company"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:352129",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:352132",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:352133",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

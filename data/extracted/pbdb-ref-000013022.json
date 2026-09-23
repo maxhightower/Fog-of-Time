@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13022",
+    "doi": null,
+    "title": "European titanosaurids",
+    "year": 1993,
+    "journal": "Revue de Paléobiologie, Volume Spéciale",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13022",
+    "authors": [
+      "J. Le Loeuff"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:709854",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:709855",
+      "taxon": "Petrustitan hungaricus",
+      "published_as": "Magyarosaurus hungaricus",
+      "status": "subjective_synonym_of",
+      "related_taxon": "Magyarosaurus dacus",
+      "basis": "stated without evidence",
+      "summary": "Petrustitan hungaricus (as Magyarosaurus hungaricus) is a subjective synonym of Magyarosaurus dacus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

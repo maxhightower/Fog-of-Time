@@ -15,6 +15,66 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:101548",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinodontidae",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus belongs to Deinodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101549",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101550",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinodontidae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Deinodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101551",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinodontidae",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus belongs to Deinodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101559",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101560",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:79134",
       "taxon": "Nanotyrannus lancensis",
       "published_as": "Gorgosaurus lancensis",

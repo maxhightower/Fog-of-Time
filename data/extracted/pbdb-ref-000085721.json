@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:85721",
+    "doi": "10.1144/gsl.jgs.1860.016.01-02.07",
+    "title": "Palaeontology or a Systematic Summary of Extinct Animals and Their Geological Relations",
+    "year": 1860,
+    "journal": "Adam and Charles Black",
+    "url": "https://doi.org/10.1144/gsl.jgs.1860.016.01-02.07",
+    "authors": [
+      "R. Owen"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:933141",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Amphicoelia",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Amphicoelia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

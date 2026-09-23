@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:28154",
+    "doi": null,
+    "title": "Les niveaux paléontologiques de première apparition des mammifères primoridaux en Afrique du Sud et leur ichnologie.  Establissement de zones stratigraphiques detaillees dans le Stormberg du Lesotho (Afrique du Sud) (Trias Supérieur à Jurassique) [The paleontological levels of the first appearance of primordial mammals in southern Africa and their ichnology.  Establishment of detailed stratigraphic zones in the Stormberg of Lesotho (southern Africa) (Upper Triassic to Jurassic).",
+    "year": 1970,
+    "journal": "In: S. H. Haughton (ed.), Second Symposium on Gondwana Stratigraphy and Paleontology, International Union of Geological Sciences.  Council for Scientific and Industrial Research, Pretoria",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=28154",
+    "authors": [
+      "P. Ellenberger"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:242032",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Anchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

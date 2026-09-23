@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:48935",
+    "doi": "10.1080/02724634.2013.819009",
+    "title": "Braincase of Panphagia protos (Dinosauria, Sauropodomorpha)",
+    "year": 2013,
+    "journal": "Basal Sauropodomorphs and the Vertebrate Fossil Record of the Ischigualasto Formation (Late Triassic: Carnian–Norian) of Argentina. Society of Vertebrate Paleontology Memoir 12. Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2013.819009",
+    "authors": [
+      "R. N. Martínez",
+      "J. A. Haro",
+      "C. Apaldetti"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:491295",
+      "taxon": "Panphagia protos",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Panphagia",
+      "basis": "stated without evidence",
+      "summary": "Panphagia protos belongs to Panphagia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

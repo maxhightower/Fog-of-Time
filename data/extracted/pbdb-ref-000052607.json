@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:52607",
+    "doi": null,
+    "title": "Dinosaurs",
+    "year": 1898,
+    "journal": "The University Geological Survey of Kansas",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52607",
+    "authors": [
+      "S. W. Williston"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:537997",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Claosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) belongs to Claosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

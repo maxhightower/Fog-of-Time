@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32770",
+    "doi": "10.1080/02724631003763516",
+    "title": "A new basal hadrosauroid (Dinosauria: Ornithopoda) from the Turonian of New Mexico",
+    "year": 2010,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724631003763516",
+    "authors": [
+      "A. T. McDonald",
+      "D. G. Wolfe",
+      "J. I. Kirkland"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:306151",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Styracosterna",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Styracosterna.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

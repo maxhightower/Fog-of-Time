@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19752",
+    "doi": "10.1080/10420940600843682",
+    "title": "New data on Therangospodus oncalensis from the Berriasian Fuentesalvo tracksite (Villar del Río, Soria, Spain): an example of gregarious behavior in theropod dinosaurs",
+    "year": 2006,
+    "journal": "Ichnos",
+    "url": "https://doi.org/10.1080/10420940600843682",
+    "authors": [
+      "J. L. Barco",
+      "J. I. Canudo",
+      "J. I. Ruiz-Omeñaca"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:159217",
+      "taxon": "Therangospodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Therangospodus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

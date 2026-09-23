@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:982277",
+      "taxon": "Archaeocursor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithischia",
+      "basis": "stated with evidence",
+      "summary": "Archaeocursor belongs to Ornithischia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:982287",
+      "taxon": "Archaeocursor asiaticus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Archaeocursor",
+      "basis": "stated with evidence",
+      "summary": "Archaeocursor asiaticus belongs to Archaeocursor.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

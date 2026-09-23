@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14481",
+    "doi": null,
+    "title": "A diplodocid sauropod from the Lower Cretaceous of England",
+    "year": 1980,
+    "journal": "Aspects of Vertebrate History: Essays in Honor of Edwin Harris Colbert",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14481",
+    "authors": [
+      "A. J. Charig"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:100789",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocidae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Diplodocidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

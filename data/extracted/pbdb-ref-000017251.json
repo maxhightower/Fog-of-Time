@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17251",
+    "doi": null,
+    "title": "Evolution of titanosaurid sauropods. II: The cranial evidence",
+    "year": 1997,
+    "journal": "Ameghiniana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17251",
+    "authors": [
+      "L. Salgado",
+      "J. O. Calvo"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:132191",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

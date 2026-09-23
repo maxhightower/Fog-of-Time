@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:61466",
+    "doi": "10.58799/ofr-117",
+    "title": "Data base an review of paleofaunas and floras of the Fruitland Formation, Late Cretaceous, San Juan Basin, New Mexico, with interpretive observations and age relationships",
+    "year": 1980,
+    "journal": "New Mexico Bureau of Mines and Mineral Resources Open File Report",
+    "url": "https://doi.org/10.58799/ofr-117",
+    "authors": [
+      "D. L. Wolberg"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:634853",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

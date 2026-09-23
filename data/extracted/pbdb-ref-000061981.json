@@ -15,6 +15,36 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:638223",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:638235",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:638236",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:638239",
       "taxon": "Torosaurus",
       "published_as": null,

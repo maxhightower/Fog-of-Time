@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25429",
+    "doi": "10.1590/s0001-37652007000300013",
+    "title": "A new Cretaceous terrestrial ecosystem from Gondwana with the description of a new sauropod dinosaur",
+    "year": 2007,
+    "journal": "Anais da Academia Brasileira de Ciências",
+    "url": "https://doi.org/10.1590/s0001-37652007000300013",
+    "authors": [
+      "J. O. Calvo",
+      "J. D. Porfiri",
+      "B. J. González Riga, A. W. A. Kellner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:193354",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Opisthocoelicaudinae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Opisthocoelicaudinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

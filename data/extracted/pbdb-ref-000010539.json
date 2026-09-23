@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:10539",
+    "doi": "10.1671/9.1",
+    "title": "An articulated specimen of the basal titanosaurian (Dinosauria: Sauropoda) Epachthosaurus sciuttoi from the early Late Cretaceous Bajo Barreal Formation of Chubut province, Argentina",
+    "year": 2004,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/9.1",
+    "authors": [
+      "R. D. Martínez",
+      "O. Giménez",
+      "J. Rodríguez, M. Luna, M. C. Lamanna"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:79675",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

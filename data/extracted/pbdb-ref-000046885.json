@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:46885",
+    "doi": "10.1371/journal.pone.0063409",
+    "title": "Palaeopathological survey of a population of Mapusaurus (Theropoda: Carcharodontosauridae) from the Late Cretaceous Huincul Formation, Argentina",
+    "year": 2013,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0063409",
+    "authors": [
+      "P. R. Bell",
+      "R. A. Coria"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:468762",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

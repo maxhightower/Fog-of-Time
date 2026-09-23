@@ -1,0 +1,80 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29464",
+    "doi": null,
+    "title": "Systematics and evolution of Dromaeosauridae (Dinosauria, Theropoda)",
+    "year": 2004,
+    "journal": "Bulletin of the Gunma Museum of Natural History",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=29464",
+    "authors": [
+      "P. Senter",
+      "R. Barsbold",
+      "B. B. Britt, D. A. Burnham"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:260263",
+      "taxon": "Sinovenator changii",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinovenator",
+      "basis": "stated with evidence",
+      "summary": "Sinovenator changii belongs to Sinovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:260286",
+      "taxon": "Utahraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Utahraptor belongs to Dromaeosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:260289",
+      "taxon": "Sinovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinonychosauria",
+      "basis": "stated with evidence",
+      "summary": "Sinovenator belongs to Deinonychosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:260291",
+      "taxon": "Sinornithosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptoria",
+      "basis": "stated with evidence",
+      "summary": "Sinornithosaurus belongs to Microraptoria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:260292",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptoria",
+      "basis": "stated with evidence",
+      "summary": "Microraptor belongs to Microraptoria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:260330",
+      "taxon": "Sinosauropteryx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelurosauria",
+      "basis": "stated with evidence",
+      "summary": "Sinosauropteryx belongs to Coelurosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:45953",
+    "doi": "10.1007/s12542-012-0153-1",
+    "title": "Isolated theropod teeth from the Kem Kem Beds (Early Cenomanian) near Taouz, Morocco",
+    "year": 2013,
+    "journal": "Palaeontologische Zeitschrift",
+    "url": "https://doi.org/10.1007/s12542-012-0153-1",
+    "authors": [
+      "U. Richter",
+      "A. Mudroch",
+      "L. G. Buckley"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:858222",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

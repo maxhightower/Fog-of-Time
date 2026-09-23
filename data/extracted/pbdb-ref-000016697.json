@@ -15,6 +15,156 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:112414",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontia",
+      "basis": "stated with evidence",
+      "summary": "Tenontosaurus belongs to Iguanodontia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112415",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112425",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112437",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112463",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112465",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Massospondylidae",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Massospondylidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112478",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112479",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Somphospondyli",
+      "basis": "stated with evidence",
+      "summary": "Titanosauria belongs to Somphospondyli.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112492",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macronaria",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Macronaria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112527",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated with evidence",
+      "summary": "Herrerasaurus belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112545",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysinae",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Coelophysinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112554",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated with evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112555",
+      "taxon": "Torvosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torvosauridae",
+      "basis": "stated with evidence",
+      "summary": "Torvosaurus belongs to Torvosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112563",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated with evidence",
+      "summary": "Allosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112573",
+      "taxon": "Eoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated with evidence",
+      "summary": "Eoraptor belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:112588",
       "taxon": "Nanotyrannus",
       "published_as": null,
@@ -22,6 +172,56 @@
       "related_taxon": "Tyrannosauroidea",
       "basis": "stated with evidence",
       "summary": "Nanotyrannus belongs to Tyrannosauroidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112589",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated with evidence",
+      "summary": "Albertosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112590",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauroidea",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosauridae belongs to Tyrannosauroidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112594",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112595",
+      "taxon": "Daspletosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated with evidence",
+      "summary": "Daspletosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112596",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated with evidence",
+      "summary": "Gorgosaurus belongs to Tyrannosauridae.",
       "source": "pbdb_opinion"
     }
   ]

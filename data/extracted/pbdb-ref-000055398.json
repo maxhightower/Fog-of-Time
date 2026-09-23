@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55398",
+    "doi": "10.1371/journal.pone.0032051",
+    "title": "First evidence of reproductive adaptation to \"island effect\" of a dwarf Cretaceous Romanian titanosaur, with embryonic integument in ovo",
+    "year": 2012,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0032051",
+    "authors": [
+      "G. Grellet-Tinner",
+      "V. Codrea",
+      "A. Folie, A. Higa, T. Smith"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:571312",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:571318",
+      "taxon": "Magyarosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nemegtosauridae",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus belongs to Nemegtosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

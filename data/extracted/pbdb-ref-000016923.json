@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16923",
+    "doi": null,
+    "title": "Notes on the age of the continental Triassic beds in North America with remarks on some fossil vertebrates",
+    "year": 1926,
+    "journal": "Proceedings of the United States National Museum",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16923",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:115025",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

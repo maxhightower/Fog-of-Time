@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9503",
+    "doi": null,
+    "title": "A new titanosaur (Dinosauria, Sauropoda) from the Upper Cretaceous of Mendoza Province, Argentina",
+    "year": 2003,
+    "journal": "Ameghiniana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9503",
+    "authors": [
+      "B. J. González-Riga"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:77064",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

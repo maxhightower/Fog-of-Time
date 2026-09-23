@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54843",
+    "doi": null,
+    "title": "Pathological amniote eggshell—fossil and modern",
+    "year": 2001,
+    "journal": "Mesozoic Vertebrate Life: New Research Inspired by the Paleontology of Philip J. Currie",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54843",
+    "authors": [
+      "K. F. Hirsch"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:565644",
+      "taxon": "Spheroolithus albertensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithus",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus albertensis belongs to Spheroolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

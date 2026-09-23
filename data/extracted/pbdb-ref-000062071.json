@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:62071",
+    "doi": null,
+    "title": "Spinosauridae and Baryonychidae",
+    "year": 1997,
+    "journal": "Encyclopedia of Dinosaurs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62071",
+    "authors": [
+      "A. C. Milner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:639644",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

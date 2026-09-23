@@ -1,0 +1,58 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9460",
+    "doi": "10.1017/s0022336000026706",
+    "title": "The phylogenetic position of the Tyrannosauridae: implications for theropod systematics",
+    "year": 1994,
+    "journal": "Journal of Paleontology",
+    "url": "https://doi.org/10.1017/s0022336000026706",
+    "authors": [
+      "T. R. Holtz"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:76952",
+      "taxon": "Torvosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tetanurae",
+      "basis": "stated with evidence",
+      "summary": "Torvosaurus belongs to Tetanurae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:76954",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated with evidence",
+      "summary": "Allosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:76955",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated with evidence",
+      "summary": "Acrocanthosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:76968",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Arctometatarsalia",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosauridae belongs to Arctometatarsalia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

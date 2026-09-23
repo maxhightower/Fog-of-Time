@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24262",
+    "doi": null,
+    "title": "The Triassic vertebrate remains of China",
+    "year": 1946,
+    "journal": "American Museum Novitates",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=24262",
+    "authors": [
+      "C.-C. Young"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:175455",
+      "taxon": "Sinosaurus triassicus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosaurus",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus triassicus belongs to Sinosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:175462",
+      "taxon": "Sinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

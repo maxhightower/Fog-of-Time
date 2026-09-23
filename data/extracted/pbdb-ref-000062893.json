@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:62893",
+    "doi": null,
+    "title": "Tyrannosaurus rex [Tyrannosaurus rex]",
+    "year": 1906,
+    "journal": "Prometheus",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62893",
+    "authors": [
+      "F. Krull"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:653896",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

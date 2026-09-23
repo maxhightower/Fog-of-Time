@@ -120,5 +120,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:980057",
+      "taxon": "Coahuilasaurus lipani",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coahuilasaurus",
+      "basis": "stated with evidence",
+      "summary": "Coahuilasaurus lipani belongs to Coahuilasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:980058",
+      "taxon": "Coahuilasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Kritosaurini",
+      "basis": "stated with evidence",
+      "summary": "Coahuilasaurus belongs to Kritosaurini.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

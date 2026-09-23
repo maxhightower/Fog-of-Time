@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:45996",
+    "doi": "10.31610/trudyzin/2012.316.2.139",
+    "title": "The forgotten dinosaurs of Zhetysu (Eastern Kazakhstan; Late Cretaceous)",
+    "year": 2012,
+    "journal": "Proceedings of the Zoological Institute, Russian Academy of Sciences",
+    "url": "https://doi.org/10.31610/trudyzin/2012.316.2.139",
+    "authors": [
+      "A. O. Averianov",
+      "H.-D. Sues",
+      "P. A. Tleuberdina"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:686818",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

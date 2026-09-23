@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16846",
+    "doi": null,
+    "title": "The phylogenetic position of Staurikosaurus pricei from the Triassic of Brazil",
+    "year": 2004,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16846",
+    "authors": [
+      "J. Bittencourt",
+      "A. W. A. Kellner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:113887",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

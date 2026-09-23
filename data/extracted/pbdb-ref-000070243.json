@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70243",
+    "doi": "10.1080/02724634.2018.1547310",
+    "title": "Description of juvenile specimens of Prosaurolophus maximus (Hadrosauridae: Saurolophinae) from the Upper Cretaceous Bearpaw Formation of southern Alberta, Canada, reveals ontogenetic changes in crest morphology",
+    "year": 2019,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2018.1547310",
+    "authors": [
+      "E. T. Drysdale",
+      "F. Therrien",
+      "D. K. Zelenitsky, D. B. Weishampel, D. C. Evans"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:745623",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:745624",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

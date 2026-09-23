@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17154",
+    "doi": null,
+    "title": "Paleontological notes. The generic name Omosaurus. A new generic name for Stegosaurus marshi",
+    "year": 1902,
+    "journal": "Science, new series",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17154",
+    "authors": [
+      "F. A. Lucas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:121139",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauria",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus belongs to Stegosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:121173",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

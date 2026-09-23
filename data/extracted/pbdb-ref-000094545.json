@@ -71,5 +71,37 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1014077",
+      "taxon": "Doolysaurus huhmini",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Doolysaurus",
+      "basis": "stated with evidence",
+      "summary": "Doolysaurus huhmini belongs to Doolysaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1014078",
+      "taxon": "Doolysaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thescelosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Doolysaurus belongs to Thescelosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1022648",
+      "taxon": "Fona",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thescelosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Fona belongs to Thescelosaurinae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

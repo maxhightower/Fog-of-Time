@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70498",
+    "doi": null,
+    "title": "An Upper Triassic vertebrate assemblage from central India",
+    "year": 1990,
+    "journal": "Bulletin of the Indian Geologists’ Association",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=70498",
+    "authors": [
+      "S. L. Jain"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:748712",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Podokesauridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Podokesauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

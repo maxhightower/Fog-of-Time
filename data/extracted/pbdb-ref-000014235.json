@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14235",
+    "doi": null,
+    "title": "New data on the skull of Pinacosaurus grangeri (Ankylosauria)",
+    "year": 1971,
+    "journal": "Palaeontologia Polonica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14235",
+    "authors": [
+      "T. Maryanska"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:99099",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Pinacosaurus belongs to Ankylosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

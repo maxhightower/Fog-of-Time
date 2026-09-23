@@ -1,0 +1,58 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:62983",
+    "doi": "10.1007/978-3-662-30470-9",
+    "title": "Die Fährten der vorzeitlichen Amphibien und Reptilien [The Tracks of Prehistoric Amphibians and Reptiles]",
+    "year": 1958,
+    "journal": "Druckhaus Meisenbach & Oeben KG",
+    "url": "https://doi.org/10.1007/978-3-662-30470-9",
+    "authors": [
+      "O. Kuhn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:654635",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:654646",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eubrontidae",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Eubrontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:654677",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anomoepodidae",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Anomoepodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:655436",
+      "taxon": "Tetrapodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Tetrapodosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

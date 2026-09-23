@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:51098",
+    "doi": "10.1080/02724634.2013.828734",
+    "title": "A confuciusornithiform (Aves, Pygostylia)-like tarsometatarsus from the Early Cretaceous of Siberia and a discussion of the evolution of avian hind limb musculature",
+    "year": 2014,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2013.828734",
+    "authors": [
+      "J. K. O'Connor",
+      "A. O. Averianov",
+      "N. V. Zelenkov"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:518989",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Confuciusornithiformes",
+      "basis": "stated without evidence",
+      "summary": "Confuciusornis belongs to Confuciusornithiformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:56869",
+    "doi": null,
+    "title": "Yixianosaurus longimanus (Theropoda: Dinosauria) and its bearing on the evolution of Maniraptora and ecology of the Jehol fauna",
+    "year": 2012,
+    "journal": "Vertebrata PalAsiatica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=56869",
+    "authors": [
+      "T. A. Dececchi",
+      "H. C. E. Larsson",
+      "D. W. E. Hone"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:593884",
+      "taxon": "Sinosauropteryx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Compsognathidae",
+      "basis": "stated without evidence",
+      "summary": "Sinosauropteryx belongs to Compsognathidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

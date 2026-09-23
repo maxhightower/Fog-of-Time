@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1015502",
+      "taxon": "Chromeornis funkyi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chromeornis",
+      "basis": "stated with evidence",
+      "summary": "Chromeornis funkyi belongs to Chromeornis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015503",
+      "taxon": "Chromeornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Longipterygidae",
+      "basis": "stated without evidence",
+      "summary": "Chromeornis belongs to Longipterygidae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

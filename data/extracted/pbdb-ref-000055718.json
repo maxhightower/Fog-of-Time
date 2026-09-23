@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55718",
+    "doi": "10.1038/srep11490",
+    "title": "A new oviraptorid dinosur (Dinosauria: Oviraptorosauria) from the Late Cretaceous of southern China and its paleobiogeographical implications",
+    "year": 2015,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/srep11490",
+    "authors": [
+      "J. Lü",
+      "H. Pu",
+      "Y. Kobayashi, L. Xu, H. Chang, Y. Shang, D. Liu, Y.-N. Lee, M. Kundrát, C. Shen"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:577019",
+      "taxon": "Anzu",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Caenagnathidae",
+      "basis": "stated with evidence",
+      "summary": "Anzu belongs to Caenagnathidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

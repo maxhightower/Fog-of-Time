@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:68165",
+    "doi": null,
+    "title": "Das Saurischerlager in den Keupermergeln bei Trossingen [The saurischian deposit in the Keupermergel near Trossingen]",
+    "year": 1933,
+    "journal": "Jahreshefte des Vereins für Vaterländische Naturkunde in Württemberg",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=68165",
+    "authors": [
+      "R. Seemann"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:714712",
+      "taxon": "Plateosaurus trossingensis",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Plateosaurus fraasianus",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus trossingensis is a subjective synonym of Plateosaurus fraasianus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

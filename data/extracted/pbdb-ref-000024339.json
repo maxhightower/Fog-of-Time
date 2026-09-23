@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24339",
+    "doi": "10.5962/bhl.title.17757",
+    "title": "New reptiles and stegocephalians from the Upper Triassic of western Texas",
+    "year": 1922,
+    "journal": "Carnegie Institute of Washington Publication",
+    "url": "https://doi.org/10.5962/bhl.title.17757",
+    "authors": [
+      "E. C. Case"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:176214",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coeluridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Coeluridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

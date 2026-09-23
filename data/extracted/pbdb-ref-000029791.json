@@ -1,0 +1,80 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29791",
+    "doi": "10.1098/rspb.2009.0249",
+    "title": "A longirostrine tyrannosauroid from the Early Cretaceous of China",
+    "year": 2009,
+    "journal": "Proceedings of the Royal Society B: Biological Sciences",
+    "url": "https://doi.org/10.1098/rspb.2009.0249",
+    "authors": [
+      "D. Li",
+      "M. A. Norell",
+      "K.-Q. Gao, N. D. Smith, P. J. Makovicky"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:265306",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:265307",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:265308",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:265309",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauroidea",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosauridae belongs to Tyrannosauroidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:265310",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:265314",
+      "taxon": "Daspletosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Daspletosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

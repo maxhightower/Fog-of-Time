@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24535",
+    "doi": null,
+    "title": "A preliminary report on two new vertebrate track sites including dinosaurs from the Early Cretaceous Hekou Group, Gansu province, China",
+    "year": 2006,
+    "journal": "Journal of the Paleontological Society of Korea",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=24535",
+    "authors": [
+      "D. Li",
+      "Y. Azuma",
+      "M. Fujita, Y.-N. Lee, Y. Arakawa"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:180225",
+      "taxon": "Velociraptorichnus",
+      "published_as": "Velociraptorichunus",
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Velociraptorichnus (as Velociraptorichunus) belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

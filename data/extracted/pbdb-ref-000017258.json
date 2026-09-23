@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17258",
+    "doi": null,
+    "title": "[Dinosaurs from the Jurassic of Sichuan]",
+    "year": 1983,
+    "journal": "Palaeontologica Sinica, New Series C, Whole Number",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17258",
+    "authors": [
+      "Z. Dong",
+      "S. Zhou",
+      "H. Zhang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:132405",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Euhelopodinae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Euhelopodinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

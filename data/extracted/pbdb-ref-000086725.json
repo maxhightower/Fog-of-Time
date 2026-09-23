@@ -515,6 +515,26 @@
   ],
   "opinions": [
     {
+      "id": "pbdb-opinion:940386",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:940387",
+      "taxon": "Talenkauen",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elasmaria",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen belongs to Elasmaria.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:940389",
       "taxon": "Clasmodosaurus spatula",
       "published_as": null,
@@ -532,6 +552,56 @@
       "related_taxon": "Titanosauria",
       "basis": "stated without evidence",
       "summary": "Clasmodosaurus belongs to Titanosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:940391",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:940393",
+      "taxon": "Dreadnoughtus schrani",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dreadnoughtus",
+      "basis": "stated without evidence",
+      "summary": "Dreadnoughtus schrani belongs to Dreadnoughtus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:940394",
+      "taxon": "Dreadnoughtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Colossosauria",
+      "basis": "stated without evidence",
+      "summary": "Dreadnoughtus belongs to Colossosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:940401",
+      "taxon": "Orkoraptor burkei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orkoraptor",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor burkei belongs to Orkoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:940402",
+      "taxon": "Orkoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptoridae",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor belongs to Megaraptoridae.",
       "source": "pbdb_opinion"
     }
   ]

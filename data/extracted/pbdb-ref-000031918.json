@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31918",
+    "doi": null,
+    "title": "The ceratopsian dinosaur Psittacosaurus in the Early Cretaceous of southeast Asia: a review of old and recent finds",
+    "year": 2007,
+    "journal": "Proceedings of the International Conference on Geology of Thailand: Towards Sustainable Development and Sufficiency Economy (GEOTHAI'07)",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=31918",
+    "authors": [
+      "E. Buffetaut",
+      "V. Suteethorn",
+      "S. Khansubha"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:296584",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:296585",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nemegtosauridae",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus belongs to Nemegtosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

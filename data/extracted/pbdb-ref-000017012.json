@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17012",
+    "doi": null,
+    "title": "Towards a systematic revision of the Tyrannosauridae from the Judith River Group (late Campanian) of Alberta",
+    "year": 1995,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17012",
+    "authors": [
+      "T. D. Carr"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:120051",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:120053",
+      "taxon": "Daspletosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Daspletosaurus is a subjective synonym of Gorgosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:120054",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

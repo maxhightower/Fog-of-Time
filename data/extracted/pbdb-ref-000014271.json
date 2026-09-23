@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14271",
+    "doi": null,
+    "title": "Diagnosis y flogenia de los Dinosauria",
+    "year": 1993,
+    "journal": "Ameghiniana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14271",
+    "authors": [
+      "F. E. Novas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:99223",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99224",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

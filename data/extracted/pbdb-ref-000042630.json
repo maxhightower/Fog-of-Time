@@ -1,0 +1,69 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:42630",
+    "doi": "10.1206/3700.2",
+    "title": "The Illusory Evidence for Asian Brachiosauridae: New Material of Erketu ellisoni and a Phylogenetic Reappraisal of Basal Titanosauriformes",
+    "year": 2010,
+    "journal": "American Museum Novitates",
+    "url": "https://doi.org/10.1206/3700.2",
+    "authors": [
+      "D. T. Ksepka",
+      "M. A. Norell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:427226",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eusauropoda",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Eusauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:427235",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocidae",
+      "basis": "stated without evidence",
+      "summary": "Suuwassea belongs to Diplodocidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:427239",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocoidea",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Diplodocoidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:427242",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:427259",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lithostrotia",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Lithostrotia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16848",
+    "doi": null,
+    "title": "Phylogeny of the Dromaeosauridae",
+    "year": 2004,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16848",
+    "authors": [
+      "D. A. Burnham",
+      "P. Senter",
+      "R. Barsbold, B. B. Britt"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:113893",
+      "taxon": "Sinovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinonychosauria",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator belongs to Deinonychosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:113903",
+      "taxon": "Utahraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Utahraptor belongs to Dromaeosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:113904",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptoria",
+      "basis": "stated without evidence",
+      "summary": "Microraptor belongs to Microraptoria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:113907",
+      "taxon": "Sinornithosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptoria",
+      "basis": "stated without evidence",
+      "summary": "Sinornithosaurus belongs to Microraptoria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

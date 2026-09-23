@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:38553",
+    "doi": null,
+    "title": "El primer diente de ornitópodo del Jurásico Superior de España (Asturias) [The first ornithopod tooth from the Late Jurassic of Spain (Asturias)]",
+    "year": 2010,
+    "journal": "Geogaceta",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=38553",
+    "authors": [
+      "J. I. Ruiz-Omeñaca",
+      "L. Piñuela",
+      "J. C. García-Ramos"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:368183",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:368185",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontia",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Iguanodontia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

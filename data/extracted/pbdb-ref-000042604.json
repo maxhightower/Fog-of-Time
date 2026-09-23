@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:42604",
+    "doi": null,
+    "title": "Megalosauripus, Megalosauropus and the concept of megalosaur footprints",
+    "year": 1996,
+    "journal": "The Continental Jurassic. Museum of Northern Arizona Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=42604",
+    "authors": [
+      "M. G. Lockley",
+      "C. A. Meyer",
+      "V. F. dos Santos"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:427166",
+      "taxon": "Megalosauripus",
+      "published_as": null,
+      "status": "nomen_nudum",
+      "related_taxon": "Theropoda",
+      "basis": "stated with evidence",
+      "summary": "Megalosauripus is a nomen nudum (filed under Theropoda).",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:51113",
+    "doi": null,
+    "title": "A probable stegosaur track from the Morrison Formation of Utah",
+    "year": 1998,
+    "journal": "The Upper Jurassic Morrison Formation: An Interdisciplinary Study. Modern Geology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=51113",
+    "authors": [
+      "M. G. Lockley",
+      "A. P. Hunt"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:519150",
+      "taxon": "Stegopodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauria",
+      "basis": "stated with evidence",
+      "summary": "Stegopodus belongs to Stegosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

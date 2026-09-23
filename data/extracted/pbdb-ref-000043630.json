@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:43630",
+    "doi": null,
+    "title": "On Omosaurus phillipsi",
+    "year": 1893,
+    "journal": "Annual Report of the Council of the Yorkshire Philosophical Society",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=43630",
+    "authors": [
+      "H. G. Seeley"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:438132",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

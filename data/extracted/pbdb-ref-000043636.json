@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:43636",
+    "doi": "10.5710/amgh.v48i4(341)",
+    "title": "New ichnological record from the late Campanian Toro Toro Formation at Toro Toro, Potosí (Bolivia): first probably dromaeosaurid tracks from South America",
+    "year": 2011,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/amgh.v48i4(341)",
+    "authors": [
+      "S. Apesteguía",
+      "S. de Valais",
+      "G. R. Cordero, O. M. Ramírez"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:438171",
+      "taxon": "Velociraptorichnus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeopodidae",
+      "basis": "stated without evidence",
+      "summary": "Velociraptorichnus belongs to Dromaeopodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:438179",
+      "taxon": "Utahraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Utahraptor belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

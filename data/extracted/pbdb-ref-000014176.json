@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14176",
+    "doi": null,
+    "title": "The Triassic flora and fauna of the Connecticut Valley",
+    "year": 1917,
+    "journal": "United States Geological Survey Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14176",
+    "authors": [
+      "R. S. Lull"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:98477",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:98478",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:98481",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orthopoda",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Orthopoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

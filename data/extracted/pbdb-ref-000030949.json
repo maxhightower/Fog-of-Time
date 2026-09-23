@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30949",
+    "doi": "10.1139/E09-45",
+    "title": "A new ankylosaur (Dinosauria: Ankylosauria) from the Lower Cretaceous Cloverly Formation of central Montana",
+    "year": 2009,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/E09-45",
+    "authors": [
+      "W. L. Parsons",
+      "K. M. Parsons"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:285272",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauridae",
+      "basis": "stated with evidence",
+      "summary": "Pinacosaurus belongs to Ankylosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:285280",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": "Tenontosaurus tillettorum",
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti (as Tenontosaurus tillettorum) belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

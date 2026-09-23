@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7811",
+    "doi": "10.2475/ajs.s3-14.84.514",
+    "title": "Notice of new dinosaurian reptiles from the Jurassic formation",
+    "year": 1877,
+    "journal": "American Journal of Science and Arts",
+    "url": "https://doi.org/10.2475/ajs.s3-14.84.514",
+    "authors": [
+      "O. C. Marsh"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:74294",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dinosauria",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Dinosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

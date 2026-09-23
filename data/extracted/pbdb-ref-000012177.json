@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12177",
+    "doi": "10.1080/02724634.1985.10011850",
+    "title": "The southern African Liassic prosauropod Massospondylus discovered in North America",
+    "year": 1985,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.1985.10011850",
+    "authors": [
+      "J. Attridge",
+      "A. W. Crompton",
+      "F. A. Jenkins, Jr."
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:109209",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

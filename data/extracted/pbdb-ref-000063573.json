@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63573",
+    "doi": null,
+    "title": "I dinosauri dell’Argentina [",
+    "year": 1984,
+    "journal": "Sulle Orme dei Dinosauri",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63573",
+    "authors": [
+      "J. F. Bonaparte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:663387",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:663390",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:663416",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

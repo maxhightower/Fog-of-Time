@@ -1,0 +1,58 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:58793",
+    "doi": null,
+    "title": "Herrerasauridae",
+    "year": 1997,
+    "journal": "Encyclopedia of Dinosaurs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=58793",
+    "authors": [
+      "F. E. Novas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:613226",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:613227",
+      "taxon": "Eoraptor lunensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eoraptor",
+      "basis": "stated without evidence",
+      "summary": "Eoraptor lunensis belongs to Eoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:613228",
+      "taxon": "Eoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Eoraptor belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:613230",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

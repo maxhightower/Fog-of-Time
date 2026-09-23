@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:64380",
+    "doi": null,
+    "title": "Dinosaur track discovery at Comanche Peak Steam Electric Station, Somervell County, Texas",
+    "year": 1975,
+    "journal": "Archeology Research Program, Southern Methodist University",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=64380",
+    "authors": [
+      "S. A. Skinner",
+      "C. Blome"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:670374",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

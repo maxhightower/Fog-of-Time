@@ -1,0 +1,78 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:52673",
+    "doi": null,
+    "title": "Pre-Tertiary saurians of Asia",
+    "year": 1958,
+    "journal": "Vertebrata PalAsiatica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52673",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:538847",
+      "taxon": "Sinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachypodosauria",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus belongs to Pachypodosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:538851",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachypodosauria",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus belongs to Pachypodosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:538853",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachypodosauria",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Pachypodosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:538862",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:538868",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:538891",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thyreophora",
+      "basis": "stated without evidence",
+      "summary": "Pinacosaurus belongs to Thyreophora.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

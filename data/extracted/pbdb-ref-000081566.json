@@ -1,0 +1,90 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:81566",
+    "doi": "10.1080/02724634.2021.2047991",
+    "title": "A juvenile Diamantinasaurus matildae (Dinosauria: Titanosauria) from the Upper Cretaceous Winton Formation of Queensland, Australia, with implications for sauropod ontogeny",
+    "year": 2021,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2021.2047991",
+    "authors": [
+      "S. L. Rigby",
+      "S. F. Poropat",
+      "P. D. Mannion, A. H. Pentland, T. Sloan, S. J. Rumbold, C. B. Webster, D. A. Elliott"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:881228",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:888784",
+      "taxon": "Wintonotitan wattsi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Wintonotitan",
+      "basis": "stated without evidence",
+      "summary": "Wintonotitan wattsi belongs to Wintonotitan.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:888786",
+      "taxon": "Savannasaurus elliottorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Savannasaurus",
+      "basis": "stated without evidence",
+      "summary": "Savannasaurus elliottorum belongs to Savannasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:888797",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:888801",
+      "taxon": "Diamantinasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasauria",
+      "basis": "stated without evidence",
+      "summary": "Diamantinasaurus belongs to Diamantinasauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:888802",
+      "taxon": "Savannasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasauria",
+      "basis": "stated without evidence",
+      "summary": "Savannasaurus belongs to Diamantinasauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:888805",
+      "taxon": "Wintonotitan",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasauria",
+      "basis": "stated without evidence",
+      "summary": "Wintonotitan belongs to Diamantinasauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

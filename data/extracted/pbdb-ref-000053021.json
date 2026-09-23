@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53021",
+    "doi": null,
+    "title": "Omosaurus lennieri, un nouveau dinosaurien du Cap de la Hève [Omosaurus lennieri, a new dinosaur from Cap de la Hève]",
+    "year": 1911,
+    "journal": "Bulletin de la Société Géologique de Normandie",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53021",
+    "authors": [
+      "B. F. Nopcsa"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:543438",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -23,6 +23,16 @@
       "basis": "stated without evidence",
       "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:672833",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Claosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) belongs to Claosaurus.",
+      "source": "pbdb_opinion"
     }
   ]
 }

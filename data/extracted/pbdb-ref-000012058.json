@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12058",
+    "doi": "10.1126/science.41.1061.658",
+    "title": "On the genus Trachodon",
+    "year": 1915,
+    "journal": "Science",
+    "url": "https://doi.org/10.1126/science.41.1061.658",
+    "authors": [
+      "C. W. Gilmore"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:88679",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "subjective_synonym_of",
+      "related_taxon": "Thespesius occidentalis",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) is a subjective synonym of Thespesius occidentalis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

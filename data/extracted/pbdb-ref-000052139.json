@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:52139",
+    "doi": null,
+    "title": "Die deutschen Ausgrabungen von Dinosauriern im letzten Jahrfünft [The German dinosaur excavations in the last five years]",
+    "year": 1914,
+    "journal": "Naturwissenschaftliche Wochenschrift, Neue Folge",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52139",
+    "authors": [
+      "E. Hennig"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:531737",
+      "taxon": "Plateosaurus trossingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus trossingensis belongs to Plateosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:59350",
+    "doi": "10.56577/ffc-43.217",
+    "title": "Stratigraphy, paleontology and age of the Fruitland and Kirtland formations (Upper Cretaceous), San Juan Basin, New Mexico",
+    "year": 1992,
+    "journal": "New Mexico Geological Society, 43rd Annual Fall Field Conference, San Juan Basin IV, Guidebook",
+    "url": "https://doi.org/10.56577/ffc-43.217",
+    "authors": [
+      "A. P. Hunt",
+      "S. G. Lucas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:619301",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:619303",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:619311",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

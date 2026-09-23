@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:43059",
+    "doi": "10.1127/0077-7749/2011/0204",
+    "title": "An unusually large theropod dinosaur tooth from the Kirkwood Formation (Lower Cretaceous) of South Africa",
+    "year": 2012,
+    "journal": "Neues Jahrbuch für Geologie und Paläontologie Abhandlungen",
+    "url": "https://doi.org/10.1127/0077-7749/2011/0204",
+    "authors": [
+      "P. M. Galton",
+      "R. E. Molnar"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:432459",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

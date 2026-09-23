@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:15139",
+    "doi": "10.4067/s0716-02082003000200011",
+    "title": "Rinconsaurus caudamirus gen. et sp. nov., a new titanosaurid (Dinosauria, Sauropoda) from the Late Cretaceous of Patagonia, Argentina",
+    "year": 2003,
+    "journal": "Revista Geológica de Chile",
+    "url": "https://doi.org/10.4067/s0716-02082003000200011",
+    "authors": [
+      "J. O. Calvo",
+      "B. J. González Riga"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:104261",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:80604",
+    "doi": "10.1016/j.cretres.2019.02.012",
+    "title": "Patterns of soft tissue and cellular preservation in relation to fossil bone tissue structure and overburden depth at the Standing Rock Hadrosaur Site, Maastrichtian Hell Creek Formation, South Dakota, USA",
+    "year": 2019,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2019.02.012",
+    "authors": [
+      "P. V. Ullmann",
+      "S. H. Pandhya",
+      "R. Nellermoe"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:875899",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

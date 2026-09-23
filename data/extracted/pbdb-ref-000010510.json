@@ -35,6 +35,16 @@
       "source": "pbdb_opinion"
     },
     {
+      "id": "pbdb-opinion:79484",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:79485",
       "taxon": "Gresslyosaurus",
       "published_as": null,
@@ -42,6 +52,46 @@
       "related_taxon": "Plateosauridae",
       "basis": "stated without evidence",
       "summary": "Gresslyosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:79492",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thecodontosauridae",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Thecodontosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:79495",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coeluridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Coeluridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:79506",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Haplocanthosaurus belongs to Cetiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:79507",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Cetiosauridae.",
       "source": "pbdb_opinion"
     },
     {

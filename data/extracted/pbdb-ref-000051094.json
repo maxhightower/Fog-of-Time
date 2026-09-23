@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:51094",
+    "doi": "10.1080/02724634.2013.812101",
+    "title": "A new robust enantiornithine bird from the Lower Cretaceous of China with scansorial adaptations",
+    "year": 2014,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2013.812101",
+    "authors": [
+      "M. Wang",
+      "J. K. O'Connor",
+      "Z. Zhou"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:518793",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Confuciusornithidae",
+      "basis": "stated without evidence",
+      "summary": "Confuciusornis belongs to Confuciusornithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

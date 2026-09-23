@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53484",
+    "doi": "10.1002/spp2.1004",
+    "title": "Reassessment of the non-titanosaurian somphospondylan Wintonotitan wattsi (Dinosauria: Sauropoda: Titanosauriformes) from the mid-Cretaceous Winton Formation, Queensland, Australia",
+    "year": 2015,
+    "journal": "Papers in Palaeontology",
+    "url": "https://doi.org/10.1002/spp2.1004",
+    "authors": [
+      "S. F. Poropat",
+      "P. D. Mannion",
+      "P. Upchurch, S. A. Hocknull, B. P. Kear, D. A. Elliott"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:549368",
+      "taxon": "Wintonotitan",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Somphospondyli",
+      "basis": "stated with evidence",
+      "summary": "Wintonotitan belongs to Somphospondyli.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:549369",
+      "taxon": "Wintonotitan wattsi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Wintonotitan",
+      "basis": "stated with evidence",
+      "summary": "Wintonotitan wattsi belongs to Wintonotitan.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

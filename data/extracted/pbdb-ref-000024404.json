@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24404",
+    "doi": null,
+    "title": "First report of Megapnosaurus (Theropoda: Coelophysoidea) from China",
+    "year": 2004,
+    "journal": "PaleoBios",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=24404",
+    "authors": [
+      "R. B. Irmis"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:177402",
+      "taxon": "Sinosaurus",
+      "published_as": null,
+      "status": "nomen_dubium",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus is a nomen dubium (filed under Theropoda).",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:177403",
+      "taxon": "Sinosaurus triassicus",
+      "published_as": null,
+      "status": "nomen_dubium",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus triassicus is a nomen dubium (filed under Theropoda).",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

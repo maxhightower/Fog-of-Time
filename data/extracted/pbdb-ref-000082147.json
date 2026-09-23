@@ -70,5 +70,117 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:894255",
+      "taxon": "Bagualosaurus agudoensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Bagualosaurus",
+      "basis": "stated without evidence",
+      "summary": "Bagualosaurus agudoensis belongs to Bagualosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:894257",
+      "taxon": "Macrocollum itaquii",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macrocollum",
+      "basis": "stated without evidence",
+      "summary": "Macrocollum itaquii belongs to Macrocollum.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:894258",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:894259",
+      "taxon": "Gnathovorax cabreirai",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gnathovorax",
+      "basis": "stated without evidence",
+      "summary": "Gnathovorax cabreirai belongs to Gnathovorax.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:894269",
+      "taxon": "Eoraptor lunensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eoraptor",
+      "basis": "stated without evidence",
+      "summary": "Eoraptor lunensis belongs to Eoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:894272",
+      "taxon": "Panphagia protos",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Panphagia",
+      "basis": "stated without evidence",
+      "summary": "Panphagia protos belongs to Panphagia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:894273",
+      "taxon": "Chromogisaurus novasi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chromogisaurus",
+      "basis": "stated without evidence",
+      "summary": "Chromogisaurus novasi belongs to Chromogisaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:894276",
+      "taxon": "Erythrovenator jacuiensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Erythrovenator",
+      "basis": "stated without evidence",
+      "summary": "Erythrovenator jacuiensis belongs to Erythrovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:894292",
+      "taxon": "Chromogisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saturnaliidae",
+      "basis": "stated without evidence",
+      "summary": "Chromogisaurus belongs to Saturnaliidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:894295",
+      "taxon": "Panphagia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saturnaliidae",
+      "basis": "stated without evidence",
+      "summary": "Panphagia belongs to Saturnaliidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:894296",
+      "taxon": "Pampadromaeus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saturnaliidae",
+      "basis": "stated without evidence",
+      "summary": "Pampadromaeus belongs to Saturnaliidae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

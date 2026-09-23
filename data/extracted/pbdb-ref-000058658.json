@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:58658",
+    "doi": null,
+    "title": "Vision characteristics of Coelophysis bauri based on sclerotic ring, orbit, and skull morphology",
+    "year": 2004,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=58658",
+    "authors": [
+      "L. F. Rinehart",
+      "S. G. Lucas",
+      "A. B. Heckert, A. P. Hunt"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:612118",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

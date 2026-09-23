@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12549",
+    "doi": "10.1017/cbo9780511608377.015",
+    "title": "Morphometric observations on hadrosaurid ornithopods",
+    "year": 1990,
+    "journal": "In K. Carpenter and P. J. Currie (eds.), Dinosaur Systematics: Perspectives and Approaches, Cambridge University Press, Cambridge",
+    "url": "https://doi.org/10.1017/cbo9780511608377.015",
+    "authors": [
+      "R. Chapman",
+      "M. K. Brett-Surman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:95162",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:95173",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

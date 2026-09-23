@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18404",
+    "doi": null,
+    "title": "Notes on Indian fossil vertebrates",
+    "year": 1888,
+    "journal": "Records of the Geological Survey of India",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18404",
+    "authors": [
+      "R. Lydekker"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:142295",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauridae",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Anchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

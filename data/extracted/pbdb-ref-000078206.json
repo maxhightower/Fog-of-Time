@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78206",
+    "doi": null,
+    "title": "Rediscovery of a “forgotten land”: the last three decades of research on the dinosaur-bearing deposits from the Haţeg Basin",
+    "year": 2005,
+    "journal": "Acta Palaeontologica Romaniae",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=78206",
+    "authors": [
+      "D. Grigorescu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:850556",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

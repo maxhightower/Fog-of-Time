@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70922",
+    "doi": "10.1038/s41598-019-41325-8",
+    "title": "The first definite lambeosaurine bone From the Liscomb Bonebed of the Upper Cretaceous Prince Creek Formation, Alaska, United States",
+    "year": 2019,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-019-41325-8",
+    "authors": [
+      "R. Takasaki",
+      "A. R. Fiorillo",
+      "Y. Kobayashi, R. S. Tykoski, P. J. McCarthy"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:752272",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:752275",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:752309",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:752310",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

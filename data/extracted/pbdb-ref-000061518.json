@@ -1,0 +1,69 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:61518",
+    "doi": null,
+    "title": "Annotated localities of ornithopod dinosaurs: implications to Mesozoic paleobiogeography",
+    "year": 1983,
+    "journal": "The Mosasaur",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=61518",
+    "authors": [
+      "D. B. Weishampel",
+      "J. B. Weishampel"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:635511",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:635514",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:635538",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:635551",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hypsilophodontidae",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Hypsilophodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:635622",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

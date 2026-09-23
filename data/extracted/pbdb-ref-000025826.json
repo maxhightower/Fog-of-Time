@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25826",
+    "doi": null,
+    "title": "Phylogeny of Allosauroidea (Dinosauria: Theropoda): new analysis, comparisons, and sources of disagreement",
+    "year": 2007,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=25826",
+    "authors": [
+      "S. Brusatte",
+      "P. C. Sereno"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:197307",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carcharodontosauridae",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Carcharodontosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:197308",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Allosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

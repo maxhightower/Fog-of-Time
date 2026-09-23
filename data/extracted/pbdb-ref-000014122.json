@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14122",
+    "doi": null,
+    "title": "Late Triassic (Carnian and Norian) Tetrapods from the Southwestern United States",
+    "year": 1995,
+    "journal": "New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14122",
+    "authors": [
+      "R. A. Long",
+      "P. A. Murry"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:97956",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:97957",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratosauria",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Ceratosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

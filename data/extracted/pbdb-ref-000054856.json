@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54856",
+    "doi": null,
+    "title": "New evidence for predation by a large tyrannosaurid",
+    "year": 2013,
+    "journal": "Tyrannosaurid Paleobiology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54856",
+    "authors": [
+      "N. L. Murphy",
+      "K. Carpenter",
+      "D. Trexler"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:565983",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

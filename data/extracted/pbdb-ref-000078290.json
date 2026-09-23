@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78290",
+    "doi": "10.1371/journal.pone.0144695",
+    "title": "Morphofunctional analysis of the quadrate of Spinosauridae (Dinosauria: Theropoda) and the presence of Spinosaurus and a second spinosaurine taxon in the Cenomanian of North Africa",
+    "year": 2016,
+    "journal": "PLoS One",
+    "url": "https://doi.org/10.1371/journal.pone.0144695",
+    "authors": [
+      "C. Hendrickx",
+      "O. Mateus",
+      "E. Buffetaut"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:851034",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

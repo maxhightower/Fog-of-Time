@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16926",
+    "doi": null,
+    "title": "Beiträge zur geschichte der Archosaurier [Contribution to the history of the archosaurs]",
+    "year": 1914,
+    "journal": "Geologie und Paläontologie Abhandlungen",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16926",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:115049",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Podokesauridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Podokesauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

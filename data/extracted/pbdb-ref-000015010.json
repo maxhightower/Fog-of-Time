@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:15010",
+    "doi": null,
+    "title": "Oviraptorosauria",
+    "year": 1997,
+    "journal": "The Encyclopedia of Dinosaurs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=15010",
+    "authors": [
+      "R. Barsbold"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:103650",
+      "taxon": "Conchoraptor gracilis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Conchoraptor",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor gracilis belongs to Conchoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:103657",
+      "taxon": "Conchoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Oviraptoridae",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor belongs to Oviraptoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

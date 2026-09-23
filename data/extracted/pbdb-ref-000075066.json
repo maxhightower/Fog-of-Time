@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75066",
+    "doi": "10.1080/02724634.2020.1780600",
+    "title": "The Late Jurassic sauropod dinosaur ‘Morosaurus’ agilis Marsh, 1889 reexamined and reinterpreted as a dicraeosaurid",
+    "year": 2020,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2020.1780600",
+    "authors": [
+      "J. A. Whitlock",
+      "J. A. Wilson Mantilla"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:818275",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dicraeosauridae",
+      "basis": "stated with evidence",
+      "summary": "Suuwassea belongs to Dicraeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:6983",
+    "doi": "10.1038/21411",
+    "title": "A diapsid skull in a new species of the primitive bird <i>Confuciusornis</i>",
+    "year": 1999,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/21411",
+    "authors": [
+      "L. Hou",
+      "L. D. Martin",
+      "Z. Zhou, A. Feduccia, F. Zhang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:99188",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Confuciusornithidae",
+      "basis": "stated without evidence",
+      "summary": "Confuciusornis belongs to Confuciusornithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

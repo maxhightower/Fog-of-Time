@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:66107",
+    "doi": "10.1080/10420940109380190",
+    "title": "Enigmatic dinosaur trackways from the Lower Jurassic (Pliensbachian) of the Sarca Valley, northeast Italy",
+    "year": 2001,
+    "journal": "Ichnos",
+    "url": "https://doi.org/10.1080/10420940109380190",
+    "authors": [
+      "M. Avanzini",
+      "G. Leonardi",
+      "R. Tomasoni, M. Campolongo"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:689286",
+      "taxon": "Tetrapodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauria",
+      "basis": "stated without evidence",
+      "summary": "Tetrapodosaurus belongs to Ankylosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:689290",
+      "taxon": "Deltapodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thyreophora",
+      "basis": "stated without evidence",
+      "summary": "Deltapodus belongs to Thyreophora.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

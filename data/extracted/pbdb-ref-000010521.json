@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:10521",
+    "doi": "10.1126/science.258.5085.1137",
+    "title": "The complete skull and skeleton of an early dinosaur",
+    "year": 1992,
+    "journal": "Science",
+    "url": "https://doi.org/10.1126/science.258.5085.1137",
+    "authors": [
+      "P. C. Sereno",
+      "F. E. Novas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:79605",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9908",
+    "doi": null,
+    "title": "Pachycephalosauria, a new suborder of ornithischian dinosaurs",
+    "year": 1974,
+    "journal": "Palaeontologia Polonica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9908",
+    "authors": [
+      "T. Maryańska",
+      "H. Osmólska"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:181268",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauridae",
+      "basis": "stated with evidence",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

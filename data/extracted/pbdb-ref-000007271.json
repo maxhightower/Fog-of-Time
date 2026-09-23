@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7271",
+    "doi": null,
+    "title": "The Cretaceous Saurischia and Ornithischia of the Central Provinces of India",
+    "year": 1933,
+    "journal": "Palaeontologica Indica (New Series), Memoirs of the Geological Survey of India",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=7271",
+    "authors": [
+      "F. v. Huene",
+      "C. A. Matley"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:626718",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

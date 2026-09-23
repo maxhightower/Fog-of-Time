@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:87816",
+    "doi": "10.2992/007.086.0302",
+    "title": "Megaraptorid (Theropoda: Tetanurae) partial skeletons from the Upper Cretaceous Bajo Barreal Formation of central Patagonia, Argentina: implications for the evolution of large body size in Gondwanan megaraptorans",
+    "year": 2020,
+    "journal": "Annals of Carnegie Museum",
+    "url": "https://doi.org/10.2992/007.086.0302",
+    "authors": [
+      "M. C. Lamanna",
+      "G. A. Casal",
+      "R. D. Martínez, L. M. Ibiricu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:969195",
+      "taxon": "Orkoraptor burkei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orkoraptor",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor burkei belongs to Orkoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:969197",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated without evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:969596",
+      "taxon": "Orkoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptoridae",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor belongs to Megaraptoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:969598",
+      "taxon": "Australovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptoridae",
+      "basis": "stated without evidence",
+      "summary": "Australovenator belongs to Megaraptoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -86,5 +86,47 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:429710",
+      "taxon": "Martharaptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauroidea",
+      "basis": "stated with evidence",
+      "summary": "Martharaptor belongs to Therizinosauroidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:429711",
+      "taxon": "Martharaptor greenriverensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Martharaptor",
+      "basis": "stated with evidence",
+      "summary": "Martharaptor greenriverensis belongs to Martharaptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:528126",
+      "taxon": "Utahraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Utahraptor belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:528136",
+      "taxon": "Segnosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Segnosaurus belongs to Therizinosauridae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

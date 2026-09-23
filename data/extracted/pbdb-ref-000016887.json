@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16887",
+    "doi": "10.1017/s0016756800153166",
+    "title": "Saurischia and Ornithischia",
+    "year": 1914,
+    "journal": "Geological Magazine",
+    "url": "https://doi.org/10.1017/s0016756800153166",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:114469",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Podokesauridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Podokesauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

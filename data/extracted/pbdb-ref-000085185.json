@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:85185",
+    "doi": "10.1016/j.geobios.2007.11.005",
+    "title": "Un nuevo basicráneo de titanosaurio de la Formación Allen (Campaniano–Maastrichtiano), Provincia de Río Negro, Patagonia, Argentina",
+    "year": 2008,
+    "journal": "Geobios",
+    "url": "https://doi.org/10.1016/j.geobios.2007.11.005",
+    "authors": [
+      "R. A. García",
+      "A. Paulina-Carabajal",
+      "L. Salgado"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:928296",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated with evidence",
+      "summary": "Titanosauria belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

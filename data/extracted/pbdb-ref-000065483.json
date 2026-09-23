@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65483",
+    "doi": null,
+    "title": "Biostratigraphic significance of tetrapod footprints from the Triassic-Jurassic Wingate Sandstone on the Colorado Plateau",
+    "year": 2006,
+    "journal": "The Triassic-Jurassic Terrestrial Transition. New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=65483",
+    "authors": [
+      "S. G. Lucas",
+      "M. G. Lockley",
+      "A. P. Hunt, L. H. Tanner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:682917",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:682918",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

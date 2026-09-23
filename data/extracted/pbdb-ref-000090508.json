@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:979981",
+      "taxon": "Lishulong",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodiformes",
+      "basis": "stated with evidence",
+      "summary": "Lishulong belongs to Sauropodiformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:979983",
+      "taxon": "Lishulong wangi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lishulong",
+      "basis": "stated with evidence",
+      "summary": "Lishulong wangi belongs to Lishulong.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

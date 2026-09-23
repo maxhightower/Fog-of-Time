@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24360",
+    "doi": null,
+    "title": "Neue Saurier-Zähne aus der Kreide von Uruguay [New saurian teeth from the Cretaceous of Uruguay]",
+    "year": 1934,
+    "journal": "Centralblatt für Mineralogie, Geologie und Paläontologie, Abteilung B: Geologie und Paläontologie",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=24360",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:176635",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Camptosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

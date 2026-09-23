@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75611",
+    "doi": "10.18435/vamp29370",
+    "title": "New mid-cervical vertebral morphotype of Spinosauridae from the Kem Kem Group of Morocco",
+    "year": 2021,
+    "journal": "Vertebrate Anatomy Morphology Palaeontology",
+    "url": "https://doi.org/10.18435/vamp29370",
+    "authors": [
+      "B. D. McFeeters"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:823663",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

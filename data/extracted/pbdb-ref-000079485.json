@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:79485",
+    "doi": "10.1016/j.cretres.2020.104521",
+    "title": "New material reveals the pelvic morphology of Caenagnathidae (Theropoda, Oviraptorosauria)",
+    "year": 2020,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2020.104521",
+    "authors": [
+      "M. M. Rhodes",
+      "G. F. Funston",
+      "P. J. Currie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:867253",
+      "taxon": "Anzu wyliei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anzu",
+      "basis": "stated without evidence",
+      "summary": "Anzu wyliei belongs to Anzu.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

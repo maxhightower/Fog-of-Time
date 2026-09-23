@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:62817",
+    "doi": "10.1371/journal.pone.0180289",
+    "title": "Megalosauripus transjuranicus ichnosp. nov. A new Late Jurassic theropod ichnotaxon from NW Switzerland and implications for tridactyl dinosaur ichnology and ichnotaxomy",
+    "year": 2017,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0180289",
+    "authors": [
+      "N. L. Razzolini",
+      "M. Belvedere",
+      "D. Marty, G. Paratte, C. Lovis, M. Cattin, C. A. Meyer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:652761",
+      "taxon": "Megalosauripus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eubrontidae",
+      "basis": "stated with evidence",
+      "summary": "Megalosauripus belongs to Eubrontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

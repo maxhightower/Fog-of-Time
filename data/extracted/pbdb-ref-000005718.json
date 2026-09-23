@@ -1,0 +1,58 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:5718",
+    "doi": null,
+    "title": "Dilophosaurus wetherilli (Dinosauria, Theropoda): osteology and comparisons",
+    "year": 1984,
+    "journal": "Palaeontographica Abteilung A",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=5718",
+    "authors": [
+      "S. P. Welles"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:93318",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:93344",
+      "taxon": "Sinosaurus triassicus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosaurus",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus triassicus belongs to Sinosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:93371",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysidae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Coelophysidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:93382",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

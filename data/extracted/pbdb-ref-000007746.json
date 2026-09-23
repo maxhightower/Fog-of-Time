@@ -1,0 +1,68 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7746",
+    "doi": null,
+    "title": "Origin and interrelationships of dinosaurs",
+    "year": 1990,
+    "journal": "The Dinosauria, D. B. Weishampel, P. Dodson, & H. Osmólska (editors), University of California Press, Berkeley",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=7746",
+    "authors": [
+      "M. J. Benton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:170991",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylopollexia",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Ankylopollexia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:171017",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratosauria",
+      "basis": "implied",
+      "summary": "Coelophysis belongs to Ceratosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:171022",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:171023",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:171025",
+      "taxon": "Segnosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Segnosauria",
+      "basis": "stated with evidence",
+      "summary": "Segnosaurus belongs to Segnosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

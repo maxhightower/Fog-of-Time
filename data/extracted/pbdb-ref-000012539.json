@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12539",
+    "doi": null,
+    "title": "Preliminary notes on the Lufeng vertebrate fossils",
+    "year": 1940,
+    "journal": "Bulletin of the Geological Society of China",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12539",
+    "authors": [
+      "C.-C. Young"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:91568",
+      "taxon": "Sinosaurus triassicus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosaurus",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus triassicus belongs to Sinosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:91572",
+      "taxon": "Sinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

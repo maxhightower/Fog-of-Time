@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16872",
+    "doi": null,
+    "title": "Carnivorous Saurischia in Europe since the Triassic",
+    "year": 1923,
+    "journal": "Bulletin of the Geological Society of America",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16872",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:114216",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

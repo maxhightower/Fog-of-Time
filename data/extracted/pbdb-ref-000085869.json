@@ -127,5 +127,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:934322",
+      "taxon": "Garumbatitan",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Somphospondyli",
+      "basis": "stated with evidence",
+      "summary": "Garumbatitan belongs to Somphospondyli.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:934323",
+      "taxon": "Garumbatitan morellensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Garumbatitan",
+      "basis": "stated with evidence",
+      "summary": "Garumbatitan morellensis belongs to Garumbatitan.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

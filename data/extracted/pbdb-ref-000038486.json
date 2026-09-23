@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:38486",
+    "doi": "10.1080/02724634.2011.577854",
+    "title": "New unadorned hadrosaurine hadrosaurid (Dinosauria, Ornithopoda) from the Campanian of North America",
+    "year": 2011,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2011.577854",
+    "authors": [
+      "T. A. Gates",
+      "J. R. Horner",
+      "R. R. Hanna, C. R. Nelson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:367440",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachylophosaurini",
+      "basis": "stated with evidence",
+      "summary": "Maiasaura belongs to Brachylophosaurini.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

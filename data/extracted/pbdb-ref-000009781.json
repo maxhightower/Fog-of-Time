@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9781",
+    "doi": "10.1139/e93-180",
+    "title": "A large mamenchisaurid from the Junggar Basin, Xinjiang, People's Republic of China",
+    "year": 1994,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/e93-180",
+    "authors": [
+      "D. A. Russell",
+      "Z. Zheng"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:78175",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

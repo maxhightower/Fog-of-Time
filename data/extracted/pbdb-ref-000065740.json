@@ -1,0 +1,88 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65740",
+    "doi": "10.5710/AMGH.04.08.2017.3100",
+    "title": "A new early coelophysoid neotheropod from the Late Triassic of northwestern Argentina",
+    "year": 2017,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/AMGH.04.08.2017.3100",
+    "authors": [
+      "M. D. Ezcurra"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:831703",
+      "taxon": "Dracoraptor hanigani",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dracoraptor",
+      "basis": "stated without evidence",
+      "summary": "Dracoraptor hanigani belongs to Dracoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:831705",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:831708",
+      "taxon": "Eodromaeus murphi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eodromaeus",
+      "basis": "stated without evidence",
+      "summary": "Eodromaeus murphi belongs to Eodromaeus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:831709",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:831710",
+      "taxon": "Eoraptor lunensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eoraptor",
+      "basis": "stated without evidence",
+      "summary": "Eoraptor lunensis belongs to Eoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:831726",
+      "taxon": "Chromogisaurus novasi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chromogisaurus",
+      "basis": "stated without evidence",
+      "summary": "Chromogisaurus novasi belongs to Chromogisaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:831735",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysinae",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Coelophysinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

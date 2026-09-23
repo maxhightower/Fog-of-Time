@@ -1,0 +1,59 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:11743",
+    "doi": "10.1206/0003-0082(2004)446<0001:atdfut>2.0.co;2",
+    "title": "A troodontid dinosaur from Ukhaa Tolgod (Late Cretaceous Mongolia)",
+    "year": 2004,
+    "journal": "American Museum Novitates",
+    "url": "https://doi.org/10.1206/0003-0082(2004)446<0001:atdfut>2.0.co;2",
+    "authors": [
+      "M. A. Norell",
+      "S. H. Hwang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:140043",
+      "taxon": "Sinovenator changii",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinovenator",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator changii belongs to Sinovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:140044",
+      "taxon": "Sinovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:140048",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Microraptor belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:140050",
+      "taxon": "Sinornithosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Sinornithosaurus belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

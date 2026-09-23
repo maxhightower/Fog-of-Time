@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86065",
+    "doi": "10.1206/3899.1",
+    "title": "A second specimen of Citipati osmolskae associated with a nest of eggs from Ukhaa Tolgod, Omnogov Aimag, Mongolia",
+    "year": 2018,
+    "journal": "American Museum Novitates",
+    "url": "https://doi.org/10.1206/3899.1",
+    "authors": [
+      "M. A. Norell",
+      "A. M. Balanoff",
+      "D. E. Barta, G. M. Erickson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:935203",
+      "taxon": "Anzu wyliei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anzu",
+      "basis": "stated without evidence",
+      "summary": "Anzu wyliei belongs to Anzu.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:935207",
+      "taxon": "Conchoraptor gracilis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Conchoraptor",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor gracilis belongs to Conchoraptor.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:61127",
+    "doi": "10.26879/654",
+    "title": "A new megalosaurid theropod dinosaur from the late Middle Jurassic (Callovian) of north-western Germany: Implications for theropod evolution and faunal turnover in the Jurassic",
+    "year": 2016,
+    "journal": "Palaeontologia electronica",
+    "url": "https://doi.org/10.26879/654",
+    "authors": [
+      "O. W. M. Rauhut",
+      "T. R. Hübner",
+      "K.-P. Lanser"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:750253",
+      "taxon": "Sinosaurus triassicus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosaurus",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus triassicus belongs to Sinosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:750261",
+      "taxon": "Torvosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Torvosaurus belongs to Megalosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:34694",
+    "doi": "10.1080/02724634.2010.483537",
+    "title": "Fossil eggs and eggshell from the lowermost Two Medicine Formation of western Montana, Sevenmile Hill locality",
+    "year": 2010,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2010.483537",
+    "authors": [
+      "F. D. Jackson",
+      "D. J. Varricchio"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:317782",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated with evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:317788",
+      "taxon": "Spheroolithus albertensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithus",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus albertensis belongs to Spheroolithus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:317933",
+      "taxon": "Continuoolithus canadensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Continuoolithus",
+      "basis": "stated with evidence",
+      "summary": "Continuoolithus canadensis belongs to Continuoolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70658",
+    "doi": null,
+    "title": "Redescription of a remarkably large Gryposaurus notabilis (Dinosauria: Hadrosauridae) from Alberta, Canada",
+    "year": 2017,
+    "journal": "Memorie della Società Italiana di Scienze Naturali e del Museo Civio di Storia Naturales di Milano",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=70658",
+    "authors": [
+      "F. Bertozzo",
+      "C. Dal Sasso",
+      "M. Fabbri, F. Manucci, S. Maganuco"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:750040",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:750042",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

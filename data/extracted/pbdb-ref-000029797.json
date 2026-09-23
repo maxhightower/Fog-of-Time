@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29797",
+    "doi": null,
+    "title": "A juvenile coelophysoid skull from the Early Jurassic of Zimbabwe, and the synonymy of Coelophysis and Syntarsus",
+    "year": 2004,
+    "journal": "Palaeontologia Africana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=29797",
+    "authors": [
+      "A. Bristowe",
+      "M. A. Raath"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:265604",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysidae",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Coelophysidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:265611",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

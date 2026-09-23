@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29299",
+    "doi": "10.5962/bhl.title.13903",
+    "title": "Traité de Paléontologie ou Histoire Naturelle des Animaux Fossiles Considérés dans Leurs Rapports Zoologiques et Géologiques [Treatise of Paleontology or the Natural History of Fossil Animals Considered in their Zoological and Geological Relationships]",
+    "year": 1853,
+    "journal": "J.-B. Baillière",
+    "url": "https://doi.org/10.5962/bhl.title.13903",
+    "authors": [
+      "F. -J. Pictet"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:721362",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dinosauria",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Dinosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

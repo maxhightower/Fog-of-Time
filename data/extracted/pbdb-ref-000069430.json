@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:69430",
+    "doi": "10.1038/scientificamerican0430-278",
+    "title": "The Dinosaurs of Wyoming",
+    "year": 1930,
+    "journal": "The Wyoming Geological Survey Bullein",
+    "url": "https://doi.org/10.1038/scientificamerican0430-278",
+    "authors": [
+      "R. L. Moodie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:729262",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Trachodon annectens",
+      "status": "belongs_to",
+      "related_taxon": "Trachodon",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Trachodon annectens) belongs to Trachodon.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:729265",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

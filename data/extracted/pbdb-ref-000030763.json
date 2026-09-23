@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30763",
+    "doi": null,
+    "title": "Presencia del estegosaurio Dacentrurus en Riodeva (Teruel) [Presence of the stegosaur Dacentrurus in Riodeva (Teruel)]",
+    "year": 2008,
+    "journal": "In J I Ruiz-Omeñaca, L Piñuela and J C García-Ramos (eds), XXIV Jornadas de la Sociedad Española de Paleontología, 15-18 October 2008, Museo del Jurásico de Asturias (MUJA), Colunga, Spain, Libro de Resúmenes",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=30763",
+    "authors": [
+      "A. Cobos",
+      "R. Royo-Torres",
+      "L. Alcalá"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:279815",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14904",
+    "doi": null,
+    "title": "Ichnological evidence for the use of the forelimb in iguanodontid locomotion",
+    "year": 1999,
+    "journal": "Special Papers in Palaeontology. Cretaceous Fossil Vertebrates",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14904",
+    "authors": [
+      "J. L. Wright"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:899311",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

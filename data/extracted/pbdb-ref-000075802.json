@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75802",
+    "doi": "10.11646/zootaxa.2827.1.3",
+    "title": "A new specimen of the theropod dinosaur Baryonyx from the early Cretaceous of Portugal and taxonomic validity of Suchosaurus",
+    "year": 2011,
+    "journal": "Zootaxa",
+    "url": "https://doi.org/10.11646/zootaxa.2827.1.3",
+    "authors": [
+      "O. Mateus",
+      "R. Araújo",
+      "C. Natário, R. Castanhinha"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:825203",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12332",
+    "doi": null,
+    "title": "Paleontological notes. Thespesius versus Claosaurus. A new locality for Thespesius. The dermal covering of Thespesius. The dentition of Basilosaurus cetoides. The hyoid of Basilosaurus. The cranial cavity of Basilosaurus",
+    "year": 1900,
+    "journal": "Science",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12332",
+    "authors": [
+      "F. A. Lucas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:91039",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "subjective_synonym_of",
+      "related_taxon": "Thespesius occidentalis",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) is a subjective synonym of Thespesius occidentalis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -23,6 +23,36 @@
       "basis": "stated with evidence",
       "summary": "Gresslyosaurus belongs to Zanclodontidae.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:296320",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Zanclodontidae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Zanclodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:296331",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coeluridae",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Coeluridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:296341",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Anchisauridae.",
+      "source": "pbdb_opinion"
     }
   ]
 }

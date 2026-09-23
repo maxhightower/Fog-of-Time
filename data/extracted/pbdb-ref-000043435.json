@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:43435",
+    "doi": "10.1016/j.geobios.2011.10.002",
+    "title": "Juvenile and adult teeth of the titanosaurian dinosaur Lirainosaurus (Sauropoda) from the Late Cretaceous of Iberia",
+    "year": 2012,
+    "journal": "Geobios",
+    "url": "https://doi.org/10.1016/j.geobios.2011.10.002",
+    "authors": [
+      "V. Díez Díaz",
+      "X. Pereda Suberbiola",
+      "J. L. Sanz"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:435601",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:435615",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

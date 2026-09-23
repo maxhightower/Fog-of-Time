@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:41028",
+    "doi": null,
+    "title": "An important ornithischian tracksite in the Early Jurassic of the Shenmu region, Shaanxi, China",
+    "year": 2012,
+    "journal": "Acta Geologica Sinica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=41028",
+    "authors": [
+      "J. Li",
+      "M. G. Lockley",
+      "Y. Zhang, S. Hu, M. Matsukawa, Z. Bai"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:404604",
+      "taxon": "Shenmuichnus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anomoepodidae",
+      "basis": "stated with evidence",
+      "summary": "Shenmuichnus belongs to Anomoepodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

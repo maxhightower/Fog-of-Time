@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:49882",
+    "doi": "10.1007/s00114-014-1143-9",
+    "title": "An exquisitely preserved troodontid theropod with new information on the palatal structure from the Upper Cretaceous of Mongolia",
+    "year": 2014,
+    "journal": "Naturwissenschaften",
+    "url": "https://doi.org/10.1007/s00114-014-1143-9",
+    "authors": [
+      "T. Tsuihiji",
+      "R. Barsbold",
+      "M. Watanabe, K. Tsogbataar, T. Chinzorig, Y. Fujiyama, S. Suzuki"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:501630",
+      "taxon": "Sinovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated with evidence",
+      "summary": "Sinovenator belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:501631",
+      "taxon": "Anchiornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated with evidence",
+      "summary": "Anchiornis belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:501633",
+      "taxon": "Talos",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated with evidence",
+      "summary": "Talos belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

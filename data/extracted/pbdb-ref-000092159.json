@@ -1,0 +1,49 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:92159",
+    "doi": "10.1038/s41598-025-98083-z",
+    "title": "Exploring the diversity and disparity of rhabdodontomorph ornithopods from the Late Cretaceous European archipelago",
+    "year": 2025,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-025-98083-z",
+    "authors": [
+      "Ł. Czepiński",
+      "D. Madzia"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:991396",
+      "taxon": "Convolosaurus marri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Convolosaurus",
+      "basis": "stated without evidence",
+      "summary": "Convolosaurus marri belongs to Convolosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:991418",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosauridae",
+      "basis": "stated with evidence",
+      "summary": "Tenontosaurus belongs to Tenontosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:991420",
+      "taxon": "Convolosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosauridae",
+      "basis": "stated with evidence",
+      "summary": "Convolosaurus belongs to Tenontosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

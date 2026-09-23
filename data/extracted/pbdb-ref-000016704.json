@@ -1,0 +1,178 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16704",
+    "doi": "10.1146/annurev.earth.25.1.435",
+    "title": "The origin and evolution of dinosaurs",
+    "year": 1997,
+    "journal": "Annual Review of Earth and Planetary Sciences",
+    "url": "https://doi.org/10.1146/annurev.earth.25.1.435",
+    "authors": [
+      "P. C. Sereno"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:112739",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanomorpha",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Titanomorpha.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112771",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontia",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Iguanodontia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112779",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112791",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112801",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macronaria",
+      "basis": "stated without evidence",
+      "summary": "Haplocanthosaurus belongs to Macronaria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112802",
+      "taxon": "Eoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Eoraptor belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112804",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112812",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112813",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112831",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysidae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Coelophysidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112836",
+      "taxon": "Torvosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torvosauridae",
+      "basis": "stated without evidence",
+      "summary": "Torvosaurus belongs to Torvosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112838",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112850",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Allosauroidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112852",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carcharodontosauridae",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Carcharodontosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112857",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelurosauria",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Coelurosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112863",
+      "taxon": "Conchoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Oviraptoridae",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor belongs to Oviraptoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

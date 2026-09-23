@@ -15,6 +15,26 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:114253",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thecodontosauridae",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Thecodontosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:114255",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coeluridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Coeluridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:114267",
       "taxon": "Gresslyosaurus",
       "published_as": null,
@@ -25,6 +45,36 @@
       "source": "pbdb_opinion"
     },
     {
+      "id": "pbdb-opinion:114270",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:114278",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Haplocanthosaurus belongs to Cetiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:114279",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Cetiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:114298",
       "taxon": "Brontosaurus",
       "published_as": null,
@@ -32,6 +82,56 @@
       "related_taxon": "Apatosaurus",
       "basis": "stated without evidence",
       "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:114317",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:114321",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:114322",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:114353",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:114414",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Ceratopsidae.",
       "source": "pbdb_opinion"
     },
     {

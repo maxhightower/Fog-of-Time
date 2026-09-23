@@ -15,6 +15,26 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:849504",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelurosauria",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Coelurosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849505",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:849763",
       "taxon": "Clasmodosaurus",
       "published_as": null,
@@ -55,6 +75,36 @@
       "source": "pbdb_opinion"
     },
     {
+      "id": "pbdb-opinion:849851",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Prosauropoda",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Prosauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849858",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Prosauropoda",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Prosauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849866",
+      "taxon": "Plateosaurus trossingensis",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Plateosaurus fraasianus",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus trossingensis is a subjective synonym of Plateosaurus fraasianus.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:849871",
       "taxon": "Gresslyosaurus robustus",
       "published_as": "Plateosaurus robustus",
@@ -62,6 +112,136 @@
       "related_taxon": "Plateosaurus",
       "basis": "stated with evidence",
       "summary": "Gresslyosaurus robustus (as Plateosaurus robustus) belongs to Plateosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849903",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Antrodemus",
+      "basis": "stated with evidence",
+      "summary": "Allosaurus is a subjective synonym of Antrodemus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849927",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated with evidence",
+      "summary": "Spinosaurus belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849939",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated with evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849940",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated with evidence",
+      "summary": "Albertosaurus belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849948",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated with evidence",
+      "summary": "Gorgosaurus belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849949",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated with evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849951",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosaurus belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849952",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:849991",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Cetiosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:850015",
+      "taxon": "Magyarosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Magyarosaurus belongs to Cetiosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:850016",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated with evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:850018",
+      "taxon": "Petrustitan hungaricus",
+      "published_as": "Magyarosaurus hungaricus",
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated with evidence",
+      "summary": "Petrustitan hungaricus (as Magyarosaurus hungaricus) belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:850022",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
       "source": "pbdb_opinion"
     }
   ]

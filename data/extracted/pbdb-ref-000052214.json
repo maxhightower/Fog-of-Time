@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:52214",
+    "doi": null,
+    "title": "Chirotherium lulli, a pseudosuchian reptile from New Jersey",
+    "year": 1954,
+    "journal": "Bulletin of the Museum of Comparative Zoology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52214",
+    "authors": [
+      "D. Baird"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:533601",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

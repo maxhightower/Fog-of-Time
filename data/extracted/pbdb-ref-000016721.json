@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16721",
+    "doi": null,
+    "title": "The first mamenchisaurian skeleton with complete skull: Mamenchisaurus youngi",
+    "year": 2002,
+    "journal": "Sichuan Science and Technology Press, Chengdu",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16721",
+    "authors": [
+      "H. Ouyang",
+      "Y. Ye"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:112938",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

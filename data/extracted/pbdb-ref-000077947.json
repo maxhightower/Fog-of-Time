@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:77947",
+    "doi": "10.19615/j.cnki.1000-3118.180530",
+    "title": "A taxonomical revision of the Confuciusornithiformes (Aves: Pygostylia)",
+    "year": 2019,
+    "journal": "Vertebrata PalAsiatica",
+    "url": "https://doi.org/10.19615/j.cnki.1000-3118.180530",
+    "authors": [
+      "M. Wang",
+      "J. O'Connor",
+      "Z.-H. Zhou"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:871050",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Confuciusornithidae",
+      "basis": "stated with evidence",
+      "summary": "Confuciusornis belongs to Confuciusornithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

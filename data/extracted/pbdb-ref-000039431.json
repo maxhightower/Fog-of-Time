@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:39431",
+    "doi": null,
+    "title": "Re-examination of Chuanjiesaurus anaensis (Dinosauria: Sauropoda) from the Middle Jurassic Chuanjie Formation, Lufeng County, Yunnan Province, southwest China",
+    "year": 2011,
+    "journal": "Memoir of the Fukui Prefectural Dinosaur Museum",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=39431",
+    "authors": [
+      "T. Sekiya"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:381903",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:381920",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:381921",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

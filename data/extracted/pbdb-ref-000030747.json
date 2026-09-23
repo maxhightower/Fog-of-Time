@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30747",
+    "doi": "10.1016/s0195-6671(05)80045-x",
+    "title": "Late Cretaceous dinosaurs from the Ringbone Formation, southwestern New Mexico, USA",
+    "year": 1990,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/s0195-6671(05)80045-x",
+    "authors": [
+      "S. G. Lucas",
+      "G. Basabilvazo",
+      "T. F. Lawson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:279667",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": "Albertosaurus libratus",
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus (as Albertosaurus libratus) belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

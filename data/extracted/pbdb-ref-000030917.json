@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30917",
+    "doi": null,
+    "title": "Contribution à la classification des pistes de Vertébrés du Trias: les types du Stormberg d'Afrique du Sud (IIème partie: Le Stormberg superieur - I. Le biome de la zone B/1 ou niveau de Moyeni: ses biocénoses) [Contribution to the classification of the vertebrate tracks of the Triassic: the types from the Stormberg of South Africa (2nd part: The upper Stormberg - I. The biome of zone B/1 or Moyeni level: its biocoenoses]",
+    "year": 1974,
+    "journal": "Palaeovertebrata",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=30917",
+    "authors": [
+      "P. Ellenberger"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:481327",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thecodontosauridae",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Thecodontosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

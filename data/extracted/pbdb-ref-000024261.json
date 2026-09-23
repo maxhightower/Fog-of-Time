@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24261",
+    "doi": null,
+    "title": "On a supposed new pseudosuchian from Upper Triassic saurischian-bearing Red Beds of Lufeng, Yunnan, China",
+    "year": 1944,
+    "journal": "American Museum Novitates",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=24261",
+    "authors": [
+      "C.-C. Young"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:175447",
+      "taxon": "Sinosaurus triassicus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosaurus",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus triassicus belongs to Sinosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

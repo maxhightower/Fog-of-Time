@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:41031",
+    "doi": null,
+    "title": "Amphicoelias \"brontodiplodocus\" a New Sauropod, from the Morrison Formation, Big Horn Basin, Wyoming, with Taxonomic Reevaluation of Diplodocus, Apatosaurus, Barosaurus and Other Genera",
+    "year": 2010,
+    "journal": "Dinosauria International (Ten Sleep, WY) Report for December 2010",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=41031",
+    "authors": [
+      "H. Galiano",
+      "R. Albersdörfer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:404654",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Amphicoelias",
+      "basis": "stated without evidence",
+      "summary": "Suuwassea is a subjective synonym of Amphicoelias.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

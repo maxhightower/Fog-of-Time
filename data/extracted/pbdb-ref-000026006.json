@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:26006",
+    "doi": null,
+    "title": "A large therizinosauroid (Dinosauria: Theropoda) from the Early Cretaceous of northwestern China",
+    "year": 2007,
+    "journal": "Acta Geologica Sinica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=26006",
+    "authors": [
+      "D. Li",
+      "C. Peng",
+      "H. You, M. C. Lamanna, J. D. Harris, K. J. Lacovara, J. Zhang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:200393",
+      "taxon": "Beipiaosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Beipiaosaurus belongs to Therizinosauroidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:200407",
+      "taxon": "Segnosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Segnosaurus belongs to Therizinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

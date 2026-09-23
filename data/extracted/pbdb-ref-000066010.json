@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:66010",
+    "doi": "10.1038/srep41881",
+    "title": "A new basal sauropodiform dinosaur from the Lower Jurassic of Yunnan Province, China",
+    "year": 2017,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/srep41881",
+    "authors": [
+      "Y. M. Wang",
+      "H. L. You",
+      "T. Wang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:688284",
+      "taxon": "Xingxiulong",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodiformes",
+      "basis": "stated with evidence",
+      "summary": "Xingxiulong belongs to Sauropodiformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

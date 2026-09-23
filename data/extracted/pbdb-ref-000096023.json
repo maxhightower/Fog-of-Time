@@ -64,5 +64,17 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1027579",
+      "taxon": "Fusioolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Fusioolithidae",
+      "basis": "stated without evidence",
+      "summary": "Fusioolithus belongs to Fusioolithidae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

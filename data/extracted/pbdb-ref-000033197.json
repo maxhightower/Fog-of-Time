@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:33197",
+    "doi": "10.2113/gssgfbull.181.3.269",
+    "title": "A new titanosaur genus (Dinosauria, Sauropoda) from the Late Cretaceous of southern France and its paleobiogeographic implications",
+    "year": 2010,
+    "journal": "Bulletin de la Société géologique de France",
+    "url": "https://doi.org/10.2113/gssgfbull.181.3.269",
+    "authors": [
+      "G. Garcia",
+      "S. Amico",
+      "F. Fournier, E. Thouand, X. Valentin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:309172",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

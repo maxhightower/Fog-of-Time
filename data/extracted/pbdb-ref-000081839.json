@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:81839",
+    "doi": "10.7717/peerj.13176",
+    "title": "A new juvenile Yamaceratops (Dinosauria, Ceratopsia) from the Javkhlant Formation (Upper Cretaceous) of Mongolia\\r\\n",
+    "year": 2022,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.13176",
+    "authors": [
+      "M. Son",
+      "Y.-N. Lee",
+      "B. Zorigt, Y. Kbayashi, J.-Y. Park, S. Lee, S.-H. Kim, K. Y. Lee"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:888934",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:47413",
+    "doi": "10.1016/s0016-7878(76)80066-1",
+    "title": "Excursion to Swindon and Faringdon. June 5th (Whit-Monday), and following day",
+    "year": 1876,
+    "journal": "Proceedings of the Geologists' Association",
+    "url": "https://doi.org/10.1016/s0016-7878(76)80066-1",
+    "authors": [
+      "W. H. Hudleston"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:475581",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

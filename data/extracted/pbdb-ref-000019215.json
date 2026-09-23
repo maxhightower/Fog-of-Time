@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19215",
+    "doi": "10.1111/1475-4983.00282",
+    "title": "Sauropod dinosaurs from the Lower Cretaceous of eastern Asia: taxonomic and biogeographical implications",
+    "year": 2002,
+    "journal": "Palaeontology",
+    "url": "https://doi.org/10.1111/1475-4983.00282",
+    "authors": [
+      "P. M. Barrett",
+      "Y. Hasegawa",
+      "M. Manabe, S. Isaji, H. Matsuoka"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:151433",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:151434",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauroidea",
+      "basis": "implied",
+      "summary": "Phuwiangosaurus belongs to Titanosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

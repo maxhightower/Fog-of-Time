@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19848",
+    "doi": null,
+    "title": "Le piste liassiche di dinosauri dei Lavini di Marco [The Liassic dinosaur trackways of Lavini di Marco]",
+    "year": 2000,
+    "journal": "In G. Leonardi & P. Mietto (eds.), Dinosauri in Italia. Accademia Editoriale, Roma",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19848",
+    "authors": [
+      "G. Leonardi",
+      "P. Mietto"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:161898",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eubrontidae",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Eubrontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:161900",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauripodidae",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Anchisauripodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

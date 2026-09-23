@@ -15,6 +15,166 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:98924",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:98962",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Podokesauridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Podokesauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:98965",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:98974",
+      "taxon": "Torvosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Torvosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:98976",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:98978",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Haplocanthosaurus belongs to Cetiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:98979",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:98989",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hypsilophodontidae",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Hypsilophodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:98992",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99010",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99018",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosauridae",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura belongs to Hadrosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99021",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosauridae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99029",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99030",
+      "taxon": "Daspletosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Daspletosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99032",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99036",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:99037",
       "taxon": "Stygimoloch",
       "published_as": null,
@@ -25,6 +185,16 @@
       "source": "pbdb_opinion"
     },
     {
+      "id": "pbdb-opinion:99042",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:99051",
       "taxon": "Torosaurus",
       "published_as": null,
@@ -32,6 +202,16 @@
       "related_taxon": "Ceratopsidae",
       "basis": "stated without evidence",
       "summary": "Torosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99056",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
       "source": "pbdb_opinion"
     }
   ]

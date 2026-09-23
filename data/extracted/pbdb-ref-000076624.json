@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76624",
+    "doi": null,
+    "title": "Australian Cretaceous non-avian theropod dinosaur teeth",
+    "year": 2011,
+    "journal": "CAVEPS Perth 2011,13th Conference on Australasian Vertebrate Evolution Palaeontology and Systematics. Geological Survey of Western Australia Record",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76624",
+    "authors": [
+      "S. W. Salisbury",
+      "T. H. V. Rich",
+      "P. Vickers-Rich, P. J. Currie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:833396",
+      "taxon": "Orkoraptor burkei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orkoraptor",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor burkei belongs to Orkoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833397",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated without evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

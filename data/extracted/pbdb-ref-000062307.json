@@ -23,6 +23,16 @@
       "basis": "stated without evidence",
       "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:643463",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
     }
   ]
 }

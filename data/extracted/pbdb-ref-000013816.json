@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13816",
+    "doi": null,
+    "title": "The early radiation and phylogenetic relationships of the Jurassic sauropod dinosaurs, based on vertebral anatomy",
+    "year": 1986,
+    "journal": "The Beginning of the Age of Dinosaurs: Faunal Change Across the Triassic–Jurassic Boundary. Cambridge University Press, Cambridge",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13816",
+    "authors": [
+      "J. F. Bonaparte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:96388",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96391",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dicraeosauridae",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Dicraeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

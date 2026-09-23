@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14891",
+    "doi": null,
+    "title": "The dinosaurian remains of Laiyang, Shantung",
+    "year": 1958,
+    "journal": "Palaeontologia Sinica, New Series C, Whole Number",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14891",
+    "authors": [
+      "C.-C. Young"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:103027",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

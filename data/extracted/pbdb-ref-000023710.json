@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:23710",
+    "doi": "10.22179/revmacn.8.325",
+    "title": "Aniksosaurus darwini gen. et sp. nov., a new coelurosaurian theropod from the early Late Cretaceous of central Patagonia, Argentina",
+    "year": 2006,
+    "journal": "Revista del Museo Argentino de Ciencias Naturales, nuevo serie",
+    "url": "https://doi.org/10.22179/revmacn.8.325",
+    "authors": [
+      "R. D. Martínez",
+      "F. E. Novas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:168813",
+      "taxon": "Sinosauropteryx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Compsognathidae",
+      "basis": "stated without evidence",
+      "summary": "Sinosauropteryx belongs to Compsognathidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

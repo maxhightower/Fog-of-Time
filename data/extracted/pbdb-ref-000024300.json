@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24300",
+    "doi": "10.4072/rbp.2007.1.05",
+    "title": "Aeolosaurus colhuehuapensis sp. nov. (Sauropoda, Titanosauria) de la Formación Bajo Barreal, Cretácico Superior de Argentina [Aeolosaurus colhuehuapensis sp. nov. (Sauropoda, Titanosauria) from the Bajo Barreal Formation, Upper Cretaceous of Argentina]",
+    "year": 2007,
+    "journal": "Revista Brasileira de Paleontologia",
+    "url": "https://doi.org/10.4072/rbp.2007.1.05",
+    "authors": [
+      "G. Casal",
+      "R. D. Martínez",
+      "M. Luna, J. C. Sciutto, M. C. Lamanna"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:941160",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:80958",
+    "doi": "10.1080/14772019.2010.488045",
+    "title": "A taxonomic and phylogenetic re-evaluation of Therizinosauria (Dinosauria: Maniraptora)",
+    "year": 2010,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2010.488045",
+    "authors": [
+      "L. E. Zanno"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:876962",
+      "taxon": "Beipiaosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauroidea",
+      "basis": "stated with evidence",
+      "summary": "Beipiaosaurus belongs to Therizinosauroidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:876986",
+      "taxon": "Segnosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauridae",
+      "basis": "stated with evidence",
+      "summary": "Segnosaurus belongs to Therizinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19832",
+    "doi": "10.1073/pnas.0609975104",
+    "title": "Biplane wing planform and flight performance of the feathered dinosaur Microraptor gui",
+    "year": 2007,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "url": "https://doi.org/10.1073/pnas.0609975104",
+    "authors": [
+      "S. Chatterjee",
+      "R. J. Templin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:161590",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauria",
+      "basis": "stated without evidence",
+      "summary": "Microraptor belongs to Dromaeosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

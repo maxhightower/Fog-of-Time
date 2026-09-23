@@ -1,0 +1,70 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:46355",
+    "doi": "10.1127/0077-7749/2010/0036",
+    "title": "Description of topotypes of Phuwiangosaurus sirindhornae, a sauropod from the Sao Khua Formation (Early Cretaceous) of Thailand, and their phylogenetic implications",
+    "year": 2010,
+    "journal": "Neues Jahrbuch für Geologie und Paläontologie Abhandlungen",
+    "url": "https://doi.org/10.1127/0077-7749/2010/0036",
+    "authors": [
+      "S. Suteethorn",
+      "J. Le Loeuff",
+      "E. Buffetaut, V. Suteethorn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:464122",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:464124",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocoidea",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Diplodocoidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:464134",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:464135",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated with evidence",
+      "summary": "Phuwiangosaurus belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:464142",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Opisthocoelicaudiinae",
+      "basis": "stated with evidence",
+      "summary": "Alamosaurus belongs to Opisthocoelicaudiinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

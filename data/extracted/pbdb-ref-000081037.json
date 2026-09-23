@@ -1,0 +1,70 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:81037",
+    "doi": "10.1371/journal.pone.0039364",
+    "title": "New forearm elements discovered of holotype specimen Australovenator wintonensis from Winton, Queensland, Australia",
+    "year": 2012,
+    "journal": "PLoS One",
+    "url": "https://doi.org/10.1371/journal.pone.0039364",
+    "authors": [
+      "M. A. White",
+      "A. G. Cook",
+      "S. A. Hocknull, T. Sloan, G. H. K. Sinapius, D. A. Elliot"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:877629",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated without evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:877630",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated without evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:877632",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:877639",
+      "taxon": "Orkoraptor burkei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orkoraptor",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor burkei belongs to Orkoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:877640",
+      "taxon": "Australovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Neovenatoridae",
+      "basis": "stated without evidence",
+      "summary": "Australovenator belongs to Neovenatoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

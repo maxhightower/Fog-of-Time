@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:5672",
+    "doi": "10.5962/p.313819",
+    "title": "The ornithischian dinosaur Hypsilophodon from the Wealden of the Isle of Wight",
+    "year": 1974,
+    "journal": "Bulletin of the British Museum of Natural History",
+    "url": "https://doi.org/10.5962/p.313819",
+    "authors": [
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:107099",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:107100",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

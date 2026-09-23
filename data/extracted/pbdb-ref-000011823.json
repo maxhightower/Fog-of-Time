@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:11823",
+    "doi": null,
+    "title": "La presencia de dinosaurios saurisquios en los \"Estratos de Ischigualasto\" (Mesotriasico Superior) de las provincias de San Juan y La Rioja (República Argentina) [The presence of saurischian dinosaurs in the \"Ischigualasto beds\" (upper Middle Triassic) of San Juan and La Rioja Provinces (Argentine Republic)]",
+    "year": 1963,
+    "journal": "Ameghiniana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=11823",
+    "authors": [
+      "O. A. Reig"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:81621",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated with evidence",
+      "summary": "Herrerasaurus belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99951",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated with evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:80582",
+    "doi": "10.5710/PEAPA.25.10.2021.396",
+    "title": "Allosauroid (Theropoda, Tetanurae) remains from the Sierra Barrosa Formation (Middle Coniacian, Upper Cretaceous), Patagonia, Argentina",
+    "year": 2022,
+    "journal": "Publicación Electrónica de la Asociación Paleontológica Argentina",
+    "url": "https://doi.org/10.5710/PEAPA.25.10.2021.396",
+    "authors": [
+      "M. A. Baiano",
+      "L. S. Filippi"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:875760",
+      "taxon": "Orkoraptor burkei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orkoraptor",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor burkei belongs to Orkoraptor.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

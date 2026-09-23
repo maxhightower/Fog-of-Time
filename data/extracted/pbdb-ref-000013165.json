@@ -1,0 +1,99 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13165",
+    "doi": null,
+    "title": "The family Deinodontidae, with notice of a new genus from the Cretaceous of Alberta",
+    "year": 1922,
+    "journal": "Bulletin of the American Museum of Natural History",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13165",
+    "authors": [
+      "W. D. Matthew",
+      "B. Brown"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:93834",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:93849",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Deinodontidae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae is a subjective synonym of Deinodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:93852",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:93875",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:93876",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinodontinae",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus belongs to Deinodontinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:93877",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinodontinae",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus belongs to Deinodontinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:93879",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:93882",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

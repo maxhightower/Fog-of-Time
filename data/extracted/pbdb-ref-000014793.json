@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14793",
+    "doi": "10.1080/03115518008558972",
+    "title": "A new theropod dinosaur from South Australia",
+    "year": 1980,
+    "journal": "Alcheringa",
+    "url": "https://doi.org/10.1080/03115518008558972",
+    "authors": [
+      "R. E. Molnar",
+      "N. S. Pledge"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:134311",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

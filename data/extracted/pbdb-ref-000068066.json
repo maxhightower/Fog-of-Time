@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:68066",
+    "doi": "10.2307/43627281",
+    "title": "Die Reptilien. System und Stammesgeschichte [The Reptiles. Systematics and Phylogeny.]",
+    "year": 1966,
+    "journal": "Oeben",
+    "url": "https://doi.org/10.2307/43627281",
+    "authors": [
+      "O. W. M. Kuhn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:712431",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Podokesauridae",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Podokesauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:712565",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

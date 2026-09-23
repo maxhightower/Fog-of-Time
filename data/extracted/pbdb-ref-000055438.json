@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55438",
+    "doi": "10.1017/S1477201904001427",
+    "title": "Phylogeny of Drepanosauridae (Reptilia: Diapsida)",
+    "year": 2004,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1017/S1477201904001427",
+    "authors": [
+      "P. Senter"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:572638",
+      "taxon": "Sinosauropteryx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Archosauria",
+      "basis": "stated with evidence",
+      "summary": "Sinosauropteryx belongs to Archosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

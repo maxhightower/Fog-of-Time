@@ -33,6 +33,36 @@
       "basis": "stated without evidence",
       "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:188742",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:188762",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:188772",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Cliosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Claosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Cliosaurus annectens) belongs to Claosaurus.",
+      "source": "pbdb_opinion"
     }
   ]
 }

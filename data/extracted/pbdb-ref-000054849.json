@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54849",
+    "doi": null,
+    "title": "Preliminary analysis of a sub-adult tyrannosaurid skeleton from the Judith River Formation of Petroleum County, Montana",
+    "year": 2013,
+    "journal": "Tyrannosaurid Paleobiology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54849",
+    "authors": [
+      "W. W. Stein",
+      "M. Triebold"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:565984",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

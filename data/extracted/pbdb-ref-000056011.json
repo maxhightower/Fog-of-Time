@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:56011",
+    "doi": null,
+    "title": "Three ecologically distinct vertebrate faunal communities from the Late Cretaceous Two Medicine Formation of Montana, with discussion of evolutionary pressures induced by interior seaway fluctuations",
+    "year": 1984,
+    "journal": "Northwest Montana and Adjacent Canada. Montana Geological Society, 1984 Field Conference and Symposium",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=56011",
+    "authors": [
+      "J. R. Horner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:581162",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

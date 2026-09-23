@@ -70,5 +70,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:993755",
+      "taxon": "Enigmacursor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Neornithischia",
+      "basis": "stated with evidence",
+      "summary": "Enigmacursor belongs to Neornithischia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:993756",
+      "taxon": "Enigmacursor mollyborthwickae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Enigmacursor",
+      "basis": "stated with evidence",
+      "summary": "Enigmacursor mollyborthwickae belongs to Enigmacursor.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

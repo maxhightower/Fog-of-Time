@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29877",
+    "doi": null,
+    "title": "A new dromaeosaur (Dinosauria: Theropoda) from the Early Cretaceous Yixian Formation of western Liaoning",
+    "year": 2004,
+    "journal": "Vertebrata PalAsiatica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=29877",
+    "authors": [
+      "X. Xu",
+      "X.-L. Wang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:266019",
+      "taxon": "Sinornithosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated with evidence",
+      "summary": "Sinornithosaurus belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:266020",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated with evidence",
+      "summary": "Microraptor belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

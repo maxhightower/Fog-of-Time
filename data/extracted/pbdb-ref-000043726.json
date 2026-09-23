@@ -1,0 +1,98 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:43726",
+    "doi": "10.1111/j.1096-3642.2012.00853.x",
+    "title": "The early evolution of titanosauriform sauropod dinosaurs",
+    "year": 2012,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1111/j.1096-3642.2012.00853.x",
+    "authors": [
+      "M. D. D'Emic"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:439082",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saltasaurinae",
+      "basis": "stated with evidence",
+      "summary": "Alamosaurus belongs to Saltasaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:439099",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Euhelopodidae",
+      "basis": "stated with evidence",
+      "summary": "Phuwiangosaurus belongs to Euhelopodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:439109",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:439132",
+      "taxon": "Wintonotitan",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated with evidence",
+      "summary": "Wintonotitan belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:439144",
+      "taxon": "Diamantinasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saltasauridae",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus belongs to Saltasauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:439171",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:439192",
+      "taxon": "Wintonotitan wattsi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Wintonotitan",
+      "basis": "stated with evidence",
+      "summary": "Wintonotitan wattsi belongs to Wintonotitan.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:439212",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

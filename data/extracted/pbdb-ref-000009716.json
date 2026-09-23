@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9716",
+    "doi": null,
+    "title": "Global distribution of purported ankylosaur track occurrences",
+    "year": 2001,
+    "journal": "The Armored Dinosaurs, K. Carpenter (ed.), Indiana University Press, Bloomington",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9716",
+    "authors": [
+      "R. T. McCrea",
+      "M. G. Lockley",
+      "C. A. Meyer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:137498",
+      "taxon": "Deltapodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thyreophora",
+      "basis": "stated without evidence",
+      "summary": "Deltapodus belongs to Thyreophora.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:137501",
+      "taxon": "Tetrapodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauria",
+      "basis": "stated without evidence",
+      "summary": "Tetrapodosaurus belongs to Ankylosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:50323",
+    "doi": "10.1371/journal.pone.0088905",
+    "title": "Torvosaurus gurneyi n. sp., the largest terrestrial predator from Europe, and a proposed terminology of the maxilla anatomy in nonavian theropods",
+    "year": 2014,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0088905",
+    "authors": [
+      "C. Hendrickx",
+      "O. Mateus"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:506955",
+      "taxon": "Torvosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated with evidence",
+      "summary": "Torvosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

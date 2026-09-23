@@ -35,6 +35,106 @@
       "source": "pbdb_opinion"
     },
     {
+      "id": "pbdb-opinion:668003",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:668010",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:668011",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dinodontidae",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus belongs to Dinodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:668012",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dinodontidae",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus belongs to Dinodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:668013",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dinodontidae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Dinodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:668015",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:668016",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:668042",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Trachodon annectens",
+      "status": "belongs_to",
+      "related_taxon": "Trachodon",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Trachodon annectens) belongs to Trachodon.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:668056",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Trachodontidae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Trachodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:668087",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:668103",
       "taxon": "Torosaurus",
       "published_as": null,
@@ -52,6 +152,26 @@
       "related_taxon": "Torosaurus",
       "basis": "stated without evidence",
       "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:668162",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:668173",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": "Titanosaurus dacus",
+      "status": "belongs_to",
+      "related_taxon": "Titanosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus (as Titanosaurus dacus) belongs to Titanosaurus.",
       "source": "pbdb_opinion"
     }
   ]

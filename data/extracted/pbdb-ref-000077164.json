@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:77164",
+    "doi": null,
+    "title": "Dinosaur assemblages from Thailand: a comparison with Chinese faunas",
+    "year": 2006,
+    "journal": "Papers from the 2005 Heyuan International Dinosaur Symposium",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=77164",
+    "authors": [
+      "E. Buffetaut",
+      "V. Suteethorn",
+      "H. Tong"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:840404",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Euhelopodidae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Euhelopodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:840412",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:840413",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nemegtosauridae",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus belongs to Nemegtosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

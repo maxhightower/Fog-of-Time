@@ -127,5 +127,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1002273",
+      "taxon": "Huashanosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eusauropoda",
+      "basis": "stated with evidence",
+      "summary": "Huashanosaurus belongs to Eusauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1002274",
+      "taxon": "Huashanosaurus qini",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Huashanosaurus",
+      "basis": "stated with evidence",
+      "summary": "Huashanosaurus qini belongs to Huashanosaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

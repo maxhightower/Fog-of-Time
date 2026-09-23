@@ -1,0 +1,130 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76659",
+    "doi": null,
+    "title": "Análisis de la parataxonomía utilizada con las huellas de dinosaurio [Analysis of the parataxonomy used with dinosaur footprints]",
+    "year": 2003,
+    "journal": "Dinosaurios y Otros Reptiles Mesozóicos de España",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76659",
+    "authors": [
+      "M. M. Romero Molina",
+      "F. Pérez-Lorente",
+      "P. Rivas Carrera"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:833597",
+      "taxon": "Kayentapus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Kayentapus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833601",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833603",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833607",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833635",
+      "taxon": "Carmelopodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Carmelopodus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833643",
+      "taxon": "Megalosauripus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Megalosauripus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833647",
+      "taxon": "Stegopodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauria",
+      "basis": "stated without evidence",
+      "summary": "Stegopodus belongs to Stegosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833649",
+      "taxon": "Brontopodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Brontopodus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833650",
+      "taxon": "Deltapodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Deltapodus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833704",
+      "taxon": "Therangospodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Therangospodus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833717",
+      "taxon": "Tetrapodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauria",
+      "basis": "stated without evidence",
+      "summary": "Tetrapodosaurus belongs to Ankylosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

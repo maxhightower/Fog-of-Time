@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:26542",
+    "doi": "10.4202/app.2008.0103",
+    "title": "New hadrosaurid dinosaurs from the uppermost Cretaceous of northeastern China",
+    "year": 2008,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://doi.org/10.4202/app.2008.0103",
+    "authors": [
+      "P. Godefroit",
+      "S. Hai",
+      "T. Yu, P. Lauters"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:211387",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:211393",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

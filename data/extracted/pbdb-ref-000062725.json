@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:62725",
+    "doi": null,
+    "title": "Dinosaur resoration group in the National Museum of Canada",
+    "year": 1935,
+    "journal": "Proceedings of the Geological Society of America",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62725",
+    "authors": [
+      "L. S. Russell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:651341",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

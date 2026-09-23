@@ -1,0 +1,59 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:59917",
+    "doi": "10.1371/journal.pone.0157973",
+    "title": "A new megaraptoran dinosaur (Dinosauria, Theropoda, Megaraptoridae) from the Late Cretaceous of Patagonia",
+    "year": 2016,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0157973",
+    "authors": [
+      "R. A. Coria",
+      "P. J. Currie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:625276",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:625277",
+      "taxon": "Orkoraptor burkei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orkoraptor",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor burkei belongs to Orkoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:625278",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated without evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:625280",
+      "taxon": "Orkoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptoridae",
+      "basis": "stated with evidence",
+      "summary": "Orkoraptor belongs to Megaraptoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

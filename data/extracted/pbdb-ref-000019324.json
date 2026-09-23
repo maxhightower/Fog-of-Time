@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19324",
+    "doi": null,
+    "title": "Die Familien der Reptilien [The families of reptiles]",
+    "year": 1923,
+    "journal": "Forschritte der Geologie und Palaeontologie. Verlag von Gebrüder Borntraeger, Berlin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19324",
+    "authors": [
+      "B. F. Nopcsa"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:153285",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauria",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Megalosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

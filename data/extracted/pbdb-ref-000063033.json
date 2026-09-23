@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63033",
+    "doi": null,
+    "title": "New paleontological data on the dinosaur beds from the Hațeg basin",
+    "year": 1984,
+    "journal": "75 years of the Laboratory of Paleontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63033",
+    "authors": [
+      "D. Grigorescu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:655244",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": "Titanosaurus dacus",
+      "status": "belongs_to",
+      "related_taxon": "Titanosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus (as Titanosaurus dacus) belongs to Titanosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:79980",
+    "doi": null,
+    "title": "Research on dinoasur footprints in Zizhou, Shaanxi Province, China",
+    "year": 2016,
+    "journal": "Acta Geologica Sinica (English Edition)",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=79980",
+    "authors": [
+      "B. Wang",
+      "J. Li",
+      "Z. Bai, J. Gao, S. Dong, B. Hu, S. Zhao, J. Chang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:872070",
+      "taxon": "Pengxianpus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated with evidence",
+      "summary": "Pengxianpus belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:66249",
+    "doi": null,
+    "title": "Biomechanical modeling of Coelophysis bauri: possible feeding methods and behavior of a Late Triassic theropod",
+    "year": 2011,
+    "journal": "Fossil Record 3. New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=66249",
+    "authors": [
+      "S. E. Jasinski"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:691606",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:691608",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

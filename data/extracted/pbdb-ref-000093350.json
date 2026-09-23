@@ -518,5 +518,57 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1005782",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocoidea",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Diplodocoidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1005791",
+      "taxon": "Sidersaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Rebbachisauridae",
+      "basis": "stated with evidence",
+      "summary": "Sidersaura belongs to Rebbachisauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1005794",
+      "taxon": "Astigmasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Rebbachisauridae",
+      "basis": "stated with evidence",
+      "summary": "Astigmasaura belongs to Rebbachisauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1005797",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dicraeosauridae",
+      "basis": "stated with evidence",
+      "summary": "Suuwassea belongs to Dicraeosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1005822",
+      "taxon": "Cienciargentina",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Rebbachisauridae",
+      "basis": "stated without evidence",
+      "summary": "Cienciargentina belongs to Rebbachisauridae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

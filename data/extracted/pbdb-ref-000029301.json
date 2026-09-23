@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29301",
+    "doi": "10.1017/S1477201908002459",
+    "title": "Systematics and phylogeny of Stegosauria (Dinosauria: Ornithischia)",
+    "year": 2008,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1017/S1477201908002459",
+    "authors": [
+      "S. C. R. Maidment",
+      "D. B. Norman",
+      "P. M. Barrett, P. Upchurch"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:258497",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:258512",
+      "taxon": "Hesperosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Stegosaurus",
+      "basis": "stated with evidence",
+      "summary": "Hesperosaurus is a subjective synonym of Stegosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:829938",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

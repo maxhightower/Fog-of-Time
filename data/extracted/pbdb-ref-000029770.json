@@ -23,6 +23,16 @@
       "basis": "stated without evidence",
       "summary": "Torosaurus belongs to Chasmosaurinae.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:265072",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Centrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Centrosaurinae.",
+      "source": "pbdb_opinion"
     }
   ]
 }

@@ -17,6 +17,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:567187",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dicraeosauridae",
+      "basis": "stated with evidence",
+      "summary": "Suuwassea belongs to Dicraeosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:567191",
       "taxon": "Brontosaurus",
       "published_as": null,
@@ -27,6 +37,16 @@
       "source": "pbdb_opinion"
     },
     {
+      "id": "pbdb-opinion:567200",
+      "taxon": "Galeamopus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocinae",
+      "basis": "stated with evidence",
+      "summary": "Galeamopus belongs to Diplodocinae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:567219",
       "taxon": "Brontosaurus excelsus",
       "published_as": null,
@@ -34,6 +54,16 @@
       "related_taxon": "Brontosaurus",
       "basis": "stated with evidence",
       "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:567229",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocoidea",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Diplodocoidea.",
       "source": "pbdb_opinion"
     }
   ]

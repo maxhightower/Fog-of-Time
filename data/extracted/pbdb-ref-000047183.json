@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:47183",
+    "doi": null,
+    "title": "Les faunes des vertébrés jurassiques de la bordure nord-orientale du bassin d'Aquitaine (France): biochronologie et environnements [Jurassic vertebrate faunas from the northeastern border of the Aquitaine Basin (France): biochronology and environments]",
+    "year": 1994,
+    "journal": "3ème Symposium International de Stratigraphie du Jurassique, Poitiers, 22–29 Septembre 1991. Geobios, Mémoire spécial",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=47183",
+    "authors": [
+      "P. Vignaud",
+      "F. de Broin",
+      "M. Brunet, E. Cariou, P. Hantzpergue, B. Lange-Badre"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:472548",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelurosauria",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Coelurosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:472550",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

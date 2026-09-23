@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12960",
+    "doi": "10.5962/p.234822",
+    "title": "Osteology of Haplocanthosaurus, with description of a new species, and remarks on the probable habits of the Sauropoda and the age and origin of the Atlantosaurus Beds",
+    "year": 1903,
+    "journal": "Memoirs of the Carnegie Museum",
+    "url": "https://doi.org/10.5962/p.234822",
+    "authors": [
+      "J. B. Hatcher"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:93037",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Morosauridae",
+      "basis": "stated without evidence",
+      "summary": "Haplocanthosaurus belongs to Morosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

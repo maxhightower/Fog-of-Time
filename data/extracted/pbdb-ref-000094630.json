@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1014917",
+      "taxon": "Xingxiulong yueorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Xingxiulong",
+      "basis": "stated with evidence",
+      "summary": "Xingxiulong yueorum belongs to Xingxiulong.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1014918",
+      "taxon": "Xingxiulong",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Massopoda",
+      "basis": "stated without evidence",
+      "summary": "Xingxiulong belongs to Massopoda.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

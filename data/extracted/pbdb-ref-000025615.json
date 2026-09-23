@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25615",
+    "doi": null,
+    "title": "Dwarf dinosaurs from the Late Cretaceous of Europe?  The ankylosaurian contribution",
+    "year": 2007,
+    "journal": "IV Jornadas Internacionales sobre Paleontología de Dinosaurios y su Entorno, Salas de los Infantes, Burgos, Spain.  Colectivo Arqueológico-Paleontológico Salense",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=25615",
+    "authors": [
+      "X. Pereda Suberbiola",
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:195673",
+      "taxon": "Magyarosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauria",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus belongs to Titanosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:195674",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

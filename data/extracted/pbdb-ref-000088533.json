@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:963923",
+      "taxon": "Musankwa",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Massopoda",
+      "basis": "stated with evidence",
+      "summary": "Musankwa belongs to Massopoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:963924",
+      "taxon": "Musankwa sanyatiensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Musankwa",
+      "basis": "stated with evidence",
+      "summary": "Musankwa sanyatiensis belongs to Musankwa.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

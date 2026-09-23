@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76263",
+    "doi": "10.1080/08912963.2013.871718",
+    "title": "Parataxonomic review of the Upper Cretaceous dinosaur eggshells belonging to the oofamily Megaloolithidae from India and Argentina",
+    "year": 2015,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2013.871718",
+    "authors": [
+      "M. S. Fernández",
+      "A. Khosla"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:830636",
+      "taxon": "Fusioolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Fusioolithidae",
+      "basis": "stated with evidence",
+      "summary": "Fusioolithus belongs to Fusioolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

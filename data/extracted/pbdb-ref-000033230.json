@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:33230",
+    "doi": "10.1206/644.1",
+    "title": "Cranial osteology of the theropod dinosaur Incisivosaurus gauthieri (Theropoda: Oviraptorosauria)",
+    "year": 2009,
+    "journal": "American Museum Novitates",
+    "url": "https://doi.org/10.1206/644.1",
+    "authors": [
+      "A. M. Balanoff",
+      "X. Xu",
+      "Y. Kobayashi, Y. Matsufune, M. A. Norell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:309453",
+      "taxon": "Conchoraptor gracilis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Conchoraptor",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor gracilis belongs to Conchoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:309462",
+      "taxon": "Conchoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Oviraptoridae",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor belongs to Oviraptoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:33958",
+    "doi": null,
+    "title": "[A new oogenus of Elongatoolithidae from the Upper Cretaceous Chichengshan Formation of Tiantai Basin, Zhejiang Province]",
+    "year": 2010,
+    "journal": "Vertebrata PalAsiatica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=33958",
+    "authors": [
+      "Q. Wang",
+      "X.-L. Wang",
+      "Z.-K. Zhao, Y.-G. Jiang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:312021",
+      "taxon": "Continuoolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elongatoolithidae",
+      "basis": "stated without evidence",
+      "summary": "Continuoolithus belongs to Elongatoolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

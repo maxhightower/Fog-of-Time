@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:73432",
+    "doi": "10.1098/rsos.191206",
+    "title": "New records of theropods from the latest Cretaceous of New Jersey and the Maastrichtian Appalachian fauna",
+    "year": 2019,
+    "journal": "Royal Society Open Science",
+    "url": "https://doi.org/10.1098/rsos.191206",
+    "authors": [
+      "C. D. Brownstein"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:923478",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

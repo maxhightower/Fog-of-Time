@@ -1,0 +1,58 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:803",
+    "doi": null,
+    "title": "Fossil vertebrates from the Late Cretaceous Lance Formation, eastern Wyoming",
+    "year": 1964,
+    "journal": "University of California Publications in Geological Sciences",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=803",
+    "authors": [
+      "R. Estes"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:105480",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosauridae belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:105482",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:105483",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:105490",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauridae",
+      "basis": "stated with evidence",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

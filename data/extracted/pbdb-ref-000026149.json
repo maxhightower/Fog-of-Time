@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:26149",
+    "doi": "10.1671/0272-4634(2007)27[902:ansocd]2.0.co;2",
+    "title": "A new species of Carcharodontosaurus (Dinosauria: Theropoda) from the Cenomanian of Niger and a revision of the genus",
+    "year": 2007,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/0272-4634(2007)27[902:ansocd]2.0.co;2",
+    "authors": [
+      "S. Brusatte",
+      "P. C. Sereno"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:202233",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carcharodontosauridae",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Carcharodontosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

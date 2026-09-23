@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9667",
+    "doi": null,
+    "title": "A new genus of sauropod dinosaur from the Sao Khua Formation (Late Jurassic or Early Cretaceous) of northeastern Thailand",
+    "year": 1994,
+    "journal": "Compte Rendus de l'Academie des Sciences, Paris, série IIa",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9667",
+    "authors": [
+      "V. Martin",
+      "E. Buffetaut",
+      "V. Suteethorn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:77970",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:77971",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:34612",
+    "doi": null,
+    "title": "[New carnivorous dinosaurs from the Upper Cretaceous of Mongolia]",
+    "year": 1955,
+    "journal": "Doklady Akademii Nauk USSR",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=34612",
+    "authors": [
+      "E. A. Maleev"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:317353",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinodontidae",
+      "basis": "stated with evidence",
+      "summary": "Gorgosaurus belongs to Deinodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

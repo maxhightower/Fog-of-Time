@@ -127,5 +127,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1015513",
+      "taxon": "Ahvaytum bahndooiveche",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ahvaytum",
+      "basis": "stated with evidence",
+      "summary": "Ahvaytum bahndooiveche belongs to Ahvaytum.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015514",
+      "taxon": "Ahvaytum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated without evidence",
+      "summary": "Ahvaytum belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -1,0 +1,80 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:68512",
+    "doi": "10.1080/02724634.2017.1255639",
+    "title": "The cranial osteology of Buitreraptor gonzalezorum Makovicky, ApesteguÍa, and AgnolÍn, 2005 (Theropoda, Dromaeosauridae), from the Late Cretaceous of Patagonia, Argentina",
+    "year": 2017,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2017.1255639",
+    "authors": [
+      "F. A. Gianechini",
+      "P. J. Makovicky",
+      "S. Apesteguía"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:718344",
+      "taxon": "Talos sampsoni",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talos",
+      "basis": "stated without evidence",
+      "summary": "Talos sampsoni belongs to Talos.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:718350",
+      "taxon": "Talos",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated without evidence",
+      "summary": "Talos belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:718357",
+      "taxon": "Anchiornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated without evidence",
+      "summary": "Anchiornis belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:718358",
+      "taxon": "Sinovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:718365",
+      "taxon": "Sinornithosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Sinornithosaurus belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:718367",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Microraptor belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

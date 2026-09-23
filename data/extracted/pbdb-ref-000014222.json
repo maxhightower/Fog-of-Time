@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14222",
+    "doi": null,
+    "title": "Brontopodus birdi, Lower Cretaceous dinosaur footprints from the U.S. Gulf Coastal Plain",
+    "year": 1989,
+    "journal": "Dinosaur Tracks and Traces. Cambridge University Press, Cambridge",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14222",
+    "authors": [
+      "J. O. Farlow",
+      "J. G. Pittman",
+      "J. M. Hawthorne"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:98862",
+      "taxon": "Brontopodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Brontopodus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

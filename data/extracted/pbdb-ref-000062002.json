@@ -1,0 +1,58 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:62002",
+    "doi": null,
+    "title": "Mongolian dinosaurs",
+    "year": 1997,
+    "journal": "Encyclopedia of Dinosaurs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62002",
+    "authors": [
+      "R. Barsbold"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:638573",
+      "taxon": "Conchoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Oviraptoridae",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor belongs to Oviraptoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:638582",
+      "taxon": "Segnosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Segnosaurus belongs to Therizinosauroidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:638586",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:638614",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauridae",
+      "basis": "stated without evidence",
+      "summary": "Pinacosaurus belongs to Ankylosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

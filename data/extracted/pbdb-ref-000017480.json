@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17480",
+    "doi": null,
+    "title": "The families of the ornithischian dinosaur order Ankylosauria",
+    "year": 1978,
+    "journal": "Palaeontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17480",
+    "authors": [
+      "W. P. Coombs"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:134468",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauridae",
+      "basis": "stated with evidence",
+      "summary": "Pinacosaurus belongs to Ankylosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

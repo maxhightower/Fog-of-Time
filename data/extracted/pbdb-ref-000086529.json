@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86529",
+    "doi": "10.1016/j.cretres.2017.03.029",
+    "title": "Description of a juvenile titanosaurian dinosaur from the Upper Cretaceous of Brazil",
+    "year": 2017,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2017.03.029",
+    "authors": [
+      "J. C. G. Silva Junior",
+      "A. G. Martinelli",
+      "L. C. B. Ribeiro, T. S. Marinho"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:939414",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

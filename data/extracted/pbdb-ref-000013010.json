@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13010",
+    "doi": "10.5962/p.316084",
+    "title": "On the skull of Massospondylus carinatus Owen, 1854 (Dinosauria: Sauropodomorpha) from the Elliot and Clarens Formations (Lower Jurassic) of South Africa",
+    "year": 2004,
+    "journal": "Annals of Carnegie Museum",
+    "url": "https://doi.org/10.5962/p.316084",
+    "authors": [
+      "H.-D. Sues",
+      "R. R. Reisz",
+      "S. Hinic, M. A. Raath"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:93409",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Massospondylidae",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Massospondylidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

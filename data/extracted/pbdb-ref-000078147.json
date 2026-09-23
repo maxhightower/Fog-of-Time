@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78147",
+    "doi": null,
+    "title": "History of the Poison Creek expeditions 1976 – 1990, with description of Haplocanthosaurus post cranials and a subadult diplodocid skull",
+    "year": 2014,
+    "journal": "The Science Museum of Minnesota, Monograph (Paleontology)",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=78147",
+    "authors": [
+      "B. R. Erickson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:850160",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Haplocanthosaurus belongs to Cetiosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

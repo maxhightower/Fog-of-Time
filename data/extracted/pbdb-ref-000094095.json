@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94095",
+    "doi": null,
+    "title": "Reassessing the alpha-taxonomy of the oogenus Macroelongatoolithus based on a new nest from the Cenomanian-age Mussentuchit Member of the Cedar Mountain Formation (Utah)",
+    "year": 2023,
+    "journal": "14th Symposium on Mesozoic Terrestrial Ecosystems and Biota. The Anatomical Record 306 (S1)",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=94095",
+    "authors": [
+      "J. Hedge",
+      "L. E. Zanno"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1011012",
+      "taxon": "Macroelongatoolithus carlylei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macroelongatoolithus",
+      "basis": "stated without evidence",
+      "summary": "Macroelongatoolithus carlylei belongs to Macroelongatoolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

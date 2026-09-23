@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:62229",
+    "doi": "10.7717/peerj.3179",
+    "title": "Osteology of Galeamopus pabsti sp. nov. (Sauropoda: Diplodocidae), with implications for neurocentral closure timing, and the cervico-dorsal transition in diplodocids",
+    "year": 2017,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.3179",
+    "authors": [
+      "E. Tschopp",
+      "O. Mateus"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:641733",
+      "taxon": "Galeamopus pabsti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Galeamopus",
+      "basis": "stated with evidence",
+      "summary": "Galeamopus pabsti belongs to Galeamopus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:641734",
+      "taxon": "Galeamopus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocinae",
+      "basis": "stated with evidence",
+      "summary": "Galeamopus belongs to Diplodocinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

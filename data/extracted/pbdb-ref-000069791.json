@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:69791",
+    "doi": "10.1098/rsos.191057",
+    "title": "New information on the Cretaceous sauropod dinosaurs of Zhejiang Province, China: impact on Laurasian titanosauriform phylogeny and biogeography",
+    "year": 2019,
+    "journal": "Royal Society Open Science",
+    "url": "https://doi.org/10.1098/rsos.191057",
+    "authors": [
+      "P. D. Mannion",
+      "P. Upchurch",
+      "X. Jin, W. Zheng"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:737958",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Euhelopodidae",
+      "basis": "stated with evidence",
+      "summary": "Phuwiangosaurus belongs to Euhelopodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:737975",
+      "taxon": "Wintonotitan",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Somphospondyli",
+      "basis": "stated with evidence",
+      "summary": "Wintonotitan belongs to Somphospondyli.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17549",
+    "doi": null,
+    "title": "A new genus and species of crestless hadrosaur from the Edmonton Formation of Alberta",
+    "year": 1917,
+    "journal": "The Ottawa Naturalist",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17549",
+    "authors": [
+      "L. M. Lambe"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:135040",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosauridae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

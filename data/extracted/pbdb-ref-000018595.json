@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18595",
+    "doi": null,
+    "title": "Ceratopsidae from Alberta",
+    "year": 1940,
+    "journal": "Journal of Paleontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18595",
+    "authors": [
+      "C. M. Sternberg"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:143991",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

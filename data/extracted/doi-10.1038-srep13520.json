@@ -94,5 +94,17 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:583032",
+      "taxon": "Anchiornis huxleyi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchiornis",
+      "basis": "stated without evidence",
+      "summary": "Anchiornis huxleyi belongs to Anchiornis.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

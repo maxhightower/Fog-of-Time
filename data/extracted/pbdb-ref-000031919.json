@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31919",
+    "doi": null,
+    "title": "[Cretaceous fossil eggs from the Tiantai basin of Zhejiang, with a discussion on the extinction of dinosaurs]",
+    "year": 2003,
+    "journal": "Geological Bulletin of China",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=31919",
+    "authors": [
+      "X. Fang",
+      "L. Lu",
+      "Y. Jiang, L. Yang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:296603",
+      "taxon": "Macroelongatoolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elongatoolithidae",
+      "basis": "stated without evidence",
+      "summary": "Macroelongatoolithus belongs to Elongatoolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:296608",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13905",
+    "doi": "10.1016/s0016-6995(98)80123-x",
+    "title": "Late Triassic dinosaurs from the western United States",
+    "year": 1998,
+    "journal": "Géobios",
+    "url": "https://doi.org/10.1016/s0016-6995(98)80123-x",
+    "authors": [
+      "A. P. Hunt",
+      "S. G. Lucas",
+      "A. B. Heckert, R. M. Sullivan, M. G. Lockley"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:617753",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:617758",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

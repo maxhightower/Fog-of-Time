@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14775",
+    "doi": "10.1525/california/9780520242098.003.0005",
+    "title": "Ceratosauria",
+    "year": 2004,
+    "journal": "The Dinosauria (second edition). University of California Press, Berkeley",
+    "url": "https://doi.org/10.1525/california/9780520242098.003.0005",
+    "authors": [
+      "R. S. Tykoski",
+      "T. E. Rowe"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:102407",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysidae",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Coelophysidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:102408",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

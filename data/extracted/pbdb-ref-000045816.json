@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:45816",
+    "doi": null,
+    "title": "La faune herpétologique du Boulonnais pendate l'epoque Jurassique [The herpetological fauna of the Boulonnais during the Jurassic epoch]",
+    "year": 1902,
+    "journal": "Bulletin de la société Academique de l'Arrondissement de Boulogne-sur-Mer",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=45816",
+    "authors": [
+      "H.-E. Sauvage"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:460252",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

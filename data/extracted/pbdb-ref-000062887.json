@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:62887",
+    "doi": "10.4095/312410",
+    "title": "Report of the vertebrate palaeontologist",
+    "year": 1914,
+    "journal": "Summary Report of the Geologcal Survey Department of Mines for the Calendar Year 1913",
+    "url": "https://doi.org/10.4095/312410",
+    "authors": [
+      "L. M. Lambe"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:653882",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12793",
+    "doi": "10.1080/02724634.1985.10011859",
+    "title": "British plated dinosaurs (Ornithischia, Stegosauridae)",
+    "year": 1985,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.1985.10011859",
+    "authors": [
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:92579",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:92580",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

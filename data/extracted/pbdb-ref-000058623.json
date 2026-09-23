@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:58623",
+    "doi": "10.1186/s12862-016-0633-0",
+    "title": "Elongatoolithid eggs containing oviraptorid (Theropoda, Oviraptorosauria) embryos from the Upper Cretaceous of Southern China",
+    "year": 2016,
+    "journal": "BMC Evolutionary Biology",
+    "url": "https://doi.org/10.1186/s12862-016-0633-0",
+    "authors": [
+      "S. Wang",
+      "S. Zhang",
+      "C. Sullivan, X. Xing"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:611842",
+      "taxon": "Conchoraptor gracilis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Conchoraptor",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor gracilis belongs to Conchoraptor.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

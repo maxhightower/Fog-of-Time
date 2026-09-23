@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14158",
+    "doi": "10.1144/gsl.jgs.1888.044.01-04.08",
+    "title": "Note on a new Wealden iguanodont and other dinosaurs",
+    "year": 1888,
+    "journal": "Quarterly Journal of the Geological Society of London",
+    "url": "https://doi.org/10.1144/gsl.jgs.1888.044.01-04.08",
+    "authors": [
+      "R. Lydekker"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:98362",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

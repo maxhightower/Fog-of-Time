@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:68170",
+    "doi": null,
+    "title": "Streptostylie bei Dinosauriern, nebst Bemerkungen über die Verwandtschaft der Vögel und Dinosaurier [Streptostyly in dinosaurs, along with remarks on the relationship of birds and dinosaurs]",
+    "year": 1910,
+    "journal": "Zoologische Jahrbücher. Abteilung für Anatomie und Ontogenie der Tiere",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=68170",
+    "authors": [
+      "J. Versluys"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:714899",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Claosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) belongs to Claosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

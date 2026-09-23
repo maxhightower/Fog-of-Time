@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:10243",
+    "doi": null,
+    "title": "Nipponosaurus sachalinensis: a new genus and species of trachodont dinosaur from Japanese Saghalien",
+    "year": 1936,
+    "journal": "Journal of the Faculty of Science, Hokkaido Imperial University, series 4, Geology and Mineralogy",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=10243",
+    "authors": [
+      "T. Nagao"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:545906",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

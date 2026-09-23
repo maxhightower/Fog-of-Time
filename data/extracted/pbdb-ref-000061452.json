@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:61452",
+    "doi": null,
+    "title": "[Dinosaur footprints of Jinning, Yunnan]",
+    "year": 1986,
+    "journal": "Memoirs of the Beijing Natural History Museum",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=61452",
+    "authors": [
+      "S. Zhen",
+      "J. Li",
+      "C. Rao"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:634701",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauripodidae",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Anchisauripodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:634706",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eubrontidae",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Eubrontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

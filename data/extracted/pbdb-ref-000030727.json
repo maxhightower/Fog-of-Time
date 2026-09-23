@@ -1,0 +1,49 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30727",
+    "doi": "10.1206/650.1",
+    "title": "The perinate skull of Byronosaurus (Troodontidae) with observations on the cranial ontogeny of paravian theropods",
+    "year": 2009,
+    "journal": "American Museum Novitates",
+    "url": "https://doi.org/10.1206/650.1",
+    "authors": [
+      "G. S. Bever",
+      "M. A. Norell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:279414",
+      "taxon": "Sinovenator changii",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinovenator",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator changii belongs to Sinovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:279426",
+      "taxon": "Sinovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated with evidence",
+      "summary": "Sinovenator belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:279444",
+      "taxon": "Conchoraptor gracilis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Conchoraptor",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor gracilis belongs to Conchoraptor.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

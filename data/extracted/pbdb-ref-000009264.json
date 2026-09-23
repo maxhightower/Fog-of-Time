@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9264",
+    "doi": null,
+    "title": "Sauropoda from the Kelamaili region of the Junggar Basin, Xinjiang Autonomous Region",
+    "year": 1990,
+    "journal": "Vertebrata PalAsiatica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9264",
+    "authors": [
+      "Z. Dong"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:169883",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Euhelopodinae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Euhelopodinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

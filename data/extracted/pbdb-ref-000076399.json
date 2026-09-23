@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76399",
+    "doi": null,
+    "title": "Neutron image characterization of the first titanosaur dinosaur embryo in ovo from Algui Ulaan Tsav, Gobi Desert, Mongolia",
+    "year": 2010,
+    "journal": "XXV Jornadas Argentinas de Paleontología de Vertebrados. Resúmenes. Ameghiniana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76399",
+    "authors": [
+      "G. Grellet-TInner",
+      "D. H. Kim",
+      "C. M. Sim"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:831877",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

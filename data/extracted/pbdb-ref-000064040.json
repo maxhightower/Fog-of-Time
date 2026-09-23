@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:64040",
+    "doi": "10.1080/14772019.2015.1059985",
+    "title": "Systematics, phylogeny and palaeobiogeography of the ankylosaurid dinosaurs",
+    "year": 2016,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2015.1059985",
+    "authors": [
+      "V. M. Arbour",
+      "P. J. Currie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:835359",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Pinacosaurus belongs to Ankylosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

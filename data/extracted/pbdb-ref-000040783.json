@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:40783",
+    "doi": "10.1016/j.cretres.2011.11.018",
+    "title": "New leptoceratopsids from the Upper Cretaceous of Alberta, Canada",
+    "year": 2012,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2011.11.018",
+    "authors": [
+      "M. J. Ryan",
+      "D. C. Evans",
+      "P. J. Currie, C. M. Brown, D. Brinkman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:401207",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Centrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Centrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

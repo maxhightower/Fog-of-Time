@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:91259",
+    "doi": null,
+    "title": "Les dinosaures du Maroc – aperçu historique et travaux récents [The dinosaurs of Morocco – historical review and recent work]",
+    "year": 2017,
+    "journal": "Paléontologie des Vertébrés du Maroc: État des Connaissances. Mémoires de la Société Géologique de France, nouvelle série, 180",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=91259",
+    "authors": [
+      "N. Ibrahim",
+      "S. Zouhri",
+      "P. C. Sereno"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:984635",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

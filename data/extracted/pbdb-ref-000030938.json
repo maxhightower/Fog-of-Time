@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30938",
+    "doi": "10.1144/sp315.15",
+    "title": "Bone histology and its implications for the life history and growth of the Early Cretaceous titanosaur Phuwangosaurus sirindhornae",
+    "year": 2009,
+    "journal": "Late Palaeozoic and Mesozoic Ecosystems in SE Asia. The Geological Society of London, Special Publication",
+    "url": "https://doi.org/10.1144/sp315.15",
+    "authors": [
+      "N. Klein",
+      "M. Sander",
+      "V. Suteethorn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:285115",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

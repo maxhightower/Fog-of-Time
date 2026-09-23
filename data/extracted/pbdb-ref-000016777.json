@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16777",
+    "doi": null,
+    "title": "The pectoral girdle and forelimb of a primitive therizinosauroid (Theropoda: Maniraptora): new information on the phylogenetics and evolution of therizinosaurs",
+    "year": 2004,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16777",
+    "authors": [
+      "L. E. Zanno"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:113561",
+      "taxon": "Segnosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Segnosaurus belongs to Therizinosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:113563",
+      "taxon": "Beipiaosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Beipiaosaurus belongs to Therizinosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

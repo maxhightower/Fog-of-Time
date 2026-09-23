@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78473",
+    "doi": null,
+    "title": "New Mexico’s Triassic dinosaur district",
+    "year": 2005,
+    "journal": "New Mexico Geological Society, 56th Field Conference, Geology of the Chama Basin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=78473",
+    "authors": [
+      "A. B. Heckert",
+      "S. G. Lucas",
+      "R. M. Sullivan, A. P. Hunt"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:853385",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -224,5 +224,37 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:912687",
+      "taxon": "Tuebingosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Massopoda",
+      "basis": "stated with evidence",
+      "summary": "Tuebingosaurus belongs to Massopoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:912688",
+      "taxon": "Tuebingosaurus maierfritzorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tuebingosaurus",
+      "basis": "stated with evidence",
+      "summary": "Tuebingosaurus maierfritzorum belongs to Tuebingosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:919070",
+      "taxon": "Plateosaurus trossingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus trossingensis belongs to Plateosaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

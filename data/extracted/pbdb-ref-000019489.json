@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19489",
+    "doi": "10.1671/0272-4634(2006)26[944:rotpso]2.0.co;2",
+    "title": "Re-description of the postcranial skeleton of the Middle Jurassic stegosaur Huayangosaurus taibaii",
+    "year": 2006,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/0272-4634(2006)26[944:rotpso]2.0.co;2",
+    "authors": [
+      "S. C. R. Maidment",
+      "G. Wei",
+      "D. B. Norman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:156410",
+      "taxon": "Hesperosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated without evidence",
+      "summary": "Hesperosaurus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:156412",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

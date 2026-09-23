@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14505",
+    "doi": "10.1017/s2475263000000854",
+    "title": "Ornithopod dinosaurs: relationships, structure, and habits",
+    "year": 1989,
+    "journal": "In K. Padian & D. J. Chure (eds.), The Age of Dinosaurs. Paleontological Society Short Course",
+    "url": "https://doi.org/10.1017/s2475263000000854",
+    "authors": [
+      "D. B. Norman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:101049",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hypsilophodontia",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Hypsilophodontia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101054",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontia",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Iguanodontia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

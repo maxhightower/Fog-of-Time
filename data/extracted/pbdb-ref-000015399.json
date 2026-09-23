@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:15399",
+    "doi": null,
+    "title": "The vertebrate fauna of the Upper Triassic Chinle Formation in northern Arizona",
+    "year": 2005,
+    "journal": "In S. J. Nesbitt, W. G. Parker, & R. B. Irmis (eds.), Guidebook to the Triassic Formations of the Colorado Plateau in Northern Arizona: Geology, Paleontology, and History. Mesa Southwest Museum Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=15399",
+    "authors": [
+      "R. B. Irmis"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:105307",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysoidea",
+      "basis": "implied",
+      "summary": "Coelophysis belongs to Coelophysoidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

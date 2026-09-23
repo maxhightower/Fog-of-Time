@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:5972",
+    "doi": null,
+    "title": "[Advances in the study of fossil dinosaur eggs in our country]",
+    "year": 1979,
+    "journal": "Mesozoic and Cenozoic red beds of South China; selected papers from the field conference on the South China Cretaceous-Early Tertiary red beds. Science Press, Beijing",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=5972",
+    "authors": [
+      "Z. Zhao"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:103932",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

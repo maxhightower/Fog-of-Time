@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19449",
+    "doi": "10.1006/cres.2002.1005",
+    "title": "The first sauropod footprints from China",
+    "year": 2002,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1006/cres.2002.1005",
+    "authors": [
+      "M. G. Lockley",
+      "J. L. Wright",
+      "D. White, M. Matsukawa, J. Li, L. Feng, H. Li"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:155604",
+      "taxon": "Brontopodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Brontopodus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

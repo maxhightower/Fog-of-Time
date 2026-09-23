@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18147",
+    "doi": null,
+    "title": "Important features of the dromaeosaur skeleton II: information from newly collected specimens of Velociraptor mongoliensis",
+    "year": 1999,
+    "journal": "American Museum Novitates",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18147",
+    "authors": [
+      "M. A. Norell",
+      "P. J. Makovicky"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:140014",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

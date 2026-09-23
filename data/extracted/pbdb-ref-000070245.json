@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70245",
+    "doi": "10.1671/0272-4634(2000)020[0130:froete]2.0.co;2",
+    "title": "First record of elongatoolithid theropod eggshell from North America: the Asian oogenus Macroelongatoolithus from the lower Cretaceous of Utah",
+    "year": 2000,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/0272-4634(2000)020[0130:froete]2.0.co;2",
+    "authors": [
+      "D. K. Zelenitsky",
+      "K. Carpenter",
+      "P. J. Currie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:745656",
+      "taxon": "Macroelongatoolithus carlylei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macroelongatoolithus",
+      "basis": "stated with evidence",
+      "summary": "Macroelongatoolithus carlylei belongs to Macroelongatoolithus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:745657",
+      "taxon": "Macroelongatoolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elongatoolithidae",
+      "basis": "stated with evidence",
+      "summary": "Macroelongatoolithus belongs to Elongatoolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

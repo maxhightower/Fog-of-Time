@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17737",
+    "doi": null,
+    "title": "A re-appraisal of Aralosaurus tuberiferus (Dinosauria, Hadrosauridae) from the Late Cretaceous of Kazakhstan",
+    "year": 2004,
+    "journal": "Bulletin de l'Institut Royal des Sciences Naturelles de Belgique, Science de la Terre",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17737",
+    "authors": [
+      "P. Godefroit",
+      "V. R. Alifanov",
+      "Y. L. Bolotsky"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:136061",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:136067",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:136073",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

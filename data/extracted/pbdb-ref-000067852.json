@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:67852",
+    "doi": "10.1038/s41598-018-37943-3",
+    "title": "A new long-spined dinosaur from Patagonia sheds light on sauropod defense system",
+    "year": 2019,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-018-37943-3",
+    "authors": [
+      "P. A. Gallina",
+      "S. Apesteguía",
+      "J. I. Canale, A. Haluza"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:709143",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dicraeosauridae",
+      "basis": "stated with evidence",
+      "summary": "Suuwassea belongs to Dicraeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:50241",
+    "doi": null,
+    "title": "Occurrences nouvelles des Sauriens mésozoïques de Roumanie [New occurrences of Mesozoic vertebrates from Romania]",
+    "year": 1982,
+    "journal": "Vertebrata Hungarica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=50241",
+    "authors": [
+      "T. Jurcsák"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:505479",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": "Titanosaurus dacus",
+      "status": "belongs_to",
+      "related_taxon": "Titanosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus (as Titanosaurus dacus) belongs to Titanosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:505483",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

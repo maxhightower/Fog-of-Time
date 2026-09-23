@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70283",
+    "doi": null,
+    "title": "Review of historical and current research on the Late Cretaceous dinosaurs and dinosaur eggs from Laiyang, Shandong",
+    "year": 2017,
+    "journal": "Vertebrata PalAsiatica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=70283",
+    "authors": [
+      "J.-L. Zhang",
+      "Q. Wang",
+      "S.-X. Jiang, X. Cheng, N. Li, R. Qiu, X.-J. Zhang, Z.-L. Wang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:745890",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

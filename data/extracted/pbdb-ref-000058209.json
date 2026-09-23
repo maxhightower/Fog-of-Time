@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:58209",
+    "doi": null,
+    "title": "Cedar Mountain Formation",
+    "year": 1997,
+    "journal": "Encyclopedia of Dinosaurs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=58209",
+    "authors": [
+      "J. I. Kirkland"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:607975",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:607979",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontia",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Iguanodontia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

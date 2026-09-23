@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18144",
+    "doi": "10.22179/REVMACN.7.340",
+    "title": "Giant titanosaur (Dinosauria, Sauropoda) from the Late Cretaceous of Patagonia",
+    "year": 2005,
+    "journal": "Revista del Museo Argentino de Ciencias Naturales, nuevo serie",
+    "url": "https://doi.org/10.22179/REVMACN.7.340",
+    "authors": [
+      "F. E. Novas",
+      "L. Salgado",
+      "J. O. Calvo, F. L. Agnolín"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:940958",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

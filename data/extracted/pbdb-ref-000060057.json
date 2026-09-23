@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:60057",
+    "doi": "10.1080/02724634.2016.1160910",
+    "title": "A new caenagnathid (Dinosauria: Oviraptorosauria) from the Horseshoe Canyon Formation of Alberta, Canada, and a reevaluation of the relationships of Caenagnathidae",
+    "year": 2016,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2016.1160910",
+    "authors": [
+      "G. F. Funston",
+      "P. J. Currie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:626191",
+      "taxon": "Anzu wyliei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anzu",
+      "basis": "stated without evidence",
+      "summary": "Anzu wyliei belongs to Anzu.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:626214",
+      "taxon": "Anzu",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Caenagnathidae",
+      "basis": "stated with evidence",
+      "summary": "Anzu belongs to Caenagnathidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

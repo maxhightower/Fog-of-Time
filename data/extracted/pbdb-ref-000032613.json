@@ -23,6 +23,26 @@
       "basis": "stated without evidence",
       "summary": "Nanotyrannus lancensis (as Nanotyrannus lencensis) belongs to Nanotyrannus.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:303774",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": "Alberytosaurus libratus",
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus (as Alberytosaurus libratus) belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:303777",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": "Tyranosaurus rex",
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex (as Tyranosaurus rex) belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
     }
   ]
 }

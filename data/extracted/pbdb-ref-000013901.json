@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13901",
+    "doi": null,
+    "title": "Un nuevo y gigantesco saurópodo titanosaurio de la Formación Rio Limay (Albanio-Cenomaniano) de la Provincia del Neuquén, Argentina [A new and huge titanosaur sauropod from the Rio Limay Formation (Albian-Cenomanian) of Neuquén Province, Argentina]",
+    "year": 1993,
+    "journal": "Ameghiniana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13901",
+    "authors": [
+      "J. F. Bonaparte",
+      "R. A. Coria"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:97231",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

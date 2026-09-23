@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:23674",
+    "doi": null,
+    "title": "Recherches sur les reptiles fossiles de l'Afrique australe [Studies on the fossil reptiles of southern Africa]",
+    "year": 1870,
+    "journal": "Nouvelles Archives du Muséum d'Histoire Naturelle, Paris, Mémoires",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=23674",
+    "authors": [
+      "P. Fischer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:168509",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Reptilia",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Reptilia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

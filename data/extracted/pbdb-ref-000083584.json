@@ -1,0 +1,58 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:83584",
+    "doi": "10.1002/chin.197434328",
+    "title": "Die Fossilen Saurierfährten [Fossil Reptile Tracks]",
+    "year": 1974,
+    "journal": "Die Neue Brehm-Bucherei",
+    "url": "https://doi.org/10.1002/chin.197434328",
+    "authors": [
+      "H. Haubold"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:912380",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauripodidae",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Anchisauripodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:912394",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eubrontidae",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Eubrontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:912439",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithischia",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Ornithischia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:912448",
+      "taxon": "Tetrapodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithischia",
+      "basis": "stated without evidence",
+      "summary": "Tetrapodosaurus belongs to Ornithischia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

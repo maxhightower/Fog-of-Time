@@ -1,0 +1,58 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:46756",
+    "doi": "10.1080/14772019.2013.770417",
+    "title": "Skeletal morphology of Kritosaurus navajovius (Dinosauria: Hadrosauridae) from the Late Cretaceous of the North American south-west, with an evaluation of the phylogenetic systematics and biogeography of Kritosaurini",
+    "year": 2013,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2013.770417",
+    "authors": [
+      "A. Prieto-Marquez"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:467725",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurolophinae",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus belongs to Saurolophinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:467727",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:467734",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurolophinae",
+      "basis": "stated with evidence",
+      "summary": "Maiasaura belongs to Saurolophinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:467735",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated with evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

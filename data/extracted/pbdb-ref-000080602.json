@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:80602",
+    "doi": "10.1016/j.cretres.2019.02.021",
+    "title": "A reanalysis of Murusraptor barrosaensis Coria & Currie (2016) affords new evidence about the phylogenetical relationships of Megaraptora",
+    "year": 2019,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2019.02.021",
+    "authors": [
+      "A. M. Aranciaga Rolando",
+      "F. E. Novas",
+      "F. L. Agnolín"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:875885",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated without evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:875891",
+      "taxon": "Australovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptoridae",
+      "basis": "stated with evidence",
+      "summary": "Australovenator belongs to Megaraptoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:875893",
+      "taxon": "Orkoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptoridae",
+      "basis": "stated with evidence",
+      "summary": "Orkoraptor belongs to Megaraptoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1195,5 +1195,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:752189",
+      "taxon": "Siamraptor suwati",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Siamraptor",
+      "basis": "stated with evidence",
+      "summary": "Siamraptor suwati belongs to Siamraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:752190",
+      "taxon": "Siamraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carcharodontosauria",
+      "basis": "stated without evidence",
+      "summary": "Siamraptor belongs to Carcharodontosauria.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

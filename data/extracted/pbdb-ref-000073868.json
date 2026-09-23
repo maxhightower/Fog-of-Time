@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:73868",
+    "doi": null,
+    "title": "A subadult frontal of Daspletosaurus torosus (Theropoda: Tyrannosauridae) from the Late Cretaceous of Alberta, Canada with implications for tyrannosaurid ontogeny and taxonomy",
+    "year": 2020,
+    "journal": "Palarch’s Journal of Vertebrate Palaeontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=73868",
+    "authors": [
+      "C.-g. Yun"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:805892",
+      "taxon": "Daspletosaurus horneri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Daspletosaurus",
+      "basis": "stated without evidence",
+      "summary": "Daspletosaurus horneri belongs to Daspletosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:805895",
+      "taxon": "Daspletosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Daspletosaurini",
+      "basis": "stated without evidence",
+      "summary": "Daspletosaurus belongs to Daspletosaurini.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

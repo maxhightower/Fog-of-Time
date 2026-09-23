@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:67405",
+    "doi": "10.1098/rsbl.2018.0633",
+    "title": "An exceptionally preserved association of complete dinosaur skeletons reveals the oldest long-necked sauropodomorphs",
+    "year": 2018,
+    "journal": "Biology Letters",
+    "url": "https://doi.org/10.1098/rsbl.2018.0633",
+    "authors": [
+      "R. T. Müller",
+      "M. C. Langer",
+      "S. Dias-da-Silva"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:704033",
+      "taxon": "Macrocollum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Unaysauridae",
+      "basis": "stated with evidence",
+      "summary": "Macrocollum belongs to Unaysauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:704034",
+      "taxon": "Macrocollum itaquii",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macrocollum",
+      "basis": "stated with evidence",
+      "summary": "Macrocollum itaquii belongs to Macrocollum.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

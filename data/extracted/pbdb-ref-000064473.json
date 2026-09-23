@@ -43,6 +43,56 @@
       "basis": "stated with evidence",
       "summary": "Gresslyosaurus is a subjective synonym of Zanclodon.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:671587",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Zanclodontidae",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Zanclodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:671601",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated with evidence",
+      "summary": "Allosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:671685",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:671708",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:671757",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Zanclodontidae",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Zanclodontidae.",
+      "source": "pbdb_opinion"
     }
   ]
 }

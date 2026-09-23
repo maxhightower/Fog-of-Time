@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25672",
+    "doi": null,
+    "title": "New records of basal ornithopod dinosaurs in the Cretaceous of north Patagonia",
+    "year": 2007,
+    "journal": "Ameghiniana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=25672",
+    "authors": [
+      "R. A. Coria",
+      "A. V. Cambiaso",
+      "L. Salgado"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:196268",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

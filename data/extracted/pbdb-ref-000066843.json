@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:66843",
+    "doi": "10.1080/08912963.2018.1515935",
+    "title": "The second mamenchisaurid dinosaur from the Middle Jurassic of Eastern China",
+    "year": 2018,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2018.1515935",
+    "authors": [
+      "X.-X. Ren",
+      "J.-D. Huang",
+      "H.-L. You"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:699013",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55576",
+    "doi": "10.3917/empa.094.0117",
+    "title": "Dinosaurios Maravillosos de España [Marvelous Dinosaurs from Spain]",
+    "year": 2014,
+    "journal": "Fukui Prefectural Dinosaur Museum",
+    "url": "https://doi.org/10.3917/empa.094.0117",
+    "authors": [
+      "J. L. Sanz",
+      "F. Ortega",
+      "M. Shibata"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:574960",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carcharodontosauridae",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Carcharodontosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

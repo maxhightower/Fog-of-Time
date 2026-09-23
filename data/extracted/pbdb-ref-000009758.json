@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9758",
+    "doi": null,
+    "title": "Arcosaurios (Crocodilia, Dinosauria) del Cretácico superior de la Conca de Tremp (Lleida, España) [Archosaurs (Crocodilia, Dinosauria) from the Upper Cretaceous of the Tremp Basin (Lleida, Spain)]",
+    "year": 1987,
+    "journal": "Estudios Geologicos, Volumen Extraordinario Galve-Tremp",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9758",
+    "authors": [
+      "M. L. Casanovas",
+      "J. S. Santafé",
+      "J. L. Sanz, A. D. Buscalioni"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:287142",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Titanosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

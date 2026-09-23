@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:33997",
+    "doi": null,
+    "title": "[A new species of Confuciusornis from Lower Cretaceous of Jianchung, Liaoning, China]",
+    "year": 2010,
+    "journal": "Global Geology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=33997",
+    "authors": [
+      "L. Li",
+      "J.-q. Wang",
+      "S.-l. Hou"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:312728",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Confuciusornithidae",
+      "basis": "stated without evidence",
+      "summary": "Confuciusornis belongs to Confuciusornithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

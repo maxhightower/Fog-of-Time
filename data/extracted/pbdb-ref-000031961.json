@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31961",
+    "doi": "10.56577/ffc-56.302",
+    "title": "The vertebrate fauna of the Upper Triassic (Revueltian: early-mid Norian) Painted Desert Member (Petrified Forest Formation: Chinle Group) in the Chama Basin, northern New Mexico",
+    "year": 2005,
+    "journal": "New Mexico Geological Society, 56th Field Conference Guidebook, Geology of the Chama Basin",
+    "url": "https://doi.org/10.56577/ffc-56.302",
+    "authors": [
+      "A. B. Heckert",
+      "S. G. Lucas",
+      "R. M. Sullivan, A. P. Hunt, J. A. Spielmann"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:853333",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -71,5 +71,17 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:977705",
+      "taxon": "Galinhapodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Galinhapodus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

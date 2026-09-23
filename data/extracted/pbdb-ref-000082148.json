@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:82148",
+    "doi": "10.1371/journal.pone.0212543",
+    "title": "Anatomy of the dinosaur Pampadromaeus barberenai (Saurischia—Sauropodomorpha) from the Late Triassic Santa Maria Formation of southern Brazil",
+    "year": 2019,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0212543",
+    "authors": [
+      "M. C. Langer",
+      "B. W. McPhee",
+      "J. C. d. A. Marsola, L. Roberto-da-Silva, S. F.  Cabreira"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:894284",
+      "taxon": "Pampadromaeus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saturnaliidae",
+      "basis": "stated with evidence",
+      "summary": "Pampadromaeus belongs to Saturnaliidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:894286",
+      "taxon": "Panphagia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saturnaliidae",
+      "basis": "stated with evidence",
+      "summary": "Panphagia belongs to Saturnaliidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:894287",
+      "taxon": "Chromogisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saturnaliidae",
+      "basis": "stated with evidence",
+      "summary": "Chromogisaurus belongs to Saturnaliidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:894289",
+      "taxon": "Bagualosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Bagualosauria",
+      "basis": "stated with evidence",
+      "summary": "Bagualosaurus belongs to Bagualosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

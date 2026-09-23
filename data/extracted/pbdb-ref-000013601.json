@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13601",
+    "doi": "10.1017/cbo9780511608377.020",
+    "title": "On the status of the ceratopsids Monoclonius and Centrosaurus",
+    "year": 1990,
+    "journal": "Dinosaur Systematics: Perspectives and Approaches, Cambridge University Press, Cambridge",
+    "url": "https://doi.org/10.1017/cbo9780511608377.020",
+    "authors": [
+      "P. Dodson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:95380",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Centrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Centrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

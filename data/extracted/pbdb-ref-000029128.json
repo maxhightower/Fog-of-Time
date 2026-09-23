@@ -1,0 +1,70 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29128",
+    "doi": "10.1016/j.cretres.2008.06.006",
+    "title": "Malarguesaurus florenciae gen. et sp. nov., a new titanosauriform (Dinosauria, Sauropoda) from the Upper Cretaceous of Mendoza, Argentina",
+    "year": 2009,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2008.06.006",
+    "authors": [
+      "B. J. González Riga",
+      "E. Previtera",
+      "C. A. Pirrone"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:255294",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Flagellicaudata",
+      "basis": "stated without evidence",
+      "summary": "Suuwassea belongs to Flagellicaudata.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:255297",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:255354",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Opisthocoelicaudiinae",
+      "basis": "stated with evidence",
+      "summary": "Alamosaurus belongs to Opisthocoelicaudiinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:255358",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Somphospondyli",
+      "basis": "stated with evidence",
+      "summary": "Titanosauria belongs to Somphospondyli.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:255363",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Somphospondyli",
+      "basis": "stated with evidence",
+      "summary": "Phuwiangosaurus belongs to Somphospondyli.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

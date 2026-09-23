@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:57661",
+    "doi": "10.1038/srep19165",
+    "title": "A gigantic new dinosaur from Argentina and the evolution of the sauropod hind foot",
+    "year": 2016,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/srep19165",
+    "authors": [
+      "B. J. González Riga",
+      "M. C. Lamanna",
+      "L. D. Ortiz David, J. O. Calvo, J. P. Coria"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:602290",
+      "taxon": "Dreadnoughtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lithostrotia",
+      "basis": "stated with evidence",
+      "summary": "Dreadnoughtus belongs to Lithostrotia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:602295",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saltasauridae",
+      "basis": "stated with evidence",
+      "summary": "Alamosaurus belongs to Saltasauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:602296",
+      "taxon": "Diamantinasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saltasauridae",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus belongs to Saltasauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

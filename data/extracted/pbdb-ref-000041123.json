@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:41123",
+    "doi": "10.1206/3722.2",
+    "title": "Anatomy of Mahakala omnogovae (Theropoda: Dromaeosauridae), Tögrögiin Shiree, Mongolia",
+    "year": 2011,
+    "journal": "American Museum Novitates",
+    "url": "https://doi.org/10.1206/3722.2",
+    "authors": [
+      "A. H. Turner",
+      "D. Pol",
+      "M. A. Norell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:880235",
+      "taxon": "Sinovenator changii",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinovenator",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator changii belongs to Sinovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:880255",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

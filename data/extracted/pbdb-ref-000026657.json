@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:26657",
+    "doi": null,
+    "title": "A new giant compsognathid dinosaur with long filamentous integuments from Lower Cretaceous of northeastern China",
+    "year": 2007,
+    "journal": "Acta Geologica Sinica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=26657",
+    "authors": [
+      "S. Ji",
+      "Q. Ji",
+      "J. Lü, C. Yuan"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:213072",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Microraptor belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:213074",
+      "taxon": "Beipiaosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Beipiaosaurus belongs to Therizinosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12248",
+    "doi": "10.2475/ajs.s3-27.160.329",
+    "title": "Principal characters of American Jurassic dinosaurs. Part VIII. The order Theropoda",
+    "year": 1884,
+    "journal": "The American Journal of Science, series 3",
+    "url": "https://doi.org/10.2475/ajs.s3-27.160.329",
+    "authors": [
+      "O. C. Marsh"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:90308",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

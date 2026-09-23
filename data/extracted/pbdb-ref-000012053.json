@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12053",
+    "doi": "10.4095/105006",
+    "title": "On the genus Stephanosaurus, with a description of the type specimen of Lambeosaurus lambei, Parks",
+    "year": 1924,
+    "journal": "Canada Department of Mines Geological Survey Bulletin (Geological Series)",
+    "url": "https://doi.org/10.4095/105006",
+    "authors": [
+      "C. W. Gilmore"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:88637",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

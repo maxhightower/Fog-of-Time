@@ -223,5 +223,47 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1027496",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Pinacosaurus belongs to Ankylosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1027500",
+      "taxon": "Pinacosaurus hilwitnorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pinacosaurus",
+      "basis": "stated with evidence",
+      "summary": "Pinacosaurus hilwitnorum belongs to Pinacosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1027503",
+      "taxon": "Eopinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Eopinacosaurus belongs to Ankylosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1027504",
+      "taxon": "Eopinacosaurus mephistocephalus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eopinacosaurus",
+      "basis": "stated with evidence",
+      "summary": "Eopinacosaurus mephistocephalus belongs to Eopinacosaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

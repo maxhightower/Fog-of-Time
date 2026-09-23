@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:26454",
+    "doi": null,
+    "title": "Oldest records of the Late Triassic theropod dinosaur Coelophysis bauri",
+    "year": 2007,
+    "journal": "In S. G. Lucas & J. A. Spielmann (eds.), The Global Triassic.  New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=26454",
+    "authors": [
+      "J. A. Spielmann",
+      "S. G. Lucas",
+      "L. F. Rinehart, A. P. Hunt, A. B. Heckert, R. M. Sullivan"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:210221",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

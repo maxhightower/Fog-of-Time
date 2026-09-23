@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18353",
+    "doi": null,
+    "title": "Eggs and eggshells of dinosaurs and birds from the Cretaceous of Mongolia",
+    "year": 2000,
+    "journal": "The Age of Dinosaurs in Russia and Mongolia",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18353",
+    "authors": [
+      "K. E. Mikhailov"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:141959",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated with evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

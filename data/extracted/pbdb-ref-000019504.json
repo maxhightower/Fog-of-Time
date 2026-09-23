@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19504",
+    "doi": null,
+    "title": "An unusual multi-individual bonebed in the Two Medicine Formation (Late Cretaceous, Campanian) of Montana (USA)",
+    "year": 2005,
+    "journal": "The Carnivorous Dinosaurs. Indiana University Press, Bloomington",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19504",
+    "authors": [
+      "P. J. Currie",
+      "D. Trexler",
+      "E. B. Koppelhus, K. Wicks, N. Murphy"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:156492",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:156493",
+      "taxon": "Daspletosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Daspletosaurus belongs to Tyrannosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

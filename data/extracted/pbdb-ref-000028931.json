@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:28931",
+    "doi": null,
+    "title": "Facial variation in Coelophysis bauri and the status of Megapnosaurus (Syntarsus)",
+    "year": 2006,
+    "journal": "The Triassic-Jurassic Terrestrial Transition. New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=28931",
+    "authors": [
+      "D. K. Smith",
+      "A. Merrill"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:252302",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:252303",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysidae",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Coelophysidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

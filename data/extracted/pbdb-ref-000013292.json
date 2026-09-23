@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13292",
+    "doi": null,
+    "title": "Edmarka rex, a new, gigantic theropod dinosaur from the middle Morrison Formation, Late Jurassic of the Como Bluff outcrop region",
+    "year": 1992,
+    "journal": "Hunteria",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13292",
+    "authors": [
+      "R. T. Bakker",
+      "J. Siegwarth",
+      "D. Kralis, J. Filla"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:269172",
+      "taxon": "Torvosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Torvosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:269176",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

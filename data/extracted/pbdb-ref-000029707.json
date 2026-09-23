@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29707",
+    "doi": "10.1007/s00114-007-0258-7",
+    "title": "Cranial pneumatization and auditory perceptions of the oviraptorid dinosaur Conchoraptor gracilis (Theropoda, Maniraptora) from the Late Cretaceous of Mongolia",
+    "year": 2007,
+    "journal": "Naturwissenschaften",
+    "url": "https://doi.org/10.1007/s00114-007-0258-7",
+    "authors": [
+      "M. Kundrát",
+      "J. Janácek"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:264289",
+      "taxon": "Conchoraptor gracilis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Conchoraptor",
+      "basis": "implied",
+      "summary": "Conchoraptor gracilis belongs to Conchoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:264290",
+      "taxon": "Conchoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Oviraptoridae",
+      "basis": "implied",
+      "summary": "Conchoraptor belongs to Oviraptoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

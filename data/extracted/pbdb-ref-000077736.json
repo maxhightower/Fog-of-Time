@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:77736",
+    "doi": "10.1098/rsos.201676",
+    "title": "The anatomy and palaeobiology of the early armoured dinosaur Scutellosaurus lawleri (Ornithischia: Thyreophora) from the Kayenta Formation (Lower Jurassic) of Arizona",
+    "year": 2021,
+    "journal": "Royal Society Open Science",
+    "url": "https://doi.org/10.1098/rsos.201676",
+    "authors": [
+      "B. T. Breeden",
+      "T. J. Raven",
+      "R. J. Butler, T. B. Rowe, S. C. R. Maidment"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:846295",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

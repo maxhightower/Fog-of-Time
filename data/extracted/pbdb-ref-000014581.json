@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14581",
+    "doi": "10.5962/p.226716",
+    "title": "Remarks on a skull cap of the genus Troödon",
+    "year": 1936,
+    "journal": "Annals of Carnegie Museum",
+    "url": "https://doi.org/10.5962/p.226716",
+    "authors": [
+      "C. W. Gilmore"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:101517",
+      "taxon": "Pachycephalosaurus wyomingensis",
+      "published_as": "Troodon wyomingensis",
+      "status": "belongs_to",
+      "related_taxon": "Troodon",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus wyomingensis (as Troodon wyomingensis) belongs to Troodon.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:11751",
+    "doi": "10.1017/cbo9780511608377.011",
+    "title": "Theropod teeth from the Judith River Formation of southern Alberta, Canada",
+    "year": 1990,
+    "journal": "In K. Carpenter and P. J. Currie (eds.), Dinosaur Systematics: Perspectives and Approaches. Cambridge University Press, Cambridge",
+    "url": "https://doi.org/10.1017/cbo9780511608377.011",
+    "authors": [
+      "P. J. Currie",
+      "J. K. Rigby, Jr.",
+      "R. E. Sloan"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:81553",
+      "taxon": "Richardoestesia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maniraptora",
+      "basis": "stated without evidence",
+      "summary": "Richardoestesia belongs to Maniraptora.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

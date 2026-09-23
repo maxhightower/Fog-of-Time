@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13664",
+    "doi": "10.4095/101655",
+    "title": "The hadrosaur Edmontosaurus from the Upper Cretaceous of Alberta",
+    "year": 1920,
+    "journal": "Canada Geological Survey Memoirs, Geological Series",
+    "url": "https://doi.org/10.4095/101655",
+    "authors": [
+      "L. M. Lambe"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:95605",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

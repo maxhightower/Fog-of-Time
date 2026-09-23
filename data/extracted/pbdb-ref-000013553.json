@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13553",
+    "doi": null,
+    "title": "VI. Vertebrate Palaeontology 6. Fossil reptiles from Mongolia and Kansu",
+    "year": 1953,
+    "journal": "Reports from the Scientific Expedition to the North-western Provinces of China under Leadership of Dr. Sven Hedin. The Sino-Swedish Expedition Publication",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13553",
+    "authors": [
+      "B. Bohlin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:670327",
+      "taxon": "Pachycephalosaurus wyomingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurus",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus wyomingensis belongs to Pachycephalosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

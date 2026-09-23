@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:35855",
+    "doi": null,
+    "title": "[Dinosaur tracks in Wulatezhongqi, Inner Mongolia]",
+    "year": 2010,
+    "journal": "Acta Geologica Sinica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=35855",
+    "authors": [
+      "J. Li",
+      "Z. Bai",
+      "M. G. Lockley, B. Zhou, J. Liu, Y. Song"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:329455",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eubrontidae",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Eubrontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:329457",
+      "taxon": "Kayentapus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated without evidence",
+      "summary": "Kayentapus belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:329463",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anomoepodidae",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Anomoepodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

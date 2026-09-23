@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14239",
+    "doi": null,
+    "title": "Postcranial anatomy of Saurolophus angustirostris with comments on other hadrosaurs",
+    "year": 1984,
+    "journal": "Palaeontologia Polonica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14239",
+    "authors": [
+      "T. Maryanska",
+      "H. Osmólska"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:99136",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:41617",
+    "doi": "10.1080/14772019.2011.630927",
+    "title": "The phylogeny of Tetanurae (Dinosauria: Theropoda)",
+    "year": 2012,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2011.630927",
+    "authors": [
+      "M. T. Carrano",
+      "R. B. J. Benson",
+      "S. D. Sampson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:411303",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated with evidence",
+      "summary": "Allosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:411305",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated with evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:411320",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:411408",
+      "taxon": "Torvosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Torvosaurus belongs to Megalosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:412249",
+      "taxon": "Orkoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptora",
+      "basis": "stated with evidence",
+      "summary": "Orkoraptor belongs to Megaraptora.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:412250",
+      "taxon": "Orkoraptor burkei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orkoraptor",
+      "basis": "stated with evidence",
+      "summary": "Orkoraptor burkei belongs to Orkoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:412319",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Spinosaurus belongs to Spinosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:412324",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carcharodontosauridae",
+      "basis": "stated with evidence",
+      "summary": "Acrocanthosaurus belongs to Carcharodontosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:412330",
+      "taxon": "Australovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptora",
+      "basis": "stated with evidence",
+      "summary": "Australovenator belongs to Megaraptora.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

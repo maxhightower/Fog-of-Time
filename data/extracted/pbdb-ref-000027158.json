@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:27158",
+    "doi": null,
+    "title": "Discovery of a new ornithopod dinosaur from the Portezuelo Formation (Upper Cretaceous), Neuquén, Patagonia, Argentina",
+    "year": 2007,
+    "journal": "Arquivos do Museu Nacional, Rio de Janeiro",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=27158",
+    "authors": [
+      "J. O. Calvo",
+      "J. D. Porfiri",
+      "F. E. Novas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:218638",
+      "taxon": "Talenkauen",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elasmaria",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen belongs to Elasmaria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:218639",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

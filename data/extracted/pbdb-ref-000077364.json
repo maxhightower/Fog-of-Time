@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:77364",
+    "doi": "10.1371/journal.pone.0254564",
+    "title": "A partial oviraptorosaur skeleton suggests low caenagnathid diversity in the Late Cretaceous Nemegt Formation of Mongolia",
+    "year": 2021,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0254564",
+    "authors": [
+      "G. F. Funston",
+      "P. J. Currie",
+      "C. Tsogtbaatar, T. Khishigjav"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:842665",
+      "taxon": "Anzu wyliei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anzu",
+      "basis": "stated without evidence",
+      "summary": "Anzu wyliei belongs to Anzu.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

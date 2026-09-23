@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:42629",
+    "doi": "10.1016/j.pgeola.2012.04.002",
+    "title": "New cranial remains of titanosaurian sauropod dinosaurs from the Late Cretaceous of Fox-Amphoux-Métisson (Var, SE France)",
+    "year": 2012,
+    "journal": "Proceedings of the Geologists' Association",
+    "url": "https://doi.org/10.1016/j.pgeola.2012.04.002",
+    "authors": [
+      "V. Díez Díaz",
+      "G. Garcia",
+      "F. Knoll, X. Pereda Suberbiola, X. Valentin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:447974",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:447977",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

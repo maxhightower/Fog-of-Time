@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:52577",
+    "doi": "10.1038/srep06196",
+    "title": "A gigantic, exceptionally complete titanosaurian sauropod dinosaur from southern Patagonia, Argentina",
+    "year": 2014,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/srep06196",
+    "authors": [
+      "K. J. Lacovara",
+      "M. C. Lamanna",
+      "L. M. Ibiricu, J. C. Poole, E. R. Schroeter, P. V. Ullmann, K. K. Voegele, Z. M. Boles, A. M. Carter, E. K. Fowler, V. M. Egerton, A. E. Moyer, C. L. Coughenour, J. P. Schein, J. D. Harris, R. D. Martínez, F. E. Novas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:537663",
+      "taxon": "Dreadnoughtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauria",
+      "basis": "stated with evidence",
+      "summary": "Dreadnoughtus belongs to Titanosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:537664",
+      "taxon": "Dreadnoughtus schrani",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dreadnoughtus",
+      "basis": "stated with evidence",
+      "summary": "Dreadnoughtus schrani belongs to Dreadnoughtus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:940961",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

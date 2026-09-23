@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:66078",
+    "doi": "10.5710/AMGH.12.10.2017.3105",
+    "title": "A theropod dinosaur from the Late Jurassic Cañadón Calcáreo Formation of central Patagonia, and the evolution of the theropod tarsus",
+    "year": 2017,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/AMGH.12.10.2017.3105",
+    "authors": [
+      "O. W. M. Rauhut",
+      "D. Pol"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:831744",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

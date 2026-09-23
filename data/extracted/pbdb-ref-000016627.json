@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16627",
+    "doi": null,
+    "title": "History of terrestrial Cretaceous vertebrates of Gondwana",
+    "year": 1986,
+    "journal": "Simposio Bioestratigrafía del Paleozoico Inferior: IV Congreso Argentino de Paleontología y Bioestratigrafía, Mendoza, Argentina",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16627",
+    "authors": [
+      "J. F. Bonaparte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:109518",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

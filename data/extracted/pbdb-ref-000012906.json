@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12906",
+    "doi": "10.1038/415780a",
+    "title": "A basal troodontid from the Early Cretaceous of China",
+    "year": 2002,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/415780a",
+    "authors": [
+      "X. Xu",
+      "M. A. Norell",
+      "X.-l. Wang, P. J. Makovicky, X.-c. Wu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:92907",
+      "taxon": "Sinovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:92908",
+      "taxon": "Sinovenator changii",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinovenator",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator changii belongs to Sinovenator.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

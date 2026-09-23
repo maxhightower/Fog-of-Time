@@ -1,0 +1,49 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:91035",
+    "doi": "10.1016/j.cretres.2023.105780",
+    "title": "Reanalysis of a dataset refutes claims of anagenesis within Tyrannosaurus-line tyrannosaurines (Theropoda, Tyrannosauridae)",
+    "year": 2024,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2023.105780",
+    "authors": [
+      "C. R. Scherer",
+      "C. Voiculescu-Holvad"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:982865",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurini",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosaurini.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:982869",
+      "taxon": "Daspletosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Daspletosaurini",
+      "basis": "stated with evidence",
+      "summary": "Daspletosaurus belongs to Daspletosaurini.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:982870",
+      "taxon": "Nanuqsaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Nanuqsaurus belongs to Tyrannosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

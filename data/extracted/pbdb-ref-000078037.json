@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78037",
+    "doi": "10.1139/E10-051",
+    "title": "A revised life table and survivorship curve for Albertosaurus sarcophagus based on the Dry Island mass death assemblage",
+    "year": 2010,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/E10-051",
+    "authors": [
+      "G. M. Erickson",
+      "P. J. Currie",
+      "B. D. Inouye, A. A. Winn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:849073",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

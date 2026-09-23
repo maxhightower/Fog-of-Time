@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:81392",
+    "doi": "10.7203/sjp.31.2.17158",
+    "title": "A multi-ootaxic assemblage from the Lower Cretaceous of the Cameros Basin (La Rioja; Northern Spain)",
+    "year": 2016,
+    "journal": "Spanish Journal of Palaeontology",
+    "url": "https://doi.org/10.7203/sjp.31.2.17158",
+    "authors": [
+      "M. Moreno-Azanza",
+      "J. M. Gasca",
+      "I. Díaz-Martínez, B. Bauluz Lázaro, J. I. Canudo Sanagustín, A. Fernández, F. Pérez-Lorente"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:879937",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

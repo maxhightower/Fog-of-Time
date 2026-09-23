@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70938",
+    "doi": "10.1016/j.cretres.2015.06.002",
+    "title": "Dinosaur eggshell assemblage from Japan reveals unknown diversity of small theropods",
+    "year": 2016,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2015.06.002",
+    "authors": [
+      "K. Tanaka",
+      "D. K. Zelenitsky",
+      "H. Saegusa, T. Ikeda, C. L. DeBuhr, F. Therrien"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:752424",
+      "taxon": "Macroelongatoolithus carlylei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macroelongatoolithus",
+      "basis": "stated without evidence",
+      "summary": "Macroelongatoolithus carlylei belongs to Macroelongatoolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

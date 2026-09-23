@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:43938",
+    "doi": null,
+    "title": "The Lufeng saurischian fauna in China",
+    "year": 1951,
+    "journal": "Palaeontologia Sinica, New Series C",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=43938",
+    "authors": [
+      "C.-C. Young"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:876902",
+      "taxon": "Sinosaurus triassicus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosaurus",
+      "basis": "stated with evidence",
+      "summary": "Sinosaurus triassicus belongs to Sinosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:40557",
+    "doi": null,
+    "title": "An attempt to name, classify, and describe, the animals that made the fossil footmarks of New England",
+    "year": 1845,
+    "journal": "Sixth Annual Meeeting of the Association of American Geologists and Naturalists, New Haven, CT. Abstract and Proceedings",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=40557",
+    "authors": [
+      "E. Hitchcock"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:397392",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Struthionoidae",
+      "basis": "stated with evidence",
+      "summary": "Eubrontes belongs to Struthionoidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

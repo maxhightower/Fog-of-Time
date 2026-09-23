@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24167",
+    "doi": null,
+    "title": "Fauna of the upper Milk River Beds, southern Alberta",
+    "year": 1935,
+    "journal": "Transactions of the Royal Society of Canada, series 3",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=24167",
+    "authors": [
+      "L. S. Russell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:172390",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinodontidae",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus belongs to Deinodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

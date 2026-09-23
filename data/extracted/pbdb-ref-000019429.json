@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19429",
+    "doi": null,
+    "title": "The enigmatic theropod dinosaur Erectopus superbus (Sauvage 1882) from the Lower Albian of Louppy-le-Château (Meuse, France)",
+    "year": 2005,
+    "journal": "The Carnivorous Dinosaurs. Indiana University Press, Bloomington",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19429",
+    "authors": [
+      "R. Allain"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:155504",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

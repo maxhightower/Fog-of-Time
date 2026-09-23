@@ -17,6 +17,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:102837",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Centrosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Centrosaurus belongs to Centrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:102865",
       "taxon": "Torosaurus",
       "published_as": null,

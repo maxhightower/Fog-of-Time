@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:59213",
+    "doi": null,
+    "title": "Thermal environments of dinosaur nestlings: implications for endothermy and insulation",
+    "year": 1994,
+    "journal": "Dinosaur Eggs and Babies",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=59213",
+    "authors": [
+      "G. S. Paul"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:617542",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

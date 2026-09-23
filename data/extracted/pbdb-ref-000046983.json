@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:46983",
+    "doi": "10.1038/nature12168",
+    "title": "A Jurassic avialan dinosaur from China resolves the early phylogenetic history of birds",
+    "year": 2013,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/nature12168",
+    "authors": [
+      "P. Godefroit",
+      "A. Cau",
+      "D.-Y. Hu, F. Escuillie, W. Wu, G. Dyke"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:470325",
+      "taxon": "Anchiornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Avialae",
+      "basis": "stated with evidence",
+      "summary": "Anchiornis belongs to Avialae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:470331",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Avialae",
+      "basis": "stated without evidence",
+      "summary": "Confuciusornis belongs to Avialae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:470341",
+      "taxon": "Sinovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated with evidence",
+      "summary": "Sinovenator belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

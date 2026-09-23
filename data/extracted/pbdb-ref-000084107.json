@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:84107",
+    "doi": "10.1080/14772019.2023.2171818",
+    "title": "Re-assessment of the Late Jurassic eusauropod Mamenchisaurus sinocanadorum Russell and Zheng, 1993, and the evolution of exceptionally long necks in mamenchisaurids",
+    "year": 2023,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2023.2171818",
+    "authors": [
+      "A. J. Moore",
+      "P. M. Barrett",
+      "P. Upchurch, C.-C. Liao, Y. Ye, B. Hao, X. Xu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:917476",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

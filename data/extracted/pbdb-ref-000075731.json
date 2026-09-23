@@ -75,6 +75,16 @@
       "basis": "stated without evidence",
       "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:824519",
+      "taxon": "Plateosaurus trossingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus trossingensis belongs to Plateosaurus.",
+      "source": "pbdb_opinion"
     }
   ]
 }

@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1024788",
+      "taxon": "Jian changmaensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Jian",
+      "basis": "stated with evidence",
+      "summary": "Jian changmaensis belongs to Jian.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1024789",
+      "taxon": "Jian",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptorinae",
+      "basis": "stated with evidence",
+      "summary": "Jian belongs to Microraptorinae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

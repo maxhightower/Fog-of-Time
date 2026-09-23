@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:68573",
+    "doi": null,
+    "title": "Remarques sur l'évolution des iguanodontidés et l'origine des hadrosauridés [Remarks on the evolution of iguanodontids and the origin of hadrosaurids]",
+    "year": 1975,
+    "journal": "Colloques Internationaux du Centre National de la Recherche Scientifique",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=68573",
+    "authors": [
+      "P. Taquet"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:719405",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:719441",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

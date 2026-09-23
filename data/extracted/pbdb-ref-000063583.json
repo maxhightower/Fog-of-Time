@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63583",
+    "doi": "10.24896/jzbr.2017422",
+    "title": "Teihivenator gen. nov., a new generic name for the tyrannosauroid dinosaur \"Laelaps\" macropus (Cope, 1868; preoccupied by Koch, 1836)",
+    "year": 2017,
+    "journal": "Journal of Zoological and Bioscience Research",
+    "url": "https://doi.org/10.24896/jzbr.2017422",
+    "authors": [
+      "C.-g. Yun"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:663622",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Tyrannosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

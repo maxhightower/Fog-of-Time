@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25692",
+    "doi": null,
+    "title": "Note on some dinosaurian remains in the collection of A. Leeds, Esq.  Part I.  Ornithopsis leedsii.  Part II.  Omosaurus, sp.",
+    "year": 1887,
+    "journal": "Geological Magazine, decade 3",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=25692",
+    "authors": [
+      "J. W. Hulke"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:196350",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Osmosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Osmosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

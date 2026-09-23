@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14534",
+    "doi": null,
+    "title": "Contributions to the knowledge of the reptiles of the Karroo Formation. 5. A new dinosaur from the Stormberg Beds",
+    "year": 1920,
+    "journal": "Annals of the Transvaal Museum",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14534",
+    "authors": [
+      "E. C. N. Van Hoepen"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:101178",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauridae",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Anchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

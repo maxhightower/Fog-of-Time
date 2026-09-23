@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86229",
+    "doi": "10.1080/08912963.2014.998666",
+    "title": "Reassessing the endemic European Upper Cretaceous dinosaur egg Cairanoolithus",
+    "year": 2016,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2014.998666",
+    "authors": [
+      "A. G. Sellés",
+      "À. Galobart"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:937181",
+      "taxon": "Spheroolithus europaeus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithus",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus europaeus belongs to Spheroolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

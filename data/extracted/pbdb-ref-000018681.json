@@ -1,0 +1,58 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18681",
+    "doi": "10.1007/978-3-663-04232-7_11",
+    "title": "Fossilium Catalogus. I: Animalia. Pars 101. Ichnia Tetrapodorum",
+    "year": 1963,
+    "journal": "Ysel Press",
+    "url": "https://doi.org/10.1007/978-3-663-04232-7_11",
+    "authors": [
+      "O. Kuhn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:144777",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauripodidae",
+      "basis": "stated with evidence",
+      "summary": "Grallator belongs to Anchisauripodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:144869",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eubrontidae",
+      "basis": "stated with evidence",
+      "summary": "Eubrontes belongs to Eubrontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:144939",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anomoepodidae",
+      "basis": "stated with evidence",
+      "summary": "Anomoepus belongs to Anomoepodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:144999",
+      "taxon": "Tetrapodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tetrapodosauridae",
+      "basis": "stated with evidence",
+      "summary": "Tetrapodosaurus belongs to Tetrapodosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

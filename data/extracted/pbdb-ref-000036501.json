@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:36501",
+    "doi": "10.1671/039.029.0401",
+    "title": "A new basal sauropodomorph dinosaur from the Upper Elliot Formation (Lower Jurassic) of South Africa",
+    "year": 2009,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/039.029.0401",
+    "authors": [
+      "P. M. Barrett"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:340254",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

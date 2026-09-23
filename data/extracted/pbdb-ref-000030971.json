@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30971",
+    "doi": "10.1093/nq/s7-ix.210.13d",
+    "title": "A Catalogue of British Fossil Vertebrata. Dulao & Company, London",
+    "year": 1890,
+    "journal": null,
+    "url": "https://doi.org/10.1093/nq/s7-ix.210.13d",
+    "authors": [
+      "A. S. Woodward",
+      "C. D. Sherborn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:286067",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

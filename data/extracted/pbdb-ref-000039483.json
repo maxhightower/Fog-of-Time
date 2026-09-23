@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:39483",
+    "doi": "10.1016/j.cretres.2011.11.003",
+    "title": "The southernmost records of Rebbachisauridae (Sauropoda: Diplodocoidea), from early Late Cretaceous deposits in central Patagonia",
+    "year": 2012,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2011.11.003",
+    "authors": [
+      "L. M. Ibiricu",
+      "G. A. Casal",
+      "M. C. Lamanna, R. D. Martínez, J. D. Harris, K. J. Lacovara"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:435754",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocoidea",
+      "basis": "stated with evidence",
+      "summary": "Suuwassea belongs to Diplodocoidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -23,6 +23,16 @@
       "basis": "stated without evidence",
       "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:150683",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
     }
   ]
 }

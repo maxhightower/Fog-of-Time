@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25592",
+    "doi": null,
+    "title": "First stegosaurian dinosaur remains from the Early Cretaceous of Burgos (Spain), with a review of Cretaceous stegosaurs",
+    "year": 2003,
+    "journal": "Revista Española de Paleontología",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=25592",
+    "authors": [
+      "X. Pereda Suberbiola",
+      "P. M. Galton",
+      "F. Torcida, P. Huerta, L. A. Izquierdo, D. Montero, G. Pérez, V. Urién"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:195444",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

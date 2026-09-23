@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63490",
+    "doi": "10.1016/0031-0182(79)90145-7",
+    "title": "Ecological succession among late Palaeozoic and Mesozoic tetrapods",
+    "year": 1979,
+    "journal": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "url": "https://doi.org/10.1016/0031-0182(79)90145-7",
+    "authors": [
+      "M. J. Benton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:661869",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "implied",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

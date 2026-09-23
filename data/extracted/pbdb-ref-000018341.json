@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18341",
+    "doi": "10.1139/e01-051",
+    "title": "A new ankylosaurid (Dinosauria: Ankylosauria) from the Lower Cretaceous of China, with comments on ankylosaurian relationships",
+    "year": 2001,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/e01-051",
+    "authors": [
+      "M. K. Vickaryous",
+      "A. P. Russell",
+      "P. J. Currie, X.-J. Zhao"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:149781",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Pinacosaurus belongs to Ankylosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

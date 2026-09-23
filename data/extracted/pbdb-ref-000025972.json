@@ -26,6 +26,16 @@
       "source": "pbdb_opinion"
     },
     {
+      "id": "pbdb-opinion:199886",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:199891",
       "taxon": "Stygimoloch spinifer",
       "published_as": null,

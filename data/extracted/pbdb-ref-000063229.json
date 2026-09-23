@@ -15,6 +15,26 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:657519",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:657542",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:657545",
       "taxon": "Brontosaurus",
       "published_as": null,
@@ -22,6 +42,56 @@
       "related_taxon": "Apatosaurus",
       "basis": "stated without evidence",
       "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:657547",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Aublysodon",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus is a subjective synonym of Aublysodon.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:657548",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Aublysodon",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus is a subjective synonym of Aublysodon.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:657557",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosauridae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:657575",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:657585",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Iguanodontidae.",
       "source": "pbdb_opinion"
     }
   ]

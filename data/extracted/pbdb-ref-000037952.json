@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:37952",
+    "doi": "10.4202/app.2011.0015",
+    "title": "The first basal dinosauriform (Silesauridae) from the Late Triassic of Morocco",
+    "year": 2012,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://doi.org/10.4202/app.2011.0015",
+    "authors": [
+      "C. F. Kammerer",
+      "S. J. Nesbitt",
+      "N. H. Shubin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:497039",
+      "taxon": "Lewisuchus admixtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lewisuchus",
+      "basis": "stated without evidence",
+      "summary": "Lewisuchus admixtus belongs to Lewisuchus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:497045",
+      "taxon": "Lewisuchus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Silesauridae",
+      "basis": "stated with evidence",
+      "summary": "Lewisuchus belongs to Silesauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

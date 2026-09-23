@@ -16,6 +16,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:245097",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:245156",
       "taxon": "Gresslyosaurus ingens",
       "published_as": null,
@@ -23,6 +33,26 @@
       "related_taxon": "Gresslyosaurus",
       "basis": "implied",
       "summary": "Gresslyosaurus ingens belongs to Gresslyosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:245169",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:246752",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosaurinae.",
       "source": "pbdb_opinion"
     }
   ]

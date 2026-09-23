@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:56054",
+    "doi": null,
+    "title": "An overview of the latest Cretaceous hadrosauroid record in Europe",
+    "year": 2014,
+    "journal": "Hadrosaurs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=56054",
+    "authors": [
+      "F. M. Dalla Vecchia"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:581604",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "nomen_dubium",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum is a nomen dubium (filed under Maiasaura).",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

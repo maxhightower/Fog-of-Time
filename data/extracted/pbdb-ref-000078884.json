@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78884",
+    "doi": "10.1130/0016-7606(1994)106<1377:APATLC>2.3.CO;2",
+    "title": "A pedotype approach to latest Cretaceous and earliest Tertiary paleosols in eastern Montana",
+    "year": 1994,
+    "journal": "Geological Society America Bulletin",
+    "url": "https://doi.org/10.1130/0016-7606(1994)106<1377:APATLC>2.3.CO;2",
+    "authors": [
+      "G. J. Retallack"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:858394",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13525",
+    "doi": null,
+    "title": "Stratigraphy and paleontology of the Cloverly Formation (Lower Cretaceous) of the Bighorn Basin area, Wyoming and Montana",
+    "year": 1970,
+    "journal": "Peabody Museum Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13525",
+    "authors": [
+      "J. H. Ostrom"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:94972",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:94973",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

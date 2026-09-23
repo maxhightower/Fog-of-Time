@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24648",
+    "doi": "10.1016/j.cretres.2006.08.008",
+    "title": "Theropod dinosaurs from Late Cretaceous deposits in the northeastern Aral Sea region, Kazakhstan",
+    "year": 2007,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2006.08.008",
+    "authors": [
+      "A. O. Averianov"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:182498",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

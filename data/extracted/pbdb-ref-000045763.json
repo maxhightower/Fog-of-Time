@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:45763",
+    "doi": "10.1111/j.1475-4983.2012.01198.x",
+    "title": "The postcranial anatomy of Coloradisaurus brevis (Dinosauria: Sauropodomorpha) from the Late Triassic and its phylogenetic implications",
+    "year": 2013,
+    "journal": "Palaeontology",
+    "url": "https://doi.org/10.1111/j.1475-4983.2012.01198.x",
+    "authors": [
+      "C. Apaldetti",
+      "D. Pol",
+      "A. M. Yates"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:459972",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:459974",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Massospondylidae",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Massospondylidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:459979",
+      "taxon": "Seitaad",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Massospondylidae",
+      "basis": "stated with evidence",
+      "summary": "Seitaad belongs to Massospondylidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

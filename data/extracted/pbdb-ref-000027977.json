@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:27977",
+    "doi": "10.1080/10420949409386377",
+    "title": "Late Triassic and Early Jurassic dinosaur footprints in the Höganäs Formation of southern Sweden",
+    "year": 1994,
+    "journal": "Ichnos",
+    "url": "https://doi.org/10.1080/10420949409386377",
+    "authors": [
+      "G. Gierlinski",
+      "A. Ahlberg"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:238864",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated with evidence",
+      "summary": "Grallator belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

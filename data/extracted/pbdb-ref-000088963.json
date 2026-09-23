@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:968301",
+      "taxon": "Baiyinosaurus baojiensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Baiyinosaurus",
+      "basis": "stated with evidence",
+      "summary": "Baiyinosaurus baojiensis belongs to Baiyinosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:968302",
+      "taxon": "Baiyinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauria",
+      "basis": "stated with evidence",
+      "summary": "Baiyinosaurus belongs to Stegosauria.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

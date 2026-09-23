@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:66054",
+    "doi": "10.1111/zoj.12185",
+    "title": "The ankylosaurid dinosaurs of the Upper Cretaceous Baruungoyot and Nemegt formations of Mongolia",
+    "year": 2014,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1111/zoj.12185",
+    "authors": [
+      "V. M. Arbour",
+      "P. J. Currie",
+      "D. Badamgarav"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:750185",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauridae",
+      "basis": "stated with evidence",
+      "summary": "Pinacosaurus belongs to Ankylosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

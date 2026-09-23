@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:82562",
+    "doi": "10.5209/rev_JIGE.2010.v36.n2.10",
+    "title": "New stegosaurian (Ornithischia, Thyreophora) remains from Jurassic-Cretaceous transition beds of Valencia province (Southwestern Iberian Range, Spain)",
+    "year": 2010,
+    "journal": "Journal of Iberian Geology",
+    "url": "https://doi.org/10.5209/rev_JIGE.2010.v36.n2.10",
+    "authors": [
+      "J. Company",
+      "X. Pereda Suberbiola",
+      "J. I. Ruiz-Omeñaca"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:898308",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

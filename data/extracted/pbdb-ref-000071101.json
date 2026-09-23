@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:753821",
+      "taxon": "Gnathovorax cabreirai",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gnathovorax",
+      "basis": "stated with evidence",
+      "summary": "Gnathovorax cabreirai belongs to Gnathovorax.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:753822",
+      "taxon": "Gnathovorax",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated without evidence",
+      "summary": "Gnathovorax belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

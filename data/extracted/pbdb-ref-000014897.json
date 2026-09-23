@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14897",
+    "doi": "10.1525/california/9780520242098.003.0020",
+    "title": "Ankylosauria",
+    "year": 2004,
+    "journal": "The Dinosauria (second edition). University of California Press, Berkeley",
+    "url": "https://doi.org/10.1525/california/9780520242098.003.0020",
+    "authors": [
+      "M. K. Vickaryous",
+      "T. Maryanska",
+      "D. B. Weishampel"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:141262",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Pinacosaurus belongs to Ankylosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

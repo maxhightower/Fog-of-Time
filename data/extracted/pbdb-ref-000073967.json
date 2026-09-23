@@ -1,0 +1,90 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:73967",
+    "doi": "10.1080/02724634.2020.1786836",
+    "title": "Osteology of the wide-hipped titanosaurian sauropod dinosaur Savannasaurus elliottorum from the Upper Cretaceous Winton Formation of Queensland, Australia",
+    "year": 2020,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2020.1786836",
+    "authors": [
+      "S. F. Poropat",
+      "P. D. Mannion",
+      "P. Upchurch, T. R. Tischler, T. Sloan, G. H. K. Sinapius, J. A. Elliott, D. A. Elliott"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:808026",
+      "taxon": "Savannasaurus elliottorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Savannasaurus",
+      "basis": "stated with evidence",
+      "summary": "Savannasaurus elliottorum belongs to Savannasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:808027",
+      "taxon": "Savannasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauria",
+      "basis": "stated with evidence",
+      "summary": "Savannasaurus belongs to Titanosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:808028",
+      "taxon": "Diamantinasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauria",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus belongs to Titanosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:816226",
+      "taxon": "Wintonotitan wattsi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Wintonotitan",
+      "basis": "stated without evidence",
+      "summary": "Wintonotitan wattsi belongs to Wintonotitan.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:816227",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated without evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:816228",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated without evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:816229",
+      "taxon": "Australovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptoridae",
+      "basis": "stated without evidence",
+      "summary": "Australovenator belongs to Megaraptoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:77772",
+    "doi": "10.1139/E10-072",
+    "title": "On gregarious behavior in Albertosaurus",
+    "year": 2010,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/E10-072",
+    "authors": [
+      "P. J. Currie",
+      "D. A. Eberth"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:846693",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

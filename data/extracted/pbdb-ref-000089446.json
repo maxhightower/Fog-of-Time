@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:973777",
+      "taxon": "Ardetosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocinae",
+      "basis": "stated with evidence",
+      "summary": "Ardetosaurus belongs to Diplodocinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:973778",
+      "taxon": "Ardetosaurus viator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ardetosaurus",
+      "basis": "stated with evidence",
+      "summary": "Ardetosaurus viator belongs to Ardetosaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

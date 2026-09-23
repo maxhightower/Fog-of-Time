@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:66718",
+    "doi": "10.1139/cjes-2016-0110",
+    "title": "A basal ceratopsid (Centrosaurinae: Nasutoceratopsini) from the Oldman Formation (Campanian) of Alberta, Canada",
+    "year": 2017,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/cjes-2016-0110",
+    "authors": [
+      "M. J. Ryan",
+      "R. Holmes",
+      "J. Mallon, M. Loewen, D. C. Evans"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:750229",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Centrosaurini",
+      "basis": "stated with evidence",
+      "summary": "Centrosaurus belongs to Centrosaurini.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

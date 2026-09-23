@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:46376",
+    "doi": null,
+    "title": "The postcranial skeleton of Styracosaurus albertensis",
+    "year": 2013,
+    "journal": "Kirtlandia",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=46376",
+    "authors": [
+      "R. B. Holmes",
+      "M. J. Ryan"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:464239",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Centrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Centrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

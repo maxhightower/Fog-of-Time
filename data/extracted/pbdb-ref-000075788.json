@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75788",
+    "doi": "10.1038/s41598-021-83745-5",
+    "title": "A fast-growing basal troodontid (Dinosauria: Theropoda) from the latest Cretaceous of Europe",
+    "year": 2021,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-021-83745-5",
+    "authors": [
+      "A. G. Sellés",
+      "B. Vila",
+      "S. L. Brusatte, P. J. Currie, A. Galobart"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:825118",
+      "taxon": "Talos",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontinae",
+      "basis": "stated with evidence",
+      "summary": "Talos belongs to Troodontinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:825121",
+      "taxon": "Sinovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinovenatorinae",
+      "basis": "stated with evidence",
+      "summary": "Sinovenator belongs to Sinovenatorinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:825139",
+      "taxon": "Sinovenator changii",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinovenator",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator changii belongs to Sinovenator.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:79059",
+    "doi": "10.1134/S003103011201011X",
+    "title": "Brain anatomy of Amurosaurus riabinini and some neurobiological peculiarities of duck-billed dinosaurs",
+    "year": 2012,
+    "journal": "Paleontological Journal",
+    "url": "https://doi.org/10.1134/S003103011201011X",
+    "authors": [
+      "S. V. Saveliev",
+      "V. R. Alifanov",
+      "Y. L. Bolotsky"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:861275",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

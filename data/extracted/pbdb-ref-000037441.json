@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:37441",
+    "doi": "10.1142/9789812819550",
+    "title": "Mesozoic Birds of China",
+    "year": 1997,
+    "journal": null,
+    "url": "https://doi.org/10.1142/9789812819550",
+    "authors": [
+      "L. H. Hou"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:354788",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Confuciusornithidae",
+      "basis": "stated with evidence",
+      "summary": "Confuciusornis belongs to Confuciusornithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

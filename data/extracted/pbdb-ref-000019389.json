@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19389",
+    "doi": null,
+    "title": "[On discovery of the earliest bird fossil in China and the origin of birds]",
+    "year": 1996,
+    "journal": "Chinese Geology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19389",
+    "authors": [
+      "Q. Ji",
+      "S. Ji"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:154316",
+      "taxon": "Sinosauropteryx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosauropterygidae",
+      "basis": "stated without evidence",
+      "summary": "Sinosauropteryx belongs to Sinosauropterygidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

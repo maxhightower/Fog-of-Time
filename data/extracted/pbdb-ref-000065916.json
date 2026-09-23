@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65916",
+    "doi": null,
+    "title": "Le impronte di dinosauri liassici dei Monti Lessini Veronesi [The Liassic dinosaur tracks from the Veronese Monti Lessini]",
+    "year": 2000,
+    "journal": "Bollettino del Museo Civico di Storia Naturale di Verona. Geologia Paleontologia Preistoria",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=65916",
+    "authors": [
+      "P. Mietto",
+      "G. Roghi",
+      "R. Zorzin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:687761",
+      "taxon": "Kayentapus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated without evidence",
+      "summary": "Kayentapus belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

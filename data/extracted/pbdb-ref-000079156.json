@@ -25,6 +25,16 @@
       "basis": "stated without evidence",
       "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:863166",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
     }
   ]
 }

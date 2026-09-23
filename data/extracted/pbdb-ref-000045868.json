@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:45868",
+    "doi": "10.1080/03115518.2011.533978",
+    "title": "New morphological information about Cretaceous sauropod dinosaurs frm the Eromanga Basin, Queensland, Australia",
+    "year": 2011,
+    "journal": "Alcheringa",
+    "url": "https://doi.org/10.1080/03115518.2011.533978",
+    "authors": [
+      "R. E. Molnar"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:763474",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated without evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:763475",
+      "taxon": "Diamantinasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lithostrotia",
+      "basis": "stated without evidence",
+      "summary": "Diamantinasaurus belongs to Lithostrotia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:763476",
+      "taxon": "Wintonotitan wattsi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Wintonotitan",
+      "basis": "stated without evidence",
+      "summary": "Wintonotitan wattsi belongs to Wintonotitan.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

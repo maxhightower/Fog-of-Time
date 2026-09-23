@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76767",
+    "doi": "10.7717/peerj.11290",
+    "title": "Taphonomy and taxonomy of a juvenile lambeosaurine (Ornithischia: Hadrosauridae) bonebed from the late Campanian Wapiti Formation of northwestern Alberta, Canada",
+    "year": 2021,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.11290",
+    "authors": [
+      "B. Holland",
+      "P. R. Bell",
+      "F. Fanti, S. M. Hamilton, D. W. Larson, R. Sissons, C. Sullivan, M. J. Vavrek, Y. Wang, N. E. Campione"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:836309",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated with evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

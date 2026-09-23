@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19742",
+    "doi": null,
+    "title": "Primera cita de un dinosaurio ornitópodo en el Cretácico Inferior (Berriasiense) del SO de la Cuenca Vasco-Cantábrica (Palencia, España) [First note of an ornithopod dinosaur in the Lower Cretaceous (Berriasian) of SW Vasco-Cantabrian Basin (Palencia, Spain)",
+    "year": 2006,
+    "journal": "Revista de la Sociedad Geológica de España",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19742",
+    "authors": [
+      "X. Pereda Suberbiola",
+      "J. I. Ruiz-Omeñaca",
+      "J. M. Hernández, V. Pujalte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:159018",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

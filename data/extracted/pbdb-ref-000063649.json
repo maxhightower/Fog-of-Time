@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63649",
+    "doi": "10.5962/bhl.title.38249",
+    "title": "Check-list of North American Batrachia and Reptilia; with a systematic list of the higher groups, and an essay on geographical distribution. Based on the specimens contained in the U. S. National Museum",
+    "year": 1875,
+    "journal": "Bulletin of the United States National Museum",
+    "url": "https://doi.org/10.5962/bhl.title.38249",
+    "authors": [
+      "E. D. Cope"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:664648",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Teratosauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Teratosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -5,6 +5,7 @@ export interface DatasetManifest {
   publication_report_count: number
   publication_count: number
   theoretical_creature_count?: number
+  creature_count?: number
   oldest_ma: number
   youngest_ma: number
   development_fixture: boolean
@@ -97,6 +98,9 @@ export interface TheoreticalCreature {
   id: string
   name: string
   scientific_name?: string | null
+  rank?: string | null
+  /** True for a hand-curated theoretical creature; false for an official, rule-based one. */
+  curated: boolean
   hypothesis: string
   taxa: string[]
   evidence_count: number

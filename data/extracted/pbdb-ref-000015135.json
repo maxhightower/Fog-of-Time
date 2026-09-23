@@ -16,6 +16,36 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:104151",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauria",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Plateosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:104159",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:104164",
+      "taxon": "Plateosaurus trossingensis",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Plateosaurus longiceps",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus trossingensis is a subjective synonym of Plateosaurus longiceps.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:104944",
       "taxon": "Gresslyosaurus robustus",
       "published_as": null,

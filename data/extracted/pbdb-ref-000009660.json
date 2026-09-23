@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9660",
+    "doi": "10.1017/s0016756800018914",
+    "title": "An ankylosaurid dinosaur from the Upper Cretaceous of Shandong (China)",
+    "year": 1995,
+    "journal": "Geological Magazine",
+    "url": "https://doi.org/10.1017/s0016756800018914",
+    "authors": [
+      "E. Buffetaut"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:77966",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauridae",
+      "basis": "stated without evidence",
+      "summary": "Pinacosaurus belongs to Ankylosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

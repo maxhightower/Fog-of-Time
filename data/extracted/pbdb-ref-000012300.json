@@ -15,6 +15,26 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:90661",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:90662",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinodontidae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Deinodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:90685",
       "taxon": "Torosaurus latus",
       "published_as": null,
@@ -22,6 +42,76 @@
       "related_taxon": "Torosaurus",
       "basis": "stated without evidence",
       "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:90731",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinodontidae",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus belongs to Deinodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:90733",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:90776",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:90799",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinodontidae",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus belongs to Deinodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:90800",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:90808",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosauridae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:90834",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Atlantosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Atlantosauridae.",
       "source": "pbdb_opinion"
     }
   ]

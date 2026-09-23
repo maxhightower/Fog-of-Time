@@ -70,5 +70,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:920549",
+      "taxon": "Amanasaurus nesbitti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Amanasaurus",
+      "basis": "stated with evidence",
+      "summary": "Amanasaurus nesbitti belongs to Amanasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:920551",
+      "taxon": "Amanasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Silesauridae",
+      "basis": "stated with evidence",
+      "summary": "Amanasaurus belongs to Silesauridae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

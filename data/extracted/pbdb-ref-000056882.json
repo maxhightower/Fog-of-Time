@@ -17,6 +17,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:594052",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:594053",
       "taxon": "Nanotyrannus lancensis",
       "published_as": null,

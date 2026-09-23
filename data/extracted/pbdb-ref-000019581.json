@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19581",
+    "doi": null,
+    "title": "Sauropods of Patagonia: systematic update and notes on global sauropod evolution",
+    "year": 2005,
+    "journal": "Thunder-Lizards: The Sauropodomorph Dinosaurs. Indiana University Press, Bloomington",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19581",
+    "authors": [
+      "L. Salgado",
+      "R. A. Coria"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:157083",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

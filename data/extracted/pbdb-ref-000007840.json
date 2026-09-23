@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7840",
+    "doi": null,
+    "title": "A new dromaeosaurid theropod from the Upper Cretaceous of southern France",
+    "year": 1998,
+    "journal": "Oryctos",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=7840",
+    "authors": [
+      "J. Le Loeuff",
+      "E. Buffetaut"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:709809",
+      "taxon": "Utahraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Utahraptor belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

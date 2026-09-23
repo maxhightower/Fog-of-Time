@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14580",
+    "doi": "10.5479/si.00963801.83-2978.159",
+    "title": "On the Reptilia of the Kirtland Formation of New Mexico, with descriptions of new species of fossil turtles",
+    "year": 1935,
+    "journal": "Proceedings of the United States National Museum",
+    "url": "https://doi.org/10.5479/si.00963801.83-2978.159",
+    "authors": [
+      "C. W. Gilmore"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:101494",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinodontidae",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus belongs to Deinodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

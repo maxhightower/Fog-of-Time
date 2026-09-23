@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12666",
+    "doi": "10.1127/njgpa/160/1980/73",
+    "title": "European Jurassic ornithopod dinosaurs of the families Hypsilophodontidae and Camptosauridae",
+    "year": 1980,
+    "journal": "Neues Jahrbuch für Geologie und Paläontologie, Abhandlungen",
+    "url": "https://doi.org/10.1127/njgpa/160/1980/73",
+    "authors": [
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:985912",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

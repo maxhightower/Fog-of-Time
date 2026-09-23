@@ -1,0 +1,70 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:46153",
+    "doi": "10.1111/zoj.12029",
+    "title": "Osteology of the Late Jurassic Portuguese sauropod dinosaur Lusotitan atalaiensis (Macronaria) and the evolutionary history of basal titanosauriforms",
+    "year": 2013,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1111/zoj.12029",
+    "authors": [
+      "P. D. Mannion",
+      "P. Upchurch",
+      "R. N. Barnes, O. Mateus"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:462316",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saltasauridae",
+      "basis": "stated with evidence",
+      "summary": "Alamosaurus belongs to Saltasauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:462324",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:462329",
+      "taxon": "Diamantinasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Somphospondyli",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus belongs to Somphospondyli.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:462354",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Somphospondyli",
+      "basis": "stated with evidence",
+      "summary": "Phuwiangosaurus belongs to Somphospondyli.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:462366",
+      "taxon": "Wintonotitan",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated with evidence",
+      "summary": "Wintonotitan belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

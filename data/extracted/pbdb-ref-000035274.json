@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:35274",
+    "doi": "10.1371/journal.pone.0014075",
+    "title": "New basal iguanodonts from the Cedar Mountain Formation of Utah and the evolution of thumb-spiked dinosaurs",
+    "year": 2010,
+    "journal": "PLoS One",
+    "url": "https://doi.org/10.1371/journal.pone.0014075",
+    "authors": [
+      "A. T. McDonald",
+      "J. I. Kirkland",
+      "D. D. DeBlieux, S. K. Madsen, J. Cavin, A. R. C. Milner, L. Panzarin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:322832",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylopollexia",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Ankylopollexia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:322841",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontia",
+      "basis": "stated with evidence",
+      "summary": "Tenontosaurus belongs to Iguanodontia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:322859",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:322889",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

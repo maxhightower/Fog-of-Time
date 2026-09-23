@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24345",
+    "doi": "10.2475/ajs.s4-38.224.145",
+    "title": "The dinosaurs not a natural order",
+    "year": 1914,
+    "journal": "The American Journal of Science, series 4",
+    "url": "https://doi.org/10.2475/ajs.s4-38.224.145",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:176263",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Podokesauridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Podokesauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

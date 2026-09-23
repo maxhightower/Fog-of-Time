@@ -15,6 +15,26 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:75390",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dryptosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Dryptosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:75397",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:75428",
       "taxon": "Brontosaurus",
       "published_as": null,
@@ -32,6 +52,16 @@
       "related_taxon": "Ceratopsidae",
       "basis": "stated without evidence",
       "summary": "Torosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:75485",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
       "source": "pbdb_opinion"
     }
   ]

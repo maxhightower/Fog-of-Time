@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14173",
+    "doi": null,
+    "title": "Systematic paleontology of the Lower Cretaceous deposits of Maryland: Vertebrata",
+    "year": 1911,
+    "journal": "Lower Cretaceous",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14173",
+    "authors": [
+      "R. S. Lull"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:98428",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated with evidence",
+      "summary": "Allosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

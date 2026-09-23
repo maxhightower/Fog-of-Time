@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:15102",
+    "doi": "10.1525/california/9780520242098.003.0013",
+    "title": "Basal Avialae",
+    "year": 2004,
+    "journal": "In D. B. Weishampel, P. Dodson, and H. Osmólska (eds.), The Dinosauria (second edition). University of California Press, Berkeley",
+    "url": "https://doi.org/10.1525/california/9780520242098.003.0013",
+    "authors": [
+      "K. Padian"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:103992",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Confuciusornithidae",
+      "basis": "stated without evidence",
+      "summary": "Confuciusornis belongs to Confuciusornithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

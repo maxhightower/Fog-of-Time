@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:10483",
+    "doi": null,
+    "title": "A new diplodocoid sauropod dinosaur from the Upper Jurassic Morrison Formation of Montana, USA",
+    "year": 2004,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=10483",
+    "authors": [
+      "J. D. Harris",
+      "P. Dodson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:79393",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Flagellicaudata",
+      "basis": "stated without evidence",
+      "summary": "Suuwassea belongs to Flagellicaudata.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

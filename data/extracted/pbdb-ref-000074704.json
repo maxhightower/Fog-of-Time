@@ -69,5 +69,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:814662",
+      "taxon": "Erythrovenator jacuiensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Erythrovenator",
+      "basis": "stated with evidence",
+      "summary": "Erythrovenator jacuiensis belongs to Erythrovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:814663",
+      "taxon": "Erythrovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated with evidence",
+      "summary": "Erythrovenator belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

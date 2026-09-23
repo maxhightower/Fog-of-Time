@@ -183,5 +183,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:947618",
+      "taxon": "Minqaria bata",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Minqaria",
+      "basis": "stated with evidence",
+      "summary": "Minqaria bata belongs to Minqaria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:947619",
+      "taxon": "Minqaria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Arenysaurini",
+      "basis": "stated with evidence",
+      "summary": "Minqaria belongs to Arenysaurini.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

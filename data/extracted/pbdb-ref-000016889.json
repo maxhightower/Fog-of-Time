@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16889",
+    "doi": null,
+    "title": "Die Besonderheit der Titanosaurier [The peculiarity of titanosaurs]",
+    "year": 1929,
+    "journal": "Centralblatt für Mineralogie, Geologie und Paläontologie Abteilung A",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16889",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:114494",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32248",
+    "doi": "10.1016/j.cretres.2009.06.005",
+    "title": "Pararhabdodon isonensis and Tsintaosaurus spinorhinus: a new clade of lambeosaurine hadrosaurids from Eurasia",
+    "year": 2010,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2009.06.005",
+    "authors": [
+      "A. Prieto-Márquez",
+      "J. R. Wagner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:299985",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurolophinae",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus belongs to Saurolophinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:299986",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurolophinae",
+      "basis": "stated with evidence",
+      "summary": "Maiasaura belongs to Saurolophinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:300174",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:300178",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

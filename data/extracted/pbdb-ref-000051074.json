@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:51074",
+    "doi": "10.1371/journal.pone.0079420",
+    "title": "Tyrant dinosaur evolution tracks the rise and fall of Late Cretaceous oceans",
+    "year": 2013,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0079420",
+    "authors": [
+      "M. A. Loewen",
+      "R. B. Irmis",
+      "J. J. W. Sertich, P. J. Currie, S. D. Sampson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:518476",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Tyrannosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

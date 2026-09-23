@@ -127,5 +127,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:944510",
+      "taxon": "Gandititan",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauria",
+      "basis": "stated with evidence",
+      "summary": "Gandititan belongs to Titanosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:944511",
+      "taxon": "Gandititan cavocaudatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gandititan",
+      "basis": "stated with evidence",
+      "summary": "Gandititan cavocaudatus belongs to Gandititan.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:28145",
+    "doi": "10.1139/E08-21",
+    "title": "A new specimen of Suzhousaurus megatherioides (Dinosauria: Therizinosauroidea) from the Early Cretaceous of northwestern China",
+    "year": 2008,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/E08-21",
+    "authors": [
+      "D.-q. Li",
+      "H.-l. You",
+      "Z.-p. Zhang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:241811",
+      "taxon": "Beipiaosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauroidea",
+      "basis": "stated with evidence",
+      "summary": "Beipiaosaurus belongs to Therizinosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

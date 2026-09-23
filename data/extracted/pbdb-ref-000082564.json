@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:82564",
+    "doi": null,
+    "title": "Primera descripción de restos esqueléticos de dinosaurio ornitópodo en la Formación Villar del Arzobispo (tránsito Jurásico-Cretácico): yacimiento de Cerrito del Olmo (Alpuente, Valencia) [First description of ornithopod dinosaur skeletal remains from the Villar del Arzobispo Formation (Jurassic-Cretaceous transition): Cerrito del Olmo locality (Alpuente, Valencia)]",
+    "year": 2009,
+    "journal": "Geogaceta",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=82564",
+    "authors": [
+      "X. Pereda Suberbiola",
+      "J. I. Ruiz-Omeñaca",
+      "J. Company"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:898307",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

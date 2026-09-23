@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:48107",
+    "doi": "10.1080/08912963.2013.809347",
+    "title": "An early juvenile specimen of Bolong yixianensis (Ornithopoda: Iguanodontia from the Lower Cretaceous of Ningcheng County, Nei Mongol, China",
+    "year": 2013,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2013.809347",
+    "authors": [
+      "W. Zheng",
+      "X. Jin",
+      "M. Shibata, Y. Azuma"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:483054",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated with evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:483108",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

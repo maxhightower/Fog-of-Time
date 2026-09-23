@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12657",
+    "doi": "10.1007/bf02986571",
+    "title": "On Staurikosaurus pricei, an early saurischian dinosaur from the Triassic of Brazil, with notes on the Herrerasauridae and Poposauridae",
+    "year": 1977,
+    "journal": "Paläontologische Zeitschrift",
+    "url": "https://doi.org/10.1007/bf02986571",
+    "authors": [
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:92087",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

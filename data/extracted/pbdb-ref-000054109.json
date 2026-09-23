@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54109",
+    "doi": "10.4072/rbp.2014.3.03",
+    "title": "On maniraptoran material (Dinosauria: Theropoda) from Vale do Rio do Peixe Formation, Bauru Group, Brazil",
+    "year": 2014,
+    "journal": "Revista Brasileira de Paleontologia",
+    "url": "https://doi.org/10.4072/rbp.2014.3.03",
+    "authors": [
+      "R. Delcourt",
+      "O. N. Grillo"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:557372",
+      "taxon": "Conchoraptor gracilis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Conchoraptor",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor gracilis belongs to Conchoraptor.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

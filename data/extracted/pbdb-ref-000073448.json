@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:73448",
+    "doi": "10.1016/j.cretres.2019.02.001",
+    "title": "A new ornithopod dinosaur (Dinosauria: Ornithischia) from the Late Cretaceous of central Patagonia",
+    "year": 2019,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2019.02.001",
+    "authors": [
+      "L. M. Ibiricu",
+      "G. A. Casal",
+      "R. D. Martínez, M. Luna, J. I. Canale, B. N. Alvarez, B. González Riga"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:807611",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

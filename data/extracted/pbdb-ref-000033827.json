@@ -1,0 +1,78 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:33827",
+    "doi": null,
+    "title": "Another look at the dinosaurs of the East Coast of North America",
+    "year": 2006,
+    "journal": "III Jornadas Internacionales sobre Paleontología de Dinosaurios y su Entorno, Salas de los Infantes, Burgos, Spain. Colectivo Arqueológico-Paleontológico Salense",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=33827",
+    "authors": [
+      "D. B. Weishampel"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:310839",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:310841",
+      "taxon": "Kayentapus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Kayentapus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:310858",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:310866",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithischia",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Ornithischia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:310874",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Allosauroidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:310882",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Euornithopoda",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Euornithopoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

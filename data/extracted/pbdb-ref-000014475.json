@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14475",
+    "doi": null,
+    "title": "Les sauropodes chinois [The Chinese sauropods]",
+    "year": 1999,
+    "journal": "Revue Paléobiologie, Genève",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14475",
+    "authors": [
+      "V. Martin-Rolland"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:100729",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Euhelopodinae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Euhelopodinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

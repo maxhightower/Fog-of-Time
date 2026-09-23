@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12330",
+    "doi": null,
+    "title": "On the genus Trachodon of Leidy",
+    "year": 1918,
+    "journal": "The Ottawa Naturalist",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12330",
+    "authors": [
+      "L. M. Lambe"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:91024",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:91038",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Claosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) belongs to Claosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

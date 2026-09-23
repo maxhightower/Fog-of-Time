@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:51881",
+    "doi": "10.5252/g2012n2a4",
+    "title": "First record of stegosaur dinosaur tracks in the Lower Cretaceous (Berriasian) of Europe (Oncala group, Soria, Spain)",
+    "year": 2012,
+    "journal": "Geodiversitas",
+    "url": "https://doi.org/10.5252/g2012n2a4",
+    "authors": [
+      "C. Pascual",
+      "J. I. Canudo",
+      "N. Hernández, J. L. Barco, D. Castanera"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:527174",
+      "taxon": "Deltapodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauria",
+      "basis": "stated without evidence",
+      "summary": "Deltapodus belongs to Stegosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:527177",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

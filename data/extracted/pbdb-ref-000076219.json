@@ -1,0 +1,70 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76219",
+    "doi": "10.7717/peerj.5749",
+    "title": "A new tyrannosaurid (Dinosauria: Theropoda) from the Upper Cretaceous Menefee Formation of New Mexico",
+    "year": 2018,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.5749",
+    "authors": [
+      "A. T. McDonald",
+      "D. G. Wolfe",
+      "A. C. Dooley"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:830435",
+      "taxon": "Nanuqsaurus hoglundi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nanuqsaurus",
+      "basis": "stated without evidence",
+      "summary": "Nanuqsaurus hoglundi belongs to Nanuqsaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:830436",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:830437",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:830439",
+      "taxon": "Daspletosaurus horneri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Daspletosaurus",
+      "basis": "stated without evidence",
+      "summary": "Daspletosaurus horneri belongs to Daspletosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:830442",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

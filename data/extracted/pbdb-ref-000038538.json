@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:38538",
+    "doi": "10.1016/j.cretres.2010.10.006",
+    "title": "An unusual theropod track assemblage from the Cretaceous of the Zhucheng area, Shandong Province, China",
+    "year": 2011,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2010.10.006",
+    "authors": [
+      "R. Li",
+      "M. G. Lockley",
+      "M. Matsukawa, K. Wang, M. Liu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:368004",
+      "taxon": "Velociraptorichnus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinonychosauria",
+      "basis": "stated without evidence",
+      "summary": "Velociraptorichnus belongs to Deinonychosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

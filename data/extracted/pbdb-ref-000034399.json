@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:34399",
+    "doi": "10.1007/s12542-010-0057-x",
+    "title": "New record of a sauropod in the Jurassic-Cretaceous transition of the Iberian Peninsular (Spain): palaeobiogeographical implications",
+    "year": 2010,
+    "journal": "Palaeontologische Zeitschrift",
+    "url": "https://doi.org/10.1007/s12542-010-0057-x",
+    "authors": [
+      "J. I. Canudo",
+      "J. L. Barco",
+      "D. Castanera, F. T. Fernández-Baldor"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:315912",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Neosauropoda",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Neosauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:315914",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated with evidence",
+      "summary": "Phuwiangosaurus belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

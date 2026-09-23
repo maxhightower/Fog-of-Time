@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:57254",
+    "doi": null,
+    "title": "Caenagnathasia sp. (Theropoda: Oviraptorosauria) from the Iren Dabasu Formation (Upper Cretaceous: Campanian) of Erenhot, Nei Mongol, China",
+    "year": 2015,
+    "journal": "Vertebrata PalAsiatica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=57254",
+    "authors": [
+      "X. Yao",
+      "X.-L. Wang",
+      "C. Sullivan, S. Wang, T. A. Stidham, X. Xu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:598335",
+      "taxon": "Anzu wyliei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anzu",
+      "basis": "stated without evidence",
+      "summary": "Anzu wyliei belongs to Anzu.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

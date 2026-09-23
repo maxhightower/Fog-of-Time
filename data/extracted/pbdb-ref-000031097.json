@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31097",
+    "doi": null,
+    "title": "New dinosaur discoveries in Thailand",
+    "year": 1995,
+    "journal": "International Conference on Geology, Geotechnology and Mineral Resources of Indochina (Geo-Indo '95), 22-25 November 1995, Khon Kaen, Thailand",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=31097",
+    "authors": [
+      "E. Buffetaut",
+      "V. Suteethorn",
+      "V. Martin, H. Tong, Y. Chaimanee, S. Triamwichanon"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:286658",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:286661",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Euhelopodidae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Euhelopodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

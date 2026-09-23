@@ -23,6 +23,26 @@
       "basis": "stated without evidence",
       "summary": "Gresslyosaurus is a subjective synonym of Zanclodon.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:288591",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauria",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus belongs to Stegosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:288594",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
     }
   ]
 }

@@ -1,0 +1,69 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63574",
+    "doi": null,
+    "title": "The biostratigraphy of the Permian and the Triassic. Part 5. A review of the classification and distribution of Permo-Triassic tetrapods",
+    "year": 1978,
+    "journal": "Palaeontologica Africana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63574",
+    "authors": [
+      "J. M. Anderson",
+      "A. R. I. Cruickshank"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:663452",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurischia",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Saurischia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:663458",
+      "taxon": "Sinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Melanorosauridae",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus belongs to Melanorosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:663459",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:663463",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:663474",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Podokesauridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Podokesauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

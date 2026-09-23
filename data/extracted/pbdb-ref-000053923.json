@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53923",
+    "doi": null,
+    "title": "Vertebrate Paleontology",
+    "year": 1942,
+    "journal": "Forty-Fifth Annual Report of the Carnegie Museum for the Year Ended December 31, 1942",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53923",
+    "authors": [
+      "A. Avinoff"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:554907",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

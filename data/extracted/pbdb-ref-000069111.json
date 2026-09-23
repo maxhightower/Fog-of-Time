@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:69111",
+    "doi": "10.1111 ⁄ j.1502-3931.2012.00310.x",
+    "title": "A sauropod rib with an embedded theropod tooth: direct evidence for feeding behaviour in the Jehol Group, China",
+    "year": 2012,
+    "journal": "Lethaia",
+    "url": "https://doi.org/10.1111 ⁄ j.1502-3931.2012.00310.x",
+    "authors": [
+      "L. Xing",
+      "P. R. Bell",
+      "P. J. Currie, M. Shibata, K. Tseng, Z. Dong"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:724974",
+      "taxon": "Beipiaosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Beipiaosaurus belongs to Therizinosauroidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:724977",
+      "taxon": "Sinosauropteryx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Compsognathidae",
+      "basis": "stated without evidence",
+      "summary": "Sinosauropteryx belongs to Compsognathidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

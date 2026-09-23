@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:997141",
+      "taxon": "Shri rapax",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Shri",
+      "basis": "stated with evidence",
+      "summary": "Shri rapax belongs to Shri.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:997142",
+      "taxon": "Shri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Velociraptorinae",
+      "basis": "stated with evidence",
+      "summary": "Shri belongs to Velociraptorinae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

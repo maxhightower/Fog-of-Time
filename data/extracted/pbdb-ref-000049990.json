@@ -1,0 +1,169 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:49990",
+    "doi": "10.11646/zootaxa.3759.1.1",
+    "title": "Abelisauridae (Dinosauria: Theropoda) from the Late Jurassic of Portugal and dentition-based phylogeny as a contribution for the indentification of isolated theropod teeth",
+    "year": 2014,
+    "journal": "Zootaxa",
+    "url": "https://doi.org/10.11646/zootaxa.3759.1.1",
+    "authors": [
+      "C. Hendrickx",
+      "O. Mateus"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:503565",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelurosauria",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Coelurosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:503568",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysoidea",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Coelophysoidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:503587",
+      "taxon": "Torvosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated with evidence",
+      "summary": "Torvosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:503591",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated with evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:503593",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:503596",
+      "taxon": "Australovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Neovenatoridae",
+      "basis": "stated with evidence",
+      "summary": "Australovenator belongs to Neovenatoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:503598",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carcharodontosauridae",
+      "basis": "stated with evidence",
+      "summary": "Acrocanthosaurus belongs to Carcharodontosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:503607",
+      "taxon": "Richardoestesia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated with evidence",
+      "summary": "Richardoestesia belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:503608",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:883395",
+      "taxon": "Sanjuansaurus gordilloi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sanjuansaurus",
+      "basis": "stated without evidence",
+      "summary": "Sanjuansaurus gordilloi belongs to Sanjuansaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:883396",
+      "taxon": "Eodromaeus murphi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eodromaeus",
+      "basis": "stated without evidence",
+      "summary": "Eodromaeus murphi belongs to Eodromaeus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:883422",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:883424",
+      "taxon": "Eoraptor lunensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eoraptor",
+      "basis": "stated without evidence",
+      "summary": "Eoraptor lunensis belongs to Eoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:883430",
+      "taxon": "Orkoraptor burkei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orkoraptor",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor burkei belongs to Orkoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:883441",
+      "taxon": "Orkoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Neovenatoridae",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor belongs to Neovenatoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

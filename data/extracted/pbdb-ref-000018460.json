@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18460",
+    "doi": null,
+    "title": "A new hadrosauroid dinosaur from the mid-Cretaceous of Liaoning, China",
+    "year": 2003,
+    "journal": "Acta Geologica Sinica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18460",
+    "authors": [
+      "H. You",
+      "Q. Ji",
+      "J. Li, Y. Li"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:142834",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

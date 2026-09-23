@@ -15,6 +15,76 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:112271",
+      "taxon": "Eoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated with evidence",
+      "summary": "Eoraptor belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112281",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112284",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Massospondylidae",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Massospondylidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112296",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macronaria",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Macronaria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112302",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Somphospondyli",
+      "basis": "stated with evidence",
+      "summary": "Titanosauria belongs to Somphospondyli.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112320",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112344",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:112345",
       "taxon": "Stygimoloch",
       "published_as": null,
@@ -22,6 +92,26 @@
       "related_taxon": "Pachycephalosaurinae",
       "basis": "stated with evidence",
       "summary": "Stygimoloch belongs to Pachycephalosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112372",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontia",
+      "basis": "stated with evidence",
+      "summary": "Tenontosaurus belongs to Iguanodontia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:112618",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithurae",
+      "basis": "stated with evidence",
+      "summary": "Confuciusornis belongs to Ornithurae.",
       "source": "pbdb_opinion"
     }
   ]

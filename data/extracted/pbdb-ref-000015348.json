@@ -35,6 +35,36 @@
       "source": "pbdb_opinion"
     },
     {
+      "id": "pbdb-opinion:187391",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:187629",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coeluridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Coeluridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:187630",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:187702",
       "taxon": "Torosaurus",
       "published_as": null,
@@ -52,6 +82,26 @@
       "related_taxon": "Torosaurus",
       "basis": "stated without evidence",
       "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:187723",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:187741",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "subjective_synonym_of",
+      "related_taxon": "Thespesius occidentalis",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) is a subjective synonym of Thespesius occidentalis.",
       "source": "pbdb_opinion"
     },
     {

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76677",
+    "doi": "10.1038/s41598-021-87719-5",
+    "title": "A new basal hadrosaurid (Dinosauria: Ornithischia) from the latest Cretaceous Kita-ama Formation in Japan implies the origin of hadrosaurids",
+    "year": 2021,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-021-87719-5",
+    "authors": [
+      "Y. Kobayashi",
+      "R. Takasaki",
+      "K. Kubota, A. R. Fiorillo"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:834177",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

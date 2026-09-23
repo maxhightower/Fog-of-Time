@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14569",
+    "doi": null,
+    "title": "A new sauropod dinosaur from the Ojo Alamo Formation of New Mexico",
+    "year": 1922,
+    "journal": "Smithsonian Miscellaneous Collections",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14569",
+    "authors": [
+      "C. W. Gilmore"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:101428",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

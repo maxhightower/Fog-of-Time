@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:27970",
+    "doi": null,
+    "title": "Studies in paleopathology [second series, II].  Excess callus following fracture of the fore foot in a Cretaceous dinosaur",
+    "year": 1926,
+    "journal": "Annals of Medical History",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=27970",
+    "authors": [
+      "R. L. Moodie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:238606",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Thespesius annectens",
+      "status": "belongs_to",
+      "related_taxon": "Thespesius",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Thespesius annectens) belongs to Thespesius.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55604",
+    "doi": "10.1016/j.cretres.2015.06.005",
+    "title": "First pachycephalosaurid (Dinosauria: Ornithischia) from the Frenchman Formation (upper Maastrichtian) of Saskatchewan, Canada",
+    "year": 2015,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2015.06.005",
+    "authors": [
+      "J. C. Mallon",
+      "D. C. Evans",
+      "T. T. Tokaryk, M. L. Currie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:575350",
+      "taxon": "Pachycephalosaurus wyomingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurus",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus wyomingensis belongs to Pachycephalosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

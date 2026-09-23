@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32498",
+    "doi": "10.1007/s12542-009-0017-5",
+    "title": "New remains of Hungarosaurus tormai (Ankylosauria, Dinosauria) from the Upper Cretaceous of Hungary: skeletal reconstruction and body mass estimation",
+    "year": 2009,
+    "journal": "Palaeontologische Zeitschrift",
+    "url": "https://doi.org/10.1007/s12542-009-0017-5",
+    "authors": [
+      "A. Osi",
+      "L. A. Makádi"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:302286",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauridae",
+      "basis": "stated with evidence",
+      "summary": "Pinacosaurus belongs to Ankylosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

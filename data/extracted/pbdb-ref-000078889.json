@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78889",
+    "doi": null,
+    "title": "Information on the foot morphology, pedal skin texture and limb dynamics of sauropods: evidence from the ichnological record of the Middle Jurassic of the Cleveland Basin, Yorkshire, UK",
+    "year": 2012,
+    "journal": "Zubía",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=78889",
+    "authors": [
+      "M. Romano",
+      "M. A. Whyte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:858399",
+      "taxon": "Deltapodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated without evidence",
+      "summary": "Deltapodus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

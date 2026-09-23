@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:69509",
+    "doi": "10.1016/j.palwor.2017.01.002",
+    "title": "Vertebrate assmblages of the Jurassic Yanliao Biota and the Early Cretaceous Jehol Biota: comparisons and implications",
+    "year": 2017,
+    "journal": "Palaeoworld",
+    "url": "https://doi.org/10.1016/j.palwor.2017.01.002",
+    "authors": [
+      "Z.-H. Zhou",
+      "Y. Wang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:730398",
+      "taxon": "Anchiornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Paraves",
+      "basis": "stated without evidence",
+      "summary": "Anchiornis belongs to Paraves.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -15,6 +15,86 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:137907",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:137975",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Anatosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Anatosaurus",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus annectens (as Anatosaurus annectens) belongs to Anatosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:138920",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosauridae",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus belongs to Hadrosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:430424",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauridae",
+      "basis": "stated with evidence",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:430426",
+      "taxon": "Pachycephalosaurus wyomingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurus",
+      "basis": "stated with evidence",
+      "summary": "Pachycephalosaurus wyomingensis belongs to Pachycephalosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:430444",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:431606",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nodosauridae",
+      "basis": "stated with evidence",
+      "summary": "Pinacosaurus belongs to Nodosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:431677",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Monoclonius",
+      "basis": "stated with evidence",
+      "summary": "Centrosaurus is a subjective synonym of Monoclonius.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:431701",
       "taxon": "Torosaurus",
       "published_as": null,

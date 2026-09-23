@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24989",
+    "doi": null,
+    "title": "Nuevos restos de Allosaurus fragilis (Theropoda: Carnosauria) del yacimiento de Andrés (Jurásico Superior; centro-oeste de Portugal) [New remains of Allosaurus fragilis (Theropoda: Carnosauria) from the Andres locality (Upper Jurassic; west-central Portugal)]",
+    "year": 2007,
+    "journal": "In Cantera Paleontológica, Diputación Provincial de Cuenca, Cuenca, Spain",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=24989",
+    "authors": [
+      "E. Malafaia",
+      "P. Dantas",
+      "F. Ortega, F. Escaso"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:186276",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

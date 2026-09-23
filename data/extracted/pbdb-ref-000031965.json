@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31965",
+    "doi": "10.3406/rhr.1986.2657",
+    "title": "The Dinosaur Heresies. William Morrow and Company, Inc, New York",
+    "year": 1986,
+    "journal": null,
+    "url": "https://doi.org/10.3406/rhr.1986.2657",
+    "authors": [
+      "R. T. Bakker"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:297011",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dinoaves",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Dinoaves.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1024790",
+      "taxon": "Ceratocaudia antiqua",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratocaudia",
+      "basis": "stated with evidence",
+      "summary": "Ceratocaudia antiqua belongs to Ceratocaudia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1024791",
+      "taxon": "Ceratocaudia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macronaria",
+      "basis": "stated with evidence",
+      "summary": "Ceratocaudia belongs to Macronaria.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

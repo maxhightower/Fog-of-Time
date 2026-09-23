@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:23495",
+    "doi": null,
+    "title": "Mittheilungen, an Professor Bronn gerichtet [Communications, sent to Professor Bronn]",
+    "year": 1837,
+    "journal": "Neues Jahrbuch für Mineralogie, Geognosie, Geologie und Petrefaktenkunde",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=23495",
+    "authors": [
+      "H. v. Meyer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:166422",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauria",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Sauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

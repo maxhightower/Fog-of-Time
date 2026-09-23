@@ -15,6 +15,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:146168",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Flagellicaudata",
+      "basis": "stated without evidence",
+      "summary": "Suuwassea belongs to Flagellicaudata.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:146171",
       "taxon": "Brontosaurus excelsus",
       "published_as": "Apatosaurus excelsus",

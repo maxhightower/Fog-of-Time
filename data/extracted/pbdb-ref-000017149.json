@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17149",
+    "doi": null,
+    "title": "The evidence for endothermy in dinosaurs",
+    "year": 1980,
+    "journal": "In E. C. Olson & R. D. K. Thomas (eds.), A Cold Look at the Warm-Blooded Dinosaurs. AAAS Selected Symposium 28. Westview Press, Boulder, CO",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17149",
+    "authors": [
+      "J. H. Ostrom"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:121047",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

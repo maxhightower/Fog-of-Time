@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:62226",
+    "doi": "10.7717/peerj.3217",
+    "title": "The earliest known titanosauriform sauropod dinosaur and the evolution of Brachiosauridae",
+    "year": 2017,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.3217",
+    "authors": [
+      "P. D. Mannion",
+      "R. Allain",
+      "O. Moine"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:641595",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

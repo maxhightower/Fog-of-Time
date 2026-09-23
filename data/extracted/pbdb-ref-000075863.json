@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75863",
+    "doi": "10.1080/02724634.2021.1878202",
+    "title": "Systematics and paleobiology of a new articulated axial specimen referred to Iguanodon cf. galvensis (Ornithopoda, Iguanodontoidea)",
+    "year": 2021,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2021.1878202",
+    "authors": [
+      "F. J. Verdú",
+      "R. Royo-Torres",
+      "A. Cobos, L. Alcalá"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:826123",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontia",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Iguanodontia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:826124",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylopollexia",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Ankylopollexia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:826165",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Euhadrosauria",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Euhadrosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14889",
+    "doi": "10.1038/45769",
+    "title": "A dromaeosaurid dinosaur with a filamentous integument from the Yixian Formation of China",
+    "year": 1999,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/45769",
+    "authors": [
+      "X. Xu",
+      "X.-L. Wang",
+      "X.-C. Wu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:102997",
+      "taxon": "Sinornithosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Sinornithosaurus belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

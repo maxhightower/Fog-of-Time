@@ -1,0 +1,130 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94731",
+    "doi": "10.1080/14772019.2024.2346577",
+    "title": "A comprehensive phylogenetic analysis on early ornithischian evolution",
+    "year": 2024,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2024.2346577",
+    "authors": [
+      "A. O. Fonseca",
+      "I. J. Reid",
+      "A. Venner, R. J. Duncan, M. S. Garcia, R. T. Müller"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1015804",
+      "taxon": "Lewisuchus admixtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lewisuchus",
+      "basis": "stated without evidence",
+      "summary": "Lewisuchus admixtus belongs to Lewisuchus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015805",
+      "taxon": "Lewisuchus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Silesauridae",
+      "basis": "stated with evidence",
+      "summary": "Lewisuchus belongs to Silesauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015813",
+      "taxon": "Kwanasaurus williamparkeri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Kwanasaurus",
+      "basis": "stated without evidence",
+      "summary": "Kwanasaurus williamparkeri belongs to Kwanasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015814",
+      "taxon": "Kwanasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sulcimentisauria",
+      "basis": "stated with evidence",
+      "summary": "Kwanasaurus belongs to Sulcimentisauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015901",
+      "taxon": "Minimocursor phunoiensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Minimocursor",
+      "basis": "stated without evidence",
+      "summary": "Minimocursor phunoiensis belongs to Minimocursor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015902",
+      "taxon": "Minimocursor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Neornithischia",
+      "basis": "stated with evidence",
+      "summary": "Minimocursor belongs to Neornithischia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015965",
+      "taxon": "Convolosaurus marri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Convolosaurus",
+      "basis": "stated without evidence",
+      "summary": "Convolosaurus marri belongs to Convolosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015966",
+      "taxon": "Convolosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosauridae",
+      "basis": "stated with evidence",
+      "summary": "Convolosaurus belongs to Tenontosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015969",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosauridae",
+      "basis": "stated with evidence",
+      "summary": "Tenontosaurus belongs to Tenontosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1016022",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1016023",
+      "taxon": "Talenkauen",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elasmaria",
+      "basis": "stated with evidence",
+      "summary": "Talenkauen belongs to Elasmaria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

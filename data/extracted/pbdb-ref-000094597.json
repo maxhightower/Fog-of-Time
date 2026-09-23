@@ -225,5 +225,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1014621",
+      "taxon": "Brontotholus harmoni",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontotholus",
+      "basis": "stated with evidence",
+      "summary": "Brontotholus harmoni belongs to Brontotholus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1014622",
+      "taxon": "Brontotholus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Brontotholus belongs to Pachycephalosaurinae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

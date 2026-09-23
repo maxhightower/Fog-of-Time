@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:73949",
+    "doi": "10.1016/j.palaeo.2014.02.008",
+    "title": "Megatheropods as apex predators in the typically Jurassic ecosystems of the Villar del Arzobispo Formation (Iberian Range, Spain)",
+    "year": 2014,
+    "journal": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "url": "https://doi.org/10.1016/j.palaeo.2014.02.008",
+    "authors": [
+      "A. Cobos",
+      "M. G. Lockley",
+      "F. Gascó, R. Royo-Torres, L. Alcalá"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:807902",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:807903",
+      "taxon": "Torvosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Torvosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

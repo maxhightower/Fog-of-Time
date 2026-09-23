@@ -1,0 +1,49 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12452",
+    "doi": "10.1139/e93-183",
+    "title": "The affinities of a new theropod from the Alxa Desert, Inner Mongolia, People's Republic of China",
+    "year": 1994,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/e93-183",
+    "authors": [
+      "D. A. Russell",
+      "Z.-M. Dong"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:158242",
+      "taxon": "Segnosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauridae",
+      "basis": "stated with evidence",
+      "summary": "Segnosaurus belongs to Therizinosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:158251",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosauridae belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:158254",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated with evidence",
+      "summary": "Allosaurus belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

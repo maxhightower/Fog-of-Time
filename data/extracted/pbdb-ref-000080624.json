@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:80624",
+    "doi": "10.1016/j.gca.2019.10.030",
+    "title": "Geochemical taphonomy of the Standing Rock Hadrosaur Site: exploring links between rare earth elements and cellular and soft tissue preservation",
+    "year": 2020,
+    "journal": "Geochimica et Cosmochimica Acta",
+    "url": "https://doi.org/10.1016/j.gca.2019.10.030",
+    "authors": [
+      "P. V. Ullmann",
+      "D. E. Grandstaff",
+      "R. D. Ash, K. J. Lacovara"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:876093",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

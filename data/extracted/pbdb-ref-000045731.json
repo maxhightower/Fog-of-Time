@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:45731",
+    "doi": "10.1371/ journal.pone.0056937",
+    "title": "Secondary cartilage revealed in a non-avian dinosaur embryo",
+    "year": 2013,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/ journal.pone.0056937",
+    "authors": [
+      "A. M. Bailleul",
+      "B. K. Hall",
+      "J. R. Horner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:459641",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:459643",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

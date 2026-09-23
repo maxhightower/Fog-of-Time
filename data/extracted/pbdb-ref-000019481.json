@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19481",
+    "doi": "10.1111/j.0031-0239.2003.00301.x",
+    "title": "The species taxonomy of the sauropodomorph dinosaurs from the Löwenstein Formation (Norian, Late Triassic) of Germany",
+    "year": 2003,
+    "journal": "Palaeontology",
+    "url": "https://doi.org/10.1111/j.0031-0239.2003.00301.x",
+    "authors": [
+      "A. M. Yates"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:156305",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:156320",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

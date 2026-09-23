@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7403",
+    "doi": "10.1080/02724634.1983.10011954",
+    "title": "Cranial osteology and morphology of the type specimen of <i>Maiasaura peeblesorum</i> (Ornithischia: Hadrosauridae), with discussion of its phylogenetic position",
+    "year": 1983,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.1983.10011954",
+    "authors": [
+      "J. R. Horner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:77042",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

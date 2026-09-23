@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7819",
+    "doi": "10.2475/ajs.s3-23.133.81",
+    "title": "Classification of the Dinosauria",
+    "year": 1882,
+    "journal": "American Journal of Science",
+    "url": "https://doi.org/10.2475/ajs.s3-23.133.81",
+    "authors": [
+      "O. C. Marsh"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:74373",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

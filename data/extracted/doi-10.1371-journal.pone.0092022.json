@@ -281,5 +281,47 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:507776",
+      "taxon": "Anzu",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Caenagnathidae",
+      "basis": "stated with evidence",
+      "summary": "Anzu belongs to Caenagnathidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:507777",
+      "taxon": "Anzu wyliei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anzu",
+      "basis": "stated with evidence",
+      "summary": "Anzu wyliei belongs to Anzu.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:507968",
+      "taxon": "Conchoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Oviraptoridae",
+      "basis": "stated with evidence",
+      "summary": "Conchoraptor belongs to Oviraptoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:507981",
+      "taxon": "Conchoraptor gracilis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Conchoraptor",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor gracilis belongs to Conchoraptor.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

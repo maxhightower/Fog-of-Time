@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75801",
+    "doi": "10.1007/s41513-020-00138-9",
+    "title": "An update of the spinosaurid (Dinosauria: Theropoda) fossil record from the Lower Cretaceous of the Iberian Peninsula: distribution, diversity, and evolutionary history",
+    "year": 2020,
+    "journal": "Journal of Iberian Geology",
+    "url": "https://doi.org/10.1007/s41513-020-00138-9",
+    "authors": [
+      "E. Malafaia",
+      "J. M. Gasulla",
+      "F. Escaso, I. Narvaéz, F. Ortega"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:825185",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

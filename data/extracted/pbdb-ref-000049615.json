@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:49615",
+    "doi": "10.1134/s0031030113110087",
+    "title": "An emryonic enantiornithine bird and associated eggs from the Cretaceous of Mongolia",
+    "year": 2013,
+    "journal": "Paleontological Journal",
+    "url": "https://doi.org/10.1134/s0031030113110087",
+    "authors": [
+      "E. N. Kurochkin",
+      "S. Chatterjee",
+      "K. E. Mikhailov"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:499965",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Enantiornithes",
+      "basis": "stated with evidence",
+      "summary": "Confuciusornis belongs to Enantiornithes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

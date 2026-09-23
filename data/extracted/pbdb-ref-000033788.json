@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:33788",
+    "doi": null,
+    "title": "Plateosaurus engelhardti Meyer, 1837 (Dinosauria: Sauropodomorpha) aus dem Feuerletten (Mittelkeuper; Obertrias) von Bayern",
+    "year": 2003,
+    "journal": "Zitteliana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=33788",
+    "authors": [
+      "M. Moser"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:310684",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

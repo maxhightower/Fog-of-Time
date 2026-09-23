@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:4217",
+    "doi": null,
+    "title": "Bones and rocks of the Upper Cretaceous Two Medicine-Judith River clastic wedge complex, Montana",
+    "year": 2001,
+    "journal": "In C. L. Hill (ed), Society of Vertebrate Paleontology, 61st Annual Meeting, Bozeman. Guidebook for the Field Trips: Mesozoic and Cenozoic Paleontology in the Western Plains and Rocky Mountains, Museum of the Rockies Occasional Paper",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=4217",
+    "authors": [
+      "J. R. Horner",
+      "J. G. Schmitt",
+      "F. Jackson, R. Hanna"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:297947",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

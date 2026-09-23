@@ -120,5 +120,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1017502",
+      "taxon": "Kank",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Unenlagiidae",
+      "basis": "stated with evidence",
+      "summary": "Kank belongs to Unenlagiidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1017503",
+      "taxon": "Kank australis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Kank",
+      "basis": "stated with evidence",
+      "summary": "Kank australis belongs to Kank.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

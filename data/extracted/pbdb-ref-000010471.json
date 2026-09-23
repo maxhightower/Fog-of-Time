@@ -1,0 +1,70 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:10471",
+    "doi": null,
+    "title": "New Bactrosaurus (Dinosauria: Hadrosauroidea) material from Iren Dabasu (Inner Mongolia, P. R. China)",
+    "year": 1998,
+    "journal": "Bulletin de l'Institut Royal des Sciences Naturelles de Belgique, Sciences de la Terre",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=10471",
+    "authors": [
+      "P. Godefroit",
+      "Z.-M. Dong",
+      "P. Bultynck, H. Li, L. Feng"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:310088",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:310093",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:310099",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:310118",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:79371",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylopollexia",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Ankylopollexia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

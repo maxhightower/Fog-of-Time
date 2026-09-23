@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:10484",
+    "doi": "10.1126/science.286.5443.1342",
+    "title": "Cretaceous sauropods from the Sahara and the uneven rate of skeletal evolution among dinosaurs",
+    "year": 1999,
+    "journal": "Science",
+    "url": "https://doi.org/10.1126/science.286.5443.1342",
+    "authors": [
+      "P. C. Sereno",
+      "A. L. Beck",
+      "D. B. Dutheil, H. C. E. Larsson, G. H. Lyon, B. Moussa, R. W. Sadleir, C. A. Sidor, D. J. Varricchio, G. P. Wilson, J. A. Wilson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:79560",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macronaria",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Macronaria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

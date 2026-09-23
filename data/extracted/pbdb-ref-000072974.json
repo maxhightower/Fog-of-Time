@@ -70,5 +70,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:797107",
+      "taxon": "Kholumolumo ellenbergerorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Kholumolumo",
+      "basis": "stated with evidence",
+      "summary": "Kholumolumo ellenbergerorum belongs to Kholumolumo.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:797108",
+      "taxon": "Kholumolumo",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated with evidence",
+      "summary": "Kholumolumo belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

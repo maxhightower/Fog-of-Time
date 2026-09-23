@@ -15,6 +15,106 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:795758",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Antrodemus",
+      "basis": "stated with evidence",
+      "summary": "Allosaurus is a subjective synonym of Antrodemus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:795782",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinodontinae",
+      "basis": "stated with evidence",
+      "summary": "Gorgosaurus belongs to Deinodontinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:795783",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated with evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:795785",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinodontinae",
+      "basis": "stated with evidence",
+      "summary": "Albertosaurus belongs to Deinodontinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:795786",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated with evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:795789",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:795792",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:795832",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coeluridae",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Coeluridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:795833",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:795881",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camarasauridae",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Camarasauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:797545",
       "taxon": "Brontosaurus",
       "published_as": null,
@@ -32,6 +132,66 @@
       "related_taxon": "Brontosaurus",
       "basis": "stated with evidence",
       "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:797549",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:797570",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocidae",
+      "basis": "stated with evidence",
+      "summary": "Alamosaurus belongs to Diplodocidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:797620",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:797904",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "subjective_synonym_of",
+      "related_taxon": "Thespesius occidentalis",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) is a subjective synonym of Thespesius occidentalis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:797906",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:799783",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated with evidence",
+      "summary": "Centrosaurus belongs to Ceratopsidae.",
       "source": "pbdb_opinion"
     },
     {

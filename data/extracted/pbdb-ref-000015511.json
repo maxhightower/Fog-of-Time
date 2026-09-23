@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:15511",
+    "doi": null,
+    "title": "The osteology of Compsognathus longipes Wagner",
+    "year": 1978,
+    "journal": "Zitteliana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=15511",
+    "authors": [
+      "J. H. Ostrom"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:107105",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Podokesauridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Podokesauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

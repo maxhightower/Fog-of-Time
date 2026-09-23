@@ -848,5 +848,67 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:962960",
+      "taxon": "Diamantinasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasauria",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus belongs to Diamantinasauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:962961",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:962963",
+      "taxon": "Savannasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasauria",
+      "basis": "stated with evidence",
+      "summary": "Savannasaurus belongs to Diamantinasauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:962964",
+      "taxon": "Savannasaurus elliottorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Savannasaurus",
+      "basis": "stated with evidence",
+      "summary": "Savannasaurus elliottorum belongs to Savannasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:962967",
+      "taxon": "Wintonotitan",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasauria",
+      "basis": "stated with evidence",
+      "summary": "Wintonotitan belongs to Diamantinasauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:962968",
+      "taxon": "Wintonotitan wattsi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Wintonotitan",
+      "basis": "stated with evidence",
+      "summary": "Wintonotitan wattsi belongs to Wintonotitan.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

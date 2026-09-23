@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29083",
+    "doi": "10.1016/j.cretres.2008.02.002",
+    "title": "The 'dermal armour' of the ornithopod dinosaur Hypsilophodon from the Wealden (Early Cretaceous: Barremian) of the Isle of Wight: a reappraisal",
+    "year": 2008,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2008.02.002",
+    "authors": [
+      "R. J. Butler",
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:254650",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:295921",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

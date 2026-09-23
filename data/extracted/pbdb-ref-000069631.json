@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:69631",
+    "doi": "10.7717/peerj.5976",
+    "title": "The oldest ceratosaurian (Dinosauria: Theropoda), from the Lower Jurassic of Italy, sheds light on the evolution of the three-fingered hand of birds",
+    "year": 2018,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.5976",
+    "authors": [
+      "C. Dal Sasso",
+      "S. Maganuco",
+      "A. Cau"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:746136",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:746141",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:56066",
+    "doi": null,
+    "title": "Hadrosaurs from the Far East: historical perspective and new Amurosaurus material from Blagoveschensk (Amur region, Russia)",
+    "year": 2014,
+    "journal": "Hadrosaurs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=56066",
+    "authors": [
+      "Y. L. Bolotsky",
+      "P. Godefroit",
+      "I. Y. Bolotsky, A. Atuchin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:581690",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

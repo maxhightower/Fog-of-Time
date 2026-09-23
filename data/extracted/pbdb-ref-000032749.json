@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32749",
+    "doi": null,
+    "title": "Nuevos restos fosiles del dinosaurio Lirainosaurus (Sauropoda, Titanosauria) en el Cretácico Superior (Campaniano-Maastrichtiano) de la Península Ibérica",
+    "year": 2009,
+    "journal": "Ameghiniana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=32749",
+    "authors": [
+      "J. Company",
+      "X. Pereda Suberbiola",
+      "J. I. Ruiz-Omenaca"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:963751",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

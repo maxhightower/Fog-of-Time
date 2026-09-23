@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1005025",
+      "taxon": "Anteavis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated with evidence",
+      "summary": "Anteavis belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1005027",
+      "taxon": "Anteavis crurilongus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anteavis",
+      "basis": "stated with evidence",
+      "summary": "Anteavis crurilongus belongs to Anteavis.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:38464",
+    "doi": "10.4202/app.2010.0043",
+    "title": "Braincase anatomy of the titanosaurian sauropod Lirainosaurus astibiae from the Late Cretaceous of the Iberian Peninsula",
+    "year": 2011,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://doi.org/10.4202/app.2010.0043",
+    "authors": [
+      "V. Díez Díaz",
+      "X. Pereda Suberbiola",
+      "J. L. Sanz"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:367093",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:367100",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:49769",
+    "doi": "10.1080/08912963.2013.861830",
+    "title": "Osteology and phylogenetic relationships of Tyrannotitan chubutensis Novas, de Valais, Vickers-Rich and Rich, 2005 (Theropoda: Carcharodontosauridae) from the Lower Cretaceous of Patagonia, Argentina",
+    "year": 2013,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2013.861830",
+    "authors": [
+      "J. I. Canale",
+      "F. E. Novas",
+      "D. Pol"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:501054",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carcharodontosauridae",
+      "basis": "stated with evidence",
+      "summary": "Acrocanthosaurus belongs to Carcharodontosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:501058",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauroidea",
+      "basis": "stated with evidence",
+      "summary": "Allosaurus belongs to Allosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

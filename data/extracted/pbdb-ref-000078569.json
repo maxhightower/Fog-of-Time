@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78569",
+    "doi": "10.1038/s41598-021-97870-8",
+    "title": "New spinosaurids from the Wessex Formation (Early Cretaceous, UK) and the European origins of Spinosauridae",
+    "year": 2021,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-021-97870-8",
+    "authors": [
+      "C. T. Barker",
+      "D. W. E. Hone",
+      "D. Naish, A. Cau, J. A. F. Lockwood, B. Foster, C. E. Clarkin, P. Schneider, N. J. Gostling"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:899129",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Spinosaurus belongs to Spinosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

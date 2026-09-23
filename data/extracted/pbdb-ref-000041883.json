@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:41883",
+    "doi": "10.1371/journal.pone.0036849",
+    "title": "A new saurolophine dinosaur from the latest Cretaceous of far eastern Russia",
+    "year": 2012,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0036849",
+    "authors": [
+      "P. Godefroit",
+      "Y. L. Bolotsky",
+      "P. Lauters"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:571283",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:571299",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:571306",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurini",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus belongs to Edmontosaurini.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:8375",
+    "doi": "10.1126/science.282.5392.1298",
+    "title": "A long-snouted predatory dinosaur from Africa and the evolution of spinosaurids",
+    "year": 1998,
+    "journal": "Science",
+    "url": "https://doi.org/10.1126/science.282.5392.1298",
+    "authors": [
+      "P. C. Sereno",
+      "A. L. Beck",
+      "D. B. Dutheil, B. Gado, H. C. E. Larsson, G. H. Lyon, J. D. Marcot, O. W. M. Rauhut, R. W. Sadleir, C. A. Sidor, D. D. Varricchio, G. P. Wilson, J. A. Wilson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:74785",
+      "taxon": "Torvosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torvosauridae",
+      "basis": "stated with evidence",
+      "summary": "Torvosaurus belongs to Torvosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:97988",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Spinosaurus belongs to Spinosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

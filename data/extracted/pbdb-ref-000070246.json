@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70246",
+    "doi": "10.1080/08912963.2015.1137913",
+    "title": "Theropod dinosaurs from the Albian–Cenomanian Wayan Formation of eastern Idaho",
+    "year": 2017,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2015.1137913",
+    "authors": [
+      "L. J. Krumenacker",
+      "D. J. Simon",
+      "G. Scofield, D. J. Varricchio"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:745663",
+      "taxon": "Macroelongatoolithus carlylei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macroelongatoolithus",
+      "basis": "stated without evidence",
+      "summary": "Macroelongatoolithus carlylei belongs to Macroelongatoolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

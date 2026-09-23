@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54891",
+    "doi": null,
+    "title": "Iguanodonts from the Wealden of England: do they contribute to the discussion concerning hadrosaur origins?",
+    "year": 2014,
+    "journal": "Hadrosaurs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54891",
+    "authors": [
+      "D. B. Norman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:566363",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylopollexia",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Ankylopollexia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

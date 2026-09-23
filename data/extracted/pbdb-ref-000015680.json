@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:15680",
+    "doi": null,
+    "title": "On a new genus of Triassic Dinosauria",
+    "year": 1889,
+    "journal": "The American Naturalist",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=15680",
+    "authors": [
+      "E. D. Cope"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:108367",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Goniopoda",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Goniopoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:92754",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:84884",
+    "doi": "10.2110/palo.2019.079",
+    "title": "Skeletal trauma with implications for intratail mobility in Edmontosaurus annectens from a monodominant bonebed, Lance Formation (Maastrichtian), Wyoming USA",
+    "year": 2020,
+    "journal": "Palaios",
+    "url": "https://doi.org/10.2110/palo.2019.079",
+    "authors": [
+      "B. C. T. Siviero",
+      "E. A. Rega",
+      "W. K. Hayes, A. M. Cooper, L. R. Brand, A. V. Chadwick"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:925901",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:89724",
+    "doi": "10.1080/03115518.2023.2228367",
+    "title": "An annotated checklist of Australian Mesozoic tetrapods",
+    "year": 2023,
+    "journal": "Alcheringa: An Australasian Journal of Palaeontology",
+    "url": "https://doi.org/10.1080/03115518.2023.2228367",
+    "authors": [
+      "S. F. Poropat",
+      "P. R. Bell",
+      "L. J. Hart, S. W. Salisbury, B. P. Kear"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:975963",
+      "taxon": "Wintonotitan",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Somphospondyli",
+      "basis": "stated without evidence",
+      "summary": "Wintonotitan belongs to Somphospondyli.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:975964",
+      "taxon": "Wintonotitan wattsi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Wintonotitan",
+      "basis": "stated without evidence",
+      "summary": "Wintonotitan wattsi belongs to Wintonotitan.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:975965",
+      "taxon": "Diamantinasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasauria",
+      "basis": "stated without evidence",
+      "summary": "Diamantinasaurus belongs to Diamantinasauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:975966",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated without evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:975967",
+      "taxon": "Savannasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasauria",
+      "basis": "stated without evidence",
+      "summary": "Savannasaurus belongs to Diamantinasauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:975968",
+      "taxon": "Savannasaurus elliottorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Savannasaurus",
+      "basis": "stated without evidence",
+      "summary": "Savannasaurus elliottorum belongs to Savannasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:975979",
+      "taxon": "Australovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptoridae",
+      "basis": "stated without evidence",
+      "summary": "Australovenator belongs to Megaraptoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:975980",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated without evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:976838",
+      "taxon": "Kayentapus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Kayentapus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

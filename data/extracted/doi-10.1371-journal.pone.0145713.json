@@ -9,24 +9,103 @@
     "month": 1,
     "journal": "PLOS ONE",
     "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0145713",
-    "authors": ["David M. Martill", "Steven U. Vidovic", "Cindy Howells", "John R. Nudds"]
+    "authors": [
+      "David M. Martill",
+      "Steven U. Vidovic",
+      "Cindy Howells",
+      "John R. Nudds"
+    ]
   },
   "evidence": [
     {
       "id": "doi:10.1371/journal.pone.0145713:nmw-2015.5g",
       "physical_key": "specimen:nmw:2015.5g.1-2015.5g.11",
       "evidence_type": "body_fossil",
-      "taxon": {"name": "Dracoraptor hanigani", "rank": "species"},
-      "specimen": {"institution_code": "NMW", "catalog_number": "2015.5G.1–2015.5G.11", "label": "NMW 2015.5G.1–2015.5G.11"},
-      "material": ["partial skull", "teeth", "lower jaws", "cervical vertebrae", "posterior vertebral column", "distal forelimb", "ischium", "pubis", "femur", "fragmentary tibia", "proximal fibula", "cervical ribs", "thoracic ribs"],
-      "locality": {"name": "Lavernock Point", "country": "United Kingdom", "region": "South Wales", "latitude": null, "longitude": null, "coordinate_uncertainty_km": null},
-      "stratigraphy": {"formation": "Blue Lias Formation", "member": "Bull Cliff Member", "group": "Lower Lias Group"},
-      "age": {"min_ma": 201.1, "max_ma": 201.5, "best_ma": 201.3, "precision": "derived_interval", "method": "biostratigraphic_and_isotope_correlation", "basis": "The paper assigns the specimen to the Early Hettangian and reports an age of 201.3 ± 0.2 Ma.", "notes": "Numeric interval is the reported central age expanded by the paper's ±0.2 Ma uncertainty."},
+      "taxon": {
+        "name": "Dracoraptor hanigani",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "NMW",
+        "catalog_number": "2015.5G.1–2015.5G.11",
+        "label": "NMW 2015.5G.1–2015.5G.11"
+      },
+      "material": [
+        "partial skull",
+        "teeth",
+        "lower jaws",
+        "cervical vertebrae",
+        "posterior vertebral column",
+        "distal forelimb",
+        "ischium",
+        "pubis",
+        "femur",
+        "fragmentary tibia",
+        "proximal fibula",
+        "cervical ribs",
+        "thoracic ribs"
+      ],
+      "locality": {
+        "name": "Lavernock Point",
+        "country": "United Kingdom",
+        "region": "South Wales",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Blue Lias Formation",
+        "member": "Bull Cliff Member",
+        "group": "Lower Lias Group"
+      },
+      "age": {
+        "min_ma": 201.1,
+        "max_ma": 201.5,
+        "best_ma": 201.3,
+        "precision": "derived_interval",
+        "method": "biostratigraphic_and_isotope_correlation",
+        "basis": "The paper assigns the specimen to the Early Hettangian and reports an age of 201.3 ± 0.2 Ma.",
+        "notes": "Numeric interval is the reported central age expanded by the paper's ±0.2 Ma uncertainty."
+      },
       "evidence_role": "original_description",
       "claims": [
-        {"type": "taxonomic_assignment", "summary": "The associated partial skeleton is designated the holotype of Dracoraptor hanigani.", "page": null, "figure": null, "table": "1"},
-        {"type": "stratigraphic_context", "summary": "Lithological comparisons place the specimen in bed 7 or bed 9 of the Bull Cliff Member near the base of the Blue Lias Formation.", "page": null, "figure": "4", "table": null}
+        {
+          "type": "taxonomic_assignment",
+          "summary": "The associated partial skeleton is designated the holotype of Dracoraptor hanigani.",
+          "page": null,
+          "figure": null,
+          "table": "1"
+        },
+        {
+          "type": "stratigraphic_context",
+          "summary": "Lithological comparisons place the specimen in bed 7 or bed 9 of the Bull Cliff Member near the base of the Blue Lias Formation.",
+          "page": null,
+          "figure": "4",
+          "table": null
+        }
       ]
+    }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:603237",
+      "taxon": "Dracoraptor hanigani",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dracoraptor",
+      "basis": "stated with evidence",
+      "summary": "Dracoraptor hanigani belongs to Dracoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:603238",
+      "taxon": "Dracoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysoidea",
+      "basis": "stated with evidence",
+      "summary": "Dracoraptor belongs to Coelophysoidea.",
+      "source": "pbdb_opinion"
     }
   ]
 }

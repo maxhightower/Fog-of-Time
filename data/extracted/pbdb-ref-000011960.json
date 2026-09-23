@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:11960",
+    "doi": "10.1017/s0022336000042013",
+    "title": "Small theropod and bird teeth from the Late Cretaceous (Late Campanian) Judith River Group, Alberta",
+    "year": 2002,
+    "journal": "Journal of Paleontology",
+    "url": "https://doi.org/10.1017/s0022336000042013",
+    "authors": [
+      "J. T. Sankey",
+      "D. B. Brinkman",
+      "M. Guenther, P. J. Currie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:88122",
+      "taxon": "Richardoestesia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maniraptora",
+      "basis": "implied",
+      "summary": "Richardoestesia belongs to Maniraptora.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

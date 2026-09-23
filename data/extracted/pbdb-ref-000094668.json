@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1015484",
+      "taxon": "Shuilingornis angelai",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Shuilingornis",
+      "basis": "stated with evidence",
+      "summary": "Shuilingornis angelai belongs to Shuilingornis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015485",
+      "taxon": "Shuilingornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gansuidae",
+      "basis": "stated with evidence",
+      "summary": "Shuilingornis belongs to Gansuidae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

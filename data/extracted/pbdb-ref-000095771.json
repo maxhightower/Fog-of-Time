@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1024934",
+      "taxon": "Mesetasaurus protector",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mesetasaurus",
+      "basis": "stated with evidence",
+      "summary": "Mesetasaurus protector belongs to Mesetasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1024935",
+      "taxon": "Mesetasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Aeolosaurini",
+      "basis": "stated with evidence",
+      "summary": "Mesetasaurus belongs to Aeolosaurini.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

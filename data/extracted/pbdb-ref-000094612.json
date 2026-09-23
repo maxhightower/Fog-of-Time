@@ -169,5 +169,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1014760",
+      "taxon": "Bicharracosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macronaria",
+      "basis": "stated with evidence",
+      "summary": "Bicharracosaurus belongs to Macronaria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1014764",
+      "taxon": "Bicharracosaurus dionidei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Bicharracosaurus",
+      "basis": "stated with evidence",
+      "summary": "Bicharracosaurus dionidei belongs to Bicharracosaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

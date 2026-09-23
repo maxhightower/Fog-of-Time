@@ -183,5 +183,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1018163",
+      "taxon": "Nagatitan chaiyaphumensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nagatitan",
+      "basis": "stated with evidence",
+      "summary": "Nagatitan chaiyaphumensis belongs to Nagatitan.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1018165",
+      "taxon": "Nagatitan",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Euhelopodidae",
+      "basis": "stated without evidence",
+      "summary": "Nagatitan belongs to Euhelopodidae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

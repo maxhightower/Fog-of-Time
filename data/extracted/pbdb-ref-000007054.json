@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7054",
+    "doi": null,
+    "title": "Ergebnisse der Forschungsreisen Prof. E. Stromers in den Wüsten Ägyptens. II. Wirbeltier-Reste der Baharîje-Stufe (unterstes Cenoman). 3. Das Original des Theropoden Spinosaurus aegyptiacus nov. gen., nov. spec",
+    "year": 1915,
+    "journal": "Abhandlungen der Königlich Bayerischen Akademie der Wissenschaften Mathematisch-physikalische Klasse Abhandlung",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=7054",
+    "authors": [
+      "E. Stromer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:168276",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:93896",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16996",
+    "doi": null,
+    "title": "Muttaburrasaurus, a new iguanodontid (Ornithischia: Ornithopoda) dinosaur from the Lower Cretaceous of Queensland",
+    "year": 1981,
+    "journal": "Memoirs of the Queensland Museum",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16996",
+    "authors": [
+      "A. Bartholomai",
+      "R. E. Molnar"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:119941",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

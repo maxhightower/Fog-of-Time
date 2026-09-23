@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17157",
+    "doi": null,
+    "title": "A contribution to the history of the Vertebrata of the Trias of North America",
+    "year": 1887,
+    "journal": "Proceedings of the American Philosophical Society",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17157",
+    "authors": [
+      "E. D. Cope"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:121159",
+      "taxon": "Coelophysis bauri",
+      "published_as": "Tanystropheus bauri",
+      "status": "belongs_to",
+      "related_taxon": "Tanystropheus",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri (as Tanystropheus bauri) belongs to Tanystropheus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

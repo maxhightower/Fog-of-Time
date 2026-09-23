@@ -239,5 +239,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:959405",
+      "taxon": "Thyreosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurinae",
+      "basis": "stated with evidence",
+      "summary": "Thyreosaurus belongs to Dacentrurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:959406",
+      "taxon": "Thyreosaurus atlasicus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thyreosaurus",
+      "basis": "stated with evidence",
+      "summary": "Thyreosaurus atlasicus belongs to Thyreosaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

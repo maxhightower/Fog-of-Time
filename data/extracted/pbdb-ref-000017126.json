@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17126",
+    "doi": null,
+    "title": "The biogeography of advanced ornithopod dinosaurs (Archosauria: Ornithischia)—a cladistic-vicariance model",
+    "year": 1984,
+    "journal": "In W.-E. Reif & F. Westphal (eds.), Third Symposium on Mesozoic Terrestrial Ecosystems, Short Papers. Attempto Verlag, Tübingen",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17126",
+    "authors": [
+      "A. R. Milner",
+      "D. B. Norman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:120793",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hypsilophodontidae",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Hypsilophodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:120806",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

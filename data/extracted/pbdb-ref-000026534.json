@@ -15,6 +15,46 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:211223",
+      "taxon": "Sinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Teratosauridae",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus belongs to Teratosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:211224",
+      "taxon": "Sinosaurus triassicus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosaurus",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus triassicus belongs to Sinosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:211239",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nodosauridae",
+      "basis": "stated without evidence",
+      "summary": "Pinacosaurus belongs to Nodosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:211262",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Podokesauridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Podokesauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:211273",
       "taxon": "Gresslyosaurus ingens",
       "published_as": null,

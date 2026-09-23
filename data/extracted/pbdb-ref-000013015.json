@@ -17,6 +17,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:136168",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Domocephalinae",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus belongs to Domocephalinae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:96407",
       "taxon": "Stygimoloch",
       "published_as": null,

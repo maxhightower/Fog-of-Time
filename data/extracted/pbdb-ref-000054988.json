@@ -1,0 +1,58 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54988",
+    "doi": null,
+    "title": "A revew of hadrosaurid skin impressions",
+    "year": 2014,
+    "journal": "Hadrosaurs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54988",
+    "authors": [
+      "P. R. Bell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:566953",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurolophinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Saurolophinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:566954",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:566958",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:566959",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurolophinae",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura belongs to Saurolophinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30909",
+    "doi": "10.2307/25058147",
+    "title": "An attempt to discriminate and describe the animals that made the fossil footmarks of the United States, and especially of New England",
+    "year": 1848,
+    "journal": "Memoirs of the American Academy of Arts and Sciences, new series",
+    "url": "https://doi.org/10.2307/25058147",
+    "authors": [
+      "E. Hitchcock"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:284692",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Batrachia",
+      "basis": "stated with evidence",
+      "summary": "Anomoepus belongs to Batrachia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

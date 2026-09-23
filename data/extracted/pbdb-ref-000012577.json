@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12577",
+    "doi": "10.1126/science.1060561",
+    "title": "A giant sauropod dinosaur from an Upper Cretaceous mangrove deposit in Egypt",
+    "year": 2001,
+    "journal": "Science",
+    "url": "https://doi.org/10.1126/science.1060561",
+    "authors": [
+      "J. B. Smith",
+      "M. C. Lamanna",
+      "K. J. Lacovara, P. Dodson, J. R. Smith, J. C. Poole, R. Giegengack, Y. Attia"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:91803",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:91810",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:91812",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:34282",
+    "doi": null,
+    "title": "Nonmarine Cretaceous formations of Romania",
+    "year": 1992,
+    "journal": "Aspects of Nonmarine Cretaceous Geology. China Ocean Press, Beijing",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=34282",
+    "authors": [
+      "D. Grigorescu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:314893",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": "Titanosaurus dacus",
+      "status": "belongs_to",
+      "related_taxon": "Titanosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus (as Titanosaurus dacus) belongs to Titanosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13878",
+    "doi": null,
+    "title": "A Montanoceratops cerorhynchus (Dinosauria: Ceratopsia) braincase from the Horseshoe Canyon Formation of Alberta",
+    "year": 2001,
+    "journal": "Mesozoic Vertebrate Life, D. H. Tanke and K. Carpenter (eds.), Indiana University Press, Bloomington",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13878",
+    "authors": [
+      "P. J. Makovicky"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:97064",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

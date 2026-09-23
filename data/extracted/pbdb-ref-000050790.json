@@ -1,0 +1,99 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:50790",
+    "doi": "10.1371/journal.pone.0093190",
+    "title": "Small theropod teeth from the Late Cretaceous of the San Juan Basin, northwestern New Mexico and their implications for understanding latest Cretaceous dinosaur evolution",
+    "year": 2014,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0093190",
+    "authors": [
+      "T. E. Williamson",
+      "S. L. Brusatte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:512490",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:512491",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Tyrannosauroidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:512492",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:512503",
+      "taxon": "Utahraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Utahraptor belongs to Dromaeosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:512507",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptorinae",
+      "basis": "stated without evidence",
+      "summary": "Microraptor belongs to Microraptorinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:512522",
+      "taxon": "Richardoestesia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Richardoestesia belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:512532",
+      "taxon": "Talos sampsoni",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talos",
+      "basis": "stated without evidence",
+      "summary": "Talos sampsoni belongs to Talos.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:512533",
+      "taxon": "Talos",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated without evidence",
+      "summary": "Talos belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

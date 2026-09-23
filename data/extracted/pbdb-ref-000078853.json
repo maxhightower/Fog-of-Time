@@ -25,6 +25,16 @@
       "basis": "stated without evidence",
       "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:858124",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
     }
   ]
 }

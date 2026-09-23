@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:62764",
+    "doi": "10.1017/jpa.2016.48",
+    "title": "Hadrosaurian dinosaurs from the Maastrichtian Javelina Formation, Big Bend National Park, Texas",
+    "year": 2016,
+    "journal": "Journal of Paleontology",
+    "url": "https://doi.org/10.1017/jpa.2016.48",
+    "authors": [
+      "T. M. Lehman",
+      "S. L. Wick",
+      "J. R. Wagner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:651882",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:651897",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachylophosaurini",
+      "basis": "stated with evidence",
+      "summary": "Maiasaura belongs to Brachylophosaurini.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:651902",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurolophinae",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus belongs to Saurolophinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:651921",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

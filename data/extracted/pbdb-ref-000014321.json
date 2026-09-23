@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14321",
+    "doi": null,
+    "title": "Triassic life of the Connecticut Valley (revised)",
+    "year": 1953,
+    "journal": "State of Connecticut State Geological and Natural History Survey Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14321",
+    "authors": [
+      "R. S. Lull"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:99593",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99651",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eubrontidae",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Eubrontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99683",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anomoepodidae",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Anomoepodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

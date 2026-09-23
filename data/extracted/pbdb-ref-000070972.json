@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70972",
+    "doi": "10.1371/journal.pone.0022710",
+    "title": "A subadult specimen of Rubeosaurus ovatus (Dinosauria: Ceratopsidae), with observations on other ceratopsids from the Two Medicine Formation",
+    "year": 2011,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0022710",
+    "authors": [
+      "A. T. McDonald"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:752751",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Centrosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Centrosaurus belongs to Centrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

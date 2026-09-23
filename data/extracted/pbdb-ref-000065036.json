@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65036",
+    "doi": null,
+    "title": "Despre vîrsta depozitelor continentale cu dinozaurieni din bazinele Hateg si Rusca Montana [On the age of continental deposits with dinosaurians from the Hateg and Rusca Montana basins]",
+    "year": 1971,
+    "journal": "Dari de Seama ale Sedintelor",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=65036",
+    "authors": [
+      "A. Dinca",
+      "M. Tocorjescu",
+      "A. Stilla"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:678097",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": "Titanosaurus dacus",
+      "status": "belongs_to",
+      "related_taxon": "Titanosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus (as Titanosaurus dacus) belongs to Titanosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

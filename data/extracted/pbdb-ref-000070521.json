@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70521",
+    "doi": "10.1139/cjes-2014-0065",
+    "title": "Implications of finding a ceratopsian horncore in the Danek bonebed",
+    "year": 2014,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/cjes-2014-0065",
+    "authors": [
+      "P. J. Currie",
+      "E. B. Koppelhus"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:748871",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

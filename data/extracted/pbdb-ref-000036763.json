@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:36763",
+    "doi": null,
+    "title": "The succession of dinosaur assemblages in Thailand",
+    "year": 1998,
+    "journal": "I Encontro Internacional sobre Paleobiologia dos Dinossáurios. Museu Nacional de História Natural, Lisboa",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=36763",
+    "authors": [
+      "E. Buffetaut"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:345820",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

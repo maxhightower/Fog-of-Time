@@ -127,5 +127,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:977709",
+      "taxon": "Sousatitanosauripus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated with evidence",
+      "summary": "Sousatitanosauripus belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:977710",
+      "taxon": "Sousatitanosauripus robsoni",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sousatitanosauripus",
+      "basis": "stated with evidence",
+      "summary": "Sousatitanosauripus robsoni belongs to Sousatitanosauripus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

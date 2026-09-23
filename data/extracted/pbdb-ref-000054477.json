@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54477",
+    "doi": null,
+    "title": "Two Medicine Formation, Montana: geology and fauna",
+    "year": 2001,
+    "journal": "Mesozoic Vertebrate Life: New Research Inspired by the Paleontology of Philip J. Currie",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54477",
+    "authors": [
+      "D. Trexler"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:561677",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

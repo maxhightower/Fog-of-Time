@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:965230",
+      "taxon": "Hesperonyx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dryomorpha",
+      "basis": "stated with evidence",
+      "summary": "Hesperonyx belongs to Dryomorpha.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:965231",
+      "taxon": "Hesperonyx martinhotomasorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hesperonyx",
+      "basis": "stated with evidence",
+      "summary": "Hesperonyx martinhotomasorum belongs to Hesperonyx.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

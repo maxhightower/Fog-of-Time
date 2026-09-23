@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:71016",
+    "doi": "10.1016/j.cretres.2011.11.009",
+    "title": "Skeletal remains of Tyrannosauroidea (Dinosauria: Theropoda) from the Bissekty Formation (Upper Cretaceous: Turonian) of Uzbekistan",
+    "year": 2012,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2011.11.009",
+    "authors": [
+      "A. O. Averianov",
+      "H.-D. Sues"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:753069",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

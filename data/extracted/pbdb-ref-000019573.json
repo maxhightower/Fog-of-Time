@@ -23,6 +23,46 @@
       "basis": "stated without evidence",
       "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:156991",
+      "taxon": "Brontopodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brontopodidae",
+      "basis": "stated without evidence",
+      "summary": "Brontopodus belongs to Brontopodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:156997",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:157005",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:157010",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauria",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus belongs to Titanosauria.",
+      "source": "pbdb_opinion"
     }
   ]
 }

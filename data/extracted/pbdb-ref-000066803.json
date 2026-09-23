@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:66803",
+    "doi": "10.1127/njgpa/2016/0551",
+    "title": "The plated dinosaur Stegosaurus longispinus Gilmore, 1914 (Dinosauria: Ornithischia; Upper Jurassic, western USA), type species of Alcovasaurus n. gen.",
+    "year": 2016,
+    "journal": "Neues Jahrbuch für Geologie und Paläontologie Abhandlungen",
+    "url": "https://doi.org/10.1127/njgpa/2016/0551",
+    "authors": [
+      "P. M. Galton",
+      "K. Carpenter"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:698542",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

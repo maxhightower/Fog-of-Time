@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32943",
+    "doi": null,
+    "title": "Die dinosaurier der Siebenbürgischen landesteile Ungarns [Dinosaurs of the Transylvanian regions of Hungary]",
+    "year": 1915,
+    "journal": "Mitteilungen aus den Jahrbuch der Königlich Ungarnischen Geologischen Reichsanstalt",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=32943",
+    "authors": [
+      "B. F. Nopcsa"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:91669",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": "Titanosaurus dacus",
+      "status": "belongs_to",
+      "related_taxon": "Titanosaurus",
+      "basis": "stated with evidence",
+      "summary": "Magyarosaurus dacus (as Titanosaurus dacus) belongs to Titanosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

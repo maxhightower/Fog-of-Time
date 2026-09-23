@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17774",
+    "doi": null,
+    "title": "Probable sauropod footprints from the Middle Jurassic of Yorkshire, England",
+    "year": 1995,
+    "journal": "Aspects of Sauropod Paleobiology. GAIA",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17774",
+    "authors": [
+      "M. A. Whyte",
+      "M. Romano"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:136252",
+      "taxon": "Deltapodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Deltapodus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

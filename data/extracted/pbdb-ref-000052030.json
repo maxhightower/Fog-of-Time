@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:52030",
+    "doi": null,
+    "title": "Notes on the osteology of Hypsilophodon, and on the family Hypsilophodontidae",
+    "year": 1936,
+    "journal": "Proceedings of the Zoological Society of London",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52030",
+    "authors": [
+      "W. E. Swinton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:529640",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

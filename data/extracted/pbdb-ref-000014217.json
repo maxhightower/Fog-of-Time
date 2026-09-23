@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14217",
+    "doi": null,
+    "title": "Eggs and nests from the Cretaceous of Mongolia",
+    "year": 1994,
+    "journal": "Dinosaur Eggs and Babies, Cambridge University Press, Cambridge",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14217",
+    "authors": [
+      "K. Mikhailov",
+      "K. Sabath",
+      "S. Kurzanov"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:146409",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

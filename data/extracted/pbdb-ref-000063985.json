@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63985",
+    "doi": "10.1111/j.1755-6724.1941.mp212-4003.x",
+    "title": "“Red Beds” of Yunnan",
+    "year": 1941,
+    "journal": "Bulletin of the Geological Society of China",
+    "url": "https://doi.org/10.1111/j.1755-6724.1941.mp212-4003.x",
+    "authors": [
+      "M. N. Bien"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:667969",
+      "taxon": "Sinosaurus triassicus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosaurus",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus triassicus belongs to Sinosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

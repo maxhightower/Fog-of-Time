@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76596",
+    "doi": "10.1111/let.12402",
+    "title": "New dinosaur, crocodylomorph and swim tracks from the Late Jurassic of the Lusitanian Basin: implications for ichnodiversity",
+    "year": 2020,
+    "journal": "Lethaia",
+    "url": "https://doi.org/10.1111/let.12402",
+    "authors": [
+      "D. Castanera",
+      "E. Malafaia",
+      "B. C. Silva, V. F. Santos, M. Belvedere"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:833569",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

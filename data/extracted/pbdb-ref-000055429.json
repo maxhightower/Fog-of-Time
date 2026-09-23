@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55429",
+    "doi": "10.1016/j.palaeo.2012.06.008",
+    "title": "The diversity of sauropod dinosaurs and their first taxonomic succession from the latest Cretaceous of southwestern Europe: Clues to demise and extinction",
+    "year": 2012,
+    "journal": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "url": "https://doi.org/10.1016/j.palaeo.2012.06.008",
+    "authors": [
+      "B. Vila",
+      "A. Galobart",
+      "J. I. Canudo, J. Le Loeuff, J. Dinarès-Turell, V. Riera, O. Oms, T. Tortosa, R. Gaete"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:572476",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

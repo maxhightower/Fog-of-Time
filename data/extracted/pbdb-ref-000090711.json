@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:980844",
+      "taxon": "Yuanyanglong",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Oviraptorosauria",
+      "basis": "stated with evidence",
+      "summary": "Yuanyanglong belongs to Oviraptorosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:980845",
+      "taxon": "Yuanyanglong bainian",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Yuanyanglong",
+      "basis": "stated with evidence",
+      "summary": "Yuanyanglong bainian belongs to Yuanyanglong.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

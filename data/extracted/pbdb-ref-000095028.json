@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1018214",
+      "taxon": "Taleta taleta",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Taleta",
+      "basis": "stated with evidence",
+      "summary": "Taleta taleta belongs to Taleta.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1018215",
+      "taxon": "Taleta",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Arenysaurini",
+      "basis": "stated without evidence",
+      "summary": "Taleta belongs to Arenysaurini.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

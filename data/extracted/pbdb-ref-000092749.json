@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:92749",
+    "doi": null,
+    "title": "Description and review of non-avian dinosaur eggs from Cretaceous deposits of the Mongolian Gobi Desert",
+    "year": 2023,
+    "journal": "Windows into Sauropsid and Synapsid Evolution: Essays in Honor of Louis L. Jacobs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=92749",
+    "authors": [
+      "K. Tanaka",
+      "D. K. Zelenitsky",
+      "F. Therrien, Y. Lee, K. Kubota, Y. Kobayashi, G. F. Funston, T. Khishigjav"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:998579",
+      "taxon": "Macroelongatoolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elongatoolithidae",
+      "basis": "stated with evidence",
+      "summary": "Macroelongatoolithus belongs to Elongatoolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:998609",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

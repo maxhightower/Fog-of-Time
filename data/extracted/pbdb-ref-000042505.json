@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:42505",
+    "doi": null,
+    "title": "The taxonomy of the troodontid IVPP V 10597 reconsidered",
+    "year": 2012,
+    "journal": "Vertebrata PalAsiatica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=42505",
+    "authors": [
+      "X. Xu",
+      "Q. Zhao",
+      "C. Sullivan, Q.-W. Tan, M. Sander, Q.-Y. Ma"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:745919",
+      "taxon": "Sinovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

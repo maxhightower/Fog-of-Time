@@ -143,5 +143,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:945225",
+      "taxon": "Eoneophron infernalis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eoneophron",
+      "basis": "stated with evidence",
+      "summary": "Eoneophron infernalis belongs to Eoneophron.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:945226",
+      "taxon": "Eoneophron",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Caenagnathidae",
+      "basis": "stated with evidence",
+      "summary": "Eoneophron belongs to Caenagnathidae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

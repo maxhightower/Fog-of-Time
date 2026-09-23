@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:84517",
+    "doi": "10.1139/cjes-2017-0034",
+    "title": "A new species of troodontid theropod (Dinosauria: Maniraptora) from the Horseshoe Canyon Formation (Maastrichtian) of Alberta, Canada",
+    "year": 2017,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/cjes-2017-0034",
+    "authors": [
+      "D. C. Evans",
+      "T. M. Cullen",
+      "D. W. Larson, A. Rego"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:921241",
+      "taxon": "Sinovenator changii",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinovenator",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator changii belongs to Sinovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:921242",
+      "taxon": "Talos sampsoni",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talos",
+      "basis": "stated without evidence",
+      "summary": "Talos sampsoni belongs to Talos.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

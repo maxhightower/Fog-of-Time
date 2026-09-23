@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:74175",
+    "doi": "10.1371/journal.pone.0123503",
+    "title": "Evidence for sexual dimorphism in the plated dinosaur Stegosaurus mjosi (Ornithischia, Stegosauria) from the Morrison Formation (Upper Jurassic) of western USA",
+    "year": 2015,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0123503",
+    "authors": [
+      "E. T. Saitta"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:809885",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

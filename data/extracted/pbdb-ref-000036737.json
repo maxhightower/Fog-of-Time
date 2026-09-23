@@ -15,6 +15,26 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:344757",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Cetiosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:344774",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:344821",
       "taxon": "Brontosaurus excelsus",
       "published_as": "Apatosaurus excelsus",
@@ -25,6 +45,36 @@
       "source": "pbdb_opinion"
     },
     {
+      "id": "pbdb-opinion:344843",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisaurinae",
+      "basis": "stated with evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:345029",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated with evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:345031",
+      "taxon": "Magyarosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated with evidence",
+      "summary": "Magyarosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:345113",
       "taxon": "Brontosaurus",
       "published_as": null,
@@ -32,6 +82,16 @@
       "related_taxon": "Apatosaurus",
       "basis": "stated with evidence",
       "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:345127",
+      "taxon": "Petrustitan hungaricus",
+      "published_as": "Magyarosaurus hungaricus",
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated with evidence",
+      "summary": "Petrustitan hungaricus (as Magyarosaurus hungaricus) belongs to Magyarosaurus.",
       "source": "pbdb_opinion"
     },
     {

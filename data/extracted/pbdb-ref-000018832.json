@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18832",
+    "doi": "10.1671/0272-4634(2006)26[651:ROTTSD]2.0.CO;2",
+    "title": "A revision of the Tendaguru sauropod dinosaur Tornieria africana (Fraas) and its relevance for sauropod paleobiogeography",
+    "year": 2006,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/0272-4634(2006)26[651:ROTTSD]2.0.CO;2",
+    "authors": [
+      "K. Remes"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:132827",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocoidea",
+      "basis": "stated without evidence",
+      "summary": "Haplocanthosaurus belongs to Diplodocoidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:150523",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocidae",
+      "basis": "stated without evidence",
+      "summary": "Suuwassea belongs to Diplodocidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

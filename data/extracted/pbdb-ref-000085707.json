@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:85707",
+    "doi": null,
+    "title": "The first discoveries of dinosaurs in the American west",
+    "year": 1999,
+    "journal": "Vertebrate Paleontology in Utah, Utah Geological Survey Miscellaneous Publication",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=85707",
+    "authors": [
+      "B. H. Breithaupt"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:933052",
+      "taxon": "Pachycephalosaurus wyomingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurus",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus wyomingensis belongs to Pachycephalosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

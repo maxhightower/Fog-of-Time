@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:37965",
+    "doi": null,
+    "title": "Vertebrates from the Chinle Formation",
+    "year": 1972,
+    "journal": "Investigations in the Triassic Chinle Formation. Museum of Northern Arizona Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=37965",
+    "authors": [
+      "E. H. Colbert"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:361439",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Podokesauridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Podokesauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

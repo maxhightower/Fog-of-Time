@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53420",
+    "doi": null,
+    "title": "Youngest marine rocks in western interior of North Americ and the age of the Triceratops-beds; with remarks on comparable dinosaur-bearing beds outside North America",
+    "year": 1960,
+    "journal": "International Geological Congress, Report of the 21st Session, Norden. 5: The Cretaceous-Tertiary Boundary",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53420",
+    "authors": [
+      "J. A. Jeletzky"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:548595",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": "Titanosaurus dacus",
+      "status": "belongs_to",
+      "related_taxon": "Titanosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus (as Titanosaurus dacus) belongs to Titanosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:548604",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29153",
+    "doi": null,
+    "title": "Basal bird phylogeny: problems and solutions",
+    "year": 2002,
+    "journal": "Mesozoic Birds: Above the Heads of Dinosaurs. University of California Press, Berkeley",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=29153",
+    "authors": [
+      "L. M. Chiappe"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:255694",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Confuciusornithidae",
+      "basis": "stated with evidence",
+      "summary": "Confuciusornis belongs to Confuciusornithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:59608",
+    "doi": "10.1371/journal.pone.0156251",
+    "title": "An unexpected early rhabdodontid from Europe (Lower Cretaceous of Salas de los Infantes, Burgos Province, Spain) and a re-examination of basal iguanodontian relationships",
+    "year": 2016,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0156251",
+    "authors": [
+      "P.-E. Dieudonné",
+      "T. Tortosa",
+      "F. Torcida Fernández-Baldor, J. I. Canudo, I. Díaz-Martínez"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:622781",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

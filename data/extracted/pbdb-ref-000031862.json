@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31862",
+    "doi": "10.1002/ mmng.200800008",
+    "title": "Taxonomy of Late Jurassic diplodocid sauropods from Tendaguru (Tanzania)",
+    "year": 2009,
+    "journal": "Fossil Record",
+    "url": "https://doi.org/10.1002/ mmng.200800008",
+    "authors": [
+      "K. Remes"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:295931",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Flagellicaudata",
+      "basis": "stated with evidence",
+      "summary": "Suuwassea belongs to Flagellicaudata.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

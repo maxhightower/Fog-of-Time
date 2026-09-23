@@ -23,6 +23,46 @@
       "basis": "stated without evidence",
       "summary": "Clasmodosaurus (as Clasmodon) belongs to Titanosauridae.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:176916",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:176920",
+      "taxon": "Magyarosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:176921",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:176922",
+      "taxon": "Petrustitan hungaricus",
+      "published_as": "Magyarosaurus hungaricus",
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Petrustitan hungaricus (as Magyarosaurus hungaricus) belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
     }
   ]
 }

@@ -1,0 +1,49 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29426",
+    "doi": "10.1073/pnas.0811664106",
+    "title": "A microraptorine (Dinosauria–Dromaeosauridae) from the Late Cretaceous of North America",
+    "year": 2009,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "url": "https://doi.org/10.1073/pnas.0811664106",
+    "authors": [
+      "N. R. Longrich",
+      "P. J. Currie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:261393",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptorinae",
+      "basis": "stated with evidence",
+      "summary": "Microraptor belongs to Microraptorinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:261395",
+      "taxon": "Sinornithosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptorinae",
+      "basis": "stated with evidence",
+      "summary": "Sinornithosaurus belongs to Microraptorinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:261405",
+      "taxon": "Utahraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Utahraptor belongs to Dromaeosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

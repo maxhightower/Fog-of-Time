@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:34094",
+    "doi": null,
+    "title": "Ichnotaxonomic updates from the Newark Supergroup",
+    "year": 2007,
+    "journal": "Contributions to the Paleontology of New Jersey (II). XXIV Annual Conference and Field Trip. Geological Association of New Jersey, Field Guide and Proceedings",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=34094",
+    "authors": [
+      "E. C. Rainforth"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:313527",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Eubrontes",
+      "basis": "stated with evidence",
+      "summary": "Grallator is a subjective synonym of Eubrontes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

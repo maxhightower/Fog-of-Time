@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1025697",
+      "taxon": "Pujatopouli soberana",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pujatopouli",
+      "basis": "stated with evidence",
+      "summary": "Pujatopouli soberana belongs to Pujatopouli.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1025698",
+      "taxon": "Pujatopouli",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Aequornithes",
+      "basis": "stated without evidence",
+      "summary": "Pujatopouli belongs to Aequornithes.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

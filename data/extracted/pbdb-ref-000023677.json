@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:23677",
+    "doi": "10.2307/3623553",
+    "title": "American Jurassic dinosaurs",
+    "year": 1878,
+    "journal": "Transactions of the Kansas Academy of Science",
+    "url": "https://doi.org/10.2307/3623553",
+    "authors": [
+      "S. W. Williston"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:168553",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithoscelida",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Ornithoscelida.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

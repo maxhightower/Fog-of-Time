@@ -16,6 +16,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:100582",
+      "taxon": "Pachycephalosaurus wyomingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurus",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus wyomingensis belongs to Pachycephalosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:100584",
       "taxon": "Stygimoloch spinifer",
       "published_as": null,
@@ -23,6 +33,16 @@
       "related_taxon": "Stygimoloch",
       "basis": "stated without evidence",
       "summary": "Stygimoloch spinifer belongs to Stygimoloch.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:100587",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosaurinae.",
       "source": "pbdb_opinion"
     },
     {

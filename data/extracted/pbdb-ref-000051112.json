@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:51112",
+    "doi": "10.1016/j.cretres.2013.01.006",
+    "title": "First record of Deltapodus tracks from the Early Cretaceous of China",
+    "year": 2013,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2013.01.006",
+    "authors": [
+      "L. Xing",
+      "M. G. Lockley",
+      "R. T. McCrea, G. D. Gierlinski, L. G. Buckley, J. Zhang, L. Qi, C. Jia"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:519139",
+      "taxon": "Deltapodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thyreophora",
+      "basis": "stated without evidence",
+      "summary": "Deltapodus belongs to Thyreophora.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:519142",
+      "taxon": "Shenmuichnus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thyreophora",
+      "basis": "stated without evidence",
+      "summary": "Shenmuichnus belongs to Thyreophora.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:519147",
+      "taxon": "Stegopodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thyreophora",
+      "basis": "stated without evidence",
+      "summary": "Stegopodus belongs to Thyreophora.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

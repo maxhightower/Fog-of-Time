@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76597",
+    "doi": "10.1080/08912963.2017.1324438",
+    "title": "The tracks of giant theropods (Jurabrontes curtedulensis ichnogen. & ichnosp. nov.) from the Late Jurassic of NW Switzerland: palaeoecological & palaeogeographical implications",
+    "year": 2018,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2017.1324438",
+    "authors": [
+      "D. Marty",
+      "M. Belvedere",
+      "N. L. Razzolini, M. G. Lockley, G. Paratte, M. Cattin, C. Lovis, C. A. Meyer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:833328",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eubrontidae",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Eubrontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

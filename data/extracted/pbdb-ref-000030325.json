@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30325",
+    "doi": "10.1098/rspb.2009.1029",
+    "title": "A new North American therizinosaurid and the role of herbivory in 'predatory' dinosaur evolution",
+    "year": 2009,
+    "journal": "Proceedings of the Royal Society B: Biological Sciences",
+    "url": "https://doi.org/10.1098/rspb.2009.1029",
+    "authors": [
+      "L. E. Zanno",
+      "D. D. Gillette",
+      "L. B. Albright, A. L. Titus"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:273172",
+      "taxon": "Segnosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauridae",
+      "basis": "stated with evidence",
+      "summary": "Segnosaurus belongs to Therizinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

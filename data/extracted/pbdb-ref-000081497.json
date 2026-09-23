@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:81497",
+    "doi": "10.1371/journal.pone.0256233",
+    "title": "A Late Cretaceous dinosaur and crocodyliform faunal association–based on isolate teeth and osteoderms–at Cerro Fortaleza Formation (Campanian-Maastrichtian) type locality, Santa Cruz, Argentina",
+    "year": 2021,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0256233",
+    "authors": [
+      "A. Paulina-Carabajal",
+      "F. T. Barrios",
+      "A. H. Méndez, I. A. Cerda, Y.-N. Lee"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:940966",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

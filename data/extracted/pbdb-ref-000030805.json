@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30805",
+    "doi": "10.1002/ar.20984",
+    "title": "Endocranial anatomy of lambeosaurine hadrosaurids (Dinosauria: Ornithischia): a sensorineural perspective on cranial crest function",
+    "year": 2009,
+    "journal": "The Anatomical Record",
+    "url": "https://doi.org/10.1002/ar.20984",
+    "authors": [
+      "D. C. Evans",
+      "R. Ridgley",
+      "L. M. Witmer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:281533",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:281536",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

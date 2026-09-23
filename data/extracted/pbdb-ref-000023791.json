@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:23791",
+    "doi": null,
+    "title": "L'arrière-crâne d'un dinosaurien carnivore de l'Oxfordien de Dives [The braincase of a carnivorous dinosaur from the Oxfordian of Dives]",
+    "year": 1923,
+    "journal": "Annales de Paléontologie",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=23791",
+    "authors": [
+      "J. Piveteau"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:169986",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Antrodemus",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus is a subjective synonym of Antrodemus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:169987",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

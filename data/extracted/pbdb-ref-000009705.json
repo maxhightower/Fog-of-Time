@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9705",
+    "doi": "10.1016/s0031-0182(99)00004-8",
+    "title": "The dinosaur fauna of the Sao Khua Formation of Thailand and the beginning of the Cretaceous radiation of dinosaurs in Asia",
+    "year": 1999,
+    "journal": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "url": "https://doi.org/10.1016/s0031-0182(99)00004-8",
+    "authors": [
+      "E. Buffetaut",
+      "V. Suteethorn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:93467",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

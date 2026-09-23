@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9842",
+    "doi": null,
+    "title": "Descriptive catalogue of the Fossil organic remains of Reptilia and Pisces contained in the Museum of the Royal College of Surgeons of England",
+    "year": 1854,
+    "journal": "London",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9842",
+    "authors": [
+      "R. Owen"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:933160",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lacertia",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Lacertia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

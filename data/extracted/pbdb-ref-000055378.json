@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55378",
+    "doi": "10.1080/02724634.2014.845568",
+    "title": "The basal titanosaurian Rukwatitan bisepultus (Dinosauria, Sauropoda) from the middle Cretaceous Galula Formation, Rukwa Rift Basin, southwestern Tanzania",
+    "year": 2014,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2014.845568",
+    "authors": [
+      "E. Gorscak",
+      "P. M. O'Connor",
+      "N. J. Stevens, E. M. Roberts"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:570727",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

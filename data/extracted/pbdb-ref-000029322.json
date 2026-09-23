@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29322",
+    "doi": null,
+    "title": "Dinosaurs in Thailand",
+    "year": 2008,
+    "journal": "International Dinosaur Symposium in Fukui 2008: Recent Progress of the Study on Asian Dinosaurs and Paleoenvironments. Fukui Prefectural Dinosaur Museum, Fukui",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=29322",
+    "authors": [
+      "V. Suteethorn",
+      "E. Buffetaut"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:258901",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

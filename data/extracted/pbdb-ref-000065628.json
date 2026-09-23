@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65628",
+    "doi": "10.1080/02724634.2017.1406366",
+    "title": "A new specimen of the ornithischian dinosaur Hesperosaurus mjosi from the Upper Jurassic Morrison Formation of Montana, U.S.A., and implications for growth and size in Morrison stegosaurs",
+    "year": 2018,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2017.1406366",
+    "authors": [
+      "S. C. R. Maidment",
+      "D. C. Woodruff",
+      "J. R. Horner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:683810",
+      "taxon": "Hesperosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated with evidence",
+      "summary": "Hesperosaurus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

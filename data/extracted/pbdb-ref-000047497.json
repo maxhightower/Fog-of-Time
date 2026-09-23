@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:47497",
+    "doi": "10.11646/zootaxa.3683.4.2",
+    "title": "Overosaurus paradasorum gen. et sp. nov. , a new sauropod dinosaur (Titanosauria: Lithostrotia) from the Late Cretaceous of Neuquén, Patagonia, Argentina",
+    "year": 2013,
+    "journal": "Zootaxa",
+    "url": "https://doi.org/10.11646/zootaxa.3683.4.2",
+    "authors": [
+      "R. A. Coria",
+      "L. S. Filippi",
+      "L. M. Chiappe, R. Garcia, A. B. Arcucci"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:476555",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saltasauridae",
+      "basis": "stated with evidence",
+      "summary": "Alamosaurus belongs to Saltasauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

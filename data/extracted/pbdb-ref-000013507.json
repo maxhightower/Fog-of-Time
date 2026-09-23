@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13507",
+    "doi": null,
+    "title": "Ein dinosauroider Fährtenrest aus dem Unteren Stubensandstein (Obere Trias, Nor, km4) des Strombergs (Württemberg) [A dinosauroid trackway from the Lower Stubensandstein (Upper Triassic, Norian, km4) of the Stromberg (Württemberg)]",
+    "year": 1988,
+    "journal": "Stuttgarter Beiträge zur Naturkunde, Serie B (Geologie und Paläontologie)",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13507",
+    "authors": [
+      "F.-O. Haderer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:94941",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauripodidae",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Anchisauripodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

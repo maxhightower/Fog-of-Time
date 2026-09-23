@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29935",
+    "doi": "10.1671/0272-4634-28.4.1089",
+    "title": "Ankylosaurs from the Price River Quarries, Cedar Mountain Formation (Lower Cretaceous), east-central Utah",
+    "year": 2008,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/0272-4634-28.4.1089",
+    "authors": [
+      "K. Carpenter",
+      "J. Bartlett",
+      "J. Bird, R. Barrick"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:267430",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauridae",
+      "basis": "stated without evidence",
+      "summary": "Pinacosaurus belongs to Ankylosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

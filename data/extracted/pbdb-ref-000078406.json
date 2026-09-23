@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78406",
+    "doi": "10.19615/j.cnki.1000-3118.190115",
+    "title": "Cranial osteology of Beipiaosaurus inexpectus (Theropoda: Therizinosauria)",
+    "year": 2019,
+    "journal": "Vertebrata PalAsiatica",
+    "url": "https://doi.org/10.19615/j.cnki.1000-3118.190115",
+    "authors": [
+      "C.-C. Liao",
+      "X. Xu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:852425",
+      "taxon": "Beipiaosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauroidea",
+      "basis": "stated with evidence",
+      "summary": "Beipiaosaurus belongs to Therizinosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

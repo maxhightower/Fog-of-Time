@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9665",
+    "doi": null,
+    "title": "Description of the type and referred material of <i>Phuwiangosaurus sirindhornae</i> Martin, Buffetaut and Suteethorn, 1994, a sauropod from the Lower Cretaceous of Thailand",
+    "year": 1999,
+    "journal": "Oryctos",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9665",
+    "authors": [
+      "V. Martin",
+      "V. Suteethorn",
+      "E. Buffetaut"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:77972",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nemegtosauridae",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus belongs to Nemegtosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -17,6 +17,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:108658",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eusauropoda",
+      "basis": "stated with evidence",
+      "summary": "Mamenchisaurus belongs to Eusauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:108721",
       "taxon": "Brontosaurus",
       "published_as": null,
@@ -34,6 +44,96 @@
       "related_taxon": "Apatosaurus",
       "basis": "stated with evidence",
       "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:113259",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camarasauridae",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Camarasauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:113344",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated with evidence",
+      "summary": "Titanosauria belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:113345",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:113383",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauria",
+      "basis": "stated with evidence",
+      "summary": "Phuwiangosaurus belongs to Titanosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:113384",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated with evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:113392",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lithostrotia",
+      "basis": "stated with evidence",
+      "summary": "Alamosaurus belongs to Lithostrotia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:135982",
+      "taxon": "Magyarosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lithostrotia",
+      "basis": "stated with evidence",
+      "summary": "Magyarosaurus belongs to Lithostrotia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:135983",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated with evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:135984",
+      "taxon": "Petrustitan hungaricus",
+      "published_as": "Magyarosaurus hungaricus",
+      "status": "subjective_synonym_of",
+      "related_taxon": "Magyarosaurus dacus",
+      "basis": "stated with evidence",
+      "summary": "Petrustitan hungaricus (as Magyarosaurus hungaricus) is a subjective synonym of Magyarosaurus dacus.",
       "source": "pbdb_opinion"
     },
     {

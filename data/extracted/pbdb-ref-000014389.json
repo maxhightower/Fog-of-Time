@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14389",
+    "doi": null,
+    "title": "Pantsyrnye dinosavry verchnego mela Mongolii (Semeustvo Ankylosauridae) [The Upper Cretaceous armored dinosaurs of Mongolia (family Ankylosauridae)]",
+    "year": 1956,
+    "journal": "Trudy Paleontologicheskogo Instituta Akademiy Nauk SSSR",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14389",
+    "authors": [
+      "E. A. Maleev"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:213967",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauridae",
+      "basis": "stated without evidence",
+      "summary": "Pinacosaurus belongs to Ankylosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

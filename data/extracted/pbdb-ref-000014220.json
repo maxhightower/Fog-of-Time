@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14220",
+    "doi": "10.1017/s1477201905001628",
+    "title": "Redescription of the Mongolian sauropod Nemegtosaurus mongoliensis Nowinski (Dinosauria: Saurischia) and comments on Late Cretaceous sauropod diversity",
+    "year": 2005,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1017/s1477201905001628",
+    "authors": [
+      "J. A. Wilson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:98852",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nemegtosauridae",
+      "basis": "stated with evidence",
+      "summary": "Phuwiangosaurus belongs to Nemegtosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

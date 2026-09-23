@@ -281,5 +281,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:967844",
+      "taxon": "Fona",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thescelosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Fona belongs to Thescelosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:967845",
+      "taxon": "Fona herzogae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Fona",
+      "basis": "stated with evidence",
+      "summary": "Fona herzogae belongs to Fona.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13037",
+    "doi": null,
+    "title": "Isolated dinosaur bones from the Middle Cretaceous of the Tafilalt, Morocco",
+    "year": 1996,
+    "journal": "Bulletin du Muséum National d'Histoire Naturelle, Paris, 4e série, section C",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13037",
+    "authors": [
+      "D. A. Russell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:99200",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

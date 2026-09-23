@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:42681",
+    "doi": "10.1016/j.palwor.2012.05.003",
+    "title": "A new species of Microraptor from the Jehol Biota of northeastern China",
+    "year": 2012,
+    "journal": "Palaeoworld",
+    "url": "https://doi.org/10.1016/j.palwor.2012.05.003",
+    "authors": [
+      "E.-P. Gong",
+      "L. D. Martin",
+      "D. A. Burnham, A. R. Falk, L.-H. Hou"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:427794",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptorinae",
+      "basis": "stated with evidence",
+      "summary": "Microraptor belongs to Microraptorinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:448725",
+      "taxon": "Sinornithosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptorinae",
+      "basis": "stated without evidence",
+      "summary": "Sinornithosaurus belongs to Microraptorinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

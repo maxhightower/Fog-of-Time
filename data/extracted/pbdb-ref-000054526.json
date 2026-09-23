@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54526",
+    "doi": "10.1016/j.cretres.2015.01.008",
+    "title": "Second species of enantiornithine bird from the Lower Cretaceous Changma Basin, northwestern China with implications for the taxonomic diversity of the Changma avifauna",
+    "year": 2015,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2015.01.008",
+    "authors": [
+      "M. Wang",
+      "D. Li",
+      "J. K. O'Connor, Z. Zhou, H. You"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:562582",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Confuciusornithidae",
+      "basis": "stated with evidence",
+      "summary": "Confuciusornis belongs to Confuciusornithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

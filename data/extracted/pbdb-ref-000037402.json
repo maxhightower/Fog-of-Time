@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:37402",
+    "doi": "10.1177/0552936019580112",
+    "title": "Relationships of the Triassic Maleri fauna",
+    "year": 1958,
+    "journal": "Journal of the Palaeontological Society of India",
+    "url": "https://doi.org/10.1177/0552936019580112",
+    "authors": [
+      "E. H. Colbert"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:353894",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

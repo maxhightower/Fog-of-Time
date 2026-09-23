@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9637",
+    "doi": "10.1671/0272-4634(2002)022[0510:toomka]2.0.co;2",
+    "title": "The osteology of <i>Masiakasaurus knopfleri</i>, a small abelisauroid (Dinosauria: Theropoda) from the Late Cretaceous of Madagascar",
+    "year": 2002,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/0272-4634(2002)022[0510:toomka]2.0.co;2",
+    "authors": [
+      "M. T. Carrano",
+      "S. D. Sampson",
+      "C. A. Forster"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:77945",
+      "taxon": "Torvosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tetanurae",
+      "basis": "stated without evidence",
+      "summary": "Torvosaurus belongs to Tetanurae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:77949",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Neotetanurae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Neotetanurae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

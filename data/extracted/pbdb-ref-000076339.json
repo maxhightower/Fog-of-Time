@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76339",
+    "doi": null,
+    "title": "Primer registro de un neoterópodo Coelophysidae (Dinosauria, Theropoda) de Sudamérica [First record of a Coelophysidae neotheropod (Dinosauria, Theropoda) in South America]",
+    "year": 2016,
+    "journal": "XXX Jornadas Argentinas de Paleontología de Vertebrados. Resúmenes. Ameghiniana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76339",
+    "authors": [
+      "R. N. Martínez",
+      "C. Sojo Agüero",
+      "G. García, C. Apaldetti"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:831158",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

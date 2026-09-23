@@ -15,6 +15,136 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:101572",
+      "taxon": "Lewisuchus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lewisuchinae",
+      "basis": "stated without evidence",
+      "summary": "Lewisuchus belongs to Lewisuchinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101574",
+      "taxon": "Lewisuchus admixtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lewisuchus",
+      "basis": "stated without evidence",
+      "summary": "Lewisuchus admixtus belongs to Lewisuchus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101587",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101588",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101608",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysinae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Coelophysinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101609",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101624",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101694",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Allosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101709",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Allosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101729",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauria",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Allosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101739",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus belongs to Tyrannosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101740",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": "Albertosaurus libratus",
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus (as Albertosaurus libratus) belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101746",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:101750",
       "taxon": "Nanotyrannus lancensis",
       "published_as": "Albertosaurus lancensis",
@@ -22,6 +152,36 @@
       "related_taxon": "Albertosaurus",
       "basis": "stated without evidence",
       "summary": "Nanotyrannus lancensis (as Albertosaurus lancensis) belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101751",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101752",
+      "taxon": "Daspletosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Daspletosaurus is a subjective synonym of Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101760",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
       "source": "pbdb_opinion"
     }
   ]

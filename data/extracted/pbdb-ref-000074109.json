@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:74109",
+    "doi": "10.1016/j.jsames.2020.102915",
+    "title": "A new medium-sized abelisaurid (Theropoda, Dinosauria) from the Late Cretaceous (Maastrichtian) Allen Formation of Northern Patagonia, Argentina",
+    "year": 2021,
+    "journal": "Journal of South American Earth Sciences",
+    "url": "https://doi.org/10.1016/j.jsames.2020.102915",
+    "authors": [
+      "M. Aranciaga Rolando",
+      "M. A. Cerroni",
+      "J. A. Garcia Marsà, F. I. Agnolín, M. J. Motta, S. Rozadilla, F. Brisson Eglí, F. E. Novas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:867154",
+      "taxon": "Bonapartenykus ultimus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Bonapartenykus",
+      "basis": "stated without evidence",
+      "summary": "Bonapartenykus ultimus belongs to Bonapartenykus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

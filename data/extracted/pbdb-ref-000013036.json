@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13036",
+    "doi": "10.1016/s1251-8050(98)80054-2",
+    "title": "New data on spinosaurid dinosaurs from the Early Cretaceous of the Sahara",
+    "year": 1998,
+    "journal": "Comptes Rendus de l'Académie des Sciences à Paris, Sciences de la Terre et des Planètes",
+    "url": "https://doi.org/10.1016/s1251-8050(98)80054-2",
+    "authors": [
+      "P. Taquet",
+      "D. A. Russell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:93509",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

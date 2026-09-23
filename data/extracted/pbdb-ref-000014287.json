@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14287",
+    "doi": "10.1080/02724634.1997.10010960",
+    "title": "Normal and pathological eggshells of Spheroolithus albertensis, oosp. nov., from the Oldman Formation (Judith River Group, Late Campanian), southern Alberta",
+    "year": 1997,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.1997.10010960",
+    "authors": [
+      "D. K. Zelenitsky",
+      "L. V. Hills"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:99357",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99358",
+      "taxon": "Spheroolithus albertensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithus",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus albertensis belongs to Spheroolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

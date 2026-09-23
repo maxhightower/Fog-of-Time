@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53427",
+    "doi": null,
+    "title": "Procompsognathus—theropod or thecodont?",
+    "year": 1981,
+    "journal": "Palaeontographica Abteilung A",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53427",
+    "authors": [
+      "J. H. Ostrom"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:548647",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Procompsognathidae",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Procompsognathidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:548654",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "nomen_dubium",
+      "related_taxon": "Coelophysis",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis bauri is a nomen dubium (filed under Coelophysis).",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

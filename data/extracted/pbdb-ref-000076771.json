@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76771",
+    "doi": null,
+    "title": "Dinosaur eggs from the Cretaceous Goseong Formation of Tongyeong City, southern coast of Korea",
+    "year": 2011,
+    "journal": "Journal of the Paleontological Society of Korea",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76771",
+    "authors": [
+      "J. Y. Kim",
+      "S. Y. Yang",
+      "H. I. Choi, S. J. Seo, K. S. Kim"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:836018",
+      "taxon": "Macroelongatoolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elongatoolithidae",
+      "basis": "stated with evidence",
+      "summary": "Macroelongatoolithus belongs to Elongatoolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:836019",
+      "taxon": "Macroelongatoolithus carlylei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macroelongatoolithus",
+      "basis": "stated without evidence",
+      "summary": "Macroelongatoolithus carlylei belongs to Macroelongatoolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

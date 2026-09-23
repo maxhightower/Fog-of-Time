@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31500",
+    "doi": null,
+    "title": "Notes on Neocomian (Lower Cretaceous) ornithopod dinosaurs from England - Hypsilophodon, Valdosaurus, \"Camptosaurus\", \"Iguanodon\" - and referred specimens from Romania and elsewhere",
+    "year": 2009,
+    "journal": "Revue de Paléobiologie, Genève",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=31500",
+    "authors": [
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:850578",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": "Tenontosaurus tilleti",
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti (as Tenontosaurus tilleti) belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:850595",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:850607",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontia",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Iguanodontia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

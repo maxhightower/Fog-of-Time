@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53166",
+    "doi": null,
+    "title": "Bericht über meine Ausgrabungen im Jahre 1915 [Report on my excavations in 1915]",
+    "year": 1917,
+    "journal": "Jahresberichte der Königlich Ungarischen Geologischen Reichsanstalt",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53166",
+    "authors": [
+      "O. Kadić"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:546730",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": "Titanosaurus dacus",
+      "status": "belongs_to",
+      "related_taxon": "Titanosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus (as Titanosaurus dacus) belongs to Titanosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

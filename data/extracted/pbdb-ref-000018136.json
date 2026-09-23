@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18136",
+    "doi": "10.1525/california/9780520242098.003.0019",
+    "title": "Stegosauria",
+    "year": 2004,
+    "journal": "The Dinosauria (2nd edition). University of California Press, Berkeley",
+    "url": "https://doi.org/10.1525/california/9780520242098.003.0019",
+    "authors": [
+      "P. M. Galton",
+      "P. Upchurch"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:139661",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:139669",
+      "taxon": "Hesperosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated with evidence",
+      "summary": "Hesperosaurus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

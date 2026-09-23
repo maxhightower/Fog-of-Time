@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18457",
+    "doi": null,
+    "title": "New eusauropod dinosaur from Yuanmou of Yunnan province, China",
+    "year": 2006,
+    "journal": "Acta Geologica Sinica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18457",
+    "authors": [
+      "J. Lü",
+      "S. Li",
+      "G. Wang, J. Zhang, Z. Dong"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:142803",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Euhelopodidae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Euhelopodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

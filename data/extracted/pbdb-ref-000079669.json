@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:79669",
+    "doi": "10.1016/j.cretres.2013.08.010",
+    "title": "A snapshot into the terrestrial ecosystem of an exceptionally well- preserved dinosaur (Hadrosauridae) from the Upper Cretaceous of North Dakota, USA",
+    "year": 2013,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2013.08.010",
+    "authors": [
+      "V. Vajda",
+      "T. R. Lyson",
+      "A. Bercovici, J. H. Doman, D. A. Pearson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:868818",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:868819",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

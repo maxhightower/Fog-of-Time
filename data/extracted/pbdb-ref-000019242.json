@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19242",
+    "doi": "10.1016/j.cretres.2006.05.002",
+    "title": "Tetrapods from the Upper Cretaceous (Turonian–Maastrichtian) Bauru Group of Brazil: a reappraisal",
+    "year": 2006,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2006.05.002",
+    "authors": [
+      "C. R. A. Candeiro",
+      "A. G. Martinelli",
+      "L. d. S. Avilla, T. H. Rich"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:152042",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

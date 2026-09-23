@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63688",
+    "doi": null,
+    "title": "Dinosaurs at the Smithsonian: after renovation and re-opening",
+    "year": 1963,
+    "journal": "The Illustrated London News",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63688",
+    "authors": [
+      "Anonymous"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:665054",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

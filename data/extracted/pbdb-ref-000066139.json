@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:66139",
+    "doi": "10.7717/peerj.4113",
+    "title": "A new small-bodied ornithopod (Dinosauria, Ornithischia) from a deep, high-energy Early Cretaceous river of the Australian-Antarctic rift system",
+    "year": 2018,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.4113",
+    "authors": [
+      "M. C. Herne",
+      "A. M. Tait",
+      "V. Weisbecker, M. Hall, J. P. Nair, M. Cleeland, S. W. Salisbury"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:792000",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated with evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:792002",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated with evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29300",
+    "doi": "10.1098/rspb.2008.1909",
+    "title": "A new long-necked 'sauropod-mimic' stegosaur and the evolution of the plated dinosaurs",
+    "year": 2009,
+    "journal": "Proceedings of the Royal Society B: Biological Sciences",
+    "url": "https://doi.org/10.1098/rspb.2008.1909",
+    "authors": [
+      "O. Mateus",
+      "S. C. R. Maidment",
+      "N. A. Christiansen"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:258477",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurinae",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus belongs to Dacentrurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:258482",
+      "taxon": "Hesperosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Stegosaurus",
+      "basis": "stated without evidence",
+      "summary": "Hesperosaurus is a subjective synonym of Stegosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

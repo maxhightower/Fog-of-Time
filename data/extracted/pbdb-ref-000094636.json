@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1014964",
+      "taxon": "Xiangyunloong fengming",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Xiangyunloong",
+      "basis": "stated with evidence",
+      "summary": "Xiangyunloong fengming belongs to Xiangyunloong.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1014965",
+      "taxon": "Xiangyunloong",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Massopoda",
+      "basis": "stated without evidence",
+      "summary": "Xiangyunloong belongs to Massopoda.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

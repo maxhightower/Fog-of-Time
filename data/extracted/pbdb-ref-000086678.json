@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86678",
+    "doi": "10.1080/08912963.2014.894998",
+    "title": "First record of a complete giant theropod egg clutch from Upper Cretaceous deposits, South Korea",
+    "year": 2014,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2014.894998",
+    "authors": [
+      "M. Huh",
+      "B. S. Kim",
+      "Y. Woo, D. J. Simon, I. S. Pail, H. J. Kim"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:939960",
+      "taxon": "Macroelongatoolithus carlylei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macroelongatoolithus",
+      "basis": "stated without evidence",
+      "summary": "Macroelongatoolithus carlylei belongs to Macroelongatoolithus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:939961",
+      "taxon": "Macroelongatoolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elongatoolithidae",
+      "basis": "stated without evidence",
+      "summary": "Macroelongatoolithus belongs to Elongatoolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

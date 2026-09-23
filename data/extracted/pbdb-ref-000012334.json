@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12334",
+    "doi": null,
+    "title": "The reconstruction of a Cretaceous dinosaur, Claosaurus annectens Marsh",
+    "year": 1902,
+    "journal": "Transactions of the Connecticut Academy of Arts and Sciences",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12334",
+    "authors": [
+      "C. E. Beecher"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:91043",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Claosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) belongs to Claosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18118",
+    "doi": null,
+    "title": "A partial ornithomimid braincase from Ukhaa Tolgod (Upper Cretaceous, Mongolia)",
+    "year": 1998,
+    "journal": "American Museum Novitates",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18118",
+    "authors": [
+      "P. J. Makovicky",
+      "M. A. Norell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:139485",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

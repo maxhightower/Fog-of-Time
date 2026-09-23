@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19642",
+    "doi": null,
+    "title": "A review of the systematic position of the dinosauriform archosaur Eucoelophysis baldwini Sullivan & Lucas, 1999 from the Upper Triassic of New Mexico, USA",
+    "year": 2006,
+    "journal": "Geodiversitas",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19642",
+    "authors": [
+      "M. D. Ezcurra"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:157758",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysidae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Coelophysidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:157774",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

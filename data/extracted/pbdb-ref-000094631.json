@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1014922",
+      "taxon": "Pulaosaurus qinglong",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pulaosaurus",
+      "basis": "stated with evidence",
+      "summary": "Pulaosaurus qinglong belongs to Pulaosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1014923",
+      "taxon": "Pulaosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Neornithischia",
+      "basis": "stated without evidence",
+      "summary": "Pulaosaurus belongs to Neornithischia.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

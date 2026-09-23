@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17006",
+    "doi": null,
+    "title": "Catalogue of types and figured specimens of fossil vertebrates in the American Museum of Natural History. II.–Permian, Triassic and Jurassic reptiles of South Africa",
+    "year": 1915,
+    "journal": "Bulletin of the American Museum of Natural History",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17006",
+    "authors": [
+      "R. Broom"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:120031",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

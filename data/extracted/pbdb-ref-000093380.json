@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93380",
+    "doi": null,
+    "title": "[New progress on the study of dinosaur eggs in Laiyang, Shandong]",
+    "year": 2024,
+    "journal": "Journal of Jilin University (Earth Science Edition)",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=93380",
+    "authors": [
+      "Q. Wang",
+      "X. Wang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1005937",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

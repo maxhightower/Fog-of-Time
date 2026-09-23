@@ -15,6 +15,26 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:758842",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:758853",
+      "taxon": "Plateosaurus trossingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus trossingensis belongs to Plateosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:758861",
       "taxon": "Gresslyosaurus",
       "published_as": null,

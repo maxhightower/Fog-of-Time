@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17298",
+    "doi": null,
+    "title": "Studies of the sauropod dinosaur Astrodon Leidy",
+    "year": 1962,
+    "journal": "Washington Junior Academy of Science Proceedings",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17298",
+    "authors": [
+      "R. F. Kingham"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:133003",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Astrodon",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus is a subjective synonym of Astrodon.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

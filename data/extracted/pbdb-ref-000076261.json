@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76261",
+    "doi": null,
+    "title": "Important contributions of the South American record to the understanding of dinosaur reproduction",
+    "year": 2016,
+    "journal": "Cretaceous Period: Biotic Diversity and Biogeography. New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76261",
+    "authors": [
+      "M. S. Fernández"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:830603",
+      "taxon": "Fusioolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Fusioolithidae",
+      "basis": "stated with evidence",
+      "summary": "Fusioolithus belongs to Fusioolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:830615",
+      "taxon": "Continuoolithus canadensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Continuoolithus",
+      "basis": "stated without evidence",
+      "summary": "Continuoolithus canadensis belongs to Continuoolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

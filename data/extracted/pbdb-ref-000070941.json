@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70941",
+    "doi": "10.1016/j.cretres.2014.05.017",
+    "title": "Spheroolithid eggshells in the Lower Cretaceous of Europe. Implications for eggshell evolution in ornithischian dinosaurs",
+    "year": 2014,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2014.05.017",
+    "authors": [
+      "M. Moreno-Azanza",
+      "J. I. Canudo",
+      "J. M. Gasca"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:752489",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:752495",
+      "taxon": "Spheroolithus albertensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithus",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus albertensis belongs to Spheroolithus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:752499",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:752552",
+      "taxon": "Spheroolithus europaeus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithus",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus europaeus belongs to Spheroolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

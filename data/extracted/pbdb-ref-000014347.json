@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14347",
+    "doi": null,
+    "title": "Phylogenetic, functional, and aerodynamic analyses of the origin of birds and their flight",
+    "year": 1985,
+    "journal": "In M. K. Hecht, J. H. Ostrom, G. Viohl, and P. Wellnhofer (eds.), The Beginnings of Birds: Proceedings of the International Archaeopteryx Conference, Eichstätt 1984. Freunde des Jura-Museums Eichstätt, Eichstätt",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14347",
+    "authors": [
+      "J. A. Gauthier",
+      "K. Padian"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:99841",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

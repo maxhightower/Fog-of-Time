@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63171",
+    "doi": null,
+    "title": "K sistematike karnozavrov [On the systematics of carnosaurs]",
+    "year": 1968,
+    "journal": "Verkhnepaleozoiskie i Mezozoiskie Zemnovodnye i Presmykaiushchiesia SSSR [Upper Paleozoic and Mesozoic Amphibians and Reptiles of the USSR]",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63171",
+    "authors": [
+      "E. A. Maleev"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:656818",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Deinodontidae",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosauridae is a subjective synonym of Deinodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:656835",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Antrodemus",
+      "basis": "stated with evidence",
+      "summary": "Allosaurus is a subjective synonym of Antrodemus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:656838",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated with evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

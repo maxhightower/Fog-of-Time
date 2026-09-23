@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9646",
+    "doi": null,
+    "title": "Corythosaurus casuarius, a new crested dinosaur from the Belly River Cretaceous, with provisional classification of the family Trachodontidae",
+    "year": 1914,
+    "journal": null,
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9646",
+    "authors": [
+      "B. Brown"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:144111",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Trachodon annectens",
+      "status": "belongs_to",
+      "related_taxon": "Trachodon",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Trachodon annectens) belongs to Trachodon.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

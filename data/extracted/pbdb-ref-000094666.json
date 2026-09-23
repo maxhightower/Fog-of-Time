@@ -127,5 +127,47 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1015472",
+      "taxon": "Sinosauropteryx lingyuanensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosauropteryx",
+      "basis": "stated with evidence",
+      "summary": "Sinosauropteryx lingyuanensis belongs to Sinosauropteryx.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015473",
+      "taxon": "Sinosauropteryx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosauropterygidae",
+      "basis": "stated with evidence",
+      "summary": "Sinosauropteryx belongs to Sinosauropterygidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015478",
+      "taxon": "Huadanosaurus sinensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Huadanosaurus",
+      "basis": "stated with evidence",
+      "summary": "Huadanosaurus sinensis belongs to Huadanosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015479",
+      "taxon": "Huadanosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosauropterygidae",
+      "basis": "stated with evidence",
+      "summary": "Huadanosaurus belongs to Sinosauropterygidae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

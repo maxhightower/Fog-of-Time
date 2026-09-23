@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31208",
+    "doi": "10.1007/s10336-009-0399-x",
+    "title": "Diversification in an Early Cretaceous avian genus: evidence from a new species of Confuciusornis from China",
+    "year": 2009,
+    "journal": "Journal of Ornithology",
+    "url": "https://doi.org/10.1007/s10336-009-0399-x",
+    "authors": [
+      "Z. Zhang",
+      "C. Gao",
+      "Q. Meng, J. Liu, L. Hou, G. Zheng"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:288222",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Confuciusornithidae",
+      "basis": "stated without evidence",
+      "summary": "Confuciusornis belongs to Confuciusornithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

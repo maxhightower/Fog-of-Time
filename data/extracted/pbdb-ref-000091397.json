@@ -764,5 +764,97 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:985348",
+      "taxon": "Macroelongatoolithus carlylei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macroelongatoolithus",
+      "basis": "stated with evidence",
+      "summary": "Macroelongatoolithus carlylei belongs to Macroelongatoolithus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:985354",
+      "taxon": "Macroelongatoolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elongatoolithidae",
+      "basis": "stated with evidence",
+      "summary": "Macroelongatoolithus belongs to Elongatoolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:985355",
+      "taxon": "Undulatoolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elongatoolithidae",
+      "basis": "stated with evidence",
+      "summary": "Undulatoolithus belongs to Elongatoolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:985356",
+      "taxon": "Undulatoolithus pengi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Undulatoolithus",
+      "basis": "stated with evidence",
+      "summary": "Undulatoolithus pengi belongs to Undulatoolithus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:985357",
+      "taxon": "Continuoolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elongatoolithidae",
+      "basis": "stated with evidence",
+      "summary": "Continuoolithus belongs to Elongatoolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:985358",
+      "taxon": "Continuoolithus canadensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Continuoolithus",
+      "basis": "stated with evidence",
+      "summary": "Continuoolithus canadensis belongs to Continuoolithus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:985360",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated with evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:985361",
+      "taxon": "Spheroolithus albertensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithus",
+      "basis": "stated with evidence",
+      "summary": "Spheroolithus albertensis belongs to Spheroolithus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:985364",
+      "taxon": "Spheroolithus europaeus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithus",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus europaeus belongs to Spheroolithus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

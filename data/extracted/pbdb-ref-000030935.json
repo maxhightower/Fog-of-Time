@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30935",
+    "doi": "10.1144/sp315.14",
+    "title": "A new skeleton of Phuwiangosaurus sirindhornae (Dinosauria, Sauropoda) from NE Thailand",
+    "year": 2009,
+    "journal": "Late Palaeozoic and Mesozoic Ecosystems in SE Asia. The Geological Society of London, Special Publication",
+    "url": "https://doi.org/10.1144/sp315.14",
+    "authors": [
+      "S. Suteethorn",
+      "J. Le Loeuff",
+      "E. Buffetaut, V. Suteethorn, C. Talubmook, C. Chonglakmani"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:285099",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

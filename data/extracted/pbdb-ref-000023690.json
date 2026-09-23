@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:23690",
+    "doi": null,
+    "title": "System der fossilen Saurier [Taxonomy of fossil saurians]",
+    "year": 1845,
+    "journal": "Neues Jahrbuch für Mineralogie, Geognosie, Geologie und Petrefakten-Kunde",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=23690",
+    "authors": [
+      "H. v. Meyer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:168644",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachypodes",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Pachypodes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:67471",
+    "doi": "10.1139/cjes-2017-0031",
+    "title": "Troodontids (Theropoda) from the Dinosaur Park Formation, Alberta, with a description of a unique new taxon: implications for deinonychosaur diversity in North America\\r\\n",
+    "year": 2017,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/cjes-2017-0031",
+    "authors": [
+      "A. J. van der Reest",
+      "P. J. Currie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:821214",
+      "taxon": "Talos sampsoni",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talos",
+      "basis": "stated without evidence",
+      "summary": "Talos sampsoni belongs to Talos.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:821225",
+      "taxon": "Sinovenator changii",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinovenator",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator changii belongs to Sinovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:821231",
+      "taxon": "Anchiornis huxleyi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchiornis",
+      "basis": "stated without evidence",
+      "summary": "Anchiornis huxleyi belongs to Anchiornis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:821254",
+      "taxon": "Sinovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated with evidence",
+      "summary": "Sinovenator belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:821264",
+      "taxon": "Talos",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated with evidence",
+      "summary": "Talos belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:821266",
+      "taxon": "Anchiornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated with evidence",
+      "summary": "Anchiornis belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

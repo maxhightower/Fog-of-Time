@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:82845",
+    "doi": null,
+    "title": "Zìgòng dìqū zhū luó jì kǒnglóng dòngwù qún [Jurassic Dinosaur Faunas in Zigong]",
+    "year": 2005,
+    "journal": "People’s Publishing House, Sichuan Publishing Group",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=82845",
+    "authors": [
+      "G. Peng",
+      "Y. Ye",
+      "Y. Gao, C. Shu, S. Jiang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:899682",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauropodidae",
+      "basis": "stated with evidence",
+      "summary": "Grallator belongs to Anchisauropodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:899712",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

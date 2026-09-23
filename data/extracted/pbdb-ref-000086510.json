@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86510",
+    "doi": null,
+    "title": "Faunas de répteis do Jurássico Superior de Portugal: sobre las faunas de reptiles del Jurásico Superior de Portugal [Reptile faunas from the Upper Jurassic of Portugal: on the reptile faunas from the Upper Jurassic of Portugal]",
+    "year": 2009,
+    "journal": "Paleolusitana",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=86510",
+    "authors": [
+      "F. Ortega",
+      "E. Malafaia",
+      "F. Escaso, A. Pérez García, P. Dantas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:939287",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

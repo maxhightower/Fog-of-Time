@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14919",
+    "doi": "10.1038/35047056",
+    "title": "The smallest known non-avian theropod dinosaur",
+    "year": 2000,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/35047056",
+    "authors": [
+      "X. Xu",
+      "Z. Zhou",
+      "X. Wang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:103128",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Microraptor belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

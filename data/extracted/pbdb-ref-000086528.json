@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86528",
+    "doi": "10.1016/j.cretres.2016.08.004",
+    "title": "Reassessment of the earliest documented stegosaurian fossils from Asia",
+    "year": 2016,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2016.08.004",
+    "authors": [
+      "N. H. Borinder",
+      "S. F. Poropat",
+      "B. P. Kear"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:939374",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

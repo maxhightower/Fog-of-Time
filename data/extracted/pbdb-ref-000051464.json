@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:51464",
+    "doi": null,
+    "title": "O pervoy nakhodke Alektrozavra (Tyrannosauridae, Theropoda) iz pozdnego Mela Mongolii [On the first discovery of Alectrosaurus (Tyrannosauridae, Theropoda) in the Late Cretaceous of Mongolia]",
+    "year": 1977,
+    "journal": "Shinzhlekh Ukhaany Akademi Geologiin Khureelen",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=51464",
+    "authors": [
+      "A. Perle"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:522430",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

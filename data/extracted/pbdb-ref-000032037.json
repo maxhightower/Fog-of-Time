@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32037",
+    "doi": "10.1144/SP315.18",
+    "title": "Ichnological evidence for small quadrupedal ornithischians from the basal Cretaceous of SE Asia and North America: implications for a global radiation",
+    "year": 2009,
+    "journal": "Late Palaeozoic and Mesozoic Ecosystems in SE Asia. The Geological Society of London, Special Publication",
+    "url": "https://doi.org/10.1144/SP315.18",
+    "authors": [
+      "M. G. Lockley",
+      "R. T. McCrea",
+      "M. Matsukawa"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:297471",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anomoepodidae",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Anomoepodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

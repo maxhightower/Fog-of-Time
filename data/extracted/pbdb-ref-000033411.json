@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:33411",
+    "doi": null,
+    "title": "The earliest known deinonychosaur tracks from the Jurassic-Cretaceous boundary in Hebei Province, China",
+    "year": 2009,
+    "journal": "Acta Palaeontologica Sinica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=33411",
+    "authors": [
+      "L.-d. Xing",
+      "J. D. Harris",
+      "D.-h. Sun, H.-q. Zhao"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:310765",
+      "taxon": "Velociraptorichnus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeopodidae",
+      "basis": "stated without evidence",
+      "summary": "Velociraptorichnus belongs to Dromaeopodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:310770",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Microraptor belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:310771",
+      "taxon": "Sinornithosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Sinornithosaurus belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:310774",
+      "taxon": "Sinovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

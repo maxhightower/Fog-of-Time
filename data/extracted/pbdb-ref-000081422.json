@@ -25,6 +25,16 @@
       "basis": "stated without evidence",
       "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:880173",
+      "taxon": "Galeamopus pabsti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Galeamopus",
+      "basis": "stated without evidence",
+      "summary": "Galeamopus pabsti belongs to Galeamopus.",
+      "source": "pbdb_opinion"
     }
   ]
 }

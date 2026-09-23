@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:33971",
+    "doi": "10.1016/j.palaeo.2009.06.004",
+    "title": "Taphonomy of debris-flow hosted dinosaur bonebeds at Dalton Wells, Utah (Lower Cretaceous, Cedar Mountain Formation, USA)",
+    "year": 2009,
+    "journal": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "url": "https://doi.org/10.1016/j.palaeo.2009.06.004",
+    "authors": [
+      "B. B. Britt",
+      "D. A. Eberth",
+      "R. D. Scheetz, B. W. Greenhalgh, K. L. Stadtman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:312378",
+      "taxon": "Utahraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Utahraptor belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

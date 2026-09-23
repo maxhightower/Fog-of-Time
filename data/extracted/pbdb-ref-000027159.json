@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:27159",
+    "doi": null,
+    "title": "A new titanosaur sauropod from the Late Cretaceous of Neuquén, Patagonia, Argentina",
+    "year": 2007,
+    "journal": "Arquivos do Museu Nacional, Rio de Janeiro",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=27159",
+    "authors": [
+      "J. O. Calvo",
+      "B. J. González Riga",
+      "J. D. Porfiri"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:218679",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Opisthocoelicaudiinae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Opisthocoelicaudiinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:218684",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

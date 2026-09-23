@@ -427,5 +427,47 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:751425",
+      "taxon": "Kwanasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sulcimentisauria",
+      "basis": "stated with evidence",
+      "summary": "Kwanasaurus belongs to Sulcimentisauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:751426",
+      "taxon": "Kwanasaurus williamparkeri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Kwanasaurus",
+      "basis": "stated with evidence",
+      "summary": "Kwanasaurus williamparkeri belongs to Kwanasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:751444",
+      "taxon": "Lewisuchus admixtus",
+      "published_as": "Lewisuchus admixus",
+      "status": "belongs_to",
+      "related_taxon": "Lewisuchus",
+      "basis": "stated without evidence",
+      "summary": "Lewisuchus admixtus (as Lewisuchus admixus) belongs to Lewisuchus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:751460",
+      "taxon": "Lewisuchus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Silesauridae",
+      "basis": "stated with evidence",
+      "summary": "Lewisuchus belongs to Silesauridae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

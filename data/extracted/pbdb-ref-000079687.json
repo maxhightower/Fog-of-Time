@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:79687",
+    "doi": "10.1016/j.cretres.2013.08.005",
+    "title": "Reassessment of coelurosaurian (Dinosauria, Theropoda) remains from the Upper Cretaceous Wangshi Group of Shandong Province, China",
+    "year": 2013,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2013.08.005",
+    "authors": [
+      "S. F. Poropat",
+      "B. P. Kear"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:869603",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:869613",
+      "taxon": "Anchiornis huxleyi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchiornis",
+      "basis": "stated without evidence",
+      "summary": "Anchiornis huxleyi belongs to Anchiornis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

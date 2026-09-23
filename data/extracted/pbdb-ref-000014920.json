@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14920",
+    "doi": "10.1038/20670",
+    "title": "A therizinosauroid dinosaur with integumentary structures from China",
+    "year": 1999,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/20670",
+    "authors": [
+      "X. Xu",
+      "Z.-L. Tang",
+      "X.-L. Wang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:103130",
+      "taxon": "Beipiaosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Beipiaosaurus belongs to Therizinosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

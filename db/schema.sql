@@ -122,7 +122,10 @@ CREATE TABLE theoretical_creature (
   id TEXT PRIMARY KEY,
   name TEXT NOT NULL,
   scientific_name TEXT,
-  hypothesis TEXT NOT NULL
+  hypothesis TEXT NOT NULL,
+  -- 1 for a hand-curated theoretical creature; 0 for an official creature
+  -- whose life follows the automatic rule in build_data.py.
+  curated INTEGER NOT NULL DEFAULT 1 CHECK (curated IN (0, 1))
 );
 
 CREATE TABLE creature_taxon (

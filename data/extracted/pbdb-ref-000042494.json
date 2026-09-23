@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:42494",
+    "doi": "10.1016/j.cretres.2011.11.014",
+    "title": "New alvarezsaurid (Dinosauria, Theropoda) from uppermost Cretaceous of north-western Patagonia with associated eggs",
+    "year": 2012,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2011.11.014",
+    "authors": [
+      "F. L. Agnolin",
+      "J. E. Powell",
+      "F. E. Novas, M. Kundrát"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:423939",
+      "taxon": "Bonapartenykus ultimus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Bonapartenykus",
+      "basis": "stated with evidence",
+      "summary": "Bonapartenykus ultimus belongs to Bonapartenykus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:423941",
+      "taxon": "Bonapartenykus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Patagonykinae",
+      "basis": "stated without evidence",
+      "summary": "Bonapartenykus belongs to Patagonykinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:508062",
+      "taxon": "Continuoolithus canadensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Continuoolithus",
+      "basis": "stated without evidence",
+      "summary": "Continuoolithus canadensis belongs to Continuoolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

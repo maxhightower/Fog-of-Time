@@ -64,5 +64,17 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1004184",
+      "taxon": "Daspletosaurus horneri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Daspletosaurus",
+      "basis": "stated with evidence",
+      "summary": "Daspletosaurus horneri belongs to Daspletosaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

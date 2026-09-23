@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:68171",
+    "doi": null,
+    "title": "Les dépôts à Iguanodons de Bernissart et leur transfert dans l’étage Purbeckien ou Aquilonien du Jurassique supérieur. Exposé comprenant une revue de la faune des vertébrés du Purbeckien et du Wealdien dans le sud-est de l’Angleterre [The Iguanodon deposits of Bernissart and their transfer to the Purbeckian or Aquilonian stage of the Upper Jurassic. Presentation including a review of the vertebrate fauna of the Purbeckian and Wealden of southeast England ]",
+    "year": 1900,
+    "journal": "Mémoires de la Société Belge de Géologie de Paléontologie et d’Hydrologie",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=68171",
+    "authors": [
+      "E. Van Den Broeck"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:715297",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:56091",
+    "doi": "10.4202/app.2012.0121",
+    "title": "Theropod dinosaurs from the Upper Cretaceous of the South Pyrenees Basin of Spain",
+    "year": 2015,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://doi.org/10.4202/app.2012.0121",
+    "authors": [
+      "A. Torices",
+      "P. J. Currie",
+      "J. I. Canudo, X. Pereda-Suberbiola"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:588036",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:588043",
+      "taxon": "Richardoestesia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelurosauria",
+      "basis": "stated without evidence",
+      "summary": "Richardoestesia belongs to Coelurosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

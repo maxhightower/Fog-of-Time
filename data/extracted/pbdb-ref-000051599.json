@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:51599",
+    "doi": null,
+    "title": "A mew hadrosaur from the Oldman Formation of Alberta: discussion of nomenclature",
+    "year": 1953,
+    "journal": "National Museum of Canada Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=51599",
+    "authors": [
+      "C. M. Sternberg"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:523395",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

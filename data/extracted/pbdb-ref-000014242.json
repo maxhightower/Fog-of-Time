@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14242",
+    "doi": null,
+    "title": "Avialan status for Oviraptorosauria",
+    "year": 2002,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14242",
+    "authors": [
+      "T. Maryanska",
+      "H. Osmólska",
+      "M. Wolsan"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:99180",
+      "taxon": "Conchoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Oviraptoridae",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor belongs to Oviraptoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99182",
+      "taxon": "Conchoraptor gracilis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Conchoraptor",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor gracilis belongs to Conchoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99191",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Avialae",
+      "basis": "stated without evidence",
+      "summary": "Confuciusornis belongs to Avialae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12427",
+    "doi": null,
+    "title": "First occurrence of Deinonychus antirrhopus (Dinosauria: Theropoda) from the Antlers Formation (Lower Cretaceous: Aptian-Albian) of Oklahoma",
+    "year": 1998,
+    "journal": "Oklahoma Geological Survey Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12427",
+    "authors": [
+      "D. B. Brinkman",
+      "R. L. Cifelli",
+      "N. J. Czaplewski"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:139413",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

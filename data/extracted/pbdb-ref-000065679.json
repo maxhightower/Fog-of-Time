@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65679",
+    "doi": "10.1080/10420940390256203",
+    "title": "Triassic footprints from Lerici (La Spezia, northern Italy)",
+    "year": 2003,
+    "journal": "Ichnos",
+    "url": "https://doi.org/10.1080/10420940390256203",
+    "authors": [
+      "U. Nicosia",
+      "M. Loi"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:684324",
+      "taxon": "Evazoum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Prosauropoda",
+      "basis": "stated with evidence",
+      "summary": "Evazoum belongs to Prosauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

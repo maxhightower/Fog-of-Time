@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:986471",
+      "taxon": "Duonychus tsogtbaatari",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Duonychus",
+      "basis": "stated with evidence",
+      "summary": "Duonychus tsogtbaatari belongs to Duonychus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:986472",
+      "taxon": "Duonychus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauridae",
+      "basis": "stated with evidence",
+      "summary": "Duonychus belongs to Therizinosauridae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

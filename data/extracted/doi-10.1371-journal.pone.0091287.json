@@ -76,5 +76,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:507376",
+      "taxon": "Nanuqsaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Nanuqsaurus belongs to Tyrannosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:507377",
+      "taxon": "Nanuqsaurus hoglundi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nanuqsaurus",
+      "basis": "stated with evidence",
+      "summary": "Nanuqsaurus hoglundi belongs to Nanuqsaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

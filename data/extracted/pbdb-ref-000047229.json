@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:47229",
+    "doi": null,
+    "title": "Interpretations of Cretaceous and pre-Cretaceous eggs and shell fragments",
+    "year": 1989,
+    "journal": "Dinosaur Tracks and Traces",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=47229",
+    "authors": [
+      "K. F. Hirsch"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:473309",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

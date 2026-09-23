@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:66106",
+    "doi": null,
+    "title": "First report of sitting Anomoepus tracks in European Lower Jurassic (Lavini di Marco site – northern Italy)",
+    "year": 2001,
+    "journal": "Rivista Italiana di Paleontologia e Stratigrafia",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=66106",
+    "authors": [
+      "M. Avanzini",
+      "G. D. Gierlinski",
+      "G. Leonardi"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:689257",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anomoepodidae",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Anomoepodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

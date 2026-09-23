@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:60058",
+    "doi": "10.1080/02724634.2016.1111898",
+    "title": "A juvenile sauropod dinosaur from the Late Jurassic of Utah, U.S.A., presents further evidence of an avian style air-sac system",
+    "year": 2016,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2016.1111898",
+    "authors": [
+      "K. M. Melstrom",
+      "M. D. D'Emic",
+      "D. J. Chure, J. A. Wilson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:626223",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

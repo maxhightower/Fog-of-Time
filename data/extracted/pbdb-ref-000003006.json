@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:3006",
+    "doi": "10.5962/bhl.title.52245",
+    "title": "Biostratigraphy and paleontology of the Scollard Formation, Late Cretaceous and Paleocene of Alberta",
+    "year": 1987,
+    "journal": "Royal Ontario Museum Life Sciences Contribution",
+    "url": "https://doi.org/10.5962/bhl.title.52245",
+    "authors": [
+      "L. S. Russell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:90632",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

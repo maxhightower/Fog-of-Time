@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9095",
+    "doi": "10.2475/ajs.s3-43.257.449",
+    "title": "Notice of new reptiles from the Laramie Formation",
+    "year": 1892,
+    "journal": "American Journal of Science",
+    "url": "https://doi.org/10.2475/ajs.s3-43.257.449",
+    "authors": [
+      "O. C. Marsh"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:75607",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Claosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) belongs to Claosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

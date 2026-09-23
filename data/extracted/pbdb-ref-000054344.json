@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54344",
+    "doi": null,
+    "title": "Saurierfunde im Fränkischen Keuper [Saurian finds in the Franconian Keuper]",
+    "year": 1898,
+    "journal": "Sitzungsberichte der Physikalisch-Medizinischen Sozietät zu Erlangen",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54344",
+    "authors": [
+      "M. Blanckenhorn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:560567",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosaurinidae",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Megalosaurinidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

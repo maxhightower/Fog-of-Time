@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:37334",
+    "doi": null,
+    "title": "Titanosaur (Dinosauria, Sauropoda) osteoderms from Pakistan",
+    "year": 2008,
+    "journal": "Paleoclimates in Asia During the Cretaceous: Their Variations, Causes, and Biotic and Environmental Responses. Proceedings of the 3rd International Symposium of the IGCP Project No. 507, August, 15-16, 2008",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=37334",
+    "authors": [
+      "M. S. Malkani"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:353097",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -16,6 +16,56 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:982879",
+      "taxon": "Daspletosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Daspletosaurini",
+      "basis": "stated with evidence",
+      "summary": "Daspletosaurus belongs to Daspletosaurini.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:982889",
+      "taxon": "Nanuqsaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Nanuqsaurus belongs to Tyrannosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:982895",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurini",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosaurini.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:982898",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Albertosaurus belongs to Albertosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:982900",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Gorgosaurus belongs to Albertosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:982901",
       "taxon": "Nanotyrannus",
       "published_as": null,

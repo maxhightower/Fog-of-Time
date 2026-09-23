@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25201",
+    "doi": null,
+    "title": "On the footptrints of a dinosaur (Iguanodon?), from the Purbeck Beds of Swanage",
+    "year": 1896,
+    "journal": "Proceedings of the Dorset Natural History and Antiquarian Field Club",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=25201",
+    "authors": [
+      "J. C. Mansel-Pleydell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:188847",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

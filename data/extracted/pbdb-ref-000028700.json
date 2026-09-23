@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:28700",
+    "doi": null,
+    "title": "Une vertèbre de Dinosaure Titanosauridé dans le Cénomanien du Mans et ses implications paléobiogéographiques [A titanosaurid dinosaur vertebra in the Cenomanian of Le Mans and its paleobiogeographic implications]",
+    "year": 1989,
+    "journal": "Comptes Rendus de l'Académie des Sciences à Paris, Série II",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=28700",
+    "authors": [
+      "E. Buffetaut"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:249553",
+      "taxon": "Magyarosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

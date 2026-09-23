@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16794",
+    "doi": null,
+    "title": "The phylogenetic relationship of the French Compsognathus within the Compsognathidae and coelurosaurs",
+    "year": 2004,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16794",
+    "authors": [
+      "K. Peyer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:113613",
+      "taxon": "Sinosauropteryx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Compsognathidae",
+      "basis": "stated without evidence",
+      "summary": "Sinosauropteryx belongs to Compsognathidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

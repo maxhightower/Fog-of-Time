@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:81898",
+    "doi": "10.1016/j.palaeo.2012.03.003",
+    "title": "Paleobiology and geographic range of the large-bodied Cretaceous theropod dinosaur Acrocanthosaurus atokensis",
+    "year": 2012,
+    "journal": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "url": "https://doi.org/10.1016/j.palaeo.2012.03.003",
+    "authors": [
+      "M. D. D'Emic",
+      "K. M. Melstrom",
+      "D. R. Eddy"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:890506",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carcharodontosauridae",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Carcharodontosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

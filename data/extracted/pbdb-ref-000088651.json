@@ -183,5 +183,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:965142",
+      "taxon": "Diuqin",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Unenlagiinae",
+      "basis": "stated with evidence",
+      "summary": "Diuqin belongs to Unenlagiinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:965143",
+      "taxon": "Diuqin lechiguanae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diuqin",
+      "basis": "stated with evidence",
+      "summary": "Diuqin lechiguanae belongs to Diuqin.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

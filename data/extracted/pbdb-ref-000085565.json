@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:85565",
+    "doi": "10.21638/spbu03.2023.201",
+    "title": "Ontogeny and miniaturization of Alvarezsauridae (Dinosauria, Theropoda)",
+    "year": 2023,
+    "journal": "Biological Communications",
+    "url": "https://doi.org/10.21638/spbu03.2023.201",
+    "authors": [
+      "A. O. Averianov",
+      "P. P. Skutschas",
+      "A. V. Lopatin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:931727",
+      "taxon": "Bonapartenykus ultimus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Bonapartenykus",
+      "basis": "stated without evidence",
+      "summary": "Bonapartenykus ultimus belongs to Bonapartenykus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

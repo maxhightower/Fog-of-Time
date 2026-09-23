@@ -1,0 +1,49 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18893",
+    "doi": null,
+    "title": "Eggshells",
+    "year": 2005,
+    "journal": "Dinosaur Provincial Park: A Spectacular Ancient Ecosystem Revealed. Indiana University Press, Bloomington",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18893",
+    "authors": [
+      "D. K. Zelenitsky",
+      "W. J. Sloboda"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:146772",
+      "taxon": "Continuoolithus canadensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Continuoolithus",
+      "basis": "stated without evidence",
+      "summary": "Continuoolithus canadensis belongs to Continuoolithus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:146775",
+      "taxon": "Spheroolithus albertensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithus",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus albertensis belongs to Spheroolithus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:146783",
+      "taxon": "Continuoolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Continuoolithus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

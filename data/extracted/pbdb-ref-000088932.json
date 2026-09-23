@@ -127,5 +127,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:968101",
+      "taxon": "Comptonatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosauriformes",
+      "basis": "stated with evidence",
+      "summary": "Comptonatus belongs to Hadrosauriformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:968102",
+      "taxon": "Comptonatus chasei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Comptonatus",
+      "basis": "stated with evidence",
+      "summary": "Comptonatus chasei belongs to Comptonatus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

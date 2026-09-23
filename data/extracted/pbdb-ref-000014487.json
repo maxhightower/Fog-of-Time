@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14487",
+    "doi": null,
+    "title": "Restos caudais de Titanosauridae da Formação Adamantina (Turoniano-Santoniano), sítio do Prata, estado de Minas Gerais, Brasil [Caudal remains of Titanosauridae from the Adamantina Formation (Turonian-Santonian), Prata site, Minas Gerais state, Brazil]",
+    "year": 2004,
+    "journal": "Revista Brasileira de Paleontologia",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14487",
+    "authors": [
+      "E. B. de Almeida",
+      "L. d. S. Avilla",
+      "C. R. d. A. Candeiro"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:186415",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macronaria",
+      "basis": "stated without evidence",
+      "summary": "Haplocanthosaurus belongs to Macronaria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

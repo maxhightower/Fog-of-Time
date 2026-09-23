@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:82353",
+    "doi": "10.5252/geodiversitas2022v44a25",
+    "title": "Vertebrate paleobiodiversity of the Early Cretaceous (Berriasian) Angeac-Charente Lagerstätte (southwestern France): implications for continental faunal turnover at the J/K boundary",
+    "year": 2022,
+    "journal": "Geodiversitas",
+    "url": "https://doi.org/10.5252/geodiversitas2022v44a25",
+    "authors": [
+      "R. Allain",
+      "R. Vullo",
+      "L. Rozada, J. Anquetin, R. Bourgeais, J. Goedert, M. Lasseron, J. E. Martin, A. Pérez-García, C. Peyre De Fabrègues, R. Royo-Torres, D. Augier, G. Bailly, L. Cazes, Y. Despres, A. Gailliègue, B. Gomez, F. Goussard, T. Lenglet, R. Vacant, Mazan, J.-F. Tour"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:896941",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurinae",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus belongs to Dacentrurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7098",
+    "doi": "10.1126/science.272.5264.986",
+    "title": "Predatory dinosaurs from the Sahara and Late Cretaceous faunal differentiation",
+    "year": 1996,
+    "journal": "Science",
+    "url": "https://doi.org/10.1126/science.272.5264.986",
+    "authors": [
+      "P. C. Sereno",
+      "D. B. Dutheil",
+      "M. Iarochene, H. C. E. Larsson, G. H. Lyon, P. M. Magwene, C. A. Sidor, D. J. Varricchio, J. A. Wilson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:93910",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carcharodontosauridae",
+      "basis": "stated with evidence",
+      "summary": "Acrocanthosaurus belongs to Carcharodontosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:93912",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauroidea",
+      "basis": "stated with evidence",
+      "summary": "Allosaurus belongs to Allosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

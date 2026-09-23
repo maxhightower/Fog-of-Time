@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32762",
+    "doi": "10.1111/j.1096-3642.2009.00464.x",
+    "title": "Osteology of Falcarius utahensis (Dinosauria: Theropoda): characterizing the anatomy of basal therizinosaurs",
+    "year": 2010,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1111/j.1096-3642.2009.00464.x",
+    "authors": [
+      "L. E. Zanno"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:304958",
+      "taxon": "Beipiaosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Beipiaosaurus belongs to Therizinosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:37379",
+    "doi": "10.4072/rbp.2010.3.08",
+    "title": "Materiales asignables a Epachthosaurus Powell, 1990 (Sauropoda: Titanosauria), de la Formación Bajo Barreal, Cretácico Superior, Chubut, Argentina [Materials assignable to Epachthosaurus Powell, 1990 (Sauropoda: Titanosauria), from the Bajo Barreal Formation, Upper Cretaceous, Chubut, Argentina]",
+    "year": 2010,
+    "journal": "Revista Brasileira de Paleontologia",
+    "url": "https://doi.org/10.4072/rbp.2010.3.08",
+    "authors": [
+      "G. Casal",
+      "L. Ibiricu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:353626",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -298,6 +298,26 @@
   ],
   "opinions": [
     {
+      "id": "pbdb-opinion:797130",
+      "taxon": "Schleitheimia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodiformes",
+      "basis": "stated with evidence",
+      "summary": "Schleitheimia belongs to Sauropodiformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:797131",
+      "taxon": "Schleitheimia schutzi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Schleitheimia",
+      "basis": "stated with evidence",
+      "summary": "Schleitheimia schutzi belongs to Schleitheimia.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:824491",
       "taxon": "Gresslyosaurus ingens",
       "published_as": null,

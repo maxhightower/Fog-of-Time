@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1014945",
+      "taxon": "Yuanmouraptor jinshajiangensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Yuanmouraptor",
+      "basis": "stated with evidence",
+      "summary": "Yuanmouraptor jinshajiangensis belongs to Yuanmouraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1014947",
+      "taxon": "Yuanmouraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Metriacanthosauridae",
+      "basis": "stated without evidence",
+      "summary": "Yuanmouraptor belongs to Metriacanthosauridae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

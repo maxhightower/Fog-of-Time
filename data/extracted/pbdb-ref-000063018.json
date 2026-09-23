@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63018",
+    "doi": "10.1098/rspb.2017.1219",
+    "title": "A new giant titanosaur sheds light on body mass evolution among sauropod dinosaurs",
+    "year": 2017,
+    "journal": "Proceedings of the Royal Society of London B",
+    "url": "https://doi.org/10.1098/rspb.2017.1219",
+    "authors": [
+      "J. L. Carballido",
+      "D. Pol",
+      "A. Otero, I. A. Cerda, L. Salgado, A. C. Garrido, J. Ramezani, N. R. Cúneo, J. M. Krause"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:655120",
+      "taxon": "Dreadnoughtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eutitanosauria",
+      "basis": "stated with evidence",
+      "summary": "Dreadnoughtus belongs to Eutitanosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

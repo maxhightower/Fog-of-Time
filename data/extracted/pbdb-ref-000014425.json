@@ -15,6 +15,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:141903",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:141904",
       "taxon": "Stygimoloch",
       "published_as": null,

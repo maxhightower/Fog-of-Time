@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78849",
+    "doi": "10.3969/j.issn.1674-3636.2016.02.191",
+    "title": "A new species of compsognathid from the Early Cretaceous Yixian Formation of western Liaoning, China",
+    "year": 2016,
+    "journal": "Journal of Geology",
+    "url": "https://doi.org/10.3969/j.issn.1674-3636.2016.02.191",
+    "authors": [
+      "Y. Hu",
+      "X. Wang",
+      "J. Huang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:858104",
+      "taxon": "Sinosauropteryx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Compsognathidae",
+      "basis": "stated without evidence",
+      "summary": "Sinosauropteryx belongs to Compsognathidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

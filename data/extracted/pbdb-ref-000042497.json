@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:42497",
+    "doi": "10.1017/S1755691011020093",
+    "title": "New dinosaur species from the Upper Triassic Upper Maleri and Lower Dharmaram formations of Central India",
+    "year": 2011,
+    "journal": "Earth and Environmental Science Transactions of the Royal Society of Edinburgh",
+    "url": "https://doi.org/10.1017/S1755691011020093",
+    "authors": [
+      "F. E. Novas",
+      "M. D. Ezcurra",
+      "S. Chatterjee, T. S. Kutty"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:481211",
+      "taxon": "Chromogisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saturnaliinae",
+      "basis": "stated with evidence",
+      "summary": "Chromogisaurus belongs to Saturnaliinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:481212",
+      "taxon": "Panphagia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Guaibasauridae",
+      "basis": "stated with evidence",
+      "summary": "Panphagia belongs to Guaibasauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:481215",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:481224",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Massospondylidae",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Massospondylidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

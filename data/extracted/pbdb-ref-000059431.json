@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:59431",
+    "doi": "10.1017/jpa.2015.67",
+    "title": "Anatomy, systematics, paleoenvironment, growth, and age of the sauropod dinosaur Sonorasaurus thompsoni from the Cretaceous of Arizona, USA",
+    "year": 2016,
+    "journal": "Journal of Paleontology",
+    "url": "https://doi.org/10.1017/jpa.2015.67",
+    "authors": [
+      "M. D. D'Emic",
+      "B. Z. Foreman",
+      "N. A. Jud"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:620424",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:34521",
+    "doi": "10.4202/app.2009.0047",
+    "title": "A new troodontid theropod from the Late Cretaceous of central China, and the radiation of Asian troodontids",
+    "year": 2010,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://doi.org/10.4202/app.2009.0047",
+    "authors": [
+      "J. Lü",
+      "L. Xu, Y. Liu, X. Zhang, S. Jia, Q. Ji"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:316785",
+      "taxon": "Anchiornis huxleyi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchiornis",
+      "basis": "stated without evidence",
+      "summary": "Anchiornis huxleyi belongs to Anchiornis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:316788",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:316792",
+      "taxon": "Anchiornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated with evidence",
+      "summary": "Anchiornis belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

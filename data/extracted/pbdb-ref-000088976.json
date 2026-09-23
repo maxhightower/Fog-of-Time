@@ -631,5 +631,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:968473",
+      "taxon": "Tietasaura derbyiana",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tietasaura",
+      "basis": "stated with evidence",
+      "summary": "Tietasaura derbyiana belongs to Tietasaura.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:968474",
+      "taxon": "Tietasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elasmaria",
+      "basis": "stated with evidence",
+      "summary": "Tietasaura belongs to Elasmaria.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

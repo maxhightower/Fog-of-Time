@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:5981",
+    "doi": "10.2475/ajs.s3-17.97.86",
+    "title": "Principal characters of American Jurassic dinosaurs. Part II",
+    "year": 1879,
+    "journal": "American Journal of Science, Series 3",
+    "url": "https://doi.org/10.2475/ajs.s3-17.97.86",
+    "authors": [
+      "O. C. Marsh"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:79911",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

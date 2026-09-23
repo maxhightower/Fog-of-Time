@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13942",
+    "doi": "10.5962/bhl.title.5344",
+    "title": "The vertebrate fauna of the Selma Formation of Alabama. Part VI. The dinosaurs",
+    "year": 1960,
+    "journal": "Fieldiana: Geology Memoirs",
+    "url": "https://doi.org/10.5962/bhl.title.5344",
+    "authors": [
+      "W. Langston"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:242286",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12810",
+    "doi": null,
+    "title": "An Antarctic Cretaceous theropod",
+    "year": 1996,
+    "journal": "Memoirs of the Queensland Museum",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12810",
+    "authors": [
+      "R. E. Molnar",
+      "A. L. Angriman",
+      "Z. Gasparini"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:307578",
+      "taxon": "Torvosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Torvosauridae",
+      "basis": "stated without evidence",
+      "summary": "Torvosaurus belongs to Torvosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

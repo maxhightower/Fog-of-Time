@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:49175",
+    "doi": "10.1371/journal.pone.0080557",
+    "title": "A new oviraptorosaur (Dinosauria: Oviraptorosauria) from the Late Cretaceous of southern China and its palaeoecological implications",
+    "year": 2013,
+    "journal": "PLoS One",
+    "url": "https://doi.org/10.1371/journal.pone.0080557",
+    "authors": [
+      "J. Lü",
+      "L. Yi",
+      "H. Zhong, X. Wei"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:495142",
+      "taxon": "Conchoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ingeniinae",
+      "basis": "stated with evidence",
+      "summary": "Conchoraptor belongs to Ingeniinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

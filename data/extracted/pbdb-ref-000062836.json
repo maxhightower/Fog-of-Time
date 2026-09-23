@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:62836",
+    "doi": null,
+    "title": "In the footsteps of dinosaurs",
+    "year": 1981,
+    "journal": "Explorer’s Journal",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62836",
+    "authors": [
+      "W. A. S. Sarjeant"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:652941",
+      "taxon": "Tetrapodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsia",
+      "basis": "stated without evidence",
+      "summary": "Tetrapodosaurus belongs to Ceratopsia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

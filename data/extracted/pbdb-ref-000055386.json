@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55386",
+    "doi": null,
+    "title": "Síntesis del registro fósil de dinosaurios en el Este de la Península Ibérica [Synthesis of the fossil record of dinosaurs in the eastern Iberian Peninsula]",
+    "year": 2008,
+    "journal": "Palaeontologica Nova",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55386",
+    "authors": [
+      "M. Suñer",
+      "B. Poza",
+      "B. Vila, A. Santos-Cubedos"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:571001",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

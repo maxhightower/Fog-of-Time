@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:41150",
+    "doi": null,
+    "title": "Nuevos restos de dinosaurios (Titanosauria y Ornithopoda) en el Cretácico Superior de las cuencas de Tremp y Dellà (Lleida, España) [New remains of dinosaurs (Titanosauria and Ornithopoda) in the Upper Cretaceous of the Temp and Dellà basins (Lleida, Spain)]",
+    "year": 1995,
+    "journal": "Estudios Geológicos",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=41150",
+    "authors": [
+      "M. L. Casanovas-Cladellas",
+      "J. V. Santafé-Llopis",
+      "J. L. Sanz, J. E. Powell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:405693",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

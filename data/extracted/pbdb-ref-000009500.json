@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9500",
+    "doi": null,
+    "title": "Redescription of neoceratopsian dinosaur <i>Archaeoceratops</i> and early evolution of Neoceratopsia",
+    "year": 2003,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9500",
+    "authors": [
+      "H.-L. You",
+      "P. Dodson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:77057",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

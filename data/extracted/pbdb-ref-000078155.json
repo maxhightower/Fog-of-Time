@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78155",
+    "doi": "10.1111/j.1475-4983.2011.01069.x",
+    "title": "Taxonomic and phylogenetic reassessment of the early neotheropod dinosaur Camposaurus arizonensis from the Late Triassic of North America",
+    "year": 2011,
+    "journal": "Palaeontology",
+    "url": "https://doi.org/10.1111/j.1475-4983.2011.01069.x",
+    "authors": [
+      "M. D. Ezcurra",
+      "S. L. Brusatte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:850211",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

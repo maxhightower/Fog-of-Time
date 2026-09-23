@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:37362",
+    "doi": "10.1007/s11430-010-4094-9",
+    "title": "Vertebrate diversity of the Jehol Biota as compared with other Lagerstätten",
+    "year": 2010,
+    "journal": "Science China, Earth Sciences",
+    "url": "https://doi.org/10.1007/s11430-010-4094-9",
+    "authors": [
+      "Z. -H. Zhou",
+      "Y. Wang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:353747",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Confuciusornithidae",
+      "basis": "stated without evidence",
+      "summary": "Confuciusornis belongs to Confuciusornithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

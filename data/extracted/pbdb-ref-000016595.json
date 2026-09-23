@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16595",
+    "doi": "10.1038/nature04511",
+    "title": "A basal tyrannosauroid dinosaur from the Late Jurassic of China",
+    "year": 2006,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/nature04511",
+    "authors": [
+      "X. Xu",
+      "J. M. Clark",
+      "C. A. Forster, M. A. Norell, G. M. Erickson, D. A. Eberth, C. Jai, Q. Zhao"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:109126",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Tyrannosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

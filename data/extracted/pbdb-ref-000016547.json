@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16547",
+    "doi": null,
+    "title": "Cretaceous tetrapods of Argentina",
+    "year": 1996,
+    "journal": "Münchner Geowissenschaften Abhandlungen",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16547",
+    "authors": [
+      "J. F. Bonaparte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:109468",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated with evidence",
+      "summary": "Titanosauria belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

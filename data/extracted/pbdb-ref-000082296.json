@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:82296",
+    "doi": "10.1007/s11692-022-09561-5",
+    "title": "The tyrant lizard king, queen and emperor: multiple lines of morphological and stratigraphic evidence support subtle evolution and probable speciation within the North American genus Tyrannosaurus",
+    "year": 2022,
+    "journal": "Evolutionary Biology",
+    "url": "https://doi.org/10.1007/s11692-022-09561-5",
+    "authors": [
+      "G. S. Paul",
+      "W. S. Persons",
+      "J. Van Raalte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:896482",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

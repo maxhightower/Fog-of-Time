@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:42509",
+    "doi": "10.1007/s00114-011-0858-0",
+    "title": "New stem-sauropodomorph (Dinosauria, Saurischia) from the Triassic of Brazil",
+    "year": 2011,
+    "journal": "Naturwissenschaften",
+    "url": "https://doi.org/10.1007/s00114-011-0858-0",
+    "authors": [
+      "S. F. Cabreira",
+      "C. L. Schultz",
+      "J. S. Bittencourt, M. B. Soares, D. C. Fortier, L. R. Silva, M. C. Langer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:424259",
+      "taxon": "Pampadromaeus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated without evidence",
+      "summary": "Pampadromaeus belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

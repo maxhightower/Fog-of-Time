@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:4399",
+    "doi": null,
+    "title": "The Chañares (Argentina) Triassic reptile fauna; XIV, Lewisuchus admixtus, gen. et sp. nov., a further thecodont from the Chañares beds",
+    "year": 1972,
+    "journal": "Breviora",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=4399",
+    "authors": [
+      "A. S. Romer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:101573",
+      "taxon": "Lewisuchus admixtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lewisuchus",
+      "basis": "stated without evidence",
+      "summary": "Lewisuchus admixtus belongs to Lewisuchus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:133100",
+      "taxon": "Lewisuchus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pseudosuchia",
+      "basis": "stated without evidence",
+      "summary": "Lewisuchus belongs to Pseudosuchia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

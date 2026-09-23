@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:995411",
+      "taxon": "Tongnanlong",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated without evidence",
+      "summary": "Tongnanlong belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:995412",
+      "taxon": "Tongnanlong zhimingi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tongnanlong",
+      "basis": "stated with evidence",
+      "summary": "Tongnanlong zhimingi belongs to Tongnanlong.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

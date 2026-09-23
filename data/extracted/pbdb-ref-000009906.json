@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9906",
+    "doi": null,
+    "title": "A new dinosaur, Gallimimus bullatus n. gen., n. sp. (Ornithomimidae) from the Upper Cretaceous of Mongolia",
+    "year": 1972,
+    "journal": "Palaeontologia Polonica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9906",
+    "authors": [
+      "H. Osmólska",
+      "E. Roniewicz",
+      "R. Barsbold"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:321472",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -15,6 +15,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:96593",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Podokesauridae",
+      "basis": "implied",
+      "summary": "Coelophysis belongs to Podokesauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:96646",
       "taxon": "Gresslyosaurus",
       "published_as": null,
@@ -22,6 +32,76 @@
       "related_taxon": "Teratosauridae",
       "basis": "implied",
       "summary": "Gresslyosaurus belongs to Teratosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96653",
+      "taxon": "Sinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Teratosauridae",
+      "basis": "implied",
+      "summary": "Sinosaurus belongs to Teratosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96661",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "implied",
+      "summary": "Acrocanthosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96663",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Antrodemus",
+      "basis": "implied",
+      "summary": "Allosaurus is a subjective synonym of Antrodemus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96690",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "implied",
+      "summary": "Spinosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96695",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "implied",
+      "summary": "Tyrannosauridae belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96698",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Aublysodon",
+      "basis": "implied",
+      "summary": "Albertosaurus is a subjective synonym of Aublysodon.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96701",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Aublysodon",
+      "basis": "implied",
+      "summary": "Gorgosaurus is a subjective synonym of Aublysodon.",
       "source": "pbdb_opinion"
     },
     {
@@ -35,6 +115,56 @@
       "source": "pbdb_opinion"
     },
     {
+      "id": "pbdb-opinion:96707",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "implied",
+      "summary": "Tyrannosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96717",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Thecodontosauridae",
+      "basis": "implied",
+      "summary": "Massospondylus belongs to Thecodontosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96728",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "implied",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96755",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosaurinae",
+      "basis": "implied",
+      "summary": "Haplocanthosaurus belongs to Cetiosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96762",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosaurinae",
+      "basis": "implied",
+      "summary": "Brachiosaurus belongs to Brachiosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:96789",
       "taxon": "Brontosaurus",
       "published_as": null,
@@ -42,6 +172,86 @@
       "related_taxon": "Apatosaurus",
       "basis": "implied",
       "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96794",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosaurinae",
+      "basis": "implied",
+      "summary": "Alamosaurus belongs to Titanosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96806",
+      "taxon": "Magyarosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Titanosaurus",
+      "basis": "implied",
+      "summary": "Magyarosaurus is a subjective synonym of Titanosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96836",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "implied",
+      "summary": "Camptosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96860",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosauridae",
+      "basis": "implied",
+      "summary": "Edmontosaurus belongs to Hadrosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96898",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauridae",
+      "basis": "implied",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96907",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosaurinae",
+      "basis": "implied",
+      "summary": "Dacentrurus belongs to Stegosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96955",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nodosauridae",
+      "basis": "implied",
+      "summary": "Pinacosaurus belongs to Nodosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:96982",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Monoclonius",
+      "basis": "implied",
+      "summary": "Centrosaurus is a subjective synonym of Monoclonius.",
       "source": "pbdb_opinion"
     },
     {

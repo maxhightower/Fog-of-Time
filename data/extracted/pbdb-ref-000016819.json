@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16819",
+    "doi": null,
+    "title": "A new, basal-most therizinosauroid (Theropoda: Maniraptora) from Utah demonstrates a pan-Laurasian distribution for Early Cretaceous (Barremian) therizinosauroids",
+    "year": 2004,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16819",
+    "authors": [
+      "J. I. Kirkland",
+      "L. Zanno",
+      "D. Deblieux, D. Smith, S. D. Sampson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:113807",
+      "taxon": "Beipiaosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Beipiaosaurus belongs to Therizinosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

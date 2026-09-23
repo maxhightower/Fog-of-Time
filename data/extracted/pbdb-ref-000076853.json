@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76853",
+    "doi": null,
+    "title": "Osteoderms and dermal plates of titanosaurian sauropod dinosaurs found from Pakistan: reported first time in Asia",
+    "year": 2015,
+    "journal": "The 12th Symposium on Mesozoic Terrestrial Ecosystems. Abstracts",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76853",
+    "authors": [
+      "M. S. Malkani"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:836956",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

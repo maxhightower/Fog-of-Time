@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:39488",
+    "doi": "10.1080/10420940009380161",
+    "title": "An amended description of the theropod footprint Bueckeburgichnus maximus Kuhn 1958, and its bearing on the megalosaur tracks debate",
+    "year": 2000,
+    "journal": "Ichnos",
+    "url": "https://doi.org/10.1080/10420940009380161",
+    "authors": [
+      "M. G. Lockley"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:382773",
+      "taxon": "Megalosauripus",
+      "published_as": null,
+      "status": "nomen_nudum",
+      "related_taxon": "Theropoda",
+      "basis": "stated with evidence",
+      "summary": "Megalosauripus is a nomen nudum (filed under Theropoda).",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

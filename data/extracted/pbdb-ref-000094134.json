@@ -120,5 +120,37 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1011150",
+      "taxon": "Xenovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontini",
+      "basis": "stated with evidence",
+      "summary": "Xenovenator belongs to Troodontini.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1011151",
+      "taxon": "Xenovenator espinosai",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Xenovenator",
+      "basis": "stated with evidence",
+      "summary": "Xenovenator espinosai belongs to Xenovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1011160",
+      "taxon": "Talos",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurornithoidini",
+      "basis": "stated with evidence",
+      "summary": "Talos belongs to Saurornithoidini.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

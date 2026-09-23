@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:72972",
+    "doi": "10.1038/s41598-020-67754-4",
+    "title": "A new species of early‐diverging Sauropodiformes from the Lower Jurassic Fengjiahe Formation of Yunnan province, China",
+    "year": 2020,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-020-67754-4",
+    "authors": [
+      "C. Peyre de Fabrègues",
+      "S. Bi",
+      "H. Li, G. Li, L. Yang, X. Xu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:806492",
+      "taxon": "Yizhousaurus sunae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Yizhousaurus",
+      "basis": "stated without evidence",
+      "summary": "Yizhousaurus sunae belongs to Yizhousaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

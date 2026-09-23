@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76532",
+    "doi": "10.7717/peerj.11013",
+    "title": "Geology and taphonomy of a unique tyrannosaurid bonebed from the upper Campanian Kaiparowits Formation of southern Utah: implications for tyrannosaurid gregariousness",
+    "year": 2021,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.11013",
+    "authors": [
+      "A. L. Titus",
+      "K. Knoll",
+      "J. J. W. Sertich, D. Yamamura, C. A. Suarez, I. J. Glasspool, J. E. Ginouves, A. K. Lukacic, E. M. Roberts"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:832348",
+      "taxon": "Daspletosaurus horneri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Daspletosaurus",
+      "basis": "stated without evidence",
+      "summary": "Daspletosaurus horneri belongs to Daspletosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:832351",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

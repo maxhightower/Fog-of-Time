@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:47184",
+    "doi": null,
+    "title": "[A new species of sauropod, Mamenchisaurus anyuensis sp. nov.]",
+    "year": 1996,
+    "journal": "Papers on Geosciences Contributed to the 30th International Geological Congress",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=47184",
+    "authors": [
+      "X. He",
+      "S. Yang",
+      "K. Cai, K. Li, Z. Liu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:472566",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

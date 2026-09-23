@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:61483",
+    "doi": null,
+    "title": "Uno scheletro di dinosauro del Museo Civico di Storia Naturale di Milano (Kritosaurus notabilis (Lambe)). Osservazioni preliminari [A dinosaur skeleton in the Municipal Museum of Natural History in Milan (Kritosaurus notabilis (Lambe)). Preliminary observations]",
+    "year": 1960,
+    "journal": "Atti della Società Italiana di Scienze Naturali e del Museo Civico di Storia Naturale di Milano",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=61483",
+    "authors": [
+      "V. Vialli"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:635276",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Anatosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Anatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Anatosaurus annectens) belongs to Anatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

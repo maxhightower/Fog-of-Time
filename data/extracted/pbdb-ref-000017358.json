@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17358",
+    "doi": "10.1139/e05-029",
+    "title": "A new centrosaurine ceratopsid from the Oldman Formation of Alberta and its implications for centrosaurine taxonomy and systematics",
+    "year": 2005,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/e05-029",
+    "authors": [
+      "M. J. Ryan",
+      "A. P. Russell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:133490",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Centrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Centrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

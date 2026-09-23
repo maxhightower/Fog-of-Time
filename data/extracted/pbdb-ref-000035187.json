@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:35187",
+    "doi": "10.4202/app.2008.0049",
+    "title": "New sauropod trackways from the Middle Jurassic of Portugal",
+    "year": 2009,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://doi.org/10.4202/app.2008.0049",
+    "authors": [
+      "V. F. Santos",
+      "J. J. Moratalla",
+      "R. Royo-Torres"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:455688",
+      "taxon": "Galinhapodus",
+      "published_as": "Polyonyx",
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated with evidence",
+      "summary": "Galinhapodus (as Polyonyx) belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:40454",
+    "doi": null,
+    "title": "Primeros dientes de terópodo (Dinosauria, Saurischia) en la Formación Villar del Arzobispo (Tithónico-Berriasiense): yacimientos Cuesta Lonsal y Las Cerradicas 2 (Galve, Teruel) [First teeth of a theropod (Dinosauria, Saurischia) in the Villar del Arzobispo Formation (Tithonian–Berriasian): Cuesta Lonsal and Las Cerradicas 2 localities (Galve, Teruel)]",
+    "year": 2001,
+    "journal": "XVII Jornadas de la Sociedad Española de Paleontología. Los Fósiles y la Paleogeografía. Ayuntamiento de Albarracín y Fundación Conjunto Paleontólogico de Teruel, Albarracin, Spain",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=40454",
+    "authors": [
+      "J. L. Barco",
+      "J. I. Ruiz-Omeñaca"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:395313",
+      "taxon": "Utahraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Utahraptor belongs to Dromaeosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:395315",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

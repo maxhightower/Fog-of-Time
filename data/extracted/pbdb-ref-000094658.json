@@ -231,5 +231,57 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1015402",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurinae",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus belongs to Dacentrurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015403",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015408",
+      "taxon": "Thyreosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurinae",
+      "basis": "stated with evidence",
+      "summary": "Thyreosaurus belongs to Dacentrurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015412",
+      "taxon": "Hesperosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Hesperosaurus belongs to Stegosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015426",
+      "taxon": "Baiyinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Huayangosauridae",
+      "basis": "stated with evidence",
+      "summary": "Baiyinosaurus belongs to Huayangosauridae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

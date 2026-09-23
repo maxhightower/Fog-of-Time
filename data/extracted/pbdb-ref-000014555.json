@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14555",
+    "doi": null,
+    "title": "The small predatory dinosaurs of the mid-Mesozoic: the horned theropods of the Morrison and Great Oolite - Ornitholestes and Proceratosaurus - and the sickle-claw theropods of the Cloverly, Djadokhta and Judith River - Deinonychus, Velociraptor and Saurornitholestes",
+    "year": 1988,
+    "journal": "Hunteria",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14555",
+    "authors": [
+      "G. S. Paul"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:101353",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Allosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

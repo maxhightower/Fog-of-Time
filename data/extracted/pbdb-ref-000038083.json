@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:38083",
+    "doi": "10.1017/S1477201908002691",
+    "title": "Redescription and reassessment of the phylogenetic affinities of Euhelopus zdanskyi (Dinosauria: Sauropoda) from the Early Cretaceous of China",
+    "year": 2009,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1017/S1477201908002691",
+    "authors": [
+      "J. A. Wilson",
+      "P. Upchurch"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:362388",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated with evidence",
+      "summary": "Phuwiangosaurus belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

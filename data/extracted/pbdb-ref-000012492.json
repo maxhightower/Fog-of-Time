@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12492",
+    "doi": null,
+    "title": "A saurischian dinosaur from the Triassic of Brazil",
+    "year": 1970,
+    "journal": "American Museum Novitates",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12492",
+    "authors": [
+      "E. H. Colbert"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:99949",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Teratosauridae",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Teratosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:99950",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -15,6 +15,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:663885",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:663902",
       "taxon": "Brontosaurus excelsus",
       "published_as": null,

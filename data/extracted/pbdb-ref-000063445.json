@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63445",
+    "doi": null,
+    "title": "Um ovo de Dinossauro de Aix-en-Provence (Franca) e fragmentos de ovos fósseis de outras procedéncias conservados em Curitiba, Paraná [A dinosaur egg from Aix-en-Provence (France) and fragments of fossil eggs from other places conserved in Curitiba, Paraná]",
+    "year": 1981,
+    "journal": "3rd Simpósio Regional de Geologia, Atas",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63445",
+    "authors": [
+      "G. Borgomanero",
+      "G. Leonardi"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:660920",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

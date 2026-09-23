@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53864",
+    "doi": "10.5604/17313708.1130141",
+    "title": "Osteology of a large allosauroid theropod from the Upper Jurassic (Tithonian) Morrison Formation of Colorado, USA",
+    "year": 2014,
+    "journal": "Volumina Jurassica",
+    "url": "https://doi.org/10.5604/17313708.1130141",
+    "authors": [
+      "S. G. Dalman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:888888",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

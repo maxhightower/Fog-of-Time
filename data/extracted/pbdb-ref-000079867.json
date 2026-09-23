@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:79867",
+    "doi": "10.1111/1755-6724.12335",
+    "title": "Braincase anatomy of the basal theropod Sinosaurus from the Early Jurassic of China",
+    "year": 2014,
+    "journal": "Acta Geologica Sinica (English Edition)",
+    "url": "https://doi.org/10.1111/1755-6724.12335",
+    "authors": [
+      "L. Xing",
+      "A. Paulina-Carabajal",
+      "P. J. Currie, X. Xu, J. Zhang, T. Wang, M. E. Burns, Z. Dong"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:870904",
+      "taxon": "Sinosaurus triassicus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosaurus",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus triassicus belongs to Sinosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:870917",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

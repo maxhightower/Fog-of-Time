@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9649",
+    "doi": "10.1127/njgpm/1989/1989/79",
+    "title": "New remains of the enigmatic dinosaur <i>Spinosaurus</i> from the Cretaceous of Morocco and the affinities between <i>Spinosaurus</i> and <i>Baryonyx</i>",
+    "year": 1989,
+    "journal": "Neues Jahrbuch für Geologie und Paläontologie Monatshefte",
+    "url": "https://doi.org/10.1127/njgpm/1989/1989/79",
+    "authors": [
+      "E. Buffetaut"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:93457",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

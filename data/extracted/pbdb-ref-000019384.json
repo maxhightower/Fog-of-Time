@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19384",
+    "doi": "10.1080/10420940490442269",
+    "title": "An early Late Cretaceous dinosaur tracksite in central Yukon Territory, Canada",
+    "year": 2004,
+    "journal": "Ichnos",
+    "url": "https://doi.org/10.1080/10420940490442269",
+    "authors": [
+      "R. A. Gangloff",
+      "K. C. May",
+      "J. E. Storer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:154009",
+      "taxon": "Tetrapodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tetrapodosauridae",
+      "basis": "stated without evidence",
+      "summary": "Tetrapodosaurus belongs to Tetrapodosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

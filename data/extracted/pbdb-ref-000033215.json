@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:33215",
+    "doi": "10.1016/j.seaes.2010.04.017",
+    "title": "Isolated dinosaur teeth from the Lower Cretaceous Shahai and Fuxin formations of northeastern China",
+    "year": 2010,
+    "journal": "Journal of Asian Earth Sciences",
+    "url": "https://doi.org/10.1016/j.seaes.2010.04.017",
+    "authors": [
+      "R. Amiot",
+      "N. Kusuhashi",
+      "X. Xu, Y. Wang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:309324",
+      "taxon": "Sinornithosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Sinornithosaurus belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:309328",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Microraptor belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

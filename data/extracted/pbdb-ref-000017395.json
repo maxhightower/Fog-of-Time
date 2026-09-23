@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17395",
+    "doi": null,
+    "title": "Therangospodus: trackway evidence for the widespread distribution of a Late Jurassic theropod with well-padded feet",
+    "year": 2000,
+    "journal": "GAIA",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17395",
+    "authors": [
+      "M. G. Lockley",
+      "C. A. Meyer",
+      "J. J. Moratalla"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:133544",
+      "taxon": "Therangospodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Therangospodus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

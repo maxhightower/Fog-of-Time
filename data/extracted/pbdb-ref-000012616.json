@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12616",
+    "doi": null,
+    "title": "A primitive dome-headed dinosaur (Ornithischia: Pachycephalosauridae) from the Lower Cretaceous of England and the function of the dome of pachycephalosaurids",
+    "year": 1971,
+    "journal": "Journal of Paleontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12616",
+    "authors": [
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:766948",
+      "taxon": "Pachycephalosaurus wyomingensis",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Pachycephalosaurus grangeri",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus wyomingensis is a subjective synonym of Pachycephalosaurus grangeri.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

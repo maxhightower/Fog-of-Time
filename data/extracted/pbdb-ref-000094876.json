@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1017020",
+      "taxon": "Dasosaurus tocantinensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dasosaurus",
+      "basis": "stated with evidence",
+      "summary": "Dasosaurus tocantinensis belongs to Dasosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1017021",
+      "taxon": "Dasosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Somphospondyli",
+      "basis": "stated without evidence",
+      "summary": "Dasosaurus belongs to Somphospondyli.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

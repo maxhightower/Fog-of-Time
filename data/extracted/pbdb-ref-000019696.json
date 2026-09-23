@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19696",
+    "doi": null,
+    "title": "A revision of the parainfraclass Archosauria Cope, 1869, excluding the advanced Crocodylia",
+    "year": 1992,
+    "journal": "Mesozoic Meanderings",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19696",
+    "authors": [
+      "G. Olshevsky"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:158432",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": "Tenontosaurus tillettorum",
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti (as Tenontosaurus tillettorum) belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

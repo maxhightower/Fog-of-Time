@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:51973",
+    "doi": "10.1038/ncomms5382",
+    "title": "A new raptorial dinosaur with exceptionally long feathering provides insights into dromaeosaurid flight performance",
+    "year": 2014,
+    "journal": "Nature Communications",
+    "url": "https://doi.org/10.1038/ncomms5382",
+    "authors": [
+      "G. Han",
+      "L. M. Chiappe",
+      "S. -A. Ji, M. Habib, A. H. Turner, A. Chinsamy, L. Han"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:528548",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptorinae",
+      "basis": "stated with evidence",
+      "summary": "Microraptor belongs to Microraptorinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

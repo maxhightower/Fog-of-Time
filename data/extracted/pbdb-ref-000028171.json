@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:28171",
+    "doi": null,
+    "title": "A tale of three fingers: ichnological evidence revealing the homologies of manual digits in theropod dinosaurs",
+    "year": 1993,
+    "journal": "The Nonmarine Triassic. New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=28171",
+    "authors": [
+      "R. A. Thulborn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:242351",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithopoda",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Ornithopoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -442,5 +442,67 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:984741",
+      "taxon": "Petrustitan",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eutitanosauria",
+      "basis": "stated with evidence",
+      "summary": "Petrustitan belongs to Eutitanosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:984743",
+      "taxon": "Petrustitan hungaricus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Petrustitan",
+      "basis": "stated with evidence",
+      "summary": "Petrustitan hungaricus belongs to Petrustitan.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:984745",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated with evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:984746",
+      "taxon": "Magyarosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eutitanosauria",
+      "basis": "stated with evidence",
+      "summary": "Magyarosaurus belongs to Eutitanosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:984747",
+      "taxon": "Uriash",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lithostrotia",
+      "basis": "stated with evidence",
+      "summary": "Uriash belongs to Lithostrotia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:984750",
+      "taxon": "Uriash kadici",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Uriash",
+      "basis": "stated with evidence",
+      "summary": "Uriash kadici belongs to Uriash.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18612",
+    "doi": null,
+    "title": "The osteology of the manus in the family Trachodontidae",
+    "year": 1912,
+    "journal": "Bulletin of the American Museum of Natural History",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18612",
+    "authors": [
+      "B. Brown"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:144095",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Claosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) belongs to Claosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

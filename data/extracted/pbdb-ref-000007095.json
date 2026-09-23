@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7095",
+    "doi": "10.1111/1475-4983.00228",
+    "title": "Basal dinosauriform remains from Britain and the diagnosis of the Dinosauria",
+    "year": 2002,
+    "journal": "Palaeontology",
+    "url": "https://doi.org/10.1111/1475-4983.00228",
+    "authors": [
+      "N. C. Fraser",
+      "K. Padian",
+      "G. M. Walkden, A. L. M. Davis"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:132225",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dinosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Dinosauriformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:132229",
+      "taxon": "Eoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dinosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Eoraptor belongs to Dinosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

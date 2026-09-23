@@ -1,11 +1,12 @@
 import './style.css'
-import type { DatasetManifest, PublicationSummary, Side, Stance, TheoreticalCreature, TimelineEvidence } from './types'
-import { CATEGORIES, categoryOf, GROUP_LABEL_OPTIONS, GROUP_OPTIONS, groupRecords, publicationTime, RECORD_LABEL_OPTIONS, type ColorBy, type GroupBy, type GroupLabel, type RecordLabel, type TimeAxis } from './model'
+import type { DatasetManifest, TimelineEvidence } from './types'
+import { categoriesFor, categoryOf, GROUP_LABEL_OPTIONS, setTaxonHighlights, TAXON_SLOTS, GROUP_OPTIONS, groupRecords, publicationTime, RECORD_LABEL_OPTIONS, type ColorBy, type GroupBy, type GroupLabel, type RecordLabel, type TimeAxis } from './model'
 import { formatAge, formatMa, formatPublished, formatYearValue, humanize, PRECISION_LABELS } from './format'
 import { PRESETS, TIMESCALE_OLDEST } from './timescale'
 import { Timeline, type Selection } from './timeline'
 import { matchesName, nameSuggestions, searchWords } from './names'
-import { citation, LIFE_LABELS, lifeOf, Lifelines, markerSample, SIDE_LABELS, STANCE_INFO, tickSample, type LifeState } from './creatures'
+import { CreaturesView } from './creaturesView'
+import { factGrid } from './dom'
 
 const DEFAULT_VIEW = { from: 500, to: 0 }
 const MAX_AGE = TIMESCALE_OLDEST
@@ -17,7 +18,6 @@ const MIN_APP_WIDTH = 960
 const MAX_APP_WIDTH = 2560
 const APP_WIDTH_STEP = 160
 const DEFAULT_APP_WIDTH = 1440
-const THIS_YEAR = new Date().getFullYear()
 
 const app = document.querySelector<HTMLDivElement>('#app')
 if (!app) throw new Error('Missing #app root')
@@ -37,7 +37,14 @@ app.innerHTML = `
       Development fixtures are loaded. These records test the pipeline and are not scientific evidence.
     </section>
 
-    <div class="workspace">
+    <nav class="notebook-tabs" role="tablist" aria-label="Notebook sections">
+      <button type="button" role="tab" id="tab-deep-time" class="notebook-tab" data-section="deep-time" aria-controls="timeline-page" aria-selected="true">Deep time</button>
+      <button type="button" role="tab" id="tab-publication-date" class="notebook-tab" data-section="publication-date" aria-controls="timeline-page" aria-selected="false" tabindex="-1">Publication date</button>
+      <button type="button" role="tab" id="tab-creatures" class="notebook-tab" data-section="creatures" aria-controls="creatures-page" aria-selected="false" tabindex="-1">Creatures</button>
+    </nav>
+
+    <div class="notebook-page" data-section="deep-time">
+    <div id="timeline-page" class="workspace" role="tabpanel" aria-labelledby="tab-deep-time">
       <aside class="layers" aria-label="Timeline layers and filters">
         <section class="panel">
           <h2 class="panel-title">Filters</h2>
@@ -81,9 +88,13 @@ app.innerHTML = `
                 <select id="color-by">
                   <option value="evidence">Evidence type</option>
                   <option value="dating">Dating basis</option>
+                  <option value="taxon">Taxon or name</option>
                   <option value="none">Single colour</option>
                 </select>
               </label>
+              <div id="taxon-colours" class="taxon-colours" hidden>
+                <p class="layer-note">Up to three taxa or names, each with its own colour. Everything else is “Other names”.</p>
+              </div>
             </div>
           </div>
 
@@ -137,12 +148,6 @@ app.innerHTML = `
             <p id="visible-count" class="muted" aria-live="polite"></p>
           </div>
 
-          <div class="axis-switch" role="group" aria-label="Time axis">
-            <span class="field-label">Time axis</span>
-            <button type="button" class="chip" data-axis="age" aria-pressed="true">Estimated age</button>
-            <button type="button" class="chip" data-axis="year" aria-pressed="false">Publication date</button>
-          </div>
-
           <div class="range-controls" role="group" aria-label="Time window">
             <div class="presets" id="presets"></div>
             <div class="range-inputs">
@@ -169,26 +174,8 @@ app.innerHTML = `
           <p class="hint">Drag to pan · Ctrl/⌘ + scroll or pinch to zoom · click a group to open its records</p>
         </section>
 
-        <section class="creatures-card" aria-labelledby="creatures-heading">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">THEORETICAL CREATURES</p>
-              <h2 id="creatures-heading">Lives of hypothesised animals</h2>
-            </div>
-            <p class="muted">Each line is a hypothesis about an animal, argued over in the ingested papers: born when one proposes it, killed when one refutes it. Follows the “Known by” year.</p>
-          </div>
-          <div class="lifelines">
-            <svg id="lifelines" role="group" aria-label="Theoretical creature lifelines"></svg>
-          </div>
-          <div class="life-legend">
-            <ul id="life-state-legend" class="legend inline-legend" aria-label="Hypothesis states"></ul>
-            <ul id="stance-legend" class="legend inline-legend" aria-label="Paper stances"></ul>
-          </div>
-          <p class="hint">Recent years are stretched (log of years ago) · hover a mark for the paper · click a row for its full history</p>
-        </section>
-
         <section class="detail-card" aria-labelledby="detail-heading">
-          <p id="detail-eyebrow" class="eyebrow">SELECTED EVIDENCE</p>
+          <p class="eyebrow">SELECTED EVIDENCE</p>
           <div id="detail">
             <h2 id="detail-heading">Choose a bar on the timeline</h2>
             <p class="muted">The evidence record, dating basis, specimen identity, and publication provenance will appear here.</p>
@@ -196,12 +183,7 @@ app.innerHTML = `
         </section>
       </main>
 
-      <aside id="guides" class="guides" aria-label="Theoretical creatures and legend">
-        <section class="panel creature-panel" aria-labelledby="creature-panel-title">
-          <h2 id="creature-panel-title" class="panel-title">Theoretical creatures</h2>
-          <ul id="creature-list" class="creature-list"></ul>
-          <p class="layer-note">Count = ingested papers with an opinion on the creature (▲ for · ▼ against).</p>
-        </section>
+      <aside id="guides" class="guides" aria-label="Legend">
         <section class="panel">
           <h2 class="panel-title">Legend</h2>
           <div id="color-guide" class="guide">
@@ -216,6 +198,8 @@ app.innerHTML = `
         </section>
       </aside>
     </div>
+    <div id="creatures-page" role="tabpanel" aria-labelledby="tab-creatures" hidden></div>
+    </div>
   </div>
   <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
 `
@@ -225,8 +209,6 @@ const $ = <T extends Element>(selector: string) => document.querySelector<T>(sel
 const status = $<HTMLDivElement>('#dataset-status')
 const banner = $<HTMLElement>('#fixture-banner')
 const detail = $<HTMLDivElement>('#detail')
-const detailEyebrow = $<HTMLParagraphElement>('#detail-eyebrow')
-const creatureList = $<HTMLUListElement>('#creature-list')
 const visibleCount = $<HTMLParagraphElement>('#visible-count')
 const heading = $<HTMLHeadingElement>('#timeline-heading')
 const eyebrow = $<HTMLParagraphElement>('#timeline-eyebrow')
@@ -265,8 +247,6 @@ const filterRow = (key: FilterKey) => $<HTMLDivElement>(`.filter-row[data-filter
 
 let manifest: DatasetManifest
 let records: TimelineEvidence[] = []
-let creatures: TheoreticalCreature[] = []
-let selectedCreature: string | null = null
 const recordNameWords = new Map<TimelineEvidence, string[]>()
 let axis: TimeAxis = 'age'
 let view = { ...DEFAULT_VIEW }
@@ -340,7 +320,6 @@ const timeline = new Timeline(
   {
     onSelectRecord: record => {
       selection = { kind: 'record', key: record.physical_key }
-      selectedCreature = null
       showRecordDetail(record)
       scheduleRender()
     },
@@ -354,14 +333,8 @@ const timeline = new Timeline(
   },
 )
 
-const lifelines = new Lifelines($<SVGSVGElement>('#lifelines'), $<HTMLDivElement>('#tooltip'), creature => selectCreature(creature.id))
-
-function selectCreature(id: string) {
-  selectedCreature = id
-  if (selection?.kind === 'record') selection = null
-  showCreatureDetail(creatures.find(creature => creature.id === id)!)
-  scheduleRender()
-}
+const tooltip = $<HTMLDivElement>('#tooltip')
+const creaturesView = new CreaturesView($<HTMLElement>('#creatures-page'), tooltip, () => {})
 
 /** The window Reset returns to: 500 Ma – today, or every publication year in the dataset. */
 function defaultView() {
@@ -386,9 +359,6 @@ function switchAxis(next: TimeAxis) {
   axis = next
   view = clampView((savedViews[axis] ?? defaultView()).from, (savedViews[axis] ?? defaultView()).to)
   // Expanded groups and selection carry over; only the axis-specific controls change.
-  for (const button of document.querySelectorAll<HTMLButtonElement>('.axis-switch button')) {
-    button.setAttribute('aria-pressed', String(button.dataset.axis === axis))
-  }
   const age = axis === 'age'
   presets.hidden = !age
   eyebrow.textContent = age ? 'DEEP TIME' : 'PUBLICATION DATE'
@@ -454,165 +424,6 @@ function render() {
   }
 
   renderLegend()
-  renderCreatures()
-}
-
-// ------------------------------------------------------------------ theoretical creatures
-
-function renderCreatures() {
-  if (!creatures.length) return
-  const year = Number(yearSlider.value)
-  lifelines.render({ creatures, untilYear: year, now: THIS_YEAR, selected: selectedCreature })
-
-  creatureList.replaceChildren()
-  for (const creature of creatures) {
-    const life = lifeOf(creature, year, THIS_YEAR)
-    const item = document.createElement('li')
-    const button = document.createElement('button')
-    button.type = 'button'
-    button.className = 'creature-item'
-    button.setAttribute('aria-pressed', String(creature.id === selectedCreature))
-    button.setAttribute('aria-label', `${creature.name}, ${life.state ? LIFE_LABELS[life.state] : 'not yet proposed'}, ${life.papers.length} pieces of evidence: ${life.support} for, ${life.opposition} against`)
-
-    const dot = document.createElement('span')
-    dot.className = `state-dot state-${life.state ?? 'unborn'}`
-    dot.title = life.state ? LIFE_LABELS[life.state] : 'Not yet proposed'
-    const names = document.createElement('span')
-    names.className = 'creature-names'
-    const name = document.createElement('span')
-    name.className = 'creature-name'
-    name.textContent = creature.name
-    const scientific = document.createElement('span')
-    scientific.className = 'creature-scientific'
-    scientific.textContent = creature.scientific_name ?? ''
-    names.append(name, scientific)
-    const count = document.createElement('span')
-    count.className = 'creature-count'
-    count.innerHTML = `<strong>${life.papers.length}</strong><span class="creature-split">▲${life.support} ▼${life.opposition}</span>`
-    button.append(dot, names, count)
-    button.addEventListener('click', () => selectCreature(creature.id))
-    item.append(button)
-    creatureList.append(item)
-  }
-}
-
-const LIFE_STATES: LifeState[] = ['alive', 'contested', 'confirmed', 'dead']
-const STANCE_ORDER: Stance[] = ['proposes', 'supports', 'confirms', 'revives', 'challenges', 'refutes']
-const SIDES: Side[] = ['for', 'against', 'neutral']
-
-function renderLifeLegend() {
-  const states = $<HTMLUListElement>('#life-state-legend')
-  for (const state of LIFE_STATES) {
-    const item = document.createElement('li')
-    item.innerHTML = `<span class="life-swatch state-${state}"></span>`
-    item.append(LIFE_LABELS[state])
-    states.append(item)
-  }
-  const stances = $<HTMLUListElement>('#stance-legend')
-  for (const stance of STANCE_ORDER) {
-    const item = document.createElement('li')
-    item.innerHTML = markerSample(stance)
-    item.append(STANCE_INFO[stance].label)
-    stances.append(item)
-  }
-  for (const side of SIDES) {
-    const item = document.createElement('li')
-    item.innerHTML = tickSample(side)
-    item.append(`Other paper ${SIDE_LABELS[side].toLowerCase()}`)
-    stances.append(item)
-  }
-}
-
-function sourceLine(publication: PublicationSummary): HTMLParagraphElement {
-  const source = document.createElement('p')
-  source.className = 'muted life-history-source'
-  const { authors, title, journal, doi, url } = publication
-  source.append(`${authors.join(', ')}. ${title}.${journal ? ` ${journal}.` : ''} `)
-  const href = url ?? (doi ? `https://doi.org/${doi}` : null)
-  if (href) {
-    const link = document.createElement('a')
-    link.href = href
-    link.target = '_blank'
-    link.rel = 'noopener noreferrer'
-    link.textContent = doi ? `doi:${doi}` : 'Source'
-    source.append(link)
-  }
-  return source
-}
-
-function showCreatureDetail(creature: TheoreticalCreature) {
-  detailEyebrow.textContent = 'THEORETICAL CREATURE'
-  detail.replaceChildren()
-  const life = lifeOf(creature, Infinity, THIS_YEAR)
-  const title = document.createElement('h2')
-  title.id = 'detail-heading'
-  title.textContent = creature.name
-
-  const meta = document.createElement('p')
-  meta.className = 'detail-meta'
-  meta.textContent = [creature.scientific_name, life.state && LIFE_LABELS[life.state], `${creature.papers.length} ingested papers`].filter(Boolean).join(' · ')
-
-  const neutral = creature.papers.length - life.support - life.opposition
-  const grid = factGrid([
-    ['Hypothesis', creature.hypothesis],
-    ['Names tracked', creature.taxa.join(', ')],
-    ['Born', life.born ? `${life.born} (${citation(creature.key_events[0].publication)})` : 'Not recorded'],
-    ['Status', life.state ? `${LIFE_LABELS[life.state]}${life.died ? ` since ${life.died}` : ''}` : 'Not recorded'],
-    ['Evidence', `${life.support} for · ${life.opposition} against · ${neutral} neutral`],
-  ])
-
-  const historyHeading = document.createElement('h3')
-  historyHeading.textContent = 'Life of the hypothesis'
-  const history = document.createElement('ol')
-  history.className = 'life-history'
-  for (const event of creature.key_events) {
-    const item = document.createElement('li')
-    const head = document.createElement('div')
-    head.className = 'life-history-head'
-    const year = document.createElement('span')
-    year.className = 'life-history-year'
-    year.textContent = String(event.publication.year)
-    const stance = document.createElement('span')
-    stance.className = `stance-chip side-${STANCE_INFO[event.stance].side}`
-    stance.innerHTML = markerSample(event.stance)
-    stance.append(STANCE_INFO[event.stance].label)
-    head.append(year, stance)
-    const summary = document.createElement('p')
-    summary.textContent = event.opinion.summary
-    item.append(head, summary, sourceLine(event.publication))
-    history.append(item)
-  }
-
-  // Every ingested paper behind the count, not just the turning points.
-  const all = document.createElement('details')
-  all.className = 'all-papers'
-  const allSummary = document.createElement('summary')
-  allSummary.textContent = `All ${creature.papers.length} ingested papers`
-  const list = document.createElement('ol')
-  list.className = 'paper-list'
-  for (const paper of creature.papers) {
-    const item = document.createElement('li')
-    const head = document.createElement('div')
-    head.className = 'life-history-head'
-    const year = document.createElement('span')
-    year.className = 'life-history-year'
-    year.textContent = String(paper.publication.year)
-    const side = document.createElement('span')
-    side.className = `stance-chip side-${paper.side}`
-    side.innerHTML = tickSample(paper.side)
-    side.append(SIDE_LABELS[paper.side])
-    head.append(year, side)
-    item.append(head)
-    for (const opinion of paper.opinions) {
-      const line = document.createElement('p')
-      line.textContent = opinion.summary
-      item.append(line)
-    }
-    item.append(sourceLine(paper.publication))
-    list.append(item)
-  }
-  all.append(allSummary, list)
-  detail.append(title, meta, grid, historyHeading, history, all)
 }
 
 // ------------------------------------------------------------------ legends
@@ -646,12 +457,13 @@ function renderShapeLegend() {
 function renderLegend() {
   labelOptions.hidden = !layerLabels.checked
   const mode = colorBy.value as ColorBy
+  taxonColours.hidden = mode !== 'taxon'
   const visible = filteredRecords()
   colorGuide.hidden = mode === 'none'
   colorGuideTitle.textContent = `Colour = ${colorBy.selectedOptions[0]?.textContent?.toLowerCase() ?? ''}`
   colorLegend.replaceChildren()
   if (mode === 'none') return
-  for (const category of CATEGORIES[mode]) {
+  for (const category of categoriesFor(mode)) {
     const count = visible.filter(record => categoryOf(record, mode).key === category.key).length
     const item = document.createElement('li')
     const swatch = document.createElement('span')
@@ -669,21 +481,7 @@ function renderLegend() {
 
 // ------------------------------------------------------------------ details
 
-function factGrid(facts: Array<[string, string]>): HTMLDListElement {
-  const grid = document.createElement('dl')
-  grid.className = 'fact-grid'
-  for (const [label, value] of facts) {
-    const dt = document.createElement('dt')
-    dt.textContent = label
-    const dd = document.createElement('dd')
-    dd.append(value)
-    grid.append(dt, dd)
-  }
-  return grid
-}
-
 function showRecordDetail(record: TimelineEvidence) {
-  detailEyebrow.textContent = 'SELECTED EVIDENCE'
   detail.replaceChildren()
   const title = document.createElement('h2')
   title.id = 'detail-heading'
@@ -781,6 +579,8 @@ function wireFilterMenu() {
     const items = [...filterMenu.querySelectorAll<HTMLButtonElement>('button')]
     const index = items.indexOf(document.activeElement as HTMLButtonElement)
     if (event.key === 'Escape') {
+      // Only closes the menu; a second Esc clears the page's selections.
+      event.preventDefault()
       closeFilterMenu()
       addFilterButton.focus()
     } else if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
@@ -830,9 +630,8 @@ function wireControls() {
     const initial = defaultView()
     setView(initial.from, initial.to)
   })
-  for (const button of document.querySelectorAll<HTMLButtonElement>('.axis-switch button')) {
-    button.addEventListener('click', () => switchAxis(button.dataset.axis as TimeAxis))
-  }
+  wireNotebook()
+  wireEscape()
 
   // Maximum page width: a pixel cap stepped by −/+, or 'fit' for the whole window.
   const widthOutput = $<HTMLOutputElement>('#width-output')
@@ -915,19 +714,139 @@ function wireControls() {
   })
 }
 
+// ------------------------------------------------------------------ colour by taxon or name
+
+const taxonColours = $<HTMLDivElement>('#taxon-colours')
+const taxonInputs: HTMLInputElement[] = []
+
+function applyTaxonColours() {
+  setTaxonHighlights(taxonInputs.map(input => {
+    const query = input.value.trim()
+    return query ? { label: query, matches: (record: TimelineEvidence) => matchesName(recordNameWords.get(record)!, query) } : null
+  }))
+  scheduleRender()
+}
+
+/** Starts on the three species with the most records; each slot is then the viewer's to change. */
+function initTaxonColours() {
+  const counts = new Map<string, number>()
+  for (const record of records) {
+    if (record.taxon_rank === 'species') counts.set(record.taxon, (counts.get(record.taxon) ?? 0) + 1)
+  }
+  const top = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, TAXON_SLOTS)
+  const swatches = ['var(--series-1)', 'var(--series-2)', 'var(--series-3)']
+  for (let slot = 0; slot < TAXON_SLOTS; slot++) {
+    const label = document.createElement('label')
+    label.className = 'field taxon-colour'
+    const swatch = document.createElement('span')
+    swatch.className = 'swatch'
+    swatch.style.background = swatches[slot]
+    const input = document.createElement('input')
+    input.type = 'search'
+    input.setAttribute('list', 'taxon-names')
+    input.autocomplete = 'off'
+    input.spellcheck = false
+    input.placeholder = 'Taxon or name'
+    input.setAttribute('aria-label', `Colour ${slot + 1}: taxon or name`)
+    input.value = top[slot]?.[0] ?? ''
+    input.addEventListener('input', applyTaxonColours)
+    label.append(swatch, input)
+    taxonColours.append(label)
+    taxonInputs.push(input)
+  }
+  applyTaxonColours()
+}
+
+// ------------------------------------------------------------------ notebook sections
+
+type Section = 'deep-time' | 'publication-date' | 'creatures'
+const SECTIONS: Section[] = ['deep-time', 'publication-date', 'creatures']
+const notebookPage = $<HTMLDivElement>('.notebook-page')
+const timelinePage = $<HTMLDivElement>('#timeline-page')
+const creaturesPage = $<HTMLDivElement>('#creatures-page')
+const tabs = () => [...document.querySelectorAll<HTMLButtonElement>('.notebook-tab')]
+
+function sectionFromHash(): Section {
+  const hash = location.hash.slice(1) as Section
+  return SECTIONS.includes(hash) ? hash : 'deep-time'
+}
+
+/** Like a notebook's section tabs: each tab opens its own page; the timeline tabs share one page and differ by axis. */
+function openSection(section: Section, focus = true) {
+  for (const tab of tabs()) {
+    const active = tab.dataset.section === section
+    tab.setAttribute('aria-selected', String(active))
+    tab.tabIndex = active ? 0 : -1
+    if (active && focus) tab.focus()
+  }
+  notebookPage.dataset.section = section
+  const creaturesOpen = section === 'creatures'
+  timelinePage.hidden = creaturesOpen
+  creaturesPage.hidden = !creaturesOpen
+  timelinePage.setAttribute('aria-labelledby', section === 'publication-date' ? 'tab-publication-date' : 'tab-deep-time')
+  if (creaturesOpen) {
+    stopPlaying()
+    void creaturesView.load()
+  } else {
+    creaturesView.stop()
+    switchAxis(section === 'publication-date' ? 'year' : 'age')
+  }
+  if (location.hash.slice(1) !== section) history.replaceState(null, '', `#${section}`)
+}
+
+function wireNotebook() {
+  for (const tab of tabs()) tab.addEventListener('click', () => openSection(tab.dataset.section as Section))
+  $<HTMLElement>('.notebook-tabs').addEventListener('keydown', event => {
+    const index = tabs().findIndex(tab => tab.getAttribute('aria-selected') === 'true')
+    const step = event.key === 'ArrowRight' ? 1 : event.key === 'ArrowLeft' ? -1 : 0
+    if (event.key === 'Home' || event.key === 'End' || step) {
+      event.preventDefault()
+      const next = event.key === 'Home' ? 0 : event.key === 'End' ? SECTIONS.length - 1 : (index + step + SECTIONS.length) % SECTIONS.length
+      openSection(SECTIONS[next])
+    }
+  })
+  window.addEventListener('hashchange', () => openSection(sectionFromHash(), false))
+}
+
+// ------------------------------------------------------------------ escape
+
+function showDetailPlaceholder() {
+  detail.innerHTML = `
+    <h2 id="detail-heading">Choose a bar on the timeline</h2>
+    <p class="muted">The evidence record, dating basis, specimen identity, and publication provenance will appear here.</p>`
+}
+
+/** Esc clears every selection on the page: timeline bars and groups, creatures, open menus, tooltips and text. */
+function clearAllSelections() {
+  selection = null
+  showDetailPlaceholder()
+  creaturesView.clearSelection()
+  closeFilterMenu()
+  tooltip.hidden = true
+  window.getSelection()?.removeAllRanges()
+  if (document.activeElement instanceof HTMLElement && document.activeElement !== document.body) document.activeElement.blur()
+  scheduleRender()
+}
+
+function wireEscape() {
+  document.addEventListener('keydown', event => {
+    if (event.key !== 'Escape' || event.defaultPrevented) return
+    clearAllSelections()
+  })
+}
+
 async function load() {
   try {
-    const [manifestResponse, timelineResponse, creaturesResponse] = await Promise.all([
-      fetch('/data/manifest.json'),
-      fetch('/data/timeline/all.json'),
-      fetch('/data/theoretical/creatures.json'),
-    ])
-    if (!manifestResponse.ok || !timelineResponse.ok || !creaturesResponse.ok) throw new Error('Static evidence artifacts are missing. Run the data build.')
+    const [manifestResponse, timelineResponse] = await Promise.all([fetch('/data/manifest.json'), fetch('/data/timeline/all.json')])
+    if (!manifestResponse.ok || !timelineResponse.ok) throw new Error('Static evidence artifacts are missing. Run the data build.')
     manifest = (await manifestResponse.json()) as DatasetManifest
     records = (await timelineResponse.json()) as TimelineEvidence[]
-    creatures = (await creaturesResponse.json()) as TheoreticalCreature[]
 
-    status.textContent = `${manifest.physical_evidence_count} physical records · ${manifest.publication_count} publications · ${creatures.length} theoretical creatures`
+    status.textContent = [
+      `${manifest.physical_evidence_count} physical records`,
+      `${manifest.publication_count} publications`,
+      manifest.creature_count ? `${manifest.creature_count} creatures` : null,
+    ].filter(Boolean).join(' · ')
     banner.hidden = !manifest.development_fixture
 
     for (const record of records) recordNameWords.set(record, searchWords(record))
@@ -939,15 +858,14 @@ async function load() {
 
     const years = records.map(record => record.representative_report.publication.year)
     yearSlider.min = String(Math.min(...years))
-    // Creature papers can be newer than any fossil report; the slider must reach them.
-    const creatureYears = creatures.flatMap(creature => creature.papers.map(paper => paper.publication.year))
-    yearSlider.max = String(Math.max(...years, ...creatureYears))
+    yearSlider.max = String(Math.max(...years))
     yearSlider.value = yearSlider.max
 
     renderShapeLegend()
-    renderLifeLegend()
     wireControls()
+    initTaxonColours()
     updateYear()
+    openSection(sectionFromHash(), false)
     render()
   } catch (error) {
     status.textContent = error instanceof Error ? error.message : 'Unable to load the local dataset.'

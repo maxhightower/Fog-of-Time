@@ -64,5 +64,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1024786",
+      "taxon": "Plesiolophus warnerensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plesiolophus",
+      "basis": "stated with evidence",
+      "summary": "Plesiolophus warnerensis belongs to Plesiolophus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1024787",
+      "taxon": "Plesiolophus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Parasaurolophini",
+      "basis": "stated with evidence",
+      "summary": "Plesiolophus belongs to Parasaurolophini.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

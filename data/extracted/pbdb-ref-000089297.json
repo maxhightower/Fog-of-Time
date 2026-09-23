@@ -127,5 +127,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:972432",
+      "taxon": "Caletodraco",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Furileusauria",
+      "basis": "stated with evidence",
+      "summary": "Caletodraco belongs to Furileusauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:972433",
+      "taxon": "Caletodraco cottardi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Caletodraco",
+      "basis": "stated with evidence",
+      "summary": "Caletodraco cottardi belongs to Caletodraco.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

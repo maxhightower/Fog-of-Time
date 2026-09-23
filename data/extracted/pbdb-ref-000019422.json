@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19422",
+    "doi": null,
+    "title": "[Advances in Sinosauropteryx research]",
+    "year": 1997,
+    "journal": "Chinese Geology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19422",
+    "authors": [
+      "Q. Ji",
+      "S.-A. Ji"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:155238",
+      "taxon": "Sinosauropteryx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosauropterygidae",
+      "basis": "stated without evidence",
+      "summary": "Sinosauropteryx belongs to Sinosauropterygidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53745",
+    "doi": "10.1016/j.cretres.2014.06.007",
+    "title": "Dromaeosauridae (Dinosauria: Theropoda) from the Bissekty Formation (Upper Cretaceous: Turonian) of Uzbekistan and the phylogenetic position of Itemirus medullaris Kurzanov, 1976",
+    "year": 2014,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2014.06.007",
+    "authors": [
+      "H.-D. Sues",
+      "A. Averianov"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:552069",
+      "taxon": "Utahraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Utahraptor belongs to Dromaeosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:51456",
+    "doi": "10.1016/j.gr.2014.03.014",
+    "title": "Revision of the sauropod dinosaur Diamantinasaurus matildae Hocknull et al. 2009 from the mid-Cretaceous of Australia: Implications for Gondwanan titanosauriform dispersal",
+    "year": 2015,
+    "journal": "Gondwana Research",
+    "url": "https://doi.org/10.1016/j.gr.2014.03.014",
+    "authors": [
+      "S. F. Poropat",
+      "P. Upchurch",
+      "P. D. Mannion, S. A Hocknull, B. P. Kear, T. Sloan, G. H. K. Sinapius, D. A. Elliott"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:525477",
+      "taxon": "Diamantinasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lithostrotia",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus belongs to Lithostrotia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:525478",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30689",
+    "doi": null,
+    "title": "A new species of the ankylosaurid dinosaur Crichtonsaurus (Ankylosauridae: Ankylosauria) from the Cretaceous of Liaoning Province, China",
+    "year": 2007,
+    "journal": "Acta Geologica Sinica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=30689",
+    "authors": [
+      "J. Lü",
+      "Q. Ji",
+      "Y. Gao, Z. Li"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:278877",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauridae",
+      "basis": "stated with evidence",
+      "summary": "Pinacosaurus belongs to Ankylosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

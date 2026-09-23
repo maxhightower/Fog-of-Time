@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86063",
+    "doi": "10.1371/journal.pone.0206287",
+    "title": "Ontogeny and taxonomy of the hadrosaur (Dinosauria, Ornithopoda) remains from Basturs Poble bonebed (late early Maastrichtian, Tremp Syncline, Spain)",
+    "year": 2018,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0206287",
+    "authors": [
+      "V. Fondevilla",
+      "F. M. Dalla Vecchia",
+      "R. Gaete, À. Galobart, Blanca Moncunill-Sole, Meike Köhler"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:935136",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:935152",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32231",
+    "doi": "10.1038/nature08718",
+    "title": "Ecologically distinct dinosaurian sister group shows early diversification of Ornithodira",
+    "year": 2010,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/nature08718",
+    "authors": [
+      "S. J. Nesbitt",
+      "C. A. Sidor",
+      "R. B. Irmis, K. D. Angielczyk, R. M. H. Smith, L. A. Tsuji"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:299331",
+      "taxon": "Lewisuchus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Silesauridae",
+      "basis": "stated with evidence",
+      "summary": "Lewisuchus belongs to Silesauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

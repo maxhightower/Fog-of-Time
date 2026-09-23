@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:981346",
+      "taxon": "Bonapartenykus ultimus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Bonapartenykus",
+      "basis": "stated without evidence",
+      "summary": "Bonapartenykus ultimus belongs to Bonapartenykus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:981347",
+      "taxon": "Bonapartenykus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Patagonykinae",
+      "basis": "stated without evidence",
+      "summary": "Bonapartenykus belongs to Patagonykinae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

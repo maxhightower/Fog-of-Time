@@ -1,0 +1,58 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:73939",
+    "doi": "10.18435/vamp29362",
+    "title": "Caenagnathids of the Dinosaur Park Formation (Campanian) of Alberta, Canada: anatomy, osteohistology, taxonomy, and evolution",
+    "year": 2020,
+    "journal": "Vertebrate Anatomy Morphology Palaeontology",
+    "url": "https://doi.org/10.18435/vamp29362",
+    "authors": [
+      "G. F. Funston"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:807222",
+      "taxon": "Anzu wyliei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anzu",
+      "basis": "stated without evidence",
+      "summary": "Anzu wyliei belongs to Anzu.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:807228",
+      "taxon": "Conchoraptor gracilis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Conchoraptor",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor gracilis belongs to Conchoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:807251",
+      "taxon": "Anzu",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Caenagnathinae",
+      "basis": "stated with evidence",
+      "summary": "Anzu belongs to Caenagnathinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:807271",
+      "taxon": "Conchoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Heyuanninae",
+      "basis": "stated with evidence",
+      "summary": "Conchoraptor belongs to Heyuanninae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

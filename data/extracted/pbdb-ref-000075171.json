@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75171",
+    "doi": "10.1206/3965.1",
+    "title": "A new dromaeosaurid from the Late Cretaceous Khulsan locality of Mongolia",
+    "year": 2021,
+    "journal": "American Museum Novitates",
+    "url": "https://doi.org/10.1206/3965.1",
+    "authors": [
+      "A. H. Turner",
+      "S. Montanari",
+      "M. A. Norell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:819465",
+      "taxon": "Shri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated with evidence",
+      "summary": "Shri belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

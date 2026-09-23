@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19433",
+    "doi": null,
+    "title": "Theropod teeth from the Upper Cretaceous (Campanian-Maastrichtian), Big Bed National Park, Texas",
+    "year": 2005,
+    "journal": "The Carnivorous Dinosaurs. Indiana University Press, Bloomington",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19433",
+    "authors": [
+      "J. T. Sankey",
+      "B. R. Standhardt",
+      "J. A. Schiebout"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:155535",
+      "taxon": "Richardoestesia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maniraptora",
+      "basis": "implied",
+      "summary": "Richardoestesia belongs to Maniraptora.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

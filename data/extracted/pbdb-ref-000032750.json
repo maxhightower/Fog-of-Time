@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32750",
+    "doi": null,
+    "title": "Dinosaurs in Asia",
+    "year": 2008,
+    "journal": "Abstracts of the International Dinosaur Symposium in Fukui 2008: Recent progress of the Study on Asian Dinosaurs and Paleoenvironments. Fukui Prefectural Dinosaur Museum, Fukui",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=32750",
+    "authors": [
+      "Z. Dong"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:304817",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus belongs to Titanosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

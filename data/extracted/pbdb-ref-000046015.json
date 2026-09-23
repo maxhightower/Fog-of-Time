@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:46015",
+    "doi": "10.4202/app.2009.0155",
+    "title": "First evidence of a mamenchisaurid dinosaur from the Late Jurassic/Early Cretaceous Phu Kradung Formation of Thailand",
+    "year": 2013,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://doi.org/10.4202/app.2009.0155",
+    "authors": [
+      "S. Suteethorn",
+      "J. L. Loeuff",
+      "E. Buffetaut, V. Suteethorn, K. Wongko"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:461681",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

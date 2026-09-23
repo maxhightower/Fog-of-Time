@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76432",
+    "doi": null,
+    "title": "The Gondwanan rhabdodontomorphans and the origins of the Rhabdodontidae",
+    "year": 2016,
+    "journal": "VII Jornadas Internacionales sobre Paleontología de Dinosaurios y su Entorno, Libro de Resúmenes",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76432",
+    "authors": [
+      "P. E. Dieudonné",
+      "T. Tortosa",
+      "I. Díaz-Martínez, F. Torcida Fernández‐Baldor, J. I. Canudo"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:832021",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": "Tenontosaurus tilleti",
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti (as Tenontosaurus tilleti) belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

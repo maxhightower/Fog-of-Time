@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:23532",
+    "doi": null,
+    "title": "Les empreintes de pas de reptiles de l'Infralias de Veillon (Vendée) [Reptile footprints from the lower Lias of Veillon (Vendée)]",
+    "year": 1967,
+    "journal": "Mémoires de la Société géologique de France, nouvelle série",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=23532",
+    "authors": [
+      "A. F. d. Lapparent",
+      "C. Montenat"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:166748",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelurosauria",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Coelurosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:166750",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

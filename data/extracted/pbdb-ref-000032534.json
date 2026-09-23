@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32534",
+    "doi": "10.1017/S0016756809005950",
+    "title": "Theropod teeth from the basalmost Cretaceous of Anoual (Morocco) and their palaeobiogeographical significance",
+    "year": 2009,
+    "journal": "Geological Magazine",
+    "url": "https://doi.org/10.1017/S0016756809005950",
+    "authors": [
+      "F. Knoll",
+      "J. I. Ruiz-Omeñaca"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:302617",
+      "taxon": "Sinornithosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptorinae",
+      "basis": "stated without evidence",
+      "summary": "Sinornithosaurus belongs to Microraptorinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:302620",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptorinae",
+      "basis": "stated without evidence",
+      "summary": "Microraptor belongs to Microraptorinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

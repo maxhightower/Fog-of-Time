@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76821",
+    "doi": null,
+    "title": "Dinosaur and bird footprints from the Lower Cretaceous of Emei County, Sichuan, China",
+    "year": 1994,
+    "journal": "Memoirs of Beijing Natural History Museum",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76821",
+    "authors": [
+      "S. Zhen",
+      "J. Li",
+      "B. Zhang, W. Chen, S. Zhu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:836578",
+      "taxon": "Velociraptorichnus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated with evidence",
+      "summary": "Velociraptorichnus belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

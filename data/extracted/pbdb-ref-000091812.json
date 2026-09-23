@@ -63,5 +63,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:988025",
+      "taxon": "Cienciargentina sanchezi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cienciargentina",
+      "basis": "stated with evidence",
+      "summary": "Cienciargentina sanchezi belongs to Cienciargentina.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:988026",
+      "taxon": "Cienciargentina",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Rebbachisauridae",
+      "basis": "stated with evidence",
+      "summary": "Cienciargentina belongs to Rebbachisauridae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

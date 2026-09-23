@@ -2,7 +2,7 @@ import type { PublicationSummary, TimelineEvidence } from './types'
 import { formatAge, formatMa, humanize } from './format'
 
 export type Precision = TimelineEvidence['age']['precision']
-export type ColorBy = 'evidence' | 'dating' | 'none'
+export type ColorBy = 'evidence' | 'dating' | 'taxon' | 'none'
 export type GroupBy = 'none' | 'paper' | 'taxon' | 'evidence' | 'dating' | 'country'
 
 export const GROUP_OPTIONS: Array<{ value: GroupBy; label: string }> = [
@@ -28,7 +28,7 @@ const SERIES_2 = 'var(--series-2)'
 const SERIES_3 = 'var(--series-3)'
 const SERIES_OTHER = 'var(--series-other)'
 
-export const CATEGORIES: Record<ColorBy, Category[]> = {
+export const CATEGORIES: Record<Exclude<ColorBy, 'taxon'>, Category[]> = {
   evidence: [
     { key: 'body', label: 'Body fossils', color: SERIES_1 },
     { key: 'tissue', label: 'Bone histology & pathology', color: SERIES_2 },
@@ -57,13 +57,46 @@ function datingCategory(method: string): string {
   return 'context'
 }
 
+/**
+ * Colour by taxon or name: the viewer picks up to three names (anything the
+ * name filter accepts, e.g. "T. rex" or "Sue") and each keeps its slot while
+ * filters change; every other record folds into "Other names". Three is the
+ * palette's all-pairs-safe limit.
+ */
+export const TAXON_SLOTS = 3
+const SLOT_COLORS = [SERIES_1, SERIES_2, SERIES_3]
+
+export interface TaxonHighlight {
+  label: string
+  matches: (record: TimelineEvidence) => boolean
+}
+
+let taxonHighlights: Array<TaxonHighlight | null> = []
+
+/** One entry per slot; null leaves that slot (and its colour) unused. */
+export function setTaxonHighlights(highlights: Array<TaxonHighlight | null>) {
+  taxonHighlights = highlights.slice(0, TAXON_SLOTS)
+}
+
+export function categoriesFor(colorBy: ColorBy): Category[] {
+  if (colorBy !== 'taxon') return CATEGORIES[colorBy]
+  const slots = taxonHighlights.flatMap((highlight, index) => (highlight ? [{ key: `taxon-${index}`, label: highlight.label, color: SLOT_COLORS[index] }] : []))
+  return [...slots, { key: 'other', label: 'Other names', color: SERIES_OTHER }]
+}
+
 export function categoryOf(record: TimelineEvidence, colorBy: ColorBy): Category {
   const key =
     colorBy === 'evidence' ? evidenceCategory(record.evidence_type)
     : colorBy === 'dating' ? datingCategory(record.age.method)
+    : colorBy === 'taxon' ? taxonKey(record)
     : 'all'
-  const categories = CATEGORIES[colorBy]
+  const categories = categoriesFor(colorBy)
   return categories.find(category => category.key === key) ?? categories[categories.length - 1]
+}
+
+function taxonKey(record: TimelineEvidence): string {
+  const index = taxonHighlights.findIndex(highlight => highlight?.matches(record))
+  return index === -1 ? 'other' : `taxon-${index}`
 }
 
 /** One distinct age window within a group, possibly shared by many records. */

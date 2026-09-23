@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:41127",
+    "doi": null,
+    "title": "Dacentrurus armatus (Stegosauria, Dinosauria) del Cretácico Inferior de Los Serranos (Valencia, España) [Dacentrurus armatus (Stegosauria, Dinosauria) from the Lower Cretaceous of Los Serranos (Valencia, Spain)]",
+    "year": 1995,
+    "journal": "Revista Española de Paleontología",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=41127",
+    "authors": [
+      "M. L. Casanovas-Cladellas",
+      "J. V. Santafé-Llopis",
+      "C. Santisteban-Bové"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:405498",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:405499",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

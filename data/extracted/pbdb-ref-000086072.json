@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86072",
+    "doi": "10.7717/peerj.182",
+    "title": "Ontogeny in the tube-crested dinosaur Parasaurolophus (Hadrosauridae) and heterochrony in hadrosaurids",
+    "year": 2013,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.182",
+    "authors": [
+      "A. A. Farke",
+      "D. J. Chok",
+      "A. Herrero, B. Scolieri, S. Werning"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:935251",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

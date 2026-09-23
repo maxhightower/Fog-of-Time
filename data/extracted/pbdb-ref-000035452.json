@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:35452",
+    "doi": "10.1007/s11434-009-0009-6",
+    "title": "A new feathered maniraptoran dinosaur fossil that fills a morphological gap in avian origin",
+    "year": 2009,
+    "journal": "Chinese Science Bulletin",
+    "url": "https://doi.org/10.1007/s11434-009-0009-6",
+    "authors": [
+      "X. Xu",
+      "Q. Zhao",
+      "M. Norell, C. Sullivan, D. Hone, G. Erickson, X. Wang, F. Han, Y. Guo"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:281841",
+      "taxon": "Anchiornis huxleyi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchiornis",
+      "basis": "stated with evidence",
+      "summary": "Anchiornis huxleyi belongs to Anchiornis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:324068",
+      "taxon": "Anchiornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Avialae",
+      "basis": "stated with evidence",
+      "summary": "Anchiornis belongs to Avialae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14363",
+    "doi": null,
+    "title": "Gadrozavry Kazakhstana [Hadrosaurs of Kazakhstan]",
+    "year": 1968,
+    "journal": "[Upper Paleozoic and Mesozoic Amphibians and Reptiles]. Akademia Naul SSSR, Moscow",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14363",
+    "authors": [
+      "A. K. Rozhdestvensky"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:99981",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

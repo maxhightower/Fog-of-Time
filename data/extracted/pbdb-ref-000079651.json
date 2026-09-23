@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:79651",
+    "doi": "10.1016/j.cretres.2014.05.003",
+    "title": "A juvenile Edmontosaurus from the late Maastrichtian (Cretaceous) of North America: Implications for ontogeny and phylogenetic inference in saurolophine dinosaurs",
+    "year": 2014,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2014.05.003",
+    "authors": [
+      "A. Prieto-Márquez"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:868321",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:868322",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurolophinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Saurolophinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:868328",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

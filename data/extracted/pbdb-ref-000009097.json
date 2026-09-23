@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9097",
+    "doi": "10.2475/ajs.s3-48.283.85",
+    "title": "The typical Ornithopoda of the American Jurassic",
+    "year": 1894,
+    "journal": "American Journal of Science, series 3",
+    "url": "https://doi.org/10.2475/ajs.s3-48.283.85",
+    "authors": [
+      "O. C. Marsh"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:75620",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithopoda",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Ornithopoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

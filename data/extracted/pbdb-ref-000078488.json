@@ -1,0 +1,79 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78488",
+    "doi": "10.4435/BSPI.2014.01",
+    "title": "New dinosaur tracks from the Dolomia Principale (Upper Triassic) of the Carnic Prealps (Friuli-Venezia Giulia, NE Italy)",
+    "year": 2014,
+    "journal": "Bollettino della Società Paleontologica Italiana",
+    "url": "https://doi.org/10.4435/BSPI.2014.01",
+    "authors": [
+      "M. Marzola",
+      "F. Dalla Vecchia"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:853787",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:853788",
+      "taxon": "Lewisuchus admixtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lewisuchus",
+      "basis": "stated without evidence",
+      "summary": "Lewisuchus admixtus belongs to Lewisuchus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:853793",
+      "taxon": "Eoraptor lunensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eoraptor",
+      "basis": "stated without evidence",
+      "summary": "Eoraptor lunensis belongs to Eoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:853797",
+      "taxon": "Eodromaeus murphi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eodromaeus",
+      "basis": "stated without evidence",
+      "summary": "Eodromaeus murphi belongs to Eodromaeus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:853799",
+      "taxon": "Panphagia protos",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Panphagia",
+      "basis": "stated without evidence",
+      "summary": "Panphagia protos belongs to Panphagia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:853809",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

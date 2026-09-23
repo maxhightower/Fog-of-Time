@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14500",
+    "doi": null,
+    "title": "On the cranial morphology and evolution of ornithopod dinosaurs",
+    "year": 1984,
+    "journal": "In M. W. J. Ferguson (ed.), The Structure, Development and Evolution of Reptiles. Symposia of the Zoological Society of London",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14500",
+    "authors": [
+      "D. B. Norman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:100942",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hypsilophodontidae",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Hypsilophodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:100952",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosauridae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:100956",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontoidea",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Iguanodontoidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

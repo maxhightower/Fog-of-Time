@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7881",
+    "doi": null,
+    "title": "Les dinosaures (Carnosaures, Allosauridés, Sauropodes, Cétosauridés) du Jurassique Moyen de Cerro Cóndor (Chubut, Argentina) [The dinosaurs (carnosaurs, allosaurids, sauropods, cetiosaurids) from the Middle Jurassic of Cerro Cóndor (Chubut, Argentina)]",
+    "year": 1986,
+    "journal": "Annales de Paléontologie (Vert.-Invert.)",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=7881",
+    "authors": [
+      "J. F. Bonaparte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:97429",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:97434",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocidae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Diplodocidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

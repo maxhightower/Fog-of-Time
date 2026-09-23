@@ -17,6 +17,26 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:133330",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:133342",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Brachiosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:133348",
       "taxon": "Brontosaurus",
       "published_as": null,

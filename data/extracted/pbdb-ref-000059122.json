@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:59122",
+    "doi": "10.1016/j.pnsc.2009.06.012",
+    "title": "Dinosaur eggs and dinosaur egg-bearing deposits (Upper Cretaceous) of Henan Province, China: Occurrences, palaeoenvironments, taphonomy and preservation",
+    "year": 2009,
+    "journal": "Progress in Natural Science",
+    "url": "https://doi.org/10.1016/j.pnsc.2009.06.012",
+    "authors": [
+      "X. Liang",
+      "S. Wen",
+      "D. Yang, S. Zhou, S. Wu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:616326",
+      "taxon": "Spheroolithus",
+      "published_as": "Sphereoolithus",
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus (as Sphereoolithus) belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

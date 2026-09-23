@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30626",
+    "doi": null,
+    "title": "Données nouvelles sur un 'Dinosaurien' Jurassique Moyen du Maroc: Megalosaurus mersensis Lapparent 1955, et sur les Megalosaurides en général [New data on a Middle Jurassic 'dinosaur' from Morocco: Megalosaurus mersensis Lapparent 1955, and on megalosaurids in general]",
+    "year": 1986,
+    "journal": "Les Dinosaures de La Chine à La France, Colloque International de Paléontologie, Toulouse, France, 2-6 Septembre 1985; Muséum d'Histoire Naturelle de Toulouse, Toulouse",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=30626",
+    "authors": [
+      "S. Chabli"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:277830",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

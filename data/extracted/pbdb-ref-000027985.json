@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:27985",
+    "doi": null,
+    "title": "Late Triassic tetrapod tracks of western North America",
+    "year": 2007,
+    "journal": "In S. G. Lucas & J. A. Spielmann (eds.), Triassic of the American West.  New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=27985",
+    "authors": [
+      "A. P. Hunt",
+      "S. G. Lucas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:238923",
+      "taxon": "Evazoum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Prosauropoda",
+      "basis": "stated without evidence",
+      "summary": "Evazoum belongs to Prosauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

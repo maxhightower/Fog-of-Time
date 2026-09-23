@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70303",
+    "doi": null,
+    "title": "Yacimientos ibéricos de dinosaurios [Iberian dinosaur localities]",
+    "year": 2000,
+    "journal": "Dinosaurios: Los Señores del Pasado [Dinosaurs: The Lords of the Land]",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=70303",
+    "authors": [
+      "J. L. Sanz"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:746025",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

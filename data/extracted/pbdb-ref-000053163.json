@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53163",
+    "doi": null,
+    "title": "Die Evolution der Archosaurier in der Trias aus der Sicht ihrer Fährten [The evolution of archosaurs in the Triassic from the perspective of their tracks]",
+    "year": 1969,
+    "journal": "Hercynia",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53163",
+    "authors": [
+      "H. Haubold"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:546583",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eubrontidae",
+      "basis": "stated with evidence",
+      "summary": "Eubrontes belongs to Eubrontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:546598",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauripodidae",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Anchisauripodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:546619",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anemoepodidae",
+      "basis": "stated with evidence",
+      "summary": "Anomoepus belongs to Anemoepodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -16,6 +16,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:639030",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Anatosaurus annectus",
+      "status": "belongs_to",
+      "related_taxon": "Anatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Anatosaurus annectus) belongs to Anatosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:639050",
       "taxon": "Stygimoloch spinifer",
       "published_as": null,
@@ -33,6 +43,16 @@
       "related_taxon": "Torosaurus",
       "basis": "stated without evidence",
       "summary": "Torosaurus latus belongs to Torosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:639059",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Centrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Centrosaurinae.",
       "source": "pbdb_opinion"
     }
   ]

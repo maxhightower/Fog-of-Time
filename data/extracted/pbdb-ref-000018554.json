@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18554",
+    "doi": null,
+    "title": "Theropods of the Judith River Formation of Dinosaur Provincial Park, Alberta, Canada",
+    "year": 1987,
+    "journal": "In P. J. Currie & E. H. Koster (eds.), Fourth Symposium on Mesozoic Terrestrial Ecosystems. Tyrrell Museum of Paleontology, Drumheller, Alberta",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18554",
+    "authors": [
+      "P. J. Currie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:143631",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:143643",
+      "taxon": "Daspletosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Daspletosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14895",
+    "doi": null,
+    "title": "A dinosaur-dominated ichnofauna from the Lower Cretaceous Patuxent Formation of Virginia",
+    "year": 2004,
+    "journal": "Geological Society of America Abstracts with Programs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14895",
+    "authors": [
+      "R. E. Weems"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:103058",
+      "taxon": "Tetrapodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauria",
+      "basis": "stated without evidence",
+      "summary": "Tetrapodosaurus belongs to Ankylosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

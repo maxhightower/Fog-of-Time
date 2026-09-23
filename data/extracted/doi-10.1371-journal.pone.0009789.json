@@ -9,24 +9,96 @@
     "month": 3,
     "journal": "PLOS ONE",
     "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009789",
-    "authors": ["Joseph J. W. Sertich", "Mark A. Loewen"]
+    "authors": [
+      "Joseph J. W. Sertich",
+      "Mark A. Loewen"
+    ]
   },
   "evidence": [
     {
       "id": "doi:10.1371/journal.pone.0009789:umnh-vp-18040",
       "physical_key": "specimen:umnh-vp:18040",
       "evidence_type": "body_fossil",
-      "taxon": {"name": "Seitaad ruessi", "rank": "species"},
-      "specimen": {"institution_code": "UMNH VP", "catalog_number": "18040", "label": "UMNH VP 18040"},
-      "material": ["dorsal vertebrae", "dorsal ribs", "pectoral girdles", "left forelimb", "partial right forelimb", "partial pelvis", "partial left hind limb", "gastral ribs"],
-      "locality": {"name": "Comb Ridge, UMNH VP Locality 191", "country": "United States", "region": "Utah", "latitude": null, "longitude": null, "coordinate_uncertainty_km": null},
-      "stratigraphy": {"formation": "Navajo Sandstone", "member": null, "group": "Glen Canyon Group"},
-      "age": {"min_ma": 174.7, "max_ma": 192.9, "best_ma": null, "precision": "derived_interval", "method": "stage_constraint_with_ics_conversion", "basis": "The paper identifies the specimen as Lower Jurassic and states that the Navajo Sandstone is no earlier than Pliensbachian; the numeric interval spans the current Pliensbachian through Toarcian boundaries.", "notes": "Numeric stage boundaries use the International Commission on Stratigraphy's Jurassic ages; the paper itself does not provide a numeric specimen age."},
+      "taxon": {
+        "name": "Seitaad ruessi",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "UMNH VP",
+        "catalog_number": "18040",
+        "label": "UMNH VP 18040"
+      },
+      "material": [
+        "dorsal vertebrae",
+        "dorsal ribs",
+        "pectoral girdles",
+        "left forelimb",
+        "partial right forelimb",
+        "partial pelvis",
+        "partial left hind limb",
+        "gastral ribs"
+      ],
+      "locality": {
+        "name": "Comb Ridge, UMNH VP Locality 191",
+        "country": "United States",
+        "region": "Utah",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Navajo Sandstone",
+        "member": null,
+        "group": "Glen Canyon Group"
+      },
+      "age": {
+        "min_ma": 174.7,
+        "max_ma": 192.9,
+        "best_ma": null,
+        "precision": "derived_interval",
+        "method": "stage_constraint_with_ics_conversion",
+        "basis": "The paper identifies the specimen as Lower Jurassic and states that the Navajo Sandstone is no earlier than Pliensbachian; the numeric interval spans the current Pliensbachian through Toarcian boundaries.",
+        "notes": "Numeric stage boundaries use the International Commission on Stratigraphy's Jurassic ages; the paper itself does not provide a numeric specimen age."
+      },
       "evidence_role": "original_description",
       "claims": [
-        {"type": "taxonomic_assignment", "summary": "UMNH VP 18040 is designated the holotype of Seitaad ruessi.", "page": null, "figure": "1", "table": null},
-        {"type": "taphonomic_observation", "summary": "The articulated partial skeleton was preserved in a massive sandstone bed at the base of the Navajo Sandstone and is interpreted as having been buried in a local dune-collapse deposit.", "page": null, "figure": "1", "table": null}
+        {
+          "type": "taxonomic_assignment",
+          "summary": "UMNH VP 18040 is designated the holotype of Seitaad ruessi.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        },
+        {
+          "type": "taphonomic_observation",
+          "summary": "The articulated partial skeleton was preserved in a massive sandstone bed at the base of the Navajo Sandstone and is interpreted as having been buried in a local dune-collapse deposit.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        }
       ]
+    }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:300790",
+      "taxon": "Seitaad",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated with evidence",
+      "summary": "Seitaad belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:300791",
+      "taxon": "Seitaad ruessi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Seitaad",
+      "basis": "stated with evidence",
+      "summary": "Seitaad ruessi belongs to Seitaad.",
+      "source": "pbdb_opinion"
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:36770",
+    "doi": null,
+    "title": "Übersicht über die Wirbeltierfauna der Tendaguru-Schichten [Overview of the vertebrate fauna of the Tendaguru beds]",
+    "year": 1914,
+    "journal": "Archiv für Biontologie",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=36770",
+    "authors": [
+      "W. Janensch"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:345924",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

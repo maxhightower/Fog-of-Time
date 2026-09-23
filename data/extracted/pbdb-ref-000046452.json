@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:46452",
+    "doi": null,
+    "title": "Dinosaur assemblages from the Middle Jurassic Shaximiao Formation and Chuanjie Formation in the Sichuan-Yunnan Basin, China",
+    "year": 2011,
+    "journal": "Volumina Jurassica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=46452",
+    "authors": [
+      "K. Li",
+      "J. Liu",
+      "C. Yang, F. Hu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:881686",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

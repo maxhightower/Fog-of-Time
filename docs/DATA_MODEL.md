@@ -73,7 +73,7 @@ Besides physical evidence, an extraction record may carry `opinions`: the paper'
 
 - **PBDB opinions** (`source: pbdb_opinion`) are snapshotted by `scripts/data/acquisition/import_pbdb_opinions.py`. Only *primary* opinions are kept, meaning the opinion's author and year match the reference it is recorded from. Papers already in the corpus get opinions merged in; others are ingested as opinion-only records.
 - **Direct extraction** (`source: full_text` or `abstract`) records an opinion read from the paper itself. `abstract` marks an abstract-level reading that has not yet been verified against the full text.
-- **Derived opinions** (`source: derived_from_occurrence`) are created by the build. A paper that identified its fossils under a name the accepted taxonomy has since replaced is recorded as using that name (`status: identified_as`).
+- **Derived opinions** (`source: derived_from_occurrence`) are created by the build. A paper that reports fossils under a name is recorded as using that name (`status: identified_as`), even if the accepted taxonomy has since moved the material elsewhere, and a species also counts for its genus.
 
 Opinions are stored in the `taxonomic_opinion` table.
 
@@ -96,4 +96,18 @@ Some animals are first known as hypotheses. The "American cheetah" was a propose
 
 The build fails if a key event cites a paper that is not in `data/extracted/`, if that paper has no opinion on the creature's taxa on the required side, or if the events break the life story (for example, a paper supporting a refuted hypothesis without a revival first).
 
-Which papers are turning points is a curated judgement. No automatic rule reproduces the histories: PBDB's evidence-weighted accepted-opinion rule never lets Riggs (1903) sink *Brontosaurus*, and "latest paper wins" flips it every few years. The evidence count, however, is not curated. It is every ingested paper with an opinion on the creature's taxa, published from the proposal year on, split into for, against and neutral by the rules. The SQLite tables are `theoretical_creature`, `creature_taxon` and `hypothesis_event`; the web export is `public/data/theoretical/creatures.json`.
+### Official creatures
+
+Every genus and species the corpus reports fossils of is also tracked as a creature: an **official** creature, whose hypothesis is simply that the taxon is real. (Unnamed species such as "*Daspletosaurus* sp." count toward their genus.) Their evidence comes from the same ingested opinions, plus one opinion the build derives from each paper that reports fossils under the name. Their turning points follow one written-down rule (`automatic_key_events` in `scripts/data/build_data.py`) instead of a curated list:
+
+- **Born** with the first paper that treats the name as valid or reports fossils under it.
+- **Challenged** (contested) by a paper sinking it (synonym, nomen dubium/nudum/vanum/oblitum) without stated evidence; **refuted** (dead) by one stated with evidence.
+- A contest is **resolved** (supported) by an evidence-backed defence or by three later papers that keep using the name.
+- A dead name is **revived** only by an evidence-backed defence.
+- "Replaced by" (a preoccupied name) and similar nomenclatural opinions are neutral: the animal lives on under its new name.
+
+The rule reproduces real disputes, such as *Allosaurus* versus *Antrodemus* and *Centrosaurus* versus *Monoclonius*, both sunk in the early twentieth century and revived around 1990. "Official" in the interface means a creature whose hypothesis is currently alive or confirmed. Taxa already covered by a curated theoretical creature are not duplicated.
+
+### Curated turning points
+
+Which papers are turning points is a curated judgement for theoretical creatures. No automatic rule reproduces the histories: PBDB's evidence-weighted accepted-opinion rule never lets Riggs (1903) sink *Brontosaurus*, and "latest paper wins" flips it every few years. The evidence count, however, is not curated. It is every ingested paper with an opinion on the creature's taxa, published from the proposal year on, split into for, against and neutral by the rules. The SQLite tables are `theoretical_creature` (with a `curated` flag), `creature_taxon` and `hypothesis_event`. The web export is `public/data/theoretical/creatures.json`, which stores each cited publication once and has creatures refer to it by id.

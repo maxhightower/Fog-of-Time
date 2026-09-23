@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55051",
+    "doi": null,
+    "title": "Chronological survey of the tetrapod-bearing Triassic of Argentina",
+    "year": 1966,
+    "journal": "Breviora",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55051",
+    "authors": [
+      "J. F. Bonaparte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:567435",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

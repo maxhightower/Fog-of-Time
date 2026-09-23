@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:47023",
+    "doi": "10.1080/03115518.2013.770221",
+    "title": "Morphological comparisons of metacarpal I for Australovenator wintonensis and Rapator ornitholestoides: implications for their taxonomic relationships",
+    "year": 2013,
+    "journal": "Alcheringa",
+    "url": "https://doi.org/10.1080/03115518.2013.770221",
+    "authors": [
+      "M. A. White",
+      "P. L. Falkingham",
+      "A. G. Cook, S. A. Hocknull, D. A. Elliott"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:470917",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated with evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

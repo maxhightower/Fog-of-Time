@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70607",
+    "doi": "10.1038/s41598-018-35689-6",
+    "title": "Niche partitioning in theropod dinosaurs: diet and habitat preference in predators from the uppermost Cedar Mountain Formation (Utah, U.S.A.)",
+    "year": 2018,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-018-35689-6",
+    "authors": [
+      "J. A. Frederickson",
+      "M. H. Engel",
+      "R. L. Cifelli"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:749742",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

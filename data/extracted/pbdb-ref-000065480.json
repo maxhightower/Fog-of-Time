@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65480",
+    "doi": null,
+    "title": "Vertebrate faunal turnover during the Triassic-Jurassic transition: an Indian scenario",
+    "year": 2006,
+    "journal": "The Triassic-Jurassic Terrestrial Transition. New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=65480",
+    "authors": [
+      "S. Bandyopadhyay",
+      "D. P. Sengupta"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:682770",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -25,6 +25,16 @@
       "source": "pbdb_opinion"
     },
     {
+      "id": "pbdb-opinion:95329",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Centrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Centrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:95350",
       "taxon": "Torosaurus latus",
       "published_as": null,

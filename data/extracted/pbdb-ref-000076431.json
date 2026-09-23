@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76431",
+    "doi": null,
+    "title": "Ornithopod dinosaurs from Argentina, the forgotten clade",
+    "year": 2016,
+    "journal": "VII Jornadas Internacionales sobre Paleontología de Dinosaurios y su Entorno, Libro de Resúmenes",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=76431",
+    "authors": [
+      "P. Cruzado-Caballero"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:832010",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

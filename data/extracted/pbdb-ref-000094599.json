@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1014641",
+      "taxon": "Wudingloong wui",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Wudingloong",
+      "basis": "stated with evidence",
+      "summary": "Wudingloong wui belongs to Wudingloong.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1014642",
+      "taxon": "Wudingloong",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Massopoda",
+      "basis": "stated without evidence",
+      "summary": "Wudingloong belongs to Massopoda.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:52604",
+    "doi": null,
+    "title": "Herrerasaurus and the origin of the sauropod dinosaurs",
+    "year": 1978,
+    "journal": "South African Journal of Science",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=52604",
+    "authors": [
+      "J. Van Heerden"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:537987",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

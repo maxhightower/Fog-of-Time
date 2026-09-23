@@ -2225,5 +2225,47 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:713725",
+      "taxon": "Convolosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithopoda",
+      "basis": "stated with evidence",
+      "summary": "Convolosaurus belongs to Ornithopoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:713729",
+      "taxon": "Convolosaurus marri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Convolosaurus",
+      "basis": "stated with evidence",
+      "summary": "Convolosaurus marri belongs to Convolosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:746474",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:746476",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

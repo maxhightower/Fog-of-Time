@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17093",
+    "doi": null,
+    "title": "Note sur les dinosauriens sauropodes & théropodes du Crétacé supérieur de Madagascar [Note on the sauropod and theropod dinosaurs from the Upper Cretaceous of Madagascar]",
+    "year": 1896,
+    "journal": "Bulletin de la Société Géologique de France, 3e série",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=17093",
+    "authors": [
+      "C. Depéret"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:120335",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

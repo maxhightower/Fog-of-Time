@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32752",
+    "doi": "10.1111/j.1096-3642.2009.00591.x",
+    "title": "Cranial osteology and phylogenetic position of the theropod dinosaur Proceratosaurus bradleyi (Woodward, 1910) from the Middle Jurassic of England",
+    "year": 2010,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1111/j.1096-3642.2009.00591.x",
+    "authors": [
+      "O. W. M. Rauhut",
+      "A. C. Milner",
+      "S. Moore-Fay"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:304834",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauroidea",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosauridae belongs to Tyrannosauroidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:304842",
+      "taxon": "Sinosauropteryx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelurosauria",
+      "basis": "stated with evidence",
+      "summary": "Sinosauropteryx belongs to Coelurosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

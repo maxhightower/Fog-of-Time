@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65669",
+    "doi": null,
+    "title": "Diverse vertebrate ichnofaunas containing Anomoepus and other unusual trace fossils from the Lower Jurassic of the western United States: implications for paleoecology and palichnostratigraphy",
+    "year": 2006,
+    "journal": "The Triassic-Jurassic Terrestrial Transition. New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=65669",
+    "authors": [
+      "M. G. Lockley",
+      "G. D. Gierlinski"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:684202",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anomoepidae",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Anomoepidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19788",
+    "doi": null,
+    "title": "Indian dinosaur eggs: a review",
+    "year": 2001,
+    "journal": "Journal of the Geological Society of India",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19788",
+    "authors": [
+      "D. M. Mohabey"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:161046",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

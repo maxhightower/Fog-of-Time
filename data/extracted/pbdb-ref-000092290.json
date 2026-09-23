@@ -120,5 +120,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:992249",
+      "taxon": "Khankhuuluu",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauroidea",
+      "basis": "stated with evidence",
+      "summary": "Khankhuuluu belongs to Tyrannosauroidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:992250",
+      "taxon": "Khankhuuluu mongoliensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Khankhuuluu",
+      "basis": "stated with evidence",
+      "summary": "Khankhuuluu mongoliensis belongs to Khankhuuluu.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

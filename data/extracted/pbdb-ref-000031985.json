@@ -1,0 +1,80 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31985",
+    "doi": "10.1111/j.1469-185X.2009.00094.x",
+    "title": "The origin and early evolution of dinosaurs",
+    "year": 2010,
+    "journal": "Biological Reviews",
+    "url": "https://doi.org/10.1111/j.1469-185X.2009.00094.x",
+    "authors": [
+      "M. C. Langer",
+      "M. D. Ezcurra",
+      "J. S. Bittencourt, F. E. Novas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:304865",
+      "taxon": "Lewisuchus admixtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lewisuchus",
+      "basis": "stated without evidence",
+      "summary": "Lewisuchus admixtus belongs to Lewisuchus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:304874",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:304877",
+      "taxon": "Eoraptor lunensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eoraptor",
+      "basis": "stated without evidence",
+      "summary": "Eoraptor lunensis belongs to Eoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:304882",
+      "taxon": "Panphagia protos",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Panphagia",
+      "basis": "stated without evidence",
+      "summary": "Panphagia protos belongs to Panphagia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:304938",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:304944",
+      "taxon": "Panphagia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated without evidence",
+      "summary": "Panphagia belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

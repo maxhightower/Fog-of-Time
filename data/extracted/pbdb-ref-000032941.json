@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32941",
+    "doi": null,
+    "title": "A new titanosaur sauropod (Dinosauria: Saurischia) from the Upper Cretaceous of the Hateg Basin (Romania)",
+    "year": 2007,
+    "journal": "5th Meeting of the European Association of Vertebrate Paleontologists, Carcassonne-Espéraza. Abstract Volume",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=32941",
+    "authors": [
+      "Z. Csiki",
+      "D. Grigorescu",
+      "S. B. Weishampel"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:306552",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31488",
+    "doi": "10.1007/s00114-009-0565-2",
+    "title": "The first definitive carcharodontosaurid (Dinosauria: Theropoda) from Asia and the delayed ascent of tyrannosaurids",
+    "year": 2009,
+    "journal": "Naturwissenschaften",
+    "url": "https://doi.org/10.1007/s00114-009-0565-2",
+    "authors": [
+      "S. L. Brusatte",
+      "R. B. J. Benson",
+      "D. J. Chure, X. Xu, C. Sullivan, D. W. E. Hone"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:293213",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carcharodontosauridae",
+      "basis": "stated with evidence",
+      "summary": "Acrocanthosaurus belongs to Carcharodontosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

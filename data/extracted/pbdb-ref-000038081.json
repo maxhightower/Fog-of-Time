@@ -1,0 +1,59 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:38081",
+    "doi": "10.1111/j.1096-3642.2011.00699.x",
+    "title": "Anatomy of the basal titanosaur (Dinosauria, Sauropoda) Andesaurus delgadoi from the mid-Cretaceous (Albian–early Cenomanian) Río Limay Formation, Neuquén Province, Argentina: implications for titanosaur systematics",
+    "year": 2011,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1111/j.1096-3642.2011.00699.x",
+    "authors": [
+      "P. D. Mannion",
+      "J. O. Calvo"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:362299",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:362313",
+      "taxon": "Diamantinasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauria",
+      "basis": "stated without evidence",
+      "summary": "Diamantinasaurus belongs to Titanosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:362327",
+      "taxon": "Phuwiangosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauria",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus belongs to Titanosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:362334",
+      "taxon": "Wintonotitan",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Wintonotitan belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

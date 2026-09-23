@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13154",
+    "doi": "10.1016/s0753-3969(01)88003-4",
+    "title": "Draconyx loureiroi, a new camptosauridae (Dinosauria, Ornithopoda) from the Late Jurassic of Lourinhã, Portugal",
+    "year": 2001,
+    "journal": "Annales de Paléontologie",
+    "url": "https://doi.org/10.1016/s0753-3969(01)88003-4",
+    "authors": [
+      "O. Mateus",
+      "M. T. Antunes"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:93806",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

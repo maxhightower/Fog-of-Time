@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:23379",
+    "doi": null,
+    "title": "Teeth of ornithischian dinosaurs from the Upper Jurassic of Portugal, with description of a hypsilophodontid (Phyllodon henkeli gen. et sp. nov.) from the Guimarota lignite",
+    "year": 1975,
+    "journal": "Contribuição para o conhecimento da Fauna do Kimerridgiano da Mina de Lignito Guimarota (Leiria, Portugal). Serviços Geológicos de Portugal, Memória (Nova Série)",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=23379",
+    "authors": [
+      "R. A. Thulborn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:164747",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:164862",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

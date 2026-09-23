@@ -9,18 +9,52 @@
     "month": 9,
     "journal": "Scientific Reports",
     "url": "https://www.nature.com/articles/s41598-018-31874-9",
-    "authors": ["Qian-Nan Zhang", "Hai-Lu You", "Tao Wang", "Sankar Chatterjee"]
+    "authors": [
+      "Qian-Nan Zhang",
+      "Hai-Lu You",
+      "Tao Wang",
+      "Sankar Chatterjee"
+    ]
   },
   "evidence": [
     {
       "id": "doi:10.1038/s41598-018-31874-9:lfgt-zlj0033",
       "physical_key": "specimen:lfgt:zlj0033",
       "evidence_type": "body_fossil",
-      "taxon": {"name": "Yizhousaurus sunae", "rank": "species"},
-      "specimen": {"institution_code": "LFGT", "catalog_number": "ZLJ0033", "label": "LFGT-ZLJ0033"},
-      "material": ["skull", "mandible", "cervical vertebrae", "dorsal vertebrae", "sacral vertebrae", "anterior caudal vertebrae", "pectoral girdle", "pelvic girdle", "forelimbs", "femora"],
-      "locality": {"name": "near Duwafang Village, Chuanjie Town, Lufeng County", "country": "China", "region": "Yunnan Province", "latitude": null, "longitude": null, "coordinate_uncertainty_km": null},
-      "stratigraphy": {"formation": "Lufeng Formation", "member": "Zhangjiaao Member", "group": null},
+      "taxon": {
+        "name": "Yizhousaurus sunae",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "LFGT",
+        "catalog_number": "ZLJ0033",
+        "label": "LFGT-ZLJ0033"
+      },
+      "material": [
+        "skull",
+        "mandible",
+        "cervical vertebrae",
+        "dorsal vertebrae",
+        "sacral vertebrae",
+        "anterior caudal vertebrae",
+        "pectoral girdle",
+        "pelvic girdle",
+        "forelimbs",
+        "femora"
+      ],
+      "locality": {
+        "name": "near Duwafang Village, Chuanjie Town, Lufeng County",
+        "country": "China",
+        "region": "Yunnan Province",
+        "latitude": null,
+        "longitude": null,
+        "coordinate_uncertainty_km": null
+      },
+      "stratigraphy": {
+        "formation": "Lufeng Formation",
+        "member": "Zhangjiaao Member",
+        "group": null
+      },
       "age": {
         "min_ma": 174.7,
         "max_ma": 201.4,
@@ -32,10 +66,50 @@
       },
       "evidence_role": "original_description",
       "claims": [
-        {"type": "taxonomic_assignment", "summary": "LFGT-ZLJ0033 is designated the holotype of Yizhousaurus sunae.", "page": null, "figure": "2A", "table": null},
-        {"type": "anatomical_observation", "summary": "The holotype is an approximately 7 m long, nearly complete skeleton with a well-preserved skull and mandible.", "page": null, "figure": "2A", "table": null},
-        {"type": "stratigraphic_context", "summary": "The skeleton was excavated from the uppermost layer of the Zhangjiaao Member of the Lufeng Formation.", "page": null, "figure": "1", "table": null}
+        {
+          "type": "taxonomic_assignment",
+          "summary": "LFGT-ZLJ0033 is designated the holotype of Yizhousaurus sunae.",
+          "page": null,
+          "figure": "2A",
+          "table": null
+        },
+        {
+          "type": "anatomical_observation",
+          "summary": "The holotype is an approximately 7 m long, nearly complete skeleton with a well-preserved skull and mandible.",
+          "page": null,
+          "figure": "2A",
+          "table": null
+        },
+        {
+          "type": "stratigraphic_context",
+          "summary": "The skeleton was excavated from the uppermost layer of the Zhangjiaao Member of the Lufeng Formation.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        }
       ]
+    }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:721229",
+      "taxon": "Yizhousaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodiformes",
+      "basis": "stated with evidence",
+      "summary": "Yizhousaurus belongs to Sauropodiformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:721230",
+      "taxon": "Yizhousaurus sunae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Yizhousaurus",
+      "basis": "stated with evidence",
+      "summary": "Yizhousaurus sunae belongs to Yizhousaurus.",
+      "source": "pbdb_opinion"
     }
   ]
 }

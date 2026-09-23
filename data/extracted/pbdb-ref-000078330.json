@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78330",
+    "doi": "10.1111/j.1096-3642.2010.00620.x",
+    "title": "A juvenile skull of Dysalotosaurus lettowvorbecki (Ornithischia: Iguanodontia), and implications for cranial ontogeny, phylogeny, and taxonomy in ornithopod dinosaurs",
+    "year": 2007,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1111/j.1096-3642.2010.00620.x",
+    "authors": [
+      "T. R. Hübner",
+      "O. W. M. Rauhut"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:851158",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:948708",
+      "taxon": "Jingiella",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Jingiella belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:948709",
+      "taxon": "Jingiella dongxingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Jingiella",
+      "basis": "stated with evidence",
+      "summary": "Jingiella dongxingensis belongs to Jingiella.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

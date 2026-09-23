@@ -1,0 +1,100 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:48936",
+    "doi": "10.1080/02724634.2013.820113",
+    "title": "Osteology of Eoraptor lunensis (Dinosauria, Sauropodomorpha)",
+    "year": 2013,
+    "journal": "Basal Sauropodomorphs and the Vertebrate Fossil Record of the Ischigualasto Formation (Late Triassic: Carnian–Norian) of Argentina. Society of Vertebrate Paleontology Memoir 12. Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2013.820113",
+    "authors": [
+      "P. C. Sereno",
+      "R. N. Martínez",
+      "O. A. Alcober"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:491297",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:491299",
+      "taxon": "Sanjuansaurus gordilloi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sanjuansaurus",
+      "basis": "stated without evidence",
+      "summary": "Sanjuansaurus gordilloi belongs to Sanjuansaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:491300",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:491301",
+      "taxon": "Sanjuansaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated without evidence",
+      "summary": "Sanjuansaurus belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:491303",
+      "taxon": "Eoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated with evidence",
+      "summary": "Eoraptor belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:491304",
+      "taxon": "Eoraptor lunensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eoraptor",
+      "basis": "stated with evidence",
+      "summary": "Eoraptor lunensis belongs to Eoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:491305",
+      "taxon": "Panphagia protos",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Panphagia",
+      "basis": "stated without evidence",
+      "summary": "Panphagia protos belongs to Panphagia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:491306",
+      "taxon": "Chromogisaurus novasi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chromogisaurus",
+      "basis": "stated without evidence",
+      "summary": "Chromogisaurus novasi belongs to Chromogisaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

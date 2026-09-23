@@ -1,0 +1,100 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:79677",
+    "doi": "10.1016/j.cretres.2013.04.001",
+    "title": "Evolution of the carnivorous dinosaurs during the Cretaceous: The evidence from Patagonia",
+    "year": 2013,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2013.04.001",
+    "authors": [
+      "F. E. Novas",
+      "F. L. Agnolín",
+      "M. D. Ezcurra, J. Porfiri, J. I. Canale"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:868965",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:868973",
+      "taxon": "Bonapartenykus ultimus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Bonapartenykus",
+      "basis": "stated without evidence",
+      "summary": "Bonapartenykus ultimus belongs to Bonapartenykus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:868983",
+      "taxon": "Orkoraptor burkei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orkoraptor",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor burkei belongs to Orkoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:868987",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated without evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:868993",
+      "taxon": "Bonapartenykus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Patagonykinae",
+      "basis": "stated without evidence",
+      "summary": "Bonapartenykus belongs to Patagonykinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:869082",
+      "taxon": "Orkoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptoridae",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor belongs to Megaraptoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:869084",
+      "taxon": "Australovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptoridae",
+      "basis": "stated without evidence",
+      "summary": "Australovenator belongs to Megaraptoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:869101",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carcharodontosauridae",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Carcharodontosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

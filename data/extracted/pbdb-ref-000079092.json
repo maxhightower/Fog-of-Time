@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:79092",
+    "doi": "10.1111/zoj.12465",
+    "title": "Cranial variation and systematics of Foraminacephale brevis gen. nov. and the diversity of pachycephalosaurid dinosaurs (Ornithischia: Cerapoda) in the Belly River Group of Alberta, Canada",
+    "year": 2017,
+    "journal": "Zoological Journal of the Linnean Sociietty",
+    "url": "https://doi.org/10.1111/zoj.12465",
+    "authors": [
+      "R. L. Schott",
+      "D. C. Evans"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:862633",
+      "taxon": "Pachycephalosaurus wyomingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurus",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus wyomingensis belongs to Pachycephalosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

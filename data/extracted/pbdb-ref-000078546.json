@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78546",
+    "doi": "10.1080/08912963.2010.505285",
+    "title": "Paleoecological utility of insect trace fossils in dinosaur nesting sites of the Two Medicine Formation (Campanian), Choteau, Montana",
+    "year": 2011,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2010.505285",
+    "authors": [
+      "A. J. Martin",
+      "D. J. Varricchio"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:853823",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

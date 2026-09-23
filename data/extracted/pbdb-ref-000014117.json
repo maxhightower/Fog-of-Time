@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14117",
+    "doi": "10.2307/3624358",
+    "title": "Five years' explorations in the fossil beds of Alberta",
+    "year": 1917,
+    "journal": "Transactions of the Kansas Academy of Science",
+    "url": "https://doi.org/10.2307/3624358",
+    "authors": [
+      "C. H. Sternberg"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:332801",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

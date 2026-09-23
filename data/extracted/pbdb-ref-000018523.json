@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18523",
+    "doi": "10.1127/njgpm/2006/2006/344",
+    "title": "A large sauropod titanosaur from Peirópolis, Bauru Group, Brazil",
+    "year": 2006,
+    "journal": "Neues Jahrbuch für Geologie und Paläontologie Monatshefte",
+    "url": "https://doi.org/10.1127/njgpm/2006/2006/344",
+    "authors": [
+      "R. M. Santucci",
+      "R. J. Bertini"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:143346",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

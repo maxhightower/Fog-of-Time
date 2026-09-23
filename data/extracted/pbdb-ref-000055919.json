@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55919",
+    "doi": null,
+    "title": "How did the small ornithischian trackmaker of Anomoepus walk?",
+    "year": 1986,
+    "journal": "First International Symposium on Dinosaur Tracks and Traces, Abstracts with Program",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55919",
+    "authors": [
+      "P. E. Olsen"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:580207",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anomoepodidae",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Anomoepodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

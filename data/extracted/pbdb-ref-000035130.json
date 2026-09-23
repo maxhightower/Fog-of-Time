@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:35130",
+    "doi": "10.1016/j.crpv.2010.05.003",
+    "title": "Latest Cretaceous hadrosauroid (Dinosauria: Ornithopoda) remains from Bulgaria",
+    "year": 2010,
+    "journal": "Comptes Rendus Palevol",
+    "url": "https://doi.org/10.1016/j.crpv.2010.05.003",
+    "authors": [
+      "P. Godefroit",
+      "N. Motchurova-Dekova"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:322114",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

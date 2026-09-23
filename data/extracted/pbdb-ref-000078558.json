@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78558",
+    "doi": "10.14241/asgp.2015.034",
+    "title": "First report on dinosaur tracks from the Burro Canyon Formation, San Juan County, Utah, USA – evidence of a diverse, hitherto unknown Lower Cretaceous dinosaur fauna",
+    "year": 2015,
+    "journal": "Annales Societatis Geologorum Poloniae",
+    "url": "https://doi.org/10.14241/asgp.2015.034",
+    "authors": [
+      "J. Milàn",
+      "L. M. Chiappe",
+      "D. B. Loope, J. I. Kirkland, M. G. Lockley"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:853886",
+      "taxon": "Utahraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Utahraptor belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:853891",
+      "taxon": "Martharaptor greenriverensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Martharaptor",
+      "basis": "stated without evidence",
+      "summary": "Martharaptor greenriverensis belongs to Martharaptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:853892",
+      "taxon": "Martharaptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therizinosauroidea",
+      "basis": "stated without evidence",
+      "summary": "Martharaptor belongs to Therizinosauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14556",
+    "doi": "10.1080/02724634.1984.10012026",
+    "title": "The segnosaurian dinosaurs: relics of the prosauropod-ornithischian transition?",
+    "year": 1984,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.1984.10012026",
+    "authors": [
+      "G. S. Paul"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:101362",
+      "taxon": "Segnosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Segnosauria",
+      "basis": "stated without evidence",
+      "summary": "Segnosaurus belongs to Segnosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75853",
+    "doi": "10.1007/s41513-020-00140-1",
+    "title": "Unrelated ornithopods with similar tooth morphology in the vicinity of Salas de los Infantes (Burgos Province, Spain): an intriguing case‑study",
+    "year": 2020,
+    "journal": "Journal of Iberian Geology",
+    "url": "https://doi.org/10.1007/s41513-020-00140-1",
+    "authors": [
+      "P. E. Dieudonné",
+      "F. Torcida‑Fernández Baldor",
+      "P. Huerta‑Hurtado"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:825662",
+      "taxon": "Convolosaurus marri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Convolosaurus",
+      "basis": "stated without evidence",
+      "summary": "Convolosaurus marri belongs to Convolosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:825670",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:825675",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

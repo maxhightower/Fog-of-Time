@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:42539",
+    "doi": "10.1080/14772019.2011.595432",
+    "title": "New information on the anatomy and systematic position of Dinheirosaurus lourinhanensis (Sauropoda: Diplodocoidea) from the Late Jurassic of Portugal, with a review of European diplodocoids",
+    "year": 2012,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2011.595432",
+    "authors": [
+      "P. D. Mannion",
+      "P. Upchurch",
+      "O. Mateus, R. N. Barnes, M. E. H. Jones"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:424910",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dicraeosauridae",
+      "basis": "stated with evidence",
+      "summary": "Suuwassea belongs to Dicraeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

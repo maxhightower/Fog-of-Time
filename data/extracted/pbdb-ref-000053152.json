@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53152",
+    "doi": "10.1111/bij.12343",
+    "title": "A new long-tailed basal bird from the Lower Cretaceous of north-eastern China",
+    "year": 2014,
+    "journal": "Biological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1111/bij.12343",
+    "authors": [
+      "U. Lefevre",
+      "D. Hu",
+      "F. Escuillie, G. Dyke, P. Godefroit"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:546339",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pygostylia",
+      "basis": "stated without evidence",
+      "summary": "Confuciusornis belongs to Pygostylia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

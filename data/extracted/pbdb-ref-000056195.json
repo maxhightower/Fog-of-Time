@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:56195",
+    "doi": "10.1080/02724634.2015.980505",
+    "title": "A new Early Cretaceous brachiosaurid (Dinosauria, Neosauropoda) from northwestern Gondwana (Villa de Leiva, Colombia)",
+    "year": 2015,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2015.980505",
+    "authors": [
+      "J. L. Carballido",
+      "D. Pol",
+      "M. L. Parra Ruge, S. Padilla Bernal, M. E. Páramo-Fonseca, F. Etayo-Serna"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:582952",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

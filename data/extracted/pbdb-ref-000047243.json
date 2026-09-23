@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:47243",
+    "doi": null,
+    "title": "Primera evidencia de dinosaurios ornitópodos en la base de la Formación Huincul (Cenomaniense Superior-Turoniense, Cuenca Neuquina, Argentina) [First evidence of ornithopod dinosaurs at the base of the Huincul Formation (Cenomanian–upper Turonian, Neuquén Basin, Argentina)]",
+    "year": 2013,
+    "journal": "Geogaceta",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=47243",
+    "authors": [
+      "J. I. Canudo",
+      "L. Salgado",
+      "A. Garrido, J. Carballido"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:473343",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

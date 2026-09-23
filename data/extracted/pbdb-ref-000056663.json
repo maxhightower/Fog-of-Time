@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:56663",
+    "doi": "10.4202/app.00152.2015",
+    "title": "A new Arctic hadrosaurid from the Prince Creek Formation (lower Maastrichtian) of northern Alaska",
+    "year": 2016,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://doi.org/10.4202/app.00152.2015",
+    "authors": [
+      "H. Mori",
+      "P. S. Druckenmiller",
+      "G. M. Erickson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:607723",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:607729",
+      "taxon": "Nanuqsaurus hoglundi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nanuqsaurus",
+      "basis": "stated without evidence",
+      "summary": "Nanuqsaurus hoglundi belongs to Nanuqsaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

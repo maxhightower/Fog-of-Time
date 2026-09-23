@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:64634",
+    "doi": null,
+    "title": "Recent progress in ichnology",
+    "year": 1898,
+    "journal": "Geology of Old Hampshire County, Massachusetts Comprising Franklin, Hampshire, and Hampden Counties. Monographs of the United States Geological Survey",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=64634",
+    "authors": [
+      "C. H. Hitchcock"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:673678",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dinosauria",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Dinosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:673748",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Aves",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Aves.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

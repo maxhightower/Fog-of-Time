@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:64844",
+    "doi": null,
+    "title": "Nuevos dientes de Saurios de cretáceo del Uruguay [New saurian teeth from the Cretaceous of Uruguay]",
+    "year": 1934,
+    "journal": "Boletín, Instituto de Geología y Perforaciones (Uruguay)",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=64844",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:676219",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Camptosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

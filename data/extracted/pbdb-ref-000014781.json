@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14781",
+    "doi": null,
+    "title": "Yunnanosaurus huangi Young (gen. et sp. nov.), a new Prosauropoda from the Red Beds at Lufeng, Yunnan",
+    "year": 1942,
+    "journal": "Bulletin of the Geological Society of China",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14781",
+    "authors": [
+      "C.-C. Young"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:175438",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Yunnanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Yunnanosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

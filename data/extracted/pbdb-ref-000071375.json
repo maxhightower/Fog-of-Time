@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:71375",
+    "doi": "10.1080/03115518.2010.497258",
+    "title": "Taphonomic observations on eastern Australian Cretaceous sauropods",
+    "year": 2010,
+    "journal": "Alcheringa",
+    "url": "https://doi.org/10.1080/03115518.2010.497258",
+    "authors": [
+      "R. E. Molnar"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:763469",
+      "taxon": "Wintonotitan wattsi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Wintonotitan",
+      "basis": "stated without evidence",
+      "summary": "Wintonotitan wattsi belongs to Wintonotitan.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

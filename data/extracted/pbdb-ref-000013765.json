@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13765",
+    "doi": "10.1127/njgpa/199/1996/151",
+    "title": "First Early Cretaceous theropod dinosaur from Brazil with comments on Spinosauridae",
+    "year": 1996,
+    "journal": "Neues Jahrbuch für Geologie und Paläontologie, Abhandlungen",
+    "url": "https://doi.org/10.1127/njgpa/199/1996/151",
+    "authors": [
+      "A. W. A. Kellner",
+      "D. d. A. Campos"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:96093",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

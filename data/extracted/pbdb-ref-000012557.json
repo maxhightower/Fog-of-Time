@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12557",
+    "doi": "10.1017/s1477201903001044",
+    "title": "A revision of Titanosaurus Lydekker (Dinosauria – Sauropoda), the first dinosaur genus with a 'Gondwanan' distribution",
+    "year": 2003,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1017/s1477201903001044",
+    "authors": [
+      "J. A. Wilson",
+      "P. Upchurch"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:91679",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saltasauridae",
+      "basis": "stated with evidence",
+      "summary": "Alamosaurus belongs to Saltasauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

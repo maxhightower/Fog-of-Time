@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:74169",
+    "doi": "10.1038/s42003-020-01338-w",
+    "title": "Two Late Cretaceous sauropods reveal titanosaurian dispersal across South America",
+    "year": 2020,
+    "journal": "Communications Biology",
+    "url": "https://doi.org/10.1038/s42003-020-01338-w",
+    "authors": [
+      "E. M. Hechenleitner",
+      "L. Leuzinger",
+      "A. G. Martinelli, S. Rocher, L. E. Fiorelli, J. R. A. Taborda, L. Salgado"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:809571",
+      "taxon": "Dreadnoughtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eutitanosauria",
+      "basis": "stated with evidence",
+      "summary": "Dreadnoughtus belongs to Eutitanosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

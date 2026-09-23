@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14155",
+    "doi": "10.1144/gsl.jgs.1889.045.01-04.04",
+    "title": "On the remains and affinities of five genera of Mesozoic reptiles",
+    "year": 1889,
+    "journal": "Quarterly Journal of the Geological Society of London",
+    "url": "https://doi.org/10.1144/gsl.jgs.1889.045.01-04.04",
+    "authors": [
+      "R. Lydekker"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:98340",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

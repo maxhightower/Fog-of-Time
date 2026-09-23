@@ -15,6 +15,56 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:672276",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:672277",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:672286",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithopoda",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus belongs to Ornithopoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:672289",
+      "taxon": "Pachycephalosaurus wyomingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurus",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus wyomingensis belongs to Pachycephalosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:672290",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Anatosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Anatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Anatosaurus annectens) belongs to Anatosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:672295",
       "taxon": "Torosaurus",
       "published_as": null,

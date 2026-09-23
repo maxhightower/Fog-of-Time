@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:686606",
+      "taxon": "Bagualosaurus agudoensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Bagualosaurus",
+      "basis": "stated with evidence",
+      "summary": "Bagualosaurus agudoensis belongs to Bagualosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:686607",
+      "taxon": "Bagualosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated with evidence",
+      "summary": "Bagualosaurus belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

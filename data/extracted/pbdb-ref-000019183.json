@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19183",
+    "doi": "10.2113/gssgfbull.iv.2.335",
+    "title": "Nouvelles découvertes de vertébrés fossiles dans l'Albien du sud tunisien [New discoveries of fossil vertebrates in the Albian of southern Tunisia]",
+    "year": 1988,
+    "journal": "Bulletin de la Société Géologique de France, 8e série",
+    "url": "https://doi.org/10.2113/gssgfbull.iv.2.335",
+    "authors": [
+      "S. Bouaziz",
+      "E. Buffetaut",
+      "M. Ghanmi, J.-J. Jaeger, M. Martin, J.-M. Mazin, H. Tong"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:151191",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

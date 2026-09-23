@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:37255",
+    "doi": "10.1127/0077-7749/2010/0098",
+    "title": "A partial titanosaur (Sauropoda, Dinosauria) skeleton from the Maastrichtian of Nalat-Vad, Hateg Basin, Romania",
+    "year": 2010,
+    "journal": "Neues Jahrbuch für Geologie und Paläontologie Abhandlungen",
+    "url": "https://doi.org/10.1127/0077-7749/2010/0098",
+    "authors": [
+      "Z. Csiki",
+      "V. Codrea",
+      "C. Jipa-Murzea, P. Godefroit"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:352770",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated with evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

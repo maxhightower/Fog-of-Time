@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:61248",
+    "doi": "10.1142/0455",
+    "title": "Sichuan Pen Di Kong Long Zu Yin Hua Shi [Dinosaur Footprints from Mesozoic of Sichuan Basin]",
+    "year": 1987,
+    "journal": "Sichuan Science and Technology Publishing House",
+    "url": "https://doi.org/10.1142/0455",
+    "authors": [
+      "Y. X. Yang",
+      "Y. D. Yang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:633082",
+      "taxon": "Pengxianpus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Prosauropoda",
+      "basis": "stated with evidence",
+      "summary": "Pengxianpus belongs to Prosauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

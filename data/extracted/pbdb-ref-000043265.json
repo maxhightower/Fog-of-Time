@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:43265",
+    "doi": null,
+    "title": "Giant dinosaur tracks in the Broome Sandstone (Lower Cretaceous) of Western Australia",
+    "year": 2002,
+    "journal": "First International Palaeontological Congress (IPC2002), Sydney. Geological Society of Australia, Abstracts",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=43265",
+    "authors": [
+      "T. Thulborn"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:434276",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

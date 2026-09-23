@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13943",
+    "doi": "10.1139/e75-142",
+    "title": "The ceratopsian dinosaurs and associated lower vertebrates from the St. Mary River Formation (Maestrichtian) at Scabby Butte, southern Alberta",
+    "year": 1975,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/e75-142",
+    "authors": [
+      "W. Langston"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:98832",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosauridae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

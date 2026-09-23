@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14097",
+    "doi": null,
+    "title": "Dinosaurierreste aus Siebenbürgen II (Schädelreste von Mochlodon) mit einem anhange: Zur phylogenie der Ornithopodiden [Dinosaur remains from Transylvania II (skull remains of Mochlodon) with an appendix: the phylogeny of the ornithopods]",
+    "year": 1902,
+    "journal": "Denkschriften der Kaiserlichen Akademie der Wissenschaften. Mathematisch-Naturwissenschaftliche Classe",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14097",
+    "authors": [
+      "B. F. Nopcsa"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:97772",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Kalodontidae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Kalodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

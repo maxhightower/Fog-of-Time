@@ -15,6 +15,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:658890",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:658891",
       "taxon": "Gresslyosaurus",
       "published_as": null,
@@ -22,6 +32,56 @@
       "related_taxon": "Plateosauridae",
       "basis": "stated with evidence",
       "summary": "Gresslyosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:658899",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Anchisauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:658902",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated with evidence",
+      "summary": "Allosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:658908",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinodontidae",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosaurus belongs to Deinodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:658928",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Cetiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:658930",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosauridae",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Cetiosauridae.",
       "source": "pbdb_opinion"
     },
     {
@@ -35,6 +95,26 @@
       "source": "pbdb_opinion"
     },
     {
+      "id": "pbdb-opinion:658959",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:658980",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:658991",
       "taxon": "Torosaurus",
       "published_as": null,
@@ -42,6 +122,56 @@
       "related_taxon": "Ceratopsia",
       "basis": "stated with evidence",
       "summary": "Torosaurus belongs to Ceratopsia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:658997",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Monoclonius",
+      "basis": "stated with evidence",
+      "summary": "Centrosaurus is a subjective synonym of Monoclonius.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:659001",
+      "taxon": "Plateosaurus trossingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus trossingensis belongs to Plateosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:659002",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithopoda",
+      "basis": "stated with evidence",
+      "summary": "Anomoepus belongs to Ornithopoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:659015",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated with evidence",
+      "summary": "Alamosaurus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:659016",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Trachodon annectens",
+      "status": "belongs_to",
+      "related_taxon": "Trachodon",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus annectens (as Trachodon annectens) belongs to Trachodon.",
       "source": "pbdb_opinion"
     }
   ]

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18459",
+    "doi": null,
+    "title": "A titanosaurian sauropod dinosaur with opsithocoelous caudal vertebrae from the early Late Cretaceous of Liaoning province, China",
+    "year": 2004,
+    "journal": "Acta Geologica Sinica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18459",
+    "authors": [
+      "H. You",
+      "Q. Ji",
+      "M. C. Lamanna, J. Li, Y. Li"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:142815",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Opisthocoelicaudiinae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Opisthocoelicaudiinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:142823",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Somphospondyli",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Somphospondyli.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:27923",
+    "doi": "10.37570/bgsd-2004-51-05",
+    "title": "A probable thyreophoran (Dinosauria, Ornithischia) footprint from the Upper Triassic of southern Sweden",
+    "year": 2004,
+    "journal": "Bulletin of the Geological Society of Denmark",
+    "url": "https://doi.org/10.37570/bgsd-2004-51-05",
+    "authors": [
+      "J. Milàn",
+      "G. Gierlinski"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:238066",
+      "taxon": "Eubrontes",
+      "published_as": "Grallator (Eubrontes)",
+      "status": "belongs_to",
+      "related_taxon": "Grallator",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes (as Grallator (Eubrontes)) belongs to Grallator.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

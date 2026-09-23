@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:60798",
+    "doi": "10.5710/AMGH.21.06.2015.2894",
+    "title": "A Norian lagerpetid dinosauromorph from the Quebrada del Barro Formation, northwestern Argentina",
+    "year": 2016,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/AMGH.21.06.2015.2894",
+    "authors": [
+      "R. N. Martínez",
+      "C. Apaldetti",
+      "G. A. Correa, D. Abelín"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:830916",
+      "taxon": "Lewisuchus admixtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lewisuchus",
+      "basis": "stated without evidence",
+      "summary": "Lewisuchus admixtus belongs to Lewisuchus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:830931",
+      "taxon": "Eodromaeus murphi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eodromaeus",
+      "basis": "stated without evidence",
+      "summary": "Eodromaeus murphi belongs to Eodromaeus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:830933",
+      "taxon": "Lewisuchus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Silesauridae",
+      "basis": "stated with evidence",
+      "summary": "Lewisuchus belongs to Silesauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

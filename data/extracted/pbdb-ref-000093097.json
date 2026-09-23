@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1003148",
+      "taxon": "Joaquinraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptoridae",
+      "basis": "stated with evidence",
+      "summary": "Joaquinraptor belongs to Megaraptoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1003149",
+      "taxon": "Joaquinraptor casali",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Joaquinraptor",
+      "basis": "stated with evidence",
+      "summary": "Joaquinraptor casali belongs to Joaquinraptor.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

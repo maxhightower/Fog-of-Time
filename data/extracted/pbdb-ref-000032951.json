@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32951",
+    "doi": "10.1144/gsl.jgs.1923.079.01-04.08",
+    "title": "On the geological importance of the primitive reptilian fauna in the uppermost Cretaceous of Hungary; with a description of a new tortoise (Kallokibotion)",
+    "year": 1923,
+    "journal": "Quarterly Journal of the Geological Society",
+    "url": "https://doi.org/10.1144/gsl.jgs.1923.079.01-04.08",
+    "authors": [
+      "B. F. Nopcsa"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:306652",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": "Titanosaurus dacus",
+      "status": "belongs_to",
+      "related_taxon": "Titanosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus (as Titanosaurus dacus) belongs to Titanosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

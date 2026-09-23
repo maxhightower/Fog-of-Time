@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55329",
+    "doi": null,
+    "title": "Ornithischians through time",
+    "year": 2011,
+    "journal": "Dinosaurs of Eastern Iberia",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55329",
+    "authors": [
+      "R. Gaete",
+      "J. I. Canudo",
+      "A. Santos-Cubedo"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:570016",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

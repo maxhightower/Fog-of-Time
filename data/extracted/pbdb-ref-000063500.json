@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63500",
+    "doi": null,
+    "title": "Dinosaurs, Predator and Prey. Gorgosaurus-Lambeosaurus",
+    "year": 1956,
+    "journal": "Chicago Natural History Museum Press",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63500",
+    "authors": [
+      "R. Zangerl"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:661937",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

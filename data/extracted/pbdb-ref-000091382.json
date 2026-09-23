@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:985278",
+      "taxon": "Tameryraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carcharodontosauridae",
+      "basis": "stated with evidence",
+      "summary": "Tameryraptor belongs to Carcharodontosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:985279",
+      "taxon": "Tameryraptor markgrafi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tameryraptor",
+      "basis": "stated with evidence",
+      "summary": "Tameryraptor markgrafi belongs to Tameryraptor.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

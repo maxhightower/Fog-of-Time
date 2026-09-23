@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55763",
+    "doi": "10.1371/journal.pone.0130007",
+    "title": "Cranial anatomy of Wendiceratops pinhornensis gen. et sp. nov., a centrosaurine ceratopsid (Dinosauria: Ornithischia) from the Oldman Formation (Campanian), Alberta, Canada, and the evolution of ceratopsid nasal ornamentation",
+    "year": 2015,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0130007",
+    "authors": [
+      "D. C. Evans",
+      "M. J. Ryan"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:577407",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Centrosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Centrosaurus belongs to Centrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

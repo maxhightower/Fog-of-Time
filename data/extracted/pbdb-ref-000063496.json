@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63496",
+    "doi": null,
+    "title": "Angriffswaffen und Verteidigungsmittell fossiler Wirbeltiere [Assault weapons and defenses of fossil vertebrates]",
+    "year": 1908,
+    "journal": "Verhandlungen der Kaiserlich-Königlichen Zoologisch-Botanischen Gesellschaft in Wien",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63496",
+    "authors": [
+      "O. Abel"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:661914",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

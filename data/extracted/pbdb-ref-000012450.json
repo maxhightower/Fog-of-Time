@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12450",
+    "doi": "10.1127/njgpm/1996/1996/635",
+    "title": "The first European allosauroid dinosaur (Lower Cretaceous, Wealden Group, England)",
+    "year": 1996,
+    "journal": "Neues Jahrbuch für Geologie und Paläontologie Monatshefte",
+    "url": "https://doi.org/10.1127/njgpm/1996/1996/635",
+    "authors": [
+      "S. Hutt",
+      "D. M. Martill",
+      "M. J. Barker"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:267803",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:267804",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

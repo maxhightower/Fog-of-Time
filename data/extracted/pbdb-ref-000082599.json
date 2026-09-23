@@ -1,0 +1,70 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:82599",
+    "doi": "10.5710/AMGH.25.08.2022.3477",
+    "title": "A new nanoid titanosaur (Dinosauria: Sauropoda) from the Upper Cretaceous of Brazil",
+    "year": 2022,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/AMGH.25.08.2022.3477",
+    "authors": [
+      "B. A. Navarro",
+      "A. M. Ghilardi",
+      "V. Díez Díaz, K. L. N. Bandeira, A. G. S. Cattaruzzi, F. V. Iori, A. M. Martine, A. B. Carvalho, L. E. Anelli, M. A. Fernandes, H. Zaher"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:899506",
+      "taxon": "Dreadnoughtus schrani",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dreadnoughtus",
+      "basis": "stated without evidence",
+      "summary": "Dreadnoughtus schrani belongs to Dreadnoughtus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:899512",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated without evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:899535",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saltasaurinae",
+      "basis": "stated with evidence",
+      "summary": "Alamosaurus belongs to Saltasaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:899564",
+      "taxon": "Dreadnoughtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eutitanosauria",
+      "basis": "stated with evidence",
+      "summary": "Dreadnoughtus belongs to Eutitanosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:899565",
+      "taxon": "Diamantinasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasauria",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus belongs to Diamantinasauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

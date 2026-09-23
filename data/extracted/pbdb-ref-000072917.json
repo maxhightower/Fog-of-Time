@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:72917",
+    "doi": "10.1016/j.gr.2019.07.007",
+    "title": "North Africa's first stegosaur: implications for Gondwanan thyreophoran dinosaur diversity",
+    "year": 2020,
+    "journal": "Gondwana Research",
+    "url": "https://doi.org/10.1016/j.gr.2019.07.007",
+    "authors": [
+      "S. C. R. Maidment",
+      "T. J. Raven",
+      "D. Ouarhache, P. M. Barrett"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:820849",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

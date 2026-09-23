@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78265",
+    "doi": "10.1016/j.cretres.2021.105029",
+    "title": "The sauropod record of Salitral Ojo del Agua: A Upper Cretaceous (Allen Formation) fossiliferous locality from northern Patagonia, Argentina",
+    "year": 2022,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2021.105029",
+    "authors": [
+      "M. Aranciaga Rolando",
+      "J. A. Garcia Marsà",
+      "F. L. Agnolín, M. J. Motta, S. Rozadilla, F. E. Novas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:867159",
+      "taxon": "Bonapartenykus ultimus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Bonapartenykus",
+      "basis": "stated without evidence",
+      "summary": "Bonapartenykus ultimus belongs to Bonapartenykus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

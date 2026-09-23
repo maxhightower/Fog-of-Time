@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:92750",
+    "doi": null,
+    "title": "Eggs of sauropod and ornithopod dinosaurs from the Cretaceous deposits of Mongolia",
+    "year": 1994,
+    "journal": "Paleontological Journal",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=92750",
+    "authors": [
+      "K. E. Mikhailov"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:998566",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated with evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

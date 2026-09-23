@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63565",
+    "doi": null,
+    "title": "Wǒguó de dà kǒnglóng yī héchuān mǎmén xī lóng [China’s largest dinosaur—Hehchuan-Mamenxian dragon]",
+    "year": 1965,
+    "journal": "Sheng wu xue tong bao [Bulletin of Biology]",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63565",
+    "authors": [
+      "S. Chao"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:663188",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

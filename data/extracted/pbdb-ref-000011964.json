@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:11964",
+    "doi": "10.5962/bhl.title.115853",
+    "title": "Vertebrate microsite assemblages (exclusive of mammals) from the Foremost and Oldman Formations of the Judith River Group (Campanian) of southeastern Alberta: an illustrated guide",
+    "year": 2001,
+    "journal": "Provincial Museum of Alberta, Natural History Occasional Paper",
+    "url": "https://doi.org/10.5962/bhl.title.115853",
+    "authors": [
+      "J. Peng",
+      "A. P. Russell",
+      "D. B. Brinkman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:88601",
+      "taxon": "Richardoestesia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Richardoestesia belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:88604",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:81207",
+    "doi": "10.1111/1755-6724.12334",
+    "title": "Comparative osteology and phylogenetic relationship of Edmontosaurus and Shantungosaurus (Dinosauria: Hadrosauridae) from the Upper Cretaceous of North America and East Asia",
+    "year": 2014,
+    "journal": "Acta Geologica Sinica (English Edition)",
+    "url": "https://doi.org/10.1111/1755-6724.12334",
+    "authors": [
+      "H. Xing",
+      "X. Zhao",
+      "K. Wang, D. Li, S. Chen, J. C. Mallon, Y. Zhang, X. Xu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:878437",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurini",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus belongs to Edmontosaurini.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:878551",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:878557",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

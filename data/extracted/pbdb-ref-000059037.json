@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:59037",
+    "doi": "10.11646/zootaxa.2765.1.6",
+    "title": "Revised diagnoses of Hadrosaurus foulkii Leidy, 1858 (the type genus and species of Hadrosauridae Cope, 1869) and Claosaurus agilis Marsh, 1872 (Dinosauria: Ornithopoda) from the Late Cretaceous of North America",
+    "year": 2011,
+    "journal": "Zootaxa",
+    "url": "https://doi.org/10.11646/zootaxa.2765.1.6",
+    "authors": [
+      "A. Prieto-Márquez"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:615372",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:615390",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

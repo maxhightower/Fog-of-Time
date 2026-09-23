@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:734899",
+      "taxon": "Nhandumirim waldsangae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nhandumirim",
+      "basis": "stated with evidence",
+      "summary": "Nhandumirim waldsangae belongs to Nhandumirim.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:734900",
+      "taxon": "Nhandumirim",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurischia",
+      "basis": "stated with evidence",
+      "summary": "Nhandumirim belongs to Saurischia.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

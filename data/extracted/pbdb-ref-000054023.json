@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54023",
+    "doi": null,
+    "title": "The arored dinosaur Stegosaurus ungulatus, recently restored at Yale University",
+    "year": 1912,
+    "journal": "Verhandlungen des VIII. Intenationalen Zoologen-Kongresses zu Graz",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54023",
+    "authors": [
+      "R. S. Lull"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:556167",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus is a subjective synonym of Omosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

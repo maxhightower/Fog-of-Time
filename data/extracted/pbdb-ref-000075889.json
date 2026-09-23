@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75889",
+    "doi": null,
+    "title": "A second ornithischian dinosaur from the Antlers Formation (Lower Cretaceous) of southeastern Oklahoma",
+    "year": 2015,
+    "journal": "Proceedings of the Oklahoma Academy of Sciences",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=75889",
+    "authors": [
+      "J. A. Frederickson",
+      "J. E. Cohen",
+      "R. L. Cifelli"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:826338",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

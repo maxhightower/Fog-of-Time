@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93070",
+    "doi": "10.1098/rsbl.2020.0417",
+    "title": "A paraphyletic ‘Silesauridae' as an alternative hypothesis for the initial radiation of ornithischian dinosaurs",
+    "year": 2020,
+    "journal": "Biology Letters",
+    "url": "https://doi.org/10.1098/rsbl.2020.0417",
+    "authors": [
+      "R. T. Müller",
+      "M. S. Garcia"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1002774",
+      "taxon": "Lewisuchus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithischia",
+      "basis": "stated with evidence",
+      "summary": "Lewisuchus belongs to Ornithischia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1002779",
+      "taxon": "Eodromaeus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurischia",
+      "basis": "stated with evidence",
+      "summary": "Eodromaeus belongs to Saurischia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:27945",
+    "doi": "10.1016/0031-0182(91)90030-u",
+    "title": "New dinosaur ichnotaxa from the Early Jurassic of the Holy Cross Mountains, Poland",
+    "year": 1991,
+    "journal": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "url": "https://doi.org/10.1016/0031-0182(91)90030-u",
+    "authors": [
+      "G. Gierlinski"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:238283",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:238288",
+      "taxon": "Eubrontes",
+      "published_as": "Grallator (Eubrontes)",
+      "status": "belongs_to",
+      "related_taxon": "Grallator",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes (as Grallator (Eubrontes)) belongs to Grallator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:238290",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anomoepodidae",
+      "basis": "stated with evidence",
+      "summary": "Anomoepus belongs to Anomoepodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:238310",
+      "taxon": "Anomoepus",
+      "published_as": "Moyenisauropus",
+      "status": "belongs_to",
+      "related_taxon": "Moyenisauropodidae",
+      "basis": "stated with evidence",
+      "summary": "Anomoepus (as Moyenisauropus) belongs to Moyenisauropodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

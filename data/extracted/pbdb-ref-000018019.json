@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18019",
+    "doi": null,
+    "title": "On a new nodosaurid from Ninghsia",
+    "year": 1935,
+    "journal": "Palaeontologia Sinica, Series C",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18019",
+    "authors": [
+      "C.-C. Young"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:137837",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nodosauridae",
+      "basis": "stated without evidence",
+      "summary": "Pinacosaurus belongs to Nodosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

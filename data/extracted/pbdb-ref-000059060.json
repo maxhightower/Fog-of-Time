@@ -15,6 +15,36 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:615657",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": "Titanosaurus dacus",
+      "status": "belongs_to",
+      "related_taxon": "Titanosaurus",
+      "basis": "stated with evidence",
+      "summary": "Magyarosaurus dacus (as Titanosaurus dacus) belongs to Titanosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:615665",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Brachiosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:615670",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cardiodontinae",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Cardiodontinae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:615680",
       "taxon": "Brontosaurus",
       "published_as": null,
@@ -22,6 +52,16 @@
       "related_taxon": "Camarasaurus",
       "basis": "stated with evidence",
       "summary": "Brontosaurus is a subjective synonym of Camarasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:615685",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated with evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
       "source": "pbdb_opinion"
     },
     {

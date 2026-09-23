@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65481",
+    "doi": null,
+    "title": "Triassic-Jurassic stratigraphic distribution of the theropod footprint ichnogenus Eubrontes",
+    "year": 2006,
+    "journal": "The Triassic-Jurassic Terrestrial Transition. New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=65481",
+    "authors": [
+      "S. G. Lucas",
+      "H. Klein",
+      "M. G. Lockley, J. A. Spielmann, G. D. Gierlinski, A. P. Hunt, L. H. Tanner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:682774",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:682775",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:682777",
+      "taxon": "Kayentapus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Eubrontes",
+      "basis": "stated without evidence",
+      "summary": "Kayentapus is a subjective synonym of Eubrontes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:682784",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

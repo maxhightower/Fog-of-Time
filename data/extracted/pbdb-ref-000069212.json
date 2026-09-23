@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:69212",
+    "doi": "10.18435/vamp29347",
+    "title": "A juvenile cf. Edmontosaurus annectens (Ornithischia, Hadrosauridae) femur documents a previously unreported intermediate growth stage for this taxon",
+    "year": 2019,
+    "journal": "Vertebrate Anatomy Morphology Palaeontology",
+    "url": "https://doi.org/10.18435/vamp29347",
+    "authors": [
+      "A. A. Farke",
+      "E. Yip"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:725623",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:725624",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

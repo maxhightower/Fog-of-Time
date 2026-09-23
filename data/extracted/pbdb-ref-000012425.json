@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12425",
+    "doi": "10.1038/277560a0",
+    "title": "Phylogeny and palaeobiogeography of hadrosaurian dinosaurs",
+    "year": 1979,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/277560a0",
+    "authors": [
+      "M . K. Brett-Surman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:91196",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

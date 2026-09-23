@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93111",
+    "doi": null,
+    "title": "Fossil and recent eggshell in amniotic vertebrates: fine structure, comparative morphology and classification",
+    "year": 1997,
+    "journal": "Special Papers in Palaeontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=93111",
+    "authors": [
+      "K. E. Mikhailov"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1003515",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated with evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1003607",
+      "taxon": "Macroelongatoolithus carlylei",
+      "published_as": "Spheroolithus carlynensis",
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithus",
+      "basis": "stated without evidence",
+      "summary": "Macroelongatoolithus carlylei (as Spheroolithus carlynensis) belongs to Spheroolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:85184",
+    "doi": "10.1016/j.cretres.2016.12.015",
+    "title": "New materials of lithostrotian titanosaurs (Dinosauria: Sauropoda) from the Upper Cretaceous of central Patagonia",
+    "year": 2017,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2016.12.015",
+    "authors": [
+      "L. M. Ibiricu",
+      "G. A. Casal",
+      "R. D. Martínez, M. Luna, E. G. Svoboda, I. A. Cerda"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:928292",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

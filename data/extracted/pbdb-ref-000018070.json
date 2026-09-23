@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18070",
+    "doi": null,
+    "title": "Dinosaur eggshell Boletuoolithus carlylensis, oogenus nov. from the Lower Cretaceous Cedar Mountain Formation of Utah",
+    "year": 1998,
+    "journal": "Lower and Middle Cretaceous Terrestrial Ecosystems, New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18070",
+    "authors": [
+      "E. S. Bray"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:138357",
+      "taxon": "Macroelongatoolithus carlylei",
+      "published_as": "Boletuoolithus carlylensis",
+      "status": "belongs_to",
+      "related_taxon": "Boletuoolithus",
+      "basis": "stated without evidence",
+      "summary": "Macroelongatoolithus carlylei (as Boletuoolithus carlylensis) belongs to Boletuoolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13656",
+    "doi": "10.1038/nature03623",
+    "title": "Discovery of a short-necked sauropod dinosaur from the Late Jurassic period of Patagonia",
+    "year": 2005,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/nature03623",
+    "authors": [
+      "O. W. M. Rauhut",
+      "K. Remes",
+      "R. Fechner, G. Cladera, P. Puerta"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:95565",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocidae",
+      "basis": "stated without evidence",
+      "summary": "Suuwassea belongs to Diplodocidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

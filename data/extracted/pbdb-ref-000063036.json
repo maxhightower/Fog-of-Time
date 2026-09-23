@@ -1,0 +1,59 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63036",
+    "doi": "10.1080/02724634.2017.1289381",
+    "title": "Bonapartesaurus rionegrensis, a new hadrosaurine dinosaur from South America: implications for phylogenetic and biogeographic relations with North America",
+    "year": 2017,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2017.1289381",
+    "authors": [
+      "P. Cruzado-Caballero",
+      "J. E. Powell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:655283",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:655306",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurini",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus belongs to Edmontosaurini.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:655317",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:655321",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachylophosaurini",
+      "basis": "stated with evidence",
+      "summary": "Maiasaura belongs to Brachylophosaurini.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

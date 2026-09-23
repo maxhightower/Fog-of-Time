@@ -239,5 +239,17 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:980946",
+      "taxon": "Allosaurus anax",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosaurus",
+      "basis": "stated with evidence",
+      "summary": "Allosaurus anax belongs to Allosaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

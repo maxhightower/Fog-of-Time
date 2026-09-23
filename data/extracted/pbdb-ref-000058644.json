@@ -1,0 +1,49 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:58644",
+    "doi": "10.1038/248168a0",
+    "title": "Dinosaur monophyly and a new class of vertebrates",
+    "year": 1974,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/248168a0",
+    "authors": [
+      "R. T. Bakker",
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:612006",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:612011",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Prosauropoda",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Prosauropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:612014",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Prosauropoda",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Prosauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

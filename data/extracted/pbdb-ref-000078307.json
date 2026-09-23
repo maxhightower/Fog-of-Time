@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:851098",
+      "taxon": "Pendraig milnerae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pendraig",
+      "basis": "stated with evidence",
+      "summary": "Pendraig milnerae belongs to Pendraig.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:851099",
+      "taxon": "Pendraig",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysoidea",
+      "basis": "stated with evidence",
+      "summary": "Pendraig belongs to Coelophysoidea.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

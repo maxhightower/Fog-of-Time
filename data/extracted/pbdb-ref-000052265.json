@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:52265",
+    "doi": "10.1371/journal.pone.0104551",
+    "title": "A new basal ankylosaurid (Dinosauria: Ornithischia) from the Lower Cretaceous Jiufotang Formation of Liaoning Province, China",
+    "year": 2014,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0104551",
+    "authors": [
+      "F. Han",
+      "W. Zheng",
+      "D. Hu, X. Xu, P. M. Barrett"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:534406",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauridae",
+      "basis": "stated with evidence",
+      "summary": "Pinacosaurus belongs to Ankylosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

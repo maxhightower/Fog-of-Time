@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25606",
+    "doi": null,
+    "title": "Autopodium of the holotype of Dracopelta zbyszewskii (Dinosauria, Ankylosauria) and its type horizon and locality (Upper Jurassic: Tithonian, western Portugal)",
+    "year": 2005,
+    "journal": "Neues Jahrbuch für Geologie und Paläontologie Abhandlungen",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=25606",
+    "authors": [
+      "X. Pereda Suberbiola",
+      "P. Dantas",
+      "P. M. Galton, J. L. Sanz"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:195545",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

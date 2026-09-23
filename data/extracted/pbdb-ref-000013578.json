@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13578",
+    "doi": "10.1017/cbo9780511608377.009",
+    "title": "Variation in Coelophysis bauri",
+    "year": 1990,
+    "journal": "Dinosaur Systematics: Perspectives and Approaches, Cambridge University Press, Cambridge",
+    "url": "https://doi.org/10.1017/cbo9780511608377.009",
+    "authors": [
+      "E. H. Colbert"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:95142",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

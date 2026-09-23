@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:40663",
+    "doi": "10.1080/03115518.2010.489404",
+    "title": "The holotype individual of the ornithopod dinosaur Leaellynasaura amicagraphica Rich & Rich, 1989 (late Early Cretaceous, Victoria, Australia)",
+    "year": 2010,
+    "journal": "Alcheringa",
+    "url": "https://doi.org/10.1080/03115518.2010.489404",
+    "authors": [
+      "T. H. Rich",
+      "P. M. Galton",
+      "P. Vickers-Rich"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:399084",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylopollexia",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Ankylopollexia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

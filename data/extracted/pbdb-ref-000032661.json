@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32661",
+    "doi": null,
+    "title": "Hsin-chiang pei pu chung sheng tai chi ch'ui tung wu hua shin ti ts'eng [Mesozoic vertebrate-bearing beds and stratigraphy of northern Xinjiang: report of the Paleontological Expedition to Xinjiang IV]",
+    "year": 1980,
+    "journal": "Memoirs of the Institute of Vertebrate Paleontology and Paleoanthropology, Academia Sinica A",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=32661",
+    "authors": [
+      "S. Chao"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:303931",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:49418",
+    "doi": "10.11646/zzotaxa.3746.1.9",
+    "title": "A new form of Elongatoolithidae, Undulatoolithus pengi oogen. et oosp. nov. from Pingxiang, Jiangxi, China",
+    "year": 2013,
+    "journal": "Zootaxa",
+    "url": "https://doi.org/10.11646/zzotaxa.3746.1.9",
+    "authors": [
+      "Q. Wang",
+      "Z. Zhao",
+      "X. Wang, N. Li, S. Zou"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:497635",
+      "taxon": "Undulatoolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elongatoolithidae",
+      "basis": "stated with evidence",
+      "summary": "Undulatoolithus belongs to Elongatoolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:497636",
+      "taxon": "Undulatoolithus pengi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Undulatoolithus",
+      "basis": "stated with evidence",
+      "summary": "Undulatoolithus pengi belongs to Undulatoolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

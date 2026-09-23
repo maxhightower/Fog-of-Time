@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30625",
+    "doi": null,
+    "title": "Nouveaux gisements de dinosaures dans le Crétacé espagnol [New dinosaur localities in the Spanish Cretaceous]",
+    "year": 1986,
+    "journal": "Les Dinosaures de La Chine à La France, Colloque International de Paléontologie, Toulouse, France, 2-6 Septembre 1985; Muséum d'Histoire Naturelle de Toulouse, Toulouse",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=30625",
+    "authors": [
+      "J. L. Sanz"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:277818",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Brachiosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

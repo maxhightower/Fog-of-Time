@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24241",
+    "doi": null,
+    "title": "Tetrapod phylogeny",
+    "year": 1989,
+    "journal": "In B. Fernholm, K. Bremer, & H. Jörnvall (eds.), The Hierarchy of Life. Elsevier Science Publishers B. V., Amsterdam",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=24241",
+    "authors": [
+      "J. A. Gauthier",
+      "D. Cannatella",
+      "K. de Queiroz, A. G. Kluge, T. Rowe"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:174560",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithosuchia",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Ornithosuchia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

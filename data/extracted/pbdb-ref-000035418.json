@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:35418",
+    "doi": "10.1515/9783111419336",
+    "title": "Generelle Morphologie der Organismen, Allgemeine Grundzuge der Organischen Formen-Wissenschaft, Mechanisch Begründet Durch die von Charles Darwin Reformirte Descendez-Theorie. Verlag von Georg Reimer, Berlin",
+    "year": 1866,
+    "journal": null,
+    "url": "https://doi.org/10.1515/9783111419336",
+    "authors": [
+      "E. Haeckel"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:323784",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Harpagosauria",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Harpagosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

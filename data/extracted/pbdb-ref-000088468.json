@@ -120,5 +120,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:963557",
+      "taxon": "Kiyacursor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Noasauridae",
+      "basis": "stated with evidence",
+      "summary": "Kiyacursor belongs to Noasauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:963558",
+      "taxon": "Kiyacursor longipes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Kiyacursor",
+      "basis": "stated with evidence",
+      "summary": "Kiyacursor longipes belongs to Kiyacursor.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

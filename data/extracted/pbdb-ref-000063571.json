@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63571",
+    "doi": null,
+    "title": "I dinosauri d’Africa [The dinosaurs of Africa]",
+    "year": 1984,
+    "journal": "Sulle Orme dei Dinosauri",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63571",
+    "authors": [
+      "P. Taquet"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:663356",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

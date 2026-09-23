@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:77258",
+    "doi": "10.1371/journal.pone.0031295",
+    "title": "Standardized terminology and potential taxonomic utility for hadrosaurid skin impressions: a case study for Saurolophus from Canada and Mongolia",
+    "year": 2012,
+    "journal": "PLoS One",
+    "url": "https://doi.org/10.1371/journal.pone.0031295",
+    "authors": [
+      "P. R. Bell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:841608",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

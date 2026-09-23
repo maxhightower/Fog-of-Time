@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1007123",
+      "taxon": "Zavacephale",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauria",
+      "basis": "stated with evidence",
+      "summary": "Zavacephale belongs to Pachycephalosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1007125",
+      "taxon": "Zavacephale rinpoche",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Zavacephale",
+      "basis": "stated with evidence",
+      "summary": "Zavacephale rinpoche belongs to Zavacephale.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:68540",
+    "doi": "10.1080/02724634.2016.1225303",
+    "title": "Appendicular osteology of Dreadnoughtus schrani, a giant titanosaurian (Sauropoda, Titanosauria) from the Upper Cretaceous of Patagonia, Argentina",
+    "year": 2016,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2016.1225303",
+    "authors": [
+      "P. V. Ullmann",
+      "K. J. Lacovara"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:718590",
+      "taxon": "Dreadnoughtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lithostrotia",
+      "basis": "stated without evidence",
+      "summary": "Dreadnoughtus belongs to Lithostrotia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:718591",
+      "taxon": "Dreadnoughtus schrani",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dreadnoughtus",
+      "basis": "stated without evidence",
+      "summary": "Dreadnoughtus schrani belongs to Dreadnoughtus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12905",
+    "doi": "10.1206/0003-0082(2003)402<1:oarobj>2.0.co;2",
+    "title": "Osteology and relationships of Byronosaurus jaffei (Theropoda: Troodontidae)",
+    "year": 2003,
+    "journal": "American Museum Novitates",
+    "url": "https://doi.org/10.1206/0003-0082(2003)402<1:oarobj>2.0.co;2",
+    "authors": [
+      "P. J. Makovicky",
+      "M. A. Norell",
+      "J. M. Clark, T. Rowe"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:92909",
+      "taxon": "Sinovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:92910",
+      "taxon": "Sinovenator changii",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinovenator",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator changii belongs to Sinovenator.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

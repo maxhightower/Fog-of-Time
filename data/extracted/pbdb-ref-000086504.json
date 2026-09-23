@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86504",
+    "doi": "10.1371/journal.pone.0293801",
+    "title": "A new alvarezsaurid dinosaur (Theropoda, Alvarezsauria) from the Upper Cretaceous Baruungoyot Formation of Mongolia provides insights for bird-like sleeping behavior in nonavian dinosaurs",
+    "year": 2023,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0293801",
+    "authors": [
+      "K. Kubo",
+      "Y. Kobayashi",
+      "T. Chinzorig, K. Tsogtbaatar"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:939578",
+      "taxon": "Bonapartenykus ultimus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Bonapartenykus",
+      "basis": "stated without evidence",
+      "summary": "Bonapartenykus ultimus belongs to Bonapartenykus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:939605",
+      "taxon": "Bonapartenykus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Alvarezsauroidea",
+      "basis": "stated with evidence",
+      "summary": "Bonapartenykus belongs to Alvarezsauroidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

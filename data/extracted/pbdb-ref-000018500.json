@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18500",
+    "doi": null,
+    "title": "Über die Zweistämmigkeit der Dinosaurier, mit Beiträgen zur Kenntnis einiger Schädel [On the double sturdiness of dinosaurs, with contributions to the knowledge of the skulls]",
+    "year": 1914,
+    "journal": "Neues Jahrbuch für Mineralogie, Geologie und Paläontologie, Beilage-Band",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=18500",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:143169",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

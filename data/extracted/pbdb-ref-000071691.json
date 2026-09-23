@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:71691",
+    "doi": "10.7717/peerj.7803",
+    "title": "Cranial anatomy of Allosaurus jimmadseni, a new species from the lower part of the Morrison Formation (Upper Jurassic) of western North America",
+    "year": 2020,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.7803",
+    "authors": [
+      "D. J. Chure",
+      "M. A. Loewen"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:770449",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

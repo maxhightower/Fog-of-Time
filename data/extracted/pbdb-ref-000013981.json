@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13981",
+    "doi": null,
+    "title": "An embryo of Camptosaurus from the Morrison Formation (Jurassic, Middle Tithonian) in Dinosaur National Monument, Utah",
+    "year": 1994,
+    "journal": "In K. Carpenter, K.F. Hirsh & J.R. Horner (eds.), Dinosaur Eggs and Babies (Cambridge: Cambridge University Press)",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13981",
+    "authors": [
+      "D. Chure",
+      "C. Turner",
+      "F. Peterson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:617520",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

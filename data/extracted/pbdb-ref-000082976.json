@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:82976",
+    "doi": null,
+    "title": "First occurrence of neonatal ornithopod teeth from South America",
+    "year": 2011,
+    "journal": "Symposium of Vertebrate Palaeontology and Comparative Anatomy",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=82976",
+    "authors": [
+      "V. M. Egerton",
+      "F. E. Novas",
+      "P. Dodson, K. J. Lacovara"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:900897",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:900898",
+      "taxon": "Orkoraptor burkei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orkoraptor",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor burkei belongs to Orkoraptor.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

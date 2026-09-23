@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:65678",
+    "doi": null,
+    "title": "Evazoum and the renaming of Northern Hemisphere “Pseudotetrasauropus”: implications for tetrapod ichnotaxonomy at the Triassic-Jurassic boundary",
+    "year": 2006,
+    "journal": "The Triassic-Jurassic Terrestrial Transition. New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=65678",
+    "authors": [
+      "M. G. Lockley",
+      "S. G. Lucas",
+      "A. P. Hunt"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:684321",
+      "taxon": "Evazoum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Otozoidae",
+      "basis": "stated with evidence",
+      "summary": "Evazoum belongs to Otozoidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

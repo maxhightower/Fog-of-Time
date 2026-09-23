@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29514",
+    "doi": "10.1111/j.1755-6724.2009.00002.x",
+    "title": "A new theropod dinosaur from the Middle Jurassic of Lufeng, Yunnan, China",
+    "year": 2009,
+    "journal": "Acta Geologica Sinica",
+    "url": "https://doi.org/10.1111/j.1755-6724.2009.00002.x",
+    "authors": [
+      "X.-C. Wu",
+      "P. J. Currie",
+      "Z. Dong, S. Pan, T. Wang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:260818",
+      "taxon": "Sinosaurus triassicus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosaurus",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus triassicus belongs to Sinosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

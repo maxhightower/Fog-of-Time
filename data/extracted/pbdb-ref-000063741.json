@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63741",
+    "doi": null,
+    "title": "Haplocanthosaurus reviewed",
+    "year": 1959,
+    "journal": "Museum News (The Cleveland Museum of Natural History)",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63741",
+    "authors": [
+      "Anonymous"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:665858",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Haplocanthosaurus belongs to Cetiosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

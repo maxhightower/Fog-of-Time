@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75856",
+    "doi": "10.31711/giw.v5.pp167-207",
+    "title": "A photo documentation of bipedal ornithischian dinosaurs from the Upper Jurassic Morrison Formation, USA",
+    "year": 2018,
+    "journal": "Geology of the Intermountain West",
+    "url": "https://doi.org/10.31711/giw.v5.pp167-207",
+    "authors": [
+      "K. Carpenter",
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:825898",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylopollexia",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Ankylopollexia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

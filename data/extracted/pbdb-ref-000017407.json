@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17407",
+    "doi": "10.1007/bf02985709",
+    "title": "On the anatomy and relationships of Efraasia diagnostica (Huene) n.gen., a prosauropod dinosaur (Reptilia: Saurischia) from the Upper Triassic of Germany",
+    "year": 1973,
+    "journal": "Paläontologische Zeitschrift",
+    "url": "https://doi.org/10.1007/bf02985709",
+    "authors": [
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:133713",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurischia",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Saurischia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:133732",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauridae",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Anchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

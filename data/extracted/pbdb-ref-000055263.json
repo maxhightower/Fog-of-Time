@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55263",
+    "doi": "10.1371/journal.pone.0108804",
+    "title": "A new ankylosaurid dinosaur from the Upper Cretaceous (Kirtlandian) of New Mexico with implications for ankylosaurid diversity in the Upper Cretaceous of western North America",
+    "year": 2014,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0108804",
+    "authors": [
+      "V. M. Arbour",
+      "M. E. Burns",
+      "R. M. Sullivan, S. G. Lucas, A. K. Cantrell, J. Fry, T. L. Suazo"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:569567",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauridae",
+      "basis": "stated with evidence",
+      "summary": "Pinacosaurus belongs to Ankylosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

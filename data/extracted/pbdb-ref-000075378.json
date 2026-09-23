@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75378",
+    "doi": "10.1016/j.acthis.2013.01.001",
+    "title": "Soft sheets of fibrillar bone from a fossil of the supraorbital horn of the dinosaur Triceratops horridus",
+    "year": 2013,
+    "journal": "Acta Histochemica",
+    "url": "https://doi.org/10.1016/j.acthis.2013.01.001",
+    "authors": [
+      "M. H. Armitage",
+      "K. L. Anderson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:821332",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

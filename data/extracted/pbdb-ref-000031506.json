@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31506",
+    "doi": "10.1016/j.crpv.20009.05.002",
+    "title": "The last hadrosaurid dinosaurs of Europe: a new lambeosaurine from the uppermost Cretaceous of Aren (Huesca, Spain)",
+    "year": 2009,
+    "journal": "Comptes Rendus Palevol",
+    "url": "https://doi.org/10.1016/j.crpv.20009.05.002",
+    "authors": [
+      "X. Pereda-Suberbiola",
+      "J. I. Canudo",
+      "P. Cruzado-Caballero, J. L. Barco, N. López-Martínez, O. Oms, J. I. Ruiz-Omeñaca"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:313074",
+      "taxon": "Maiasaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Maiasaura belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:313078",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

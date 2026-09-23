@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32655",
+    "doi": "10.11646/zootaxa.2450.1.1",
+    "title": "An abelisauroid dinosaur with a non-atrophied manus from the Late Cretaceous Pari Aike Formation of southern Patagonia",
+    "year": 2010,
+    "journal": "Zootaxa",
+    "url": "https://doi.org/10.11646/zootaxa.2450.1.1",
+    "authors": [
+      "M. D. Ezcurra",
+      "F. L. Agnolin",
+      "F. E. Novas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:303735",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:303737",
+      "taxon": "Orkoraptor burkei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orkoraptor",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor burkei belongs to Orkoraptor.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

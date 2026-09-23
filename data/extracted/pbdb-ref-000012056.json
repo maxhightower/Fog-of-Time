@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12056",
+    "doi": null,
+    "title": "Two new dinosaurian reptiles from Mongolia with notes on some fragmentary specimens",
+    "year": 1933,
+    "journal": "American Museum Novitates",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12056",
+    "authors": [
+      "C. W. Gilmore"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:88675",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Nodosauridae",
+      "basis": "stated without evidence",
+      "summary": "Pinacosaurus belongs to Nodosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

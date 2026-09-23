@@ -138,5 +138,47 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:424267",
+      "taxon": "Talos sampsoni",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talos",
+      "basis": "stated with evidence",
+      "summary": "Talos sampsoni belongs to Talos.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:424268",
+      "taxon": "Talos",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated without evidence",
+      "summary": "Talos belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:497576",
+      "taxon": "Sinovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Troodontidae",
+      "basis": "stated with evidence",
+      "summary": "Sinovenator belongs to Troodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:497593",
+      "taxon": "Sinovenator changii",
+      "published_as": "Sinovenator changi",
+      "status": "belongs_to",
+      "related_taxon": "Sinovenator",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator changii (as Sinovenator changi) belongs to Sinovenator.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1004296",
+      "taxon": "Vitosaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Abelisauridae",
+      "basis": "stated with evidence",
+      "summary": "Vitosaura belongs to Abelisauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1004301",
+      "taxon": "Vitosaura colozacani",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Vitosaura",
+      "basis": "stated with evidence",
+      "summary": "Vitosaura colozacani belongs to Vitosaura.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

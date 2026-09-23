@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:81038",
+    "doi": "10.7717/peerj.2312",
+    "title": "The pes of Australovenator wintonensis (Theropoda: Megaraptoridae): analysis of the pedal range of motion and biological restoration",
+    "year": 2016,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.2312",
+    "authors": [
+      "M. A. White",
+      "A. G. Cook",
+      "A. J. Klinkhamer, D. A. Elliot"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:877641",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated without evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70541",
+    "doi": "10.5209/rev_JIGE.2015.v41.n1.48656",
+    "title": "Presence of diminutive hadrosaurids (Dinosauria: Ornithopoda) in the Maastrichtian of the south-central Pyrenees (Spain)",
+    "year": 2015,
+    "journal": "Journal of Iberian Geology",
+    "url": "https://doi.org/10.5209/rev_JIGE.2015.v41.n1.48656",
+    "authors": [
+      "J. Company",
+      "P. Cruzado-Caballero",
+      "J. I. Canudo"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:749026",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70522",
+    "doi": null,
+    "title": "Discovery of Omeisaurus (Dinosauria: Sauropoda) in the Middle Jurassic Shaximiao Formation of Yunyang, Chongqing, China",
+    "year": 2019,
+    "journal": "Vertebrata PalAsiatica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=70522",
+    "authors": [
+      "C. Tan",
+      "H. Dai",
+      "J.-J. He, F. Zhang, X.-F. Hu, H.-D. Yu, N. Li, G.-B. Wei, G.-Z. Peng, Y. Ye, Q.-N. Zhang, X.-X. Ren, H.-L. You"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:748885",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

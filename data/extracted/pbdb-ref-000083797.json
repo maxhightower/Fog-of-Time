@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:83797",
+    "doi": "10.1016/j.cretres.2023.105487",
+    "title": "A new giant titanosaur (Dinosauria, Sauropoda) from the Upper Cretaceous of Northwestern Patagonia, Argentina",
+    "year": 2023,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2023.105487",
+    "authors": [
+      "F. L. Agnolin",
+      "B. J. Gonzalez Riga",
+      "A. M. Aranciaga Rolando, S. Rozadilla, M. J. Motta, N. R. Chimento, F. E. Novas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:936990",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

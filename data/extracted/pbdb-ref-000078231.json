@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78231",
+    "doi": "10.1590/s0001-37652011000100009",
+    "title": "Unenlagiinae revisited: dromaeosaurid theropods from South America",
+    "year": 2011,
+    "journal": "Anais da Academia Brasileira de Ciências",
+    "url": "https://doi.org/10.1590/s0001-37652011000100009",
+    "authors": [
+      "F. A. Goianechini",
+      "S. Apesteguía"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:850744",
+      "taxon": "Sinovenator changii",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinovenator",
+      "basis": "stated without evidence",
+      "summary": "Sinovenator changii belongs to Sinovenator.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

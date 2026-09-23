@@ -9,16 +9,41 @@
     "month": 2,
     "journal": "PLOS ONE",
     "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0004397",
-    "authors": ["Ricardo N. Martinez", "Oscar A. Alcober"]
+    "authors": [
+      "Ricardo N. Martinez",
+      "Oscar A. Alcober"
+    ]
   },
   "evidence": [
     {
       "id": "doi:10.1371/journal.pone.0004397:pvsj-874",
       "physical_key": "specimen:pvsj:874",
       "evidence_type": "body_fossil",
-      "taxon": {"name": "Panphagia protos", "rank": "species"},
-      "specimen": {"institution_code": "PVSJ", "catalog_number": "874", "label": "PVSJ 874"},
-      "material": ["partial skull", "lower jaws", "cervical vertebrae", "dorsal vertebrae", "sacral vertebra", "caudal vertebrae", "left scapula", "left ilium", "left pubis", "left ischium", "right tibia", "right astragalus", "metatarsals", "pedal phalanges"],
+      "taxon": {
+        "name": "Panphagia protos",
+        "rank": "species"
+      },
+      "specimen": {
+        "institution_code": "PVSJ",
+        "catalog_number": "874",
+        "label": "PVSJ 874"
+      },
+      "material": [
+        "partial skull",
+        "lower jaws",
+        "cervical vertebrae",
+        "dorsal vertebrae",
+        "sacral vertebra",
+        "caudal vertebrae",
+        "left scapula",
+        "left ilium",
+        "left pubis",
+        "left ischium",
+        "right tibia",
+        "right astragalus",
+        "metatarsals",
+        "pedal phalanges"
+      ],
       "locality": {
         "name": "Valle Pintado, Hollada de Ischigualasto, Ischigualasto Provincial Park",
         "country": "Argentina",
@@ -27,7 +52,11 @@
         "longitude": null,
         "coordinate_uncertainty_km": null
       },
-      "stratigraphy": {"formation": "Ischigualasto Formation", "member": null, "group": null},
+      "stratigraphy": {
+        "formation": "Ischigualasto Formation",
+        "member": null,
+        "group": null
+      },
       "age": {
         "min_ma": 228.3,
         "max_ma": 228.3,
@@ -39,10 +68,90 @@
       },
       "evidence_role": "original_description",
       "claims": [
-        {"type": "taxonomic_assignment", "summary": "PVSJ 874 is designated the holotype of Panphagia protos.", "page": null, "figure": null, "table": null},
-        {"type": "anatomical_observation", "summary": "The holotype preserves partial cranial, axial, pectoral, pelvic, hindlimb and pedal elements.", "page": null, "figure": null, "table": null},
-        {"type": "stratigraphic_context", "summary": "The holotype occurs 40 m above the base of the Ischigualasto Formation, approximately at the level of the dated ash used for the reported age.", "page": null, "figure": "1", "table": null}
+        {
+          "type": "taxonomic_assignment",
+          "summary": "PVSJ 874 is designated the holotype of Panphagia protos.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "anatomical_observation",
+          "summary": "The holotype preserves partial cranial, axial, pectoral, pelvic, hindlimb and pedal elements.",
+          "page": null,
+          "figure": null,
+          "table": null
+        },
+        {
+          "type": "stratigraphic_context",
+          "summary": "The holotype occurs 40 m above the base of the Ischigualasto Formation, approximately at the level of the dated ash used for the reported age.",
+          "page": null,
+          "figure": "1",
+          "table": null
+        }
       ]
+    }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:258612",
+      "taxon": "Panphagia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated with evidence",
+      "summary": "Panphagia belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:258613",
+      "taxon": "Panphagia protos",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Panphagia",
+      "basis": "stated with evidence",
+      "summary": "Panphagia protos belongs to Panphagia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:258625",
+      "taxon": "Eoraptor lunensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eoraptor",
+      "basis": "stated without evidence",
+      "summary": "Eoraptor lunensis belongs to Eoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:258626",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:258646",
+      "taxon": "Eoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurischia",
+      "basis": "stated with evidence",
+      "summary": "Eoraptor belongs to Saurischia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:258647",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated with evidence",
+      "summary": "Herrerasaurus belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
     }
   ]
 }

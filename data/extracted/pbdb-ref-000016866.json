@@ -15,6 +15,26 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:114130",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cardiodontinae",
+      "basis": "stated without evidence",
+      "summary": "Haplocanthosaurus belongs to Cardiodontinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:114135",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Brachiosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:114145",
       "taxon": "Brontosaurus",
       "published_as": null,
@@ -32,6 +52,16 @@
       "related_taxon": "Camarasaurus",
       "basis": "stated without evidence",
       "summary": "Brontosaurus excelsus (as Camarasaurus excelsus) belongs to Camarasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:114162",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
       "source": "pbdb_opinion"
     }
   ]

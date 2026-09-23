@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19643",
+    "doi": null,
+    "title": "A theropod dinosaur from the Lower Cretaceous of southern France",
+    "year": 1994,
+    "journal": "Dinosaurs and Other Fossil Reptiles of Europe, Second Georges Cuvier Symposium, Montbéliard. Revue de Paléobiologie, Volume spéciale",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19643",
+    "authors": [
+      "B. P. Pérez-Moreno",
+      "J. L. Sanz",
+      "J. Sudre, B. Sigé"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:157762",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tetanurae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Tetanurae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:157770",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:157771",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelurosauria",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus belongs to Coelurosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

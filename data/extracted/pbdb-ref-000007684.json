@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7684",
+    "doi": "10.1671/0272-4634(2002)022[0535:icasdt]2.0.co;2",
+    "title": "<i>Irritator challengeri</i>, a spinosaurid (Dinosauria: Theropoda) from the Lower Cretaceous of Brazil",
+    "year": 2002,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/0272-4634(2002)022[0535:icasdt]2.0.co;2",
+    "authors": [
+      "H.-D. Sues",
+      "E. Frey",
+      "D. M. Martill, D. M. Scott"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:132223",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

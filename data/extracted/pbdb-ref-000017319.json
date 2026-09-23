@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17319",
+    "doi": "10.1139/e01-082",
+    "title": "Cranial morphology of Sinornithosaurus millenii Xu et al. 1999 (Dinosauria: Theropoda: Dromaeosauridae) from the Yixian Formation of Liaoning, China",
+    "year": 2001,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1139/e01-082",
+    "authors": [
+      "X. Xu",
+      "X.-C. Wu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:133093",
+      "taxon": "Sinornithosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Sinornithosaurus belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

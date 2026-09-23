@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:32946",
+    "doi": null,
+    "title": "Dinosaurierreste aus Siebenbürgen (Schädel von Limnosaurus transsylvanicus nov. gen. et spec.) [Dinosaur remains from Transylvania (skull of Limnosaurus transsylvanicus nov. gen. et spec.)]",
+    "year": 1900,
+    "journal": "Denkschriften der Kaiserlichen Akademie der Wissenschaften. Mathematisch-Naturwissenschaftliche Classe",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=32946",
+    "authors": [
+      "B. F. Nopcsa"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:306614",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Claosaurus",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) belongs to Claosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

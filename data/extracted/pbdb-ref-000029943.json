@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29943",
+    "doi": "10.1671/0272-4634-28.4.1063",
+    "title": "The vertebrate assemblage of the Late Triassic Canjilon Quarry (northern New Mexico, USA), and the importance of apomorphy-based assemblage comparisons",
+    "year": 2008,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/0272-4634-28.4.1063",
+    "authors": [
+      "S. J. Nesbitt",
+      "M. R. Stocker"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:267444",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13937",
+    "doi": null,
+    "title": "Nonmammalian Comanchean tetrapods",
+    "year": 1974,
+    "journal": "Aspects of Trinity Division Geology. A Symposium on the Stratigraphy, Sedimentary Environments, and Fauna of the Comanche Cretaceous Trinity Division (Aptian and Albian) of Texas and Northern Mexico. Geoscience and Man",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13937",
+    "authors": [
+      "W. Langston"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:619075",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:619076",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontidae",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Iguanodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:619080",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:619090",
+      "taxon": "Brachiosaurus",
+      "published_as": "Brachyosaurus",
+      "status": "belongs_to",
+      "related_taxon": "Brachyosauridae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus (as Brachyosaurus) belongs to Brachyosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:619091",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

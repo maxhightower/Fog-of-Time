@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13906",
+    "doi": null,
+    "title": "Ergebnisse der Forschungsreisen Prof. E. Stromers in den Wüsten Ägyptens. II. Wirbeltierreste der Baharîje-Stufe (unterstes Cenoman). 11. Sauropoda [Results of the expeditions of Professor E. Stromer in the Egyptian deserts. II. Vertebrate animal remains from the Baharîje bed (lowest Cenomanian). 11. Sauropoda]",
+    "year": 1932,
+    "journal": "Abhandlungen der Bayerischen Akademie der Wissenschaften Mathematisch-naturwissenschaftliche Abteilung, Neue Folge",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13906",
+    "authors": [
+      "E. Stromer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:168045",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": "Titanosaurus dacus",
+      "status": "belongs_to",
+      "related_taxon": "Titanosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus (as Titanosaurus dacus) belongs to Titanosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:97278",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

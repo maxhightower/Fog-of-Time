@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75263",
+    "doi": "10.1093/zoolinnean/zlaa173/6104802",
+    "title": "Second specimen of the Late Cretaceous Australian sauropod dinosaur Diamantinasaurus matildae provides new anatomical information on the skull and neck of early titanosaurs",
+    "year": 2021,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1093/zoolinnean/zlaa173/6104802",
+    "authors": [
+      "S. F. Poropat",
+      "M. Kundrát",
+      "P. D. Mannion, P. Upchurch, T. T. Tischler, D. A. Elliott"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:820495",
+      "taxon": "Diamantinasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasauria",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus belongs to Diamantinasauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:820496",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated with evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:820497",
+      "taxon": "Savannasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasauria",
+      "basis": "stated with evidence",
+      "summary": "Savannasaurus belongs to Diamantinasauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:58165",
+    "doi": "10.1016/j.cretres.2015.12.018",
+    "title": "A new brachyrostran with hypertrophied axial structures reveals an unexpected radiation of latest Cretaceous abelisaurids",
+    "year": 2016,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2015.12.018",
+    "authors": [
+      "L. S. Filippi",
+      "A. H. Méndez",
+      "R. D. Juárez Valieri, A. C. Garrido"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:607899",
+      "taxon": "Arcovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Majungasaurinae",
+      "basis": "stated with evidence",
+      "summary": "Arcovenator belongs to Majungasaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

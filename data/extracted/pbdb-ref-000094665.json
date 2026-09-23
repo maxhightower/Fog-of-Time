@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:94665",
+    "doi": "10.1038/s42003-022-04316-6",
+    "title": "A new confuciusornithid bird with a secondary epiphyseal ossification reveals phylogenetic changes in confuciusornithid flight mode",
+    "year": 2022,
+    "journal": "Communications Biology",
+    "url": "https://doi.org/10.1038/s42003-022-04316-6",
+    "authors": [
+      "R. Wang",
+      "D. Hu",
+      "M. Zhang, S. Wang, Q. Zhao, C. Sullivan, X. Xu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1015469",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Confuciusornithidae",
+      "basis": "stated without evidence",
+      "summary": "Confuciusornis belongs to Confuciusornithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

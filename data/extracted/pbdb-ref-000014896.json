@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14896",
+    "doi": "10.1017/s1477201903001081",
+    "title": "A large compsognathid from the Early Cretaceous Yixian Formation of China",
+    "year": 2004,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1017/s1477201903001081",
+    "authors": [
+      "S. Hwang",
+      "M. A. Norell",
+      "Q. Ji, K. Gao"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:103082",
+      "taxon": "Sinosauropteryx",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Compsognathidae",
+      "basis": "stated without evidence",
+      "summary": "Sinosauropteryx belongs to Compsognathidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63147",
+    "doi": "10.1080/02724634.2017.1343250",
+    "title": "The second titanosaurian (Dinosauria: Sauropoda) from the middle Cretaceous Galula Formation, southwestern Tanzania, with remarks on African titanosaurian diversity",
+    "year": 2017,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2017.1343250",
+    "authors": [
+      "E. Gorscak",
+      "P. M. O'Connor",
+      "E. M. Roberts, N. J. Stevens"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:751491",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated without evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

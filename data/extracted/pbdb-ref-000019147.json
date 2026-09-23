@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19147",
+    "doi": null,
+    "title": "Telmatosaurus and the other hadrosaurids of the Cretaceous European Archipelago. An overview",
+    "year": 2006,
+    "journal": "Natura Nascosta",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19147",
+    "authors": [
+      "F. M. Dalla Vecchia"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:150821",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

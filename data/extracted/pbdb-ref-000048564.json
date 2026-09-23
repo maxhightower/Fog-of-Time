@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:48564",
+    "doi": null,
+    "title": "Edades reptil para el Triásico de Argentina y Brasil [Reptila ages for the Triassic of Argentina and Brazil]",
+    "year": 1973,
+    "journal": "Quinto Congreso Geológico Argentino, Ciudad de Villa Carlos Paz. Actas",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=48564",
+    "authors": [
+      "J. F. Bonaparte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:488290",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:488295",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saurischia",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Saurischia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:488296",
+      "taxon": "Herrerasaurus ischigualastensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasaurus",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus ischigualastensis belongs to Herrerasaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

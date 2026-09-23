@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93143",
+    "doi": null,
+    "title": "[The discovery of a new genus of dinosaur egg from Xixia, Henan, China]",
+    "year": 1995,
+    "journal": "Journal of Wuhan Institute of Chemical Technology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=93143",
+    "authors": [
+      "Y. Li",
+      "Z. Yin",
+      "Y. Liu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1004176",
+      "taxon": "Macroelongatoolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elongatoolithidae",
+      "basis": "stated without evidence",
+      "summary": "Macroelongatoolithus belongs to Elongatoolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

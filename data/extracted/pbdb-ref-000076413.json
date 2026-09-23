@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76413",
+    "doi": "10.1016/j.annpal.2016.02.003",
+    "title": "New record of ornithopod dinosaur from the Plottier Formation (Upper Cretaceous), Patagonia, Argentina",
+    "year": 2016,
+    "journal": "Annales de Paléontologie",
+    "url": "https://doi.org/10.1016/j.annpal.2016.02.003",
+    "authors": [
+      "P. Cruzado-Caballero",
+      "L. S. Filippi",
+      "A. H. Méndez, A. C. Garrido, R. D. Juárez Valieri"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:831977",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

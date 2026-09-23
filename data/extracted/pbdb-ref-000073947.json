@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:73947",
+    "doi": "10.1016/j.cretres.2020.104553",
+    "title": "Paleopathology in a nearly complete skeleton of Majungasaurus crenatissimus (Theropoda: Abelisauridae)",
+    "year": 2020,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2020.104553",
+    "authors": [
+      "S. B. Gutherz",
+      "J. R. Groenke",
+      "J. J. W. Sertich, S. H. Burch, P. M. O'Connor"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:807876",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

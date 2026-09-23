@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16921",
+    "doi": "10.1007/bf03042732",
+    "title": "Kurze Übersicht über die Saurischia und ihre natürlichen Zusammenhänge [A brief survey of the Saurischia and their natural context]",
+    "year": 1929,
+    "journal": "Paläontologische Zeitschrift",
+    "url": "https://doi.org/10.1007/bf03042732",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:114994",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dinodontidae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Dinodontidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:114995",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dinodontidae",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus belongs to Dinodontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

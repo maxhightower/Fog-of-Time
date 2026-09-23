@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16598",
+    "doi": "10.1671/0272-4634(2005)025[0835:niosha]2.0.co;2",
+    "title": "New information on Segisaurus halli, a small theropod dinosaur from the Early Jurassic of Arizona",
+    "year": 2005,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/0272-4634(2005)025[0835:niosha]2.0.co;2",
+    "authors": [
+      "M. T. Carrano",
+      "J. R. Hutchinson",
+      "S. D. Sampson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:109361",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysoidea",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Coelophysoidea.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

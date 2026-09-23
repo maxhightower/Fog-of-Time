@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78389",
+    "doi": "10.1177/1746847716647135",
+    "title": "The Medial Cretaceous in East-Central Utah—the Cedar Mountain Formation and its Bounding Strata. Society of Vertebrate Paleontology Field Trip Guide",
+    "year": 2016,
+    "journal": "Society of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1177/1746847716647135",
+    "authors": [
+      "J. I. Kirkland",
+      "M. B. Suarez",
+      "C. A. Suarez, R. K. Hunt-Foster"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:852037",
+      "taxon": "Martharaptor greenriverensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Martharaptor",
+      "basis": "stated without evidence",
+      "summary": "Martharaptor greenriverensis belongs to Martharaptor.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

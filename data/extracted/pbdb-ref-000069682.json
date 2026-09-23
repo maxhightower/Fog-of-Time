@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:69682",
+    "doi": "10.7717/peerj.7240",
+    "title": "Ngwevu intloko: a new early sauropodomorph dinosaur from the Lower Jurassic Elliot Formation of South Africa and comments on cranial ontogeny in Massospondylus carinatus",
+    "year": 2019,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.7240",
+    "authors": [
+      "K. E. J. Chapelle",
+      "P. M. Barrett",
+      "J. Botha, J. N. Choiniere"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:733954",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Massospondylidae",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Massospondylidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:71950",
+    "doi": "10.1038/s41598-020-61480-7",
+    "title": "Dromaeosaurid dinosaur (Theropoda, Dromaeosauridae) from New Mexico and biodiversity of dromaeosaurids at the end of the Cretaceous",
+    "year": 2020,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-020-61480-7",
+    "authors": [
+      "S. E. Jasinski",
+      "R. M. Sullivan",
+      "P. Dodson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:778732",
+      "taxon": "Utahraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eudromaeosauria",
+      "basis": "stated with evidence",
+      "summary": "Utahraptor belongs to Eudromaeosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:778744",
+      "taxon": "Microraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptorinae",
+      "basis": "stated with evidence",
+      "summary": "Microraptor belongs to Microraptorinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:778746",
+      "taxon": "Sinornithosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Microraptorinae",
+      "basis": "stated with evidence",
+      "summary": "Sinornithosaurus belongs to Microraptorinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

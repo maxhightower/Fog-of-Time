@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:46308",
+    "doi": "10.1016/j.cretres.2013.03.002",
+    "title": "The axial skeleton of the titanosaur Lirainosaurus astibiae (Dinosauria: Sauropoda) from the latest Cretaceous of Spain",
+    "year": 2013,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2013.03.002",
+    "authors": [
+      "V. Díez Díaz",
+      "X. Pereda Suberbiola",
+      "J. L. Sanz"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:870342",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

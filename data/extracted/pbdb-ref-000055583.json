@@ -23,6 +23,16 @@
       "basis": "stated without evidence",
       "summary": "Brontosaurus is a subjective synonym of Apatosaurus.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:575033",
+      "taxon": "Massospondylus",
+      "published_as": "Massosaurus",
+      "status": "belongs_to",
+      "related_taxon": "Dinosauria",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus (as Massosaurus) belongs to Dinosauria.",
+      "source": "pbdb_opinion"
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12444",
+    "doi": null,
+    "title": "Triassic reptile footprint faunules from Milford, New Jersey",
+    "year": 1957,
+    "journal": "Bulletin of the Museum of Comparative Zoology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12444",
+    "authors": [
+      "D. Baird"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:91217",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Grallatoridae",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Grallatoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

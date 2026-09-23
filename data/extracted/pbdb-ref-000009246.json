@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9246",
+    "doi": "10.1080/02724634.1995.10011250",
+    "title": "New information on the anatomy and relationships of <i>Dromaeosaurus albertensis</i> (Dinosauria: Theropoda)",
+    "year": 1995,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.1995.10011250",
+    "authors": [
+      "P. J. Currie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:75980",
+      "taxon": "Utahraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Velociraptorinae",
+      "basis": "stated without evidence",
+      "summary": "Utahraptor belongs to Velociraptorinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

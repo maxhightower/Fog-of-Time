@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54881",
+    "doi": null,
+    "title": "New hadrosaurid (Dinosauria, Ornithopoda) specimens from the lower-middle Campanian Wahweap Formation of southern Utah",
+    "year": 2014,
+    "journal": "Hadrosaurs",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54881",
+    "authors": [
+      "T. A. Gates",
+      "Z. Jinnah",
+      "C. Levitt, M. A. Getty"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:566327",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:566337",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

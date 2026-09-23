@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:62962",
+    "doi": null,
+    "title": "Dinosaurs come to the Academy",
+    "year": 1972,
+    "journal": "Pacific Discovery",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=62962",
+    "authors": [
+      "S. P. Welles"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:654434",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

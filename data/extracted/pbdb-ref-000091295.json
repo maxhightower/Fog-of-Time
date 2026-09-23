@@ -127,5 +127,37 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:984841",
+      "taxon": "Chadititan",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Rinconsauria",
+      "basis": "stated with evidence",
+      "summary": "Chadititan belongs to Rinconsauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:984842",
+      "taxon": "Chadititan calvoi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chadititan",
+      "basis": "stated with evidence",
+      "summary": "Chadititan calvoi belongs to Chadititan.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:984844",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1014635",
+      "taxon": "Kryptohadros kallaiae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Kryptohadros",
+      "basis": "stated with evidence",
+      "summary": "Kryptohadros kallaiae belongs to Kryptohadros.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1014636",
+      "taxon": "Kryptohadros",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Telmatosauridae",
+      "basis": "stated without evidence",
+      "summary": "Kryptohadros belongs to Telmatosauridae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -127,5 +127,17 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:945263",
+      "taxon": "Tyrannosaurus mcraeensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosaurus mcraeensis belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

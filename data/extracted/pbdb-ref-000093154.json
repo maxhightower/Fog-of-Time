@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:93154",
+    "doi": null,
+    "title": "Zhongguo Nanfang Qiedanlonglei Huashi [Oviraptorid Dinosaurs from Southern China]",
+    "year": 2005,
+    "journal": "Geological Publishing House",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=93154",
+    "authors": [
+      "J. Lü"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1004262",
+      "taxon": "Conchoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Oviraptorinae",
+      "basis": "stated with evidence",
+      "summary": "Conchoraptor belongs to Oviraptorinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1004263",
+      "taxon": "Conchoraptor gracilis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Conchoraptor",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor gracilis belongs to Conchoraptor.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

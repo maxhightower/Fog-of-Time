@@ -23,6 +23,16 @@
       "basis": "stated without evidence",
       "summary": "Torosaurus belongs to Agathaumidae.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:102218",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Agathaumidae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Agathaumidae.",
+      "source": "pbdb_opinion"
     }
   ]
 }

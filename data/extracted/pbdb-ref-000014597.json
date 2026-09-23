@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14597",
+    "doi": null,
+    "title": "Description and comparison of sauropod remains discovered in Ban Na Khrai, Kalasin Province (Lower Cretaceous of North-eastern Thailand)",
+    "year": 2005,
+    "journal": "Current Research in Vertebrate Palaeontolgy. 3rd Annual Meeting of the European Association of Vertebrate Palaeontologists (EAVP). Kaupia",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14597",
+    "authors": [
+      "S. Suteethorn",
+      "V. Suteethorn",
+      "E. Buffetaut, J. Le Loeuff, C. Chonglakmani, C. Tarubmuk"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:879995",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

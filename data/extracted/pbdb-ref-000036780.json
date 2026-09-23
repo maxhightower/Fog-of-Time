@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:36780",
+    "doi": null,
+    "title": "Ceratosauria",
+    "year": 1990,
+    "journal": "The Dinosauria. University of California Press, Berkeley",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=36780",
+    "authors": [
+      "T. Rowe",
+      "J. Gauthier"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:346055",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratosauria",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Ceratosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:346057",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:43779",
+    "doi": "10.2113/176.1.81",
+    "title": "The tetrapod fauna of the Upper Elliot and Clarens formations in the main Karoo Basin (South Africa and Lesotho)",
+    "year": 2005,
+    "journal": "Bulletin de la Société Géologique de France",
+    "url": "https://doi.org/10.2113/176.1.81",
+    "authors": [
+      "F. Knoll"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:748845",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Massospondylidae",
+      "basis": "stated without evidence",
+      "summary": "Massospondylus belongs to Massospondylidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

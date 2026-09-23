@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:84396",
+    "doi": "10.1093/zoolinnean/zlab113",
+    "title": "Reappraisal and new material of the holotype of Draconyx loureiroi (Ornithischia: Iguanodontia) provide insights on the tempo and modo of evolution of thumb-spiked dinosaurs",
+    "year": 2022,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1093/zoolinnean/zlab113",
+    "authors": [
+      "F. M. Rotatori",
+      "M. Moreno-Azanza",
+      "O. Mateus"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:919533",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

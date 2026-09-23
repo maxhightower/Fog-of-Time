@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:34767",
+    "doi": "10.1126/science.1198467",
+    "title": "A basal dinosaur from the dawn of the dinosaur era in southwestern Pangaea",
+    "year": 2011,
+    "journal": "Science",
+    "url": "https://doi.org/10.1126/science.1198467",
+    "authors": [
+      "R. N. Martinez",
+      "P. C. Sereno",
+      "O. A. Alcober, C. E. Colombi, P. R. Renne, I. P. Montañez, B. S. Currie"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:318258",
+      "taxon": "Eodromaeus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated with evidence",
+      "summary": "Eodromaeus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:318259",
+      "taxon": "Eodromaeus murphi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eodromaeus",
+      "basis": "stated with evidence",
+      "summary": "Eodromaeus murphi belongs to Eodromaeus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:318261",
+      "taxon": "Eoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated with evidence",
+      "summary": "Eoraptor belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76751",
+    "doi": "10.1111/1755-6724.13308",
+    "title": "A new specimen of Crichtonpelta benxiensis (Dinosauria: Ankylosaurinae) from the mid-Cretaceous of Liaoning Province, China",
+    "year": 2017,
+    "journal": "Acta Geologica Sinica",
+    "url": "https://doi.org/10.1111/1755-6724.13308",
+    "authors": [
+      "J. Yang",
+      "H. You",
+      "L. Xie, H. Zhou"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:835443",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Pinacosaurus belongs to Ankylosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31459",
+    "doi": "10.1007/s00114-009-0614-x",
+    "title": "A new clade of archaic large-bodied predatory dinosaurs (Theropoda: Allosauroidea) that survived to the latest Mesozoic",
+    "year": 2010,
+    "journal": "Naturwissenschaften",
+    "url": "https://doi.org/10.1007/s00114-009-0614-x",
+    "authors": [
+      "R. B. J. Benson",
+      "M. T. Carrano",
+      "S. L. Brusatte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:292782",
+      "taxon": "Australovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptora",
+      "basis": "stated with evidence",
+      "summary": "Australovenator belongs to Megaraptora.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:292785",
+      "taxon": "Orkoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megaraptora",
+      "basis": "stated with evidence",
+      "summary": "Orkoraptor belongs to Megaraptora.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:292789",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated without evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:292792",
+      "taxon": "Orkoraptor burkei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orkoraptor",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor burkei belongs to Orkoraptor.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

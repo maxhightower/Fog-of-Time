@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:16510",
+    "doi": null,
+    "title": "Dinozavri severnoi Yevrazii: Novye dannye o sostave kompleksov, ekologii i paleobiogeografii [Dinosaurs of northern Eurasia: new data about assemblages, ecology, and paleobiogeography]",
+    "year": 1995,
+    "journal": "Institute for Scientific Research on the Earth's Crust, St. Petersburg State University, St. Petersburg",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=16510",
+    "authors": [
+      "L. A. Nessov"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:141804",
+      "taxon": "Segnosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Segnosauridae",
+      "basis": "stated without evidence",
+      "summary": "Segnosaurus belongs to Segnosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

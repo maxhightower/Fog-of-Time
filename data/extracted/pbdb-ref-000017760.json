@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17760",
+    "doi": "10.1671/0272-4634(2006)26[471:atdsaf]2.0.co;2",
+    "title": "A titanosauriform (Dinosauria: Sauropoda) axis from the Lameta Formation (Upper Cretaceous: Maastrichtian) of Nand, central India",
+    "year": 2006,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/0272-4634(2006)26[471:atdsaf]2.0.co;2",
+    "authors": [
+      "J. A. Wilson",
+      "D. M. Mohabey"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:136197",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saltasauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Saltasauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

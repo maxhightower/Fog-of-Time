@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:26304",
+    "doi": "10.1127/mbzdgg/60/1908/294",
+    "title": "Zur Beurteilung der Sauropoden [The evaluation of sauropods]",
+    "year": 1908,
+    "journal": "Zeitschrift der Deutschen Geologischen Gesellschaft",
+    "url": "https://doi.org/10.1127/mbzdgg/60/1908/294",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:205902",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Haplocanthosaurus belongs to Cetiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:205903",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Cetiosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

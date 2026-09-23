@@ -15,6 +15,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:729063",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachydactyli",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Pachydactyli.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:729122",
       "taxon": "Gresslyosaurus ingens",
       "published_as": null,
@@ -32,6 +42,36 @@
       "related_taxon": "Squamati",
       "basis": "stated without evidence",
       "summary": "Gresslyosaurus belongs to Squamati.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:729124",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Squamati",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Squamati.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:729152",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:729161",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Theropoda.",
       "source": "pbdb_opinion"
     }
   ]

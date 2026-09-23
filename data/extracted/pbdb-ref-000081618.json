@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:81618",
+    "doi": "10.1080/08912963.2019.1702657",
+    "title": "Paleobiogeographical inferences of Indian Late Cretaceous vertebrates with special reference to dinosaurs",
+    "year": 2021,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2019.1702657",
+    "authors": [
+      "A. Khosla"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:881717",
+      "taxon": "Arcovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Majungasaurinae",
+      "basis": "stated without evidence",
+      "summary": "Arcovenator belongs to Majungasaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

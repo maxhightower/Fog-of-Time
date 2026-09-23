@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:34573",
+    "doi": "10.1111/j.1475-4983.2010.00968.x",
+    "title": "A new oviraptorid (Dinosauria: Theropoda) from the Upper Cretaceous of Bayan Mandahu, Inner Mongolia",
+    "year": 2010,
+    "journal": "Palaeontology",
+    "url": "https://doi.org/10.1111/j.1475-4983.2010.00968.x",
+    "authors": [
+      "N. R. Longrich",
+      "P. J. Currie",
+      "Z.-M. Dong"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:317016",
+      "taxon": "Conchoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ingeniinae",
+      "basis": "stated with evidence",
+      "summary": "Conchoraptor belongs to Ingeniinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:317031",
+      "taxon": "Conchoraptor gracilis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Conchoraptor",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor gracilis belongs to Conchoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:317050",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauridae",
+      "basis": "stated without evidence",
+      "summary": "Pinacosaurus belongs to Ankylosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

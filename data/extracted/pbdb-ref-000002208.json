@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:2208",
+    "doi": null,
+    "title": "A Late Cretaceous vertebrate fauna from the St. Mary River Formation in western Canada",
+    "year": 1976,
+    "journal": "Athlon: Essays on Palaeontology in Honour of Loris Shano Russell",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=2208",
+    "authors": [
+      "W. Langston"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:709776",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosauridae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

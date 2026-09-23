@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:15024",
+    "doi": null,
+    "title": "Remarkable new birdlike dinosaur (Theropoda: Maniraptora) from the Upper Cretaceous of Montana",
+    "year": 2000,
+    "journal": "University of Kansas Paleontological Contributions",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=15024",
+    "authors": [
+      "D. A. Burnham",
+      "K. L. Derstler",
+      "P. J. Currie, R. T. Bakker, Z. Zhou, J. H. Ostrom"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:296488",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

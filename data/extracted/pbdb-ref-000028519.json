@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:28519",
+    "doi": null,
+    "title": "The Middle Jurassic dinosaur fauna from Dashanpu, Zigong, Sichuan.  Vol. IV.  Sauropod dinosaurs (2).  Omeisaurus tianfuensis",
+    "year": 1988,
+    "journal": "Sichuan Publishing House of Science and Technology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=28519",
+    "authors": [
+      "X. He",
+      "K. Li",
+      "K. Cai"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:247586",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

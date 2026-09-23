@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70980",
+    "doi": null,
+    "title": "Contribution à la classification des Pistes de Vertébrés du Trias: Les types du Stormberg d’Afrique du Sud (I) [Contribution to the classification of Triassic vertebrate footprints: the types from the Stormberg of South Africa (I)]",
+    "year": 1972,
+    "journal": "Palaeovertebrata",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=70980",
+    "authors": [
+      "P. Ellenberger"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:767276",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Trisauropodia",
+      "basis": "stated with evidence",
+      "summary": "Grallator belongs to Trisauropodia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

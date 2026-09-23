@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:40523",
+    "doi": "10.1016/j.gr.2011.02.007",
+    "title": "Description of the ﬁrst lithostrotian titanosaur embryo in ovo with Neutron characterization and implications for lithostrotian Aptian migration and dispersion",
+    "year": 2011,
+    "journal": "Gondwana Research",
+    "url": "https://doi.org/10.1016/j.gr.2011.02.007",
+    "authors": [
+      "G. Grellet-Tinner",
+      "C. M. Sim",
+      "D. H. Kim, P. Trimby, A. Higa, S. L. An, H. S. Oh, T. Kim, N. Kardjilov"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:396427",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated without evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:396430",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:396434",
+      "taxon": "Diamantinasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lithostrotia",
+      "basis": "implied",
+      "summary": "Diamantinasaurus belongs to Lithostrotia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

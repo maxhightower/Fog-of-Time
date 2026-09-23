@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76304",
+    "doi": "10.5710/AMGH.08.06.2015.2911",
+    "title": "Reassessment of Laplatasaurus araukanicus (Sauropoda: Titanosauria) from the Upper Cretaceous of Patagonia, Argentina",
+    "year": 2015,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/AMGH.08.06.2015.2911",
+    "authors": [
+      "P. A. Gallina",
+      "A. Otero"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:830912",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Somphospondyli",
+      "basis": "stated with evidence",
+      "summary": "Titanosauria belongs to Somphospondyli.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

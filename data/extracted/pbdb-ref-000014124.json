@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14124",
+    "doi": "10.5962/bhl.title.100403",
+    "title": "Monographs on the fossil Reptilia of the Mesozoic formations. Part II. (Genera Bothriospondylus, Cetiosaurus, Omosaurus)",
+    "year": 1875,
+    "journal": "The Palaeontographical Society",
+    "url": "https://doi.org/10.5962/bhl.title.100403",
+    "authors": [
+      "R. Owen"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:98271",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

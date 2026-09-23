@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9731",
+    "doi": null,
+    "title": "Preliminary research on the classification of sauropods from Sichuan Basin, China",
+    "year": 1996,
+    "journal": "The Continental Jurassic. Museum of Northern Arizona Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=9731",
+    "authors": [
+      "Y. Zhang",
+      "W. Chen"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:78035",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

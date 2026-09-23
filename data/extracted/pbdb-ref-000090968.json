@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:982316",
+      "taxon": "Qianjiangsaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosauroidea",
+      "basis": "stated with evidence",
+      "summary": "Qianjiangsaurus belongs to Hadrosauroidea.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:982317",
+      "taxon": "Qianjiangsaurus changshengi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Qianjiangsaurus",
+      "basis": "stated with evidence",
+      "summary": "Qianjiangsaurus changshengi belongs to Qianjiangsaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

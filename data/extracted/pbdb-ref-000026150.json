@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:26150",
+    "doi": "10.1671/0272-4634(2007)27[917:vcanlh]2.0.co;2",
+    "title": "Velafrons coahuilensis, a new lambeosaurine hadrosaurid (Dinosauria: Ornithopoda) from the late Campanian Cerro del Pueblo Formation, Coahuila, Mexico",
+    "year": 2007,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/0272-4634(2007)27[917:vcanlh]2.0.co;2",
+    "authors": [
+      "T. A. Gates",
+      "S. D. Sampson",
+      "C. R. Delgado de Jesús, L. E. Zanno, D. A. Eberth, E. Hernández-Rivera, M. C. Aguillón Martínez, J. I. Kirkland"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:202273",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

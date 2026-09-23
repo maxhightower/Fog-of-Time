@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13215",
+    "doi": "10.1017/s0094837300002165",
+    "title": "The evolution of cranial display structures in hadrosaurian dinosaurs",
+    "year": 1975,
+    "journal": "Paleobiology",
+    "url": "https://doi.org/10.1017/s0094837300002165",
+    "authors": [
+      "J. A. Hopson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:94064",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

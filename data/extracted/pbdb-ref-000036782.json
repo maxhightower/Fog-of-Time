@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:36782",
+    "doi": "10.1590/s0001-37652011000100015",
+    "title": "Tunasniyoj, a dinosaur tracksite from the Jurassic-Cretaceous boundary of Bolivia",
+    "year": 2011,
+    "journal": "Anais da Academia Brasileira de Ciências",
+    "url": "https://doi.org/10.1590/s0001-37652011000100015",
+    "authors": [
+      "S. Apesteguía",
+      "P. A. Gallina"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:346095",
+      "taxon": "Deltapodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauria",
+      "basis": "stated without evidence",
+      "summary": "Deltapodus belongs to Stegosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

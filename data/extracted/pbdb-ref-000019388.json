@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19388",
+    "doi": null,
+    "title": "A primitive euhadrosaurian dinosaur from the uppermost Cretaceous of the Ager syncline (southern Pyrenees, Catalonia)",
+    "year": 1999,
+    "journal": "Geologie en Mijnbouw",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19388",
+    "authors": [
+      "M. L. Casanovas",
+      "X. Pereda Suberbiola",
+      "J. V. Santafé, D. B. Weishampel"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:154237",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

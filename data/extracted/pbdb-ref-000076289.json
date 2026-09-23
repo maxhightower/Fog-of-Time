@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76289",
+    "doi": "10.5710/AMGH.16.07.2014.829",
+    "title": "Paleobiology of titanosaurs: reproduction, development, histology, pneumaticity, locomotion and neuroanatomy from the south american fossil record",
+    "year": 2015,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/AMGH.16.07.2014.829",
+    "authors": [
+      "R. A. García",
+      "L. Salgado",
+      "M. S. Fernández, I. A. Cerda, A. Paulina Carabajal, A. Otero, R. A. Coria, L. E. Fiorelli"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:830840",
+      "taxon": "Phuwiangosaurus sirindhornae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phuwiangosaurus",
+      "basis": "stated without evidence",
+      "summary": "Phuwiangosaurus sirindhornae belongs to Phuwiangosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:830843",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

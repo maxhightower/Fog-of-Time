@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:51457",
+    "doi": "10.1371/journal.pone.0068649",
+    "title": "New Australovenator hind limb elements pertaining to the holotype reveal the most complete neovenatorid leg",
+    "year": 2013,
+    "journal": "PLoS One",
+    "url": "https://doi.org/10.1371/journal.pone.0068649",
+    "authors": [
+      "M. A. White",
+      "R. B. J. Benson",
+      "T. R. Tischler, S. A. Hocknull, A. G. Cook, D. G. Barnse, S. F. Poropat, S. J. Wooldridge, T. loan, G. H. K. Sinapius, D. A. Elliott"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:966625",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated without evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:966626",
+      "taxon": "Diamantinasaurus matildae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diamantinasaurus",
+      "basis": "stated without evidence",
+      "summary": "Diamantinasaurus matildae belongs to Diamantinasaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

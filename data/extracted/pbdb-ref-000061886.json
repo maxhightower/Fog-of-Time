@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:61886",
+    "doi": "10.1093/amt/20.1.305",
+    "title": "Dinosaur Tracks and Other Fossil Footprints of the Western United States",
+    "year": 1995,
+    "journal": "Columbia University Press",
+    "url": "https://doi.org/10.1093/amt/20.1.305",
+    "authors": [
+      "M. G. Lockley",
+      "A. P. Hunt"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:637866",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

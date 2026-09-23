@@ -70,5 +70,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1015495",
+      "taxon": "Ptychotherates bucculentus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ptychotherates",
+      "basis": "stated with evidence",
+      "summary": "Ptychotherates bucculentus belongs to Ptychotherates.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015496",
+      "taxon": "Ptychotherates",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Morphoraptora",
+      "basis": "stated without evidence",
+      "summary": "Ptychotherates belongs to Morphoraptora.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:60826",
+    "doi": "10.2110/palo.2015.074",
+    "title": "First Early Jurassic small ornithischian tracks from Yunnan Province, southwestern China",
+    "year": 2016,
+    "journal": "Palaios",
+    "url": "https://doi.org/10.2110/palo.2015.074",
+    "authors": [
+      "L. Xing",
+      "M. G. Lockley",
+      "H. Klein, P. L. Falkingham, J. Y. Kim, R. T. McCrea, J. Zhang, W. S. Persons, T. Wang, Z. Wang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:630726",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anomoepodidae",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Anomoepodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

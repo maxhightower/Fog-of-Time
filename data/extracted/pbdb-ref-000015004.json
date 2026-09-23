@@ -1,0 +1,78 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:15004",
+    "doi": null,
+    "title": "Khishchnye dinosavry mela Mongoliy [Carnivorous dinosaurs from the Cretaceous of Mongolia]",
+    "year": 1983,
+    "journal": "Transactions of the Joint Soviet-Mongolian Paleontological Expedition",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=15004",
+    "authors": [
+      "R. Barsbold"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:103541",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:103547",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Aublysodon",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus is a subjective synonym of Aublysodon.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:103548",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:103550",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:103552",
+      "taxon": "Daspletosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosauridae",
+      "basis": "stated without evidence",
+      "summary": "Daspletosaurus belongs to Tyrannosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:103578",
+      "taxon": "Segnosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Segnosauridae",
+      "basis": "stated without evidence",
+      "summary": "Segnosaurus belongs to Segnosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

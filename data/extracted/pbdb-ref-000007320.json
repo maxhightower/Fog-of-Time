@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7320",
+    "doi": null,
+    "title": "A bibliography of the Dinosauria (exclusive of the Aves); 1677-1986",
+    "year": 1989,
+    "journal": "Museum of Western Colorado Paleontology Series",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=7320",
+    "authors": [
+      "D. J. Chure",
+      "J. S. McIntosh"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:162454",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "replaced_by",
+      "related_taxon": "Eucentrosaurus",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus is replaced by Eucentrosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

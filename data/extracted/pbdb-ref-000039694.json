@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:39694",
+    "doi": null,
+    "title": "The smallest of the largest: a new look at possible dwarfing in sauropods",
+    "year": 1998,
+    "journal": "J. W. M. Jagt, P. H. Lambers, E. W. A. Mulder and A. S. Schulp (eds), Third European Workshop on Vertebrate Palaeontology, Maastricht. Programme and Abstracts",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=39694",
+    "authors": [
+      "C.-M. Jianu",
+      "D. B. Weishampel"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:385030",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:385031",
+      "taxon": "Magyarosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauridae",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus belongs to Titanosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

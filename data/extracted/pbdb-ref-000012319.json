@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12319",
+    "doi": "10.1130/spe40-p1",
+    "title": "Hadrosaurian dinosaurs of North America",
+    "year": 1942,
+    "journal": "Geological Society of America Special Paper",
+    "url": "https://doi.org/10.1130/spe40-p1",
+    "authors": [
+      "R. S. Lull",
+      "N. E. Wright"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:90993",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:91706",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Anatosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Anatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Anatosaurus annectens) belongs to Anatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

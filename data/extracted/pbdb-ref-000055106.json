@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55106",
+    "doi": null,
+    "title": "Los vertebrados tetrápodos del limite Jurásico–Cretácico [The tetrapod vertebrates from the Jurassic–Cretaceous boundary]",
+    "year": 1980,
+    "journal": "Actas del Segundo Congreso Argentino de Paleontología y Bioestratigrafía y Primer Congreso Latinoamericano de Paleontología",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55106",
+    "authors": [
+      "J. F. Bonaparte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:567985",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Carnosauria",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Carnosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:54475",
+    "doi": null,
+    "title": "Forelimb osteology and biomechanics of Tyrannosaurus rex",
+    "year": 2001,
+    "journal": "Mesozoic Vertebrate Life: New Research Inspired by the Paleontology of Philip J. Currie",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=54475",
+    "authors": [
+      "K. Carpenter",
+      "M. Smith"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:561672",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

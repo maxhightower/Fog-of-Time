@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:50005",
+    "doi": "10.11646/zootaxa.2963.1.1",
+    "title": "A new specimen of Chasmosaurus belli (Ornithischia: Ceratopsidae), a revision of the genus, and the utility of postcrania in the taxonomy and systematics of ceratopsid dinosaurs",
+    "year": 2011,
+    "journal": "Zootaxa",
+    "url": "https://doi.org/10.11646/zootaxa.2963.1.1",
+    "authors": [
+      "S. C. R. Maidment",
+      "P. M. Barrett"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:503337",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Centrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Centrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

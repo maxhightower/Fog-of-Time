@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:17134",
+    "doi": "10.1016/j.cretres.2005.10.010",
+    "title": "Dinosaur-dominated footprint assemblages from the Cretaceous Jindong Formation, Hallyo Haesang National Park area, Goseong County, South Korea: evidence and implications",
+    "year": 2006,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2005.10.010",
+    "authors": [
+      "M. G. Lockley",
+      "K. Houck",
+      "S.-Y. Yang, M. Matsukawa, S.-K. Lim"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:120842",
+      "taxon": "Brontopodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Brontopodus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

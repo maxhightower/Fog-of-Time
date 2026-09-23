@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76360",
+    "doi": "10.4072/rbp.2016.2.05",
+    "title": "A fragmentary dinosaur femur and the presence of neotheropods in the Upper Triassic of Brazil",
+    "year": 2016,
+    "journal": "Revista Brasileira de Paleontologia",
+    "url": "https://doi.org/10.4072/rbp.2016.2.05",
+    "authors": [
+      "F. L. Pinheiro"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:831742",
+      "taxon": "Eoraptor lunensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eoraptor",
+      "basis": "stated without evidence",
+      "summary": "Eoraptor lunensis belongs to Eoraptor.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

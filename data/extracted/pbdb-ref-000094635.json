@@ -120,5 +120,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1014958",
+      "taxon": "Spinosaurus mirabilis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosaurus",
+      "basis": "stated with evidence",
+      "summary": "Spinosaurus mirabilis belongs to Spinosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1014959",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosaurini",
+      "basis": "stated with evidence",
+      "summary": "Spinosaurus belongs to Spinosaurini.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:28753",
+    "doi": "10.1038/377616a0",
+    "title": "A beaked bird from the Jurassic of China",
+    "year": 1995,
+    "journal": "Nature",
+    "url": "https://doi.org/10.1038/377616a0",
+    "authors": [
+      "L.-h. Hou",
+      "Z. Zhou",
+      "L. D. Martin, A. Feduccia"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:250086",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Enantiornithes",
+      "basis": "stated with evidence",
+      "summary": "Confuciusornis belongs to Enantiornithes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

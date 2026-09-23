@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:11793",
+    "doi": "10.1206/0003-0082(2001)315<0001:aeodtf>2.0.co;2",
+    "title": "An embryonic oviraptorid (Dinosauria: Theropoda) from the Upper Cretaceous of Mongolia",
+    "year": 2001,
+    "journal": "American Museum Novitates",
+    "url": "https://doi.org/10.1206/0003-0082(2001)315<0001:aeodtf>2.0.co;2",
+    "authors": [
+      "M. A. Norell",
+      "J. M. Clark",
+      "L. M. Chiappe"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:167766",
+      "taxon": "Conchoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Oviraptoridae",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor belongs to Oviraptoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:167769",
+      "taxon": "Sinornithosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Sinornithosaurus belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

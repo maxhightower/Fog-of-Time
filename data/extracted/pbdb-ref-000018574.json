@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18574",
+    "doi": "10.4095/105049",
+    "title": "Dinosaur tracks from Peace River, British Columbia",
+    "year": 1932,
+    "journal": "National Museum of Canada Bulletin",
+    "url": "https://doi.org/10.4095/105049",
+    "authors": [
+      "C. M. Sternberg"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:143863",
+      "taxon": "Tetrapodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tetrapodosauridae",
+      "basis": "stated without evidence",
+      "summary": "Tetrapodosaurus belongs to Tetrapodosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:143913",
+      "taxon": "Tetrapodosaurus",
+      "published_as": "Tetrapodichnites",
+      "status": "misspelling_of",
+      "related_taxon": "Tetrapodosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tetrapodosaurus (as Tetrapodichnites) is a misspelling of Tetrapodosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

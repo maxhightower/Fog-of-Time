@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:60696",
+    "doi": "10.1007/s12549-010-0044-y",
+    "title": "Upper Jurassic tidal flat megatracksites of Germany—coastal dinosaur migration highways between European islands, and a review of the dinosaur footprints",
+    "year": 2011,
+    "journal": "Palaeobiodiversity and Palaeoenvironments",
+    "url": "https://doi.org/10.1007/s12549-010-0044-y",
+    "authors": [
+      "C. Diedrich"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:629750",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated without evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

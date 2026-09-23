@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:67320",
+    "doi": "10.1016/j.scib.2018.03.016",
+    "title": "A large-sized basal ankylopollexian from East Asia, shedding light on early biogeographic history of Iguanodontia",
+    "year": 2018,
+    "journal": "Science Bulletin",
+    "url": "https://doi.org/10.1016/j.scib.2018.03.016",
+    "authors": [
+      "X. Xu",
+      "Q.-W. Tan",
+      "Y.-L. Gao, Z.-Q. Bao, Z.-G. Yin, B. Guo, J.-Y. Wang, L. Tan, Y.-G. Zhang, H. Xing"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:876684",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

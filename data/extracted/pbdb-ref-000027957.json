@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:27957",
+    "doi": "10.1098/rspb.2008.0504",
+    "title": "A Megaraptor-like theropod (Dinosauria: Tetanurae) in Australia: support for faunal exchange across eastern and western Gondwana in the mid-Cretaceous",
+    "year": 2008,
+    "journal": "Proceedings of the Royal Society of London B",
+    "url": "https://doi.org/10.1098/rspb.2008.0504",
+    "authors": [
+      "N. D. Smith",
+      "P. J. Makovicky",
+      "F. L. Agnolín, M. D. Ezcurra, D. F. Pais, S. W. Salisbury"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:238465",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Allosauridae",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus belongs to Allosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1005331",
+      "taxon": "Athenar",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dicraeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Athenar belongs to Dicraeosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1005332",
+      "taxon": "Athenar bermani",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Athenar",
+      "basis": "stated with evidence",
+      "summary": "Athenar bermani belongs to Athenar.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

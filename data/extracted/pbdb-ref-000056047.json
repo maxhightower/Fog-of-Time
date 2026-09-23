@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:56047",
+    "doi": null,
+    "title": "Die neuesten Dinosaurierfunde in der schwäbischen Trias [The latest dinosaur finds in the Swabian Triassic]",
+    "year": 1914,
+    "journal": "Verhandlungen der Gesellschaft Deutscher Naturfoscher und Ärzte",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=56047",
+    "authors": [
+      "E. Fraas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:581578",
+      "taxon": "Plateosaurus trossingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus trossingensis belongs to Plateosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:581581",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

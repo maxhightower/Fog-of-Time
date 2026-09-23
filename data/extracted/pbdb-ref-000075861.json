@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75861",
+    "doi": "10.1007/s41513-020-00139-8",
+    "title": "Three‑dimensional analysis of the titanosaurian limb skeleton: implications for systematic analysis",
+    "year": 2020,
+    "journal": "Journal of Iberian Geology",
+    "url": "https://doi.org/10.1007/s41513-020-00139-8",
+    "authors": [
+      "A. Páramo",
+      "P. Mocho",
+      "F. Ortega"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:826039",
+      "taxon": "Dreadnoughtus schrani",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dreadnoughtus",
+      "basis": "stated without evidence",
+      "summary": "Dreadnoughtus schrani belongs to Dreadnoughtus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:826046",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saltasauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Saltasauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

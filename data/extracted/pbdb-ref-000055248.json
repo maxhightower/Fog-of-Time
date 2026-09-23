@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55248",
+    "doi": "10.1038/ncomms7987",
+    "title": "The oldest record of Ornithuromorpha from the Early Cretaceous of China",
+    "year": 2015,
+    "journal": "Nature Communications",
+    "url": "https://doi.org/10.1038/ncomms7987",
+    "authors": [
+      "M. Wang",
+      "X. Zheng",
+      "J. K. O'Connor, G. T. Lloyd, X. Wang, Y. Wang, X. Shang, Z. Zhou"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:569370",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Confuciusornithidae",
+      "basis": "stated with evidence",
+      "summary": "Confuciusornis belongs to Confuciusornithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

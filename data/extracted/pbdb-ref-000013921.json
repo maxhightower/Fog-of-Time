@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13921",
+    "doi": null,
+    "title": "Nuevos materiales de Lagosuchus talampayensis Romer (Thecodontia - Pseudosuchia) y su significado en el origen de los Saurischia, Chañarense Inferior, Triasico Medio de Argentina [New materials of Lagosuchus talampayensis Romer (Thecodontia - Pseudosuchia) and its significance on the origin of the Saurischia, Lower Chañares, Middle Triassic of Argentina]",
+    "year": 1975,
+    "journal": null,
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13921",
+    "authors": [
+      "J. F. Bonaparte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:97353",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Podokesauridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Podokesauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:97355",
+      "taxon": "Herrerasaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Herrerasauridae",
+      "basis": "stated without evidence",
+      "summary": "Herrerasaurus belongs to Herrerasauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

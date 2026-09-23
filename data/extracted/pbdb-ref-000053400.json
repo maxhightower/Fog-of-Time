@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:53400",
+    "doi": null,
+    "title": "The paleontology of the Denver quadrangle, Colorado",
+    "year": 1931,
+    "journal": "Colorado Scientific Society, Proceedings",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=53400",
+    "authors": [
+      "J. H. Johnson"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:548412",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Claosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) belongs to Claosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

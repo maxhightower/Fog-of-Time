@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:84885",
+    "doi": "10.1371/journal.pone.0233182",
+    "title": "Over 13,000 elements from a single bonebed help elucidate disarticulation and transport of an Edmontosaurus thanatocoenosis",
+    "year": 2020,
+    "journal": "PLoS One",
+    "url": "https://doi.org/10.1371/journal.pone.0233182",
+    "authors": [
+      "K. Snyder",
+      "M. McLain",
+      "J. Wood, A. V. Chadwick"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:925902",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70287",
+    "doi": "10.1007/s11434-013-6059-9",
+    "title": "Dinosaur diversity during the transition between the middle and late parts of the Late Cretaceous in eastern Shandong Province, China: Evidence from dinosaur eggshells",
+    "year": 2013,
+    "journal": "Chinese Science Bulletin",
+    "url": "https://doi.org/10.1007/s11434-013-6059-9",
+    "authors": [
+      "Z. Zhao",
+      "S. Zhang",
+      "Q. Wang, X. Wang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:745968",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

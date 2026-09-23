@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12113",
+    "doi": null,
+    "title": "Classification of American duck-billed dinosaurs",
+    "year": 1954,
+    "journal": "Journal of Paleontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12113",
+    "authors": [
+      "C. M. Sternberg"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:88973",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hadrosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus belongs to Hadrosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

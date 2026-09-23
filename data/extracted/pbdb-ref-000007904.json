@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7904",
+    "doi": null,
+    "title": "Une curieuse spécialisation du crane de certains Dinosaures carnivores du Crétacé: le museau long et etroit des Spinosauridés [A curious specialization of the skull of some Cretaceous carnivorous dinosaurs: the long and narrow snout of spinosaurids]",
+    "year": 1984,
+    "journal": "Comptes Rendus des Seances de l'Academie des Sciences, Série 2",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=7904",
+    "authors": [
+      "P. Taquet"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:719600",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:719601",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Acrocanthosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

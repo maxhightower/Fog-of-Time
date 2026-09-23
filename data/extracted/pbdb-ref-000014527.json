@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14527",
+    "doi": null,
+    "title": "The Vertebrate Fossils of Sichuan",
+    "year": 1984,
+    "journal": "Sichuan Scientific and Technological Publishing House, Chengdu",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14527",
+    "authors": [
+      "X. He"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:101113",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mamenchisauridae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Mamenchisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

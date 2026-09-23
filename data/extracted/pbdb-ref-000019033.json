@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19033",
+    "doi": null,
+    "title": "Dinosaur tracks in the Plainview Formation, Dakota Group (Cretaceous, Albian) near Cañon City, Colorado: a preliminary report on another \"Dinosaur Ridge\"",
+    "year": 2001,
+    "journal": "The Mountain Geologist",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=19033",
+    "authors": [
+      "W. J. Kurtz",
+      "M. G. Lockley",
+      "D. J. Engard"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:149716",
+      "taxon": "Tetrapodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosauridae",
+      "basis": "stated without evidence",
+      "summary": "Tetrapodosaurus belongs to Ankylosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:26639",
+    "doi": null,
+    "title": "A ceratopsid pelvis with toothmarks from the Upper Cretaceous Kirtland Formation, New Mexico: evidence of Late Campanian tyrannosaurid feeding behavior",
+    "year": 2006,
+    "journal": "In: S. G. Lucas & R. M. Sullivan, Late Cretaceous Vertebrates from the Western Interior.  New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=26639",
+    "authors": [
+      "D. W. Fowler",
+      "R. M. Sullivan"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:213302",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

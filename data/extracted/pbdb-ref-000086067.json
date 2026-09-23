@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86067",
+    "doi": "10.1016/j.palaeo.2017.11.029",
+    "title": "Morphology and histology of new cranial specimens of Pachycephalosauridae (Dinosauria: Ornithischia) from the Nemegt Formation, Mongolia",
+    "year": 2018,
+    "journal": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "url": "https://doi.org/10.1016/j.palaeo.2017.11.029",
+    "authors": [
+      "D. C. Evans",
+      "S. Hayashi",
+      "K. Chiba, M. Watabe, M. J. Ryan, Y.-N. Lee, P. J. Currie, K. Tsogtbaatar, R. Barsbold"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:935226",
+      "taxon": "Pachycephalosaurus wyomingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurus",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus wyomingensis belongs to Pachycephalosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

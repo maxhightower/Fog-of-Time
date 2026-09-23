@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70806",
+    "doi": "10.1080/02724634.2017.1347177",
+    "title": "New information on the cranial morphology of Avimimus (Theropoda: Oviraptorosauria)",
+    "year": 2017,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2017.1347177",
+    "authors": [
+      "T. Tsuihiji",
+      "L. M. Witmer",
+      "M. Watabe, R. Barsbold, K. Tsogtbaatar, S. Suzuki, P. Khatanbaatar"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:751526",
+      "taxon": "Conchoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Oviraptoridae",
+      "basis": "stated without evidence",
+      "summary": "Conchoraptor belongs to Oviraptoridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:751536",
+      "taxon": "Anzu",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Caenagnathidae",
+      "basis": "stated without evidence",
+      "summary": "Anzu belongs to Caenagnathidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

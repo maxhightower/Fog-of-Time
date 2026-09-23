@@ -274,5 +274,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:905271",
+      "taxon": "Mbiresaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated with evidence",
+      "summary": "Mbiresaurus belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:905272",
+      "taxon": "Mbiresaurus raathi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Mbiresaurus",
+      "basis": "stated with evidence",
+      "summary": "Mbiresaurus raathi belongs to Mbiresaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

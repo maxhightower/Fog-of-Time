@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:62917",
+    "doi": "10.2475/ajs.s3-45.266.135",
+    "title": "The Ceratops beds of Converse County, Wyoming",
+    "year": 1893,
+    "journal": "The American Journal of Science, series 3",
+    "url": "https://doi.org/10.2475/ajs.s3-45.266.135",
+    "authors": [
+      "J. B. Hatcher"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:654105",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Claosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) belongs to Claosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:77934",
+    "doi": "10.1111/j.1096-3642.2011.00723.x",
+    "title": "Osteology and phylogenetic relationships of Tehuelchesaurus benitezii (Dinosauria, Sauropoda) from the Upper Jurassic of Patagonia",
+    "year": 2011,
+    "journal": "Zoological Journal of the Linnean Society",
+    "url": "https://doi.org/10.1111/j.1096-3642.2011.00723.x",
+    "authors": [
+      "J. L. Carballido",
+      "O. W. M. Rauhut",
+      "D. Pol, L. Salgado"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:847677",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macronaria",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Macronaria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

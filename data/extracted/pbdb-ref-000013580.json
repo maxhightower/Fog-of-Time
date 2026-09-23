@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13580",
+    "doi": "10.1017/cbo9780511608377.014",
+    "title": "A review of Vectisaurus valdensis, with comments on the family Iguanodontidae",
+    "year": 1990,
+    "journal": "K. Carpenter and P. J. Currie (eds.), Dinosaur Systematics: Perspectives and Approaches, Cambridge University Press, Cambridge",
+    "url": "https://doi.org/10.1017/cbo9780511608377.014",
+    "authors": [
+      "D. B. Norman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:95161",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hypsilophodontia",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Hypsilophodontia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

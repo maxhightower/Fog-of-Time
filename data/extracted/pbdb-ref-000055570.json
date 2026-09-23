@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55570",
+    "doi": null,
+    "title": "Studie zur biologischen Anatomie der Gattung Plateosaurus [Study of the biological anatomy of the genus Plateosaurus]",
+    "year": 1935,
+    "journal": "Verhandlungen der Naturhistorisch-Medizinischen Vereins zu Heidelberg",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55570",
+    "authors": [
+      "H. Müller-Stoll"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:574773",
+      "taxon": "Plateosaurus trossingensis",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Plateosaurus fraasianus",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus trossingensis is a subjective synonym of Plateosaurus fraasianus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""Ingest the publications behind theoretical creatures from PBDB taxonomic opinions.
+"""Ingest the publications behind every tracked creature from PBDB taxonomic opinions.
 
 A PBDB opinion is one publication's verdict on a name: that it belongs to a
 parent taxon, is a synonym of another, or is a nomen dubium. Theoretical
 creatures are built from these verdicts, so every publication that holds one
 is ingested into data/extracted like any other paper.
 
-For each taxon listed in data/theoretical/*.json this snapshots PBDB's opinions
+Creatures are the taxa listed in data/theoretical/*.json (curated theoretical
+creatures) plus every genus and species the corpus reports fossils of (the
+"official" creatures, as chosen by build_data.corpus_creature_taxa).
+For each of them this snapshots PBDB's opinions
 and keeps only *primary* ones: opinions whose author and year match the
 reference they are recorded from. (PBDB also records an older author's opinion
 under a later catalogue; that is second-hand and is skipped.)
@@ -29,12 +32,13 @@ from typing import Any
 from urllib.parse import urlencode
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from build_data import corpus_creature_taxa, load_documents  # noqa: E402
 from import_pbdb_references import (  # noqa: E402
     BASE,
     EXTRACTED,
     ROOT,
     author_list,
-    fetch_reference,
     int_or_none,
     read_csv_url,
     reference_journal,
@@ -44,6 +48,7 @@ from import_pbdb_references import (  # noqa: E402
 THEORETICAL = ROOT / "data" / "theoretical"
 DEFAULT_MANIFEST = ROOT / "data" / "acquisition" / "pbdb-opinion-import-manifest.json"
 SCHEMA_VERSION = "fog-of-time.paper-extraction/v1"
+THIS_YEAR = datetime.now(timezone.utc).year
 
 STATUS_PHRASES = {
     "belongs_to": "belongs to",
@@ -86,6 +91,11 @@ def opinion_summary(taxon: str, status: str, parent: str | None, published_as: s
     return f"{name} {phrase} {parent}." if parent else f"{name} {phrase}."
 
 
+def same_title(a: str, b: str) -> bool:
+    """Titles equal once quotes, punctuation and accents are ignored."""
+    return re.sub(r"[^a-z0-9]", "", fold(a)) == re.sub(r"[^a-z0-9]", "", fold(b))
+
+
 def to_opinion(row: dict[str, str]) -> dict[str, Any]:
     status = status_key(row["status"])
     taxon = row["taxon_name"].strip()
@@ -104,6 +114,10 @@ def to_opinion(row: dict[str, str]) -> dict[str, Any]:
     }
 
 
+NAME_BATCH = 40
+REF_BATCH = 100
+
+
 def load_creature_taxa() -> list[str]:
     taxa: list[str] = []
     for path in sorted(THEORETICAL.glob("*.json")):
@@ -111,7 +125,36 @@ def load_creature_taxa() -> list[str]:
         for taxon in document.get("taxa", []):
             if taxon not in taxa:
                 taxa.append(taxon)
+    for taxon in corpus_creature_taxa(load_documents()):
+        if taxon not in taxa:
+            taxa.append(taxon)
     return taxa
+
+
+def fetch_opinions(names: list[str]) -> list[dict[str, str]]:
+    """Opinions on these names; a batch PBDB rejects is retried name by name."""
+    url = f"{BASE}/taxa/opinions.csv?" + urlencode({"name": ",".join(names), "op_type": "all", "show": "basis"})
+    try:
+        rows = read_csv_url(url)
+        if all(row.get("reference_no") is not None for row in rows):
+            return rows
+    except Exception:
+        pass
+    if len(names) == 1:
+        print(f"PBDB has no opinions for {names[0]}", file=sys.stderr)
+        return []
+    return [row for name in names for row in fetch_opinions([name])]
+
+
+def fetch_references(ref_ids: list[str]) -> dict[str, dict[str, str]]:
+    refs: dict[str, dict[str, str]] = {}
+    for start in range(0, len(ref_ids), REF_BATCH):
+        batch = ref_ids[start:start + REF_BATCH]
+        for row in read_csv_url(f"{BASE}/refs/list.csv?" + urlencode({"ref_id": ",".join(batch)})):
+            if row.get("reference_no"):
+                refs[row["reference_no"].split(":")[-1]] = row
+        print(f"PBDB references resolved: {min(start + REF_BATCH, len(ref_ids))}/{len(ref_ids)}", file=sys.stderr)
+    return refs
 
 
 def existing_documents() -> tuple[dict[str, Path], dict[str, Path]]:
@@ -138,21 +181,28 @@ def main() -> int:
 
     rows_by_ref: dict[str, list[dict[str, str]]] = {}
     seen: set[str] = set()
-    for taxon in taxa:
-        url = f"{BASE}/taxa/opinions.csv?" + urlencode({"name": taxon, "op_type": "all", "show": "basis"})
-        for row in read_csv_url(url):
+    for start in range(0, len(taxa), NAME_BATCH):
+        for row in fetch_opinions(taxa[start:start + NAME_BATCH]):
             if row.get("opinion_no") in seen or not row.get("reference_no"):
                 continue
             seen.add(row["opinion_no"])
             rows_by_ref.setdefault(row["reference_no"].split(":")[-1], []).append(row)
-        print(f"{taxon}: {sum(1 for rows in rows_by_ref.values() for row in rows if row['taxon_name'] == taxon)} opinions", file=sys.stderr)
+        print(f"Opinions fetched for {min(start + NAME_BATCH, len(taxa))}/{len(taxa)} taxa", file=sys.stderr)
+    refs = fetch_references(sorted(rows_by_ref, key=int))
 
     by_ref, by_doi = existing_documents()
     imported: list[dict[str, Any]] = []
     skipped_secondary = 0
+    skipped_unpublished = 0
     for ref_id in sorted(rows_by_ref, key=int):
-        ref = fetch_reference(ref_id)
+        ref = refs.get(ref_id)
         if ref is None:
+            continue
+        # Only publications are ingested: PBDB's "unpublished" references are
+        # compilers' own opinion lists (some carry placeholder future years).
+        year = int_or_none(ref.get("pubyr"))
+        if (ref.get("publication_type") or "").strip() == "unpublished" or (year is not None and year > THIS_YEAR):
+            skipped_unpublished += 1
             continue
         primary = [row for row in rows_by_ref[ref_id] if is_primary(row, ref)]
         skipped_secondary += len(rows_by_ref[ref_id]) - len(primary)
@@ -161,7 +211,17 @@ def main() -> int:
         opinions = sorted((to_opinion(row) for row in primary), key=lambda opinion: opinion["id"])
 
         doi = (ref.get("doi") or "").strip() or None
-        path = by_ref.get(ref_id) or (by_doi.get(doi.casefold()) if doi else None)
+        path = by_ref.get(ref_id)
+        if path is None and doi and doi.casefold() in by_doi:
+            # PBDB sometimes enters one paper twice (e.g. online and print
+            # years). Same DOI and title: one paper, so its opinions merge.
+            other = json.loads(by_doi[doi.casefold()].read_text(encoding="utf-8"))["publication"]
+            title = (ref.get("reftitle") or ref.get("pubtitle") or "")
+            if same_title(other["title"], title) is False:
+                print(f"PBDB reference {ref_id} shares DOI {doi} with a different title; DOI dropped", file=sys.stderr)
+                doi = None
+            else:
+                path = by_doi[doi.casefold()]
         if path is not None:
             document = json.loads(path.read_text(encoding="utf-8"))
             ids = {opinion["id"] for opinion in opinions}
@@ -195,6 +255,9 @@ def main() -> int:
             }
             action = "created"
         path.write_text(json.dumps(document, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        by_ref[ref_id] = path
+        if document["publication"].get("doi"):
+            by_doi.setdefault(document["publication"]["doi"].casefold(), path)
         imported.append({
             "reference_id": int(ref_id),
             "file": str(path.relative_to(ROOT)),
@@ -211,6 +274,7 @@ def main() -> int:
         "taxa": taxa,
         "selection": "primary opinions only: opinion author and year match the reference",
         "skipped_secondary_opinions": skipped_secondary,
+        "skipped_unpublished_references": skipped_unpublished,
         "publications_created": sum(1 for item in imported if item["action"] == "created"),
         "publications_merged": sum(1 for item in imported if item["action"] == "merged"),
         "references": imported,

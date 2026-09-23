@@ -66,11 +66,20 @@ npm install
 npm run dev
 ```
 
-### The timeline
+### Notebook sections
 
-A **Time axis** switch changes the horizontal axis between the estimated geologic age
-(Ma) and the publication date of each record's paper, where each record is a point at
-its paper's publication month. Each axis keeps its own window.
+The page is organised like a notebook, with coloured section tabs along the top:
+
+- **Deep time** shows the fossil timeline on the estimated geologic age axis (Ma).
+- **Publication date** shows the same records, each a point at its paper's publication month.
+- **Creatures** shows every creature's life in the literature (see below).
+
+The two timeline sections share filters and layers, and each keeps its own window. The
+URL hash (`#deep-time`, `#publication-date`, `#creatures`) remembers the open section,
+and the arrow keys move between tabs. **Esc** clears every selection on the page:
+timeline bars and groups, the selected creature, open menus and tooltips.
+
+### The timeline
 
 The default view spans 500 million years ago to today. Presets, From/To inputs,
 zoom buttons, drag-to-pan and Ctrl/⌘-scroll adjust the window.
@@ -79,7 +88,10 @@ Every record is drawn as a bar across its full age interval, never collapsed to 
 midpoint. Bar shape encodes how the date is known (hard-edged explicit range,
 feathered stage-derived interval, glowing approximate point, crisp reported point).
 Records can be grouped by paper, taxon, evidence type, dating basis or country (or
-shown individually); clicking a group expands its records.
+shown individually); clicking a group expands its records. They can be coloured by
+evidence type, dating basis, or **taxon or name**. With taxon or name, up to three names
+(anything the name filter accepts, such as "T. rex" or "Sue") each keep a colour and
+everything else is "Other names".
 
 Geologic time scale bands (periods, epochs, Mesozoic stages) run along the top of the
 timeline. The **Layers** panel sets grouping, colour and data labels (with a choice of
@@ -88,17 +100,18 @@ by publication year.
 
 The committed production dataset now combines a 25-paper direct-full-text benchmark with a separate PBDB occurrence-backed scale-out tier. Development fixtures remain only under `tests/fixtures/` and never enter the production timeline.
 
-### Theoretical creatures
+### Creatures
 
-Below the fossil timeline, **Theoretical creatures** tracks animals that started life as
-hypotheses, such as the American cheetah (*Miracinonyx*), Nanotyrannus, Brontosaurus and
-"Toroceratops". Every creature is built from ingested papers, specifically the
-taxonomic opinions they hold. Each row is a lifeline across publication years: born when a paper
-proposes the animal, contested, killed by a refutation, and sometimes revived, with a
-small tick for every other ingested paper that argued the point. The "Known by" slider
-replays these lives too. A side panel lists every creature with its status and number
-of ingested papers (for ▲ / against ▼); click one for its full cited history. See
-[docs/DATA_MODEL.md](docs/DATA_MODEL.md#theoretical-creatures) to add one.
+The **Creatures** section tracks every creature as a hypothesis argued over in the
+ingested papers. That covers every genus and species the corpus reports fossils of (the
+**official** creatures) and hand-curated **theoretical** creatures that started life as
+hypotheses, such as the American cheetah (*Miracinonyx*), Nanotyrannus and
+"Toroceratops". Each lifeline runs across publication years: born when a paper proposes
+the animal, contested, killed by a refutation, and sometimes revived, with a small tick
+for every other ingested paper that argued the point. The list can be searched,
+filtered (theoretical, official, contested, dead) and sorted, and it has its own "Known
+by" replay. Official creatures' turning points follow one written-down rule; theoretical
+ones are curated. See [docs/DATA_MODEL.md](docs/DATA_MODEL.md#theoretical-creatures).
 
 ## Rebuild data
 

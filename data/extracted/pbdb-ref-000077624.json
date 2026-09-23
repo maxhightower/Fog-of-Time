@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:77624",
+    "doi": "10.1371/ journal.pone.0224263",
+    "title": "Dacentrurine stegosaurs (Dinosauria): a new specimen of Miragaia longicollum from the Late Jurassic of Portugal resolves taxonomical validity and shows the occurrence of the clade in North America",
+    "year": 2019,
+    "journal": "PLoS One",
+    "url": "https://doi.org/10.1371/ journal.pone.0224263",
+    "authors": [
+      "F. Costa",
+      "O. Mateus"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:845552",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurinae",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus belongs to Dacentrurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:845553",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

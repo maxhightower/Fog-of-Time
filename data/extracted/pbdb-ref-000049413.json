@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:49413",
+    "doi": null,
+    "title": "A parataxonomic revision of spheroolithid eggs from the Upper Cretaceous Quantou Formation in Changtu, Liaoning",
+    "year": 2013,
+    "journal": "Vertebrata PalAsiatica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=49413",
+    "authors": [
+      "J.-Y. Liu",
+      "Q. Wang",
+      "Z.-K. Zhao, X.-L. Wang, C.-L. Gao, C.-Z. Shen"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:497544",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated with evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

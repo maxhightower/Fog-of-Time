@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:59147",
+    "doi": "10.1111/j.1475-4983.2011.01053.x",
+    "title": "Cranial and appendicular ontogeny of Bactrosaurus johnsoni, a hadrosauroid dinosaur from the Late Cretaceous of northern China",
+    "year": 2011,
+    "journal": "Palaeontology",
+    "url": "https://doi.org/10.1111/j.1475-4983.2011.01053.x",
+    "authors": [
+      "A. Prieto-Márquez"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:616614",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

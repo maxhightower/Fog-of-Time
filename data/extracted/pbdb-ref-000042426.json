@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:42426",
+    "doi": "10.1080/14772019.2010.484650",
+    "title": "A new early dinosaur (Saurischia: Sauropodomorpha) from the Late Triassic of Argentina: a reassessment of dinosaur origin and phylogeny",
+    "year": 2010,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2010.484650",
+    "authors": [
+      "M. D. Ezcurra"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:423070",
+      "taxon": "Chromogisaurus novasi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chromogisaurus",
+      "basis": "stated with evidence",
+      "summary": "Chromogisaurus novasi belongs to Chromogisaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:453004",
+      "taxon": "Chromogisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Saturnaliinae",
+      "basis": "stated with evidence",
+      "summary": "Chromogisaurus belongs to Saturnaliinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:453009",
+      "taxon": "Panphagia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Guaibasauridae",
+      "basis": "stated with evidence",
+      "summary": "Panphagia belongs to Guaibasauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

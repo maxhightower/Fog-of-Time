@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30697",
+    "doi": "10.1111/j.1755-6724.2009.00032.x",
+    "title": "A new sauropod dinosaur from the Late Cretaceous Gaogou Formation of Nanyang, Henan Province",
+    "year": 2009,
+    "journal": "Acta Geologica Sinica",
+    "url": "https://doi.org/10.1111/j.1755-6724.2009.00032.x",
+    "authors": [
+      "X. Zhang",
+      "J. Lü",
+      "J. Li, L. Yang, W. Hu, S. Jia, Q. Ji, C. Zhang"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:278969",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camarasauridae",
+      "basis": "stated without evidence",
+      "summary": "Haplocanthosaurus belongs to Camarasauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

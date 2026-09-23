@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:66081",
+    "doi": null,
+    "title": "The significance of the St. George Dinosaur Discovery Site at Johnson Farm: a Jurassic Konzentrat-Ichnolagerstätte, Utah, U.S.A.",
+    "year": 2006,
+    "journal": "The Triassic-Jurassic Terrestrial Transition. New Mexico Museum of Natural History and Science Bulletin",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=66081",
+    "authors": [
+      "A. P. Hunt",
+      "S. G. Lucas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:688848",
+      "taxon": "Kayentapus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Eubrontes",
+      "basis": "stated without evidence",
+      "summary": "Kayentapus is a subjective synonym of Eubrontes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

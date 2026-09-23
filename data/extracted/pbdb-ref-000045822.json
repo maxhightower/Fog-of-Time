@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:45822",
+    "doi": null,
+    "title": "Découverte d'une riche faune de Reptiles Dinosauriens dans le Jurassique supérieur du Portugal [Discovery of a rich fauna of dinosaurian reptiles in the Upper Jurassic of Portugal]",
+    "year": 1951,
+    "journal": "Comptes Rendus de l'Académie des Sciences à Paris",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=45822",
+    "authors": [
+      "A. F. d. Lapparent",
+      "G. Zbyszewski"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:460303",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

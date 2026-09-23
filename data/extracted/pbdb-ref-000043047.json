@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:43047",
+    "doi": null,
+    "title": "New archosaurian trackways from the Rio do Peixe basin, Paraíba, Brazil",
+    "year": 1979,
+    "journal": "Annali dell'Università di Ferrara (Nuova Serie). Sezione IX – Scienze Geologiche e Paleontologiche",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=43047",
+    "authors": [
+      "G. Leonardi"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:432369",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eubrontidae",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Eubrontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

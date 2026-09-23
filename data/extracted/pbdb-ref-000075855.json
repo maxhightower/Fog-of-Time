@@ -1,0 +1,70 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:75855",
+    "doi": "10.1017/jpa.2018.95",
+    "title": "New small-bodied ornithopods (Dinosauria, Neornithischia) from the Early Cretaceous Wonthaggi Formation (Strzelecki Group) of the Australian-Antarctic rift system, with revision of Qantassaurus intrepidus Rich and Vickers-Rich, 1999",
+    "year": 2019,
+    "journal": "Journal of Paleontology",
+    "url": "https://doi.org/10.1017/jpa.2018.95",
+    "authors": [
+      "M. C. Herne",
+      "J. P. Nair",
+      "A. R. Evans, A. M. Tait"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:825765",
+      "taxon": "Tenontosaurus tilletti",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tenontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus tilletti belongs to Tenontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:825792",
+      "taxon": "Talenkauen santacrucensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talenkauen",
+      "basis": "stated without evidence",
+      "summary": "Talenkauen santacrucensis belongs to Talenkauen.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:825865",
+      "taxon": "Talenkauen",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elasmaria",
+      "basis": "stated with evidence",
+      "summary": "Talenkauen belongs to Elasmaria.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:825882",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontia",
+      "basis": "stated with evidence",
+      "summary": "Tenontosaurus belongs to Iguanodontia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:825884",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dryomorpha",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Dryomorpha.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

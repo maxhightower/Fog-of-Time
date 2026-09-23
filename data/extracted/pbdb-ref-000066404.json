@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:66404",
+    "doi": "10.1038/s41467-018-05128-1",
+    "title": "A new Middle Jurassic diplodocoid suggests an earlier dispersal and diversification of sauropod dinosaurs",
+    "year": 2018,
+    "journal": "Nature Communications",
+    "url": "https://doi.org/10.1038/s41467-018-05128-1",
+    "authors": [
+      "X. Xu",
+      "P. Upchurch",
+      "P. D. Mannion, P. M. Barrett, O. R. Regalado-Fernandez, J. Mo, J. Ma, H. Liu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:693187",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dicraeosauridae",
+      "basis": "stated with evidence",
+      "summary": "Suuwassea belongs to Dicraeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

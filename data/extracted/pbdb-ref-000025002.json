@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25002",
+    "doi": null,
+    "title": "Thyreophora de Jurásico Superior de la península Ibérica [Thyreophora from the Upper Jurassic of the Iberian peninsula]",
+    "year": 2006,
+    "journal": "IV Encuentro de Jóvenes Invetigadoes en Paleontología, Salamanca. Libro de Resúmenes",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=25002",
+    "authors": [
+      "F. Escaso",
+      "F. Ortega",
+      "P. Dantas, E. Malafaia"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:186446",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

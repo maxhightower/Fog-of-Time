@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19824",
+    "doi": "10.4072/rbp.2006.3.08",
+    "title": "Large theropod teeth from the Eocenomanian of northeastern Brazil and the occurrence of Spinosauridae",
+    "year": 2006,
+    "journal": "Revista Brasileira de Paleontologia",
+    "url": "https://doi.org/10.4072/rbp.2006.3.08",
+    "authors": [
+      "M. A. Medeiros"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:161335",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

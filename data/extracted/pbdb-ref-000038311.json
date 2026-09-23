@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:38311",
+    "doi": "10.3301/IJG.2010.19",
+    "title": "Dinosaur tracks in a marginal marine environment: the Coste dell’Anglone ichnosite (Early Jurassic, Trento Platform, NE Italy)",
+    "year": 2011,
+    "journal": "Italian Journal of Geosciences",
+    "url": "https://doi.org/10.3301/IJG.2010.19",
+    "authors": [
+      "F. M. Petti",
+      "M. Bernardi",
+      "P. Ferretti, R. Tomasoni, M. Avanzini"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:365243",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

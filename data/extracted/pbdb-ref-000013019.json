@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13019",
+    "doi": null,
+    "title": "Ampelosaurus atacis (nov, gen., nov. sp.), un nouveau Titanosauridae (Dinosauria, Sauropoda) du Crétacé supérieur de la Haute Vallée de l'Aude (France) [Ampelosaurus atacis (nov, gen., nov. sp.), a new titanosaurid (Dinosauria, Sauropoda) from the Upper Cretaceous of the Upper Aude Valley (France)]",
+    "year": 1995,
+    "journal": "Comptes Rendus de l'Académie des Sciences à Paris, Série IIa",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13019",
+    "authors": [
+      "J. Le Loeuff"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:709839",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:26355",
+    "doi": null,
+    "title": "Neuesten Dinosaurierfunde in Württemberg [New dinosaur finds in Württemberg]",
+    "year": 1914,
+    "journal": "Jahreshefte des Vereins für Vaterländische Naturkunde in Württemberg",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=26355",
+    "authors": [
+      "E. Fraas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:207559",
+      "taxon": "Plateosaurus trossingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosaurus",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus trossingensis belongs to Plateosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

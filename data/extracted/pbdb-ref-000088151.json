@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:88151",
+    "doi": "10.1016/j.cretres.2024.105894",
+    "title": "Phylogenetic relationships of a new titanosaur (Dinosauria, Sauropoda) from the Upper Cretaceous of Uruguay",
+    "year": 2024,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2024.105894",
+    "authors": [
+      "M. Soto",
+      "J. L. Carballido",
+      "M. C. Langer, J. C. G. Silva Jr, F. Montenegro, D. Perea"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:959414",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

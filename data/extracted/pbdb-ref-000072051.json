@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:72051",
+    "doi": "10.1080/08912963.2020.1747450",
+    "title": "A revision of the referred specimen of Chuanjiesaurus anaensis Fang et al., 2000: a new early branching mamenchisaurid sauropod from the Middle Jurassic of China",
+    "year": 2021,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2020.1747450",
+    "authors": [
+      "X.-X. Ren",
+      "T. Sekiya",
+      "T. Wang, Z.-W. Yang, H.-L. You"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:866529",
+      "taxon": "Wintonotitan wattsi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Wintonotitan",
+      "basis": "stated without evidence",
+      "summary": "Wintonotitan wattsi belongs to Wintonotitan.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

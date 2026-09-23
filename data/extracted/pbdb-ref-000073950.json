@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:73950",
+    "doi": "10.1371/journal.pone.0103613",
+    "title": "A ‘terror of tyrannosaurs’: the first trackways of tyrannosaurids and evidence of gregariousness and pathology in Tyrannosauridae",
+    "year": 2014,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0103613",
+    "authors": [
+      "R. T. McCrea",
+      "L. G. Buckley",
+      "J. O. Farlow, M. G. Lockley, P. J. Currie, N. A. Matthews, S. G. Pemberton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:807918",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:807919",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

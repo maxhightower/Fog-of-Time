@@ -16,6 +16,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:898910",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "replaced_by",
+      "related_taxon": "Eucentrosaurus",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus is replaced by Eucentrosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:898917",
       "taxon": "Torosaurus",
       "published_as": null,

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:34613",
+    "doi": "10.1007/bf03160336",
+    "title": "Über die Wirbeltierfunde in der oberen Trias von Halberstadt [On the vertebrate remains in the Upper Triassic of Halberstadt]",
+    "year": 1914,
+    "journal": "Paläontologische Zeitschrift",
+    "url": "https://doi.org/10.1007/bf03160336",
+    "authors": [
+      "O. Jaekel"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:551688",
+      "taxon": "Tyrannosauridae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Therophagi",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosauridae belongs to Therophagi.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

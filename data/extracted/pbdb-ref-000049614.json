@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:49614",
+    "doi": "10.1134/s0031030113110063",
+    "title": "The phylogenetic position of Ambiortus: comparison with other Mesozoic birds from Asia",
+    "year": 2013,
+    "journal": "Paleontological Journal",
+    "url": "https://doi.org/10.1134/s0031030113110063",
+    "authors": [
+      "J. K. O'Connor",
+      "N. V. Zelenkov"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:499881",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Confuciusornithiformes",
+      "basis": "stated with evidence",
+      "summary": "Confuciusornis belongs to Confuciusornithiformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

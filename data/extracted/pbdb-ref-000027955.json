@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:27955",
+    "doi": "10.1098/rspb.2008.0912",
+    "title": "Relative growth rates of predator and prey dinosaurs reflect effects of predation",
+    "year": 2008,
+    "journal": "Proceedings of the Royal Society of London B",
+    "url": "https://doi.org/10.1098/rspb.2008.0912",
+    "authors": [
+      "L. N. Cooper",
+      "A. H. Lee",
+      "M. L. Taper, J. R. Horner"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:238448",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

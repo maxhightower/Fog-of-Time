@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30766",
+    "doi": null,
+    "title": "Costas jurásicas frecuentadas por estegosaurios [Jurassic coasts frequented by stegosaurs]",
+    "year": 2008,
+    "journal": "In J I Ruiz-Omeñaca, L Piñuela and J C García-Ramos (eds), XXIV Jornadas de la Sociedad Española de Paleontología, 15-18 October 2008, Museo del Jurásico de Asturias (MUJA), Colunga, Spain, Libro de Resúmenes",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=30766",
+    "authors": [
+      "J. C. García-Ramos",
+      "L. Piñuela",
+      "J. I. Ruiz-Omeñaca, X. Pereda Suberbiola"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:279816",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:279817",
+      "taxon": "Deltapodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauria",
+      "basis": "stated without evidence",
+      "summary": "Deltapodus belongs to Stegosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

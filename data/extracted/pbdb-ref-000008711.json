@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:8711",
+    "doi": "10.2113/173.5.415",
+    "title": "A new specimen of Spinosaurus (Dinosauria, Theropoda) from the Lower Cretaceous of Tunisia, with remarks on the evolutionary history of the Spinosauridae",
+    "year": 2002,
+    "journal": "Bulletin de la Société Géologique de France",
+    "url": "https://doi.org/10.2113/173.5.415",
+    "authors": [
+      "E. Buffetaut",
+      "M. Ouaja"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:93474",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:38534",
+    "doi": "10.1016/j.crpv.2006.01.007",
+    "title": "A Late Jurassic sauropod tracksite from Southern Jura (France)",
+    "year": 2006,
+    "journal": "Comptes Rendus Palevol",
+    "url": "https://doi.org/10.1016/j.crpv.2006.01.007",
+    "authors": [
+      "J. Le Loeuff",
+      "C. Gourrat",
+      "P. Landry, L. Hautier, R. Liard, C. Souillat, E. Buffetaut, R. Enay"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:367983",
+      "taxon": "Brontopodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Brontopodus belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

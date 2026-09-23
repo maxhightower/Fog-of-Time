@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:77276",
+    "doi": "10.1080/14772019.2013.878758",
+    "title": "Osteology of the Middle Triassic archosaur Lewisuchus admixtus Romer (Chañares Formation, Argentina), its inclusivity, and relationships amongst early dinosauromorphs",
+    "year": 2014,
+    "journal": "Journal of Systematic Palaeontology",
+    "url": "https://doi.org/10.1080/14772019.2013.878758",
+    "authors": [
+      "J. S. Bittencourt",
+      "A. B. Arcucci",
+      "C. A. Marsicano, M. C. Langer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:841753",
+      "taxon": "Lewisuchus admixtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lewisuchus",
+      "basis": "stated with evidence",
+      "summary": "Lewisuchus admixtus belongs to Lewisuchus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:841754",
+      "taxon": "Lewisuchus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dinosauriformes",
+      "basis": "stated with evidence",
+      "summary": "Lewisuchus belongs to Dinosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

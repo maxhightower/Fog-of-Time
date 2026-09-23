@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24172",
+    "doi": "10.1039/E06-077",
+    "title": "Giant dinosaur eggs from the Tiantai basin, Zhejiang province, China",
+    "year": 2007,
+    "journal": "Canadian Journal of Earth Sciences",
+    "url": "https://doi.org/10.1039/E06-077",
+    "authors": [
+      "X. Jin",
+      "Y. Azuma",
+      "F. D. Jackson, D. J. Varricchio"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:172452",
+      "taxon": "Macroelongatoolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elongatoolithidae",
+      "basis": "stated with evidence",
+      "summary": "Macroelongatoolithus belongs to Elongatoolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:172453",
+      "taxon": "Macroelongatoolithus carlylei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macroelongatoolithus",
+      "basis": "stated with evidence",
+      "summary": "Macroelongatoolithus carlylei belongs to Macroelongatoolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

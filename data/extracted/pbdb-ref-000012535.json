@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12535",
+    "doi": "10.5962/p.228587",
+    "title": "Skull and relationships of the Upper Jurassic sauropod Apatosaurus (Reptilia, Saurischia)",
+    "year": 1978,
+    "journal": "Bulletin of Carnegie Museum of Natural History",
+    "url": "https://doi.org/10.5962/p.228587",
+    "authors": [
+      "D. S. Berman",
+      "J. S. McIntosh"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:91556",
+      "taxon": "Mamenchisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocidae",
+      "basis": "stated without evidence",
+      "summary": "Mamenchisaurus belongs to Diplodocidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

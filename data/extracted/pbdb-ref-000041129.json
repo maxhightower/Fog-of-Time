@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:41129",
+    "doi": null,
+    "title": "Nuevo material de estegosaurios en el Cretácico Inferior de Valencia (Aras de Alpuente, localidad de Losilla I) [New material of stegosaurs in the Lower Cretaceous of Valencia (Aras de Alpuente, Losilla I locality)]",
+    "year": 1995,
+    "journal": "Paleontologia i Evolucio",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=41129",
+    "authors": [
+      "M. L. Casanovas-Cladellas",
+      "J. V. Santafé-Llopis",
+      "X. Pereda-Suberbiola"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:405497",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

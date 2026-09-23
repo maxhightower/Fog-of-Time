@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70593",
+    "doi": "10.1126/science.1258750",
+    "title": "Semiaquatic adaptations in a giant predatory dinosaur",
+    "year": 2014,
+    "journal": "Science",
+    "url": "https://doi.org/10.1126/science.1258750",
+    "authors": [
+      "N. Ibrahim",
+      "P. C. Sereno",
+      "C. Dal Sasso, S. Maganuco, M. Fabbri, D. M. Martill, S. Zouhri, N. Myhrvold, D. A. Iurino"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:749662",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

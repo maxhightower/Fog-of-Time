@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:929483",
+      "taxon": "Minimocursor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Neornithischia",
+      "basis": "stated with evidence",
+      "summary": "Minimocursor belongs to Neornithischia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:929484",
+      "taxon": "Minimocursor phunoiensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Minimocursor",
+      "basis": "stated with evidence",
+      "summary": "Minimocursor phunoiensis belongs to Minimocursor.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

@@ -1,0 +1,48 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:55608",
+    "doi": null,
+    "title": "Paleontology and sedimentation models of the Kimbeto Member of the Ojo Alamo Sandstone",
+    "year": 1973,
+    "journal": "Cretaceous and Tertiary Rocks of the Southern Colorado Plateau. Four Corners Geological Society Memoir",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=55608",
+    "authors": [
+      "J. S. Powell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:575392",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:575393",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosaurinidae",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus belongs to Megalosaurinidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:575406",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Cetiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Cetiosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -71,5 +71,57 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:823584",
+      "taxon": "Bagualosaurus agudoensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Bagualosaurus",
+      "basis": "stated without evidence",
+      "summary": "Bagualosaurus agudoensis belongs to Bagualosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:823602",
+      "taxon": "Eoraptor lunensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eoraptor",
+      "basis": "stated without evidence",
+      "summary": "Eoraptor lunensis belongs to Eoraptor.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:823603",
+      "taxon": "Panphagia protos",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Panphagia",
+      "basis": "stated without evidence",
+      "summary": "Panphagia protos belongs to Panphagia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:823604",
+      "taxon": "Macrocollum itaquii",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macrocollum",
+      "basis": "stated without evidence",
+      "summary": "Macrocollum itaquii belongs to Macrocollum.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:823612",
+      "taxon": "Yizhousaurus sunae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Yizhousaurus",
+      "basis": "stated without evidence",
+      "summary": "Yizhousaurus sunae belongs to Yizhousaurus.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

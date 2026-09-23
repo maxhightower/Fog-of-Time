@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:30670",
+    "doi": "10.1098/rspb.2009.1278",
+    "title": "The first well-preserved Early Cretaceous brachiosaurid dinosaur in Asia",
+    "year": 2009,
+    "journal": "Proceedings of the Royal Society B",
+    "url": "https://doi.org/10.1098/rspb.2009.1278",
+    "authors": [
+      "H.-L. You",
+      "D.-Q. Li"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:278536",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86234",
+    "doi": "10.7717/peerj.15970",
+    "title": "Basal sauropodomorph locomotion: ichnological lessons from the Late Triassic trackways of bipeds and quadrupeds (Elliot Formation, main Karoo Basin)",
+    "year": 2023,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.15970",
+    "authors": [
+      "L. Sciscio",
+      "E. M. Bordy",
+      "M. G. Lockley, M. Abrahams"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:937252",
+      "taxon": "Kholumolumo ellenbergerorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Kholumolumo",
+      "basis": "stated without evidence",
+      "summary": "Kholumolumo ellenbergerorum belongs to Kholumolumo.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

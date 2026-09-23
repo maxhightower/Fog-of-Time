@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:82004",
+    "doi": null,
+    "title": "Mexican saurischian dinosaurs",
+    "year": 2014,
+    "journal": "Dinosaurs and Other Reptiles from the Mesozoic of Mexico",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=82004",
+    "authors": [
+      "H. E. Rivera-Sylva",
+      "K. Carpenter"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:891961",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

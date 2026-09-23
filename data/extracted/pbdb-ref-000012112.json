@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12112",
+    "doi": null,
+    "title": "Pachycephalosauridae proposed for dome-headed dinosaurs, Stegoceras lambei, n. sp., described",
+    "year": 1945,
+    "journal": "Journal of Paleontology",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12112",
+    "authors": [
+      "C. M. Sternberg"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:922105",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

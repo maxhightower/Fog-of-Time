@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:23669",
+    "doi": "10.1007/bf01845835",
+    "title": "Stammesgeschichtliche Ergebnisse einiger Untersuchungen an Trias-Reptilien [Phylogenetic results of some investigations of Triassic reptiles]",
+    "year": 1920,
+    "journal": "Zeitschrift für Induktive Abstammungs und Vererbungslehre",
+    "url": "https://doi.org/10.1007/bf01845835",
+    "authors": [
+      "F. v. Huene"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:168482",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coeluridae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Coeluridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -15,6 +15,116 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:653072",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Anchisauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:653079",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:653093",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysinae",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Coelophysinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:653129",
+      "taxon": "Albertosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Aublysodontinae",
+      "basis": "stated with evidence",
+      "summary": "Albertosaurus belongs to Aublysodontinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:653132",
+      "taxon": "Tyrannosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Aublysodontinae",
+      "basis": "stated with evidence",
+      "summary": "Tyrannosaurus belongs to Aublysodontinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:653134",
+      "taxon": "Gorgosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Aublysodontinae",
+      "basis": "stated with evidence",
+      "summary": "Gorgosaurus belongs to Aublysodontinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:653138",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Labrosauridae",
+      "basis": "stated with evidence",
+      "summary": "Spinosaurus belongs to Labrosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:653147",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camarasaurinae",
+      "basis": "stated with evidence",
+      "summary": "Haplocanthosaurus belongs to Camarasaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:653156",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Brachiosauridae",
+      "basis": "stated with evidence",
+      "summary": "Brachiosaurus belongs to Brachiosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:653180",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Camptosaurinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:653197",
+      "taxon": "Edmontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Trachodontinae",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus belongs to Trachodontinae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:653255",
       "taxon": "Torosaurus",
       "published_as": null,

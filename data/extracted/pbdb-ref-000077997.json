@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:77997",
+    "doi": null,
+    "title": "Studii geologice in Regiunea Sânpetru-Pui (Bazinul Hategului) [Geologic studies in the Sânpetru-Pui region (Hateg Basin)]",
+    "year": 1953,
+    "journal": "Anuarul Comitetului Geologic",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=77997",
+    "authors": [
+      "M. A. Mamulea"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:848783",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": "Titanosaurus dacus",
+      "status": "belongs_to",
+      "related_taxon": "Titanosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus (as Titanosaurus dacus) belongs to Titanosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

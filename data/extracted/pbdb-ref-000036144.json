@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:36144",
+    "doi": "10.2307/3624280",
+    "title": "Sternberg's expedition to the Red Deer River, Alberta, 1917",
+    "year": 1918,
+    "journal": "Transactions of the Kansas Academy of Science",
+    "url": "https://doi.org/10.2307/3624280",
+    "authors": [
+      "C. H. Sternberg"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:332698",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

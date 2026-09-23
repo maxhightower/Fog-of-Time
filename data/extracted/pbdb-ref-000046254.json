@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:46254",
+    "doi": "10.2475/ajs.s4-15.87.211",
+    "title": "Note on the marine turtle Archelon. I. On the structure of the carapace, II. associated fossils",
+    "year": 1903,
+    "journal": "The American Journal of Science, series 4",
+    "url": "https://doi.org/10.2475/ajs.s4-15.87.211",
+    "authors": [
+      "G. R. Wieland"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:463402",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Claosaurus",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) belongs to Claosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

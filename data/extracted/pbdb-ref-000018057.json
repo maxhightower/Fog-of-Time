@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:18057",
+    "doi": "10.5962/p.234845",
+    "title": "Osteology of ornithopodous dinosaurs from the Dinosaur National Monument, Utah. Part I. On a skeleton of Camptosaurus medius Marsh. Part II. On a skeleton of Dryosaurus altus Marsh. Part III. On a skeleton of Laosaurus gracilis Marsh",
+    "year": 1925,
+    "journal": "Memoirs of the Carnegie Museum",
+    "url": "https://doi.org/10.5962/p.234845",
+    "authors": [
+      "C. W. Gilmore"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:655591",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

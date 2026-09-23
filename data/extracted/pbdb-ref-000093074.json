@@ -353,6 +353,16 @@
       "basis": "stated without evidence",
       "summary": "Stygimoloch spinifer belongs to Stygimoloch.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1002785",
+      "taxon": "Pachycephalosaurus wyomingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurus",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus wyomingensis belongs to Pachycephalosaurus.",
+      "source": "pbdb_opinion"
     }
   ]
 }

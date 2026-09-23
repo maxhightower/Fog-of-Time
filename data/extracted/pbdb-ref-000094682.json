@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:1015615",
+      "taxon": "Phosphatotitan",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Argentinosauridae",
+      "basis": "stated with evidence",
+      "summary": "Phosphatotitan belongs to Argentinosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:1015616",
+      "taxon": "Phosphatotitan khouribgaensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Phosphatotitan",
+      "basis": "stated with evidence",
+      "summary": "Phosphatotitan khouribgaensis belongs to Phosphatotitan.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

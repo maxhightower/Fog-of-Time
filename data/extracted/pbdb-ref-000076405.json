@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76405",
+    "doi": "10.1111/1755-6724.14707",
+    "title": "A juvenile specimen of Sauropodomorpha from the Lower Jurassic of China and a brief review of the Lufeng sauropodomorph fauna",
+    "year": 2021,
+    "journal": "Acta Geologica Sinica (English Edition)",
+    "url": "https://doi.org/10.1111/1755-6724.14707",
+    "authors": [
+      "C. Peyre de Fabrègues",
+      "S. Bai",
+      "T. Ai, X. Xu"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:834798",
+      "taxon": "Yizhousaurus sunae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Yizhousaurus",
+      "basis": "stated without evidence",
+      "summary": "Yizhousaurus sunae belongs to Yizhousaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

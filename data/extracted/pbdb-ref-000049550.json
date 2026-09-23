@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:49550",
+    "doi": "10.1080/08912963.2013.853056",
+    "title": "A new specimen of Torvoaurus tanneri originally collected by Elmer Riggs",
+    "year": 2013,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2013.853056",
+    "authors": [
+      "M. Hanson",
+      "P. J. Makovicky"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:746043",
+      "taxon": "Torvosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated without evidence",
+      "summary": "Torvosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

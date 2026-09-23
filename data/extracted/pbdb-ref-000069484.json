@@ -34,6 +34,26 @@
       "basis": "stated without evidence",
       "summary": "Brontosaurus excelsus (as Apatosaurus excelsus) belongs to Apatosaurus.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:768224",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dicraeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Suuwassea belongs to Dicraeosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:768227",
+      "taxon": "Galeamopus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocinae",
+      "basis": "stated without evidence",
+      "summary": "Galeamopus belongs to Diplodocinae.",
+      "source": "pbdb_opinion"
     }
   ]
 }

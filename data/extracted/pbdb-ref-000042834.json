@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:42834",
+    "doi": "10.18268/bsgm2011v63n3a2",
+    "title": "Presence of a maniraptoriform dinosaur in the Late Cretaceous (Maastrichtian) of Chiapas, southern Mexico",
+    "year": 2011,
+    "journal": "Boletín de la Sociedad Geológica Mexicana",
+    "url": "https://doi.org/10.18268/bsgm2011v63n3a2",
+    "authors": [
+      "G. Carbot-Chanona",
+      "H. E. Rivera-Sylva"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:429591",
+      "taxon": "Richardoestesia",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maniraptora",
+      "basis": "stated without evidence",
+      "summary": "Richardoestesia belongs to Maniraptora.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

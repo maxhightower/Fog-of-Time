@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14230",
+    "doi": null,
+    "title": "A review of dinosaur footprints in China",
+    "year": 1989,
+    "journal": "Dinosaur Tracks and Traces. Cambridge University Press, Cambridge",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14230",
+    "authors": [
+      "S. Zhen",
+      "J. Li",
+      "C. Rao, N. J. Mateer, M. G. Lockley"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:98866",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauripodidae",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Anchisauripodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:98881",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eubrontidae",
+      "basis": "stated without evidence",
+      "summary": "Eubrontes belongs to Eubrontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

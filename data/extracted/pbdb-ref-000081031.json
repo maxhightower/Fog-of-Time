@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:81031",
+    "doi": null,
+    "title": "New faunal elements from the Late Cretaceous (Maastrichtian) continental deposits of Sebeş area (Transylvania)",
+    "year": 2010,
+    "journal": "Terra Sebus. Acta Musei Sabesiensis",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=81031",
+    "authors": [
+      "M. Vremir"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:877582",
+      "taxon": "Magyarosaurus dacus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Magyarosaurus",
+      "basis": "stated without evidence",
+      "summary": "Magyarosaurus dacus belongs to Magyarosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

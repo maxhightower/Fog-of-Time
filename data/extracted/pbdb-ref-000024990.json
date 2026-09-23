@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24990",
+    "doi": null,
+    "title": "Elementos postcraneales de Dacentrurus (Dinosauria: Stegosauria) del Jurásico Superior de Moçanfaneira (Torres Vedras, Portugal) [Postcranial elements of Dacentrurus (Dinosauria: Stegosauria) from the Upper Jurassic of Moçanfaneira (Torres Vedras, Portugal)]",
+    "year": 2007,
+    "journal": "In Cantera Paleontológica, Diputación Provincial de Cuenca, Cuenca, Spain",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=24990",
+    "authors": [
+      "F. Escaso",
+      "F. Ortega",
+      "P. Dantas, E. Malafaia, B. Silva, J. L. Sanz"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:186281",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:186284",
+      "taxon": "Dacentrurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Stegosauridae",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus belongs to Stegosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

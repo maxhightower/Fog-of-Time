@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13181",
+    "doi": "10.1006/cres.1993.1011",
+    "title": "Palaeontology, sedimentology and palaeoecology of the Iren Dabasu Formation (Upper Cretaceous), Inner Mongolia, People's Republic of China",
+    "year": 1993,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1006/cres.1993.1011",
+    "authors": [
+      "P. J. Currie",
+      "D. A. Eberth"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:158213",
+      "taxon": "Segnosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Segnosauridae",
+      "basis": "stated without evidence",
+      "summary": "Segnosaurus belongs to Segnosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

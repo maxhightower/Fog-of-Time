@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:49429",
+    "doi": "10.1016/j.annpal.2013.10.003",
+    "title": "A new abelisaurid dinosaur from the Late Cretaceous of southern France: palaeobiogeographical implications",
+    "year": 2014,
+    "journal": "Annales de Paléontologie",
+    "url": "https://doi.org/10.1016/j.annpal.2013.10.003",
+    "authors": [
+      "T. Tortosa",
+      "E. Buffetaut",
+      "N. Vialle, Y. Dutour, E. Turini, G. Cheylan"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:497973",
+      "taxon": "Arcovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Majungasaurinae",
+      "basis": "stated with evidence",
+      "summary": "Arcovenator belongs to Majungasaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

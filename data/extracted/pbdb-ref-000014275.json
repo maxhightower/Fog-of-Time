@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14275",
+    "doi": "10.1671/0272-4634(2002)022[0503:aniofn]2.0.co;2",
+    "title": "A new iguanodontian ornithopod from Neuquén Basin, Patagonia, Argentina",
+    "year": 2002,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1671/0272-4634(2002)022[0503:aniofn]2.0.co;2",
+    "authors": [
+      "R. A. Coria",
+      "J. O. Calvo"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:99293",
+      "taxon": "Tenontosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Iguanodontia",
+      "basis": "stated without evidence",
+      "summary": "Tenontosaurus belongs to Iguanodontia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

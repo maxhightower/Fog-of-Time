@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:35567",
+    "doi": "10.1590/s0001-37652011000100006",
+    "title": "A new dinosaur (Theropoda, Spinosauridae) from the Cretaceous (Cenomanian) Alcântara Formation, Cajual Island, Brazil",
+    "year": 2011,
+    "journal": "Anais da Academia Brasileira de Ciências",
+    "url": "https://doi.org/10.1590/s0001-37652011000100006",
+    "authors": [
+      "A. W. A. Kellner",
+      "S. A. K. Azevedo",
+      "E. B. Machado, L. B. de Carvalho, D. D. R. Henriques"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:383161",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:383175",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Spinosaurus belongs to Spinosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

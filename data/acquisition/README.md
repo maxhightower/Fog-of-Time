@@ -105,15 +105,18 @@ artifact is the compact provenance-bearing extraction JSON.
 
 ## PBDB taxonomic opinions (theoretical creatures)
 
-Theoretical creatures (`data/theoretical/*.json`) are built from the taxonomic opinions
-held by ingested papers. To ingest the papers behind them:
+Creatures are built from the taxonomic opinions held by ingested papers. That covers the
+curated theoretical creatures in `data/theoretical/*.json` and every genus and species
+the corpus reports fossils of. To ingest the papers behind them:
 
 ```bash
 python scripts/data/acquisition/import_pbdb_opinions.py
 ```
 
 For every taxon a creature tracks, this snapshots PBDB's opinions and keeps the primary
-ones, where the opinion's author and year match its reference. It then merges them into
+ones, where the opinion's author and year match its reference. PBDB's "unpublished"
+references (compilers' own opinion lists) are skipped. A reference that repeats an
+ingested paper's DOI and title merges into that paper. It then merges them into
 the existing extraction record for that paper, or writes an opinion-only record. The
 snapshot is logged in `data/acquisition/pbdb-opinion-import-manifest.json`. Occurrence
 re-imports with `--replace-existing-pbdb` keep records that carry opinions.

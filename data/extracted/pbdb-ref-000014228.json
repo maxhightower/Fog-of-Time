@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14228",
+    "doi": null,
+    "title": "Fossil eggs in the Lower Cretaceous of Utah",
+    "year": 1970,
+    "journal": "Brigham Young University Geology Studies",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14228",
+    "authors": [
+      "J. A. Jensen"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:138356",
+      "taxon": "Macroelongatoolithus carlylei",
+      "published_as": "Oolithes carlylensis",
+      "status": "belongs_to",
+      "related_taxon": "Oolithes",
+      "basis": "stated without evidence",
+      "summary": "Macroelongatoolithus carlylei (as Oolithes carlylensis) belongs to Oolithes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

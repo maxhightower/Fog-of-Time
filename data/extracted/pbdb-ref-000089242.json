@@ -71,5 +71,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:971566",
+      "taxon": "Alpkarakush kyrgyzicus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Alpkarakush",
+      "basis": "stated with evidence",
+      "summary": "Alpkarakush kyrgyzicus belongs to Alpkarakush.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:971567",
+      "taxon": "Alpkarakush",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Metriacanthosauridae",
+      "basis": "stated with evidence",
+      "summary": "Alpkarakush belongs to Metriacanthosauridae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

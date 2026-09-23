@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:49946",
+    "doi": null,
+    "title": "Reinterpretation of the Early Cretaceous maniraptoran (Dinosauria: Theropoda) Zhongornis haoae as a scanoriopterygid-like non-avian, and morphological resemblances between scansoriopterygids and basal oviraptorosaurs",
+    "year": 2014,
+    "journal": "Vertebrata PalAsiatica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=49946",
+    "authors": [
+      "J. K. O'Connor",
+      "C. Sullivan"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:502518",
+      "taxon": "Confuciusornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Aves",
+      "basis": "stated with evidence",
+      "summary": "Confuciusornis belongs to Aves.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:502522",
+      "taxon": "Anchiornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Paraves",
+      "basis": "stated with evidence",
+      "summary": "Anchiornis belongs to Paraves.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

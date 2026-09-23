@@ -15,6 +15,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:196547",
+      "taxon": "Plateosaurus trossingensis",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Plateosaurus longiceps",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus trossingensis is a subjective synonym of Plateosaurus longiceps.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:196579",
       "taxon": "Gresslyosaurus robustus",
       "published_as": "Plateosaurus robustus",

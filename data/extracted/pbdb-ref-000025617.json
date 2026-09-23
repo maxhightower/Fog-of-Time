@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:25617",
+    "doi": null,
+    "title": "The postcranial anatomy of stegosaurian dinosaur Kentrosaurus from the Upper Jurassic of Tanzania, East Africa",
+    "year": 1982,
+    "journal": "Geologica et Palaeontologica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=25617",
+    "authors": [
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:195737",
+      "taxon": "Dacentrurus armatus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dacentrurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus belongs to Dacentrurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

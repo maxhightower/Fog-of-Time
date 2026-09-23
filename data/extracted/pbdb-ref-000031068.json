@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31068",
+    "doi": null,
+    "title": "Los Arcosaurios (Reptilia) del Jurásico superior – Cretácico inferior de Galve (Teruel, España) [The archosaurs (Reptilia) from the Upper Jurassic–Lower Cretaceous of Galve (Teruel, Spain)]",
+    "year": 1984,
+    "journal": "Teruel",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=31068",
+    "authors": [
+      "A. D. Buscalioni",
+      "J. L. Sanz"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:286509",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Antrodemus",
+      "basis": "stated without evidence",
+      "summary": "Allosaurus is a subjective synonym of Antrodemus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

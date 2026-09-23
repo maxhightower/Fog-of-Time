@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:26614",
+    "doi": "10.1080/02724634.1993.10011511",
+    "title": "Phylogeny of the Crocodylotarsi, with reference to archosaurian and crurotarsan monophyly",
+    "year": 1993,
+    "journal": "Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.1993.10011511",
+    "authors": [
+      "J. M. Parrish"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:212732",
+      "taxon": "Lewisuchus admixtus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Lewisuchus",
+      "basis": "stated without evidence",
+      "summary": "Lewisuchus admixtus belongs to Lewisuchus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:212736",
+      "taxon": "Lewisuchus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Suchia",
+      "basis": "stated without evidence",
+      "summary": "Lewisuchus belongs to Suchia.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

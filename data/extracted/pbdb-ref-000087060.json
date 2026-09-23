@@ -120,5 +120,27 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:943053",
+      "taxon": "Sidersaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Rebbachisauridae",
+      "basis": "stated with evidence",
+      "summary": "Sidersaura belongs to Rebbachisauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:943054",
+      "taxon": "Sidersaura marae",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sidersaura",
+      "basis": "stated with evidence",
+      "summary": "Sidersaura marae belongs to Sidersaura.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

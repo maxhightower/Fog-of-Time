@@ -1,0 +1,38 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:86456",
+    "doi": null,
+    "title": "Organisation des pontes de dinosauriens de la parafamille des Megaloolithidae Zhao, 1979 [Organization of dinosaur clutches of the parafamily Megaloolithidae Zhao, 1979]",
+    "year": 2002,
+    "journal": "Bulletin trimestriel de la Société géologique du Normandie et Amis du Muséum du Havre",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=86456",
+    "authors": [
+      "R. Cousin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:938985",
+      "taxon": "Macroelongatoolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Elongatoolithidae",
+      "basis": "stated without evidence",
+      "summary": "Macroelongatoolithus belongs to Elongatoolithidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:938988",
+      "taxon": "Spheroolithus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spheroolithidae",
+      "basis": "stated without evidence",
+      "summary": "Spheroolithus belongs to Spheroolithidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

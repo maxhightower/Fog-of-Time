@@ -126,5 +126,17 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:980853",
+      "taxon": "Kholumolumo ellenbergerorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Kholumolumo",
+      "basis": "stated without evidence",
+      "summary": "Kholumolumo ellenbergerorum belongs to Kholumolumo.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

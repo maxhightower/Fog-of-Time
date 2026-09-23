@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:36619",
+    "doi": null,
+    "title": "Footprints of dinosaur in the Lower Cretaceous of Vestspitsbergen – Svalbard",
+    "year": 1962,
+    "journal": "Norsk Polarinstitutt, Årbok",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=36619",
+    "authors": [
+      "A. F. d. Lapparent"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:342548",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Gorgosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus belongs to Gorgosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

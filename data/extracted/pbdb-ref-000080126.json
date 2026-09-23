@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:80126",
+    "doi": "10.1016/j.scib.2019.06.013",
+    "title": "A probable tyrannosaurid track from the Upper Cretaceous of southern China",
+    "year": 2019,
+    "journal": "Science Bulletin",
+    "url": "https://doi.org/10.1016/j.scib.2019.06.013",
+    "authors": [
+      "L. Xing",
+      "K. Niu",
+      "M. G. Lockley, H. Klein, A. Romilio, W. S. Persons, S. L. Brusatte"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:872937",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

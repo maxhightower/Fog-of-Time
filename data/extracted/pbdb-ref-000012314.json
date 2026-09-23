@@ -15,6 +15,26 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:90923",
+      "taxon": "Tetrapodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsia",
+      "basis": "stated with evidence",
+      "summary": "Tetrapodosaurus belongs to Ceratopsia.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:90936",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated with evidence",
+      "summary": "Centrosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:90977",
       "taxon": "Torosaurus",
       "published_as": null,

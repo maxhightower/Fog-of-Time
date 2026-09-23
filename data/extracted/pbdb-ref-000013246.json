@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13246",
+    "doi": null,
+    "title": "A new vertebrate fauna from the Dockum Formation (Late Triassic) of eastern New Mexico",
+    "year": 1986,
+    "journal": "The Beginning of the Age of Dinosaurs: Faunal Change Across the Triassic–Jurassic Boundary. Cambridge University Press, Cambridge",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13246",
+    "authors": [
+      "J. M. Parrish",
+      "K. Carpenter"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:162214",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Procompsognathidae",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis belongs to Procompsognathidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:162216",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated without evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

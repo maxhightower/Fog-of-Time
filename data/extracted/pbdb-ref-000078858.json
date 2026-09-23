@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:78858",
+    "doi": "10.7717/peerj.1872",
+    "title": "Anatomy and osteohistology of the basal hadrosaurid dinosaur Eotrachodon from the uppermost Santonian (Cretaceous) of southern Appalachia",
+    "year": 2016,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.1872",
+    "authors": [
+      "A. Prieto-Márquez",
+      "G. M. Erickson",
+      "J. A. Ebersole"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:858148",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Edmontosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens belongs to Edmontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:858150",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70703",
+    "doi": "10.2307/3515220",
+    "title": "The association of anastomosed fluvial deposits and dinosaur tracks, eggs, and nests: implications for the interpretation of floodplain environments and a possible survivial strategy for ornithopods",
+    "year": 1993,
+    "journal": "Palaios",
+    "url": "https://doi.org/10.2307/3515220",
+    "authors": [
+      "G. C. Nadon"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:750485",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

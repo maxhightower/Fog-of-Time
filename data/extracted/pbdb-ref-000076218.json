@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76218",
+    "doi": "10.7717/peerj.11084",
+    "title": "A new brachylophosaurin (Dinosauria: Hadrosauridae) from the Upper Cretaceous Menefee Formation of New Mexico",
+    "year": 2021,
+    "journal": "PeerJ",
+    "url": "https://doi.org/10.7717/peerj.11084",
+    "authors": [
+      "A. T. McDonald",
+      "D. G. Wolfe",
+      "E. A. Freedman Fowler, T. A. Gates"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:830420",
+      "taxon": "Maiasaura peeblesorum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Maiasaura",
+      "basis": "stated without evidence",
+      "summary": "Maiasaura peeblesorum belongs to Maiasaura.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

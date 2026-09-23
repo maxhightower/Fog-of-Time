@@ -15,6 +15,26 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:143194",
+      "taxon": "Plateosaurus trossingensis",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Plateosaurus integer",
+      "basis": "stated without evidence",
+      "summary": "Plateosaurus trossingensis is a subjective synonym of Plateosaurus integer.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:143206",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:143207",
       "taxon": "Gresslyosaurus ingens",
       "published_as": null,

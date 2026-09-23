@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:38387",
+    "doi": "10.1098/rsbl.2011.0884",
+    "title": "Likelihood reinstates Archaeopteryx as a primitive bird",
+    "year": 2011,
+    "journal": "Biology Letters",
+    "url": "https://doi.org/10.1098/rsbl.2011.0884",
+    "authors": [
+      "M. S. Y. Lee",
+      "T. Worthy"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:366019",
+      "taxon": "Anchiornis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Deinonychosauria",
+      "basis": "stated with evidence",
+      "summary": "Anchiornis belongs to Deinonychosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:60389",
+    "doi": "10.1130/2008.fld011(11)",
+    "title": "Dinosaurs and dunes! Sedimentology and paleontology of the Mesozoic in the Valley of Fire State Park",
+    "year": 2008,
+    "journal": "Field Guide to Plutons, Volcanoes, Faults, Reefs, Dinosaurs, and Possible Glaciation in Selected Areas of Arizona, California, and Nevada: Geological Society of America Field Guide",
+    "url": "https://doi.org/10.1130/2008.fld011(11)",
+    "authors": [
+      "J. W. Bonde",
+      "D. J. Varricchio",
+      "F. D. Jackson, D. B. Loope, A. M. Shirk"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:628054",
+      "taxon": "Macroelongatoolithus carlylei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macroelongatoolithus",
+      "basis": "stated without evidence",
+      "summary": "Macroelongatoolithus carlylei belongs to Macroelongatoolithus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9436",
+    "doi": "10.1006/cres.1994.1038",
+    "title": "A Late Cretaceous polar dinosaur fauna from New Zealand",
+    "year": 1994,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1006/cres.1994.1038",
+    "authors": [
+      "R. E. Molnar",
+      "J. Wiffen"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:134382",
+      "taxon": "Tyrannosaurus rex",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tyrannosaurus",
+      "basis": "stated without evidence",
+      "summary": "Tyrannosaurus rex belongs to Tyrannosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

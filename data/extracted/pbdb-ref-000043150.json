@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:43150",
+    "doi": "10.1371/journal.pone.0045203",
+    "title": "A second soundly sleeping dragon: new anatomical details of the Chinese troodontid Mei long with implications for phylogeny and taphonomy",
+    "year": 2012,
+    "journal": "PLoS ONE",
+    "url": "https://doi.org/10.1371/journal.pone.0045203",
+    "authors": [
+      "C. -L. Gao",
+      "E. M. Morschauser",
+      "D. J. Varricchio, J. Liu, B. Zhao"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:468552",
+      "taxon": "Talos sampsoni",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Talos",
+      "basis": "stated without evidence",
+      "summary": "Talos sampsoni belongs to Talos.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:82757",
+    "doi": null,
+    "title": "First dinosaur fossils from Georgia, with notes on additional Cretaceous vertebrates from the state",
+    "year": 1989,
+    "journal": "Georgia Journal of Science",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=82757",
+    "authors": [
+      "D. R. Schwimmer",
+      "R. H. Best"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:899210",
+      "taxon": "Gorgosaurus libratus",
+      "published_as": "Albertosaurus libratus",
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Gorgosaurus libratus (as Albertosaurus libratus) belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

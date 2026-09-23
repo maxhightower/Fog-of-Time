@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:24170",
+    "doi": null,
+    "title": "The Cretaceous-Tertiary transition of Alberta",
+    "year": 1933,
+    "journal": "Transactions of the Royal Society of Canada, series 3",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=24170",
+    "authors": [
+      "L. S. Russell"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:172421",
+      "taxon": "Albertosaurus sarcophagus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Albertosaurus",
+      "basis": "stated without evidence",
+      "summary": "Albertosaurus sarcophagus belongs to Albertosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

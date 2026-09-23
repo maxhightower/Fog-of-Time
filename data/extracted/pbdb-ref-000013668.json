@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:13668",
+    "doi": null,
+    "title": "On the squamoso-parietal crest of the horned dinosaurs Centrosaurus apertus and Monoclonius canadensis from the Cretaceous of Alberta",
+    "year": 1905,
+    "journal": "Proceedings and Transactions of the Royal Society of Canada, series 2",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=13668",
+    "authors": [
+      "L. M. Lambe"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:95649",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

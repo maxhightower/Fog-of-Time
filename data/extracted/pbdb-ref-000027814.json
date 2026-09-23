@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:27814",
+    "doi": null,
+    "title": "First record of a velociraptorine theropod (Tetanurae, Dromaeosauridae) from the eastern Gulf Coastal United States",
+    "year": 2004,
+    "journal": "The Mosasaur",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=27814",
+    "authors": [
+      "K. Kiernan",
+      "D. R. Schwimmer"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:633476",
+      "taxon": "Utahraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Dromaeosauridae",
+      "basis": "stated without evidence",
+      "summary": "Utahraptor belongs to Dromaeosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

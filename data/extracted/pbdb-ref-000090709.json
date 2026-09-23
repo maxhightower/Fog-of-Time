@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:90709",
+    "doi": "10.1016/j.geobios.2024.08.006",
+    "title": "A rare ‘flat-headed’ pachycephalosaur (Dinosauria: Pachycephalosauridae) from West Texas, USA, with morphometric and heterochronic considerations",
+    "year": 2024,
+    "journal": "Geobios",
+    "url": "https://doi.org/10.1016/j.geobios.2024.08.006",
+    "authors": [
+      "S. L. Wick",
+      "T. M. Lehman"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:980843",
+      "taxon": "Pachycephalosaurus wyomingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurus",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus wyomingensis belongs to Pachycephalosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

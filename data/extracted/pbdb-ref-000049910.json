@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:49910",
+    "doi": "10.5710/AMGH.26.12.2013.1889",
+    "title": "A new titanosaur (Dinosauria, Sauropoda) from the Upper Cretaceous (Cerro Lisandro Formation) of Mendoza Province, Argentina",
+    "year": 2014,
+    "journal": "Ameghiniana",
+    "url": "https://doi.org/10.5710/AMGH.26.12.2013.1889",
+    "authors": [
+      "B. J. González Riga",
+      "L. Ortiz David"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:502301",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Opisthocoelicaudinae",
+      "basis": "stated with evidence",
+      "summary": "Alamosaurus belongs to Opisthocoelicaudinae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:830760",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated with evidence",
+      "summary": "Titanosauria belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

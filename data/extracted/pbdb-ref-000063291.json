@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:63291",
+    "doi": null,
+    "title": "On the homologies of some of the cranial bones of the Reptilia, and on the systematic arrangement of the class",
+    "year": 1871,
+    "journal": "Proceedings of the American Association for the Advancement of Science",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=63291",
+    "authors": [
+      "E. D. Cope"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:658307",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Teratosauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Teratosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

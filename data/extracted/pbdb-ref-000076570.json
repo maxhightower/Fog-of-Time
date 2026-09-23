@@ -15,6 +15,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:832645",
+      "taxon": "Massospondylus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Massospondylus belongs to Anchisauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:832655",
       "taxon": "Gresslyosaurus",
       "published_as": null,
@@ -25,6 +35,16 @@
       "source": "pbdb_opinion"
     },
     {
+      "id": "pbdb-opinion:832656",
+      "taxon": "Plateosaurus",
+      "published_as": "Plataeosaurus",
+      "status": "belongs_to",
+      "related_taxon": "Anchisauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus (as Plataeosaurus) belongs to Anchisauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:832671",
       "taxon": "Gresslyosaurus ingens",
       "published_as": "Zanclodon ingens",
@@ -32,6 +52,36 @@
       "related_taxon": "Zanclodon",
       "basis": "stated with evidence",
       "summary": "Gresslyosaurus ingens (as Zanclodon ingens) belongs to Zanclodon.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:832677",
+      "taxon": "Allosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Megalosauridae",
+      "basis": "stated with evidence",
+      "summary": "Allosaurus belongs to Megalosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:832728",
+      "taxon": "Coelophysis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Hallopodidae",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis belongs to Hallopodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:832729",
+      "taxon": "Coelophysis bauri",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Coelophysis",
+      "basis": "stated with evidence",
+      "summary": "Coelophysis bauri belongs to Coelophysis.",
       "source": "pbdb_opinion"
     },
     {
@@ -52,6 +102,36 @@
       "related_taxon": "Brontosaurus",
       "basis": "stated with evidence",
       "summary": "Brontosaurus excelsus belongs to Brontosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:832930",
+      "taxon": "Camptosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Camptosauridae",
+      "basis": "stated with evidence",
+      "summary": "Camptosaurus belongs to Camptosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:832966",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Claosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Claosaurus",
+      "basis": "stated with evidence",
+      "summary": "Edmontosaurus annectens (as Claosaurus annectens) belongs to Claosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:833037",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated with evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
       "source": "pbdb_opinion"
     },
     {

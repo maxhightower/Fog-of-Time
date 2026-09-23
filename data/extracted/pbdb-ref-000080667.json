@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:80667",
+    "doi": "10.1038/s41598-018-28154-x",
+    "title": "Ceratosaur palaeobiology: new insights on evolution and ecology of the southern rulers",
+    "year": 2018,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-018-28154-x",
+    "authors": [
+      "R. Delcourt"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:876341",
+      "taxon": "Arcovenator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Majungasaurini",
+      "basis": "stated without evidence",
+      "summary": "Arcovenator belongs to Majungasaurini.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

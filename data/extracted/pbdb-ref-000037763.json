@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:37763",
+    "doi": "10.4202/app.2010.0019",
+    "title": "A new titanosaur sauropod dinosaur from the Upper Cretaceous of North Patagonia, Argentina",
+    "year": 2011,
+    "journal": "Acta Palaeontologica Polonica",
+    "url": "https://doi.org/10.4202/app.2010.0019",
+    "authors": [
+      "L. S. Filippi",
+      "R. A. García",
+      "A. C. Garrido"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:359080",
+      "taxon": "Brachiosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Titanosauriformes",
+      "basis": "stated without evidence",
+      "summary": "Brachiosaurus belongs to Titanosauriformes.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:359096",
+      "taxon": "Alamosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eutitanosauria",
+      "basis": "stated without evidence",
+      "summary": "Alamosaurus belongs to Eutitanosauria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

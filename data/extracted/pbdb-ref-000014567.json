@@ -24,6 +24,16 @@
       "basis": "stated without evidence",
       "summary": "Torosaurus belongs to Ceratopsidae.",
       "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:101423",
+      "taxon": "Centrosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ceratopsidae",
+      "basis": "stated without evidence",
+      "summary": "Centrosaurus belongs to Ceratopsidae.",
+      "source": "pbdb_opinion"
     }
   ]
 }

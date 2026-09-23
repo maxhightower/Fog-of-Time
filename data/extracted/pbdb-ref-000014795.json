@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:14795",
+    "doi": null,
+    "title": "Osteological studies of a carnosaurian dinosaur from Lower Jurassic Kota Formation: Andhra Pradesh",
+    "year": 1982,
+    "journal": "Report for Field Season Programme 1981-1982",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=14795",
+    "authors": [
+      "P. Yadagiri"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:745914",
+      "taxon": "Sinosaurus triassicus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sinosaurus",
+      "basis": "stated without evidence",
+      "summary": "Sinosaurus triassicus belongs to Sinosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

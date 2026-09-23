@@ -1,0 +1,68 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:29189",
+    "doi": "10.1007/bf02926251",
+    "title": "Handbuch der Paläoherpetologie / Encyclopedia of Paleoherpetology. Part 18. Ichnia Amphibiorum et Reptiliorum Fossilium",
+    "year": 1971,
+    "journal": "Gistav Fischer Verlag",
+    "url": "https://doi.org/10.1007/bf02926251",
+    "authors": [
+      "H. Haubold"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:256490",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anchisauripodidae",
+      "basis": "stated with evidence",
+      "summary": "Grallator belongs to Anchisauripodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:256601",
+      "taxon": "Megalosauripus",
+      "published_as": null,
+      "status": "subjective_synonym_of",
+      "related_taxon": "Bueckeburgichnus",
+      "basis": "stated with evidence",
+      "summary": "Megalosauripus is a subjective synonym of Bueckeburgichnus.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:257188",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anomoepodidae",
+      "basis": "stated with evidence",
+      "summary": "Anomoepus belongs to Anomoepodidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:257223",
+      "taxon": "Tetrapodosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Tetrapodosauridae",
+      "basis": "stated with evidence",
+      "summary": "Tetrapodosaurus belongs to Tetrapodosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:546584",
+      "taxon": "Eubrontes",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Eubrontidae",
+      "basis": "stated with evidence",
+      "summary": "Eubrontes belongs to Eubrontidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -71,5 +71,47 @@
         }
       ]
     }
+  ],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:853501",
+      "taxon": "Issi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Issi belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:853502",
+      "taxon": "Issi saaneq",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Issi",
+      "basis": "stated with evidence",
+      "summary": "Issi saaneq belongs to Issi.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:853503",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:853505",
+      "taxon": "Macrocollum",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated without evidence",
+      "summary": "Macrocollum belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    }
   ]
 }

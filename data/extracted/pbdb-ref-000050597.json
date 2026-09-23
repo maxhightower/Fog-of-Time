@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:50597",
+    "doi": null,
+    "title": "The first Early Jurassic (late Hettangian) theropod dinosaur remains from the Grand Duchy of Luxembourg",
+    "year": 2014,
+    "journal": "Geological Belgica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=50597",
+    "authors": [
+      "D. Delsate",
+      "M. D. Ezcurra"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:549253",
+      "taxon": "Orkoraptor burkei",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Orkoraptor",
+      "basis": "stated without evidence",
+      "summary": "Orkoraptor burkei belongs to Orkoraptor.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

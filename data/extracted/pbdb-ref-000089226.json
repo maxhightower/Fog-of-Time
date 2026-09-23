@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:89226",
+    "doi": "10.1080/08912963.2024.2383708",
+    "title": "They all floated in the cretaceous: new rebbachisaurid (Sauropoda, Diplodocoidea) with a highly pneumatized skeleton from the Upper Cretaceous (lower Cenomanian) of Patagonia, Argentina",
+    "year": 2024,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2024.2383708",
+    "authors": [
+      "L. N. Lerzo",
+      "F. Torcida Fernández-Baldor",
+      "J. I. Canale, J. A. Whitlock, A. Otero, P. A. Gallina"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:971043",
+      "taxon": "Sidersaura",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Rebbachisauridae",
+      "basis": "stated with evidence",
+      "summary": "Sidersaura belongs to Rebbachisauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

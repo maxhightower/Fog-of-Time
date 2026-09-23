@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:12994",
+    "doi": null,
+    "title": "The prosauropod dinosaur Plateosaurus Meyer, 1837 (Saurischia: Sauropodomorpha; Upper Triassic). II. Notes on the referred species",
+    "year": 2001,
+    "journal": "Revue Paléobiologie, Genève",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=12994",
+    "authors": [
+      "P. M. Galton"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:93299",
+      "taxon": "Plateosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Plateosauridae",
+      "basis": "stated with evidence",
+      "summary": "Plateosaurus belongs to Plateosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76632",
+    "doi": "10.1016/j.cretres.2010.11.003",
+    "title": "A reassessment of large theropod dinosaur tracks from the mid-Cretaceous (late Albian–Cenomanian) Winton Formation of Lark Quarry, central-western Queensland, Australia: a case for mistaken identity",
+    "year": 2011,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2010.11.003",
+    "authors": [
+      "A. Romilio",
+      "S. Salisbury"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:833444",
+      "taxon": "Australovenator wintonensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Australovenator",
+      "basis": "stated without evidence",
+      "summary": "Australovenator wintonensis belongs to Australovenator.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:51845",
+    "doi": "10.2475/ajs.246.1.29",
+    "title": "The type of Claosaurus (?) affinis Wieland",
+    "year": 1948,
+    "journal": "American Journal of Science",
+    "url": "https://doi.org/10.2475/ajs.246.1.29",
+    "authors": [
+      "J. T. Gregory"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:526365",
+      "taxon": "Edmontosaurus annectens",
+      "published_as": "Anatosaurus annectens",
+      "status": "belongs_to",
+      "related_taxon": "Anatosaurus",
+      "basis": "stated without evidence",
+      "summary": "Edmontosaurus annectens (as Anatosaurus annectens) belongs to Anatosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

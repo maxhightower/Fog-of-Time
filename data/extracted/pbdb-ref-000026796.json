@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:26796",
+    "doi": null,
+    "title": "Pantsirnyye dinozavry Mongolii [The armored dinosaurs of Mongolia]",
+    "year": 1987,
+    "journal": "Trudy Sovmestnaya Sovetsko-Mongol'skaya Paleontologicheskaya Ekspeditsiya",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=26796",
+    "authors": [
+      "T. A. Tumanova"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:214105",
+      "taxon": "Pinacosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ankylosaurinae",
+      "basis": "stated with evidence",
+      "summary": "Pinacosaurus belongs to Ankylosaurinae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

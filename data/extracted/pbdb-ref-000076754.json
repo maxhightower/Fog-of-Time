@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:76754",
+    "doi": "10.1080/08912963.2015.1020424",
+    "title": "First Early Jurassic ornithischian and theropod footprint assemblage and a new ichnotaxon Shenmuichnus wangi ichnosp. nov. from Yunnan Province, southwestern China",
+    "year": 2016,
+    "journal": "Historical Biology",
+    "url": "https://doi.org/10.1080/08912963.2015.1020424",
+    "authors": [
+      "L. Xing",
+      "M. G. Lockley",
+      "J. Zhang, H. You, H. Klein, W. S. Persons, H. Dai, Z. Dong"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:835483",
+      "taxon": "Shenmuichnus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Anomoepodidae",
+      "basis": "stated without evidence",
+      "summary": "Shenmuichnus belongs to Anomoepodidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

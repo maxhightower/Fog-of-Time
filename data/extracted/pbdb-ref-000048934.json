@@ -1,0 +1,40 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:48934",
+    "doi": "10.1080/02724634.2013.819361",
+    "title": "Basal sauropodomorphs from the Ischigualasto Formation",
+    "year": 2013,
+    "journal": "Basal Sauropodomorphs and the Vertebrate Fossil Record of the Ischigualasto Formation (Late Triassic: Carnian–Norian) of Argentina. Society of Vertebrate Paleontology Memoir 12. Journal of Vertebrate Paleontology",
+    "url": "https://doi.org/10.1080/02724634.2013.819361",
+    "authors": [
+      "R. N. Martínez",
+      "C. Apaldetti",
+      "D. Abelin"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:491293",
+      "taxon": "Chromogisaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropodomorpha",
+      "basis": "stated with evidence",
+      "summary": "Chromogisaurus belongs to Sauropodomorpha.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:491294",
+      "taxon": "Chromogisaurus novasi",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Chromogisaurus",
+      "basis": "stated with evidence",
+      "summary": "Chromogisaurus novasi belongs to Chromogisaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

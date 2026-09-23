@@ -1,0 +1,39 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:19213",
+    "doi": "10.22179/revmacn.7.332",
+    "title": "Cathartesaura anaerobica gen. et sp. nov., a new rebbachisaurid (Dinosauria, Sauropoda) from the Huincul Formation (Upper Cretaceous), Río Negro, Argentina",
+    "year": 2005,
+    "journal": "Revista del Museo Argentino de Ciencias Naturales, nuevo serie",
+    "url": "https://doi.org/10.22179/revmacn.7.332",
+    "authors": [
+      "P. A. Gallina",
+      "S. Apesteguía"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:151378",
+      "taxon": "Suuwassea",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Diplodocidae",
+      "basis": "stated without evidence",
+      "summary": "Suuwassea belongs to Diplodocidae.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:151385",
+      "taxon": "Haplocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Macronaria",
+      "basis": "stated without evidence",
+      "summary": "Haplocanthosaurus belongs to Macronaria.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

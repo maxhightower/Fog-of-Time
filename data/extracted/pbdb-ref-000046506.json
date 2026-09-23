@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:46506",
+    "doi": "10.3374/014.054.0102",
+    "title": "Caenagnathidae from the upper Campanian Aguja Formation of west Texas, and a revision of the Caenagnathinae",
+    "year": 2013,
+    "journal": "Bulletin of the Peabody Museum of Natural History",
+    "url": "https://doi.org/10.3374/014.054.0102",
+    "authors": [
+      "N. R. Longrich",
+      "K. Barnes",
+      "S. Clark, L. Millar"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:488464",
+      "taxon": "Conchoraptor",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Oviraptoridae",
+      "basis": "stated with evidence",
+      "summary": "Conchoraptor belongs to Oviraptoridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

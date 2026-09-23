@@ -1,0 +1,30 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:82416",
+    "doi": "10.1016/j.cretres.2021.105059",
+    "title": "The uppermost Cretaceous continental deposits at the southern end of Patagonia, the Chorrillo Formation case study (Austral-Magallanes Basin): Sedimentology, fossil content and regional implications",
+    "year": 2022,
+    "journal": "Cretaceous Research",
+    "url": "https://doi.org/10.1016/j.cretres.2021.105059",
+    "authors": [
+      "D. Moyano-Paz",
+      "S. Rozadilla",
+      "F. Agnolín, E. Verad, M. D. Coronel, A. N. Varela, A. R. Gómez-Dacal, A. M. Aranciaga-Rolando, J. D'Angelo, V. Pérez-Loinaze, S. Richiano, N. Chimento, M. J. Motta, J. Sterli, M. Manabe, T. Tsuihiji, M. P. Isasi, D. G. Poiré, F. E. Novas"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:940295",
+      "taxon": "Titanosauria",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Sauropoda",
+      "basis": "stated without evidence",
+      "summary": "Titanosauria belongs to Sauropoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

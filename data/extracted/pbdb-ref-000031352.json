@@ -1,0 +1,50 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:31352",
+    "doi": null,
+    "title": "Small theropod and ornithopod footprints in the Late Jurassic of Poland",
+    "year": 2009,
+    "journal": "Acta Geologica Polonica",
+    "url": "https://paleobiodb.org/data1.2/refs/single.json?id=31352",
+    "authors": [
+      "G. D. Gierlinski",
+      "G. Niedzwiedzki",
+      "P. Nowacki"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:290688",
+      "taxon": "Carmelopodus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Carmelopodus belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:290690",
+      "taxon": "Grallator",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Theropoda",
+      "basis": "stated without evidence",
+      "summary": "Grallator belongs to Theropoda.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:290694",
+      "taxon": "Anomoepus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Ornithopoda",
+      "basis": "stated without evidence",
+      "summary": "Anomoepus belongs to Ornithopoda.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

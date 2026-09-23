@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:9794",
+    "doi": "10.1144/gsl.jgs.1887.043.01-04.52",
+    "title": "Note on some dinosaurian remains in the collection of A. Leeds, Esq, of Eyebury, Northamptonshire",
+    "year": 1887,
+    "journal": "Quarterly Journal of the Geological Society",
+    "url": "https://doi.org/10.1144/gsl.jgs.1887.043.01-04.52",
+    "authors": [
+      "J. W. Hulke"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:196346",
+      "taxon": "Dacentrurus armatus",
+      "published_as": "Omosaurus armatus",
+      "status": "belongs_to",
+      "related_taxon": "Omosaurus",
+      "basis": "stated without evidence",
+      "summary": "Dacentrurus armatus (as Omosaurus armatus) belongs to Omosaurus.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

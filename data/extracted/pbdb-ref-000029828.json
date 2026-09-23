@@ -17,6 +17,16 @@
   "evidence": [],
   "opinions": [
     {
+      "id": "pbdb-opinion:265889",
+      "taxon": "Pachycephalosaurus wyomingensis",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurus",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus wyomingensis belongs to Pachycephalosaurus.",
+      "source": "pbdb_opinion"
+    },
+    {
       "id": "pbdb-opinion:265890",
       "taxon": "Stygimoloch spinifer",
       "published_as": null,
@@ -24,6 +34,16 @@
       "related_taxon": "Pachycephalosaurus wyomingensis",
       "basis": "stated with evidence",
       "summary": "Stygimoloch spinifer is a subjective synonym of Pachycephalosaurus wyomingensis.",
+      "source": "pbdb_opinion"
+    },
+    {
+      "id": "pbdb-opinion:265900",
+      "taxon": "Pachycephalosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Pachycephalosaurinae",
+      "basis": "stated without evidence",
+      "summary": "Pachycephalosaurus belongs to Pachycephalosaurinae.",
       "source": "pbdb_opinion"
     }
   ]

@@ -1,0 +1,28 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:70766",
+    "doi": "10.1144/SP343.10",
+    "title": "Spinosaurs before Stromer: early finds of spinosaurid dinosaurs and their interpretations",
+    "year": 2010,
+    "journal": "Dinosaurs and Other Extinct Saurians: A Historical Perspective. Geological Society, London, Special Publications",
+    "url": "https://doi.org/10.1144/SP343.10",
+    "authors": [
+      "E. Buffetaut"
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:750999",
+      "taxon": "Spinosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Spinosauridae",
+      "basis": "stated without evidence",
+      "summary": "Spinosaurus belongs to Spinosauridae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}

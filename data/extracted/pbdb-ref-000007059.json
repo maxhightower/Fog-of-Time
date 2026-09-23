@@ -1,0 +1,29 @@
+{
+  "schema_version": "fog-of-time.paper-extraction/v1",
+  "development_fixture": false,
+  "publication": {
+    "id": "pbdb-ref:7059",
+    "doi": "10.2307/2421859",
+    "title": "Acrocanthosaurus atokensis, a new genus and species of Lower Cretaceous Theropoda from Oklahoma",
+    "year": 1950,
+    "journal": "American Midland Naturalist",
+    "url": "https://doi.org/10.2307/2421859",
+    "authors": [
+      "J. W. Stovall",
+      "W. Langston, Jr."
+    ]
+  },
+  "evidence": [],
+  "opinions": [
+    {
+      "id": "pbdb-opinion:94138",
+      "taxon": "Acrocanthosaurus",
+      "published_as": null,
+      "status": "belongs_to",
+      "related_taxon": "Antrodemidae",
+      "basis": "stated with evidence",
+      "summary": "Acrocanthosaurus belongs to Antrodemidae.",
+      "source": "pbdb_opinion"
+    }
+  ]
+}
