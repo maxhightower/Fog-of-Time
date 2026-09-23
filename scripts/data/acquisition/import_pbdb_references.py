@@ -30,7 +30,7 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[3]
 EXTRACTED = ROOT / "data" / "extracted"
-MANIFEST = ROOT / "data" / "acquisition" / "pbdb-import-manifest.json"
+DEFAULT_MANIFEST = ROOT / "data" / "acquisition" / "pbdb-import-manifest.json"
 BASE = "https://paleobiodb.org/data1.2"
 USER_AGENT = "Fog-of-Time/0.2 (PBDB publication-occurrence snapshot)"
 
@@ -92,8 +92,6 @@ def load_existing_publications() -> tuple[set[str], set[str]]:
     dois: set[str] = set()
     titles: set[str] = set()
     for path in EXTRACTED.glob("*.json"):
-        if path.name.startswith("pbdb-ref-"):
-            continue
         try:
             doc = json.loads(path.read_text(encoding="utf-8"))
         except Exception:
@@ -446,6 +444,17 @@ def main() -> int:
     parser.add_argument("--max-occurrences-per-reference", type=int, default=75)
     parser.add_argument("--reference-probe-count", type=int, default=450)
     parser.add_argument("--workers", type=int, default=16)
+    parser.add_argument(
+        "--manifest",
+        type=Path,
+        default=DEFAULT_MANIFEST,
+        help="Manifest path relative to the repository or absolute.",
+    )
+    parser.add_argument(
+        "--replace-existing-pbdb",
+        action="store_true",
+        help="Delete existing pbdb-ref-*.json files before importing. Default is append-safe.",
+    )
     args = parser.parse_args()
 
     if args.paper_count < 1:
@@ -493,10 +502,12 @@ def main() -> int:
         existing_titles,
     )
 
-    # Remove only prior PBDB snapshots. Hand-verified extraction files remain
-    # untouched.
-    for path in EXTRACTED.glob(PBDB_FILES_GLOB):
-        path.unlink()
+    # Append is the safe default: existing direct and PBDB publications are
+    # already included in the DOI/title exclusion sets above. Replacement is
+    # opt-in for deliberately regenerating an entire PBDB snapshot.
+    if args.replace_existing_pbdb:
+        for path in EXTRACTED.glob(PBDB_FILES_GLOB):
+            path.unlink()
 
     imported: list[dict[str, Any]] = []
     total_occurrences = 0
@@ -537,13 +548,15 @@ def main() -> int:
             "fossil_age_window_ma": [MESOZOIC_OLD, KPG_BOUNDARY],
             "publication_types": ["journal article", "serial monograph"],
             "max_occurrences_per_reference": args.max_occurrences_per_reference,
-            "exclude_existing_direct_dois_and_titles": True,
+            "exclude_existing_dois_and_titles": True,
+            "append_safe": not args.replace_existing_pbdb,
             "target_time_mix": {"triassic": 0.20, "jurassic": 0.30, "cretaceous": 0.50},
         },
         "references": imported,
     }
-    MANIFEST.parent.mkdir(parents=True, exist_ok=True)
-    MANIFEST.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    manifest_path = args.manifest if args.manifest.is_absolute() else ROOT / args.manifest
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     print(
         f"Imported {len(imported)} PBDB-backed publications with {total_occurrences} fossil occurrences",
