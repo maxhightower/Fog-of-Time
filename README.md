@@ -79,7 +79,7 @@ timeline. The **Layers** panel sets grouping, colour and data labels (with a cho
 what group bars and record bars show), and a "Known by" slider replays the evidence
 by publication year.
 
-The repository currently commits a tiny **development-fixture dataset** so the frontend works immediately. The UI labels it clearly as non-scientific fixture data.
+The committed production dataset now combines a 25-paper direct-full-text benchmark with a separate PBDB occurrence-backed scale-out tier. Development fixtures remain only under `tests/fixtures/` and never enter the production timeline.
 
 ## Rebuild data
 
@@ -115,4 +115,10 @@ The production evidence corpus has begun with publisher-verified extraction reco
 `data/extracted/`. Development fixtures live under `tests/fixtures/extracted/` and are
 not part of the production timeline.
 
-See `data/acquisition/README.md` for the acquisition workflow.
+## DINO-2 scale-out
+
+A separate PBDB-backed import adds **100 more publications** and **268 fossil occurrence records** while keeping provenance explicit. These database-derived records are marked `secondary_citation`; they do not masquerade as direct full-text extraction.
+
+The current DINO-2 snapshot contains **125 publications and 424 physical evidence objects** in total.
+
+See `data/acquisition/README.md` for both acquisition tiers and the import workflow.
