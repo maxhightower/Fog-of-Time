@@ -1,5 +1,5 @@
 import type { TimelineEvidence } from './types'
-import { categoryOf, recordWindow, type AgeWindow, type ColorBy, type RecordGroup } from './model'
+import { categoryOf, groupLabelText, recordLabelText, recordWindow, type GroupLabel, type RecordLabel, type AgeWindow, type ColorBy, type RecordGroup } from './model'
 import { formatMa, formatSpan, formatWindow, humanize, PRECISION_LABELS } from './format'
 import { TIMESCALE, type GeoRank } from './timescale'
 
@@ -12,6 +12,7 @@ const GEO_ROW_HEIGHT = 18
 const LABEL_GAP = 6
 const POINT_GLOW = 9
 const MIN_BAR_WIDTH = 3
+const GROUP_LABEL_FONT = '700 12px Inter, ui-sans-serif, system-ui, sans-serif'
 
 export type Selection = { kind: 'record'; key: string } | { kind: 'group'; id: string }
 
@@ -26,6 +27,8 @@ export interface TimelineModel {
   showDiscoveries: boolean
   showGeology: boolean
   selection: Selection | null
+  /** Null hides all data labels. */
+  labels: { groups: GroupLabel; records: RecordLabel } | null
 }
 
 export interface TimelineCallbacks {
@@ -176,10 +179,9 @@ export class Timeline {
       barEnd = Math.max(barEnd, end)
     }
     if (barEnd < 0 || barStart > this.width) return null
-    // Group rows carry no text label; the tooltip identifies them.
-    if (kind !== 'record') return { x0: barStart, x1: barEnd, labelX: null, labelAnchor: 'start' }
+    if (!label) return { x0: barStart, x1: barEnd, labelX: null, labelAnchor: 'start' }
 
-    const labelWidth = this.textWidth(label)
+    const labelWidth = this.textWidth(label, kind === 'record' ? undefined : GROUP_LABEL_FONT)
     if (barEnd + LABEL_GAP + labelWidth <= this.width) {
       return { x0: barStart, x1: barEnd + LABEL_GAP + labelWidth, labelX: barEnd + LABEL_GAP, labelAnchor: 'start' }
     }
@@ -207,9 +209,11 @@ export class Timeline {
   private buildBlocks(): Block[] {
     const model = this.model!
     const blocks: Block[] = []
+    const labels = model.labels
+    const groupLabel = (group: RecordGroup) => (labels ? groupLabelText(group, labels.groups) : '')
     const recordRows = (records: TimelineEvidence[]) =>
       records
-        .map(record => this.makeRow('record', record.physical_key, this.recordLabel(record), [recordWindow(record)], { record }))
+        .map(record => this.makeRow('record', record.physical_key, labels ? recordLabelText(record, labels.records) : '', [recordWindow(record)], { record }))
         .filter((row): row is Row => row !== null)
 
     if (!model.groups) {
@@ -219,7 +223,7 @@ export class Timeline {
 
     for (const group of model.groups) {
       if (model.expanded.has(group.id)) {
-        const header = this.makeRow('group-header', group.id, '', [{ min: group.min, max: group.max, best: null, precision: 'explicit_range', records: group.records }], { group })
+        const header = this.makeRow('group-header', group.id, groupLabel(group), [{ min: group.min, max: group.max, best: null, precision: 'explicit_range', records: group.records }], { group })
         if (!header) continue
         // Pack the group's records into their own sub-lanes so the block stays together.
         const rows = recordRows([...group.records].sort((a, b) => b.age.max_ma - a.age.max_ma))
@@ -232,7 +236,7 @@ export class Timeline {
         }
         blocks.push({ rows: [header, ...rows], group, expanded: true })
       } else {
-        const row = this.makeRow('group', group.id, '', group.windows, { group })
+        const row = this.makeRow('group', group.id, groupLabel(group), group.windows, { group })
         if (row) blocks.push({ rows: [row], group, expanded: false })
       }
     }
@@ -391,7 +395,7 @@ export class Timeline {
     }
 
     if (row.labelX !== null) {
-      const text = svg('text', { x: row.labelX, y: centre + 4, 'text-anchor': row.labelAnchor, class: 'bar-label' })
+      const text = svg('text', { x: row.labelX, y: centre + 4, 'text-anchor': row.labelAnchor, class: row.kind === 'record' ? 'bar-label' : 'bar-label group-label' })
       text.textContent = row.label
       group.append(text)
     }

@@ -1,5 +1,5 @@
 import type { PublicationSummary, TimelineEvidence } from './types'
-import { humanize } from './format'
+import { formatAge, formatMa, humanize } from './format'
 
 export type Precision = TimelineEvidence['age']['precision']
 export type ColorBy = 'evidence' | 'dating' | 'none'
@@ -141,4 +141,54 @@ export function groupRecords(records: TimelineEvidence[], groupBy: Exclude<Group
     else group.windows.push(recordWindow(record))
   }
   return [...groups.values()].sort((a, b) => b.max - a.max)
+}
+
+export type RecordLabel = 'none' | 'taxon-specimen' | 'taxon' | 'specimen' | 'evidence' | 'age' | 'dating' | 'country' | 'formation' | 'paper'
+export type GroupLabel = 'none' | 'name' | 'name-count' | 'count' | 'age'
+
+export const RECORD_LABEL_OPTIONS: Array<{ value: RecordLabel; label: string }> = [
+  { value: 'taxon-specimen', label: 'Taxon + specimen' },
+  { value: 'taxon', label: 'Taxon' },
+  { value: 'specimen', label: 'Specimen' },
+  { value: 'evidence', label: 'Evidence type' },
+  { value: 'age', label: 'Age' },
+  { value: 'dating', label: 'Dating method' },
+  { value: 'country', label: 'Country' },
+  { value: 'formation', label: 'Formation' },
+  { value: 'paper', label: 'Paper' },
+  { value: 'none', label: 'None' },
+]
+
+export const GROUP_LABEL_OPTIONS: Array<{ value: GroupLabel; label: string }> = [
+  { value: 'none', label: 'None' },
+  { value: 'name', label: 'Group name' },
+  { value: 'name-count', label: 'Group name + record count' },
+  { value: 'count', label: 'Record count' },
+  { value: 'age', label: 'Age span' },
+]
+
+export function recordLabelText(record: TimelineEvidence, mode: RecordLabel): string {
+  switch (mode) {
+    case 'none': return ''
+    case 'taxon-specimen': return record.specimen_label ? `${record.taxon} · ${record.specimen_label}` : record.taxon
+    case 'taxon': return record.taxon
+    case 'specimen': return record.specimen_label || record.physical_key
+    case 'evidence': return humanize(record.evidence_type)
+    case 'age': return formatAge(record)
+    case 'dating': return humanize(record.age.method)
+    case 'country': return record.locality.country
+    case 'formation': return record.formation || 'Formation not recorded'
+    case 'paper': return shortCitation(record.representative_report.publication)
+  }
+}
+
+export function groupLabelText(group: RecordGroup, mode: GroupLabel): string {
+  const count = `${group.records.length} ${group.records.length === 1 ? 'record' : 'records'}`
+  switch (mode) {
+    case 'none': return ''
+    case 'name': return group.label
+    case 'name-count': return `${group.label} · ${count}`
+    case 'count': return count
+    case 'age': return group.min === group.max ? formatMa(group.max) : `${formatMa(group.max)} – ${formatMa(group.min)}`
+  }
 }

@@ -1,6 +1,6 @@
 import './style.css'
 import type { DatasetManifest, TimelineEvidence } from './types'
-import { CATEGORIES, categoryOf, GROUP_OPTIONS, groupRecords, type ColorBy, type GroupBy } from './model'
+import { CATEGORIES, categoryOf, GROUP_LABEL_OPTIONS, GROUP_OPTIONS, groupRecords, RECORD_LABEL_OPTIONS, type ColorBy, type GroupBy, type GroupLabel, type RecordLabel } from './model'
 import { formatAge, formatMa, humanize, PRECISION_LABELS } from './format'
 import { PRESETS, TIMESCALE_OLDEST, TIMESCALE_SOURCE } from './timescale'
 import { Timeline, type Selection } from './timeline'
@@ -58,6 +58,19 @@ app.innerHTML = `
               <ul id="color-legend" class="legend" aria-label="Colour legend"></ul>
               <p class="legend-heading">Bar shape = how the date is known</p>
               <ul id="shape-legend" class="legend shape-legend"></ul>
+            </div>
+          </div>
+
+          <div class="layer">
+            <label class="toggle"><input id="layer-labels" type="checkbox" checked /> <span>Data labels</span></label>
+            <p class="layer-note">Text shown beside each bar.</p>
+            <div class="layer-options" id="label-options">
+              <label class="field">Group bars
+                <select id="label-groups"></select>
+              </label>
+              <label class="field">Record bars
+                <select id="label-records"></select>
+              </label>
             </div>
           </div>
 
@@ -143,6 +156,12 @@ const layerGeology = $<HTMLInputElement>('#layer-geology')
 const groupBy = $<HTMLSelectElement>('#group-by')
 const colorBy = $<HTMLSelectElement>('#color-by')
 for (const { value, label } of GROUP_OPTIONS) groupBy.add(new Option(label, value))
+const layerLabels = $<HTMLInputElement>('#layer-labels')
+const labelOptions = $<HTMLDivElement>('#label-options')
+const labelGroups = $<HTMLSelectElement>('#label-groups')
+const labelRecords = $<HTMLSelectElement>('#label-records')
+for (const { value, label } of GROUP_LABEL_OPTIONS) labelGroups.add(new Option(label, value))
+for (const { value, label } of RECORD_LABEL_OPTIONS) labelRecords.add(new Option(label, value))
 const colorLegend = $<HTMLUListElement>('#color-legend')
 const shapeLegend = $<HTMLUListElement>('#shape-legend')
 const discoveryOptions = $<HTMLDivElement>('#discovery-options')
@@ -253,6 +272,7 @@ function render() {
     showDiscoveries: layerDiscoveries.checked,
     showGeology: layerGeology.checked,
     selection,
+    labels: layerLabels.checked ? { groups: labelGroups.value as GroupLabel, records: labelRecords.value as RecordLabel } : null,
   })
 
   if (document.activeElement !== rangeFrom) rangeFrom.value = String(roundAge(view.from))
@@ -296,6 +316,7 @@ function renderShapeLegend() {
 
 function renderLegend() {
   discoveryOptions.hidden = !layerDiscoveries.checked
+  labelOptions.hidden = !layerLabels.checked
   const mode = colorBy.value as ColorBy
   const visible = filteredRecords()
   colorLegend.replaceChildren()
@@ -423,9 +444,11 @@ function wireControls() {
     setView(oldest + pad, youngest - pad)
   })
 
-  for (const input of [layerDiscoveries, layerGeology]) input.addEventListener('change', scheduleRender)
+  for (const input of [layerDiscoveries, layerGeology, layerLabels]) input.addEventListener('change', scheduleRender)
   colorBy.addEventListener('change', scheduleRender)
   groupBy.addEventListener('change', scheduleRender)
+  labelGroups.addEventListener('change', scheduleRender)
+  labelRecords.addEventListener('change', scheduleRender)
   for (const select of Object.values(filters)) select.addEventListener('change', scheduleRender)
   $<HTMLButtonElement>('#reset-filter').addEventListener('click', () => {
     for (const select of Object.values(filters)) select.value = ''

@@ -75,7 +75,8 @@ Records can be grouped by paper, taxon, evidence type, dating basis or country (
 shown individually); clicking a group expands its records.
 
 The **Layers** panel toggles discoveries, the geologic time scale (periods, epochs,
-Mesozoic stages), and a "Known by" slider replays the evidence by publication year.
+Mesozoic stages) and data labels (with a choice of what group bars and record bars
+show), and a "Known by" slider replays the evidence by publication year.
 
 The repository currently commits a tiny **development-fixture dataset** so the frontend works immediately. The UI labels it clearly as non-scientific fixture data.
 
