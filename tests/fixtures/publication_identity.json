@@ -1,0 +1,67 @@
+{
+  "description": "Publication identity regression cases. Real pairs come from the corpus (PBDB reference numbers given); synthetic ones cover rules the corpus does not yet exercise.",
+  "doi": [
+    { "raw": "10.1016/j.cub.2026.07.072", "normalized": "10.1016/j.cub.2026.07.072", "status": "ok" },
+    { "raw": "10.1002/ mmng.200800008", "normalized": "10.1002/mmng.200800008", "status": "repaired", "source": "pbdb-ref:31862" },
+    { "raw": "10.1111 ⁄ j.1502-3931.2012.00310.x", "normalized": "10.1111/j.1502-3931.2012.00310.x", "status": "repaired", "source": "pbdb-ref:69111" },
+    { "raw": ".1080/08912963.2020.1793979", "normalized": null, "status": "invalid", "source": "pbdb-ref:73943", "note": "missing '10' prefix is flagged, not guessed" },
+    { "raw": "https://doi.org/10.1038/SREP01924", "normalized": "10.1038/srep01924", "status": "repaired" },
+    { "raw": "doi:10.1371/journal.pone.0004397", "normalized": "10.1371/journal.pone.0004397", "status": "repaired" }
+  ],
+  "pairs": [
+    {
+      "case": "The Dinosauria 1st vs 2nd edition chapters share a title (pbdb-ref:7747, pbdb-ref:18136)",
+      "a": { "title": "Stegosauria", "year": 1990, "authors": ["P. M. Galton"], "doi": null },
+      "b": { "title": "Stegosauria", "year": 2004, "authors": ["P. M. Galton"], "doi": "10.1525/california/9780520242098.003.0019" },
+      "verdict": "distinct"
+    },
+    {
+      "case": "Same one-word chapter title by different authors in different books (pbdb-ref:36780, pbdb-ref:58211)",
+      "a": { "title": "Ceratosauria", "year": 1990, "authors": ["T. Rowe"] },
+      "b": { "title": "Ceratosauria", "year": 1997, "authors": ["T. Rowe"] },
+      "verdict": "distinct"
+    },
+    {
+      "case": "Same title, same year, different authors: title-only equality is never identity",
+      "a": { "title": "Sauropoda", "year": 1997, "authors": ["J. S. McIntosh"] },
+      "b": { "title": "Sauropoda", "year": 1997, "authors": ["P. Upchurch"] },
+      "verdict": "distinct"
+    },
+    {
+      "case": "Consecutive numbered parts of one series (pbdb-ref:4399, pbdb-ref:17322)",
+      "a": { "title": "The Chañares (Argentina) Triassic reptile fauna; XIV, Lewisuchus admixtus, gen. et sp. nov.", "year": 1972, "authors": ["A. S. Romer"] },
+      "b": { "title": "The Chañares (Argentina) Triassic reptile fauna. XVI. Thecodont classification", "year": 1972, "authors": ["A. S. Romer"] },
+      "verdict": "distinct"
+    },
+    {
+      "case": "PBDB entered one paper twice (online and print); equal DOI and title merge",
+      "a": { "title": "A new sauropod from Morocco", "year": 2009, "doi": "10.1371/journal.pone.0004397" },
+      "b": { "title": "A new sauropod from Morocco.", "year": 2010, "doi": "https://doi.org/10.1371/JOURNAL.PONE.0004397" },
+      "verdict": "same"
+    },
+    {
+      "case": "A book DOI shared by different chapters is a conflict, not a merge",
+      "a": { "title": "Stegosauria", "year": 2004, "doi": "10.1525/california/9780520242098" },
+      "b": { "title": "Ankylosauria", "year": 2004, "doi": "10.1525/california/9780520242098" },
+      "verdict": "conflict"
+    },
+    {
+      "case": "A corrigendum is related to its paper, never the same publication",
+      "a": { "title": "Nanotyrannus and Tyrannosaurus coexisted at the close of the Cretaceous", "year": 2025 },
+      "b": { "title": "Corrigendum: Nanotyrannus and Tyrannosaurus coexisted at the close of the Cretaceous", "year": 2025 },
+      "verdict": "related"
+    },
+    {
+      "case": "Preprint and final paper with different DOIs stay distinct records",
+      "a": { "title": "Growing up Tyrannosaurus rex", "year": 2019, "doi": "10.1101/2019.12.15.876706" },
+      "b": { "title": "Growing up Tyrannosaurus rex", "year": 2020, "doi": "10.1126/sciadv.aax6250" },
+      "verdict": "distinct"
+    },
+    {
+      "case": "No DOI, same title, year and first author: reported for review, not merged",
+      "a": { "title": "Dwarf dinosaurs from the Late Cretaceous of Europe?", "year": 2007, "authors": ["X. Pereda-Suberbiola"], "journal": "IV Jornadas" },
+      "b": { "title": "Dwarf dinosaurs from the Late Cretaceous of Europe", "year": 2007, "authors": ["X. Pereda Suberbiola"], "journal": "V Jornadas" },
+      "verdict": "probable_same"
+    }
+  ]
+}

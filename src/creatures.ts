@@ -1,4 +1,4 @@
-import type { CreaturePaper, KeyEvent, PublicationSummary, Side, Stance, TheoreticalCreature } from './types'
+import type { CorpusState, CreaturePaper, KeyEvent, PublicationSummary, Side, Stance, StateChange, Strength, TaxonomicOpinion, TheoreticalCreature } from './types'
 
 const SVG_NS = 'http://www.w3.org/2000/svg'
 
@@ -15,26 +15,47 @@ const RIGHT_PADDING = 14
 const MARKER = 6
 const TICK = 2.5
 
-/** Where a hypothesis stands at a moment in the literature. */
-export type LifeState = 'alive' | 'contested' | 'confirmed' | 'dead'
+/** Where a hypothesis stands in the ingested literature at a moment. Describes the corpus, not the animal. */
+export type LifeState = CorpusState
 
 export const LIFE_LABELS: Record<LifeState, string> = {
-  alive: 'Alive',
+  in_use: 'In use',
   contested: 'Contested',
-  confirmed: 'Confirmed',
-  dead: 'Dead',
+  sunk: 'Sunk',
+}
+
+export const LIFE_EXPLANATIONS: Record<LifeState, string> = {
+  in_use: 'The latest turning point treats the name as valid (or records its use), and no stated claim in the corpus has disputed it since.',
+  contested: 'A challenge is open, or a stated claim in the corpus disputes the latest turning point.',
+  sunk: 'The latest turning point is an evidence-backed claim sinking the name, and no stated claim in the corpus has defended it since. This describes the corpus, not a verdict.',
 }
 
 export const STANCE_INFO: Record<Stance, { label: string; side: Side }> = {
   proposes: { label: 'Proposed', side: 'for' },
-  supports: { label: 'Supported', side: 'for' },
-  confirms: { label: 'Confirmed', side: 'for' },
+  recorded: { label: 'First recorded use', side: 'usage' },
+  supports: { label: 'Defended', side: 'for' },
   revives: { label: 'Revived', side: 'for' },
   challenges: { label: 'Challenged', side: 'against' },
-  refutes: { label: 'Refuted', side: 'against' },
+  refutes: { label: 'Sunk', side: 'against' },
 }
 
-export const SIDE_LABELS: Record<Side, string> = { for: 'For', against: 'Against', neutral: 'Neutral' }
+export const SIDE_LABELS: Record<Side, string> = { for: 'For', against: 'Against', neutral: 'Neutral', usage: 'Name used only' }
+
+export const STRENGTH_LABELS: Record<Strength, string> = {
+  usage: 'name usage only',
+  implied: 'implied',
+  stated: 'stated without evidence',
+  argued: 'stated with evidence',
+}
+
+export const AUTHORITY_LABELS: Record<TaxonomicOpinion['authority'], string> = {
+  pbdb_compiled: 'recorded by a PBDB compiler',
+  direct_full_text: 'read from the full text',
+  direct_abstract_unverified: 'read from the abstract (not verified against full text)',
+  build_derived: 'derived by the build from fossil identifications',
+}
+
+const STRENGTH_RANK: Record<Strength, number> = { usage: 0, implied: 1, stated: 2, argued: 3 }
 
 export interface LifeSegment {
   from: number
@@ -42,65 +63,107 @@ export interface LifeSegment {
   state: LifeState
 }
 
+/** A claim with the paper it comes from. */
+export interface SourcedClaim {
+  claim: TaxonomicOpinion
+  publication: PublicationSummary
+}
+
+export interface NameUse {
+  name: string
+  first: number
+  last: number
+  papers: number
+}
+
 export interface Life {
   /** Key events published up to the "known by" year. */
   events: KeyEvent[]
-  /** Every ingested paper with an opinion on the creature, up to that year. */
+  /** Every ingested paper with a claim on the creature, up to that year. */
   papers: CreaturePaper[]
   segments: LifeSegment[]
   /** Null until the hypothesis has been proposed. */
   state: LifeState | null
+  /** The state change currently in force, with its cause. */
+  change: StateChange | null
   born: number | null
-  /** Year of the refutation that currently holds, if the hypothesis is dead. */
-  died: number | null
+  /** Year the current state began. */
+  since: number | null
   support: number
   opposition: number
+  usage: number
+  /** Literal names the papers used, up to that year. */
+  names: NameUse[]
+  /** The latest stated-or-argued claim on each side, up to that year. */
+  latestFor: SourcedClaim | null
+  latestAgainst: SourcedClaim | null
 }
 
-function nextState(state: LifeState | null, stance: Stance): LifeState | null {
-  switch (stance) {
-    case 'proposes':
-    case 'revives':
-      return 'alive'
-    case 'supports':
-      return state === 'contested' ? 'alive' : state
-    case 'confirms':
-      return 'confirmed'
-    case 'challenges':
-      return 'contested'
-    case 'refutes':
-      return 'dead'
+function latest(papers: CreaturePaper[], side: Side): SourcedClaim | null {
+  let best: SourcedClaim | null = null
+  for (const paper of papers) {
+    for (const claim of paper.opinions) {
+      if (claim.side !== side || STRENGTH_RANK[claim.strength] < STRENGTH_RANK.stated) continue
+      // Papers are in publication order: a later one wins; within a paper, the stronger claim.
+      if (!best || best.publication !== paper.publication || STRENGTH_RANK[claim.strength] > STRENGTH_RANK[best.claim.strength]) {
+        best = { claim, publication: paper.publication }
+      }
+    }
   }
+  return best
 }
 
-/** Replays a creature's papers, in order, up to and including `untilYear`. */
+function namesUsed(papers: CreaturePaper[]): NameUse[] {
+  const uses = new Map<string, NameUse>()
+  for (const paper of papers) {
+    const year = paper.publication.year
+    for (const name of new Set(paper.opinions.map(claim => claim.name_as_published))) {
+      const use = uses.get(name)
+      if (use) {
+        use.last = year
+        use.papers += 1
+      } else uses.set(name, { name, first: year, last: year, papers: 1 })
+    }
+  }
+  return [...uses.values()].sort((a, b) => a.first - b.first || a.name.localeCompare(b.name))
+}
+
+/**
+ * The creature as the corpus stood at the end of `untilYear`. Every state comes
+ * from the build's derived state changes, so nothing published later is used.
+ */
 export function lifeOf(creature: TheoreticalCreature, untilYear: number, now: number): Life {
   const events = creature.key_events.filter(event => event.publication.year <= untilYear)
   const papers = creature.papers.filter(paper => paper.publication.year <= untilYear)
+  const changes = creature.states.filter(change => change.year <= untilYear)
   const end = Math.min(untilYear, now) + 1
   const segments: LifeSegment[] = []
-  let state: LifeState | null = null
-  let died: number | null = null
-  for (const event of events) {
-    const year = event.publication.year
-    const next = nextState(state, event.stance)
-    if (next === state) continue
+  for (const change of changes) {
     const open = segments.at(-1)
-    if (open) open.to = year
-    if (next) segments.push({ from: year, to: end, state: next })
-    if (next === 'dead') died = year
-    else died = null
-    state = next
+    // Several changes in one year: the year ends in the last one.
+    if (open && open.from === change.year) {
+      open.state = change.state
+      continue
+    }
+    if (open && open.state === change.state) continue
+    if (open) open.to = change.year
+    segments.push({ from: change.year, to: end, state: change.state })
   }
+  const change = changes.at(-1) ?? null
   return {
     events,
     papers,
-    segments: segments.filter(segment => segment.to > segment.from || segment === segments.at(-1)),
-    state,
+    segments,
+    state: change?.state ?? null,
+    change,
     born: events[0]?.publication.year ?? null,
-    died,
+    since: segments.at(-1)?.from ?? null,
     support: papers.filter(paper => paper.side === 'for').length,
     opposition: papers.filter(paper => paper.side === 'against').length,
+    usage: papers.filter(paper => paper.side === 'usage').length,
+    names: namesUsed(papers),
+    latestFor: latest(papers, 'for'),
+    latestAgainst: latest(papers, 'against'),
   }
 }
 
@@ -129,8 +192,9 @@ function marker(stance: Stance, x: number, y: number): SVGElement {
       return svg('circle', { cx: x, cy: y, r, class: className })
     case 'revives':
       return svg('circle', { cx: x, cy: y, r: r - 1, class: `${className} ring` })
+    case 'recorded':
+      return svg('circle', { cx: x, cy: y, r: r - 2, class: `${className} hollow` })
     case 'supports':
-    case 'confirms':
       return svg('path', { d: `M${x} ${y - r - 1}L${x + r} ${y + r - 1}L${x - r} ${y + r - 1}Z`, class: className })
     case 'challenges':
       return svg('path', { d: `M${x} ${y - r}L${x + r} ${y}L${x} ${y + r}L${x - r} ${y}Z`, class: className })
@@ -144,7 +208,7 @@ export function markerSample(stance: Stance): string {
   return `<svg width="20" height="18" viewBox="0 0 20 18" aria-hidden="true">${node.outerHTML}</svg>`
 }
 
-/** Small mark for a paper that argued without changing the hypothesis's life: above the line for, below against. */
+/** Small mark for a paper that did not change the hypothesis's life: above the line for, below against, on it otherwise. */
 function tick(side: Side, x: number, y: number): SVGElement {
   const offset = side === 'for' ? -9 : side === 'against' ? 9 : 0
   return svg('circle', { cx: x, cy: y + offset, r: TICK, class: `paper-tick side-${side}` })
@@ -230,13 +294,13 @@ export class Lifelines {
       const status = compact
         ? svg('text', { x: width - RIGHT_PADDING, y: top + 18, 'text-anchor': 'end', class: `life-status state-${life.state ?? 'unborn'}` })
         : svg('text', { x: 10, y: y + 12, class: `life-status state-${life.state ?? 'unborn'}` })
-      status.textContent = life.state ? `${LIFE_LABELS[life.state]}${life.died ? ` since ${life.died}` : ''}` : 'Not yet proposed'
+      status.textContent = life.state ? `${LIFE_LABELS[life.state]} since ${life.since}` : 'Not yet proposed'
       row.append(name, status)
 
       for (const segment of life.segments) {
         const x0 = x(segment.from)
         const x1 = Math.max(x0 + 2, x(segment.to))
-        if (segment.state === 'dead') {
+        if (segment.state === 'sunk') {
           row.append(svg('line', { x1: x0, x2: x1, y1: y, y2: y, class: 'life-dead' }))
         } else {
           row.append(svg('rect', { x: x0, y: y - 5, width: x1 - x0, height: 10, rx: 3, class: `life-bar state-${segment.state}` }))

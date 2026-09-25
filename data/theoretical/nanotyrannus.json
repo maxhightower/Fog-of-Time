@@ -1,13 +1,13 @@
 {
-  "schema_version": "fog-of-time.theoretical-creature/v2",
+  "schema_version": "fog-of-time.theoretical-creature/v3",
   "id": "nanotyrannus",
   "name": "Nanotyrannus",
   "scientific_name": "Nanotyrannus lancensis",
-  "hypothesis": "The small Hell Creek tyrannosaur (Nanotyrannus lancensis) is its own animal, not a juvenile Tyrannosaurus rex.",
+  "hypothesis": "The small Hell Creek tyrannosaur species lancensis (named Gorgosaurus lancensis in 1946, Nanotyrannus lancensis from 1988) is its own animal, not a juvenile Tyrannosaurus rex.",
   "taxa": ["Nanotyrannus", "Nanotyrannus lancensis"],
   "rules": {
     "for": [
-      { "status": ["belongs_to", "identified_as"] }
+      { "status": ["belongs_to"] }
     ],
     "against": [
       { "status": ["subjective_synonym_of", "objective_synonym_of"], "related": ["Tyrannosaurus"] }
@@ -16,10 +16,10 @@
   "key_events": [
     { "publication_id": "pbdb-ref:14592", "stance": "proposes" },
     { "publication_id": "pbdb-ref:7925", "stance": "supports" },
-    { "publication_id": "pbdb-ref:14112", "stance": "refutes" },
-    { "publication_id": "pbdb-ref:14428", "stance": "revives" },
-    { "publication_id": "pbdb-ref:15218", "stance": "refutes" },
-    { "publication_id": "pbdb-ref:90509", "stance": "revives" },
-    { "publication_id": "pbdb-ref:94628", "stance": "confirms" }
+    { "publication_id": "pbdb-ref:14112", "stance": "challenges" },
+    { "publication_id": "pbdb-ref:14428", "stance": "supports" },
+    { "publication_id": "pbdb-ref:15218", "stance": "challenges" },
+    { "publication_id": "pbdb-ref:84738", "stance": "refutes" },
+    { "publication_id": "pbdb-ref:94628", "stance": "revives" }
   ]
 }

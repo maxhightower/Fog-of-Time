@@ -34,6 +34,7 @@ from urllib.parse import urlencode
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from build_data import corpus_creature_taxa, load_documents  # noqa: E402
+from publication_identity import compare, normalize_doi  # noqa: E402
 from import_pbdb_references import (  # noqa: E402
     BASE,
     EXTRACTED,
@@ -89,11 +90,6 @@ def opinion_summary(taxon: str, status: str, parent: str | None, published_as: s
     if status in NOMINA:
         return f"{name} {phrase}" + (f" (filed under {parent})." if parent else ".")
     return f"{name} {phrase} {parent}." if parent else f"{name} {phrase}."
-
-
-def same_title(a: str, b: str) -> bool:
-    """Titles equal once quotes, punctuation and accents are ignored."""
-    return re.sub(r"[^a-z0-9]", "", fold(a)) == re.sub(r"[^a-z0-9]", "", fold(b))
 
 
 def to_opinion(row: dict[str, str]) -> dict[str, Any]:
@@ -164,8 +160,9 @@ def existing_documents() -> tuple[dict[str, Path], dict[str, Path]]:
         publication = json.loads(path.read_text(encoding="utf-8"))["publication"]
         if publication["id"].startswith("pbdb-ref:"):
             by_ref[publication["id"].split(":", 1)[1]] = path
-        if publication.get("doi"):
-            by_doi[publication["doi"].strip().casefold()] = path
+        doi = normalize_doi(publication.get("doi")).normalized
+        if doi:
+            by_doi[doi] = path
     return by_ref, by_doi
 
 
@@ -211,17 +208,20 @@ def main() -> int:
         opinions = sorted((to_opinion(row) for row in primary), key=lambda opinion: opinion["id"])
 
         doi = (ref.get("doi") or "").strip() or None
+        normalized = normalize_doi(doi).normalized
         path = by_ref.get(ref_id)
-        if path is None and doi and doi.casefold() in by_doi:
+        if path is None and normalized and normalized in by_doi:
             # PBDB sometimes enters one paper twice (e.g. online and print
-            # years). Same DOI and title: one paper, so its opinions merge.
-            other = json.loads(by_doi[doi.casefold()].read_text(encoding="utf-8"))["publication"]
+            # years). The identity rules decide: only "same" (equal DOI and
+            # title) merges; anything else keeps a separate record.
+            other = json.loads(by_doi[normalized].read_text(encoding="utf-8"))["publication"]
             title = (ref.get("reftitle") or ref.get("pubtitle") or "")
-            if same_title(other["title"], title) is False:
-                print(f"PBDB reference {ref_id} shares DOI {doi} with a different title; DOI dropped", file=sys.stderr)
+            verdict = compare(other, {"title": title, "doi": doi, "year": int_or_none(ref.get("pubyr"))})
+            if not verdict.may_merge:
+                print(f"PBDB reference {ref_id} shares DOI {doi} but is {verdict.verdict} ({verdict.rule}); DOI dropped", file=sys.stderr)
                 doi = None
             else:
-                path = by_doi[doi.casefold()]
+                path = by_doi[normalized]
         if path is not None:
             document = json.loads(path.read_text(encoding="utf-8"))
             ids = {opinion["id"] for opinion in opinions}
@@ -256,8 +256,9 @@ def main() -> int:
             action = "created"
         path.write_text(json.dumps(document, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         by_ref[ref_id] = path
-        if document["publication"].get("doi"):
-            by_doi.setdefault(document["publication"]["doi"].casefold(), path)
+        normalized = normalize_doi(document["publication"].get("doi")).normalized
+        if normalized:
+            by_doi.setdefault(normalized, path)
         imported.append({
             "reference_id": int(ref_id),
             "file": str(path.relative_to(ROOT)),

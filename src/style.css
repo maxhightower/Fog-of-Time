@@ -18,10 +18,10 @@
   --series-3: #199e70;
   --series-other: #8d9184;
   /* Hypothesis life states. */
-  --life-alive: #199e70;
-  --life-confirmed: #4fd6a3;
+  --life-in-use: #199e70;
+  --life-usage: #9fb8ad;
   --life-contested: #d8c36f;
-  --life-dead: #8d9184;
+  --life-sunk: #8d9184;
   --life-refute: #d95926;
   /* Notebook section colours. */
   --section-deep-time: #d8c36f;
@@ -211,20 +211,19 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
 .life-row:focus-visible .hit { stroke: var(--accent-strong); stroke-width: 2; }
 .life-name { fill: var(--text); font-size: 13px; font-weight: 700; }
 .life-status { font-size: 11.5px; font-weight: 600; fill: var(--muted); }
-.life-status.state-alive { fill: var(--life-alive); }
-.life-status.state-confirmed { fill: var(--life-confirmed); }
+.life-status.state-in_use { fill: var(--life-in-use); }
 .life-status.state-contested { fill: var(--life-contested); }
-.life-bar.state-alive { fill: var(--life-alive); }
-.life-bar.state-confirmed { fill: var(--life-confirmed); }
+.life-bar.state-in_use { fill: var(--life-in-use); }
 .life-bar.state-contested { fill: color-mix(in srgb, var(--life-contested) 70%, transparent); stroke: var(--life-contested); stroke-dasharray: 4 3; }
-.life-dead { stroke: var(--life-dead); stroke-width: 2; stroke-dasharray: 1 4; stroke-linecap: round; }
+.life-dead { stroke: var(--life-sunk); stroke-width: 2; stroke-dasharray: 1 4; stroke-linecap: round; }
 .stance-mark { fill: var(--text); stroke: #191b17; stroke-width: 1.5; cursor: help; }
-.stance-mark.ring { fill: #191b17; stroke: var(--life-confirmed); stroke-width: 2.5; }
+.stance-mark.ring { fill: #191b17; stroke: var(--life-in-use); stroke-width: 2.5; }
+.stance-mark.hollow { fill: #191b17; stroke: var(--life-usage); stroke-width: 2; }
 .stance-mark.cross { fill: none; stroke: var(--life-refute); stroke-width: 3; stroke-linecap: round; }
-.stance-mark.stance-confirms { fill: var(--life-confirmed); }
 .stance-mark.stance-challenges { fill: var(--life-contested); }
 .paper-tick { stroke: none; cursor: help; }
-.paper-tick.side-for { fill: var(--life-alive); }
+.paper-tick.side-for { fill: var(--life-in-use); }
+.paper-tick.side-usage { fill: none; stroke: var(--life-usage); stroke-width: 1; opacity: 0.8; }
 .paper-tick.side-against { fill: var(--life-refute); }
 .paper-tick.side-neutral { fill: var(--muted); opacity: 0.7; }
 .paper-tick:hover { r: 4; }
@@ -235,10 +234,9 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
 .inline-legend li { gap: 6px; color: var(--text); }
 .inline-legend svg { flex: none; }
 .life-swatch { width: 18px; height: 8px; border-radius: 3px; flex: none; }
-.life-swatch.state-alive { background: var(--life-alive); }
-.life-swatch.state-confirmed { background: var(--life-confirmed); }
+.life-swatch.state-in_use { background: var(--life-in-use); }
 .life-swatch.state-contested { background: repeating-linear-gradient(90deg, var(--life-contested) 0 4px, transparent 4px 7px); }
-.life-swatch.state-dead { height: 0; border-radius: 0; border-top: 2px dotted var(--life-dead); }
+.life-swatch.state-sunk { height: 0; border-radius: 0; border-top: 2px dotted var(--life-sunk); }
 
 .workspace.creatures-workspace { grid-template-columns: 300px minmax(0, 1fr); grid-template-areas: "layers main"; }
 .creature-status { margin: 10px 0 0; font-size: 0.86rem; }
@@ -258,10 +256,9 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
 .creature-count strong { font-size: 1rem; }
 .creature-split { color: var(--muted); font-size: 0.7rem; white-space: nowrap; }
 .state-dot { width: 10px; height: 10px; border-radius: 50%; flex: none; background: transparent; border: 1.5px solid var(--muted); }
-.state-dot.state-alive { background: var(--life-alive); border-color: var(--life-alive); }
-.state-dot.state-confirmed { background: var(--life-confirmed); border-color: var(--life-confirmed); }
+.state-dot.state-in_use { background: var(--life-in-use); border-color: var(--life-in-use); }
 .state-dot.state-contested { background: var(--life-contested); border-color: var(--life-contested); }
-.state-dot.state-dead { background: transparent; border-color: var(--life-dead); border-style: dotted; }
+.state-dot.state-sunk { background: transparent; border-color: var(--life-sunk); border-style: dotted; }
 
 .life-history { list-style: none; margin: 0; padding: 0 0 0 14px; border-left: 2px solid var(--border); display: grid; gap: 16px; }
 .life-history li { position: relative; }
@@ -271,7 +268,8 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
 .life-history .life-history-source { font-size: 0.82rem; color: var(--muted); }
 .life-history a { color: var(--accent-strong); }
 .stance-chip { display: inline-flex; align-items: center; gap: 4px; padding: 1px 9px 1px 4px; border-radius: 999px; border: 1px solid var(--border); font-size: 0.78rem; font-weight: 700; }
-.stance-chip.side-for { border-color: color-mix(in srgb, var(--life-alive) 60%, var(--border)); }
+.stance-chip.side-for { border-color: color-mix(in srgb, var(--life-in-use) 60%, var(--border)); }
+.stance-chip.side-usage { border-style: dashed; }
 .stance-chip.side-against { border-color: color-mix(in srgb, var(--life-refute) 60%, var(--border)); }
 .all-papers { margin-top: 22px; }
 .all-papers summary { cursor: pointer; font-weight: 700; color: var(--accent-strong); }
@@ -316,3 +314,13 @@ h3 { margin: 28px 0 10px; font-size: 1rem; }
   .fact-grid { grid-template-columns: 1fr; gap: 4px; }
   .fact-grid dd { margin-bottom: 10px; }
 }
+
+/* Competing claims: both sides of a disagreement, side by side. */
+.competing-claims { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.claim-card { border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; }
+.claim-card.side-for { border-left: 3px solid var(--life-in-use); }
+.claim-card.side-against { border-left: 3px solid var(--life-refute); }
+.claim-card h4 { margin: 0 0 6px; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+.claim-card p { margin: 4px 0; line-height: 1.5; }
+.claim-provenance { font-size: 0.78rem; color: var(--muted); }
+.life-history .claim-provenance { color: var(--muted); }

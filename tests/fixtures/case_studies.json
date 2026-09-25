@@ -1,0 +1,42 @@
+{
+  "description": "Adversarial taxonomic histories reconstructed from the real corpus. 'states' pins the corpus state at the end of a year (null = not yet proposed); 'published_as' pins literal names the corpus used by that year. See docs/audit/scientific-model-audit.md for the narrative of each case.",
+  "cases": [
+    {
+      "creature": "nanotyrannus",
+      "why": "Species concept renamed three times; genus disputed as juvenile Tyrannosaurus; argued sinking (2020) and argued revival (2025).",
+      "states": { "1945": null, "1950": "in_use", "1990": "in_use", "1996": "contested", "2010": "contested", "2020": "sunk", "2024": "contested", "2025": "in_use" },
+      "published_as": { "1950": ["Gorgosaurus lancensis"], "1980": ["Gorgosaurus lancensis", "Albertosaurus lancensis", "Aublysodon lancensis"] },
+      "not_published_as_by": { "1987": ["Nanotyrannus", "Nanotyrannus lancensis"] },
+      "turning_point_opinion_strengths": { "refutes": ["argued"], "revives": ["argued"] }
+    },
+    {
+      "creature": "brontosaurus",
+      "why": "Riggs (1903) sinks it without recorded evidence, but the corpus keeps treating it as valid; argued revival 2015, disputed again 2016.",
+      "states": { "1880": "in_use", "1903": "contested", "1950": "contested", "2015": "in_use", "2016": "contested" },
+      "published_as": { "1970": ["Apatosaurus excelsus"] }
+    },
+    {
+      "creature": "toroceratops",
+      "why": "An inverted hypothesis (Torosaurus = mature Triceratops): proposed, challenged and defended in successive years; no single refutation.",
+      "states": { "2009": null, "2010": "in_use", "2011": "in_use", "2012": "contested" }
+    },
+    {
+      "creature": "stygimoloch",
+      "why": "Ontogenetic synonymy with Pachycephalosaurus argued twice; papers keep using Stygimoloch as valid afterwards.",
+      "states": { "1983": "in_use", "2009": "contested", "2010": "in_use", "2016": "sunk", "2021": "contested" }
+    },
+    {
+      "creature": "american-cheetah",
+      "why": "A non-dinosaur hypothesis about phylogenetic placement; sunk by an abstract-level (unverified) direct reading.",
+      "states": { "1978": null, "1979": "in_use", "2025": "in_use", "2026": "sunk" },
+      "published_as": { "1981": ["Crocuta inexpectata"] },
+      "sunk_by_authority": "direct_abstract_unverified"
+    },
+    {
+      "creature": "tyrannosaurus-rex",
+      "why": "Control: a stable taxon must stay in use with no turning point after its first.",
+      "states": { "1904": null, "1905": "in_use", "1990": "in_use", "2026": "in_use" },
+      "turning_points": 1
+    }
+  ]
+}

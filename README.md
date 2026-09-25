@@ -103,15 +103,20 @@ The committed production dataset now combines a 25-paper direct-full-text benchm
 ### Creatures
 
 The **Creatures** section tracks every creature as a hypothesis argued over in the
-ingested papers. That covers every genus and species the corpus reports fossils of (the
-**official** creatures) and hand-curated **theoretical** creatures that started life as
-hypotheses, such as the American cheetah (*Miracinonyx*), Nanotyrannus and
-"Toroceratops". Each lifeline runs across publication years: born when a paper proposes
-the animal, contested, killed by a refutation, and sometimes revived, with a small tick
-for every other ingested paper that argued the point. The list can be searched,
-filtered (theoretical, official, contested, dead) and sorted, and it has its own "Known
-by" replay. Official creatures' turning points follow one written-down rule; theoretical
-ones are curated. See [docs/DATA_MODEL.md](docs/DATA_MODEL.md#theoretical-creatures).
+ingested papers. That covers every genus and species the corpus reports fossils of
+(**rule-based**) and hand-**curated** hypotheses such as the American cheetah
+(*Miracinonyx*), Nanotyrannus and "Toroceratops". Each lifeline runs across publication
+years and shows what the corpus looked like at the time: **in use**, **contested** or
+**sunk**. These are descriptions of the literature, not verdicts. Turning points are
+marked (proposed, defended, challenged, sunk, revived), and every other paper appears as
+a small tick: for, against, neutral, or **name used only** (a paper that merely reported
+fossils under the name, which never counts as support).
+
+Selecting a creature shows its history as of the "Known by" year: the literal names
+papers used (Gilmore 1946 wrote *Gorgosaurus lancensis*), the latest claim for and
+against side by side, and each claim's strength and source record. Nothing published
+after the chosen year is shown. See [docs/DATA_MODEL.md](docs/DATA_MODEL.md#creatures)
+and the [model audit](docs/audit/scientific-model-audit.md).
 
 ## Rebuild data
 
@@ -122,6 +127,10 @@ python scripts/data/build_data.py
 ```
 
 This validates every `data/extracted/*.json`, rebuilds `build/fog-of-time.sqlite`, and rewrites the static files in `public/data/`. It performs no network access.
+
+```bash
+python -m unittest discover -s tests   # scientific-model regression tests
+```
 
 ## Production evidence standard
 

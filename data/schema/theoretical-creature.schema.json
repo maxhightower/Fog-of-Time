@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://fog-of-time.local/schema/theoretical-creature-v2.json",
+  "$id": "https://fog-of-time.local/schema/theoretical-creature-v3.json",
   "title": "Fog of Time theoretical creature",
-  "description": "A hypothesised animal whose life is argued over in the taxonomic opinions of ingested papers.",
+  "description": "A hypothesis about an animal whose life is argued over in the taxonomic claims of ingested papers. Name usage (identified_as) cannot count for or against it.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -16,7 +16,7 @@
   ],
   "properties": {
     "schema_version": {
-      "const": "fog-of-time.theoretical-creature/v2"
+      "const": "fog-of-time.theoretical-creature/v3"
     },
     "id": {
       "type": "string",
@@ -75,12 +75,23 @@
           "stance": {
             "enum": [
               "proposes",
+              "recorded",
               "supports",
               "challenges",
               "refutes",
-              "revives",
-              "confirms"
-            ]
+              "revives"
+            ],
+            "description": "refutes/revives need an argued (stated with evidence) claim; supports/challenges a stated one. A weaker claim needs a rationale."
+          },
+          "opinion_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Pin the turning point to one of the paper's claims."
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Curator's reason, required when the cited claim is weaker than the stance needs."
           }
         }
       }
@@ -126,8 +137,7 @@
         "nomen_nudum",
         "nomen_vanum",
         "nomen_oblitum",
-        "sister_to",
-        "identified_as"
+        "sister_to"
       ]
     }
   }

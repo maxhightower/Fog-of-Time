@@ -1,5 +1,5 @@
 {
-  "schema_version": "fog-of-time.theoretical-creature/v2",
+  "schema_version": "fog-of-time.theoretical-creature/v3",
   "id": "stygimoloch",
   "name": "Stygimoloch",
   "scientific_name": "Stygimoloch spinifer",
@@ -7,7 +7,7 @@
   "taxa": ["Stygimoloch", "Stygimoloch spinifer"],
   "rules": {
     "for": [
-      { "status": ["belongs_to", "identified_as"] }
+      { "status": ["belongs_to"] }
     ],
     "against": [
       { "status": ["subjective_synonym_of", "objective_synonym_of"], "related": ["Pachycephalosaurus"] }

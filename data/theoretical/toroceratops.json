@@ -1,5 +1,5 @@
 {
-  "schema_version": "fog-of-time.theoretical-creature/v2",
+  "schema_version": "fog-of-time.theoretical-creature/v3",
   "id": "toroceratops",
   "name": "“Toroceratops”",
   "scientific_name": "Torosaurus = Triceratops",
@@ -10,7 +10,7 @@
       { "status": ["subjective_synonym_of", "objective_synonym_of"], "related": ["Triceratops"] }
     ],
     "against": [
-      { "status": ["belongs_to", "identified_as"] }
+      { "status": ["belongs_to"] }
     ]
   },
   "key_events": [

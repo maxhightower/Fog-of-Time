@@ -62,7 +62,7 @@ export function namesFor(record: TimelineEvidence): string[] {
 
 /** Words a name search matches against: taxon, specimen label, common names and nicknames. */
 export function searchWords(record: TimelineEvidence): string[] {
-  return normalizeName([record.taxon, record.specimen_label ?? '', ...namesFor(record)].join(' ')).split(' ')
+  return normalizeName([record.taxon, record.taxon_as_published, record.specimen_label ?? '', ...namesFor(record)].join(' ')).split(' ')
 }
 
 /**

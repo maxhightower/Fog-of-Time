@@ -1,5 +1,5 @@
 {
-  "schema_version": "fog-of-time.theoretical-creature/v2",
+  "schema_version": "fog-of-time.theoretical-creature/v3",
   "id": "gresslyosaurus",
   "name": "Gresslyosaurus",
   "scientific_name": "Gresslyosaurus ingens",
@@ -7,7 +7,7 @@
   "taxa": ["Gresslyosaurus", "Gresslyosaurus ingens", "Gresslyosaurus robustus"],
   "rules": {
     "for": [
-      { "status": ["belongs_to", "identified_as"] }
+      { "status": ["belongs_to"] }
     ],
     "against": [
       { "status": ["subjective_synonym_of", "objective_synonym_of", "nomen_dubium", "nomen_nudum", "nomen_vanum"] },

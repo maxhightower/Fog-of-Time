@@ -43,6 +43,16 @@ MESOZOIC_OLD = 252.0
 
 PBDB_FILES_GLOB = "pbdb-ref-*.json"
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from publication_identity import first_author_surname, normalize_doi, normalize_title  # noqa: E402
+
+
+def identity_key(title: str | None, year: Any, authors: list[str]) -> str:
+    """Title, year and first-author surname: the publication identity rules'
+    threshold for a probable duplicate. Title alone is never identity: one
+    chapter title ("Sauropoda") recurs across editions and books."""
+    return f"{normalize_title(title)}|{year}|{first_author_surname(authors)}"
+
 
 def fetch_text(url: str, timeout: int = 90, retries: int = 4) -> str:
     last: Exception | None = None
@@ -97,12 +107,11 @@ def load_existing_publications() -> tuple[set[str], set[str]]:
         except Exception:
             continue
         publication = doc.get("publication", {})
-        doi = publication.get("doi")
-        if isinstance(doi, str) and doi.strip():
-            dois.add(doi.strip().casefold())
-        title = norm_title(publication.get("title"))
-        if title:
-            titles.add(title)
+        doi = normalize_doi(publication.get("doi")).normalized
+        if doi:
+            dois.add(doi)
+        if publication.get("title"):
+            titles.add(identity_key(publication["title"], publication.get("year"), publication.get("authors") or []))
     return dois, titles
 
 
@@ -229,8 +238,8 @@ def reference_is_usable(
     if pub_type not in {"journal article", "serial monograph"}:
         return False
 
-    nt = norm_title(title)
-    doi = (ref.get("doi") or "").strip().casefold()
+    nt = identity_key(title, year, author_list(ref))
+    doi = normalize_doi(ref.get("doi")).normalized or ""
     if nt in existing_titles or nt in used_titles:
         return False
     if doi and (doi in existing_dois or doi in used_dois):
@@ -258,8 +267,8 @@ def choose_references(
             continue
         if not reference_is_usable(ref, existing_dois, existing_titles, used_dois, used_titles):
             continue
-        title_key = norm_title(ref.get("reftitle"))
-        doi_key = (ref.get("doi") or "").strip().casefold()
+        title_key = identity_key(ref.get("reftitle"), int_or_none(ref.get("pubyr")), author_list(ref))
+        doi_key = normalize_doi(ref.get("doi")).normalized or ""
         used_titles.add(title_key)
         if doi_key:
             used_dois.add(doi_key)

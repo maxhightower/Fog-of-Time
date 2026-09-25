@@ -1,5 +1,5 @@
 {
-  "schema_version": "fog-of-time.theoretical-creature/v2",
+  "schema_version": "fog-of-time.theoretical-creature/v3",
   "id": "clasmodosaurus",
   "name": "Clasmodosaurus",
   "scientific_name": "Clasmodosaurus spatula",
@@ -7,7 +7,7 @@
   "taxa": ["Clasmodosaurus", "Clasmodosaurus spatula"],
   "rules": {
     "for": [
-      { "status": ["belongs_to", "identified_as"] }
+      { "status": ["belongs_to"] }
     ],
     "against": [
       { "status": ["subjective_synonym_of", "objective_synonym_of", "nomen_dubium", "nomen_nudum", "nomen_vanum"] }
@@ -16,7 +16,6 @@
   "key_events": [
     { "publication_id": "pbdb-ref:52202", "stance": "proposes" },
     { "publication_id": "pbdb-ref:52169", "stance": "refutes" },
-    { "publication_id": "pbdb-ref:59610", "stance": "revives" },
     { "publication_id": "pbdb-ref:36737", "stance": "refutes" }
   ]
 }

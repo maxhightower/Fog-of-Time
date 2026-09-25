@@ -1,5 +1,8 @@
-import type { CreaturePaper, KeyEvent, PublicationSummary, Side, Stance, TaxonomicOpinion, TheoreticalCreature } from './types'
-import { citation, LIFE_LABELS, lifeOf, Lifelines, markerSample, SIDE_LABELS, STANCE_INFO, tickSample, type Life, type LifeState } from './creatures'
+import type { CorpusState, CreaturePaper, KeyEvent, PublicationSummary, Side, Stance, StateChange, TaxonomicOpinion, TheoreticalCreature } from './types'
+import {
+  AUTHORITY_LABELS, citation, LIFE_EXPLANATIONS, LIFE_LABELS, lifeOf, Lifelines, markerSample, SIDE_LABELS, STANCE_INFO,
+  STRENGTH_LABELS, tickSample, type Life, type LifeState, type SourcedClaim,
+} from './creatures'
 import { factGrid, sourceLine } from './dom'
 
 const THIS_YEAR = new Date().getFullYear()
@@ -7,15 +10,16 @@ const THIS_YEAR = new Date().getFullYear()
 const ROW_LIMIT = 40
 const PLAY_STEP_MS = 120
 
-type Show = 'all' | 'theoretical' | 'official' | 'contested' | 'dead'
+type Show = 'all' | 'theoretical' | 'official' | 'in_use' | 'contested' | 'sunk'
 type Sort = 'papers' | 'name' | 'born' | 'eventful'
 
 const SHOW_OPTIONS: Array<{ value: Show; label: string; title: string }> = [
   { value: 'all', label: 'All', title: 'Every tracked creature' },
-  { value: 'theoretical', label: 'Theoretical', title: 'Hand-curated hypotheses such as the American cheetah' },
-  { value: 'official', label: 'Official', title: 'Currently accepted: alive or confirmed' },
-  { value: 'contested', label: 'Contested', title: 'Alive, but challenged without a reply' },
-  { value: 'dead', label: 'Dead', title: 'Refuted and not revived' },
+  { value: 'theoretical', label: 'Curated', title: 'Hypotheses with hand-curated turning points, such as the American cheetah' },
+  { value: 'official', label: 'Rule-based', title: 'Every genus and species the corpus reports fossils of, with turning points chosen by a written rule' },
+  { value: 'in_use', label: 'In use', title: LIFE_EXPLANATIONS.in_use },
+  { value: 'contested', label: 'Contested', title: LIFE_EXPLANATIONS.contested },
+  { value: 'sunk', label: 'Sunk', title: LIFE_EXPLANATIONS.sunk },
 ]
 
 const SORT_OPTIONS: Array<{ value: Sort; label: string }> = [
@@ -25,13 +29,14 @@ const SORT_OPTIONS: Array<{ value: Sort; label: string }> = [
   { value: 'name', label: 'Name' },
 ]
 
-const LIFE_STATES: LifeState[] = ['alive', 'contested', 'confirmed', 'dead']
-const STANCE_ORDER: Stance[] = ['proposes', 'supports', 'confirms', 'revives', 'challenges', 'refutes']
-const SIDES: Side[] = ['for', 'against', 'neutral']
+const LIFE_STATES: LifeState[] = ['in_use', 'contested', 'sunk']
+const STANCE_ORDER: Stance[] = ['proposes', 'recorded', 'supports', 'revives', 'challenges', 'refutes']
+const SIDES: Side[] = ['for', 'against', 'neutral', 'usage']
 
-interface RawKeyEvent { stance: Stance; publication_id: string; opinion: TaxonomicOpinion }
+interface RawKeyEvent { stance: Stance; publication_id: string; opinion: TaxonomicOpinion; rationale?: string | null }
 interface RawPaper { publication_id: string; side: Side; opinions: TaxonomicOpinion[] }
-interface RawCreature extends Omit<TheoreticalCreature, 'key_events' | 'papers'> { key_events: RawKeyEvent[]; papers: RawPaper[] }
+interface RawState { year: number; state: CorpusState; cause: StateChange['cause']; opinion_id: string; publication_id: string }
+interface RawCreature extends Omit<TheoreticalCreature, 'key_events' | 'papers' | 'states'> { key_events: RawKeyEvent[]; papers: RawPaper[]; states: RawState[] }
 interface CreatureExport { publications: Record<string, PublicationSummary>; creatures: RawCreature[] }
 
 /** The export stores each publication once; creatures refer to it by id. */
@@ -39,13 +44,24 @@ function hydrate(data: CreatureExport): TheoreticalCreature[] {
   const publication = (id: string) => data.publications[id]
   return data.creatures.map(creature => ({
     ...creature,
-    key_events: creature.key_events.map((event): KeyEvent => ({ stance: event.stance, opinion: event.opinion, publication: publication(event.publication_id) })),
+    key_events: creature.key_events.map((event): KeyEvent => ({ stance: event.stance, opinion: event.opinion, rationale: event.rationale, publication: publication(event.publication_id) })),
     papers: creature.papers.map((paper): CreaturePaper => ({ side: paper.side, opinions: paper.opinions, publication: publication(paper.publication_id) })),
+    states: creature.states.map((change): StateChange => ({ year: change.year, state: change.state, cause: change.cause, opinion_id: change.opinion_id, publication: publication(change.publication_id) })),
   }))
 }
 
-function isOfficial(state: LifeState | null): boolean {
-  return state === 'alive' || state === 'confirmed'
+/** "Stated with evidence · recorded by a PBDB compiler · pbdb-opinion:123". */
+function provenance(claim: TaxonomicOpinion): string {
+  const records = claim.source_records.length ? claim.source_records.join(', ') : claim.id
+  return [STRENGTH_LABELS[claim.strength], AUTHORITY_LABELS[claim.authority], claim.derivation_rule && `rule ${claim.derivation_rule}`, records]
+    .filter(Boolean)
+    .join(' · ')
+}
+
+/** The paper's own wording of the name, when it differs from the tracked one. */
+function asPublished(claim: TaxonomicOpinion): string {
+  const differs = claim.name_as_published !== claim.taxon && !claim.summary.includes(claim.name_as_published)
+  return differs ? `Published as ${claim.name_as_published}. ` : ''
 }
 
 /** The Creatures notebook section: every tracked creature's life in the ingested literature. */
@@ -100,7 +116,7 @@ export class CreaturesView {
             </div>
             <p id="creature-list-count" class="layer-note" aria-live="polite"></p>
             <ul id="creature-list" class="creature-list"></ul>
-            <p class="layer-note">Count = ingested papers with an opinion on the creature (▲ for · ▼ against).</p>
+            <p class="layer-note">Count = ingested papers with a claim on the creature (▲ for · ▼ against · ○ only reported fossils under the name). A count is not a measure of consensus.</p>
           </section>
         </aside>
 
@@ -111,7 +127,7 @@ export class CreaturesView {
                 <p class="eyebrow">CREATURES</p>
                 <h2 id="creatures-heading">Lives of creatures in the literature</h2>
               </div>
-              <p class="muted">Every creature is a hypothesis argued over in the ingested papers: born when one proposes it, killed when one refutes it. Official creatures follow a fixed rule; theoretical ones have curated turning points.</p>
+              <p class="muted">Every creature is a hypothesis argued over in the ingested papers. States describe what the corpus looked like at the time (in use, contested, sunk), not which side is right. Rule-based creatures follow a written rule; curated ones have hand-picked turning points.</p>
             </div>
             <p id="creature-status" class="muted creature-status" aria-live="polite">Loading creatures…</p>
             <div class="lifelines">
@@ -169,7 +185,7 @@ export class CreaturesView {
         this.el.slider.max = String(Math.max(newest, ...born))
         this.el.slider.value = this.el.slider.max
         const curated = this.creatures.filter(creature => creature.curated).length
-        this.el.status.textContent = `${this.creatures.length} creatures · ${curated} theoretical (curated), ${this.creatures.length - curated} official (rule-based)`
+        this.el.status.textContent = `${this.creatures.length} creatures · ${curated} curated, ${this.creatures.length - curated} rule-based`
         this.updateYear()
       } catch (error) {
         this.el.status.textContent = error instanceof Error ? error.message : 'Unable to load creatures.'
@@ -251,6 +267,9 @@ export class CreaturesView {
   private updateYear() {
     const { slider, yearOutput } = this.el
     yearOutput.textContent = Number(slider.value) >= Number(slider.max) ? `${slider.value} (all)` : slider.value
+    // The detail panel replays to the same year as the chart: nothing published later may show.
+    const selected = this.creatures.find(creature => creature.id === this.selected)
+    if (selected) this.showDetail(selected)
     this.schedule()
   }
 
@@ -273,10 +292,9 @@ export class CreaturesView {
         if (life.state === null) return false
         switch (this.show) {
           case 'theoretical': return creature.curated
-          case 'official': return isOfficial(life.state)
-          case 'contested': return life.state === 'contested'
-          case 'dead': return life.state === 'dead'
-          default: return true
+          case 'official': return !creature.curated
+          case 'all': return true
+          default: return life.state === this.show
         }
       })
     const sort = this.el.sort.value as Sort
@@ -311,7 +329,7 @@ export class CreaturesView {
       button.type = 'button'
       button.className = 'creature-item'
       button.setAttribute('aria-pressed', String(creature.id === this.selected))
-      button.setAttribute('aria-label', `${creature.name}, ${life.state ? LIFE_LABELS[life.state] : 'not yet proposed'}, ${life.papers.length} pieces of evidence: ${life.support} for, ${life.opposition} against`)
+      button.setAttribute('aria-label', `${creature.name}, ${life.state ? LIFE_LABELS[life.state] : 'not yet proposed'}, ${life.papers.length} papers: ${life.support} for, ${life.opposition} against, ${life.usage} only using the name`)
 
       const dot = document.createElement('span')
       dot.className = `state-dot state-${life.state ?? 'unborn'}`
@@ -323,11 +341,11 @@ export class CreaturesView {
       name.textContent = creature.name
       const detail = document.createElement('span')
       detail.className = 'creature-scientific'
-      detail.textContent = creature.curated ? `${creature.scientific_name ?? ''} · theoretical` : creature.rank ?? ''
+      detail.textContent = creature.curated ? `${creature.scientific_name ?? ''} · curated` : creature.rank ?? ''
       names.append(name, detail)
       const count = document.createElement('span')
       count.className = 'creature-count'
-      count.innerHTML = `<strong>${life.papers.length}</strong><span class="creature-split">▲${life.support} ▼${life.opposition}</span>`
+      count.innerHTML = `<strong>${life.papers.length}</strong><span class="creature-split" title="for · against · name used only">▲${life.support} ▼${life.opposition} ○${life.usage}</span>`
       button.append(dot, names, count)
       button.addEventListener('click', () => this.select(creature.id))
       item.append(button)
@@ -367,72 +385,115 @@ export class CreaturesView {
   private showDetail(creature: TheoreticalCreature) {
     const detail = this.el.detail
     detail.replaceChildren()
-    const life = lifeOf(creature, Infinity, THIS_YEAR)
+    const year = Number(this.el.slider.value)
+    const latestYear = Number(this.el.slider.max)
+    const life = lifeOf(creature, year, THIS_YEAR)
     const title = document.createElement('h2')
     title.id = 'creature-detail-heading'
     title.textContent = creature.name
 
     const meta = document.createElement('p')
     meta.className = 'detail-meta'
-    const kind = creature.curated ? 'Theoretical (curated turning points)' : 'Official (rule-based turning points)'
-    meta.textContent = [creature.scientific_name !== creature.name && creature.scientific_name, kind, life.state && LIFE_LABELS[life.state], `${creature.papers.length} ingested papers`].filter(Boolean).join(' · ')
+    const kind = creature.curated ? 'Curated turning points' : 'Rule-based turning points'
+    const asOf = year >= latestYear ? 'whole corpus' : `known by ${year}`
+    meta.textContent = [creature.scientific_name !== creature.name && creature.scientific_name, kind, asOf, `${life.papers.length} of ${creature.papers.length} ingested papers`].filter(Boolean).join(' · ')
 
-    const neutral = creature.papers.length - life.support - life.opposition
+    if (life.state === null) {
+      const note = document.createElement('p')
+      note.className = 'muted'
+      note.textContent = `No ingested paper had made this claim by ${year}. Move "Known by" later to see its history.`
+      detail.append(title, meta, note)
+      return
+    }
+
+    const neutral = life.papers.length - life.support - life.opposition - life.usage
+    const cause = life.change
+    const stateText = `${LIFE_LABELS[life.state]} since ${life.since}` + (cause
+      ? ` — ${cause.cause === 'turning_point' ? 'turning point' : 'opposing claim'}: ${citation(cause.publication)}`
+      : '')
     const grid = factGrid([
       ['Hypothesis', creature.hypothesis],
-      ['Names tracked', creature.taxa.join(', ')],
-      ['Born', life.born ? `${life.born} (${citation(creature.key_events[0].publication)})` : 'Not recorded'],
-      ['Status', life.state ? `${LIFE_LABELS[life.state]}${life.died ? ` since ${life.died}` : ''}` : 'Not recorded'],
-      ['Evidence', `${life.support} for · ${life.opposition} against · ${neutral} neutral`],
+      ['Tracked names', `${creature.taxa.join(', ')} (normalized labels, not necessarily what the papers wrote)`],
+      ['Published as', life.names.map(use => `${use.name} (${use.first === use.last ? use.first : `${use.first}–${use.last}`}, ${use.papers} ${use.papers === 1 ? 'paper' : 'papers'})`).join('; ')],
+      ['Corpus state', stateText],
+      ['What that means', LIFE_EXPLANATIONS[life.state]],
+      ['Papers', `${life.support} for · ${life.opposition} against · ${neutral} neutral · ${life.usage} only reported fossils under the name`],
+      ['Turning points', creature.curated ? `curated in ${creature.turning_points}` : `rule ${creature.turning_points}`],
+      ['State rule', creature.state_rule],
     ])
 
+    // Competing claims side by side, so disagreement stays visible instead of being settled by a badge.
+    const competingHeading = document.createElement('h3')
+    competingHeading.textContent = `Competing claims ${year >= latestYear ? 'in the corpus' : `as of ${year}`}`
+    const competing = document.createElement('div')
+    competing.className = 'competing-claims'
+    competing.append(
+      this.claimCard('Latest claim for the hypothesis', life.latestFor, 'for'),
+      this.claimCard('Latest claim against it', life.latestAgainst, 'against'),
+    )
+
     const historyHeading = document.createElement('h3')
-    historyHeading.textContent = 'Life of the hypothesis'
+    historyHeading.textContent = 'Turning points'
     const history = document.createElement('ol')
     history.className = 'life-history'
-    for (const event of creature.key_events) {
+    for (const event of life.events) {
       const item = document.createElement('li')
       const head = document.createElement('div')
       head.className = 'life-history-head'
-      const year = document.createElement('span')
-      year.className = 'life-history-year'
-      year.textContent = String(event.publication.year)
+      const eventYear = document.createElement('span')
+      eventYear.className = 'life-history-year'
+      eventYear.textContent = String(event.publication.year)
       const stance = document.createElement('span')
       stance.className = `stance-chip side-${STANCE_INFO[event.stance].side}`
       stance.innerHTML = markerSample(event.stance)
       stance.append(STANCE_INFO[event.stance].label)
-      head.append(year, stance)
+      head.append(eventYear, stance)
       const summary = document.createElement('p')
-      summary.textContent = event.opinion.summary
-      item.append(head, summary, sourceLine(event.publication))
+      summary.textContent = asPublished(event.opinion) + event.opinion.summary
+      item.append(head, summary)
+      if (event.rationale) {
+        const rationale = document.createElement('p')
+        rationale.className = 'claim-provenance'
+        rationale.textContent = `Curator's rationale: ${event.rationale}`
+        item.append(rationale)
+      }
+      item.append(this.provenanceLine(event.opinion), sourceLine(event.publication))
       history.append(item)
+    }
+    const hidden = creature.key_events.length - life.events.length
+    if (hidden > 0) {
+      const note = document.createElement('li')
+      note.className = 'muted'
+      note.textContent = `${hidden} later turning ${hidden === 1 ? 'point is' : 'points are'} hidden until "Known by" reaches ${creature.key_events[life.events.length].publication.year}.`
+      history.append(note)
     }
 
     // Every ingested paper behind the count, not just the turning points.
     const all = document.createElement('details')
     all.className = 'all-papers'
     const allSummary = document.createElement('summary')
-    allSummary.textContent = `All ${creature.papers.length} ingested papers`
+    allSummary.textContent = `All ${life.papers.length} ingested papers${year >= latestYear ? '' : ` up to ${year}`}`
     const list = document.createElement('ol')
     list.className = 'paper-list'
     all.addEventListener('toggle', () => {
       if (!all.open || list.childElementCount) return
-      for (const paper of creature.papers) {
+      for (const paper of life.papers) {
         const item = document.createElement('li')
         const head = document.createElement('div')
         head.className = 'life-history-head'
-        const year = document.createElement('span')
-        year.className = 'life-history-year'
-        year.textContent = String(paper.publication.year)
+        const paperYear = document.createElement('span')
+        paperYear.className = 'life-history-year'
+        paperYear.textContent = String(paper.publication.year)
         const side = document.createElement('span')
         side.className = `stance-chip side-${paper.side}`
         side.innerHTML = tickSample(paper.side)
         side.append(SIDE_LABELS[paper.side])
-        head.append(year, side)
+        head.append(paperYear, side)
         item.append(head)
         for (const opinion of paper.opinions) {
           const line = document.createElement('p')
-          line.textContent = opinion.summary
+          line.textContent = asPublished(opinion) + opinion.summary
+          line.title = provenance(opinion)
           item.append(line)
         }
         item.append(sourceLine(paper.publication))
@@ -440,6 +501,38 @@ export class CreaturesView {
       }
     })
     all.append(allSummary, list)
-    detail.append(title, meta, grid, historyHeading, history, all)
+    detail.append(title, meta, grid, competingHeading, competing, historyHeading, history, all)
+  }
+
+  private claimCard(heading: string, sourced: SourcedClaim | null, side: Side): HTMLElement {
+    const card = document.createElement('section')
+    card.className = `claim-card side-${side}`
+    const title = document.createElement('h4')
+    title.textContent = heading
+    card.append(title)
+    if (!sourced) {
+      const none = document.createElement('p')
+      none.className = 'muted'
+      none.textContent = 'No stated claim on this side in the ingested papers so far.'
+      card.append(none)
+      return card
+    }
+    const { claim, publication } = sourced
+    const what = document.createElement('p')
+    what.innerHTML = ''
+    const reported = document.createElement('strong')
+    reported.textContent = claim.name_as_published
+    what.append('Reported as ', reported, ` · ${citation(publication)}`)
+    const summary = document.createElement('p')
+    summary.textContent = claim.summary
+    card.append(what, summary, this.provenanceLine(claim), sourceLine(publication))
+    return card
+  }
+
+  private provenanceLine(claim: TaxonomicOpinion): HTMLParagraphElement {
+    const line = document.createElement('p')
+    line.className = 'claim-provenance'
+    line.textContent = provenance(claim)
+    return line
   }
 }

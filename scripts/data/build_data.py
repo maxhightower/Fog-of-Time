@@ -6,12 +6,21 @@ normalized into SQLite, and exported to static JSON for the Vite client.
 """
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 import re
 from pathlib import Path
 import sqlite3
+import sys
 from typing import Any
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from claims import CLAIM_RULES_VERSION, DECISIVE, MOVES_STATE, at_least, classify  # noqa: E402
+from history import (  # noqa: E402
+    STANCE_FLOOR, STANCE_SIDES, STATE_RULES_VERSION, TURNING_POINT_RULES_VERSION, automatic_key_events, derive_states,
+)
+from publication_identity import IDENTITY_RULES_VERSION, audit as audit_identity, normalize_doi  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 EXTRACTED = ROOT / "data" / "extracted"
@@ -23,6 +32,8 @@ PUBLIC_DATA = ROOT / "public" / "data"
 TIMELINE_PATH = PUBLIC_DATA / "timeline" / "all.json"
 MANIFEST_PATH = PUBLIC_DATA / "manifest.json"
 CREATURES_PATH = PUBLIC_DATA / "theoretical" / "creatures.json"
+OPINION_IMPORT_MANIFEST = ROOT / "data" / "acquisition" / "pbdb-opinion-import-manifest.json"
+REPORT_PATH = BUILD_DIR / "model-report.json"
 
 SCHEMA_VERSION = "fog-of-time.paper-extraction/v1"
 EVIDENCE_TYPES = {
@@ -34,7 +45,7 @@ EVIDENCE_ROLES = {
     "original_discovery", "original_description", "new_measurement", "new_imaging",
     "redescription", "reinterpretation", "secondary_citation", "review",
 }
-CREATURE_SCHEMA_VERSION = "fog-of-time.theoretical-creature/v2"
+CREATURE_SCHEMA_VERSION = "fog-of-time.theoretical-creature/v3"
 # A taxonomic opinion is one paper's verdict on a name. Most come from PBDB;
 # "identified_as" is derived from a paper's own occurrence identifications and
 # "sister_to" records a phylogenetic placement stated in a paper.
@@ -43,12 +54,9 @@ OPINION_STATUSES = {
     "misspelling_of", "nomen_dubium", "nomen_nudum", "nomen_vanum", "nomen_oblitum", "sister_to", "identified_as",
 }
 OPINION_SOURCES = {"pbdb_opinion", "full_text", "abstract", "derived_from_occurrence"}
-# The moments that change a hypothesis's life, and which side of the argument
-# the cited paper's opinion must be on for the moment to stand.
-STANCE_SIDES = {
-    "proposes": "for", "supports": "for", "revives": "for", "confirms": "for",
-    "challenges": "against", "refutes": "against",
-}
+# Name usage is evidence that a name was used, never an argument about it, so
+# no hypothesis rule may count it for or against.
+USAGE_STATUSES = {"identified_as"}
 REIDENTIFICATION = re.compile(r"original/identified name as (?P<identified>.+?) and the accepted name as (?P<accepted>.+?)\.$")
 QUALIFIERS = re.compile(r"<[^>]*>|\b(?:n\. gen\.|n\. sp\.|cf\.|aff\.|sp\.|indet\.)|[?\"]")
 AGE_PRECISIONS = {
@@ -175,6 +183,11 @@ def validate_opinion(opinion: Any, path: Path, context: str) -> None:
         fail(path, f"{context} unknown status {opinion['status']!r}")
     if opinion["source"] not in OPINION_SOURCES:
         fail(path, f"{context} unknown source {opinion['source']!r}")
+    if opinion["source"] == "derived_from_occurrence":
+        fail(path, f"{context} derived opinions are made by the build, not stored in extraction files")
+    specimen = opinion.get("specimen")
+    if specimen is not None and (not isinstance(specimen, str) or not specimen.strip()):
+        fail(path, f"{context} specimen must be a non-empty string (a physical key or catalog number)")
 
 
 def validate_creature(document: dict[str, Any], path: Path) -> None:
@@ -200,6 +213,8 @@ def validate_creature(document: dict[str, Any], path: Path) -> None:
             unknown = set(rule["status"]) - OPINION_STATUSES
             if unknown:
                 fail(path, f"{context} unknown statuses {sorted(unknown)}")
+            if set(rule["status"]) & USAGE_STATUSES:
+                fail(path, f"{context} name usage ({', '.join(sorted(USAGE_STATUSES))}) cannot argue for or against a hypothesis")
 
     events = document["key_events"]
     if not isinstance(events, list) or not events:
@@ -213,17 +228,20 @@ def validate_creature(document: dict[str, Any], path: Path) -> None:
         stance = event["stance"]
         if stance not in STANCE_SIDES:
             fail(path, f"{context} unknown stance {stance!r}")
-        # The lifeline must be a coherent story: born once, dies only while
-        # alive, and revived only once dead.
-        if index == 0 and stance != "proposes":
-            fail(path, "the first key event must propose the hypothesis")
-        if index > 0 and stance == "proposes":
+        rationale = event.get("rationale")
+        if rationale is not None and (not isinstance(rationale, str) or not rationale.strip()):
+            fail(path, f"{context} rationale must be a non-empty string")
+        # The lifeline must be a coherent story: born once, sunk only while
+        # in use, and revived only once sunk.
+        if index == 0 and stance not in {"proposes", "recorded"}:
+            fail(path, "the first key event must propose (or record) the hypothesis")
+        if index > 0 and stance in {"proposes", "recorded"}:
             fail(path, f"{context} only the first key event may propose the hypothesis")
         if stance == "revives" and alive:
-            fail(path, f"{context} cannot revive a hypothesis that is still alive")
-        if stance in {"supports", "challenges", "confirms"} and not alive:
-            fail(path, f"{context} a refuted hypothesis must be revived before a paper {stance} it")
-        if stance in {"proposes", "revives"}:
+            fail(path, f"{context} cannot revive a hypothesis that is not sunk")
+        if stance in {"supports", "challenges"} and not alive:
+            fail(path, f"{context} a sunk hypothesis must be revived before a paper {stance} it")
+        if stance in {"proposes", "recorded", "revives"}:
             alive = True
         elif stance == "refutes":
             alive = False
@@ -281,15 +299,37 @@ def load_documents() -> list[tuple[Path, dict[str, Any]]]:
     return loaded
 
 
-def insert_publication(connection: sqlite3.Connection, publication: dict[str, Any], fixture: int) -> None:
+def add_identifier(connection: sqlite3.Connection, path: Path, publication_id: str, scheme: str, value: str, provenance: str) -> None:
+    existing = connection.execute(
+        "SELECT publication_id FROM publication_identifier WHERE scheme = ? AND value = ?", (scheme, value)
+    ).fetchone()
+    if existing is not None and existing[0] != publication_id:
+        fail(path, f"{scheme} {value!r} already identifies {existing[0]!r}: one work is ingested twice")
     connection.execute(
-        """INSERT INTO publication(id, doi, title, year, month, journal, url, development_fixture)
-           VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+        "INSERT OR IGNORE INTO publication_identifier(publication_id, scheme, value, provenance) VALUES (?, ?, ?, ?)",
+        (publication_id, scheme, value, provenance),
+    )
+
+
+def insert_publication(connection: sqlite3.Connection, publication: dict[str, Any], fixture: int, path: Path) -> None:
+    doi = normalize_doi(publication.get("doi"))
+    url = publication.get("url")
+    # A link built from a cosmetically damaged DOI is rebuilt from the repaired one.
+    if doi.status == "repaired" and url and url.startswith("https://doi.org/"):
+        url = f"https://doi.org/{doi.normalized}"
+    connection.execute(
+        """INSERT INTO publication(id, doi, doi_raw, doi_status, title, year, month, journal, url, development_fixture)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
         (
-            publication["id"], publication.get("doi"), publication["title"], publication["year"],
-            publication.get("month"), publication.get("journal"), publication.get("url"), fixture,
+            publication["id"], doi.normalized, publication.get("doi"), doi.status, publication["title"], publication["year"],
+            publication.get("month"), publication.get("journal"), url, fixture,
         ),
     )
+    add_identifier(connection, path, publication["id"], "record_id", publication["id"], str(path.relative_to(ROOT)))
+    if doi.normalized:
+        add_identifier(connection, path, publication["id"], "doi", doi.normalized, f"{path.relative_to(ROOT)} ({doi.status})")
+    if publication["id"].startswith("pbdb-ref:"):
+        add_identifier(connection, path, publication["id"], "pbdb_reference", publication["id"].split(":", 1)[1], "record id")
     for position, author_name in enumerate(publication["authors"]):
         connection.execute("INSERT OR IGNORE INTO author(name) VALUES (?)", (author_name,))
         author_id = connection.execute(
@@ -325,7 +365,7 @@ def insert_documents(connection: sqlite3.Connection, documents: list[tuple[Path,
             fail(path, f"duplicate publication id {publication['id']!r}")
         publication_ids.add(publication["id"])
 
-        insert_publication(connection, publication, fixture)
+        insert_publication(connection, publication, fixture, path)
 
         for item in document["evidence"]:
             if item["id"] in report_ids:
@@ -360,6 +400,10 @@ def insert_documents(connection: sqlite3.Connection, documents: list[tuple[Path,
 
             taxon = item["taxon"]
             taxon_id = stable_key("taxon", taxon["name"])
+            # PBDB occurrences carry PBDB's accepted name; the paper's own
+            # identification survives in the reidentification claim.
+            from_pbdb = item["physical_key"].startswith("pbdb-occ:")
+            taxon_as_published = reported_name(item)
             connection.execute(
                 "INSERT OR IGNORE INTO taxon(id, name, rank) VALUES (?, ?, ?)",
                 (taxon_id, taxon["name"], taxon.get("rank")),
@@ -399,11 +443,13 @@ def insert_documents(connection: sqlite3.Connection, documents: list[tuple[Path,
             age = item["age"]
             connection.execute(
                 """INSERT INTO publication_evidence
-                   (id, publication_id, physical_key, taxon_id, locality_id, formation_id, evidence_role,
-                    age_min_ma, age_max_ma, age_best_ma, age_precision, dating_method, age_basis, age_notes, development_fixture)
-                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                   (id, publication_id, physical_key, taxon_id, taxon_as_published, taxon_name_basis, locality_id, formation_id,
+                    evidence_role, age_min_ma, age_max_ma, age_best_ma, age_precision, dating_method, age_basis, age_notes,
+                    development_fixture)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
                 (
-                    item["id"], publication["id"], item["physical_key"], taxon_id, locality_id, formation_id,
+                    item["id"], publication["id"], item["physical_key"], taxon_id, taxon_as_published,
+                    "pbdb_accepted_name" if from_pbdb else "as_published", locality_id, formation_id,
                     item["evidence_role"], age["min_ma"], age["max_ma"], age.get("best_ma"), age["precision"],
                     age["method"], age.get("basis"), age.get("notes"), fixture,
                 ),
@@ -432,49 +478,65 @@ def insert_documents(connection: sqlite3.Connection, documents: list[tuple[Path,
                 )
 
 
-def derived_opinions(publication_id: str, evidence: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Opinions implied by the fossils a paper reports.
+def reported_name(item: dict[str, Any]) -> str:
+    """The name the paper itself used for a fossil, qualifiers removed.
 
-    A paper that reports fossils under a name is evidence that the animal is
-    real. One opinion is recorded per name per paper, under the name the paper
-    itself used (PBDB may since have moved the material to another name), and
-    a species also counts for its genus.
+    PBDB occurrences store PBDB's accepted name as the taxon and keep the
+    original identification in a reidentification claim.
+    """
+    accepted = " ".join(item["taxon"]["name"].split())
+    for claim in item["claims"]:
+        match = REIDENTIFICATION.search(claim["summary"]) if claim["type"] == "taxonomic_reidentification" else None
+        if match:
+            return " ".join(QUALIFIERS.sub(" ", match["identified"]).split()) or accepted
+    return accepted
+
+
+def derived_opinions(publication_id: str, evidence: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Name usage implied by the fossils a paper reports.
+
+    A paper that reports fossils under a name used that name. That is all it
+    shows: it is not an argument that the taxon is valid. One usage row is
+    recorded per name per paper, under the name the paper itself used (PBDB
+    may since have moved the material to another name), and a species also
+    records a use of its genus.
     """
     uses: dict[str, dict[str, Any]] = {}
 
-    def use(name: str, accepted: str, reported_as: str) -> None:
-        entry = uses.setdefault(name, {"count": 0, "accepted": accepted, "reported_as": reported_as})
-        entry["count"] += 1
+    def use(name: str, accepted: str, reported_as: str, record: str) -> None:
+        entry = uses.setdefault(name, {"records": [], "accepted": accepted, "reported_as": reported_as})
+        entry["records"].append(record)
 
     for item in evidence:
         accepted = " ".join(item["taxon"]["name"].split())
-        identified = accepted
-        for claim in item["claims"]:
-            match = REIDENTIFICATION.search(claim["summary"]) if claim["type"] == "taxonomic_reidentification" else None
-            if match:
-                identified = " ".join(QUALIFIERS.sub(" ", match["identified"]).split()) or accepted
-        use(identified, accepted, identified)
+        identified = reported_name(item)
+        use(identified, accepted, identified, item["id"])
         words = identified.split()
         if len(words) == 2 and words[1].islower():
-            use(words[0], accepted, identified)
+            use(words[0], accepted, identified, item["id"])
 
     opinions = []
     for name, entry in sorted(uses.items()):
-        count = entry["count"]
+        count = len(entry["records"])
         records = "fossil record" if count == 1 else "fossil records"
-        phrase = f"Reports {count} {records} of {name}"
+        phrase = f"Reports {count} {records} under the name {name}"
         if entry["reported_as"] != name:
             phrase += f" (as {entry['reported_as']})"
-        if entry["accepted"] not in (name, entry["reported_as"]):
-            phrase += f"; the accepted name is now {entry['accepted']}"
+        current = entry["accepted"] if entry["accepted"] not in (name, entry["reported_as"]) else None
+        if current:
+            phrase += f"; PBDB now files the material as {current}"
         opinions.append({
             "id": stable_key(f"{publication_id}:identified", name),
             "taxon": name,
             "status": "identified_as",
-            "related_taxon": entry["accepted"] if entry["accepted"] != name else None,
+            # The paper named no target: a later database's accepted name is
+            # context, not part of the paper's claim.
+            "related_taxon": None,
+            "current_name": current,
             "basis": "implied",
             "summary": phrase + ".",
             "source": "derived_from_occurrence",
+            "source_records": sorted(set(entry["records"])),
         })
     return opinions
 
@@ -488,15 +550,37 @@ def insert_opinions(connection: sqlite3.Connection, documents: list[tuple[Path, 
             if opinion["id"] in opinion_ids:
                 fail(path, f"duplicate opinion id {opinion['id']!r}")
             opinion_ids.add(opinion["id"])
+            claim = classify(opinion)
+            records = claim["source_records"] or [f"{path.relative_to(ROOT)}#{opinion['id']}"]
             connection.execute(
                 """INSERT INTO taxonomic_opinion
-                   (id, publication_id, taxon_name, published_as, status, related_taxon, basis, summary, source)
-                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                   (id, publication_id, taxon_name, published_as, name_as_published, status, related_taxon, basis, summary,
+                    source, assertion, strength, authority, derivation_rule, source_records, current_name, subject_specimen)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
                 (
-                    opinion["id"], publication_id, opinion["taxon"], opinion.get("published_as"), opinion["status"],
-                    opinion.get("related_taxon"), opinion.get("basis"), opinion["summary"], opinion["source"],
+                    opinion["id"], publication_id, opinion["taxon"], opinion.get("published_as"), claim["name_as_published"],
+                    opinion["status"], opinion.get("related_taxon"), opinion.get("basis"), opinion["summary"], opinion["source"],
+                    claim["assertion"], claim["strength"], claim["authority"], claim["derivation_rule"], json.dumps(records),
+                    opinion.get("current_name"), opinion.get("specimen"),
                 ),
             )
+
+
+def insert_merged_identifiers(connection: sqlite3.Connection) -> None:
+    """PBDB references whose opinions were merged into another record (same
+    DOI and title) keep their reference number as an identifier of that record."""
+    if not OPINION_IMPORT_MANIFEST.exists():
+        return
+    manifest = json.loads(OPINION_IMPORT_MANIFEST.read_text(encoding="utf-8"))
+    for reference in manifest["references"]:
+        path = ROOT / reference["file"]
+        publication_id = json.loads(path.read_text(encoding="utf-8"))["publication"]["id"]
+        if publication_id == f"pbdb-ref:{reference['reference_id']}":
+            continue
+        add_identifier(
+            connection, OPINION_IMPORT_MANIFEST, publication_id, "pbdb_reference", str(reference["reference_id"]),
+            f"{OPINION_IMPORT_MANIFEST.relative_to(ROOT)}: opinions merged by equal DOI and title",
+        )
 
 
 def related_matches(related: str | None, prefixes: list[str]) -> bool:
@@ -506,7 +590,13 @@ def related_matches(related: str | None, prefixes: list[str]) -> bool:
 
 
 def opinion_side(creature: dict[str, Any], opinion: sqlite3.Row) -> str:
-    """Which side of the hypothesis an opinion falls on. Against rules win ties."""
+    """Which side of the hypothesis an opinion falls on. Against rules win ties.
+
+    Name usage is always "usage": it records that a name was used, and no rule
+    can turn it into an argument.
+    """
+    if opinion["strength"] == "usage":
+        return "usage"
     for side in ("against", "for"):
         for rule in creature["rules"].get(side, []):
             if opinion["status"] not in rule["status"]:
@@ -519,56 +609,27 @@ def opinion_side(creature: dict[str, Any], opinion: sqlite3.Row) -> str:
 
 # Official creatures follow one written-down rule instead of curated key events.
 DEFAULT_RULES = {
-    "for": [{"status": ["belongs_to", "identified_as"]}],
+    "for": [{"status": ["belongs_to"]}],
     "against": [{"status": [
         "subjective_synonym_of", "objective_synonym_of", "nomen_dubium", "nomen_nudum", "nomen_vanum", "nomen_oblitum",
     ]}],
 }
-STRONG_SOURCES = {"full_text", "abstract"}
-CONSENSUS = 3
 
 
 def slug(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", name.casefold()).strip("-")
 
 
-def automatic_key_events(creature: dict[str, Any], opinions: list[sqlite3.Row]) -> list[dict[str, Any]]:
-    """Replay a name's opinions into the moments that change its life.
-
-    Born with the first paper that treats the name as valid or reports fossils
-    under it. A paper sinking it (synonym, nomen dubium...) kills it when the
-    opinion is stated with evidence and only contests it otherwise. A contest
-    ends with an evidence-backed defence or with three later papers that keep
-    using the name; a dead name comes back only with an evidence-backed
-    defence. Every other paper is evidence without being a turning point.
-    """
-    events: list[dict[str, Any]] = []
-    state: str | None = None
-    since_contest = 0
-    for opinion in opinions:
-        side = opinion_side(creature, opinion)
-        strong = opinion["basis"] == "stated with evidence" or opinion["source"] in STRONG_SOURCES
-        stance = None
-        if side == "for":
-            if state is None:
-                stance = "proposes"
-            elif state == "contested":
-                since_contest += 1
-                if strong or since_contest >= CONSENSUS:
-                    stance = "supports"
-            elif state == "dead" and strong:
-                stance = "revives"
-        elif side == "against" and state in {"alive", "contested"}:
-            if strong:
-                stance = "refutes"
-            elif state == "alive":
-                stance = "challenges"
-        if stance is None:
-            continue
-        events.append({"publication_id": opinion["publication_id"], "stance": stance, "opinion_id": opinion["id"]})
-        state = {"proposes": "alive", "supports": "alive", "revives": "alive", "refutes": "dead", "challenges": "contested"}[stance]
-        since_contest = 0
-    return events
+def creature_claims(connection: sqlite3.Connection, creature: dict[str, Any], since: int | None = None) -> list[dict[str, Any]]:
+    """Every claim on a creature's names, in publication order, with its side."""
+    placeholders = ",".join("?" for _ in creature["taxa"])
+    rows = connection.execute(
+        f"""SELECT o.*, p.year, p.month FROM taxonomic_opinion o JOIN publication p ON p.id = o.publication_id
+            WHERE o.taxon_name IN ({placeholders}) AND p.year >= ?
+            ORDER BY p.year, COALESCE(p.month, 0), o.publication_id, o.id""",
+        (*creature["taxa"], since if since is not None else -1),
+    ).fetchall()
+    return [{**dict(row), "side": opinion_side(creature, row)} for row in rows]
 
 
 def official_creatures(
@@ -592,13 +653,9 @@ def official_creatures(
             "taxa": [name],
             "rules": DEFAULT_RULES,
             "curated": False,
+            "turning_points": TURNING_POINT_RULES_VERSION,
         }
-        opinions = connection.execute(
-            """SELECT o.* FROM taxonomic_opinion o JOIN publication p ON p.id = o.publication_id
-               WHERE o.taxon_name = ? ORDER BY p.year, COALESCE(p.month, 0), o.publication_id, o.id""",
-            (name,),
-        ).fetchall()
-        creature["key_events"] = automatic_key_events(creature, opinions)
+        creature["key_events"] = automatic_key_events(creature_claims(connection, creature))
         if not creature["key_events"]:
             continue
         creatures.append((ROOT / "data" / "extracted", creature))
@@ -611,15 +668,19 @@ def insert_creatures(connection: sqlite3.Connection, creatures: list[tuple[Path,
         if document["id"] in creature_ids:
             fail(path, f"duplicate creature id {document['id']!r}")
         creature_ids.add(document["id"])
+        curated = bool(document.get("curated", True))
+        turning_points = str(path.relative_to(ROOT)) if curated else document["turning_points"]
         connection.execute(
-            "INSERT INTO theoretical_creature(id, name, scientific_name, hypothesis, curated) VALUES (?, ?, ?, ?, ?)",
-            (document["id"], document["name"], document.get("scientific_name"), document["hypothesis"], int(document.get("curated", True))),
+            """INSERT INTO theoretical_creature(id, name, scientific_name, hypothesis, turning_points, curated)
+               VALUES (?, ?, ?, ?, ?, ?)""",
+            (document["id"], document["name"], document.get("scientific_name"), document["hypothesis"], turning_points, int(curated)),
         )
         for taxon in document["taxa"]:
             connection.execute("INSERT INTO creature_taxon(creature_id, taxon_name) VALUES (?, ?)", (document["id"], taxon))
 
         placeholders = ",".join("?" for _ in document["taxa"])
         previous_year = None
+        events: list[dict[str, Any]] = []
         for order, event in enumerate(document["key_events"]):
             context = f"key_events[{order}]"
             publication = connection.execute(
@@ -648,10 +709,30 @@ def insert_creatures(connection: sqlite3.Connection, creatures: list[tuple[Path,
                     f"{context} says {event['publication_id']!r} {event['stance']} the hypothesis, but that paper "
                     f"holds no ingested opinion on {', '.join(document['taxa'])} arguing '{side}'",
                 )
+            # Rest on the strongest matching claim; a weaker one than the stance
+            # needs is allowed only with a curator's stated reason.
+            opinion = max(matching, key=lambda row: (at_least(row["strength"], DECISIVE), at_least(row["strength"], MOVES_STATE)))
+            floor = STANCE_FLOOR[event["stance"]]
+            if not at_least(opinion["strength"], floor) and not event.get("rationale"):
+                fail(
+                    path,
+                    f"{context} {event['stance']} needs a claim that is at least '{floor}', but "
+                    f"{event['publication_id']!r} only holds a '{opinion['strength']}' one; add a rationale or change the stance",
+                )
             connection.execute(
-                """INSERT INTO hypothesis_event(creature_id, publication_id, opinion_id, stance, event_order)
-                   VALUES (?, ?, ?, ?, ?)""",
-                (document["id"], event["publication_id"], matching[0]["id"], event["stance"], order),
+                """INSERT INTO hypothesis_event(creature_id, publication_id, opinion_id, stance, event_order, rationale)
+                   VALUES (?, ?, ?, ?, ?, ?)""",
+                (document["id"], event["publication_id"], opinion["id"], event["stance"], order, event.get("rationale")),
+            )
+            events.append({"publication_id": event["publication_id"], "stance": event["stance"], "opinion_id": opinion["id"]})
+
+        born = connection.execute("SELECT year FROM publication WHERE id = ?", (events[0]["publication_id"],)).fetchone()["year"]
+        for sequence, change in enumerate(derive_states(events, creature_claims(connection, document, born))):
+            connection.execute(
+                """INSERT INTO creature_state(creature_id, sequence, year, state, cause_kind, opinion_id, publication_id, rule)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+                (document["id"], sequence, change["year"], change["state"], change["kind"], change["opinion_id"],
+                 change["publication_id"], STATE_RULES_VERSION),
             )
 
 
@@ -673,8 +754,39 @@ def publication_summary(connection: sqlite3.Connection, publication_id: str) -> 
     }
 
 
-def opinion_payload(opinion: sqlite3.Row, side: str) -> dict[str, Any]:
-    return {"summary": opinion["summary"], "side": side, "basis": opinion["basis"], "source": opinion["source"]}
+def opinion_payload(opinion: sqlite3.Row | dict[str, Any], side: str) -> dict[str, Any]:
+    """One claim as the browser sees it: what the paper said, under which name,
+    how strongly, and where the record came from."""
+    payload = {
+        "id": opinion["id"],
+        "taxon": opinion["taxon_name"],
+        "name_as_published": opinion["name_as_published"],
+        "status": opinion["status"],
+        "related_taxon": opinion["related_taxon"],
+        "assertion": opinion["assertion"],
+        "strength": opinion["strength"],
+        "authority": opinion["authority"],
+        "basis": opinion["basis"],
+        "source": opinion["source"],
+        "source_records": json.loads(opinion["source_records"]),
+        "derivation_rule": opinion["derivation_rule"],
+        "current_name": opinion["current_name"],
+        "specimen": opinion["subject_specimen"],
+        "summary": opinion["summary"],
+        "side": side,
+    }
+    # Absent means null; keeps the export small.
+    return {key: value for key, value in payload.items() if value is not None}
+
+
+def paper_side(sides: set[str]) -> str:
+    """A paper's overall side: for or against only when it does not argue both ways."""
+    argued = sides - {"neutral", "usage"}
+    if argued == {"for"} or argued == {"against"}:
+        return argued.pop()
+    if not argued and sides == {"usage"}:
+        return "usage"
+    return "neutral"
 
 
 def export_creatures(connection: sqlite3.Connection, creatures: list[tuple[Path, dict[str, Any]]]) -> dict[str, Any]:
@@ -688,46 +800,53 @@ def export_creatures(connection: sqlite3.Connection, creatures: list[tuple[Path,
 
     exported: list[dict[str, Any]] = []
     for _, document in sorted(creatures, key=lambda item: (not item[1].get("curated", True), item[1]["name"])):
-        placeholders = ",".join("?" for _ in document["taxa"])
+        creature_row = connection.execute("SELECT turning_points FROM theoretical_creature WHERE id = ?", (document["id"],)).fetchone()
         key_rows = connection.execute(
-            """SELECT e.publication_id, e.stance, e.opinion_id, p.year
+            """SELECT e.publication_id, e.stance, e.opinion_id, e.rationale, p.year
                FROM hypothesis_event e JOIN publication p ON p.id = e.publication_id
                WHERE e.creature_id = ? ORDER BY e.event_order""",
             (document["id"],),
         ).fetchall()
         born = key_rows[0]["year"]
 
-        # Every ingested paper with an opinion on the creature, from its proposal on.
-        opinions = connection.execute(
-            f"""SELECT o.*, p.year FROM taxonomic_opinion o JOIN publication p ON p.id = o.publication_id
-                WHERE o.taxon_name IN ({placeholders}) AND p.year >= ?
-                ORDER BY p.year, COALESCE(p.month, 0), o.publication_id, o.id""",
-            (*document["taxa"], born),
-        ).fetchall()
-        by_paper: dict[str, list[sqlite3.Row]] = {}
-        for opinion in opinions:
-            by_paper.setdefault(opinion["publication_id"], []).append(opinion)
+        # Every ingested claim on the creature, from its proposal on.
+        claims = creature_claims(connection, document, born)
+        by_paper: dict[str, list[dict[str, Any]]] = {}
+        for claim in claims:
+            by_paper.setdefault(claim["publication_id"], []).append(claim)
+        payloads = {claim["id"]: opinion_payload(claim, claim["side"]) for claim in claims}
 
-        papers = []
-        for publication_id, paper_opinions in by_paper.items():
-            sides = {opinion_side(document, opinion) for opinion in paper_opinions}
-            side = "for" if sides <= {"for", "neutral"} and "for" in sides else (
-                "against" if sides <= {"against", "neutral"} and "against" in sides else "neutral"
-            )
-            papers.append({
+        papers = [
+            {
                 "publication_id": cite(publication_id),
-                "side": side,
-                "opinions": [opinion_payload(opinion, opinion_side(document, opinion)) for opinion in paper_opinions],
-            })
+                "side": paper_side({claim["side"] for claim in paper_claims}),
+                "opinions": [payloads[claim["id"]] for claim in paper_claims],
+            }
+            for publication_id, paper_claims in by_paper.items()
+        ]
 
-        key_events = []
-        for row in key_rows:
-            opinion = connection.execute("SELECT * FROM taxonomic_opinion WHERE id = ?", (row["opinion_id"],)).fetchone()
-            key_events.append({
+        key_events = [
+            {
                 "stance": row["stance"],
                 "publication_id": cite(row["publication_id"]),
-                "opinion": opinion_payload(opinion, STANCE_SIDES[row["stance"]]),
-            })
+                "opinion": payloads[row["opinion_id"]],
+                "rationale": row["rationale"],
+            }
+            for row in key_rows
+        ]
+
+        states = [
+            {
+                "year": row["year"],
+                "state": row["state"],
+                "cause": row["cause_kind"],
+                "opinion_id": row["opinion_id"],
+                "publication_id": cite(row["publication_id"]),
+            }
+            for row in connection.execute(
+                "SELECT * FROM creature_state WHERE creature_id = ? ORDER BY sequence", (document["id"],)
+            ).fetchall()
+        ]
 
         exported.append({
             "id": document["id"],
@@ -737,11 +856,23 @@ def export_creatures(connection: sqlite3.Connection, creatures: list[tuple[Path,
             "curated": document.get("curated", True),
             "hypothesis": document["hypothesis"],
             "taxa": document["taxa"],
+            "turning_points": creature_row["turning_points"],
+            "state_rule": STATE_RULES_VERSION,
             "evidence_count": len(papers),
             "key_events": key_events,
+            "states": states,
             "papers": papers,
         })
-    return {"publications": publications, "creatures": exported}
+    return {
+        "schema_version": "fog-of-time.creatures-export/v2",
+        "rules": {
+            "claims": CLAIM_RULES_VERSION,
+            "turning_points": TURNING_POINT_RULES_VERSION,
+            "states": STATE_RULES_VERSION,
+        },
+        "publications": publications,
+        "creatures": exported,
+    }
 
 
 def export_web(
@@ -761,6 +892,8 @@ def export_web(
              s.label AS specimen_label,
              t.name AS taxon_name,
              t.rank AS taxon_rank,
+             r.taxon_as_published AS taxon_as_published,
+             r.taxon_name_basis AS taxon_name_basis,
              l.name AS locality_name,
              l.country AS locality_country,
              l.region AS locality_region,
@@ -842,6 +975,10 @@ def export_web(
                 "evidence_type": representative["evidence_type"],
                 "taxon": representative["taxon_name"],
                 "taxon_rank": representative["taxon_rank"],
+                # What the paper called it, and whether "taxon" is that name or
+                # a later database's accepted name for the material.
+                "taxon_as_published": representative["taxon_as_published"],
+                "taxon_name_basis": representative["taxon_name_basis"],
                 "specimen_label": representative["specimen_label"],
                 "material": materials,
                 "locality": {
@@ -908,6 +1045,12 @@ def export_web(
         "youngest_ma": min(66.0, min_age),
         "development_fixture": fixture_only,
         "representative_policy": "latest-publication-report-v0",
+        "rules": {
+            "publication_identity": IDENTITY_RULES_VERSION,
+            "claims": CLAIM_RULES_VERSION,
+            "turning_points": TURNING_POINT_RULES_VERSION,
+            "states": STATE_RULES_VERSION,
+        },
     }
 
     TIMELINE_PATH.write_text(
@@ -924,34 +1067,123 @@ def export_web(
     )
 
 
-def main() -> None:
+def check_identity(connection: sqlite3.Connection, documents: list[tuple[Path, dict[str, Any]]]) -> dict[str, Any]:
+    """Apply the publication identity rules to the whole corpus.
+
+    Two records the rules call the same work fail the build: they must be
+    merged in data/extracted first. Every other non-distinct pair (probable
+    duplicates, related notices, identifier conflicts) is recorded, not merged.
+    """
+    records = [{**document["publication"], "path": path} for path, document in documents]
+    report = audit_identity(records)
+    for pair in report["pairs"]:
+        if pair["verdict"] == "distinct":
+            continue
+        if pair["verdict"] == "same":
+            raise ValueError(f"{pair['a']} and {pair['b']} are one publication ({pair['rule']}); merge them in data/extracted")
+        connection.execute(
+            "INSERT INTO publication_identity_issue(publication_a, publication_b, verdict, rule, detail) VALUES (?, ?, ?, ?, ?)",
+            (pair["a"], pair["b"], pair["verdict"], pair["rule"], pair["detail"]),
+        )
+    return report
+
+
+def build_database(connection: sqlite3.Connection) -> dict[str, Any]:
+    """Validate the checked-in sources and load them into an empty database."""
     documents = load_documents()
     creatures = load_creatures()
+    connection.row_factory = sqlite3.Row
+    connection.executescript(SQL_SCHEMA.read_text(encoding="utf-8"))
+    insert_documents(connection, documents)
+    insert_merged_identifiers(connection)
+    identity = check_identity(connection, documents)
+    insert_opinions(connection, documents)
+    insert_creatures(connection, creatures)
+    official = official_creatures(connection, documents, creatures)
+    for path, creature in official:
+        validate_creature(creature, path)
+    insert_creatures(connection, official)
+    problems = connection.execute("PRAGMA foreign_key_check").fetchall()
+    if problems:
+        raise ValueError(f"orphan references: {[tuple(row) for row in problems[:10]]}")
+    connection.commit()
+    return {"documents": documents, "creatures": creatures, "official": official, "identity": identity}
+
+
+def model_report(connection: sqlite3.Connection, built: dict[str, Any]) -> dict[str, Any]:
+    """Counts that show what the build derived and from what."""
+    def rows(sql: str) -> list[list[Any]]:
+        return [list(row) for row in connection.execute(sql).fetchall()]
+
+    identity = built["identity"]
+    verdicts: dict[str, int] = {}
+    for pair in identity["pairs"]:
+        verdicts[pair["verdict"]] = verdicts.get(pair["verdict"], 0) + 1
+    return {
+        "schema_version": "fog-of-time.model-report/v1",
+        "rules": {
+            "publication_identity": IDENTITY_RULES_VERSION,
+            "claims": CLAIM_RULES_VERSION,
+            "turning_points": TURNING_POINT_RULES_VERSION,
+            "states": STATE_RULES_VERSION,
+        },
+        "extraction_files": len(built["documents"]),
+        "publications": connection.execute("SELECT COUNT(*) FROM publication").fetchone()[0],
+        "publication_identifiers_by_scheme": rows("SELECT scheme, COUNT(*) FROM publication_identifier GROUP BY 1 ORDER BY 1"),
+        "doi_status": rows("SELECT doi_status, COUNT(*) FROM publication GROUP BY 1 ORDER BY 1"),
+        "doi_issues": identity["doi_issues"],
+        "identity_pairs_by_verdict": dict(sorted(verdicts.items())),
+        "identity_pairs_needing_review": [pair for pair in identity["pairs"] if pair["verdict"] != "distinct"],
+        "claims": connection.execute("SELECT COUNT(*) FROM taxonomic_opinion").fetchone()[0],
+        "claims_by_strength": rows("SELECT strength, COUNT(*) FROM taxonomic_opinion GROUP BY 1 ORDER BY 1"),
+        "claims_by_assertion": rows("SELECT assertion, COUNT(*) FROM taxonomic_opinion GROUP BY 1 ORDER BY 1"),
+        "claims_by_authority": rows("SELECT authority, COUNT(*) FROM taxonomic_opinion GROUP BY 1 ORDER BY 1"),
+        "claims_with_literal_name_differing_from_tracked_name": connection.execute(
+            "SELECT COUNT(*) FROM taxonomic_opinion WHERE name_as_published <> taxon_name"
+        ).fetchone()[0],
+        "evidence_reports_by_name_basis": rows("SELECT taxon_name_basis, COUNT(*) FROM publication_evidence GROUP BY 1 ORDER BY 1"),
+        "evidence_reports_reported_under_another_name": connection.execute(
+            """SELECT COUNT(*) FROM publication_evidence r JOIN taxon t ON t.id = r.taxon_id WHERE r.taxon_as_published <> t.name"""
+        ).fetchone()[0],
+        "creatures": rows("SELECT curated, COUNT(*) FROM theoretical_creature GROUP BY 1 ORDER BY 1"),
+        "turning_points_by_stance": rows("SELECT stance, COUNT(*) FROM hypothesis_event GROUP BY 1 ORDER BY 1"),
+        "curated_turning_points_with_rationale": connection.execute(
+            "SELECT COUNT(*) FROM hypothesis_event WHERE rationale IS NOT NULL"
+        ).fetchone()[0],
+        "final_state_by_creature_kind": rows(
+            """SELECT t.curated, s.state, COUNT(*) FROM creature_state s JOIN theoretical_creature t ON t.id = s.creature_id
+               WHERE s.sequence = (SELECT MAX(sequence) FROM creature_state x WHERE x.creature_id = s.creature_id)
+               GROUP BY 1, 2 ORDER BY 1, 2"""
+        ),
+    }
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--report", type=Path, default=REPORT_PATH, help="where to write the model report JSON")
+    args = parser.parse_args()
+
     BUILD_DIR.mkdir(parents=True, exist_ok=True)
     if DB_PATH.exists():
         DB_PATH.unlink()
 
     connection = sqlite3.connect(DB_PATH)
-    connection.row_factory = sqlite3.Row
+    connection.execute("PRAGMA foreign_keys = ON")
     try:
-        connection.executescript(SQL_SCHEMA.read_text(encoding="utf-8"))
-        insert_documents(connection, documents)
-        insert_opinions(connection, documents)
-        insert_creatures(connection, creatures)
-        official = official_creatures(connection, documents, creatures)
-        for path, creature in official:
-            validate_creature(creature, path)
-        insert_creatures(connection, official)
-        connection.commit()
-        export_web(connection, documents, creatures, creatures + official)
+        built = build_database(connection)
+        export_web(connection, built["documents"], built["creatures"], built["creatures"] + built["official"])
+        report = model_report(connection, built)
     finally:
         connection.close()
 
+    args.report.parent.mkdir(parents=True, exist_ok=True)
+    args.report.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Built {DB_PATH.relative_to(ROOT)}")
     print(
         f"Exported {MANIFEST_PATH.relative_to(ROOT)}, {TIMELINE_PATH.relative_to(ROOT)} "
         f"and {CREATURES_PATH.relative_to(ROOT)}"
     )
+    print(f"Model report: {args.report}")
 
 
 if __name__ == "__main__":

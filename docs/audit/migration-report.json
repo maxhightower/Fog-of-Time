@@ -1,0 +1,65 @@
+{
+  "schema_version": "fog-of-time.migration-report/v1",
+  "baseline": "9d29065469a8ac9fd24d9945980bf29d2c994906",
+  "publications": {
+    "before": 1927,
+    "after": 1927,
+    "extraction_files": 1927
+  },
+  "claims": {
+    "baseline_opinions_in_creature_exports": 4523,
+    "claims_after": 4896,
+    "unmatched": 0
+  },
+  "creatures": {
+    "before": 344,
+    "after": 344
+  },
+  "side_transitions": {
+    "against->against": 189,
+    "for->for": 3930,
+    "for->usage": 384,
+    "neutral->neutral": 18,
+    "neutral->usage": 2
+  },
+  "strengthened": [],
+  "turning_points_by_stance": {
+    "before": {
+      "challenges": 28,
+      "confirms": 1,
+      "proposes": 344,
+      "refutes": 22,
+      "revives": 19,
+      "supports": 21
+    },
+    "after": {
+      "challenges": 28,
+      "proposes": 316,
+      "recorded": 28,
+      "refutes": 20,
+      "revives": 16,
+      "supports": 22
+    }
+  },
+  "final_state_changes": [
+    {
+      "creature": "brontosaurus",
+      "curated": true,
+      "before": "alive",
+      "after": "contested"
+    },
+    {
+      "creature": "clasmodosaurus",
+      "curated": true,
+      "before": "dead",
+      "after": "contested"
+    },
+    {
+      "creature": "stygimoloch",
+      "curated": true,
+      "before": "dead",
+      "after": "contested"
+    }
+  ],
+  "problems": []
+}

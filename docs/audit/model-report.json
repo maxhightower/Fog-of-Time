@@ -1,0 +1,220 @@
+{
+  "schema_version": "fog-of-time.model-report/v1",
+  "rules": {
+    "publication_identity": "publication-identity/v1",
+    "claims": "claim-semantics/v1",
+    "turning_points": "automatic-turning-points/v2",
+    "states": "corpus-state/v1"
+  },
+  "extraction_files": 1927,
+  "publications": 1927,
+  "publication_identifiers_by_scheme": [
+    [
+      "doi",
+      1076
+    ],
+    [
+      "pbdb_reference",
+      1916
+    ],
+    [
+      "record_id",
+      1927
+    ]
+  ],
+  "doi_status": [
+    [
+      "invalid",
+      1
+    ],
+    [
+      "ok",
+      1921
+    ],
+    [
+      "repaired",
+      5
+    ]
+  ],
+  "doi_issues": [
+    {
+      "publication_id": "pbdb-ref:31862",
+      "status": "repaired",
+      "raw": "10.1002/ mmng.200800008",
+      "normalized": "10.1002/mmng.200800008"
+    },
+    {
+      "publication_id": "pbdb-ref:45731",
+      "status": "repaired",
+      "raw": "10.1371/ journal.pone.0056937",
+      "normalized": "10.1371/journal.pone.0056937"
+    },
+    {
+      "publication_id": "pbdb-ref:46099",
+      "status": "repaired",
+      "raw": "10.1016/ j.cretres.2013.02.006",
+      "normalized": "10.1016/j.cretres.2013.02.006"
+    },
+    {
+      "publication_id": "pbdb-ref:69111",
+      "status": "repaired",
+      "raw": "10.1111 ⁄ j.1502-3931.2012.00310.x",
+      "normalized": "10.1111/j.1502-3931.2012.00310.x"
+    },
+    {
+      "publication_id": "pbdb-ref:73943",
+      "status": "invalid",
+      "raw": ".1080/08912963.2020.1793979",
+      "normalized": null
+    },
+    {
+      "publication_id": "pbdb-ref:77624",
+      "status": "repaired",
+      "raw": "10.1371/ journal.pone.0224263",
+      "normalized": "10.1371/journal.pone.0224263"
+    }
+  ],
+  "identity_pairs_by_verdict": {
+    "distinct": 21
+  },
+  "identity_pairs_needing_review": [],
+  "claims": 4896,
+  "claims_by_strength": [
+    [
+      "argued",
+      1200
+    ],
+    [
+      "implied",
+      97
+    ],
+    [
+      "stated",
+      3010
+    ],
+    [
+      "usage",
+      589
+    ]
+  ],
+  "claims_by_assertion": [
+    [
+      "classifies_as_valid",
+      3964
+    ],
+    [
+      "declares_nomen_status",
+      20
+    ],
+    [
+      "nomenclatural_correction",
+      4
+    ],
+    [
+      "phylogenetic_placement",
+      1
+    ],
+    [
+      "places_in_other_genus",
+      187
+    ],
+    [
+      "synonymizes",
+      131
+    ],
+    [
+      "uses_name",
+      589
+    ]
+  ],
+  "claims_by_authority": [
+    [
+      "build_derived",
+      589
+    ],
+    [
+      "direct_abstract_unverified",
+      1
+    ],
+    [
+      "pbdb_compiled",
+      4306
+    ]
+  ],
+  "claims_with_literal_name_differing_from_tracked_name": 237,
+  "evidence_reports_by_name_basis": [
+    [
+      "as_published",
+      158
+    ],
+    [
+      "pbdb_accepted_name",
+      571
+    ]
+  ],
+  "evidence_reports_reported_under_another_name": 7,
+  "creatures": [
+    [
+      0,
+      337
+    ],
+    [
+      1,
+      7
+    ]
+  ],
+  "turning_points_by_stance": [
+    [
+      "challenges",
+      28
+    ],
+    [
+      "proposes",
+      316
+    ],
+    [
+      "recorded",
+      28
+    ],
+    [
+      "refutes",
+      20
+    ],
+    [
+      "revives",
+      16
+    ],
+    [
+      "supports",
+      22
+    ]
+  ],
+  "curated_turning_points_with_rationale": 0,
+  "final_state_by_creature_kind": [
+    [
+      0,
+      "contested",
+      1
+    ],
+    [
+      0,
+      "in_use",
+      336
+    ],
+    [
+      1,
+      "contested",
+      4
+    ],
+    [
+      1,
+      "in_use",
+      2
+    ],
+    [
+      1,
+      "sunk",
+      1
+    ]
+  ]
+}

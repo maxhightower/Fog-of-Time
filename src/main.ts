@@ -485,13 +485,17 @@ function showRecordDetail(record: TimelineEvidence) {
   detail.replaceChildren()
   const title = document.createElement('h2')
   title.id = 'detail-heading'
-  title.textContent = record.taxon
+  // The paper's own name leads; a later database's name is context.
+  title.textContent = record.taxon_as_published
+  const renamed = record.taxon_as_published !== record.taxon
 
   const meta = document.createElement('p')
   meta.className = 'detail-meta'
   meta.textContent = [record.specimen_label || record.physical_key, humanize(record.evidence_type), formatAge(record), record.formation || 'Formation not recorded'].join(' · ')
 
   const grid = factGrid([
+    ['Reported as', `${record.taxon_as_published} (the name used in the paper)`],
+    ...(renamed ? [['Filed now as', `${record.taxon} (PBDB accepted name at snapshot; not the paper's claim)`] as [string, string]] : []),
     ['Locality', [record.locality.name, record.locality.region, record.locality.country].filter(Boolean).join(', ')],
     ['Dating', humanize(record.age.method)],
     ['Age basis', record.age.basis || 'Not recorded'],

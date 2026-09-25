@@ -1,5 +1,5 @@
 {
-  "schema_version": "fog-of-time.theoretical-creature/v2",
+  "schema_version": "fog-of-time.theoretical-creature/v3",
   "id": "brontosaurus",
   "name": "Brontosaurus",
   "scientific_name": "Brontosaurus excelsus",
@@ -7,7 +7,7 @@
   "taxa": ["Brontosaurus", "Brontosaurus excelsus"],
   "rules": {
     "for": [
-      { "status": ["belongs_to", "identified_as"] }
+      { "status": ["belongs_to"] }
     ],
     "against": [
       { "status": ["subjective_synonym_of", "objective_synonym_of", "nomen_dubium"] },
@@ -16,7 +16,7 @@
   },
   "key_events": [
     { "publication_id": "pbdb-ref:7814", "stance": "proposes" },
-    { "publication_id": "pbdb-ref:9789", "stance": "refutes" },
-    { "publication_id": "pbdb-ref:55026", "stance": "revives" }
+    { "publication_id": "pbdb-ref:9789", "stance": "challenges" },
+    { "publication_id": "pbdb-ref:55026", "stance": "supports" }
   ]
 }

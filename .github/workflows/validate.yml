@@ -20,8 +20,11 @@ jobs:
       - name: Validate acquisition benchmark
         run: python scripts/data/acquisition/validate_queue.py
 
-      - name: Compile acquisition scripts
-        run: python -m py_compile scripts/data/acquisition/*.py
+      - name: Compile data scripts
+        run: python -m py_compile scripts/data/*.py scripts/data/acquisition/*.py
+
+      - name: Scientific model regression tests
+        run: python -m unittest discover -s tests -v
 
       - name: Build evidence database
         run: python scripts/data/build_data.py
